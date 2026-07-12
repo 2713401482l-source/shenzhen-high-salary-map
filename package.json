@@ -14,7 +14,9 @@
     "data:collection-queue": "node scripts/build-collection-queue.mjs",
     "data:promote": "node scripts/promote-verified-job.mjs",
     "data:reject": "node scripts/reject-candidate.mjs",
-    "data:import-search": "node scripts/import-search-discovery.mjs"
+    "data:import-search": "node scripts/import-search-discovery.mjs",
+    "data:audit": "node scripts/audit-candidate-quality.mjs",
+    "data:reject-below-threshold": "node scripts/reject-below-threshold.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.4.1",
