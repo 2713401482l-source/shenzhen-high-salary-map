@@ -13,7 +13,8 @@
     "data:queue": "node scripts/build-verification-queue.mjs",
     "data:collection-queue": "node scripts/build-collection-queue.mjs",
     "data:promote": "node scripts/promote-verified-job.mjs",
-    "data:reject": "node scripts/reject-candidate.mjs"
+    "data:reject": "node scripts/reject-candidate.mjs",
+    "data:import-search": "node scripts/import-search-discovery.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.4.1",
