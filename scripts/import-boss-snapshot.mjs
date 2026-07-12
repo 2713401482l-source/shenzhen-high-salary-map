@@ -6,8 +6,13 @@ const inputs = process.argv.slice(2);
 if (!inputs.length) throw new Error('Usage: node scripts/import-boss-snapshot.mjs <snapshot...>');
 
 const candidatePath = path.resolve('data/jobs/candidates.json');
+const verifiedPath = path.resolve('data/jobs/verified.json');
+const rejectedPath = path.resolve('data/jobs/rejected.json');
 const existing = JSON.parse(await fs.readFile(candidatePath, 'utf8'));
+const verified = JSON.parse(await fs.readFile(verifiedPath, 'utf8'));
+const rejected = JSON.parse(await fs.readFile(rejectedPath, 'utf8'));
 const byUrl = new Map(existing.map(job => [job.sourceUrl, job]));
+const completedUrls = new Set([...verified, ...rejected].map(job => job.sourceUrl));
 const capturedAt = new Date().toISOString();
 let imported = 0;
 
@@ -20,7 +25,7 @@ for (const input of inputs) {
     const block = raw.slice(match.index, matches[index + 1]?.index ?? raw.length);
     const [, titleSalary, minText, maxText, monthsText, detailPath] = match;
     const sourceUrl = new URL(detailPath, 'https://www.zhipin.com').href;
-    if (byUrl.has(sourceUrl)) continue;
+    if (byUrl.has(sourceUrl) || completedUrls.has(sourceUrl)) continue;
 
     const location = block.match(/- link "(深圳[^"\n]*)":\r?\n      - \/url: \/c101280600/);
     if (!location) continue;
@@ -56,6 +61,17 @@ for (const input of inputs) {
       status: 'candidate',
     };
     job.duplicateFingerprint = duplicateFingerprint(job);
+    if (job.salaryMax < 30) {
+      rejected.push({
+        ...job,
+        status: 'rejected',
+        rejectionReason: '薪资上限未触达约30K，不符合高薪样本边界',
+        rejectedAt: capturedAt,
+      });
+      completedUrls.add(sourceUrl);
+      imported += 1;
+      continue;
+    }
     byUrl.set(sourceUrl, job);
     imported += 1;
   }
@@ -63,4 +79,6 @@ for (const input of inputs) {
 
 const output = [...byUrl.values()].sort((a, b) => a.sourceUrl.localeCompare(b.sourceUrl));
 await fs.writeFile(candidatePath, `${JSON.stringify(output, null, 2)}\n`);
+rejected.sort((a, b) => a.id.localeCompare(b.id));
+await fs.writeFile(rejectedPath, `${JSON.stringify(rejected, null, 2)}\n`);
 console.log(`Imported ${imported} candidates; total ${output.length}.`);
