@@ -1,28 +1,21 @@
-# Design QA — 深圳高薪岗位观察
+# Design QA
 
-## Visual target
+Source: `codex-clipboard-9f20413c-a7cf-4e5c-8360-c6aa52ebfca3.png`
+Implementation: local Vite build at the same desktop viewport, plus 390 × 844 mobile checks.
 
-- Reference: `C:/Users/27134/AppData/Local/Temp/codex-clipboard-9f20413c-a7cf-4e5c-8360-c6aa52ebfca3.png`
-- Implementation: responsive React/Vite build at `/index.html`
+## Comparison
 
-## Final review
+- Navigation: passed. The white pill navigation, dark action, restrained orange marker, spacing and hierarchy match the selected direction.
+- Hero composition: passed after revision. The headline is held to two lines on wide desktop, the abstract orange glass asset occupies the right side, and the left remains readable.
+- Density: passed. The first screen keeps one question, one short explanation, one action and three salary summaries. Deeper evidence moves below the fold.
+- Color and type: passed. White/light-neutral field, dark indigo structure and orange opportunity signals remain consistent; display tracking stays above the `-0.04em` floor.
+- Mobile: passed. At 390 × 844 the hero, salary summaries, evidence overview, growth selector and job filters reflow without horizontal page overflow.
+- Interaction: passed. Navigation, mobile menu, growth-family selection, job filters, job expansion, pagination and direct Boss links work.
+- Accessibility: passed with documented limits. Keyboard focus is visible, controls are labelled, touch targets meet the intended size, reduced motion is supported, and the chart has a text alternative.
 
-| Check | Result | Notes |
-| --- | --- | --- |
-| Information density | Pass | First viewport contains one question, one supporting sentence, three salary summaries and micro-annotations only. |
-| Visual hierarchy | Pass | Headline → explanation → salary summaries is unambiguous. |
-| Navigation | Pass | Reduced to 高薪机会 / 成长路径 / 真实岗位. |
-| Terminology | Pass | Technical terms are confined to small annotations. |
-| Responsive layout | Pass | Desktop uses three columns; mobile uses single-column salary and job cards with a compact menu. |
-| Accessibility baseline | Pass | Semantic controls, visible text labels, reduced-motion handling and AA-level primary text contrast. |
-| Runtime | Pass | Production build completes; production browser console has no errors. |
+## Remaining P3 notes
 
-## Intentional differences
+- The generated glass installation is intentionally not a literal copy of the reference asset; it preserves the same material, balance and orange/white direction without reusing the source artwork.
+- Browser-native select styling varies slightly between operating systems.
 
-- “赚钱路径” is renamed to “成长路径”.
-- Representative roles are expressed as role families, avoiding the false precision of implying that one title always maps to one salary.
-- Detailed evidence is moved below the fold or into the job database instead of competing with the homepage headline.
-
-## Result
-
-PASSED — no open P0, P1 or P2 visual issues.
+final result: passed
