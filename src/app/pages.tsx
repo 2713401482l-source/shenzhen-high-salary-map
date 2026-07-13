@@ -97,11 +97,21 @@ function RealRoleView({role}: {role: RealRoleFamily}) {
 
 export function TrendsPage() {
   const [mode, setMode] = useState<DataMode>('demo');
+  const [profileKey, setProfileKey] = useState<'salaryBands' | 'industries' | 'districts' | 'experience' | 'education'>('salaryBands');
   const [demoId, setDemoId] = useState(demoData.roleSignals[0].id);
   const [realName, setRealName] = useState(realRoleFamilies[0]?.name ?? '');
   const selectedDemo = demoData.roleSignals.find(role => role.id === demoId) ?? demoData.roleSignals[0];
   const selectedReal = realRoleFamilies.find(role => role.name === realName) ?? realRoleFamilies[0];
   const entries = mode === 'demo' ? demoData.roleSignals : realRoleFamilies;
+  const profileOptions = [
+    {key: 'salaryBands' as const, label: '薪资档'},
+    {key: 'industries' as const, label: '行业'},
+    {key: 'districts' as const, label: '区域'},
+    {key: 'experience' as const, label: '经验'},
+    {key: 'education' as const, label: '学历'},
+  ];
+  const profileRows = realAnalysis.marketProfile[profileKey].slice(0, profileKey === 'industries' ? 10 : undefined);
+  const profileMax = Math.max(...profileRows.map(row => row.count), 1);
   return <main id="main" className="inner-main">
     <InnerHero eyebrow="逆向搜索" title="先找市场正在加价购买的新组合。" lead="不按自身条件搜索，先看岗位名、薪资和企业需求如何重新组合。" mode={mode} onModeChange={setMode} />
     <div className="content-shell"><DataNotice mode={mode} />
@@ -110,6 +120,11 @@ export function TrendsPage() {
           {mode === 'demo' ? demoData.roleSignals.map(role => <button key={role.id} className={demoId === role.id ? 'active' : ''} onClick={() => setDemoId(role.id)} aria-pressed={demoId === role.id}><span>{role.name}</span><small>{role.lane}</small></button>) : realRoleFamilies.map(role => <button key={role.name} className={realName === role.name ? 'active' : ''} onClick={() => setRealName(role.name)} aria-pressed={realName === role.name}><span>{role.name}</span><small>{role.count} 条样本</small></button>)}
         </div>
         {mode === 'demo' ? <DemoRoleView role={selectedDemo} /> : selectedReal && <RealRoleView role={selectedReal} />}
+      </section>
+      <section id="market-profile" className="market-profile">
+        <div className="market-profile-head"><div><span className="evidence-flag">71 条真实样本</span><h2>先看整体市场长什么样。</h2><p>{realAnalysis.marketProfile.statement}</p></div><div className="market-profile-tabs" role="group" aria-label="选择市场侧写维度">{profileOptions.map(option => <button type="button" key={option.key} className={profileKey === option.key ? 'active' : ''} aria-pressed={profileKey === option.key} onClick={() => setProfileKey(option.key)}>{option.label}</button>)}</div></div>
+        <div className="market-profile-list" aria-live="polite">{profileRows.map(row => <article key={row.name}><div><strong>{row.name}</strong><span>{row.count} 条 · {Math.round(row.count / realAnalysis.marketProfile.denominator * 100)}%</span></div><i style={{'--profile-width': `${row.count / profileMax * 100}%`} as React.CSSProperties} /></article>)}</div>
+        {profileKey === 'industries' && realAnalysis.marketProfile.industries.length > 10 && <p className="market-profile-note">这里只列样本最多的 10 个行业，其余行业仍保留在岗位证据库中。</p>}
       </section>
       <section className="official-context">
         <div className="official-context-head"><div><p className="eyebrow">官方方向佐证</p><h2>这些资料只回答“深圳在往哪里投入”。</h2></div><p>它们不证明某个岗位正在扩招，也不参与 Boss 岗位数量、薪资或能力频率计算。</p></div>

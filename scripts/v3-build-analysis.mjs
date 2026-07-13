@@ -161,6 +161,15 @@ const output = {
     const rows = enriched.filter(job => job.salaryBand === band);
     return {band, count: rows.length, detailCount: rows.filter(job => job.status === 'verified').length, medianMid: median(rows.map(job => job.salaryMid))};
   }),
+  marketProfile: {
+    denominator: enriched.length,
+    salaryBands: salaryBands.map(name => ({name, count: enriched.filter(job => job.salaryBand === name).length})),
+    industries: countBy(enriched.map(job => job.industry)),
+    districts: countBy(enriched.map(job => job.district)),
+    experience: countBy(enriched.map(job => job.experience)),
+    education: countBy(enriched.map(job => job.education)),
+    statement: '这是当前真实样本的内部结构，不代表 Boss 深圳全量岗位分布。',
+  },
   benchmarkCandidates,
   timeSeries: {
     available: captureDates.length >= 2,

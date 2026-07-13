@@ -2652,6 +2652,196 @@
       "medianMid": 85
     }
   ],
+  "marketProfile": {
+    "denominator": 71,
+    "salaryBands": [
+      {
+        "name": "30K",
+        "count": 32
+      },
+      {
+        "name": "50K",
+        "count": 32
+      },
+      {
+        "name": "100K",
+        "count": 7
+      }
+    ],
+    "industries": [
+      {
+        "name": "计算机软件",
+        "count": 12
+      },
+      {
+        "name": "人工智能",
+        "count": 11
+      },
+      {
+        "name": "互联网",
+        "count": 10
+      },
+      {
+        "name": "智能硬件/消费电子",
+        "count": 7
+      },
+      {
+        "name": "智能硬件",
+        "count": 6
+      },
+      {
+        "name": "医疗器械",
+        "count": 3
+      },
+      {
+        "name": "电子/硬件开发",
+        "count": 2
+      },
+      {
+        "name": "电子商务",
+        "count": 2
+      },
+      {
+        "name": "互联网金融",
+        "count": 2
+      },
+      {
+        "name": "其他行业",
+        "count": 2
+      },
+      {
+        "name": "医疗健康",
+        "count": 2
+      },
+      {
+        "name": "半导体/芯片",
+        "count": 1
+      },
+      {
+        "name": "储能",
+        "count": 1
+      },
+      {
+        "name": "电子/半导体/集成电路",
+        "count": 1
+      },
+      {
+        "name": "基金",
+        "count": 1
+      },
+      {
+        "name": "计算机服务",
+        "count": 1
+      },
+      {
+        "name": "家具/家居",
+        "count": 1
+      },
+      {
+        "name": "家用电器",
+        "count": 1
+      },
+      {
+        "name": "企业服务",
+        "count": 1
+      },
+      {
+        "name": "学术/科研",
+        "count": 1
+      },
+      {
+        "name": "专用设备",
+        "count": 1
+      },
+      {
+        "name": "咨询",
+        "count": 1
+      },
+      {
+        "name": "自动化设备",
+        "count": 1
+      }
+    ],
+    "districts": [
+      {
+        "name": "南山区",
+        "count": 38
+      },
+      {
+        "name": "深圳",
+        "count": 10
+      },
+      {
+        "name": "宝安区",
+        "count": 8
+      },
+      {
+        "name": "龙岗区",
+        "count": 5
+      },
+      {
+        "name": "龙华区",
+        "count": 5
+      },
+      {
+        "name": "福田区",
+        "count": 2
+      },
+      {
+        "name": "光明区",
+        "count": 1
+      },
+      {
+        "name": "罗湖区",
+        "count": 1
+      },
+      {
+        "name": "盐田区",
+        "count": 1
+      }
+    ],
+    "experience": [
+      {
+        "name": "3-5年",
+        "count": 24
+      },
+      {
+        "name": "经验不限",
+        "count": 18
+      },
+      {
+        "name": "1-3年",
+        "count": 14
+      },
+      {
+        "name": "5-10年",
+        "count": 10
+      },
+      {
+        "name": "在校/应届",
+        "count": 3
+      },
+      {
+        "name": "10年以上",
+        "count": 2
+      }
+    ],
+    "education": [
+      {
+        "name": "硕士",
+        "count": 38
+      },
+      {
+        "name": "本科",
+        "count": 29
+      },
+      {
+        "name": "博士",
+        "count": 4
+      }
+    ],
+    "statement": "这是当前真实样本的内部结构，不代表 Boss 深圳全量岗位分布。"
+  },
   "benchmarkCandidates": [
     {
       "role": "机器人强化学习与运动控制",

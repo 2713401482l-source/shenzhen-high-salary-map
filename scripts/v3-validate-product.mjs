@@ -70,6 +70,10 @@ if (!jobsPage.includes('aria-label="岗位结果分页"')) fail('job database is
 if (!jobsPage.includes('useEffect(() => setPage(1)')) fail('job filters must reset pagination');
 if (!dataModule.includes("data/v3/analysis/real-analysis.json")) fail('real views must consume the generated V3 analysis');
 if (!pages.includes('realAnalysis.readiness')) fail('pages must disclose formal-analysis readiness');
+if (!pages.includes('realAnalysis.marketProfile')) fail('trends page must expose the real market profile');
+for (const profileKey of ['salaryBands', 'industries', 'districts', 'experience', 'education']) {
+  if (!pages.includes(`key: '${profileKey}'`)) fail(`market profile is missing ${profileKey}`);
+}
 
 console.log(JSON.stringify({routes: routes.length, demoRoles: demo.roleSignals.length, officialSources: officialSources.sources.length, bossAccessAllowed: status.bossAccessAllowed, jobPageSize: 12, axionShaderStack: true}, null, 2));
 if (failures) throw new Error(`${failures} V3 product validation failure(s)`);
