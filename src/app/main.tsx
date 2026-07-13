@@ -1,38 +1,213 @@
-import React, {useMemo, useState} from 'react';
+import React, {useEffect, useMemo, useRef, useState} from 'react';
 import {createRoot} from 'react-dom/client';
-import {ArrowUpRight, Menu, X} from 'lucide-react';
-import {Shader, Swirl} from 'shaders/react';
-import {jobs, capturedAt, type Job} from './data';
+import {ArrowUpRight, Check, ChevronDown, ChevronRight, Menu, SlidersHorizontal, X} from 'lucide-react';
+import analysisData from '../../data/analysis/market-analysis.json';
+import growthData from '../../data/analysis/growth-paths.json';
 import './style.css';
 
-const path = location.pathname.split('/').pop() || 'index.html';
-const page = path === 'growth.html' || ['map.html','skills.html'].includes(path) ? 'growth' : path === 'jobs.html' ? 'jobs' : 'home';
+type Band = '30K' | '50K' | '100K';
+type Job = (typeof analysisData.jobs)[number];
+type Family = (typeof analysisData.roleFamilies)[number];
+type GrowthPath = (typeof growthData.paths)[number];
 
-function Header(){
-  const [open,setOpen]=useState(false);
-  const links=[['index.html','高薪机会','home'],['growth.html','成长路径','growth'],['jobs.html','真实岗位','jobs']];
-  return <header className="site-head"><a className="brand" href="index.html"><i>◆</i><span>深圳高薪岗位观察</span></a><nav>{links.map(([href,label,key])=><a key={href} className={page===key?'active':''} href={href}>{label}</a>)}</nav><a className="nav-cta" href="jobs.html"><span>浏览真实岗位</span><ArrowUpRight/></a><button className="menu" aria-label="打开导航" onClick={()=>setOpen(true)}><Menu/></button>{open&&<div className="mobile-menu"><button onClick={()=>setOpen(false)} aria-label="关闭"><X/></button>{links.map(([href,label])=><a key={href} href={href}>{label}</a>)}</div>}</header>
+const pathName = location.pathname.split('/').pop() || 'index.html';
+const page = pathName === 'growth.html' ? 'growth' : pathName === 'jobs.html' ? 'jobs' : 'home';
+const capturedDate = new Intl.DateTimeFormat('zh-CN', {year: 'numeric', month: 'long', day: 'numeric'}).format(new Date(analysisData.generatedAt));
+const bandOrder: Band[] = ['30K', '50K', '100K'];
+const evidenceLabel: Record<string, string> = {
+  'boss-detail': '详情已核验',
+  'boss-listing-plus-detail': '列表＋详情证据',
+  'boss-listing': '列表页观察',
+};
+
+function Header() {
+  const [open, setOpen] = useState(false);
+  const links = [
+    ['index.html', '高薪机会', 'home'],
+    ['growth.html', '成长路径', 'growth'],
+    ['jobs.html', '真实岗位', 'jobs'],
+  ];
+  return <header className="site-head">
+    <a className="brand" href="index.html" aria-label="深圳高薪岗位观察首页"><span className="brand-mark" aria-hidden="true">◆</span><span>深圳高薪岗位观察</span></a>
+    <nav aria-label="主导航">{links.map(([href, label, key]) => <a key={href} className={page === key ? 'active' : ''} href={href}>{label}</a>)}</nav>
+    <a className="nav-cta" href="jobs.html"><span>浏览真实岗位</span><ArrowUpRight aria-hidden="true" /></a>
+    <button className="menu-button" aria-label="打开导航" aria-expanded={open} onClick={() => setOpen(true)}><Menu /></button>
+    {open && <div className="mobile-menu" role="dialog" aria-modal="true" aria-label="移动导航">
+      <button onClick={() => setOpen(false)} aria-label="关闭导航"><X /></button>
+      {links.map(([href, label]) => <a key={href} href={href}>{label}<ChevronRight /></a>)}
+    </div>}
+  </header>;
 }
 
-function HeroArt(){return <div className="hero-art" aria-hidden="true"><Shader className="shader" disableTelemetry colorSpace="srgb"><Swirl colorA="#ffffff" colorB="#ff5f03" detail={1.7} blend={68} speed={0.15}/></Shader></div>}
+function EvidenceBar() {
+  return <div className="evidence-bar" aria-label="数据证据概览">
+    <span><b>{analysisData.evidence.total}</b> 条可用岗位</span>
+    <span><b>{analysisData.evidence.verified}</b> 条详情核验</span>
+    <span><b>{analysisData.evidence.listingObserved}</b> 条列表观察</span>
+    <span>采集于 {capturedDate}</span>
+  </div>;
+}
 
-const bands=[
-  {salary:'30K',role:'AI 应用工程师',combo:'专业能力 + AI 工具 + 业务落地'},
-  {salary:'50K',role:'算法 / 产品专家',combo:'深度专长 + 数据判断 + 项目主导'},
-  {salary:'100K',role:'技术或业务负责人',combo:'稀缺经验 + 战略决策 + 组织结果'},
-];
+function SalaryBands() {
+  const descriptions: Record<Band, {title: string; note: string}> = {
+    '30K': {title: '专业交付层', note: '把单点技能变成可独立完成的结果'},
+    '50K': {title: '复杂问题层', note: '专业纵深、项目主导与跨团队协作'},
+    '100K': {title: '稀缺决策层', note: '路线判断、组织责任与稀缺经验'},
+  };
+  return <div className="salary-bands">
+    {analysisData.bandComparison.map(item => {
+      const band = item.band as Band;
+      return <article key={band}>
+        <div><small>统计参考档</small><strong>{band}<em>/月</em></strong></div>
+        <div><h2>{descriptions[band].title}</h2><p>{descriptions[band].note}</p><span>{item.count} 条样本 · 中位值 {item.salaryMedianMid}K</span></div>
+      </article>;
+    })}
+  </div>;
+}
 
-function Home(){return <><section className="hero"><HeroArt/><div className="hero-copy"><p className="eyebrow">SHENZHEN · HIGH-SALARY JOBS</p><h1>深圳高薪岗位，<br/>究竟在为什么能力付钱？</h1><span className="orange-line"/><p className="lead">看清机会、薪资和能力组合，用真实市场信号找到下一步。</p><div className="terms"><span>◎ 岗位热度：招聘活跃度</span><span>◎ 能力共现：能力组合出现频率</span><span>◎ 横截面样本：当前公开岗位</span></div></div><div className="band-row">{bands.map(b=><article key={b.salary}><div><small>统计参考区间</small><strong>{b.salary}<em>/月</em></strong></div><div><h2>{b.role}</h2><p>{b.combo}</p></div></article>)}</div><p className="hero-note">* 薪资档位用于观察市场结构；具体岗位以 Boss 直聘页面显示为准。</p></section><section className="story"><p className="section-no">01 / 高薪机会</p><h2>先看市场愿意为哪类结果付钱</h2><div className="story-grid"><article><span>机会集中</span><h3>AI 从“会用”走向“能落地”</h3><p>高薪不只奖励模型知识，更看重工程部署、业务闭环和持续优化。</p></article><article><span>跨境增长</span><h3>海外能力正在与产品、渠道重组</h3><p>英语只是入场券，真正拉开差距的是市场判断、GTM 与经营结果。</p></article><article><span>高阶岗位</span><h3>100K 更常买单于稀缺判断</h3><p>技术深度之外，企业也在为路线决策、团队带领和资源整合付费。</p></article></div></section></>}
+function OpportunityMap({families}: {families: Family[]}) {
+  const ref = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    let disposed = false;
+    let chart: {resize: () => void; dispose: () => void} | undefined;
+    const initChart = async () => {
+      const {createOpportunityChart} = await import('./opportunity-chart');
+      if (disposed || !ref.current) return;
+      chart = createOpportunityChart(ref.current, families.map(f => [f.weightedDemand, f.salary.medianMid, f.count, f.name]));
+    };
+    void initChart();
+    const resize = () => chart?.resize();
+    window.addEventListener('resize', resize);
+    return () => { disposed = true; window.removeEventListener('resize', resize); chart?.dispose(); };
+  }, [families]);
+  return <div ref={ref} className="opportunity-chart" role="img" aria-label="岗位族群机会地图：横轴为按证据权重计算的当前样本需求，纵轴为薪资区间中位数，气泡大小代表岗位数量。" />;
+}
 
-const levels={
- '30K':{title:'从单点技能，到可交付的工作结果',roles:'AI 应用工程师 · 数据分析 · 海外运营',now:['能独立使用专业工具','理解业务目标','完成清晰交付'],next:['补一项 AI / 数据能力','做出可展示案例','把成果写成数字']},
- '50K':{title:'从执行者，到能主导复杂项目',roles:'算法专家 · 产品专家 · 增长负责人',now:['有清晰的专业纵深','能跨团队推动项目','能解释结果与取舍'],next:['形成行业判断','补齐商业化能力','负责完整项目闭环']},
- '100K':{title:'从项目负责人，到稀缺问题的决策者',roles:'技术负责人 · 业务负责人 · 研究总监',now:['决定方向与优先级','承担组织级结果','整合人才、技术与资源'],next:['建立可复制方法','扩大决策影响范围','沉淀稀缺行业经验']}
-};
-function Growth(){const [level,setLevel]=useState<keyof typeof levels>('30K');const d=levels[level];return <main className="inner"><p className="eyebrow">GROWTH PATH</p><h1>高薪不是跳档，<br/>而是能力组合不断升级。</h1><p className="page-lead">选择一个大概薪资阶段，只看这个阶段最重要的能力和下一步。</p><div className="level-tabs">{Object.keys(levels).map(x=><button className={x===level?'active':''} onClick={()=>setLevel(x as keyof typeof levels)}>{x}</button>)}</div><section className="growth-card"><div><small>{level} 阶段的核心变化</small><h2>{d.title}</h2><p>{d.roles}</p></div><div><h3>企业现在看什么</h3>{d.now.map(x=><p>— {x}</p>)}</div><div><h3>下一步补什么</h3>{d.next.map(x=><p>— {x}</p>)}</div></section><section className="combo"><p className="section-no">能力组合示例</p><h2>新岗位，往往是旧能力的新组合</h2><div className="combo-row"><span>行业经验</span><b>＋</b><span>AI / 数据</span><b>＋</b><span>业务结果</span><b>＝</b><strong>更高价值</strong></div><p className="annotation">能力共现：多项能力在同一岗位要求里同时出现。</p></section></main>}
+function Home() {
+  const topFamilies = analysisData.roleFamilies.slice(0, 5);
+  const topSkills = analysisData.skillStats.slice(0, 8);
+  return <main>
+    <section className="hero">
+      <img className="hero-art" src="assets/hero-glass-orange.webp" alt="" />
+      <div className="hero-copy">
+        <p className="hero-label">深圳 · 当前高薪技术岗位样本</p>
+        <h1>深圳高薪岗位，<br />究竟在为什么能力付钱？</h1>
+        <p className="hero-lead">不替你选工作。先把真实岗位、薪资和能力组合摆在桌面上。</p>
+        <a className="text-link" href="#opportunities">先看市场信号 <ChevronDown /></a>
+      </div>
+      <SalaryBands />
+      <p className="hero-note">* 档位仅用于统计；岗位库保留 Boss 原始薪资。样本偏 AI、算法与机器人，不代表深圳全行业。</p>
+    </section>
+    <EvidenceBar />
+    <section className="section opportunity-section" id="opportunities">
+      <div className="section-heading"><div><span>当前机会</span><h2>需求更集中在哪里，薪资上限又有多高？</h2></div><p>这不是历史涨跌图，而是当前可访问样本的横截面。气泡越大，观察到的岗位越多。</p></div>
+      <div className="opportunity-layout">
+        <OpportunityMap families={topFamilies} />
+        <ol className="family-ranking">
+          {topFamilies.map((family, index) => <li key={family.name}><span>{String(index + 1).padStart(2, '0')}</span><div><h3>{family.name}</h3><p>{family.count} 条岗位 · 薪资中位 {family.salary.medianMid}K</p></div><strong>{family.salary.highestMax}K<small>最高上限</small></strong></li>)}
+        </ol>
+      </div>
+    </section>
+    <section className="section skill-section">
+      <div className="section-heading"><div><span>能力组合</span><h2>企业买单的，通常不是一项孤立技能。</h2></div><p>同一岗位要求里反复一起出现的能力，比单个关键词更接近真实门槛。</p></div>
+      <div className="skill-layout">
+        <div className="skill-bars">{topSkills.map((skill, index) => <div key={skill.skill}><span>{skill.skill}</span><div><i style={{width: `${(skill.weightedCount / topSkills[0].weightedCount) * 100}%`}} /></div><b>{skill.count} 岗</b><small>薪资中位 {skill.salaryMedianMid}K</small></div>)}</div>
+        <div className="combo-note"><small>最常见组合</small><h3>{analysisData.skillCooccurrence[0].pair.replace(' + ', ' × ')}</h3><p>在当前样本中，这组能力共同出现的加权频次最高。</p><a href="growth.html">查看成长路径 <ArrowUpRight /></a></div>
+      </div>
+    </section>
+    <section className="section next-step"><h2>结论看懂以后，去验证具体岗位。</h2><p>同名岗位的每家公司都会单独显示，薪资保留 Boss 原文，来源直接打开当前公司岗位详情页。</p><a className="primary-button" href="jobs.html">进入真实岗位库 <ArrowUpRight /></a></section>
+  </main>;
+}
 
-function Jobs(){const [industry,setIndustry]=useState('全部');const [district,setDistrict]=useState('全部');const [salary,setSalary]=useState('全部');const [sort,setSort]=useState('高薪优先'); const opts=(k:keyof Job)=>['全部',...new Set(jobs.map(j=>String(j[k])))]; const list=useMemo(()=>jobs.filter(j=>(industry==='全部'||j.industry===industry)&&(district==='全部'||j.district===district)&&(salary==='全部'||(salary==='30K'?j.salaryMin<40:salary==='50K'?j.salaryMax>=40&&j.salaryMin<70:j.salaryMax>=70))).sort((a,b)=>sort==='高薪优先'?b.salaryMax-a.salaryMax:a.title.localeCompare(b.title,'zh-CN')),[industry,district,salary,sort]);return <main className="inner jobs-page"><p className="eyebrow">REAL JOBS</p><h1>先看真实薪资，<br/>再判断它值不值得研究。</h1><p className="page-lead">同一岗位的不同公司会分别显示。薪资保留岗位页面原始月薪写法。</p><section className="filters"><label>行业<select value={industry} onChange={e=>setIndustry(e.target.value)}>{opts('industry').map(x=><option>{x}</option>)}</select></label><label>区域<select value={district} onChange={e=>setDistrict(e.target.value)}>{opts('district').map(x=><option>{x}</option>)}</select></label><label>薪资<select value={salary} onChange={e=>setSalary(e.target.value)}>{['全部','30K','50K','100K'].map(x=><option>{x}</option>)}</select></label><label>排序<select value={sort} onChange={e=>setSort(e.target.value)}><option>高薪优先</option><option>岗位名称</option></select></label></section><div className="result-head"><span>{list.length} 个岗位样本</span><small>采集于 {capturedAt}</small></div><section className="job-list">{list.map(j=><article><div><h2>{j.title}</h2><p>{j.company} · {j.district} · {j.industry}</p></div><strong>{j.salaryText}</strong><div className="job-meta"><span>{j.experience}</span><span>{j.education}</span>{j.skills.slice(0,3).map(s=><span>{s}</span>)}</div><a href={j.sourceUrl} target="_blank" rel="noreferrer">查看 Boss 来源 <ArrowUpRight/></a></article>)}</section><p className="data-warning">当前页面正在逐条补齐“公司—岗位详情页”直链。未核验完成的记录不会被标记为详情直链，岗位可能随招聘状态下线。</p></main>}
+function Stage({stage, active}: {stage: GrowthPath['stages'][number]; active: boolean}) {
+  return <article className={`path-stage ${active ? 'active' : ''}`}>
+    <div className="stage-head"><span>{stage.band}</span><div><b>{stage.count}</b> 条岗位<small>薪资中位 {stage.salaryMedianMid ?? '—'}K</small></div></div>
+    {stage.count ? <>
+      <h3>这一档反复出现</h3>
+      <div className="tag-list">{stage.topSkills.slice(0, 5).map(skill => <span key={skill.name}>{skill.name}</span>)}</div>
+      <dl><div><dt>常见经验</dt><dd>{stage.experience.slice(0, 2).map(x => x.name).join('、') || '样本不足'}</dd></div><div><dt>常见学历</dt><dd>{stage.education.slice(0, 2).map(x => x.name).join('、') || '样本不足'}</dd></div></dl>
+      {stage.representativeJobs[0] && <a href={`jobs.html?family=${encodeURIComponent(stage.representativeJobs[0].id)}`}>代表岗位：{stage.representativeJobs[0].title}<ChevronRight /></a>}
+    </> : <div className="empty-stage"><p>当前样本没有覆盖这一档。</p><small>不补造路线，也不把相邻岗位硬塞进来。</small></div>}
+  </article>;
+}
 
-function App(){return <><Header/>{page==='home'?<Home/>:page==='growth'?<Growth/>:<Jobs/>}<footer><div><b>深圳高薪岗位观察</b><p>公开岗位的市场快照，不构成求职或薪酬承诺。</p></div><div><a href="index.html">高薪机会</a><a href="growth.html">成长路径</a><a href="jobs.html">真实岗位</a></div></footer></>}
+function Growth() {
+  const publishable = growthData.paths.filter(path => path.status === 'publishable-with-caveat');
+  const [selected, setSelected] = useState(publishable[0].roleFamily);
+  const current = growthData.paths.find(path => path.roleFamily === selected) ?? publishable[0];
+  return <main className="inner-page">
+    <section className="page-intro"><p>成长路径</p><h1>同一个方向，薪资变高时，<br />企业要求多了什么？</h1><span>路线来自不同薪资档岗位的横向比较，不是个人必然晋升公式。</span></section>
+    <EvidenceBar />
+    <section className="growth-workbench">
+      <div className="family-picker"><label htmlFor="family-select">选择岗位方向</label><select id="family-select" value={selected} onChange={event => setSelected(event.target.value)}>{growthData.paths.map(path => <option key={path.roleFamily} value={path.roleFamily}>{path.roleFamily}（{path.sampleCount}）</option>)}</select><div className="desktop-family-list">{growthData.paths.map(path => <button key={path.roleFamily} className={selected === path.roleFamily ? 'active' : ''} onClick={() => setSelected(path.roleFamily)}><span>{path.roleFamily}</span><small>{path.sampleCount} 岗</small></button>)}</div></div>
+      <div className="path-content">
+        <header><div><small>当前方向</small><h2>{current.roleFamily}</h2></div><p>{current.sampleCount} 条样本，其中 {current.verifiedCount} 条达到详情级证据。</p></header>
+        <div className="stage-grid">{current.stages.map((stage, index) => <Stage key={stage.band} stage={stage} active={index === 1} />)}</div>
+        {current.transitions.length > 0 && <section className="transition-summary"><h3>样本里观察到的变化</h3>{current.transitions.map(transition => <div key={`${transition.from}-${transition.to}`}><b>{transition.from} → {transition.to}</b><p>{transition.interpretation}</p></div>)}</section>}
+        <p className="path-caveat">{current.caveat}</p>
+      </div>
+    </section>
+  </main>;
+}
 
-createRoot(document.getElementById('app')!).render(<React.StrictMode><App/></React.StrictMode>);
+function Jobs() {
+  const query = new URLSearchParams(location.search);
+  const highlighted = query.get('family');
+  const [industry, setIndustry] = useState('全部行业');
+  const [district, setDistrict] = useState('全部区域');
+  const [salary, setSalary] = useState('全部薪资');
+  const [sort, setSort] = useState('薪资上限优先');
+  const [filtersOpen, setFiltersOpen] = useState(false);
+  const [visible, setVisible] = useState(20);
+  const [expanded, setExpanded] = useState<string | null>(highlighted);
+  const industries = ['全部行业', ...Array.from(new Set(analysisData.jobs.map(job => job.industry))).sort((a, b) => a.localeCompare(b, 'zh-CN'))];
+  const districts = ['全部区域', ...Array.from(new Set(analysisData.jobs.map(job => job.district))).sort((a, b) => a.localeCompare(b, 'zh-CN'))];
+  const filtered = useMemo(() => analysisData.jobs.filter(job =>
+    (industry === '全部行业' || job.industry === industry) &&
+    (district === '全部区域' || job.district === district) &&
+    (salary === '全部薪资' || job.salaryBand === salary)
+  ).sort((a, b) => sort === '薪资上限优先' ? b.salaryMax - a.salaryMax || b.salaryMin - a.salaryMin : sort === '最新采集优先' ? +new Date(b.capturedAt) - +new Date(a.capturedAt) : a.title.localeCompare(b.title, 'zh-CN')), [industry, district, salary, sort]);
+  useEffect(() => setVisible(20), [industry, district, salary, sort]);
+  const FilterFields = () => <>
+    <label>行业<select value={industry} onChange={event => setIndustry(event.target.value)}>{industries.map(value => <option key={value}>{value}</option>)}</select></label>
+    <label>区域<select value={district} onChange={event => setDistrict(event.target.value)}>{districts.map(value => <option key={value}>{value}</option>)}</select></label>
+    <label>薪资<select value={salary} onChange={event => setSalary(event.target.value)}>{['全部薪资', ...bandOrder].map(value => <option key={value}>{value}</option>)}</select></label>
+    <label>排序<select value={sort} onChange={event => setSort(event.target.value)}>{['薪资上限优先', '最新采集优先', '岗位名称'].map(value => <option key={value}>{value}</option>)}</select></label>
+  </>;
+  return <main className="inner-page jobs-page">
+    <section className="page-intro"><p>真实岗位</p><h1>统计档位只看结构，<br />这里看每个岗位的真实薪资。</h1><span>同一岗位有多家公司时全部保留；“来源”直接指向当前公司的 Boss 岗位详情页。</span></section>
+    <EvidenceBar />
+    <button className="mobile-filter-trigger" onClick={() => setFiltersOpen(true)}><SlidersHorizontal /> 筛选岗位 <span>{filtered.length}</span></button>
+    <section className="job-browser">
+      <aside className="filter-panel"><h2>筛选岗位</h2><FilterFields /><button onClick={() => {setIndustry('全部行业'); setDistrict('全部区域'); setSalary('全部薪资'); setSort('薪资上限优先');}}>清除筛选</button></aside>
+      <div className="job-results">
+        <header><div><b>{filtered.length}</b> 条岗位符合条件</div><small>岗位可能变化，以 Boss 实时页面为准</small></header>
+        <div className="job-table-head"><span>岗位 / 公司</span><span>真实薪资</span><span>门槛</span><span>来源</span></div>
+        <div className="job-list">{filtered.slice(0, visible).map(job => {
+          const isOpen = expanded === job.id;
+          return <article key={job.id} id={job.id} className={isOpen ? 'expanded' : ''}>
+            <button className="job-main" aria-expanded={isOpen} onClick={() => setExpanded(isOpen ? null : job.id)}>
+              <div className="job-name"><h2>{job.title}</h2><p>{job.company} · {job.district} · {job.industry}</p></div>
+              <strong>{job.salaryText}</strong>
+              <div className="requirements"><span>{job.experience}</span><span>{job.education}</span></div>
+              <span className={`evidence ${job.evidenceLevel === 'boss-listing' ? 'listing' : ''}`}><Check />{evidenceLabel[job.evidenceLevel]}</span>
+              <ChevronDown className="expand-icon" />
+            </button>
+            {isOpen && <div className="job-detail"><div><h3>岗位方向</h3><p>{job.roleFamily}</p><div className="tag-list">{job.extractedSkills.slice(0, 8).map(skill => <span key={skill}>{skill}</span>)}</div></div><div><h3>公开描述摘要</h3><p>{job.descriptionExcerpt || '当前仅保留列表页岗位信息，详情描述待进一步核验。'}</p></div><a href={job.sourceUrl} target="_blank" rel="noreferrer">打开这家公司在 Boss 的岗位详情 <ArrowUpRight /></a></div>}
+          </article>;
+        })}</div>
+        {visible < filtered.length && <button className="load-more" onClick={() => setVisible(value => value + 20)}>再显示 {Math.min(20, filtered.length - visible)} 条</button>}
+        {!filtered.length && <div className="empty-results"><h2>当前组合没有结果</h2><p>放宽一个筛选条件即可继续查看。</p></div>}
+      </div>
+    </section>
+    {filtersOpen && <div className="filter-drawer" role="dialog" aria-modal="true" aria-label="岗位筛选"><div><header><h2>筛选岗位</h2><button onClick={() => setFiltersOpen(false)} aria-label="关闭筛选"><X /></button></header><FilterFields /><button className="primary-button" onClick={() => setFiltersOpen(false)}>查看 {filtered.length} 条岗位</button></div></div>}
+  </main>;
+}
+
+function Footer() {
+  return <footer><div><b>深圳高薪岗位观察</b><p>当前 Boss 公开高薪技术岗位样本，不构成薪酬承诺或求职建议。</p></div><div><a href="index.html">高薪机会</a><a href="growth.html">成长路径</a><a href="jobs.html">真实岗位</a></div><details><summary>方法与限制</summary><p>岗位薪资上限至少触达 30K；按薪资区间中位数互斥划入 30K、50K、100K 档。71 条样本中 7 条达到详情证据，64 条来自 Boss 列表页观察。岗位族群与技能由规则抽取，样本偏 AI、算法与机器人，不代表深圳全行业，也不表示历史涨跌。</p></details></footer>;
+}
+
+function App() { return <><Header />{page === 'home' ? <Home /> : page === 'growth' ? <Growth /> : <Jobs />}<Footer /></>; }
+
+createRoot(document.getElementById('app')!).render(<React.StrictMode><App /></React.StrictMode>);
