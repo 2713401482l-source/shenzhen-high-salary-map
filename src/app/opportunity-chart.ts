@@ -20,6 +20,13 @@ const thresholdColor: Record<string, string> = {
   '极高': '#72270c',
 };
 
+const thresholdSymbol: Record<string, 'circle' | 'diamond' | 'rect' | 'triangle'> = {
+  '中': 'circle',
+  '中高': 'diamond',
+  '高': 'rect',
+  '极高': 'triangle',
+};
+
 export function createOpportunityChart(element: HTMLDivElement, points: OpportunityPoint[], isDemo: boolean) {
   const chart = echarts.init(element, undefined, {renderer: 'canvas'});
   const highlighted = new Set([...points]
@@ -67,6 +74,7 @@ export function createOpportunityChart(element: HTMLDivElement, points: Opportun
         name: point.name,
         threshold: point.threshold,
         value: [point.demand, point.salaryMax, point.count],
+        symbol: thresholdSymbol[point.threshold] ?? 'circle',
         itemStyle: {color: thresholdColor[point.threshold] ?? '#f56a22', opacity: 0.84},
         label: highlighted.has(point.name) ? {show: true, formatter: point.name, position: 'top', distance: 8, color: '#34383f', fontSize: 11} : {show: false},
       })),

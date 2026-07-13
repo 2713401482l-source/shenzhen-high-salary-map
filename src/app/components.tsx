@@ -1,4 +1,4 @@
-import React, {lazy, Suspense, useEffect, useState} from 'react';
+import React, {lazy, Suspense, useEffect, useRef, useState} from 'react';
 import {ArrowRight, ArrowUpRight, BookOpen, Database, Menu, X} from 'lucide-react';
 import {capturedAt, realEvidence} from './data';
 
@@ -28,9 +28,46 @@ export function ArrowButton({href, children, tone = 'dark'}: {href: string; chil
 
 export function Header({page}: {page: PageKey}) {
   const [open, setOpen] = useState(false);
+  const triggerRef = useRef<HTMLButtonElement>(null);
+  const closeRef = useRef<HTMLButtonElement>(null);
+  const sheetRef = useRef<HTMLDivElement>(null);
+  const wasOpen = useRef(false);
   useEffect(() => {
     document.body.style.overflow = open ? 'hidden' : '';
     return () => { document.body.style.overflow = ''; };
+  }, [open]);
+  useEffect(() => {
+    if (!open) {
+      if (wasOpen.current) triggerRef.current?.focus();
+      wasOpen.current = false;
+      return;
+    }
+    wasOpen.current = true;
+    const focusTimer = window.setTimeout(() => closeRef.current?.focus(), 80);
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        event.preventDefault();
+        setOpen(false);
+        return;
+      }
+      if (event.key !== 'Tab') return;
+      const focusable = [...(sheetRef.current?.querySelectorAll<HTMLElement>('a[href], button:not([disabled])') ?? [])];
+      if (!focusable.length) return;
+      const first = focusable[0];
+      const last = focusable.at(-1)!;
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    };
+    document.addEventListener('keydown', onKeyDown);
+    return () => {
+      window.clearTimeout(focusTimer);
+      document.removeEventListener('keydown', onKeyDown);
+    };
   }, [open]);
 
   return <>
@@ -47,13 +84,13 @@ export function Header({page}: {page: PageKey}) {
           <TextRoll>查看真实岗位</TextRoll>
           <span><ArrowUpRight aria-hidden="true" /></span>
         </a>
-        <button className="mobile-menu-trigger" type="button" onClick={() => setOpen(true)} aria-label="打开导航" aria-expanded={open}><Menu /></button>
+        <button ref={triggerRef} className="mobile-menu-trigger" type="button" onClick={() => setOpen(true)} aria-label="打开导航" aria-expanded={open}><Menu /></button>
       </div>
     </header>
     <div className={`mobile-menu-layer ${open ? 'is-open' : ''}`} aria-hidden={!open}>
       <button className="mobile-menu-backdrop" type="button" onClick={() => setOpen(false)} aria-label="关闭导航" />
-      <div className="mobile-menu-sheet" role="dialog" aria-modal="true" aria-label="移动导航">
-        <div className="mobile-menu-head"><span>选择你现在想研究的问题</span><button type="button" onClick={() => setOpen(false)} aria-label="关闭导航"><X /></button></div>
+      <div ref={sheetRef} className="mobile-menu-sheet" role="dialog" aria-modal="true" aria-label="移动导航">
+        <div className="mobile-menu-head"><span>选择你现在想研究的问题</span><button ref={closeRef} type="button" onClick={() => setOpen(false)} aria-label="关闭导航"><X /></button></div>
         <nav>{navItems.map(item => <a key={item.key} href={item.href}>{item.label}<ArrowUpRight /></a>)}</nav>
         <ArrowButton href="jobs.html" tone="dark">查看真实岗位</ArrowButton>
       </div>
@@ -69,9 +106,9 @@ export function HeroShader() {
 }
 
 export function DataModeSwitch({mode, onChange}: {mode: DataMode; onChange: (mode: DataMode) => void}) {
-  return <div className="data-mode-switch" aria-label="选择数据视图">
-    <button type="button" className={mode === 'demo' ? 'active' : ''} onClick={() => onChange('demo')}>结构演示</button>
-    <button type="button" className={mode === 'real' ? 'active' : ''} onClick={() => onChange('real')}>真实证据</button>
+  return <div className="data-mode-switch" role="group" aria-label="选择数据视图">
+    <button type="button" className={mode === 'demo' ? 'active' : ''} aria-pressed={mode === 'demo'} onClick={() => onChange('demo')}>结构演示</button>
+    <button type="button" className={mode === 'real' ? 'active' : ''} aria-pressed={mode === 'real'} onClick={() => onChange('real')}>真实证据</button>
   </div>;
 }
 
