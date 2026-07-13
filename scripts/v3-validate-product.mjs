@@ -48,8 +48,12 @@ if (status.status === 'paused-platform-risk' && status.bossAccessAllowed !== fal
 }
 
 const shader = await fs.readFile('src/app/hero-shader-engine.tsx', 'utf8');
-for (const component of ['Shader', 'Swirl', 'ChromaFlow', 'FlutedGlass', 'FilmGrain']) {
+for (const component of ['Shader', 'ChromaFlow', 'FlutedGlass', 'FilmGrain']) {
   if (!shader.includes(component)) fail(`hero is missing ${component}`);
+}
+const styles = await fs.readFile('src/app/style.css', 'utf8');
+if (!styles.includes('.hero-visual::before') || !styles.includes('repeating-linear-gradient')) {
+  fail('hero is missing the persistent fluted material layer');
 }
 
 const viteConfig = await fs.readFile('vite.config.js', 'utf8');
@@ -77,6 +81,6 @@ for (const profileKey of ['salaryBands', 'industries', 'districts', 'experience'
   if (!pages.includes(`key: '${profileKey}'`)) fail(`market profile is missing ${profileKey}`);
 }
 
-console.log(JSON.stringify({routes: routes.length, demoRoles: demo.roleSignals.length, officialSources: officialSources.sources.length, bossAccessAllowed: status.bossAccessAllowed, jobPageSize: 12, axionShaderStack: true}, null, 2));
+console.log(JSON.stringify({routes: routes.length, demoRoles: demo.roleSignals.length, officialSources: officialSources.sources.length, bossAccessAllowed: status.bossAccessAllowed, jobPageSize: 12, axionShaderStack: true, persistentFlutedLayer: true}, null, 2));
 if (failures) throw new Error(`${failures} V3 product validation failure(s)`);
 console.log('V3 product structure and data isolation are valid.');
