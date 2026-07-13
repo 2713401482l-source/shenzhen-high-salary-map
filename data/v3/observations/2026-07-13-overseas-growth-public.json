@@ -1,0 +1,190 @@
+{
+  "snapshotId": "2026-07-13-01",
+  "queryId": "overseas-growth-01",
+  "query": "海外运营",
+  "city": "深圳",
+  "capturedAt": "2026-07-13T18:35:26+08:00",
+  "sourcePage": "https://www.zhipin.com/c101280600/?query=%E6%B5%B7%E5%A4%96%E8%BF%90%E8%90%A5&industry=&position=",
+  "accessState": {
+    "authenticated": false,
+    "salaryVisible": false,
+    "detailTextVisible": true,
+    "blocker": "当前内置浏览器会话显示登录/注册；Boss 公开页隐藏薪资，不能判定这些岗位是否进入高薪样本"
+  },
+  "analysisEligibility": {
+    "roleDiscovery": true,
+    "salaryAnalysis": false,
+    "skillFrequency": false,
+    "benchmarkCorpus": false,
+    "reason": "岗位名称、公司、地区与公开标签可见，但缺少 Boss 原始薪资；详情文本也未逐条核验"
+  },
+  "observations": [
+    {
+      "bossJobId": "ea7814fcd80ea7670nZ629W0GVtR",
+      "title": "海外运营",
+      "company": "天好",
+      "location": "深圳·宝安区·沙井",
+      "industry": "电子商务",
+      "salaryText": null,
+      "sourceUrl": "https://www.zhipin.com/job_detail/ea7814fcd80ea7670nZ629W0GVtR.html",
+      "evidenceLevel": "boss-public-detail-no-salary",
+      "tags": ["跨境电商运营经验", "Temu", "Shopee", "eBay", "美客多", "Lazada", "3C数码", "欧洲", "北美", "店铺站外推广", "店铺0-1搭建", "Listing优化", "英语"],
+      "descriptionText": "岗位职责：按产品品类负责市场调研、销售、上架及 Listing 优化；依据产品线开发热销品并制定销售目标和运营推广策略；研究 Shein、Temu 等平台政策与推广模式；跟踪评估推广效果并提交分析报表；分析销售、库存和竞品数据。",
+      "detailVerifiedAt": "2026-07-13T18:35:26+08:00"
+    },
+    {
+      "bossJobId": "09abaa2cec386b4703J-29y1FlNT",
+      "title": "海外运营",
+      "company": "柯柏文",
+      "location": "深圳·南山区·南头",
+      "industry": "互联网",
+      "salaryText": null,
+      "sourceUrl": "https://www.zhipin.com/job_detail/09abaa2cec386b4703J-29y1FlNT.html",
+      "evidenceLevel": "boss-public-listing-no-salary",
+      "tags": ["海外广告投放", "Facebook/Instagram", "海外社交媒体营销", "Google", "海外网站运营", "SEO", "营销策划", "YouTube", "文案撰写", "TikTok"]
+    },
+    {
+      "bossJobId": "7d2c1362b94f72f00nF929S6EVRV",
+      "title": "海外运营经理",
+      "company": "迅雷网络",
+      "location": "深圳",
+      "industry": "互联网",
+      "salaryText": null,
+      "sourceUrl": "https://www.zhipin.com/job_detail/7d2c1362b94f72f00nF929S6EVRV.html",
+      "evidenceLevel": "boss-public-listing-no-salary",
+      "tags": []
+    },
+    {
+      "bossJobId": "acbf5fd97cbbba8d1HZ429m5FFpR",
+      "title": "海外运营经理",
+      "company": "对对科技",
+      "location": "深圳·南山区·科技园",
+      "industry": "社交网络与媒体",
+      "salaryText": null,
+      "sourceUrl": "https://www.zhipin.com/job_detail/acbf5fd97cbbba8d1HZ429m5FFpR.html",
+      "evidenceLevel": "boss-public-listing-no-salary",
+      "tags": ["用户运营", "直播运营", "中东地区", "内容运营", "社交平台", "运营部门管理", "本地化搭建", "产品运营"]
+    },
+    {
+      "bossJobId": "1a4ef1d8026970761XF82t69FlBZ",
+      "title": "阿语海外运营",
+      "company": "趣虹科技",
+      "location": "深圳·南山区·科技园",
+      "industry": "互联网",
+      "salaryText": null,
+      "sourceUrl": "https://www.zhipin.com/job_detail/1a4ef1d8026970761XF82t69FlBZ.html",
+      "evidenceLevel": "boss-public-listing-no-salary",
+      "tags": ["阿拉伯语", "用户运营", "直播运营", "社区运营"]
+    },
+    {
+      "bossJobId": "c85c313f94e663f40nF-39q9EVJU",
+      "title": "海外运营负责人",
+      "company": "迈从科技",
+      "location": "深圳·南山区·科技园",
+      "industry": "智能硬件/消费电子",
+      "salaryText": null,
+      "sourceUrl": "https://www.zhipin.com/job_detail/c85c313f94e663f40nF-39q9EVJU.html",
+      "evidenceLevel": "boss-public-listing-no-salary",
+      "tags": ["亚马逊", "独立站", "3C数码", "欧洲", "跨境电商运营", "英语", "供应链管理", "店铺0-1搭建", "Listing优化", "爆款运营", "品牌出海", "北美"]
+    },
+    {
+      "bossJobId": "3a0f49ea0d9602f31HZ_2du1EVNV",
+      "title": "海外运营专员",
+      "company": "安科",
+      "location": "深圳·宝安区·石岩",
+      "industry": "医疗健康",
+      "salaryText": null,
+      "sourceUrl": "https://www.zhipin.com/job_detail/3a0f49ea0d9602f31HZ_2du1EVNV.html",
+      "evidenceLevel": "boss-public-listing-no-salary",
+      "tags": ["部门助理", "行政助理", "事务处理"]
+    },
+    {
+      "bossJobId": "b64913f8b742531b03x_3N64FlZX",
+      "title": "海外运营实习生",
+      "company": "虎牙",
+      "location": "深圳·南山区·科技园",
+      "industry": "互联网",
+      "salaryText": null,
+      "sourceUrl": "https://www.zhipin.com/job_detail/b64913f8b742531b03x_3N64FlZX.html",
+      "evidenceLevel": "boss-public-listing-no-salary",
+      "tags": []
+    },
+    {
+      "bossJobId": "c337f1edef066a110nR_39W8EFtU",
+      "title": "海外运营（品牌出海）",
+      "company": "Daily Lab",
+      "location": "深圳·南山区·科技园",
+      "industry": "批发/零售",
+      "salaryText": null,
+      "sourceUrl": "https://www.zhipin.com/job_detail/c337f1edef066a110nR_39W8EFtU.html",
+      "evidenceLevel": "boss-public-listing-no-salary",
+      "tags": ["品牌出海", "SEO", "海外网站投放", "电子邮件推广", "海外社媒营销", "跨境电商", "英语工作语言", "YouTube", "Amazon", "Facebook/Instagram", "Google"]
+    },
+    {
+      "bossJobId": "43a29f38d7333f770nF83N2-F1dS",
+      "title": "海外运营经理",
+      "company": "嘉立创",
+      "location": "深圳·福田区·景田",
+      "industry": "电子/硬件开发",
+      "salaryText": null,
+      "sourceUrl": "https://www.zhipin.com/job_detail/43a29f38d7333f770nF83N2-F1dS.html",
+      "evidenceLevel": "boss-public-listing-no-salary",
+      "tags": ["独立站", "海外运营", "SEO", "Twitter"]
+    },
+    {
+      "bossJobId": "d0e9636e3186418a03x_2tS4FVBQ",
+      "title": "海外运营专员",
+      "company": "茉莉奶白",
+      "location": "深圳·宝安区·西乡",
+      "industry": "餐饮",
+      "salaryText": null,
+      "sourceUrl": "https://www.zhipin.com/job_detail/d0e9636e3186418a03x_2tS4FVBQ.html",
+      "evidenceLevel": "boss-public-listing-no-salary",
+      "tags": []
+    },
+    {
+      "bossJobId": "893d1c100e0eca6403x50ti7FVVY",
+      "title": "日本乐天 雅虎海外运营",
+      "company": "深圳市电竞之心数码",
+      "location": "深圳·福田区·上步",
+      "industry": "计算机硬件",
+      "salaryText": null,
+      "sourceUrl": "https://www.zhipin.com/job_detail/893d1c100e0eca6403x50ti7FVVY.html",
+      "evidenceLevel": "boss-public-listing-no-salary",
+      "tags": ["日本乐天", "Yahoo", "3C数码", "跨境电商运营"]
+    },
+    {
+      "bossJobId": "83f5398f9ac698f70nRy2Nu1FFJQ",
+      "title": "海外运营实习生",
+      "company": "原物永伴智能科技",
+      "location": "深圳",
+      "industry": "互联网",
+      "salaryText": null,
+      "sourceUrl": "https://www.zhipin.com/job_detail/83f5398f9ac698f70nRy2Nu1FFJQ.html",
+      "evidenceLevel": "boss-public-listing-no-salary",
+      "tags": ["海外平台", "社群运营", "后期剪辑"]
+    },
+    {
+      "bossJobId": "b372562c77c4a21c1Hx639m9GVJY",
+      "title": "海外运营",
+      "company": "勤亿诚",
+      "location": "深圳·福田区·华强北",
+      "industry": "互联网",
+      "salaryText": null,
+      "sourceUrl": "https://www.zhipin.com/job_detail/b372562c77c4a21c1Hx639m9GVJY.html",
+      "evidenceLevel": "boss-public-listing-no-salary",
+      "tags": ["内容运营", "Appsflyer", "Adjust"]
+    },
+    {
+      "bossJobId": "4fed5130fce145bb03B82N2_FlFQ",
+      "title": "海外运营经理-南亚(A189720)",
+      "company": "米可世界",
+      "location": "深圳·南山区·科技园",
+      "industry": "互联网",
+      "salaryText": null,
+      "sourceUrl": "https://www.zhipin.com/job_detail/4fed5130fce145bb03B82N2_FlFQ.html",
+      "evidenceLevel": "boss-public-listing-no-salary",
+      "tags": ["南亚市场", "海外运营管理"]
+    }
+  ]
+}

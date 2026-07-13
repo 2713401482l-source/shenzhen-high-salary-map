@@ -23,6 +23,8 @@
     "analysis:market": "node scripts/analyze-market.mjs",
     "analysis:growth": "node scripts/build-growth-paths.mjs",
     "analysis:validate": "node scripts/validate-analysis.mjs",
+    "v3:foundation": "node scripts/v3-build-foundation.mjs",
+    "v3:validate": "node scripts/v3-validate-data.mjs",
     "typecheck": "tsc --noEmit",
     "verify": "npm run check && npm run analysis:validate && npm run typecheck && npm run build && npm audit --omit=dev"
   },
