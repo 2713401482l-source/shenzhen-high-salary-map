@@ -117,9 +117,11 @@ export function TrendsPage() {
 
 export function SkillsPage() {
   const [mode, setMode] = useState<DataMode>('demo');
+  const [selectedSkillName, setSelectedSkillName] = useState(verifiedSkillStats[0]?.name ?? '');
   const demoBenchmark = demoData.benchmark;
   const topRealCount = verifiedSkillStats[0]?.count || 1;
   const topPublishedPair = verifiedSkillPairs.find(pair => pair.publishable);
+  const selectedSkill = verifiedSkillStats.find(skill => skill.name === selectedSkillName) ?? verifiedSkillStats[0];
   return <main id="main" className="inner-main">
     <InnerHero eyebrow="需求拆解" title="高薪岗位通常不是一项技能，而是一组能力。" lead="先看共同出现的能力，再看它们怎样组合成一个新的岗位角色。" mode={mode} onModeChange={setMode} />
     <div className="content-shell"><DataNotice mode={mode} />
@@ -131,10 +133,10 @@ export function SkillsPage() {
         <section className="combo-examples"><h2>岗位名变了，底层能力从哪里来？</h2><div>{demoData.roleSignals.slice(0, 6).map(role => <article key={role.id}><span>{role.name}</span><strong>{role.oldAbilityMix}</strong><p>{role.skillCombo.join(' + ')}</p></article>)}</div></section>
       </> : <>
         <section className="skill-story">
-          <div className="skill-story-main"><span className="evidence-flag">仅统计 {realAnalysis.skills.denominator} 条详情核验</span><h2>当前可核验需求里的高频能力</h2><p>列表页摘要不进入正式能力占比，避免把不完整文案当成岗位要求。</p><div className="skill-frequency">{verifiedSkillStats.slice(0, 8).map(skill => <div key={skill.name}><div><strong>{skill.name}</strong><span>{skill.count}/{verifiedJobs.length} 条</span></div><i style={{'--skill-width': `${(skill.count / topRealCount) * 100}%`} as React.CSSProperties} /></div>)}</div></div>
+          <div className="skill-story-main"><span className="evidence-flag">仅统计 {realAnalysis.skills.denominator} 条详情核验</span><h2>当前可核验需求里的高频能力</h2><p>点击一项能力，下面只显示真正命中这项要求的岗位原文。列表页摘要不会进入能力占比。</p><div className="skill-frequency" role="group" aria-label="选择要核验的能力">{verifiedSkillStats.slice(0, 8).map(skill => <button type="button" key={skill.name} className={selectedSkill?.name === skill.name ? 'active' : ''} aria-pressed={selectedSkill?.name === skill.name} onClick={() => setSelectedSkillName(skill.name)}><span><strong>{skill.name}</strong><small>{skill.count}/{verifiedJobs.length} 条</small></span><i style={{'--skill-width': `${(skill.count / topRealCount) * 100}%`} as React.CSSProperties} /></button>)}</div></div>
           <aside className="skill-combo-card"><small>达到展示门槛的共现</small><h3>{topPublishedPair?.pair.join(' + ') ?? '样本不足'}</h3><p>{topPublishedPair ? `在 ${topPublishedPair.count} 条核验需求中共同出现，并可回到岗位原文复核。` : '能力组合至少共同出现 3 次后才展示。当前还没有达到门槛。'}</p></aside>
         </section>
-        <section className="requirement-evidence"><h2>回到岗位原文验证</h2>{verifiedJobs.slice(0, 4).map(job => <details key={job.id}><summary><span><strong>{job.title}</strong><small>{job.company}，{job.salaryText}</small></span><ChevronDown /></summary><p>{job.requirementText || job.descriptionExcerpt}</p><a href={job.sourceUrl} target="_blank" rel="noreferrer">打开 Boss 岗位详情 <ExternalLink /></a></details>)}</section>
+        <section className="requirement-evidence"><div className="evidence-heading"><div><p className="eyebrow">原文证据</p><h2>哪些岗位写了“{selectedSkill?.name ?? '这项能力'}”？</h2></div><span>{selectedSkill?.count ?? 0}/{verifiedJobs.length} 条详情命中</span></div>{selectedSkill?.jobs.map(job => <details key={job.id}><summary><span><strong>{job.title}</strong><small>{job.company}，{job.salaryText}</small></span><ChevronDown /></summary><p>{job.requirementText || job.descriptionExcerpt}</p><a href={job.sourceUrl} target="_blank" rel="noreferrer">打开 Boss 岗位详情 <ExternalLink /></a></details>)}</section>
       </>}
       <section className="plain-callout"><div><h2>能力频率不是学习清单。</h2><p>下一步要锁定一个具体岗位，分清“必须有”“加分项”和“高薪附加责任”。</p></div><ArrowButton href="benchmark.html" tone="dark">进入单岗对标</ArrowButton></section>
     </div>

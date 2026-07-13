@@ -39,6 +39,11 @@ for (const component of ['Shader', 'Swirl', 'ChromaFlow', 'FlutedGlass', 'FilmGr
   if (!shader.includes(component)) fail(`hero is missing ${component}`);
 }
 
+const viteConfig = await fs.readFile('vite.config.js', 'utf8');
+for (const metadata of ['og:title', 'og:description', 'og:url', 'twitter:card', 'canonical']) {
+  if (!viteConfig.includes(metadata)) fail(`share metadata is missing ${metadata}`);
+}
+
 const pages = await fs.readFile('src/app/pages.tsx', 'utf8');
 const dataModule = await fs.readFile('src/app/data.ts', 'utf8');
 const jobsPage = pages.split('export function JobsPage()')[1]?.split('export function MethodPage()')[0] ?? '';

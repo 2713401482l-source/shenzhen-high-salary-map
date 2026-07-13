@@ -183,8 +183,13 @@ button { color: inherit; }
 .skill-story-main h2 { margin: 20px 0 12px; font-size: clamp(2rem, 3.5vw, 3.6rem); letter-spacing: -.045em; }
 .skill-story-main > p { max-width: 650px; margin: 0; color: var(--muted); line-height: 1.6; }
 .skill-frequency { margin-top: 42px; display: grid; gap: 22px; }
-.skill-frequency > div { display: grid; gap: 8px; }
-.skill-frequency > div > div { display: flex; justify-content: space-between; gap: 20px; font-size: 13px; }
+.skill-frequency > div, .skill-frequency > button { display: grid; gap: 8px; }
+.skill-frequency > div > div, .skill-frequency > button > span { display: flex; justify-content: space-between; gap: 20px; font-size: 13px; }
+.skill-frequency > button { width: 100%; padding: 7px 0; border: 0; background: transparent; color: inherit; text-align: left; cursor: pointer; }
+.skill-frequency > button small { color: var(--muted); font-size: 12px; }
+.skill-frequency > button i { opacity: .42; transition: opacity .2s ease, width .25s ease; }
+.skill-frequency > button:hover i, .skill-frequency > button.active i { opacity: 1; }
+.skill-frequency > button.active strong { color: var(--accent-dark); }
 .skill-frequency span { color: var(--muted); }
 .skill-frequency i { width: var(--skill-width); height: 3px; display: block; background: var(--accent); }
 .skill-combo-card { display: flex; flex-direction: column; justify-content: flex-end; background: var(--ink); color: #f7f7f5; }
@@ -199,6 +204,9 @@ button { color: inherit; }
 .combo-examples strong { margin-top: auto; font-size: 19px; }
 .combo-examples p { margin: 10px 0 0; color: var(--muted); font-size: 12px; }
 .requirement-evidence details { border-bottom: 1px solid var(--line); }
+.evidence-heading { margin-bottom: 18px; display: flex; align-items: flex-end; justify-content: space-between; gap: 30px; }
+.evidence-heading h2 { margin: 12px 0 0; font-size: clamp(1.8rem, 3vw, 3.2rem); letter-spacing: -.04em; }
+.evidence-heading > span { padding-bottom: 8px; color: var(--muted); font-size: 12px; }
 .requirement-evidence summary { min-height: 88px; display: flex; align-items: center; justify-content: space-between; gap: 20px; list-style: none; cursor: pointer; }
 .requirement-evidence summary::-webkit-details-marker, .job-card summary::-webkit-details-marker { display: none; }
 .requirement-evidence summary span, .requirement-evidence summary strong, .requirement-evidence summary small { display: block; }
@@ -413,6 +421,7 @@ button { color: inherit; }
   .skill-story { grid-template-columns: 1fr; }
   .skill-story-main, .skill-combo-card { padding: 28px 20px; }
   .skill-combo-card { min-height: 360px; }
+  .evidence-heading { align-items: flex-start; flex-direction: column; gap: 8px; }
   .combo-examples > div, .benchmark-grid, .real-paths > div, .method-rules > div { grid-template-columns: 1fr; }
   .expansion-head, .expansion-list article { grid-template-columns: 1fr; gap: 24px; }
   .expansion-list a { grid-template-columns: minmax(0, 1fr) auto 16px; }
