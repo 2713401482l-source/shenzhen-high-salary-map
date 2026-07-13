@@ -1,20 +1,78 @@
-import {init, use, type EChartsType} from 'echarts/core';
+import * as echarts from 'echarts/core';
 import {ScatterChart} from 'echarts/charts';
 import {GridComponent, TooltipComponent} from 'echarts/components';
 import {CanvasRenderer} from 'echarts/renderers';
 
-use([ScatterChart, GridComponent, TooltipComponent, CanvasRenderer]);
+echarts.use([ScatterChart, GridComponent, TooltipComponent, CanvasRenderer]);
 
-export type OpportunityPoint = [number, number, number, string];
+export type OpportunityPoint = {
+  name: string;
+  demand: number;
+  salaryMax: number;
+  count: number;
+  threshold: string;
+};
 
-export function createOpportunityChart(element: HTMLDivElement, points: OpportunityPoint[]): EChartsType {
-  const chart = init(element, undefined, {renderer: 'canvas'});
+const thresholdColor: Record<string, string> = {
+  '中': '#ff8b52',
+  '中高': '#f56a22',
+  '高': '#c84912',
+  '极高': '#72270c',
+};
+
+export function createOpportunityChart(element: HTMLDivElement, points: OpportunityPoint[], isDemo: boolean) {
+  const chart = echarts.init(element, undefined, {renderer: 'canvas'});
+  const highlighted = new Set([...points]
+    .sort((a, b) => (b.demand + b.salaryMax / 2) - (a.demand + a.salaryMax / 2))
+    .slice(0, 5)
+    .map(point => point.name));
   chart.setOption({
-    grid: {left: 44, right: 20, top: 28, bottom: 42},
-    tooltip: {trigger: 'item', formatter: (p: {data: OpportunityPoint}) => `${p.data[3]}<br/>加权需求 ${p.data[0]}<br/>薪资中位 ${p.data[1]}K<br/>${p.data[2]} 条岗位`},
-    xAxis: {name: '当前样本需求 →', nameLocation: 'middle', nameGap: 28, min: 0, axisLine: {lineStyle: {color: '#aeb3ba'}}, splitLine: {lineStyle: {color: '#eceef0'}}, axisLabel: {color: '#68717d'}},
-    yAxis: {name: '薪资中位 K', nameTextStyle: {color: '#68717d'}, axisLine: {show: false}, splitLine: {lineStyle: {color: '#eceef0'}}, axisLabel: {color: '#68717d'}},
-    series: [{type: 'scatter', data: points, symbolSize: (value: number[]) => Math.max(16, Math.min(54, 13 + value[2] * 1.45)), itemStyle: {color: '#ff6508', opacity: .82, borderColor: '#fff', borderWidth: 2}, emphasis: {scale: 1.08}}],
+    animationDuration: 650,
+    animationEasing: 'cubicOut',
+    grid: {left: 62, right: 28, top: 34, bottom: 56},
+    tooltip: {
+      trigger: 'item',
+      backgroundColor: '#15181d',
+      borderWidth: 0,
+      padding: [12, 14],
+      textStyle: {color: '#f7f7f5', fontSize: 12},
+      formatter: ({data}: {data: {value: number[]; name: string; threshold: string}}) => {
+        const label = isDemo ? '结构假设' : '当前样本';
+        return `<strong>${data.name}</strong><br/>${label}：${data.value[2]} 个岗位<br/>薪资上限：${data.value[1]}K<br/>能力门槛：${data.threshold}`;
+      },
+    },
+    xAxis: {
+      name: '市场需求 →',
+      nameLocation: 'middle',
+      nameGap: 30,
+      min: 0,
+      max: 100,
+      axisLine: {lineStyle: {color: '#b8babd'}},
+      axisTick: {show: false},
+      axisLabel: {show: false},
+      splitLine: {show: false},
+      nameTextStyle: {color: '#5d6168', fontSize: 12},
+    },
+    yAxis: {
+      name: '薪资上限 K/月',
+      nameTextStyle: {color: '#5d6168', fontSize: 12},
+      axisLine: {show: false},
+      axisTick: {show: false},
+      axisLabel: {color: '#777b82', fontSize: 11},
+      splitLine: {lineStyle: {color: '#e5e5e2', type: 'dashed'}},
+    },
+    series: [{
+      type: 'scatter',
+      data: points.map(point => ({
+        name: point.name,
+        threshold: point.threshold,
+        value: [point.demand, point.salaryMax, point.count],
+        itemStyle: {color: thresholdColor[point.threshold] ?? '#f56a22', opacity: 0.84},
+        label: highlighted.has(point.name) ? {show: true, formatter: point.name, position: 'top', distance: 8, color: '#34383f', fontSize: 11} : {show: false},
+      })),
+      symbolSize: (value: number[]) => Math.max(18, Math.min(56, 12 + Math.sqrt(value[2]) * 6)),
+      emphasis: {scale: 1.1, itemStyle: {opacity: 1}},
+    }],
   });
   return chart;
 }

@@ -6,6 +6,7 @@ const plan = JSON.parse(await fs.readFile(path.join(root, 'config/collection-pla
 const queue = JSON.parse(await fs.readFile(path.join(root, 'collection/query-queue.json'), 'utf8'));
 const observationDir = path.join(root, 'observations');
 const observationFiles = (await fs.readdir(observationDir)).filter(file => file.endsWith('.json')).sort();
+const demo = JSON.parse(await fs.readFile(path.join(root, 'demo/page-logic-demo.json'), 'utf8'));
 const allowedStatuses = new Set(['queued', 'collected', 'blocked-salary-auth', 'blocked-verification', 'exhausted']);
 const queryIds = new Set();
 const globalObservationIds = new Set();
@@ -13,6 +14,7 @@ let failures = 0;
 let observations = 0;
 let salaryVisible = 0;
 let detailVisible = 0;
+let demoRoles = 0;
 
 const fail = message => {
   failures += 1;
@@ -61,6 +63,18 @@ for (const file of observationFiles) {
   }
 }
 
+if (demo.metadata?.dataKind !== 'demo') fail('demo file must declare metadata.dataKind=demo');
+if (demo.metadata?.excludedFromFormalStats !== true) fail('demo file must be excluded from formal statistics');
+if (!Array.isArray(demo.roleSignals) || !demo.roleSignals.length) fail('demo roleSignals must be a non-empty array');
+const demoIds = new Set();
+for (const role of demo.roleSignals || []) {
+  demoRoles += 1;
+  if (demoIds.has(role.id)) fail(`duplicate demo role id ${role.id}`);
+  demoIds.add(role.id);
+  if (!role.name || !role.lane || !Array.isArray(role.skillCombo)) fail(`incomplete demo role ${role.id}`);
+  if ('sourceUrl' in role || 'company' in role) fail(`demo role must not contain a source URL or company: ${role.id}`);
+}
+
 console.log(JSON.stringify({
   queries: queue.length,
   queued: queue.filter(row => row.status === 'queued').length,
@@ -68,7 +82,9 @@ console.log(JSON.stringify({
   observationBatches: observationFiles.length,
   observations,
   salaryVisible,
-  detailVisible
+  detailVisible,
+  demoRoles,
+  demoExcludedFromFormalStats: demo.metadata?.excludedFromFormalStats === true
 }, null, 2));
 
 if (failures) throw new Error(`${failures} V3 data validation failure(s)`);

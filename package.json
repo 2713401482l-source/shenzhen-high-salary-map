@@ -25,6 +25,7 @@
     "analysis:validate": "node scripts/validate-analysis.mjs",
     "v3:foundation": "node scripts/v3-build-foundation.mjs",
     "v3:validate": "node scripts/v3-validate-data.mjs",
+    "v3:product-check": "node scripts/v3-validate-product.mjs",
     "typecheck": "tsc --noEmit",
     "verify": "npm run check && npm run analysis:validate && npm run typecheck && npm run build && npm audit --omit=dev"
   },
@@ -33,7 +34,8 @@
     "echarts": "^6.1.0",
     "lucide-react": "^0.468.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "shaders": "^2.5.135"
   },
   "devDependencies": {
     "@types/react": "^18.3.18",

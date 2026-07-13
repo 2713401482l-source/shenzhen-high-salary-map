@@ -1,0 +1,239 @@
+{
+  "metadata": {
+    "dataKind": "demo",
+    "purpose": "仅用于验证 V3 页面结构、模块顺序与交互逻辑",
+    "excludedFromFormalStats": true,
+    "generatedAt": "2026-07-13T00:00:00+08:00",
+    "disclaimer": "以下岗位数、企业数、频率和评分均为高概率结构假设，不代表 Boss 直聘真实市场统计。"
+  },
+  "roleSignals": [
+    {
+      "id": "ai-workflow-designer",
+      "name": "AI 工作流设计师",
+      "lane": "AI 应用",
+      "sampleJobs": 18,
+      "companyCount": 12,
+      "salaryMin": 28,
+      "salaryMax": 55,
+      "demandScore": 74,
+      "threshold": "中高",
+      "skillCombo": ["业务流程拆解", "AI 工具编排", "自动化", "交付沟通"],
+      "oldAbilityMix": "业务分析 + 自动化工具 + 项目交付",
+      "whyNow": "企业开始把零散 AI 工具接入具体业务流程，需要能把工具变成可复用工作流的人。",
+      "originalExamples": ["AI 工作流设计", "AI 自动化解决方案", "企业 AI 应用顾问"]
+    },
+    {
+      "id": "ai-product-manager",
+      "name": "AI 产品经理",
+      "lane": "产品商业化",
+      "sampleJobs": 36,
+      "companyCount": 27,
+      "salaryMin": 30,
+      "salaryMax": 70,
+      "demandScore": 86,
+      "threshold": "高",
+      "skillCombo": ["产品判断", "大模型理解", "数据分析", "商业化"],
+      "oldAbilityMix": "产品经理 + AI 技术理解 + 商业判断",
+      "whyNow": "大模型能力从技术验证进入产品化阶段，岗位开始同时要求场景、效果和成本判断。",
+      "originalExamples": ["大模型产品经理", "AI Agent 产品经理", "生成式 AI 产品负责人"]
+    },
+    {
+      "id": "overseas-growth-lead",
+      "name": "海外增长负责人",
+      "lane": "出海增长",
+      "sampleJobs": 31,
+      "companyCount": 22,
+      "salaryMin": 30,
+      "salaryMax": 65,
+      "demandScore": 82,
+      "threshold": "中高",
+      "skillCombo": ["英语", "投放", "本地化", "数据归因"],
+      "oldAbilityMix": "渠道运营 + 英语 + 增长分析",
+      "whyNow": "深圳消费电子、应用和跨境品牌持续寻找海外增量，岗位从执行升级为区域增长经营。",
+      "originalExamples": ["海外增长负责人", "全球用户增长", "海外市场增长经理"]
+    },
+    {
+      "id": "tiktok-commerce",
+      "name": "TikTok 电商运营",
+      "lane": "内容平台",
+      "sampleJobs": 42,
+      "companyCount": 34,
+      "salaryMin": 25,
+      "salaryMax": 50,
+      "demandScore": 88,
+      "threshold": "中",
+      "skillCombo": ["内容策划", "直播电商", "英语", "投放复盘"],
+      "oldAbilityMix": "短视频运营 + 跨境电商 + 广告投放",
+      "whyNow": "内容、直播和店铺经营被合并到同一结果岗位，单一内容能力不再足够。",
+      "originalExamples": ["TikTok 运营负责人", "TikTok Shop 运营", "海外短视频增长"]
+    },
+    {
+      "id": "commercial-strategy",
+      "name": "商业化策略经理",
+      "lane": "产品商业化",
+      "sampleJobs": 24,
+      "companyCount": 18,
+      "salaryMin": 35,
+      "salaryMax": 80,
+      "demandScore": 72,
+      "threshold": "高",
+      "skillCombo": ["商业分析", "定价", "产品策略", "跨团队推动"],
+      "oldAbilityMix": "战略分析 + 产品运营 + 收入管理",
+      "whyNow": "企业更关注 AI 和平台产品能否形成收入，策略岗位开始对最终商业结果负责。",
+      "originalExamples": ["商业化策略", "变现策略负责人", "商业产品策略"]
+    },
+    {
+      "id": "solution-architect",
+      "name": "解决方案架构师",
+      "lane": "企业服务",
+      "sampleJobs": 29,
+      "companyCount": 21,
+      "salaryMin": 35,
+      "salaryMax": 85,
+      "demandScore": 77,
+      "threshold": "高",
+      "skillCombo": ["技术方案", "行业理解", "客户沟通", "项目落地"],
+      "oldAbilityMix": "技术架构 + 售前咨询 + 项目管理",
+      "whyNow": "复杂产品需要有人把技术能力翻译成客户能采购、团队能交付的完整方案。",
+      "originalExamples": ["AI 解决方案架构师", "行业解决方案专家", "售前解决方案负责人"]
+    },
+    {
+      "id": "robot-learning",
+      "name": "机器人强化学习专家",
+      "lane": "具身智能",
+      "sampleJobs": 16,
+      "companyCount": 11,
+      "salaryMin": 50,
+      "salaryMax": 150,
+      "demandScore": 66,
+      "threshold": "极高",
+      "skillCombo": ["强化学习", "运动控制", "仿真", "C++"],
+      "oldAbilityMix": "控制算法 + 强化学习 + 机器人工程",
+      "whyNow": "人形机器人和具身智能团队集中争夺能把仿真策略落到真实硬件的人。",
+      "originalExamples": ["强化运控算法专家", "具身智能算法负责人", "机器人学习研究员"]
+    },
+    {
+      "id": "supply-chain-digital",
+      "name": "供应链数字化负责人",
+      "lane": "智能制造",
+      "sampleJobs": 23,
+      "companyCount": 19,
+      "salaryMin": 30,
+      "salaryMax": 65,
+      "demandScore": 68,
+      "threshold": "中高",
+      "skillCombo": ["供应链", "数据分析", "系统实施", "流程优化"],
+      "oldAbilityMix": "供应链管理 + 数据产品 + 组织变革",
+      "whyNow": "制造企业需要把计划、库存和交付数据连起来，岗位从系统上线转向经营改善。",
+      "originalExamples": ["供应链数字化负责人", "智能计划产品经理", "供应链数据专家"]
+    },
+    {
+      "id": "global-product",
+      "name": "出海产品负责人",
+      "lane": "出海增长",
+      "sampleJobs": 27,
+      "companyCount": 20,
+      "salaryMin": 35,
+      "salaryMax": 80,
+      "demandScore": 75,
+      "threshold": "高",
+      "skillCombo": ["产品策略", "英语", "本地化", "用户研究"],
+      "oldAbilityMix": "产品经理 + 区域市场 + 用户洞察",
+      "whyNow": "同一产品面向多个市场时，需要把本地用户差异转化为产品路线和经营结果。",
+      "originalExamples": ["海外产品负责人", "全球化产品经理", "区域产品 Lead"]
+    },
+    {
+      "id": "data-growth",
+      "name": "数据增长专家",
+      "lane": "数据增长",
+      "sampleJobs": 33,
+      "companyCount": 25,
+      "salaryMin": 30,
+      "salaryMax": 75,
+      "demandScore": 81,
+      "threshold": "高",
+      "skillCombo": ["SQL", "实验设计", "用户增长", "策略落地"],
+      "oldAbilityMix": "数据分析 + 增长运营 + 产品实验",
+      "whyNow": "企业希望数据团队直接参与增长决策，而不是只做报表和事后解释。",
+      "originalExamples": ["增长数据科学家", "数据增长策略", "用户增长分析专家"]
+    },
+    {
+      "id": "cross-border-brand",
+      "name": "跨境品牌负责人",
+      "lane": "品牌消费",
+      "sampleJobs": 20,
+      "companyCount": 16,
+      "salaryMin": 35,
+      "salaryMax": 70,
+      "demandScore": 64,
+      "threshold": "高",
+      "skillCombo": ["品牌定位", "英语", "渠道经营", "内容增长"],
+      "oldAbilityMix": "品牌管理 + 跨境渠道 + 内容营销",
+      "whyNow": "跨境卖家从渠道套利转向品牌经营，岗位开始对定位、内容和利润共同负责。",
+      "originalExamples": ["海外品牌负责人", "全球品牌经理", "跨境品牌总监"]
+    },
+    {
+      "id": "enterprise-ai-consultant",
+      "name": "企业 AI 实施顾问",
+      "lane": "企业服务",
+      "sampleJobs": 26,
+      "companyCount": 20,
+      "salaryMin": 28,
+      "salaryMax": 60,
+      "demandScore": 79,
+      "threshold": "中高",
+      "skillCombo": ["需求分析", "AI 工具", "系统实施", "培训推动"],
+      "oldAbilityMix": "实施顾问 + AI 应用 + 变革管理",
+      "whyNow": "企业购买 AI 后仍需要完成需求梳理、系统接入、员工培训和效果复盘。",
+      "originalExamples": ["AI 实施顾问", "大模型交付顾问", "企业智能化顾问"]
+    }
+  ],
+  "benchmark": {
+    "roleId": "ai-product-manager",
+    "role": "AI 产品经理",
+    "hypotheticalRequirements": 50,
+    "hypotheticalCompanies": 34,
+    "salaryRange": "30-70K",
+    "mustHave": [
+      {"name": "产品需求与路线判断", "frequency": 86},
+      {"name": "大模型能力边界理解", "frequency": 78},
+      {"name": "数据分析与效果评估", "frequency": 72},
+      {"name": "跨研发、算法和业务推动", "frequency": 70}
+    ],
+    "bonus": ["Agent 工作流", "Prompt 与评测", "行业解决方案", "商业化经验"],
+    "highSalaryAdds": ["复杂业务闭环", "产品商业化", "团队与路线责任"],
+    "deliverables": ["需求定义", "原型与流程", "模型效果指标", "上线复盘", "商业结果"],
+    "learningPriority": [
+      "先补模型能力边界和评测方法",
+      "再做一个能跑通的 AI 产品闭环",
+      "用数据证明效果、成本和使用价值",
+      "最后补行业或商业化纵深"
+    ]
+  },
+  "growthPaths": [
+    {
+      "role": "AI 产品",
+      "stages": [
+        {"band": "30K", "title": "能定义并交付单一场景", "skills": ["需求分析", "原型", "Prompt", "数据复盘"]},
+        {"band": "50K", "title": "能负责复杂产品闭环", "skills": ["评测体系", "跨团队推进", "成本效果", "商业化"]},
+        {"band": "100K", "title": "能决定路线并承担经营结果", "skills": ["技术路线", "组织管理", "行业判断", "收入责任"]}
+      ]
+    },
+    {
+      "role": "海外增长",
+      "stages": [
+        {"band": "30K", "title": "能经营一个渠道或区域", "skills": ["英语", "投放", "内容", "数据归因"]},
+        {"band": "50K", "title": "能搭建跨渠道增长系统", "skills": ["预算配置", "本地化", "团队协同", "利润意识"]},
+        {"band": "100K", "title": "能负责区域经营与品牌增长", "skills": ["市场进入", "组织管理", "品牌策略", "经营结果"]}
+      ]
+    },
+    {
+      "role": "解决方案",
+      "stages": [
+        {"band": "30K", "title": "能完成方案与项目交付", "skills": ["需求澄清", "技术方案", "演示", "项目管理"]},
+        {"band": "50K", "title": "能拿下复杂客户并复制方案", "skills": ["行业理解", "架构设计", "商务协同", "方案产品化"]},
+        {"band": "100K", "title": "能建立行业打法和交付体系", "skills": ["战略客户", "组织管理", "生态合作", "收入责任"]}
+      ]
+    }
+  ]
+}

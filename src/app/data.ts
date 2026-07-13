@@ -1,26 +1,153 @@
+import verifiedSource from '../../data/jobs/verified.json';
+import candidateSource from '../../data/jobs/candidates.json';
+import demoSource from '../../data/v3/demo/page-logic-demo.json';
+
+export type SalaryBand = '30K' | '50K' | '100K';
+export type EvidenceLevel = 'boss-detail' | 'boss-listing-plus-detail' | 'boss-listing';
+
 export type Job = {
-  id: string; title: string; company: string; salaryMin: number; salaryMax: number;
-  salaryText: string; district: string; industry: string; experience: string;
-  education: string; skills: string[]; sourceUrl: string; verified: boolean;
+  id: string;
+  bossJobId: string;
+  title: string;
+  company: string;
+  salaryText: string;
+  salaryMin: number;
+  salaryMax: number;
+  salaryMonths?: number;
+  salaryBand: SalaryBand;
+  city: string;
+  district: string;
+  addressText: string;
+  industry: string;
+  experience: string;
+  education: string;
+  descriptionExcerpt: string;
+  requirementText: string;
+  sourceUrl: string;
+  capturedAt: string;
+  evidenceLevel: EvidenceLevel;
+  status: 'verified' | 'candidate';
 };
 
-export const jobs: Job[] = [
-  {id:'01',title:'AI Agent 算法开发',company:'深度赋智',salaryMin:20,salaryMax:35,salaryText:'20–35K',district:'宝安区',industry:'人工智能',experience:'3–5年',education:'本科',skills:['LLM','Agent','Python'],sourceUrl:'https://www.zhipin.com/zhaopin/017b2c17109b23c303dy396-GA~~/',verified:false},
-  {id:'02',title:'算法工程师（医疗险营销）',company:'腾讯',salaryMin:25,salaryMax:35,salaryText:'25–35K',district:'南山区',industry:'互联网',experience:'3–5年',education:'硕士',skills:['机器学习','推荐算法','数据分析'],sourceUrl:'https://www.zhipin.com/zhaopin/cb5a9c74eda5d01a03d-3dS0EA~~/',verified:false},
-  {id:'03',title:'具身智能研究员',company:'AIRS',salaryMin:30,salaryMax:40,salaryText:'30–40K',district:'龙岗区',industry:'人工智能',experience:'3–5年',education:'博士',skills:['具身智能','技术路线','机器人'],sourceUrl:'https://www.zhipin.com/zhaopin/fc61d0327d21c1471nV63dm9FA~~/',verified:false},
-  {id:'04',title:'AI 图像算法工程师',company:'vivo',salaryMin:30,salaryMax:50,salaryText:'30–50K',district:'宝安区',industry:'消费电子',experience:'5–10年',education:'硕士',skills:['多模态','图像理解','计算机视觉'],sourceUrl:'https://www.zhipin.com/zhaopin/9a7469788d34c77c03N52Nu-GA~~/',verified:false},
-  {id:'05',title:'产品专家',company:'吉迩科技',salaryMin:25,salaryMax:50,salaryText:'25–50K',district:'南山区',industry:'消费电子',experience:'3–5年',education:'本科',skills:['产品规划','市场洞察','项目管理'],sourceUrl:'https://www.zhipin.com/zhaopin/eda7d13613468a3d1X1539W6/',verified:false},
-  {id:'06',title:'量化研究员（深度学习）',company:'光昊投资',salaryMin:20,salaryMax:40,salaryText:'20–40K',district:'福田区',industry:'金融',experience:'3–5年',education:'硕士',skills:['深度学习','回测','Python'],sourceUrl:'https://www.zhipin.com/zhaopin/6695251fa9dfade11nd-09y8/',verified:false},
-  {id:'07',title:'AI Agent 研发工程师',company:'逸文科技',salaryMin:50,salaryMax:80,salaryText:'50–80K',district:'南山区',industry:'智能硬件',experience:'3–5年',education:'本科',skills:['LLM','模型微调','Agent'],sourceUrl:'https://www.zhipin.com/zhaopin/d863b052df9029601HZ_2tu_Eg~~/',verified:false},
-  {id:'08',title:'无人机 AI 算法科学家',company:'艾飞智控',salaryMin:50,salaryMax:80,salaryText:'50–80K',district:'南山区',industry:'航空航天',experience:'1–3年',education:'博士',skills:['无人机','AI战略','科研合作'],sourceUrl:'https://www.zhipin.com/zhaopin/cb5a9c74eda5d01a03d-3dS0EA~~/',verified:false},
-  {id:'09',title:'推荐算法专家',company:'阿尔法时刻',salaryMin:50,salaryMax:80,salaryText:'50–80K',district:'南山区',industry:'互联网金融',experience:'经验不限',education:'本科',skills:['搜索推荐','NLP','CTR/CVR'],sourceUrl:'https://www.zhipin.com/zhaopin/9589046e36d8ac4e0nZ82N2_EA~~/',verified:false},
-  {id:'10',title:'AI 应用研发工程师',company:'雷鸟创新',salaryMin:40,salaryMax:70,salaryText:'40–70K',district:'南山区',industry:'计算机硬件',experience:'3–5年',education:'本科',skills:['模型部署','Agent','线上监控'],sourceUrl:'https://www.zhipin.com/zhaopin/d863b052df9029601HZ_2tu_Eg~~/',verified:false},
-  {id:'11',title:'海外营销核心岗',company:'吉迩科技',salaryMin:70,salaryMax:100,salaryText:'70–100K',district:'南山区',industry:'消费电子',experience:'10年以上',education:'本科',skills:['海外营销','GTM','渠道','英语'],sourceUrl:'https://www.zhipin.com/zhaopin/eda7d13613468a3d1X1539W6/',verified:false},
-  {id:'12',title:'量化研究总监',company:'闻道资产',salaryMin:70,salaryMax:100,salaryText:'70–100K',district:'南山区',industry:'金融',experience:'3–5年',education:'硕士',skills:['Python','C++','量化研究'],sourceUrl:'https://www.zhipin.com/zhaopin/8d60388a82e2a34e03B52N67GQ~~/',verified:false},
-  {id:'13',title:'强化学习专家',company:'魔法原子',salaryMin:70,salaryMax:100,salaryText:'70–100K',district:'宝安区',industry:'人工智能',experience:'5–10年',education:'硕士',skills:['强化学习','机器人控制','Sim2Real'],sourceUrl:'https://www.zhipin.com/zhaopin/5d9cefeba87ecdf9031729-5Fw~~/',verified:false},
-  {id:'14',title:'ISP 算法专家',company:'锐思智芯',salaryMin:70,salaryMax:100,salaryText:'70–100K',district:'南山区',industry:'智能硬件',experience:'5–10年',education:'硕士',skills:['ISP','计算机视觉','图像处理'],sourceUrl:'https://www.zhipin.com/zhaopin/917fb261fe51293f031_3N64Fw~~/',verified:false},
-  {id:'15',title:'国际采购总监',company:'源芯电子',salaryMin:70,salaryMax:100,salaryText:'70–100K',district:'福田区',industry:'半导体',experience:'5–10年',education:'大专',skills:['国际采购','供应链','英语'],sourceUrl:'https://www.zhipin.com/zhaopin/c84a67436c9c96e703F73NS1GA~~/',verified:false},
-  {id:'16',title:'软件研发负责人',company:'绿联科技',salaryMin:70,salaryMax:100,salaryText:'70–100K',district:'深圳',industry:'消费电子',experience:'10年以上',education:'本科',skills:['团队管理','软件架构','技术决策'],sourceUrl:'https://www.zhipin.com/zhaopin/d181d52aa56fc88a0nV52dm9Fw~~/',verified:false},
+export type DemoRole = (typeof demoSource.roleSignals)[number];
+export type DemoGrowthPath = (typeof demoSource.growthPaths)[number];
+
+const normalizeJob = (job: (typeof verifiedSource)[number] | (typeof candidateSource)[number]): Job => ({
+  ...job,
+  salaryBand: job.salaryBand as SalaryBand,
+  evidenceLevel: job.evidenceLevel as EvidenceLevel,
+  status: job.status as 'verified' | 'candidate',
+  requirementText: job.requirementText ?? '',
+  capturedAt: job.capturedAt,
+});
+
+export const verifiedJobs = verifiedSource.map(normalizeJob);
+export const candidateJobs = candidateSource.map(normalizeJob);
+export const realJobs = [...verifiedJobs, ...candidateJobs];
+export const demoData = demoSource;
+
+export const capturedAt = realJobs
+  .map(job => job.capturedAt)
+  .sort()
+  .at(-1) ?? '2026-07-12';
+
+export const realEvidence = {
+  total: realJobs.length,
+  verified: verifiedJobs.length,
+  listingObserved: candidateJobs.length,
+  companies: new Set(realJobs.map(job => job.company)).size,
+};
+
+const familyRules: Array<{name: string; pattern: RegExp}> = [
+  {name: '机器人与强化学习', pattern: /强化学习|机器人|具身|运动控制|运控/i},
+  {name: '语音与音频', pattern: /语音|音频|声学|听器/i},
+  {name: '计算机视觉', pattern: /图像|视觉|CV|ISP|多模态|图形算法/i},
+  {name: '量化与金融 AI', pattern: /量化|金融|投研|交易/i},
+  {name: '搜索推荐与商业化', pattern: /推荐|搜索|广告|商业化/i},
+  {name: 'AI 产品与应用', pattern: /产品|Agent|大模型|AI应用|人工智能应用/i},
+  {name: '通用 AI 与深度学习', pattern: /AI|ai|算法|深度学习|机器学习|NLP/i},
+  {name: '用户与增长研究', pattern: /用户|增长|运营|市场/i},
 ];
 
-export const capturedAt = '2026-07-12';
+export function getRoleFamily(job: Pick<Job, 'title' | 'descriptionExcerpt'>) {
+  const haystack = `${job.title} ${job.descriptionExcerpt}`;
+  return familyRules.find(rule => rule.pattern.test(haystack))?.name ?? '技术与专业岗位';
+}
+
+export type RealRoleFamily = {
+  name: string;
+  count: number;
+  companies: number;
+  salaryMin: number;
+  salaryMax: number;
+  salaryMedianMid: number;
+  verified: number;
+  jobs: Job[];
+};
+
+function median(values: number[]) {
+  const sorted = [...values].sort((a, b) => a - b);
+  const middle = Math.floor(sorted.length / 2);
+  return sorted.length % 2 ? sorted[middle] : (sorted[middle - 1] + sorted[middle]) / 2;
+}
+
+export const realRoleFamilies: RealRoleFamily[] = Object.entries(
+  realJobs.reduce<Record<string, Job[]>>((groups, job) => {
+    const family = getRoleFamily(job);
+    groups[family] = [...(groups[family] ?? []), job];
+    return groups;
+  }, {}),
+).map(([name, jobs]) => ({
+  name,
+  count: jobs.length,
+  companies: new Set(jobs.map(job => job.company)).size,
+  salaryMin: Math.min(...jobs.map(job => job.salaryMin)),
+  salaryMax: Math.max(...jobs.map(job => job.salaryMax)),
+  salaryMedianMid: median(jobs.map(job => (job.salaryMin + job.salaryMax) / 2)),
+  verified: jobs.filter(job => job.status === 'verified').length,
+  jobs,
+})).sort((a, b) => b.count - a.count);
+
+const skillRules: Array<{name: string; pattern: RegExp}> = [
+  {name: 'Python', pattern: /Python/i},
+  {name: 'C++', pattern: /C\+\+/i},
+  {name: '深度学习', pattern: /深度学习|TensorFlow|PyTorch|CNN|RNN|DNN/i},
+  {name: '大模型与 Agent', pattern: /大模型|Agent|MCP|Function.?Calling|ReAct|CoT/i},
+  {name: '强化学习', pattern: /强化学习|PPO|SAC|DDPG|DQN|GRPO|DPO/i},
+  {name: '工程部署', pattern: /部署|算力|延迟|功耗|性能优化|工程化/i},
+  {name: '数据与评测', pattern: /数据集|数据分析|评测|指标|实验/i},
+  {name: '行业经验', pattern: /行业|医疗|金融|硬件|机器人|消费电子/i},
+  {name: '跨团队协作', pattern: /协同|跨团队|对接业务|推动|项目/i},
+  {name: '团队与路线责任', pattern: /主导|负责人|团队管理|技术路线|战略/i},
+  {name: '语音与信号处理', pattern: /语音|音频|声学|信号处理|FFT/i},
+  {name: '计算机视觉', pattern: /计算机视觉|图像|CV|多模态|ISP/i},
+];
+
+export type SkillStat = {name: string; count: number; jobs: Job[]};
+
+export const verifiedSkillStats: SkillStat[] = skillRules.map(rule => {
+  const jobs = verifiedJobs.filter(job => rule.pattern.test(`${job.title} ${job.requirementText} ${job.descriptionExcerpt}`));
+  return {name: rule.name, count: jobs.length, jobs};
+}).filter(skill => skill.count > 0).sort((a, b) => b.count - a.count);
+
+export const verifiedSkillPairs = verifiedSkillStats.flatMap((left, leftIndex) =>
+  verifiedSkillStats.slice(leftIndex + 1).map(right => ({
+    pair: [left.name, right.name] as [string, string],
+    count: verifiedJobs.filter(job => {
+      const text = `${job.title} ${job.requirementText} ${job.descriptionExcerpt}`;
+      const leftRule = skillRules.find(rule => rule.name === left.name)!;
+      const rightRule = skillRules.find(rule => rule.name === right.name)!;
+      return leftRule.pattern.test(text) && rightRule.pattern.test(text);
+    }).length,
+  })),
+).filter(pair => pair.count > 0).sort((a, b) => b.count - a.count);
+
+export const districtOptions = [...new Set(realJobs.map(job => job.district))].filter(Boolean).sort();
+export const industryOptions = [...new Set(realJobs.map(job => job.industry))].filter(Boolean).sort();
+
+export function salaryBandFromMid(job: Pick<Job, 'salaryMin' | 'salaryMax'>): SalaryBand {
+  const middle = (job.salaryMin + job.salaryMax) / 2;
+  if (middle < 40) return '30K';
+  if (middle < 75) return '50K';
+  return '100K';
+}
