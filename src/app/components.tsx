@@ -29,7 +29,6 @@ export function ArrowButton({href, children, tone = 'dark'}: {href: string; chil
 export function Header({page}: {page: PageKey}) {
   const [open, setOpen] = useState(false);
   const triggerRef = useRef<HTMLButtonElement>(null);
-  const closeRef = useRef<HTMLButtonElement>(null);
   const sheetRef = useRef<HTMLDivElement>(null);
   const wasOpen = useRef(false);
   useEffect(() => {
@@ -43,7 +42,7 @@ export function Header({page}: {page: PageKey}) {
       return;
     }
     wasOpen.current = true;
-    const focusTimer = window.setTimeout(() => closeRef.current?.focus(), 80);
+    const focusTimer = window.setTimeout(() => sheetRef.current?.querySelector<HTMLAnchorElement>('a[href]')?.focus(), 280);
     const onKeyDown = (event: KeyboardEvent) => {
       if (event.key === 'Escape') {
         event.preventDefault();
@@ -84,13 +83,13 @@ export function Header({page}: {page: PageKey}) {
           <TextRoll>查看真实岗位</TextRoll>
           <span><ArrowUpRight aria-hidden="true" /></span>
         </a>
-        <button ref={triggerRef} className="mobile-menu-trigger" type="button" onClick={() => setOpen(true)} aria-label="打开导航" aria-expanded={open}><Menu /></button>
+        <button ref={triggerRef} className="mobile-menu-trigger" type="button" onClick={() => setOpen(value => !value)} aria-label={open ? '关闭导航' : '打开导航'} aria-expanded={open} aria-controls="mobile-navigation-panel">{open ? <X /> : <Menu />}</button>
       </div>
     </header>
     <div className={`mobile-menu-layer ${open ? 'is-open' : ''}`} aria-hidden={!open}>
       <button className="mobile-menu-backdrop" type="button" onClick={() => setOpen(false)} aria-label="关闭导航" />
-      <div ref={sheetRef} className="mobile-menu-sheet" role="dialog" aria-modal="true" aria-label="移动导航" onTransitionEnd={() => { if (open) closeRef.current?.focus(); }}>
-        <div className="mobile-menu-head"><span>选择你现在想研究的问题</span><button ref={closeRef} type="button" onClick={() => setOpen(false)} aria-label="关闭导航"><X /></button></div>
+      <div id="mobile-navigation-panel" ref={sheetRef} className="mobile-menu-sheet" role="dialog" aria-modal="true" aria-label="移动导航">
+        <div className="mobile-menu-head"><span>选择你现在想研究的问题</span></div>
         <nav>{navItems.map(item => <a key={item.key} href={item.href}>{item.label}<ArrowUpRight /></a>)}</nav>
         <ArrowButton href="jobs.html" tone="dark">查看真实岗位</ArrowButton>
       </div>

@@ -1,4 +1,4 @@
-import React, {useEffect, useMemo, useRef, useState} from 'react';
+import React, {useEffect, useMemo, useState} from 'react';
 import {ArrowRight, ArrowUpRight, ChevronDown, ChevronLeft, ChevronRight, Database, ExternalLink, Filter, Search, Sparkles} from 'lucide-react';
 import {
   candidateJobs,
@@ -29,7 +29,14 @@ import {
   InnerHero,
   type DataMode,
 } from './components';
-import type {OpportunityPoint} from './opportunity-chart';
+
+type OpportunityPoint = {
+  name: string;
+  demand: number;
+  salaryMax: number;
+  count: number;
+  threshold: string;
+};
 
 function DemoFlag() {
   return <span className="demo-flag">演示数据</span>;
@@ -186,21 +193,34 @@ export function BenchmarkPage() {
   </main>;
 }
 
-function OpportunityChart({points, isDemo}: {points: OpportunityPoint[]; isDemo: boolean}) {
-  const ref = useRef<HTMLDivElement>(null);
-  useEffect(() => {
-    let disposed = false;
-    let chart: {resize: () => void; dispose: () => void} | undefined;
-    let observer: ResizeObserver | undefined;
-    void import('./opportunity-chart').then(({createOpportunityChart}) => {
-      if (disposed || !ref.current) return;
-      chart = createOpportunityChart(ref.current, points, isDemo);
-      observer = new ResizeObserver(() => chart?.resize());
-      observer.observe(ref.current);
-    });
-    return () => { disposed = true; observer?.disconnect(); chart?.dispose(); };
-  }, [points, isDemo]);
-  return <div ref={ref} className="opportunity-chart" role="img" aria-label="横轴为市场需求，纵轴为薪资上限，气泡大小代表岗位样本数量，颜色和形状共同表示能力门槛" />;
+type OpportunitySort = 'balanced' | 'demand' | 'salary';
+
+function OpportunityBoard({points, isDemo}: {points: OpportunityPoint[]; isDemo: boolean}) {
+  const [sortBy, setSortBy] = useState<OpportunitySort>('balanced');
+  const ranked = useMemo(() => [...points].sort((a, b) => {
+    if (sortBy === 'demand') return b.demand - a.demand;
+    if (sortBy === 'salary') return b.salaryMax - a.salaryMax;
+    const score = (point: OpportunityPoint) => point.demand * .55 + Math.min(point.salaryMax / 150, 1) * 45;
+    return score(b) - score(a);
+  }), [points, sortBy]);
+  return <div className="opportunity-board" aria-label="岗位机会对比榜">
+    <div className="opportunity-controls" role="group" aria-label="机会榜排序方式">
+      <span>先看什么</span>
+      <button type="button" className={sortBy === 'balanced' ? 'active' : ''} aria-pressed={sortBy === 'balanced'} onClick={() => setSortBy('balanced')}>综合参考</button>
+      <button type="button" className={sortBy === 'demand' ? 'active' : ''} aria-pressed={sortBy === 'demand'} onClick={() => setSortBy('demand')}>岗位更多</button>
+      <button type="button" className={sortBy === 'salary' ? 'active' : ''} aria-pressed={sortBy === 'salary'} onClick={() => setSortBy('salary')}>薪资更高</button>
+    </div>
+    <div className="opportunity-column-head" aria-hidden="true"><span>岗位方向</span><span>需求信号（0-100）</span><span>薪资上限</span><span>样本</span></div>
+    <ol className="opportunity-list">
+      {ranked.map((point, index) => <li key={point.name}>
+        <span className="opportunity-rank">{String(index + 1).padStart(2, '0')}</span>
+        <div className="opportunity-name"><strong>{point.name}</strong><span data-threshold={point.threshold}>{point.threshold}门槛</span></div>
+        <div className="demand-meter"><span><i style={{transform: `scaleX(${Math.max(point.demand, 4) / 100})`}} /></span><b>{point.demand}<small>/100</small></b></div>
+        <div className="opportunity-salary"><strong>{point.salaryMax}K</strong><span>/月上限</span></div>
+        <div className="opportunity-count"><strong>{point.count}</strong><span>{isDemo ? '个假设岗位' : '条真实岗位'}</span></div>
+      </li>)}
+    </ol>
+  </div>;
 }
 
 export function GrowthPage() {
@@ -211,12 +231,12 @@ export function GrowthPage() {
   const maxRealCount = Math.max(...realRoleFamilies.map(role => role.count), 1);
   const realPoints = useMemo<OpportunityPoint[]>(() => realRoleFamilies.map(role => ({name: role.name, demand: Math.round((role.count / maxRealCount) * 85), salaryMax: role.salaryMax, count: role.count, threshold: role.salaryMax >= 100 ? '极高' : role.salaryMax >= 70 ? '高' : '中高'})), [maxRealCount]);
   return <main id="main" className="inner-main">
-    <InnerHero eyebrow="趋势预判" title="把需求、薪资和能力门槛放在同一张图上。" lead="先找到机会位置，再看从 30K 到 50K、100K 需要补什么。" mode={mode} onModeChange={setMode} />
+    <InnerHero eyebrow="趋势预判" title="把需求、薪资和能力门槛放在同一套比较里。" lead="先找到机会位置，再看从 30K 到 50K、100K 需要补什么。" mode={mode} onModeChange={setMode} />
     <div className="content-shell"><DataNotice mode={mode} />
-      <section className="map-section"><div className="map-head"><div><h2>机会地图</h2><p>{mode === 'demo' ? '完整交互使用结构假设，便于判断气泡图是否值得保留。' : '基于当前岗位数量和薪资的截面比较，不表达历史涨跌。'}</p></div><span>{mode === 'demo' ? '结构假设' : '真实样本'}</span></div><OpportunityChart points={mode === 'demo' ? demoPoints : realPoints} isDemo={mode === 'demo'} /><div className="chart-legend" aria-label="能力门槛图例"><span><i data-shape="circle" />中</span><span><i data-shape="diamond" />中高</span><span><i data-shape="square" />高</span><span><i data-shape="triangle" />极高</span></div><p className="chart-summary">横轴越右，样本需求越集中；纵轴越高，原始薪资上限越高；气泡越大，岗位样本越多。颜色与形状同时区分能力门槛。</p></section>
+      <section className="map-section"><div className="map-head"><div><h2>机会排序</h2><p>{mode === 'demo' ? '把岗位数量、薪资上限和能力门槛拆开比较，不再要求读者理解气泡坐标。' : '基于当前岗位数量和薪资的截面比较，不表达历史涨跌。'}</p></div><span>{mode === 'demo' ? '结构假设' : '真实样本'}</span></div><OpportunityBoard points={mode === 'demo' ? demoPoints : realPoints} isDemo={mode === 'demo'} /><p className="chart-summary">“综合参考”同时考虑当前需求与薪资上限；你也可以单独按岗位数量或薪资排序。能力门槛直接写在岗位旁边，不再只靠颜色判断。</p></section>
       {mode === 'demo' ? <section className="growth-path-section"><div className="path-selector" role="group" aria-label="成长路径方向">{demoData.growthPaths.map((path, index) => <button key={path.role} className={index === pathIndex ? 'active' : ''} aria-pressed={index === pathIndex} onClick={() => setPathIndex(index)}>{path.role}</button>)}</div><div className="growth-path-head"><h2>{demoPath.role}的能力升档</h2><DemoFlag /></div><div className="growth-lane">{demoPath.stages.map(stage => <article key={stage.band}><span>{stage.band}</span><h3>{stage.title}</h3><div>{stage.skills.map(skill => <small key={skill}>{skill}</small>)}</div></article>)}</div></section> : <section className="real-paths"><h2>真实数据能支持到哪一步？</h2><p>{realAnalysis.timeSeries.statement} 以下只展示不同薪资档的样本分布，不把它解释成必然晋升路线。</p><div>{realRoleFamilies.slice(0, 6).map(role => <article key={role.name}><h3>{role.name}</h3><p>{role.count} 条岗位，薪资 {role.salaryMin}-{role.salaryMax}K</p><div className="band-dots">{(['30K', '50K', '100K'] as const).map(band => <span key={band} className={role.jobs.some(job => salaryBandFromMid(job) === band) ? 'has-data' : ''}>{band}</span>)}</div></article>)}</div></section>}
       {mode === 'real' && <section className="expansion-section"><div className="expansion-head"><div><p className="eyebrow">同一快照的多岗位信号</p><h2>哪些企业一次出现了多个高薪岗位？</h2></div><p>这里只能说明同一采集批次里的岗位聚集，不能称为持续扩招。下一次快照出现后才判断是否反复招聘。</p></div><div className="expansion-list">{realAnalysis.expansionSignals.map(signal => <article key={signal.company}><div><strong>{signal.company}</strong><span>{signal.jobCount} 条岗位，{signal.distinctTitles} 个不同名称</span></div><div>{signal.evidenceJobs.slice(0, 3).map(job => <a key={job.id} href={job.sourceUrl} target="_blank" rel="noreferrer"><span>{job.title}</span><small>{job.salaryText}</small><ExternalLink /></a>)}</div></article>)}</div></section>}
-      <section className="plain-callout"><div><h2>气泡图只负责找到方向。</h2><p>最后仍要回到具体公司、真实薪资和岗位要求，确认这个方向是否适合继续研究。</p></div><ArrowButton href="jobs.html" tone="dark">打开岗位证据</ArrowButton></section>
+      <section className="plain-callout"><div><h2>机会排序只负责找到方向。</h2><p>最后仍要回到具体公司、真实薪资和岗位要求，确认这个方向是否适合继续研究。</p></div><ArrowButton href="jobs.html" tone="dark">打开岗位证据</ArrowButton></section>
     </div>
   </main>;
 }
