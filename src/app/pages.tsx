@@ -1,5 +1,5 @@
 import React, {useEffect, useMemo, useRef, useState} from 'react';
-import {ArrowRight, ArrowUpRight, ChevronDown, Database, ExternalLink, Filter, Search, Sparkles} from 'lucide-react';
+import {ArrowRight, ArrowUpRight, ChevronDown, ChevronLeft, ChevronRight, Database, ExternalLink, Filter, Search, Sparkles} from 'lucide-react';
 import {
   candidateJobs,
   capturedAt,
@@ -212,11 +212,13 @@ function JobCard({job}: {job: Job}) {
 }
 
 export function JobsPage() {
+  const pageSize = 12;
   const [query, setQuery] = useState('');
   const [industry, setIndustry] = useState('全部行业');
   const [district, setDistrict] = useState('全部区域');
   const [band, setBand] = useState('全部薪资');
   const [sort, setSort] = useState<SortMode>('salary-desc');
+  const [page, setPage] = useState(1);
   const filteredJobs = useMemo(() => realJobs.filter(job => {
     const matchesQuery = !query || `${job.title} ${job.company}`.toLowerCase().includes(query.toLowerCase());
     const matchesIndustry = industry === '全部行业' || job.industry === industry;
@@ -224,6 +226,17 @@ export function JobsPage() {
     const matchesBand = band === '全部薪资' || salaryBandFromMid(job) === band;
     return matchesQuery && matchesIndustry && matchesDistrict && matchesBand;
   }).sort((a, b) => sort === 'salary-desc' ? b.salaryMax - a.salaryMax : sort === 'salary-asc' ? a.salaryMin - b.salaryMin : new Date(b.capturedAt).getTime() - new Date(a.capturedAt).getTime()), [query, industry, district, band, sort]);
+  const totalPages = Math.max(1, Math.ceil(filteredJobs.length / pageSize));
+  const safePage = Math.min(page, totalPages);
+  const visibleJobs = filteredJobs.slice((safePage - 1) * pageSize, safePage * pageSize);
+  useEffect(() => setPage(1), [query, industry, district, band, sort]);
+  useEffect(() => {
+    if (page > totalPages) setPage(totalPages);
+  }, [page, totalPages]);
+  const changePage = (nextPage: number) => {
+    setPage(nextPage);
+    document.querySelector('.job-result-head')?.scrollIntoView({behavior: 'smooth', block: 'start'});
+  };
   return <main id="main" className="inner-main jobs-page">
     <InnerHero eyebrow="岗位证据库" title="薪资看原始区间，来源直达具体公司岗位。" lead="统计档位只服务图表，岗位库始终保留 Boss 展示的真实薪资。" />
     <div className="content-shell"><aside className="data-notice real-notice"><div><Database /><strong>这里只展示真实岗位</strong></div><p>演示数据不会进入岗位库。当前共 {realEvidence.total} 条，其中 {realEvidence.verified} 条保存了详情页要求。</p></aside>
@@ -231,8 +244,13 @@ export function JobsPage() {
         <label className="search-field"><span>搜索岗位或公司</span><div><Search /><input value={query} onChange={event => setQuery(event.target.value)} placeholder="例如：AI、vivo" /></div></label>
         <div className="filter-fields"><label><span>行业</span><select value={industry} onChange={event => setIndustry(event.target.value)}><option>全部行业</option>{industryOptions.map(item => <option key={item}>{item}</option>)}</select></label><label><span>区域</span><select value={district} onChange={event => setDistrict(event.target.value)}><option>全部区域</option>{districtOptions.map(item => <option key={item}>{item}</option>)}</select></label><label><span>薪资</span><select value={band} onChange={event => setBand(event.target.value)}><option>全部薪资</option><option>30K</option><option>50K</option><option>100K</option></select></label><label><span>排序</span><select value={sort} onChange={event => setSort(event.target.value as SortMode)}><option value="salary-desc">薪资上限从高到低</option><option value="salary-asc">薪资下限从低到高</option><option value="recent">采集时间从新到旧</option></select></label></div>
       </section>
-      <div className="job-result-head"><p><Filter /> 找到 <strong>{filteredJobs.length}</strong> 条岗位</p><span>{verifiedJobs.length} 条详情核验，{candidateJobs.length} 条列表观察</span></div>
-      <section className="job-list">{filteredJobs.length ? filteredJobs.map(job => <JobCard key={job.id} job={job} />) : <div className="empty-results"><Search /><h2>没有匹配的岗位</h2><p>试着放宽行业、区域或薪资条件。</p></div>}</section>
+      <div className="job-result-head"><p><Filter /> 找到 <strong>{filteredJobs.length}</strong> 条岗位</p><span>{filteredJobs.length ? `第 ${safePage}/${totalPages} 页 · 每页最多 ${pageSize} 条` : '当前筛选没有结果'}</span></div>
+      <section className="job-list">{filteredJobs.length ? visibleJobs.map(job => <JobCard key={job.id} job={job} />) : <div className="empty-results"><Search /><h2>没有匹配的岗位</h2><p>试着放宽行业、区域或薪资条件。</p></div>}</section>
+      {filteredJobs.length > pageSize && <nav className="job-pagination" aria-label="岗位结果分页">
+        <button type="button" onClick={() => changePage(safePage - 1)} disabled={safePage === 1}><ChevronLeft aria-hidden="true" />上一页</button>
+        <p><strong>{safePage}</strong><span>/ {totalPages}</span></p>
+        <button type="button" onClick={() => changePage(safePage + 1)} disabled={safePage === totalPages}>下一页<ChevronRight aria-hidden="true" /></button>
+      </nav>}
     </div>
   </main>;
 }

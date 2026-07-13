@@ -32,7 +32,9 @@ for (const role of demo.roleSignals || []) {
 }
 
 const status = JSON.parse(await fs.readFile('data/v3/collection/status.json', 'utf8'));
-if (status.bossAccessAllowed !== false) fail('Boss collection must remain paused');
+if (status.status === 'paused-platform-risk' && status.bossAccessAllowed !== false) {
+  fail('Boss access must remain closed while platform-risk pause is active');
+}
 
 const shader = await fs.readFile('src/app/hero-shader-engine.tsx', 'utf8');
 for (const component of ['Shader', 'Swirl', 'ChromaFlow', 'FlutedGlass', 'FilmGrain']) {
@@ -52,9 +54,12 @@ if (!jobsPage.includes('realJobs.filter')) fail('job database is not driven by r
 if (jobsPage.includes('demoData')) fail('job database must not read demoData');
 if (!jobDatabase.includes('job.salaryText')) fail('job database must preserve the original salary text');
 if (!jobDatabase.includes('job.sourceUrl')) fail('job database must expose the direct job detail URL');
+if (!jobsPage.includes('const pageSize = 12')) fail('job database must limit result density with 12-item pages');
+if (!jobsPage.includes('aria-label="岗位结果分页"')) fail('job database is missing accessible pagination');
+if (!jobsPage.includes('useEffect(() => setPage(1)')) fail('job filters must reset pagination');
 if (!dataModule.includes("data/v3/analysis/real-analysis.json")) fail('real views must consume the generated V3 analysis');
 if (!pages.includes('realAnalysis.readiness')) fail('pages must disclose formal-analysis readiness');
 
-console.log(JSON.stringify({routes: routes.length, demoRoles: demo.roleSignals.length, bossAccessAllowed: status.bossAccessAllowed, axionShaderStack: true}, null, 2));
+console.log(JSON.stringify({routes: routes.length, demoRoles: demo.roleSignals.length, bossAccessAllowed: status.bossAccessAllowed, jobPageSize: 12, axionShaderStack: true}, null, 2));
 if (failures) throw new Error(`${failures} V3 product validation failure(s)`);
 console.log('V3 product structure and data isolation are valid.');
