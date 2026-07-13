@@ -1,21 +1,19 @@
 # Design QA
 
-Source: `codex-clipboard-9f20413c-a7cf-4e5c-8360-c6aa52ebfca3.png`
-Implementation: local Vite build at the same desktop viewport, plus 390 × 844 mobile checks.
+Source static state: `C:/Users/27134/AppData/Local/Temp/codex-clipboard-fe734f17-59e4-4338-b3e4-182fcb095de7.png`
+
+Source active state: `C:/Users/27134/AppData/Local/Temp/codex-clipboard-123e7248-12af-4f59-9f5f-3fab5c5a65cf.png`
+
+Implementation static state: `C:/Users/27134/AppData/Local/Temp/shenzhen-hero-static-mobile-final.png`
 
 ## Comparison
 
-- Navigation: passed. The white pill navigation, dark action, restrained orange marker, spacing and hierarchy match the selected direction.
-- Hero composition: passed after revision. The headline is held to two lines on wide desktop, the abstract orange glass asset occupies the right side, and the left remains readable.
-- Density: passed. The first screen keeps one question, one short explanation, one action and three salary summaries. Deeper evidence moves below the fold.
-- Color and type: passed. White/light-neutral field, dark indigo structure and orange opportunity signals remain consistent; display tracking stays above the `-0.04em` floor.
-- Mobile: passed. At 390 × 844 the hero, salary summaries, evidence overview, growth selector and job filters reflow without horizontal page overflow.
-- Interaction: passed. Navigation, mobile menu, growth-family selection, job filters, job expansion, pagination and direct Boss links work.
-- Accessibility: passed with documented limits. Keyboard focus is visible, controls are labelled, touch targets meet the intended size, reduced motion is supported, and the chart has a text alternative.
-
-## Remaining P3 notes
-
-- The generated glass installation is intentionally not a literal copy of the reference asset; it preserves the same material, balance and orange/white direction without reusing the source artwork.
-- Browser-native select styling varies slightly between operating systems.
+- Static material: passed. The diagonal fluted structure is visible before interaction at a restrained opacity; the headline remains the first visual priority.
+- Active material: passed. The existing ChromaFlow interaction and saturated orange, pink, violet and cyan palette remain intact.
+- Flute width: passed. Shader frequency changed from 16 to 11, making each interactive flute approximately 45% wider; the persistent layer uses the same broad visual rhythm.
+- Responsive behavior: passed. The persistent flute period scales with `clamp()` so mobile and desktop do not produce an excessive number of thin stripes.
+- Readability: passed. The lower white fade and content overlays preserve contrast for the headline, description and actions.
+- Performance and accessibility: passed. The static state is a lightweight CSS material layer, the existing WebGL interaction remains lazy-loaded, and reduced-motion behavior is unchanged.
+- Validation: passed. TypeScript and production build both complete successfully; 393 x 852 and 1440 x 900 screenshots were reviewed.
 
 final result: passed
