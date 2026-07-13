@@ -4,6 +4,16 @@
   "bossCityCode": "101280600",
   "discoveryTarget": 300,
   "verifiedDetailTarget": 150,
+  "salaryBandTargets": {
+    "30K": 50,
+    "50K": 50,
+    "100K": 50
+  },
+  "verifiedDetailBandTargets": {
+    "30K": 50,
+    "50K": 50,
+    "100K": 50
+  },
   "emergingRoleTarget": 30,
   "benchmarkRoleDetailTarget": 50,
   "lanes": [

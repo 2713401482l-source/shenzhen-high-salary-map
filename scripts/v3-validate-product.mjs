@@ -71,6 +71,8 @@ if (!jobsPage.includes('useEffect(() => setPage(1)')) fail('job filters must res
 if (!dataModule.includes("data/v3/analysis/real-analysis.json")) fail('real views must consume the generated V3 analysis');
 if (!pages.includes('realAnalysis.readiness')) fail('pages must disclose formal-analysis readiness');
 if (!pages.includes('realAnalysis.marketProfile')) fail('trends page must expose the real market profile');
+if (!dataModule.includes('data/v3/collection/gap-report.json')) fail('method page must consume the generated collection gap report');
+if (!pages.includes('collectionGapReport.salaryBands')) fail('method page must disclose salary-band data gaps');
 for (const profileKey of ['salaryBands', 'industries', 'districts', 'experience', 'education']) {
   if (!pages.includes(`key: '${profileKey}'`)) fail(`market profile is missing ${profileKey}`);
 }

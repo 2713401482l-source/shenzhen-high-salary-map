@@ -3,6 +3,7 @@ import {ArrowRight, ArrowUpRight, ChevronDown, ChevronLeft, ChevronRight, Databa
 import {
   candidateJobs,
   capturedAt,
+  collectionGapReport,
   demoData,
   districtOptions,
   industryOptions,
@@ -288,6 +289,7 @@ export function MethodPage() {
     <div className="content-shell method-content">
       <section className="method-levels"><article><span className="evidence-flag">详情已核验</span><h2>{verifiedJobs.length} 条</h2><p>保存了岗位详情要求，可用于能力词频和原文核验。</p></article><article><span className="listing-flag">列表页观察</span><h2>{candidateJobs.length} 条</h2><p>保存了岗位、公司和薪资，可用于发现岗位，不能进入正式能力占比。</p></article><article><DemoFlag /><h2>{demoData.roleSignals.length} 个方向</h2><p>完全独立的结构假设，只用于评判页面逻辑，不进入任何正式统计。</p></article></section>
       <section className="readiness-section"><div><p className="eyebrow">正式版进度</p><h2>哪些结论已经能说，哪些还不能？</h2><p>达到门槛的模块才会从结构演示切换为默认真实证据。</p></div><div className="readiness-list">{readinessItems.map(item => <article key={item.label}><div><strong>{item.label}</strong><span>{item.actual}/{item.target} {item.unit}</span></div><progress value={item.actual} max={item.target} aria-label={`${item.label}：${item.actual}/${item.target} ${item.unit}`} /></article>)}</div></section>
+      <section className="band-readiness"><div className="band-readiness-head"><p className="eyebrow">三档数据缺口</p><h2>有岗位，不等于已经能拆能力。</h2><p>总样本用于观察岗位数量和薪资结构；只有保存了详情要求的岗位，才能进入能力组合、精准对标和成长路径分析。</p></div><div className="band-readiness-grid">{collectionGapReport.salaryBands.map(item => <article key={item.band}><strong>{item.band}</strong><div><span>总样本</span><b>{item.actual}/{item.target}</b><progress value={item.actual} max={item.target} aria-label={`${item.band} 总样本：${item.actual}/${item.target}`} /></div><div><span>详情证据</span><b>{item.detailActual}/{item.detailTarget}</b><progress value={item.detailActual} max={item.detailTarget} aria-label={`${item.band} 详情证据：${item.detailActual}/${item.detailTarget}`} /></div></article>)}</div></section>
       <section className="method-rules"><h2>页面如何避免混淆</h2><div><article><strong>默认分组</strong><p>所有分析页都有“结构演示 / 真实证据”切换，两组不在同一张图里叠加。</p></article><article><strong>统计隔离</strong><p>真实样本量只从 verified.json 与 candidates.json 计算，演示文件标记 excludedFromFormalStats。</p></article><article><strong>来源隔离</strong><p>真实岗位链接直达 Boss 岗位详情。演示数据不生成公司名，不生成虚构岗位链接。</p></article><article><strong>结论降级</strong><p>没有 50 条同岗需求时，单岗对标显示空状态，不把邻近岗位硬拼成正式结论。</p></article></div></section>
       <section className="method-boundary"><h2>当前数据边界</h2><p>最近一次真实采集时间：{new Date(capturedAt).toLocaleString('zh-CN')}。当前账号触发平台风控，采集已经停止。现有样本明显偏 AI、算法、机器人和技术岗位，因此不能代表深圳全行业高薪市场，也不能表达薪资历史涨跌。</p><a href="jobs.html">查看全部真实样本 <ArrowRight /></a></section>
     </div>

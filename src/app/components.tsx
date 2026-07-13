@@ -89,7 +89,7 @@ export function Header({page}: {page: PageKey}) {
     </header>
     <div className={`mobile-menu-layer ${open ? 'is-open' : ''}`} aria-hidden={!open}>
       <button className="mobile-menu-backdrop" type="button" onClick={() => setOpen(false)} aria-label="关闭导航" />
-      <div ref={sheetRef} className="mobile-menu-sheet" role="dialog" aria-modal="true" aria-label="移动导航">
+      <div ref={sheetRef} className="mobile-menu-sheet" role="dialog" aria-modal="true" aria-label="移动导航" onTransitionEnd={() => { if (open) closeRef.current?.focus(); }}>
         <div className="mobile-menu-head"><span>选择你现在想研究的问题</span><button ref={closeRef} type="button" onClick={() => setOpen(false)} aria-label="关闭导航"><X /></button></div>
         <nav>{navItems.map(item => <a key={item.key} href={item.href}>{item.label}<ArrowUpRight /></a>)}</nav>
         <ArrowButton href="jobs.html" tone="dark">查看真实岗位</ArrowButton>

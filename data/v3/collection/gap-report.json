@@ -1,0 +1,238 @@
+{
+  "metadata": {
+    "dataKind": "collection-gap-report",
+    "generatedFromLatestCapture": "2026-07-12T21:13:54.464Z",
+    "bossAccessAllowed": false,
+    "sourceFiles": [
+      "data/v3/config/collection-plan.json",
+      "data/v3/collection/query-queue.json",
+      "data/jobs/candidates.json",
+      "data/jobs/verified.json",
+      "data/v3/analysis/real-analysis.json"
+    ]
+  },
+  "totals": {
+    "discovery": {
+      "actual": 71,
+      "target": 300,
+      "gap": 229
+    },
+    "detailEvidence": {
+      "actual": 7,
+      "target": 150,
+      "gap": 143
+    },
+    "assignedToV3Queue": 0,
+    "legacyUnassigned": 71
+  },
+  "salaryBands": [
+    {
+      "band": "30K",
+      "actual": 32,
+      "target": 50,
+      "gap": 18,
+      "detailActual": 0,
+      "detailTarget": 50,
+      "detailGap": 50
+    },
+    {
+      "band": "50K",
+      "actual": 32,
+      "target": 50,
+      "gap": 18,
+      "detailActual": 0,
+      "detailTarget": 50,
+      "detailGap": 50
+    },
+    {
+      "band": "100K",
+      "actual": 7,
+      "target": 50,
+      "gap": 43,
+      "detailActual": 7,
+      "detailTarget": 50,
+      "detailGap": 43
+    }
+  ],
+  "lanes": [
+    {
+      "id": "overseas-growth",
+      "label": "海外与跨境增长",
+      "actual": 0,
+      "target": 45,
+      "gap": 45,
+      "queriesCaptured": 0,
+      "queriesTotal": 9
+    },
+    {
+      "id": "frontier-tech",
+      "label": "前沿技术研发",
+      "actual": 0,
+      "target": 45,
+      "gap": 45,
+      "queriesCaptured": 0,
+      "queriesTotal": 9
+    },
+    {
+      "id": "ai-application",
+      "label": "AI应用与工作流",
+      "actual": 0,
+      "target": 40,
+      "gap": 40,
+      "queriesCaptured": 0,
+      "queriesTotal": 8
+    },
+    {
+      "id": "product-commercialization",
+      "label": "产品与商业化",
+      "actual": 0,
+      "target": 35,
+      "gap": 35,
+      "queriesCaptured": 0,
+      "queriesTotal": 7
+    },
+    {
+      "id": "smart-manufacturing",
+      "label": "智能制造与供应链",
+      "actual": 0,
+      "target": 35,
+      "gap": 35,
+      "queriesCaptured": 0,
+      "queriesTotal": 8
+    },
+    {
+      "id": "industry-specialists",
+      "label": "行业复合型岗位",
+      "actual": 0,
+      "target": 35,
+      "gap": 35,
+      "queriesCaptured": 0,
+      "queriesTotal": 8
+    },
+    {
+      "id": "content-platform",
+      "label": "内容与平台运营",
+      "actual": 0,
+      "target": 30,
+      "gap": 30,
+      "queriesCaptured": 0,
+      "queriesTotal": 7
+    },
+    {
+      "id": "data-growth",
+      "label": "数据与增长运营",
+      "actual": 0,
+      "target": 30,
+      "gap": 30,
+      "queriesCaptured": 0,
+      "queriesTotal": 7
+    },
+    {
+      "id": "solution-sales",
+      "label": "解决方案与企业增长",
+      "actual": 0,
+      "target": 30,
+      "gap": 30,
+      "queriesCaptured": 0,
+      "queriesTotal": 7
+    },
+    {
+      "id": "brand-consumer",
+      "label": "品牌与新消费",
+      "actual": 0,
+      "target": 25,
+      "gap": 25,
+      "queriesCaptured": 0,
+      "queriesTotal": 7
+    }
+  ],
+  "benchmark": {
+    "role": "机器人强化学习与运动控制",
+    "detailActual": 3,
+    "detailTarget": 50,
+    "detailGap": 47,
+    "currentFamilyJobs": 25
+  },
+  "priorityQueries": [
+    {
+      "id": "overseas-growth-01",
+      "laneId": "overseas-growth",
+      "laneLabel": "海外与跨境增长",
+      "query": "海外运营",
+      "reason": "海外与跨境增长当前新队列归档 0/45 条"
+    },
+    {
+      "id": "frontier-tech-01",
+      "laneId": "frontier-tech",
+      "laneLabel": "前沿技术研发",
+      "query": "具身智能",
+      "reason": "前沿技术研发当前新队列归档 0/45 条"
+    },
+    {
+      "id": "ai-application-01",
+      "laneId": "ai-application",
+      "laneLabel": "AI应用与工作流",
+      "query": "AI产品经理",
+      "reason": "AI应用与工作流当前新队列归档 0/40 条"
+    },
+    {
+      "id": "product-commercialization-01",
+      "laneId": "product-commercialization",
+      "laneLabel": "产品与商业化",
+      "query": "商业化产品经理",
+      "reason": "产品与商业化当前新队列归档 0/35 条"
+    },
+    {
+      "id": "smart-manufacturing-01",
+      "laneId": "smart-manufacturing",
+      "laneLabel": "智能制造与供应链",
+      "query": "智能制造",
+      "reason": "智能制造与供应链当前新队列归档 0/35 条"
+    },
+    {
+      "id": "industry-specialists-01",
+      "laneId": "industry-specialists",
+      "laneLabel": "行业复合型岗位",
+      "query": "医疗AI",
+      "reason": "行业复合型岗位当前新队列归档 0/35 条"
+    },
+    {
+      "id": "content-platform-01",
+      "laneId": "content-platform",
+      "laneLabel": "内容与平台运营",
+      "query": "短视频运营",
+      "reason": "内容与平台运营当前新队列归档 0/30 条"
+    },
+    {
+      "id": "data-growth-01",
+      "laneId": "data-growth",
+      "laneLabel": "数据与增长运营",
+      "query": "数据策略",
+      "reason": "数据与增长运营当前新队列归档 0/30 条"
+    },
+    {
+      "id": "solution-sales-01",
+      "laneId": "solution-sales",
+      "laneLabel": "解决方案与企业增长",
+      "query": "解决方案架构师",
+      "reason": "解决方案与企业增长当前新队列归档 0/30 条"
+    },
+    {
+      "id": "brand-consumer-01",
+      "laneId": "brand-consumer",
+      "laneLabel": "品牌与新消费",
+      "query": "品牌策略",
+      "reason": "品牌与新消费当前新队列归档 0/25 条"
+    }
+  ],
+  "publicationBlockers": [
+    "30K 总样本还差 18 条",
+    "50K 总样本还差 18 条",
+    "100K 总样本还差 43 条",
+    "30K 详情证据还差 50 条",
+    "50K 详情证据还差 50 条",
+    "100K 详情证据还差 43 条",
+    "单岗对标“机器人强化学习与运动控制”还差 47 条详情证据",
+    "还缺至少一个不同日期的可比快照，不能判断薪资变化或持续扩招"
+  ]
+}
