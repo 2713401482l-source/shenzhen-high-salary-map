@@ -73,4 +73,3 @@ console.log(JSON.stringify({
 
 if (failures) throw new Error(`${failures} V3 data validation failure(s)`);
 console.log('V3 collection data is internally consistent.');
-
