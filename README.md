@@ -25,10 +25,14 @@ npm run dev
 npm run analysis:freeze
 npm run analysis:market
 npm run analysis:growth
+npm run v3:analyze
+npm run v3:analysis-check
 npm run verify
 ```
 
-`npm run verify` 会检查三层岗位数据、分析口径、TypeScript、生产构建和依赖安全。验证报告保存在 `data/analysis/validation-report.md`。
+`npm run v3:analyze` 会从真实岗位层生成 `data/v3/analysis/real-analysis.json`。新兴岗位、能力频率、能力共现、单岗对标准备度、企业重复招聘和时间快照资格都在这里统一计算，并保留对应岗位链接。演示数据不会进入这份产物。
+
+`npm run verify` 会检查三层岗位数据、V3 真实分析、演示数据隔离、页面结构、TypeScript、生产构建和依赖安全。验证报告保存在 `data/analysis/validation-report.md`，V3 页面验收记录保存在 `docs/v3/QA-V3.md`。
 
 ## 发布
 

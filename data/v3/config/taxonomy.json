@@ -1,0 +1,28 @@
+{
+  "roleRules": [
+    {"name": "机器人强化学习与运动控制", "pattern": "强化学习|运动控制|运控|具身|VLA|VLM|世界模型|人形机器人|机器人强化学习|planning"},
+    {"name": "AI Agent 与大模型应用", "pattern": "Agent|大模型|AI Coding|RAG|MCP|智能体"},
+    {"name": "语音、音频与信号算法", "pattern": "语音|音频|声学|助听器|信号处理"},
+    {"name": "计算机视觉与图形算法", "pattern": "图像|视觉|CV|ISP|图形|几何算法|有限单元"},
+    {"name": "量化与金融 AI", "pattern": "量化|金融|投资|基金|交易"},
+    {"name": "行业算法与智能硬件", "pattern": "BMS|呼吸算法|医疗|基因|嵌入式|算法部署|SLAM"},
+    {"name": "研究型 AI 岗位", "pattern": "研究员|博后|博士|科研"},
+    {"name": "用户与体验研究", "pattern": "用户体验|用户研究"},
+    {"name": "通用 AI 与算法工程", "pattern": "AI|ai|算法|深度学习|机器学习|NLP"}
+  ],
+  "skillRules": [
+    {"name": "Python", "category": "专业技能", "pattern": "Python"},
+    {"name": "C++", "category": "专业技能", "pattern": "C\\+\\+"},
+    {"name": "深度学习框架", "category": "AI 工具", "pattern": "TensorFlow|PyTorch|CNN|RNN|DNN"},
+    {"name": "大模型与 Agent", "category": "AI 工具", "pattern": "大模型|LLM|Agent|MCP|Function.?Calling|ReAct|CoT|RAG"},
+    {"name": "强化学习", "category": "专业技能", "pattern": "强化学习|PPO|SAC|DDPG|DQN|GRPO|DPO"},
+    {"name": "工程部署与性能优化", "category": "工程能力", "pattern": "部署|算力|延迟|功耗|性能优化|工程化|落地"},
+    {"name": "数据、实验与评测", "category": "数据能力", "pattern": "数据集|数据分析|评测|指标|实验|性能评估"},
+    {"name": "行业经验", "category": "行业经验", "pattern": "行业|医疗|金融|硬件|机器人|消费电子|游戏"},
+    {"name": "跨团队协作", "category": "软技能", "pattern": "协同|跨团队|对接业务|推动|项目"},
+    {"name": "主导与路线责任", "category": "管理能力", "pattern": "主导|负责人|团队管理|技术路线|战略|架构师|联创|组长"},
+    {"name": "语音与信号处理", "category": "专业技能", "pattern": "语音|音频|声学|信号处理|FFT"},
+    {"name": "计算机视觉", "category": "专业技能", "pattern": "计算机视觉|图像|视觉|CV|多模态|ISP"},
+    {"name": "机器人控制", "category": "专业技能", "pattern": "机器人|运动控制|运控|运动学|动力学"}
+  ]
+}

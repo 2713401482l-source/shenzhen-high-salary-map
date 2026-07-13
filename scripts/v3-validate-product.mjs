@@ -40,12 +40,15 @@ for (const component of ['Shader', 'Swirl', 'ChromaFlow', 'FlutedGlass', 'FilmGr
 }
 
 const pages = await fs.readFile('src/app/pages.tsx', 'utf8');
+const dataModule = await fs.readFile('src/app/data.ts', 'utf8');
 const jobsPage = pages.split('export function JobsPage()')[1]?.split('export function MethodPage()')[0] ?? '';
 const jobDatabase = pages.split('function JobCard')[1]?.split('export function MethodPage()')[0] ?? '';
 if (!jobsPage.includes('realJobs.filter')) fail('job database is not driven by realJobs');
 if (jobsPage.includes('demoData')) fail('job database must not read demoData');
 if (!jobDatabase.includes('job.salaryText')) fail('job database must preserve the original salary text');
 if (!jobDatabase.includes('job.sourceUrl')) fail('job database must expose the direct job detail URL');
+if (!dataModule.includes("data/v3/analysis/real-analysis.json")) fail('real views must consume the generated V3 analysis');
+if (!pages.includes('realAnalysis.readiness')) fail('pages must disclose formal-analysis readiness');
 
 console.log(JSON.stringify({routes: routes.length, demoRoles: demo.roleSignals.length, bossAccessAllowed: status.bossAccessAllowed, axionShaderStack: true}, null, 2));
 if (failures) throw new Error(`${failures} V3 product validation failure(s)`);

@@ -6,6 +6,7 @@ import {
   demoData,
   districtOptions,
   industryOptions,
+  realAnalysis,
   realEvidence,
   realJobs,
   realRoleFamilies,
@@ -85,9 +86,10 @@ function DemoRoleView({role}: {role: DemoRole}) {
 }
 
 function RealRoleView({role}: {role: RealRoleFamily}) {
+  const statusLabel = role.status === 'emerging' ? '达到新兴信号门槛' : role.status === 'early-signal' ? '早期信号' : '观察到的岗位族群';
   return <article className="signal-detail">
-    <div className="signal-detail-head"><div><span className="evidence-flag">真实样本</span><h2>{role.name}</h2><p>这是对当前 71 条岗位快照的归类，不代表完整市场热度，也不是历史趋势。</p></div><div className="salary-range"><small>Boss 原始范围</small><strong>{role.salaryMin}-{role.salaryMax}K</strong><span>/月</span></div></div>
-    <div className="signal-facts"><div><small>岗位样本</small><strong>{role.count} 条</strong><span>{role.companies} 家企业</span></div><div><small>详情核验</small><strong>{role.verified} 条</strong><span>其余为列表页观察</span></div><div><small>薪资中位</small><strong>{role.salaryMedianMid}K</strong><span>区间中点的中位数</span></div></div>
+    <div className="signal-detail-head"><div><span className="evidence-flag">{statusLabel}</span><h2>{role.name}</h2><p>这是对当前 {realEvidence.total} 条岗位快照的归类，不代表完整市场热度，也不是历史趋势。</p></div><div className="salary-range"><small>Boss 原始范围</small><strong>{role.salaryMin}-{role.salaryMax}K</strong><span>/月</span></div></div>
+    <div className="signal-facts"><div><small>岗位样本</small><strong>{role.count} 条</strong><span>{role.companies} 家企业，{role.industries} 个行业</span></div><div><small>详情核验</small><strong>{role.verified} 条</strong><span>其余为列表页观察</span></div><div><small>薪资中位</small><strong>{role.salaryMedianMid}K</strong><span>区间中点的中位数</span></div></div>
     <div className="job-evidence-preview"><h3>代表岗位</h3>{role.jobs.slice(0, 4).map(job => <a key={job.id} href={job.sourceUrl} target="_blank" rel="noreferrer"><div><strong>{job.title}</strong><span>{job.company}，{job.district}</span></div><b>{job.salaryText}</b><ExternalLink /></a>)}</div>
   </article>;
 }
@@ -108,7 +110,7 @@ export function TrendsPage() {
         </div>
         {mode === 'demo' ? <DemoRoleView role={selectedDemo} /> : selectedReal && <RealRoleView role={selectedReal} />}
       </section>
-      <section className="plain-callout"><div><h2>{mode === 'demo' ? `${entries.length} 个方向只用于测试浏览逻辑` : `${entries.length} 个真实岗位族群，暂时不能称为 30 个新职业`}</h2><p>{mode === 'demo' ? '等真实采集恢复后，同样的模块会换成岗位数、公司数、薪资分布和原始链接。' : '当前数据覆盖不足。少于 3 条岗位或少于 2 家公司的方向不会被包装成成熟趋势。'}</p></div><ArrowButton href="skills.html" tone="orange">继续拆能力</ArrowButton></section>
+      <section className="plain-callout"><div><h2>{mode === 'demo' ? `${entries.length} 个方向只用于测试浏览逻辑` : `${realAnalysis.readiness.emergingRoles.actual} 个方向达到当前新兴信号门槛`}</h2><p>{mode === 'demo' ? '等真实采集恢复后，同样的模块会换成岗位数、公司数、薪资分布和原始链接。' : `当前共归为 ${entries.length} 个岗位族群。只有至少 3 条岗位、2 家公司并含详情证据的方向才会进入新兴信号。`}</p></div><ArrowButton href="skills.html" tone="orange">继续拆能力</ArrowButton></section>
     </div>
   </main>;
 }
@@ -117,6 +119,7 @@ export function SkillsPage() {
   const [mode, setMode] = useState<DataMode>('demo');
   const demoBenchmark = demoData.benchmark;
   const topRealCount = verifiedSkillStats[0]?.count || 1;
+  const topPublishedPair = verifiedSkillPairs.find(pair => pair.publishable);
   return <main id="main" className="inner-main">
     <InnerHero eyebrow="需求拆解" title="高薪岗位通常不是一项技能，而是一组能力。" lead="先看共同出现的能力，再看它们怎样组合成一个新的岗位角色。" mode={mode} onModeChange={setMode} />
     <div className="content-shell"><DataNotice mode={mode} />
@@ -128,8 +131,8 @@ export function SkillsPage() {
         <section className="combo-examples"><h2>岗位名变了，底层能力从哪里来？</h2><div>{demoData.roleSignals.slice(0, 6).map(role => <article key={role.id}><span>{role.name}</span><strong>{role.oldAbilityMix}</strong><p>{role.skillCombo.join(' + ')}</p></article>)}</div></section>
       </> : <>
         <section className="skill-story">
-          <div className="skill-story-main"><span className="evidence-flag">仅统计 7 条详情核验</span><h2>当前可核验需求里的高频能力</h2><p>列表页摘要不进入正式能力占比，避免把不完整文案当成岗位要求。</p><div className="skill-frequency">{verifiedSkillStats.slice(0, 8).map(skill => <div key={skill.name}><div><strong>{skill.name}</strong><span>{skill.count}/{verifiedJobs.length} 条</span></div><i style={{'--skill-width': `${(skill.count / topRealCount) * 100}%`} as React.CSSProperties} /></div>)}</div></div>
-          <aside className="skill-combo-card"><small>当前最常见的共现</small><h3>{verifiedSkillPairs[0]?.pair.join(' + ') ?? '样本不足'}</h3><p>{verifiedSkillPairs[0] ? `在 ${verifiedSkillPairs[0].count} 条核验需求中共同出现。样本很小，只作为线索。` : '还没有足够的完整岗位要求形成共现判断。'}</p></aside>
+          <div className="skill-story-main"><span className="evidence-flag">仅统计 {realAnalysis.skills.denominator} 条详情核验</span><h2>当前可核验需求里的高频能力</h2><p>列表页摘要不进入正式能力占比，避免把不完整文案当成岗位要求。</p><div className="skill-frequency">{verifiedSkillStats.slice(0, 8).map(skill => <div key={skill.name}><div><strong>{skill.name}</strong><span>{skill.count}/{verifiedJobs.length} 条</span></div><i style={{'--skill-width': `${(skill.count / topRealCount) * 100}%`} as React.CSSProperties} /></div>)}</div></div>
+          <aside className="skill-combo-card"><small>达到展示门槛的共现</small><h3>{topPublishedPair?.pair.join(' + ') ?? '样本不足'}</h3><p>{topPublishedPair ? `在 ${topPublishedPair.count} 条核验需求中共同出现，并可回到岗位原文复核。` : '能力组合至少共同出现 3 次后才展示。当前还没有达到门槛。'}</p></aside>
         </section>
         <section className="requirement-evidence"><h2>回到岗位原文验证</h2>{verifiedJobs.slice(0, 4).map(job => <details key={job.id}><summary><span><strong>{job.title}</strong><small>{job.company}，{job.salaryText}</small></span><ChevronDown /></summary><p>{job.requirementText || job.descriptionExcerpt}</p><a href={job.sourceUrl} target="_blank" rel="noreferrer">打开 Boss 岗位详情 <ExternalLink /></a></details>)}</section>
       </>}
@@ -141,6 +144,7 @@ export function SkillsPage() {
 export function BenchmarkPage() {
   const [mode, setMode] = useState<DataMode>('demo');
   const benchmark = demoData.benchmark;
+  const bestRealBenchmark = realAnalysis.readiness.benchmark.best;
   return <main id="main" className="inner-main">
     <InnerHero eyebrow="精准对标" title="只选一个岗位，按企业要求决定先学什么。" lead="同岗研究足够多时，学习路线才不靠课程广告和个人感觉。" mode={mode} onModeChange={setMode} />
     <div className="content-shell"><DataNotice mode={mode} />
@@ -153,7 +157,7 @@ export function BenchmarkPage() {
           <article><h3>企业期待的成果</h3><div className="tag-cloud">{benchmark.deliverables.map(item => <span key={item}>{item}</span>)}</div></article>
         </section>
         <section className="learning-order"><h2>按需求倒推学习顺序</h2><ol>{benchmark.learningPriority.map((item, index) => <li key={item}><span>{index + 1}</span><p>{item}</p></li>)}</ol><p className="method-note">这不是 30 天打卡计划，只展示先后优先级。</p></section>
-      </> : <section className="insufficient-state"><Database /><h2>当前还没有任何单岗达到 50 条可核验需求。</h2><p>真实详情只有 {realEvidence.verified} 条，无法诚实计算“AI 产品经理”或“海外运营”的共同要求。这里保留空状态，而不是把不同岗位拼成一个假对标。</p><div><a href="jobs.html">查看现有真实岗位</a><button type="button" onClick={() => setMode('demo')}>查看结构演示</button></div></section>}
+      </> : <section className="insufficient-state"><Database /><h2>当前还没有任何单岗达到 50 条可核验需求。</h2><p>目前最接近的是“{bestRealBenchmark?.role ?? '尚无候选方向'}”，只有 {bestRealBenchmark?.detailCount ?? 0}/50 条详情证据，来自 {bestRealBenchmark?.companyCount ?? 0} 家公司。这里保留空状态，而不是把不同岗位拼成一个假对标。</p><div><a href="jobs.html">查看现有真实岗位</a><button type="button" onClick={() => setMode('demo')}>查看结构演示</button></div></section>}
       <section className="plain-callout"><div><h2>对标之后，再看薪资升档。</h2><p>成长路径比较的是同一方向在不同薪资区间多出的责任，不是保证晋升的公式。</p></div><ArrowButton href="growth.html" tone="orange">查看成长路径</ArrowButton></section>
     </div>
   </main>;
@@ -187,7 +191,8 @@ export function GrowthPage() {
     <InnerHero eyebrow="趋势预判" title="把需求、薪资和能力门槛放在同一张图上。" lead="先找到机会位置，再看从 30K 到 50K、100K 需要补什么。" mode={mode} onModeChange={setMode} />
     <div className="content-shell"><DataNotice mode={mode} />
       <section className="map-section"><div className="map-head"><div><h2>机会地图</h2><p>{mode === 'demo' ? '完整交互使用结构假设，便于判断气泡图是否值得保留。' : '基于当前岗位数量和薪资的截面比较，不表达历史涨跌。'}</p></div><span>{mode === 'demo' ? '结构假设' : '真实样本'}</span></div><OpportunityChart points={mode === 'demo' ? demoPoints : realPoints} isDemo={mode === 'demo'} /><p className="chart-summary">横轴越右，样本需求越集中；纵轴越高，原始薪资上限越高；气泡越大，岗位样本越多。</p></section>
-      {mode === 'demo' ? <section className="growth-path-section"><div className="path-selector" role="tablist">{demoData.growthPaths.map((path, index) => <button key={path.role} className={index === pathIndex ? 'active' : ''} onClick={() => setPathIndex(index)}>{path.role}</button>)}</div><div className="growth-path-head"><h2>{demoPath.role}的能力升档</h2><DemoFlag /></div><div className="growth-lane">{demoPath.stages.map(stage => <article key={stage.band}><span>{stage.band}</span><h3>{stage.title}</h3><div>{stage.skills.map(skill => <small key={skill}>{skill}</small>)}</div></article>)}</div></section> : <section className="real-paths"><h2>真实数据能支持到哪一步？</h2><p>当前只有少数岗位族群同时覆盖两个薪资档，100K 样本又高度集中于 AI 与算法。以下只展示样本分布，不把它解释成必然晋升路线。</p><div>{realRoleFamilies.slice(0, 6).map(role => <article key={role.name}><h3>{role.name}</h3><p>{role.count} 条岗位，薪资 {role.salaryMin}-{role.salaryMax}K</p><div className="band-dots">{(['30K', '50K', '100K'] as const).map(band => <span key={band} className={role.jobs.some(job => salaryBandFromMid(job) === band) ? 'has-data' : ''}>{band}</span>)}</div></article>)}</div></section>}
+      {mode === 'demo' ? <section className="growth-path-section"><div className="path-selector" role="tablist">{demoData.growthPaths.map((path, index) => <button key={path.role} className={index === pathIndex ? 'active' : ''} onClick={() => setPathIndex(index)}>{path.role}</button>)}</div><div className="growth-path-head"><h2>{demoPath.role}的能力升档</h2><DemoFlag /></div><div className="growth-lane">{demoPath.stages.map(stage => <article key={stage.band}><span>{stage.band}</span><h3>{stage.title}</h3><div>{stage.skills.map(skill => <small key={skill}>{skill}</small>)}</div></article>)}</div></section> : <section className="real-paths"><h2>真实数据能支持到哪一步？</h2><p>{realAnalysis.timeSeries.statement} 以下只展示不同薪资档的样本分布，不把它解释成必然晋升路线。</p><div>{realRoleFamilies.slice(0, 6).map(role => <article key={role.name}><h3>{role.name}</h3><p>{role.count} 条岗位，薪资 {role.salaryMin}-{role.salaryMax}K</p><div className="band-dots">{(['30K', '50K', '100K'] as const).map(band => <span key={band} className={role.jobs.some(job => salaryBandFromMid(job) === band) ? 'has-data' : ''}>{band}</span>)}</div></article>)}</div></section>}
+      {mode === 'real' && <section className="expansion-section"><div className="expansion-head"><div><p className="eyebrow">同一快照的多岗位信号</p><h2>哪些企业一次出现了多个高薪岗位？</h2></div><p>这里只能说明同一采集批次里的岗位聚集，不能称为持续扩招。下一次快照出现后才判断是否反复招聘。</p></div><div className="expansion-list">{realAnalysis.expansionSignals.map(signal => <article key={signal.company}><div><strong>{signal.company}</strong><span>{signal.jobCount} 条岗位，{signal.distinctTitles} 个不同名称</span></div><div>{signal.evidenceJobs.slice(0, 3).map(job => <a key={job.id} href={job.sourceUrl} target="_blank" rel="noreferrer"><span>{job.title}</span><small>{job.salaryText}</small><ExternalLink /></a>)}</div></article>)}</div></section>}
       <section className="plain-callout"><div><h2>气泡图只负责找到方向。</h2><p>最后仍要回到具体公司、真实薪资和岗位要求，确认这个方向是否适合继续研究。</p></div><ArrowButton href="jobs.html" tone="dark">打开岗位证据</ArrowButton></section>
     </div>
   </main>;
@@ -231,10 +236,18 @@ export function JobsPage() {
 }
 
 export function MethodPage() {
+  const readinessItems = [
+    {label: '发现池', actual: realAnalysis.readiness.discovery.actual, target: realAnalysis.readiness.discovery.target, unit: '条岗位'},
+    {label: '详情证据', actual: realAnalysis.readiness.detailEvidence.actual, target: realAnalysis.readiness.detailEvidence.target, unit: '条要求'},
+    {label: '新兴方向', actual: realAnalysis.readiness.emergingRoles.actual, target: realAnalysis.readiness.emergingRoles.target, unit: '个方向'},
+    {label: '单岗对标', actual: realAnalysis.readiness.benchmark.best?.detailCount ?? 0, target: realAnalysis.readiness.benchmark.target, unit: '条同岗详情'},
+    {label: '时间快照', actual: realAnalysis.readiness.timeSeries.actualDates, target: realAnalysis.readiness.timeSeries.targetDates, unit: '个日期'},
+  ];
   return <main id="main" className="inner-main">
     <InnerHero eyebrow="方法与边界" title="哪些是证据，哪些只是为了测试页面？" lead="把真实样本、列表观察和结构演示分开，避免漂亮页面掩盖数据缺口。" />
     <div className="content-shell method-content">
       <section className="method-levels"><article><span className="evidence-flag">详情已核验</span><h2>{verifiedJobs.length} 条</h2><p>保存了岗位详情要求，可用于能力词频和原文核验。</p></article><article><span className="listing-flag">列表页观察</span><h2>{candidateJobs.length} 条</h2><p>保存了岗位、公司和薪资，可用于发现岗位，不能进入正式能力占比。</p></article><article><DemoFlag /><h2>{demoData.roleSignals.length} 个方向</h2><p>完全独立的结构假设，只用于评判页面逻辑，不进入任何正式统计。</p></article></section>
+      <section className="readiness-section"><div><p className="eyebrow">正式版进度</p><h2>哪些结论已经能说，哪些还不能？</h2><p>达到门槛的模块才会从结构演示切换为默认真实证据。</p></div><div className="readiness-list">{readinessItems.map(item => <article key={item.label}><div><strong>{item.label}</strong><span>{item.actual}/{item.target} {item.unit}</span></div><i><b style={{width: `${Math.min(100, (item.actual / item.target) * 100)}%`}} /></i></article>)}</div></section>
       <section className="method-rules"><h2>页面如何避免混淆</h2><div><article><strong>默认分组</strong><p>所有分析页都有“结构演示 / 真实证据”切换，两组不在同一张图里叠加。</p></article><article><strong>统计隔离</strong><p>真实样本量只从 verified.json 与 candidates.json 计算，演示文件标记 excludedFromFormalStats。</p></article><article><strong>来源隔离</strong><p>真实岗位链接直达 Boss 岗位详情。演示数据不生成公司名，不生成虚构岗位链接。</p></article><article><strong>结论降级</strong><p>没有 50 条同岗需求时，单岗对标显示空状态，不把邻近岗位硬拼成正式结论。</p></article></div></section>
       <section className="method-boundary"><h2>当前数据边界</h2><p>最近一次真实采集时间：{new Date(capturedAt).toLocaleString('zh-CN')}。当前账号触发平台风控，采集已经停止。现有样本明显偏 AI、算法、机器人和技术岗位，因此不能代表深圳全行业高薪市场，也不能表达薪资历史涨跌。</p><a href="jobs.html">查看全部真实样本 <ArrowRight /></a></section>
     </div>

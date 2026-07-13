@@ -1,0 +1,2712 @@
+{
+  "metadata": {
+    "dataKind": "real-analysis",
+    "generatedFromLatestCapture": "2026-07-12T21:13:54.464Z",
+    "sourceFiles": [
+      "data/jobs/verified.json",
+      "data/jobs/candidates.json"
+    ],
+    "methodologyVersion": "v3.1"
+  },
+  "readiness": {
+    "discovery": {
+      "actual": 71,
+      "target": 300,
+      "pass": false
+    },
+    "detailEvidence": {
+      "actual": 7,
+      "target": 150,
+      "pass": false
+    },
+    "emergingRoles": {
+      "actual": 2,
+      "target": 30,
+      "pass": false
+    },
+    "benchmark": {
+      "best": {
+        "role": "机器人强化学习与运动控制",
+        "detailCount": 3,
+        "companyCount": 3,
+        "salaryBandCount": 3
+      },
+      "target": 50,
+      "pass": false
+    },
+    "timeSeries": {
+      "actualDates": 1,
+      "targetDates": 2,
+      "pass": false
+    }
+  },
+  "scope": {
+    "city": "深圳",
+    "jobs": 71,
+    "detailJobs": 7,
+    "companies": 66,
+    "industries": 23,
+    "capturedDates": [
+      "2026-07-12"
+    ],
+    "warning": "当前样本明显偏 AI、算法、机器人和技术研发岗位，不代表深圳全行业高薪市场。"
+  },
+  "roleSignals": [
+    {
+      "name": "机器人强化学习与运动控制",
+      "status": "emerging",
+      "sampleCount": 25,
+      "companyCount": 23,
+      "industryCount": 8,
+      "detailCount": 3,
+      "salary": {
+        "min": 18,
+        "max": 200,
+        "medianMid": 52.5,
+        "bands": {
+          "30K": 5,
+          "50K": 17,
+          "100K": 3
+        }
+      },
+      "originalTitles": [
+        "强化运控算法联创&组长&专家深圳上海北京等",
+        "深度强化学习算法工程师",
+        "强化学习专家",
+        "算法应用开发工程师",
+        "大模型算法/agent工程-开发/架构师",
+        "AI lab- AI 算法工程师（引力计划）",
+        "具身VLA/VLM/世界模型/强化学习",
+        "强化学习算法工程师（planning）(A199628)",
+        "强化学习算法工程师",
+        "深度强化学习算法工程师(J10451)",
+        "运动控制算法（强化学习方向）",
+        "腾讯云乐享-强化学习算法研究员(深圳)",
+        "AI算法工程师",
+        "AI金融量化工程师（强化学习方向）",
+        "强化学习算法工程师（无人机）",
+        "机器人强化学习算法工程师",
+        "ai算法研究员",
+        "资深机器人强化学习算法研究员",
+        "机器人强化学习算法（扫地机）",
+        "资深强化学习算法工程师(A177444)",
+        "强化学习算法（人形机器人）",
+        "强化学习框架工程师"
+      ],
+      "topIndustries": [
+        {
+          "name": "人工智能",
+          "count": 9
+        },
+        {
+          "name": "智能硬件",
+          "count": 5
+        },
+        {
+          "name": "计算机软件",
+          "count": 4
+        },
+        {
+          "name": "智能硬件/消费电子",
+          "count": 3
+        },
+        {
+          "name": "互联网",
+          "count": 1
+        }
+      ],
+      "topDistricts": [
+        {
+          "name": "南山区",
+          "count": 16
+        },
+        {
+          "name": "深圳",
+          "count": 6
+        },
+        {
+          "name": "宝安区",
+          "count": 2
+        },
+        {
+          "name": "龙岗区",
+          "count": 1
+        }
+      ],
+      "evidenceJobs": [
+        {
+          "id": "boss-07127b18e9f769e00nd70tq1FFpY",
+          "title": "强化运控算法联创&组长&专家深圳上海北京等",
+          "company": "芯宇全球",
+          "salaryText": "100-200K·24薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/07127b18e9f769e00nd70tq1FFpY.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing-plus-detail"
+        },
+        {
+          "id": "boss-2dd0558b65b0a6440nV-39y5GVNS",
+          "title": "深度强化学习算法工程师",
+          "company": "索璞动力",
+          "salaryText": "80-100K",
+          "sourceUrl": "https://www.zhipin.com/job_detail/2dd0558b65b0a6440nV-39y5GVNS.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing-plus-detail"
+        },
+        {
+          "id": "boss-535998b31709c38f03d60t28ElRT",
+          "title": "强化学习专家",
+          "company": "魔法原子",
+          "salaryText": "70-100K·15薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/535998b31709c38f03d60t28ElRT.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-detail"
+        },
+        {
+          "id": "boss-0769187de25a99460nV43tm1FlVZ",
+          "title": "大模型算法/agent工程-开发/架构师",
+          "company": "深信服科技",
+          "salaryText": "50-80K·15薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/0769187de25a99460nV43tm1FlVZ.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-365feaf59f47ee010nZ60t21EVVQ",
+          "title": "具身VLA/VLM/世界模型/强化学习",
+          "company": "墨奇智能",
+          "salaryText": "50-80K·15薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/365feaf59f47ee010nZ60t21EVVQ.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-6b835bad08ccddef0nd829W1FVFX",
+          "title": "运动控制算法（强化学习方向）",
+          "company": "自变量机器人",
+          "salaryText": "50-80K·16薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/6b835bad08ccddef0nd829W1FVFX.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-889df04b6dc8df510nR90ty-GFBT",
+          "title": "强化学习算法工程师",
+          "company": "速腾聚创",
+          "salaryText": "50-80K·15薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/889df04b6dc8df510nR90ty-GFBT.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-4c5be746aa6d99e40nB629m7GFJU",
+          "title": "强化学习算法工程师（planning）(A199628)",
+          "company": "妙动科技",
+          "salaryText": "50-70K·15薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/4c5be746aa6d99e40nB629m7GFJU.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-0ad88b630b71693b0nd42dW7FFpV",
+          "title": "AI lab- AI 算法工程师（引力计划）",
+          "company": "深信服科技",
+          "salaryText": "40-70K",
+          "sourceUrl": "https://www.zhipin.com/job_detail/0ad88b630b71693b0nd42dW7FFpV.html",
+          "capturedAt": "2026-07-12T21:13:08.537Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-62336c0bd99569db03F62tu-FVtW",
+          "title": "深度强化学习算法工程师(J10451)",
+          "company": "卓驭",
+          "salaryText": "40-70K·15薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/62336c0bd99569db03F62tu-FVtW.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-8f5df390b12e73920nR93dW1EVdV",
+          "title": "腾讯云乐享-强化学习算法研究员(深圳)",
+          "company": "腾讯",
+          "salaryText": "40-70K·15薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/8f5df390b12e73920nR93dW1EVdV.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-e514916a1e67c04a0nd_2d25EVFV",
+          "title": "强化学习算法（人形机器人）",
+          "company": "璇玑动力",
+          "salaryText": "40-70K·15薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/e514916a1e67c04a0nd_2d25EVFV.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-b50adc8a1d6fa9c30nZ60t-8FlRQ",
+          "title": "ai算法研究员",
+          "company": "UsingAI",
+          "salaryText": "40-65K",
+          "sourceUrl": "https://www.zhipin.com/job_detail/b50adc8a1d6fa9c30nZ60t-8FlRQ.html",
+          "capturedAt": "2026-07-12T21:13:08.537Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-f802c5552c92bfd30nd92969F1ZQ",
+          "title": "强化学习框架工程师",
+          "company": "道通科技",
+          "salaryText": "40-65K·20薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/f802c5552c92bfd30nd92969F1ZQ.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-b5a2f4bdd2f218db0nV92N2_EFpT",
+          "title": "资深机器人强化学习算法研究员",
+          "company": "深圳徕福机器人",
+          "salaryText": "40-60K",
+          "sourceUrl": "https://www.zhipin.com/job_detail/b5a2f4bdd2f218db0nV92N2_EFpT.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-ad62d100c784b0710nd82tu-FFdV",
+          "title": "强化学习算法工程师（无人机）",
+          "company": "硅羽科技",
+          "salaryText": "35-60K·14薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/ad62d100c784b0710nd82tu-FFdV.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-c53cd1efcc04a8aa03xy2Ni0FVNS",
+          "title": "机器人强化学习算法（扫地机）",
+          "company": "追觅科技",
+          "salaryText": "35-60K·15薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/c53cd1efcc04a8aa03xy2Ni0FVNS.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-b24036d8310373520nd_2t-8GVdQ",
+          "title": "机器人强化学习算法工程师",
+          "company": "深圳超维动力智能科技",
+          "salaryText": "30-60K·16薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/b24036d8310373520nd_2t-8GVdQ.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-deeb164abef1c15d0nZ83Ni7F1JQ",
+          "title": "资深强化学习算法工程师(A177444)",
+          "company": "逸文科技",
+          "salaryText": "30-60K·14薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/deeb164abef1c15d0nZ83Ni7F1JQ.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-9ed60f4335d4fd7f1HB43tm0GFtQ",
+          "title": "AI算法工程师",
+          "company": "生境科技",
+          "salaryText": "30-50K·13薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/9ed60f4335d4fd7f1HB43tm0GFtQ.html",
+          "capturedAt": "2026-07-12T21:13:08.537Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-053f5cd9d10c7b240nV43ti8FFtT",
+          "title": "算法应用开发工程师",
+          "company": "自变量机器人",
+          "salaryText": "25-50K·16薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/053f5cd9d10c7b240nV43ti8FFtT.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-b3c06ecb948f01c003V82N24GVRR",
+          "title": "深度强化学习算法工程师",
+          "company": "火狗智能",
+          "salaryText": "25-50K·13薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/b3c06ecb948f01c003V82N24GVRR.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-d8f99f272cbe2a070nd709y6E1pY",
+          "title": "强化学习算法工程师",
+          "company": "yobotics智能机器人",
+          "salaryText": "20-40K",
+          "sourceUrl": "https://www.zhipin.com/job_detail/d8f99f272cbe2a070nd709y6E1pY.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-53b743f574744fa703x_3t25GFJU",
+          "title": "强化学习算法工程师",
+          "company": "英特仿真",
+          "salaryText": "20-30K",
+          "sourceUrl": "https://www.zhipin.com/job_detail/53b743f574744fa703x_3t25GFJU.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-ab259bdcbe3e97bc0ndz3tS6FlJS",
+          "title": "AI金融量化工程师（强化学习方向）",
+          "company": "深圳高盈国际创新科技",
+          "salaryText": "18-30K",
+          "sourceUrl": "https://www.zhipin.com/job_detail/ab259bdcbe3e97bc0ndz3tS6FlJS.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        }
+      ]
+    },
+    {
+      "name": "AI Agent 与大模型应用",
+      "status": "emerging",
+      "sampleCount": 12,
+      "companyCount": 12,
+      "industryCount": 9,
+      "detailCount": 3,
+      "salary": {
+        "min": 15,
+        "max": 150,
+        "medianMid": 42.5,
+        "bands": {
+          "30K": 5,
+          "50K": 4,
+          "100K": 3
+        }
+      },
+      "originalTitles": [
+        "AI Agent大模型算法专家",
+        "ai算法负责人",
+        "AI算法专家",
+        "算法测试开发工程师（NLP 方向）",
+        "AI Agent算法专家(A92816)",
+        "AI Agent算法工程师",
+        "算法应用开发工程师",
+        "AI Coding大模型算法工程师",
+        "AI算法工程师",
+        "ai算法工程师",
+        "AI工程师（机器学习） | 深圳 | IT"
+      ],
+      "topIndustries": [
+        {
+          "name": "互联网",
+          "count": 3
+        },
+        {
+          "name": "电子商务",
+          "count": 2
+        },
+        {
+          "name": "半导体/芯片",
+          "count": 1
+        },
+        {
+          "name": "计算机软件",
+          "count": 1
+        },
+        {
+          "name": "家具/家居",
+          "count": 1
+        }
+      ],
+      "topDistricts": [
+        {
+          "name": "南山区",
+          "count": 8
+        },
+        {
+          "name": "宝安区",
+          "count": 2
+        },
+        {
+          "name": "福田区",
+          "count": 1
+        },
+        {
+          "name": "龙华区",
+          "count": 1
+        }
+      ],
+      "evidenceJobs": [
+        {
+          "id": "boss-677b5d673b77a4d70nZz3N64FVBT",
+          "title": "ai算法负责人",
+          "company": "杭州文和星途科技",
+          "salaryText": "100-150K",
+          "sourceUrl": "https://www.zhipin.com/job_detail/677b5d673b77a4d70nZz3N64FVBT.html",
+          "capturedAt": "2026-07-12T21:13:08.537Z",
+          "evidenceLevel": "boss-detail"
+        },
+        {
+          "id": "boss-1ed35a5c9f7e6fbe0ndy3d66ElNS",
+          "title": "AI Agent大模型算法专家",
+          "company": "vivo",
+          "salaryText": "70-90K",
+          "sourceUrl": "https://www.zhipin.com/job_detail/1ed35a5c9f7e6fbe0ndy3d66ElNS.html",
+          "capturedAt": "2026-07-12T21:13:08.537Z",
+          "evidenceLevel": "boss-listing-plus-detail"
+        },
+        {
+          "id": "boss-ba334c2c5f5ba58c0nV72960FFFR",
+          "title": "AI算法专家",
+          "company": "绿联科技",
+          "salaryText": "70-85K·15薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/ba334c2c5f5ba58c0nV72960FFFR.html",
+          "capturedAt": "2026-07-12T21:13:08.537Z",
+          "evidenceLevel": "boss-detail"
+        },
+        {
+          "id": "boss-0ce33cd374db7bcc0nZ53N65GVVQ",
+          "title": "AI Agent算法专家(A92816)",
+          "company": "上海曦望芯科智能科技",
+          "salaryText": "50-80K·15薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/0ce33cd374db7bcc0nZ53N65GVVQ.html",
+          "capturedAt": "2026-07-12T21:13:08.537Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-789dd84992b83f670ndy0tS-EFpU",
+          "title": "算法应用开发工程师",
+          "company": "港仔机器人",
+          "salaryText": "45-60K·16薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/789dd84992b83f670ndy0tS-EFpU.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-7d8ebe55bd16412203F52NW6GVRT",
+          "title": "AI Coding大模型算法工程师",
+          "company": "深圳字节跳动",
+          "salaryText": "30-60K·14薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/7d8ebe55bd16412203F52NW6GVRT.html",
+          "capturedAt": "2026-07-12T21:13:08.537Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-c124ad4fa4c53a750ndy2tm8FVVZ",
+          "title": "ai算法工程师",
+          "company": "路特",
+          "salaryText": "30-50K",
+          "sourceUrl": "https://www.zhipin.com/job_detail/c124ad4fa4c53a750ndy2tm8FVVZ.html",
+          "capturedAt": "2026-07-12T21:13:08.537Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-9f04c8d6dc4764c80nd-2dW-GVBU",
+          "title": "AI算法工程师",
+          "company": "深圳菲特奥创新科技",
+          "salaryText": "25-45K·13薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/9f04c8d6dc4764c80nd-2dW-GVBU.html",
+          "capturedAt": "2026-07-12T21:13:08.537Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-e04f4de404150bfa03B429u4E1JT",
+          "title": "ai算法工程师",
+          "company": "穗彩科技",
+          "salaryText": "20-40K",
+          "sourceUrl": "https://www.zhipin.com/job_detail/e04f4de404150bfa03B429u4E1JT.html",
+          "capturedAt": "2026-07-12T21:13:08.537Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-c966374f464cce910nd-3d69ElNX",
+          "title": "AI工程师（机器学习） | 深圳 | IT",
+          "company": "曼迪匹艾",
+          "salaryText": "20-35K",
+          "sourceUrl": "https://www.zhipin.com/job_detail/c966374f464cce910nd-3d69ElNX.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-0ccda64ec0b4c21c031z09y1EFJS",
+          "title": "算法测试开发工程师（NLP 方向）",
+          "company": "企知道",
+          "salaryText": "15-30K·14薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/0ccda64ec0b4c21c031z09y1EFJS.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-136c32fdabffd529031z2dW_EFpY",
+          "title": "AI Agent算法工程师",
+          "company": "LEAPZERO",
+          "salaryText": "15-30K",
+          "sourceUrl": "https://www.zhipin.com/job_detail/136c32fdabffd529031z2dW_EFpY.html",
+          "capturedAt": "2026-07-12T21:13:08.537Z",
+          "evidenceLevel": "boss-listing"
+        }
+      ]
+    },
+    {
+      "name": "通用 AI 与算法工程",
+      "status": "observed-family",
+      "sampleCount": 10,
+      "companyCount": 10,
+      "industryCount": 6,
+      "detailCount": 0,
+      "salary": {
+        "min": 15,
+        "max": 70,
+        "medianMid": 35,
+        "bands": {
+          "30K": 7,
+          "50K": 3,
+          "100K": 0
+        }
+      },
+      "originalTitles": [
+        "AI搜索算法专家",
+        "ai算法工程师",
+        "初级 AI 算法工程师（游戏 AI 方向）",
+        "算法工程岗（java开发方向）",
+        "算法开发工程师/高薪/双休/年终奖",
+        "ai算法专家",
+        "软件算法开发工程师",
+        "iOS开发工程师（算法实现 / BLE通信）"
+      ],
+      "topIndustries": [
+        {
+          "name": "互联网",
+          "count": 4
+        },
+        {
+          "name": "计算机软件",
+          "count": 2
+        },
+        {
+          "name": "电子/半导体/集成电路",
+          "count": 1
+        },
+        {
+          "name": "智能硬件/消费电子",
+          "count": 1
+        },
+        {
+          "name": "咨询",
+          "count": 1
+        }
+      ],
+      "topDistricts": [
+        {
+          "name": "南山区",
+          "count": 6
+        },
+        {
+          "name": "龙岗区",
+          "count": 2
+        },
+        {
+          "name": "宝安区",
+          "count": 1
+        },
+        {
+          "name": "龙华区",
+          "count": 1
+        }
+      ],
+      "evidenceJobs": [
+        {
+          "id": "boss-2757a44b33919f3d0nZ_3tW7ElNX",
+          "title": "AI搜索算法专家",
+          "company": "腾讯",
+          "salaryText": "40-70K·16薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/2757a44b33919f3d0nZ_3tW7ElNX.html",
+          "capturedAt": "2026-07-12T21:13:08.537Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-9b5204cf61a87a0c0ndy39i0FFNX",
+          "title": "ai算法专家",
+          "company": "Traveloka",
+          "salaryText": "40-70K·15薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/9b5204cf61a87a0c0ndy39i0FFNX.html",
+          "capturedAt": "2026-07-12T21:13:08.537Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-d7022e90489477dc03172ty8GFpQ",
+          "title": "iOS开发工程师（算法实现 / BLE通信）",
+          "company": "深圳艾犀科技有限公司",
+          "salaryText": "30-50K",
+          "sourceUrl": "https://www.zhipin.com/job_detail/d7022e90489477dc03172ty8GFpQ.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-6dd8d557fc525652031z39S8FFRS",
+          "title": "软件算法开发工程师",
+          "company": "新凯来技术有限公司",
+          "salaryText": "25-50K",
+          "sourceUrl": "https://www.zhipin.com/job_detail/6dd8d557fc525652031z39S8FFRS.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-2aa47c02c9b1bd9b03N42N-_GFtW",
+          "title": "ai算法工程师",
+          "company": "深圳市途灵旅游科技",
+          "salaryText": "25-45K",
+          "sourceUrl": "https://www.zhipin.com/job_detail/2aa47c02c9b1bd9b03N42N-_GFtW.html",
+          "capturedAt": "2026-07-12T21:13:08.537Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-400427525bfb1aee031-2966EltY",
+          "title": "算法工程岗（java开发方向）",
+          "company": "海柔创新科技有限公司",
+          "salaryText": "25-45K·15薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/400427525bfb1aee031-2966EltY.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-3e251c0215ade9f60nZ93di1FVpV",
+          "title": "初级 AI 算法工程师（游戏 AI 方向）",
+          "company": "智辉云科技",
+          "salaryText": "20-40K·15薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/3e251c0215ade9f60nZ93di1FVpV.html",
+          "capturedAt": "2026-07-12T21:13:08.537Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-54e1545ab416542903R909m-FlRV",
+          "title": "ai算法专家",
+          "company": "SUTPC",
+          "salaryText": "20-40K·14薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/54e1545ab416542903R909m-FlRV.html",
+          "capturedAt": "2026-07-12T21:13:08.537Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-50e4281ebcc67ebe0nZy3NS4ElVZ",
+          "title": "算法开发工程师/高薪/双休/年终奖",
+          "company": "外企德科数字",
+          "salaryText": "17-30K·14薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/50e4281ebcc67ebe0nZy3NS4ElVZ.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-abcc09db515627d903183d21FFVS",
+          "title": "ai算法工程师",
+          "company": "强瑞技术",
+          "salaryText": "15-30K",
+          "sourceUrl": "https://www.zhipin.com/job_detail/abcc09db515627d903183d21FFVS.html",
+          "capturedAt": "2026-07-12T21:13:08.537Z",
+          "evidenceLevel": "boss-listing"
+        }
+      ]
+    },
+    {
+      "name": "计算机视觉与图形算法",
+      "status": "observed-family",
+      "sampleCount": 9,
+      "companyCount": 9,
+      "industryCount": 7,
+      "detailCount": 0,
+      "salary": {
+        "min": 20,
+        "max": 70,
+        "medianMid": 37.5,
+        "bands": {
+          "30K": 5,
+          "50K": 4,
+          "100K": 0
+        }
+      },
+      "originalTitles": [
+        "【广州/苏州】 AI 算法博士",
+        "图形算法高级开发工程师",
+        "有限单元算法开发工程师",
+        "AI图像算法",
+        "AI 图像算法工程师（eufyMake）",
+        "ai算法工程师",
+        "【地瓜机器人】SLAM算法开发工程师",
+        "助理研究员(J10423)",
+        "C++几何算法开发"
+      ],
+      "topIndustries": [
+        {
+          "name": "电子/硬件开发",
+          "count": 2
+        },
+        {
+          "name": "计算机软件",
+          "count": 2
+        },
+        {
+          "name": "互联网",
+          "count": 1
+        },
+        {
+          "name": "人工智能",
+          "count": 1
+        },
+        {
+          "name": "医疗健康",
+          "count": 1
+        }
+      ],
+      "topDistricts": [
+        {
+          "name": "深圳",
+          "count": 3
+        },
+        {
+          "name": "宝安区",
+          "count": 2
+        },
+        {
+          "name": "南山区",
+          "count": 2
+        },
+        {
+          "name": "光明区",
+          "count": 1
+        },
+        {
+          "name": "龙岗区",
+          "count": 1
+        }
+      ],
+      "evidenceJobs": [
+        {
+          "id": "boss-4d16467e5691e8670nd-0t29ElNY",
+          "title": "图形算法高级开发工程师",
+          "company": "创鑫激光MAX",
+          "salaryText": "40-70K",
+          "sourceUrl": "https://www.zhipin.com/job_detail/4d16467e5691e8670nd-0t29ElNY.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-08b309dc5740041f0nZ_3tu1GFJT",
+          "title": "【广州/苏州】 AI 算法博士",
+          "company": "视源股份(CVTE)",
+          "salaryText": "35-60K·13薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/08b309dc5740041f0nZ_3tu1GFJT.html",
+          "capturedAt": "2026-07-12T21:13:08.537Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-828d52a05aa414f10nZ80tq-E1pW",
+          "title": "AI 图像算法工程师（eufyMake）",
+          "company": "Anker",
+          "salaryText": "35-55K·16薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/828d52a05aa414f10nZ80tq-E1pW.html",
+          "capturedAt": "2026-07-12T21:13:08.537Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-ac9eb6016f09640903150t--GVdW",
+          "title": "【地瓜机器人】SLAM算法开发工程师",
+          "company": "地平线",
+          "salaryText": "30-50K·15薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/ac9eb6016f09640903150t--GVdW.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-5837b85c0d88eb8c0nR939q-E1pX",
+          "title": "AI图像算法",
+          "company": "汉森软件",
+          "salaryText": "35-40K·15薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/5837b85c0d88eb8c0nR939q-E1pX.html",
+          "capturedAt": "2026-07-12T21:13:08.537Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-d7727d773135f1a403d62du7ElVQ",
+          "title": "助理研究员(J10423)",
+          "company": "AIRS",
+          "salaryText": "30-40K",
+          "sourceUrl": "https://www.zhipin.com/job_detail/d7727d773135f1a403d62du7ElVQ.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-547f8fff880b8c0b03d70ty5FVRY",
+          "title": "有限单元算法开发工程师",
+          "company": "十沣",
+          "salaryText": "20-40K",
+          "sourceUrl": "https://www.zhipin.com/job_detail/547f8fff880b8c0b03d70ty5FVRY.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-856a6f166cfb639f03Z73tm0ElRZ",
+          "title": "ai算法工程师",
+          "company": "帝迈生物",
+          "salaryText": "25-35K·15薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/856a6f166cfb639f03Z73tm0ElRZ.html",
+          "capturedAt": "2026-07-12T21:13:08.537Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-dcd4cf16c63413310nR93t67E1BR",
+          "title": "C++几何算法开发",
+          "company": "嘉立创",
+          "salaryText": "20-40K·14薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/dcd4cf16c63413310nR93t67E1BR.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        }
+      ]
+    },
+    {
+      "name": "行业算法与智能硬件",
+      "status": "observed-family",
+      "sampleCount": 5,
+      "companyCount": 5,
+      "industryCount": 4,
+      "detailCount": 0,
+      "salary": {
+        "min": 15,
+        "max": 50,
+        "medianMid": 32.5,
+        "bands": {
+          "30K": 4,
+          "50K": 1,
+          "100K": 0
+        }
+      },
+      "originalTitles": [
+        "BMS核心算法开发工程师",
+        "算法开发工程师",
+        "AI算法岗位",
+        "呼吸算法开发经理",
+        "嵌入式开发（算法部署）工程师"
+      ],
+      "topIndustries": [
+        {
+          "name": "医疗器械",
+          "count": 2
+        },
+        {
+          "name": "储能",
+          "count": 1
+        },
+        {
+          "name": "医疗健康",
+          "count": 1
+        },
+        {
+          "name": "智能硬件",
+          "count": 1
+        }
+      ],
+      "topDistricts": [
+        {
+          "name": "龙华区",
+          "count": 2
+        },
+        {
+          "name": "宝安区",
+          "count": 1
+        },
+        {
+          "name": "南山区",
+          "count": 1
+        },
+        {
+          "name": "盐田区",
+          "count": 1
+        }
+      ],
+      "evidenceJobs": [
+        {
+          "id": "boss-78b79322128e24b00nV63d-1EVVR",
+          "title": "嵌入式开发（算法部署）工程师",
+          "company": "拓竹科技",
+          "salaryText": "30-50K·15薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/78b79322128e24b00nV63d-1EVVR.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-38ec439839cf55170ndy2dq0FlNX",
+          "title": "BMS核心算法开发工程师",
+          "company": "摩瓦新能源",
+          "salaryText": "25-40K·14薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/38ec439839cf55170ndy2dq0FlNX.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-4c072270a91630f71nJ92NW5GFpV",
+          "title": "呼吸算法开发经理",
+          "company": "唯特医疗",
+          "salaryText": "30-35K·13薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/4c072270a91630f71nJ92NW5GFpV.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-45c77cf3d5688afe0nZ_3Nu8E1ZV",
+          "title": "AI算法岗位",
+          "company": "华大基因",
+          "salaryText": "23-40K",
+          "sourceUrl": "https://www.zhipin.com/job_detail/45c77cf3d5688afe0nZ_3Nu8E1ZV.html",
+          "capturedAt": "2026-07-12T21:13:08.537Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-3d3261b38e8b953703d_29u6FVJR",
+          "title": "算法开发工程师",
+          "company": "硅基仿生",
+          "salaryText": "15-30K·13薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/3d3261b38e8b953703d_29u6FVJR.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        }
+      ]
+    },
+    {
+      "name": "量化与金融 AI",
+      "status": "observed-family",
+      "sampleCount": 5,
+      "companyCount": 5,
+      "industryCount": 3,
+      "detailCount": 0,
+      "salary": {
+        "min": 18,
+        "max": 60,
+        "medianMid": 30,
+        "bands": {
+          "30K": 4,
+          "50K": 1,
+          "100K": 0
+        }
+      },
+      "originalTitles": [
+        "用户体验研究员-深圳",
+        "【深圳】深度学习算法工程师（正式批）",
+        "AI 算法/工程专家",
+        "量化研究员（深度学习方向）",
+        "深度学习量化研究员"
+      ],
+      "topIndustries": [
+        {
+          "name": "互联网金融",
+          "count": 2
+        },
+        {
+          "name": "计算机软件",
+          "count": 2
+        },
+        {
+          "name": "基金",
+          "count": 1
+        }
+      ],
+      "topDistricts": [
+        {
+          "name": "南山区",
+          "count": 3
+        },
+        {
+          "name": "福田区",
+          "count": 1
+        },
+        {
+          "name": "罗湖区",
+          "count": 1
+        }
+      ],
+      "evidenceJobs": [
+        {
+          "id": "boss-1c2f9119034d8d750ndy2dy6FVZV",
+          "title": "AI 算法/工程专家",
+          "company": "中国平安银行",
+          "salaryText": "30-60K·14薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/1c2f9119034d8d750ndy2dy6FVZV.html",
+          "capturedAt": "2026-07-12T21:13:08.537Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-044da74892459df403V73Ny8FFdR",
+          "title": "【深圳】深度学习算法工程师（正式批）",
+          "company": "仲阳天王星",
+          "salaryText": "25-50K·15薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/044da74892459df403V73Ny8FFdR.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-025eb2b31125721c0nZ93dS-E1JV",
+          "title": "用户体验研究员-深圳",
+          "company": "深圳灵动",
+          "salaryText": "20-40K·15薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/025eb2b31125721c0nZ93dS-E1JV.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-ae3b4f07b2d9584303Z_0t--GVVS",
+          "title": "量化研究员（深度学习方向）",
+          "company": "氢氦软件",
+          "salaryText": "20-40K",
+          "sourceUrl": "https://www.zhipin.com/job_detail/ae3b4f07b2d9584303Z_0t--GVVS.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-c79f9339db5aa90b03Rz2dq6F1JQ",
+          "title": "深度学习量化研究员",
+          "company": "鸿濛投资",
+          "salaryText": "18-35K·13薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/c79f9339db5aa90b03Rz2dq6F1JQ.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        }
+      ]
+    },
+    {
+      "name": "研究型 AI 岗位",
+      "status": "observed-family",
+      "sampleCount": 3,
+      "companyCount": 3,
+      "industryCount": 3,
+      "detailCount": 0,
+      "salary": {
+        "min": 22,
+        "max": 70,
+        "medianMid": 40,
+        "bands": {
+          "30K": 1,
+          "50K": 2,
+          "100K": 0
+        }
+      },
+      "originalTitles": [
+        "深度学习研究员",
+        "计算机网络方向博后/助理研究员",
+        "游戏AI-深度学习算法研究员(深圳)"
+      ],
+      "topIndustries": [
+        {
+          "name": "互联网",
+          "count": 1
+        },
+        {
+          "name": "计算机软件",
+          "count": 1
+        },
+        {
+          "name": "学术/科研",
+          "count": 1
+        }
+      ],
+      "topDistricts": [
+        {
+          "name": "南山区",
+          "count": 2
+        },
+        {
+          "name": "龙岗区",
+          "count": 1
+        }
+      ],
+      "evidenceJobs": [
+        {
+          "id": "boss-e2b72242d5c6ce0a031_3tS0FFBV",
+          "title": "游戏AI-深度学习算法研究员(深圳)",
+          "company": "腾讯",
+          "salaryText": "50-70K·15薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/e2b72242d5c6ce0a031_3tS0FFBV.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-9febb5f6bc42220803V72dm4ElpZ",
+          "title": "计算机网络方向博后/助理研究员",
+          "company": "鹏城实验室",
+          "salaryText": "35-45K",
+          "sourceUrl": "https://www.zhipin.com/job_detail/9febb5f6bc42220803V72dm4ElpZ.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-52154ad79fd9857403V-09-4ElFW",
+          "title": "深度学习研究员",
+          "company": "天宫开物",
+          "salaryText": "22-40K",
+          "sourceUrl": "https://www.zhipin.com/job_detail/52154ad79fd9857403V-09-4ElFW.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        }
+      ]
+    },
+    {
+      "name": "语音、音频与信号算法",
+      "status": "early-signal",
+      "sampleCount": 2,
+      "companyCount": 2,
+      "industryCount": 2,
+      "detailCount": 1,
+      "salary": {
+        "min": 25,
+        "max": 100,
+        "medianMid": 60,
+        "bands": {
+          "30K": 1,
+          "50K": 0,
+          "100K": 1
+        }
+      },
+      "originalTitles": [
+        "AI语音算法",
+        "语音算法开发工程师（工程/部署）"
+      ],
+      "topIndustries": [
+        {
+          "name": "医疗器械",
+          "count": 1
+        },
+        {
+          "name": "智能硬件/消费电子",
+          "count": 1
+        }
+      ],
+      "topDistricts": [
+        {
+          "name": "龙华区",
+          "count": 1
+        },
+        {
+          "name": "深圳",
+          "count": 1
+        }
+      ],
+      "evidenceJobs": [
+        {
+          "id": "boss-024152e507fcd0700nRz09-1E1FZ",
+          "title": "AI语音算法",
+          "company": "飞声医疗",
+          "salaryText": "70-100K·14薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
+          "capturedAt": "2026-07-12T21:13:08.537Z",
+          "evidenceLevel": "boss-detail"
+        },
+        {
+          "id": "boss-2dac73f4d2225ce80nd82tW7EVBR",
+          "title": "语音算法开发工程师（工程/部署）",
+          "company": "绿联科技",
+          "salaryText": "25-45K·14薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/2dac73f4d2225ce80nd82tW7EVBR.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        }
+      ]
+    }
+  ],
+  "skills": {
+    "denominator": 7,
+    "stats": [
+      {
+        "name": "强化学习",
+        "category": "专业技能",
+        "count": 4,
+        "denominator": 7,
+        "frequency": 0.571,
+        "salaryBands": {
+          "30K": 0,
+          "50K": 0,
+          "100K": 4
+        },
+        "evidenceJobs": [
+          {
+            "id": "boss-07127b18e9f769e00nd70tq1FFpY",
+            "title": "强化运控算法联创&组长&专家深圳上海北京等",
+            "company": "芯宇全球",
+            "salaryText": "100-200K·24薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/07127b18e9f769e00nd70tq1FFpY.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          },
+          {
+            "id": "boss-1ed35a5c9f7e6fbe0ndy3d66ElNS",
+            "title": "AI Agent大模型算法专家",
+            "company": "vivo",
+            "salaryText": "70-90K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/1ed35a5c9f7e6fbe0ndy3d66ElNS.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          },
+          {
+            "id": "boss-2dd0558b65b0a6440nV-39y5GVNS",
+            "title": "深度强化学习算法工程师",
+            "company": "索璞动力",
+            "salaryText": "80-100K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/2dd0558b65b0a6440nV-39y5GVNS.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          },
+          {
+            "id": "boss-535998b31709c38f03d60t28ElRT",
+            "title": "强化学习专家",
+            "company": "魔法原子",
+            "salaryText": "70-100K·15薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/535998b31709c38f03d60t28ElRT.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "name": "行业经验",
+        "category": "行业经验",
+        "count": 4,
+        "denominator": 7,
+        "frequency": 0.571,
+        "salaryBands": {
+          "30K": 0,
+          "50K": 0,
+          "100K": 4
+        },
+        "evidenceJobs": [
+          {
+            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
+            "title": "AI语音算法",
+            "company": "飞声医疗",
+            "salaryText": "70-100K·14薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          },
+          {
+            "id": "boss-07127b18e9f769e00nd70tq1FFpY",
+            "title": "强化运控算法联创&组长&专家深圳上海北京等",
+            "company": "芯宇全球",
+            "salaryText": "100-200K·24薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/07127b18e9f769e00nd70tq1FFpY.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          },
+          {
+            "id": "boss-2dd0558b65b0a6440nV-39y5GVNS",
+            "title": "深度强化学习算法工程师",
+            "company": "索璞动力",
+            "salaryText": "80-100K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/2dd0558b65b0a6440nV-39y5GVNS.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          },
+          {
+            "id": "boss-535998b31709c38f03d60t28ElRT",
+            "title": "强化学习专家",
+            "company": "魔法原子",
+            "salaryText": "70-100K·15薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/535998b31709c38f03d60t28ElRT.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "name": "主导与路线责任",
+        "category": "管理能力",
+        "count": 4,
+        "denominator": 7,
+        "frequency": 0.571,
+        "salaryBands": {
+          "30K": 0,
+          "50K": 0,
+          "100K": 4
+        },
+        "evidenceJobs": [
+          {
+            "id": "boss-07127b18e9f769e00nd70tq1FFpY",
+            "title": "强化运控算法联创&组长&专家深圳上海北京等",
+            "company": "芯宇全球",
+            "salaryText": "100-200K·24薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/07127b18e9f769e00nd70tq1FFpY.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          },
+          {
+            "id": "boss-1ed35a5c9f7e6fbe0ndy3d66ElNS",
+            "title": "AI Agent大模型算法专家",
+            "company": "vivo",
+            "salaryText": "70-90K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/1ed35a5c9f7e6fbe0ndy3d66ElNS.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          },
+          {
+            "id": "boss-535998b31709c38f03d60t28ElRT",
+            "title": "强化学习专家",
+            "company": "魔法原子",
+            "salaryText": "70-100K·15薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/535998b31709c38f03d60t28ElRT.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-detail"
+          },
+          {
+            "id": "boss-677b5d673b77a4d70nZz3N64FVBT",
+            "title": "ai算法负责人",
+            "company": "杭州文和星途科技",
+            "salaryText": "100-150K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/677b5d673b77a4d70nZz3N64FVBT.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "name": "大模型与 Agent",
+        "category": "AI 工具",
+        "count": 3,
+        "denominator": 7,
+        "frequency": 0.429,
+        "salaryBands": {
+          "30K": 0,
+          "50K": 0,
+          "100K": 3
+        },
+        "evidenceJobs": [
+          {
+            "id": "boss-1ed35a5c9f7e6fbe0ndy3d66ElNS",
+            "title": "AI Agent大模型算法专家",
+            "company": "vivo",
+            "salaryText": "70-90K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/1ed35a5c9f7e6fbe0ndy3d66ElNS.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          },
+          {
+            "id": "boss-677b5d673b77a4d70nZz3N64FVBT",
+            "title": "ai算法负责人",
+            "company": "杭州文和星途科技",
+            "salaryText": "100-150K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/677b5d673b77a4d70nZz3N64FVBT.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          },
+          {
+            "id": "boss-ba334c2c5f5ba58c0nV72960FFFR",
+            "title": "AI算法专家",
+            "company": "绿联科技",
+            "salaryText": "70-85K·15薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/ba334c2c5f5ba58c0nV72960FFFR.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "name": "工程部署与性能优化",
+        "category": "工程能力",
+        "count": 3,
+        "denominator": 7,
+        "frequency": 0.429,
+        "salaryBands": {
+          "30K": 0,
+          "50K": 0,
+          "100K": 3
+        },
+        "evidenceJobs": [
+          {
+            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
+            "title": "AI语音算法",
+            "company": "飞声医疗",
+            "salaryText": "70-100K·14薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          },
+          {
+            "id": "boss-1ed35a5c9f7e6fbe0ndy3d66ElNS",
+            "title": "AI Agent大模型算法专家",
+            "company": "vivo",
+            "salaryText": "70-90K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/1ed35a5c9f7e6fbe0ndy3d66ElNS.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          },
+          {
+            "id": "boss-677b5d673b77a4d70nZz3N64FVBT",
+            "title": "ai算法负责人",
+            "company": "杭州文和星途科技",
+            "salaryText": "100-150K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/677b5d673b77a4d70nZz3N64FVBT.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "name": "机器人控制",
+        "category": "专业技能",
+        "count": 3,
+        "denominator": 7,
+        "frequency": 0.429,
+        "salaryBands": {
+          "30K": 0,
+          "50K": 0,
+          "100K": 3
+        },
+        "evidenceJobs": [
+          {
+            "id": "boss-07127b18e9f769e00nd70tq1FFpY",
+            "title": "强化运控算法联创&组长&专家深圳上海北京等",
+            "company": "芯宇全球",
+            "salaryText": "100-200K·24薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/07127b18e9f769e00nd70tq1FFpY.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          },
+          {
+            "id": "boss-2dd0558b65b0a6440nV-39y5GVNS",
+            "title": "深度强化学习算法工程师",
+            "company": "索璞动力",
+            "salaryText": "80-100K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/2dd0558b65b0a6440nV-39y5GVNS.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          },
+          {
+            "id": "boss-535998b31709c38f03d60t28ElRT",
+            "title": "强化学习专家",
+            "company": "魔法原子",
+            "salaryText": "70-100K·15薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/535998b31709c38f03d60t28ElRT.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "name": "计算机视觉",
+        "category": "专业技能",
+        "count": 2,
+        "denominator": 7,
+        "frequency": 0.286,
+        "salaryBands": {
+          "30K": 0,
+          "50K": 0,
+          "100K": 2
+        },
+        "evidenceJobs": [
+          {
+            "id": "boss-677b5d673b77a4d70nZz3N64FVBT",
+            "title": "ai算法负责人",
+            "company": "杭州文和星途科技",
+            "salaryText": "100-150K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/677b5d673b77a4d70nZz3N64FVBT.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          },
+          {
+            "id": "boss-ba334c2c5f5ba58c0nV72960FFFR",
+            "title": "AI算法专家",
+            "company": "绿联科技",
+            "salaryText": "70-85K·15薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/ba334c2c5f5ba58c0nV72960FFFR.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "name": "跨团队协作",
+        "category": "软技能",
+        "count": 2,
+        "denominator": 7,
+        "frequency": 0.286,
+        "salaryBands": {
+          "30K": 0,
+          "50K": 0,
+          "100K": 2
+        },
+        "evidenceJobs": [
+          {
+            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
+            "title": "AI语音算法",
+            "company": "飞声医疗",
+            "salaryText": "70-100K·14薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          },
+          {
+            "id": "boss-1ed35a5c9f7e6fbe0ndy3d66ElNS",
+            "title": "AI Agent大模型算法专家",
+            "company": "vivo",
+            "salaryText": "70-90K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/1ed35a5c9f7e6fbe0ndy3d66ElNS.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          }
+        ]
+      },
+      {
+        "name": "语音与信号处理",
+        "category": "专业技能",
+        "count": 2,
+        "denominator": 7,
+        "frequency": 0.286,
+        "salaryBands": {
+          "30K": 0,
+          "50K": 0,
+          "100K": 2
+        },
+        "evidenceJobs": [
+          {
+            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
+            "title": "AI语音算法",
+            "company": "飞声医疗",
+            "salaryText": "70-100K·14薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          },
+          {
+            "id": "boss-ba334c2c5f5ba58c0nV72960FFFR",
+            "title": "AI算法专家",
+            "company": "绿联科技",
+            "salaryText": "70-85K·15薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/ba334c2c5f5ba58c0nV72960FFFR.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "name": "深度学习框架",
+        "category": "AI 工具",
+        "count": 1,
+        "denominator": 7,
+        "frequency": 0.143,
+        "salaryBands": {
+          "30K": 0,
+          "50K": 0,
+          "100K": 1
+        },
+        "evidenceJobs": [
+          {
+            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
+            "title": "AI语音算法",
+            "company": "飞声医疗",
+            "salaryText": "70-100K·14薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "name": "数据、实验与评测",
+        "category": "数据能力",
+        "count": 1,
+        "denominator": 7,
+        "frequency": 0.143,
+        "salaryBands": {
+          "30K": 0,
+          "50K": 0,
+          "100K": 1
+        },
+        "evidenceJobs": [
+          {
+            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
+            "title": "AI语音算法",
+            "company": "飞声医疗",
+            "salaryText": "70-100K·14薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "name": "C++",
+        "category": "专业技能",
+        "count": 1,
+        "denominator": 7,
+        "frequency": 0.143,
+        "salaryBands": {
+          "30K": 0,
+          "50K": 0,
+          "100K": 1
+        },
+        "evidenceJobs": [
+          {
+            "id": "boss-2dd0558b65b0a6440nV-39y5GVNS",
+            "title": "深度强化学习算法工程师",
+            "company": "索璞动力",
+            "salaryText": "80-100K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/2dd0558b65b0a6440nV-39y5GVNS.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          }
+        ]
+      },
+      {
+        "name": "Python",
+        "category": "专业技能",
+        "count": 1,
+        "denominator": 7,
+        "frequency": 0.143,
+        "salaryBands": {
+          "30K": 0,
+          "50K": 0,
+          "100K": 1
+        },
+        "evidenceJobs": [
+          {
+            "id": "boss-2dd0558b65b0a6440nV-39y5GVNS",
+            "title": "深度强化学习算法工程师",
+            "company": "索璞动力",
+            "salaryText": "80-100K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/2dd0558b65b0a6440nV-39y5GVNS.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          }
+        ]
+      }
+    ],
+    "pairs": [
+      {
+        "pair": "机器人控制 + 行业经验",
+        "count": 3,
+        "denominator": 7,
+        "publishable": true,
+        "evidenceJobs": [
+          {
+            "id": "boss-07127b18e9f769e00nd70tq1FFpY",
+            "title": "强化运控算法联创&组长&专家深圳上海北京等",
+            "company": "芯宇全球",
+            "salaryText": "100-200K·24薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/07127b18e9f769e00nd70tq1FFpY.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          },
+          {
+            "id": "boss-2dd0558b65b0a6440nV-39y5GVNS",
+            "title": "深度强化学习算法工程师",
+            "company": "索璞动力",
+            "salaryText": "80-100K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/2dd0558b65b0a6440nV-39y5GVNS.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          },
+          {
+            "id": "boss-535998b31709c38f03d60t28ElRT",
+            "title": "强化学习专家",
+            "company": "魔法原子",
+            "salaryText": "70-100K·15薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/535998b31709c38f03d60t28ElRT.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "pair": "强化学习 + 机器人控制",
+        "count": 3,
+        "denominator": 7,
+        "publishable": true,
+        "evidenceJobs": [
+          {
+            "id": "boss-07127b18e9f769e00nd70tq1FFpY",
+            "title": "强化运控算法联创&组长&专家深圳上海北京等",
+            "company": "芯宇全球",
+            "salaryText": "100-200K·24薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/07127b18e9f769e00nd70tq1FFpY.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          },
+          {
+            "id": "boss-2dd0558b65b0a6440nV-39y5GVNS",
+            "title": "深度强化学习算法工程师",
+            "company": "索璞动力",
+            "salaryText": "80-100K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/2dd0558b65b0a6440nV-39y5GVNS.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          },
+          {
+            "id": "boss-535998b31709c38f03d60t28ElRT",
+            "title": "强化学习专家",
+            "company": "魔法原子",
+            "salaryText": "70-100K·15薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/535998b31709c38f03d60t28ElRT.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "pair": "强化学习 + 行业经验",
+        "count": 3,
+        "denominator": 7,
+        "publishable": true,
+        "evidenceJobs": [
+          {
+            "id": "boss-07127b18e9f769e00nd70tq1FFpY",
+            "title": "强化运控算法联创&组长&专家深圳上海北京等",
+            "company": "芯宇全球",
+            "salaryText": "100-200K·24薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/07127b18e9f769e00nd70tq1FFpY.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          },
+          {
+            "id": "boss-2dd0558b65b0a6440nV-39y5GVNS",
+            "title": "深度强化学习算法工程师",
+            "company": "索璞动力",
+            "salaryText": "80-100K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/2dd0558b65b0a6440nV-39y5GVNS.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          },
+          {
+            "id": "boss-535998b31709c38f03d60t28ElRT",
+            "title": "强化学习专家",
+            "company": "魔法原子",
+            "salaryText": "70-100K·15薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/535998b31709c38f03d60t28ElRT.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "pair": "主导与路线责任 + 强化学习",
+        "count": 3,
+        "denominator": 7,
+        "publishable": true,
+        "evidenceJobs": [
+          {
+            "id": "boss-07127b18e9f769e00nd70tq1FFpY",
+            "title": "强化运控算法联创&组长&专家深圳上海北京等",
+            "company": "芯宇全球",
+            "salaryText": "100-200K·24薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/07127b18e9f769e00nd70tq1FFpY.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          },
+          {
+            "id": "boss-1ed35a5c9f7e6fbe0ndy3d66ElNS",
+            "title": "AI Agent大模型算法专家",
+            "company": "vivo",
+            "salaryText": "70-90K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/1ed35a5c9f7e6fbe0ndy3d66ElNS.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          },
+          {
+            "id": "boss-535998b31709c38f03d60t28ElRT",
+            "title": "强化学习专家",
+            "company": "魔法原子",
+            "salaryText": "70-100K·15薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/535998b31709c38f03d60t28ElRT.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "pair": "大模型与 Agent + 工程部署与性能优化",
+        "count": 2,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-1ed35a5c9f7e6fbe0ndy3d66ElNS",
+            "title": "AI Agent大模型算法专家",
+            "company": "vivo",
+            "salaryText": "70-90K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/1ed35a5c9f7e6fbe0ndy3d66ElNS.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          },
+          {
+            "id": "boss-677b5d673b77a4d70nZz3N64FVBT",
+            "title": "ai算法负责人",
+            "company": "杭州文和星途科技",
+            "salaryText": "100-150K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/677b5d673b77a4d70nZz3N64FVBT.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "pair": "大模型与 Agent + 计算机视觉",
+        "count": 2,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-677b5d673b77a4d70nZz3N64FVBT",
+            "title": "ai算法负责人",
+            "company": "杭州文和星途科技",
+            "salaryText": "100-150K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/677b5d673b77a4d70nZz3N64FVBT.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          },
+          {
+            "id": "boss-ba334c2c5f5ba58c0nV72960FFFR",
+            "title": "AI算法专家",
+            "company": "绿联科技",
+            "salaryText": "70-85K·15薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/ba334c2c5f5ba58c0nV72960FFFR.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "pair": "工程部署与性能优化 + 跨团队协作",
+        "count": 2,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
+            "title": "AI语音算法",
+            "company": "飞声医疗",
+            "salaryText": "70-100K·14薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          },
+          {
+            "id": "boss-1ed35a5c9f7e6fbe0ndy3d66ElNS",
+            "title": "AI Agent大模型算法专家",
+            "company": "vivo",
+            "salaryText": "70-90K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/1ed35a5c9f7e6fbe0ndy3d66ElNS.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          }
+        ]
+      },
+      {
+        "pair": "主导与路线责任 + 大模型与 Agent",
+        "count": 2,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-1ed35a5c9f7e6fbe0ndy3d66ElNS",
+            "title": "AI Agent大模型算法专家",
+            "company": "vivo",
+            "salaryText": "70-90K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/1ed35a5c9f7e6fbe0ndy3d66ElNS.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          },
+          {
+            "id": "boss-677b5d673b77a4d70nZz3N64FVBT",
+            "title": "ai算法负责人",
+            "company": "杭州文和星途科技",
+            "salaryText": "100-150K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/677b5d673b77a4d70nZz3N64FVBT.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "pair": "主导与路线责任 + 工程部署与性能优化",
+        "count": 2,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-1ed35a5c9f7e6fbe0ndy3d66ElNS",
+            "title": "AI Agent大模型算法专家",
+            "company": "vivo",
+            "salaryText": "70-90K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/1ed35a5c9f7e6fbe0ndy3d66ElNS.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          },
+          {
+            "id": "boss-677b5d673b77a4d70nZz3N64FVBT",
+            "title": "ai算法负责人",
+            "company": "杭州文和星途科技",
+            "salaryText": "100-150K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/677b5d673b77a4d70nZz3N64FVBT.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "pair": "主导与路线责任 + 机器人控制",
+        "count": 2,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-07127b18e9f769e00nd70tq1FFpY",
+            "title": "强化运控算法联创&组长&专家深圳上海北京等",
+            "company": "芯宇全球",
+            "salaryText": "100-200K·24薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/07127b18e9f769e00nd70tq1FFpY.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          },
+          {
+            "id": "boss-535998b31709c38f03d60t28ElRT",
+            "title": "强化学习专家",
+            "company": "魔法原子",
+            "salaryText": "70-100K·15薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/535998b31709c38f03d60t28ElRT.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "pair": "主导与路线责任 + 行业经验",
+        "count": 2,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-07127b18e9f769e00nd70tq1FFpY",
+            "title": "强化运控算法联创&组长&专家深圳上海北京等",
+            "company": "芯宇全球",
+            "salaryText": "100-200K·24薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/07127b18e9f769e00nd70tq1FFpY.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          },
+          {
+            "id": "boss-535998b31709c38f03d60t28ElRT",
+            "title": "强化学习专家",
+            "company": "魔法原子",
+            "salaryText": "70-100K·15薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/535998b31709c38f03d60t28ElRT.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "pair": "大模型与 Agent + 跨团队协作",
+        "count": 1,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-1ed35a5c9f7e6fbe0ndy3d66ElNS",
+            "title": "AI Agent大模型算法专家",
+            "company": "vivo",
+            "salaryText": "70-90K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/1ed35a5c9f7e6fbe0ndy3d66ElNS.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          }
+        ]
+      },
+      {
+        "pair": "大模型与 Agent + 强化学习",
+        "count": 1,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-1ed35a5c9f7e6fbe0ndy3d66ElNS",
+            "title": "AI Agent大模型算法专家",
+            "company": "vivo",
+            "salaryText": "70-90K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/1ed35a5c9f7e6fbe0ndy3d66ElNS.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          }
+        ]
+      },
+      {
+        "pair": "大模型与 Agent + 语音与信号处理",
+        "count": 1,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-ba334c2c5f5ba58c0nV72960FFFR",
+            "title": "AI算法专家",
+            "company": "绿联科技",
+            "salaryText": "70-85K·15薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/ba334c2c5f5ba58c0nV72960FFFR.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "pair": "工程部署与性能优化 + 计算机视觉",
+        "count": 1,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-677b5d673b77a4d70nZz3N64FVBT",
+            "title": "ai算法负责人",
+            "company": "杭州文和星途科技",
+            "salaryText": "100-150K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/677b5d673b77a4d70nZz3N64FVBT.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "pair": "工程部署与性能优化 + 强化学习",
+        "count": 1,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-1ed35a5c9f7e6fbe0ndy3d66ElNS",
+            "title": "AI Agent大模型算法专家",
+            "company": "vivo",
+            "salaryText": "70-90K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/1ed35a5c9f7e6fbe0ndy3d66ElNS.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          }
+        ]
+      },
+      {
+        "pair": "工程部署与性能优化 + 深度学习框架",
+        "count": 1,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
+            "title": "AI语音算法",
+            "company": "飞声医疗",
+            "salaryText": "70-100K·14薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "pair": "工程部署与性能优化 + 数据、实验与评测",
+        "count": 1,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
+            "title": "AI语音算法",
+            "company": "飞声医疗",
+            "salaryText": "70-100K·14薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "pair": "工程部署与性能优化 + 行业经验",
+        "count": 1,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
+            "title": "AI语音算法",
+            "company": "飞声医疗",
+            "salaryText": "70-100K·14薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "pair": "工程部署与性能优化 + 语音与信号处理",
+        "count": 1,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
+            "title": "AI语音算法",
+            "company": "飞声医疗",
+            "salaryText": "70-100K·14薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "pair": "计算机视觉 + 语音与信号处理",
+        "count": 1,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-ba334c2c5f5ba58c0nV72960FFFR",
+            "title": "AI算法专家",
+            "company": "绿联科技",
+            "salaryText": "70-85K·15薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/ba334c2c5f5ba58c0nV72960FFFR.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "pair": "强化学习 + 跨团队协作",
+        "count": 1,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-1ed35a5c9f7e6fbe0ndy3d66ElNS",
+            "title": "AI Agent大模型算法专家",
+            "company": "vivo",
+            "salaryText": "70-90K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/1ed35a5c9f7e6fbe0ndy3d66ElNS.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          }
+        ]
+      },
+      {
+        "pair": "深度学习框架 + 跨团队协作",
+        "count": 1,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
+            "title": "AI语音算法",
+            "company": "飞声医疗",
+            "salaryText": "70-100K·14薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "pair": "深度学习框架 + 行业经验",
+        "count": 1,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
+            "title": "AI语音算法",
+            "company": "飞声医疗",
+            "salaryText": "70-100K·14薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "pair": "深度学习框架 + 语音与信号处理",
+        "count": 1,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
+            "title": "AI语音算法",
+            "company": "飞声医疗",
+            "salaryText": "70-100K·14薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "pair": "数据、实验与评测 + 跨团队协作",
+        "count": 1,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
+            "title": "AI语音算法",
+            "company": "飞声医疗",
+            "salaryText": "70-100K·14薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "pair": "数据、实验与评测 + 深度学习框架",
+        "count": 1,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
+            "title": "AI语音算法",
+            "company": "飞声医疗",
+            "salaryText": "70-100K·14薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "pair": "数据、实验与评测 + 行业经验",
+        "count": 1,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
+            "title": "AI语音算法",
+            "company": "飞声医疗",
+            "salaryText": "70-100K·14薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "pair": "数据、实验与评测 + 语音与信号处理",
+        "count": 1,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
+            "title": "AI语音算法",
+            "company": "飞声医疗",
+            "salaryText": "70-100K·14薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "pair": "行业经验 + 跨团队协作",
+        "count": 1,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
+            "title": "AI语音算法",
+            "company": "飞声医疗",
+            "salaryText": "70-100K·14薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "pair": "行业经验 + 语音与信号处理",
+        "count": 1,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
+            "title": "AI语音算法",
+            "company": "飞声医疗",
+            "salaryText": "70-100K·14薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "pair": "语音与信号处理 + 跨团队协作",
+        "count": 1,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
+            "title": "AI语音算法",
+            "company": "飞声医疗",
+            "salaryText": "70-100K·14薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "pair": "主导与路线责任 + 计算机视觉",
+        "count": 1,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-677b5d673b77a4d70nZz3N64FVBT",
+            "title": "ai算法负责人",
+            "company": "杭州文和星途科技",
+            "salaryText": "100-150K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/677b5d673b77a4d70nZz3N64FVBT.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "pair": "主导与路线责任 + 跨团队协作",
+        "count": 1,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-1ed35a5c9f7e6fbe0ndy3d66ElNS",
+            "title": "AI Agent大模型算法专家",
+            "company": "vivo",
+            "salaryText": "70-90K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/1ed35a5c9f7e6fbe0ndy3d66ElNS.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          }
+        ]
+      },
+      {
+        "pair": "C++ + 机器人控制",
+        "count": 1,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-2dd0558b65b0a6440nV-39y5GVNS",
+            "title": "深度强化学习算法工程师",
+            "company": "索璞动力",
+            "salaryText": "80-100K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/2dd0558b65b0a6440nV-39y5GVNS.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          }
+        ]
+      },
+      {
+        "pair": "C++ + 强化学习",
+        "count": 1,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-2dd0558b65b0a6440nV-39y5GVNS",
+            "title": "深度强化学习算法工程师",
+            "company": "索璞动力",
+            "salaryText": "80-100K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/2dd0558b65b0a6440nV-39y5GVNS.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          }
+        ]
+      },
+      {
+        "pair": "C++ + 行业经验",
+        "count": 1,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-2dd0558b65b0a6440nV-39y5GVNS",
+            "title": "深度强化学习算法工程师",
+            "company": "索璞动力",
+            "salaryText": "80-100K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/2dd0558b65b0a6440nV-39y5GVNS.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          }
+        ]
+      },
+      {
+        "pair": "C++ + Python",
+        "count": 1,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-2dd0558b65b0a6440nV-39y5GVNS",
+            "title": "深度强化学习算法工程师",
+            "company": "索璞动力",
+            "salaryText": "80-100K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/2dd0558b65b0a6440nV-39y5GVNS.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          }
+        ]
+      },
+      {
+        "pair": "Python + 机器人控制",
+        "count": 1,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-2dd0558b65b0a6440nV-39y5GVNS",
+            "title": "深度强化学习算法工程师",
+            "company": "索璞动力",
+            "salaryText": "80-100K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/2dd0558b65b0a6440nV-39y5GVNS.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          }
+        ]
+      },
+      {
+        "pair": "Python + 强化学习",
+        "count": 1,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-2dd0558b65b0a6440nV-39y5GVNS",
+            "title": "深度强化学习算法工程师",
+            "company": "索璞动力",
+            "salaryText": "80-100K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/2dd0558b65b0a6440nV-39y5GVNS.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          }
+        ]
+      },
+      {
+        "pair": "Python + 行业经验",
+        "count": 1,
+        "denominator": 7,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-2dd0558b65b0a6440nV-39y5GVNS",
+            "title": "深度强化学习算法工程师",
+            "company": "索璞动力",
+            "salaryText": "80-100K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/2dd0558b65b0a6440nV-39y5GVNS.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          }
+        ]
+      }
+    ]
+  },
+  "expansionSignals": [
+    {
+      "company": "腾讯",
+      "status": "same-snapshot-cluster",
+      "jobCount": 3,
+      "distinctTitles": 3,
+      "capturedDates": [
+        "2026-07-12"
+      ],
+      "evidenceJobs": [
+        {
+          "id": "boss-2757a44b33919f3d0nZ_3tW7ElNX",
+          "title": "AI搜索算法专家",
+          "company": "腾讯",
+          "salaryText": "40-70K·16薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/2757a44b33919f3d0nZ_3tW7ElNX.html",
+          "capturedAt": "2026-07-12T21:13:08.537Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-8f5df390b12e73920nR93dW1EVdV",
+          "title": "腾讯云乐享-强化学习算法研究员(深圳)",
+          "company": "腾讯",
+          "salaryText": "40-70K·15薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/8f5df390b12e73920nR93dW1EVdV.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-e2b72242d5c6ce0a031_3tS0FFBV",
+          "title": "游戏AI-深度学习算法研究员(深圳)",
+          "company": "腾讯",
+          "salaryText": "50-70K·15薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/e2b72242d5c6ce0a031_3tS0FFBV.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        }
+      ]
+    },
+    {
+      "company": "绿联科技",
+      "status": "same-snapshot-cluster",
+      "jobCount": 2,
+      "distinctTitles": 2,
+      "capturedDates": [
+        "2026-07-12"
+      ],
+      "evidenceJobs": [
+        {
+          "id": "boss-ba334c2c5f5ba58c0nV72960FFFR",
+          "title": "AI算法专家",
+          "company": "绿联科技",
+          "salaryText": "70-85K·15薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/ba334c2c5f5ba58c0nV72960FFFR.html",
+          "capturedAt": "2026-07-12T21:13:08.537Z",
+          "evidenceLevel": "boss-detail"
+        },
+        {
+          "id": "boss-2dac73f4d2225ce80nd82tW7EVBR",
+          "title": "语音算法开发工程师（工程/部署）",
+          "company": "绿联科技",
+          "salaryText": "25-45K·14薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/2dac73f4d2225ce80nd82tW7EVBR.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        }
+      ]
+    },
+    {
+      "company": "深信服科技",
+      "status": "same-snapshot-cluster",
+      "jobCount": 2,
+      "distinctTitles": 2,
+      "capturedDates": [
+        "2026-07-12"
+      ],
+      "evidenceJobs": [
+        {
+          "id": "boss-0769187de25a99460nV43tm1FlVZ",
+          "title": "大模型算法/agent工程-开发/架构师",
+          "company": "深信服科技",
+          "salaryText": "50-80K·15薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/0769187de25a99460nV43tm1FlVZ.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-0ad88b630b71693b0nd42dW7FFpV",
+          "title": "AI lab- AI 算法工程师（引力计划）",
+          "company": "深信服科技",
+          "salaryText": "40-70K",
+          "sourceUrl": "https://www.zhipin.com/job_detail/0ad88b630b71693b0nd42dW7FFpV.html",
+          "capturedAt": "2026-07-12T21:13:08.537Z",
+          "evidenceLevel": "boss-listing"
+        }
+      ]
+    },
+    {
+      "company": "自变量机器人",
+      "status": "same-snapshot-cluster",
+      "jobCount": 2,
+      "distinctTitles": 2,
+      "capturedDates": [
+        "2026-07-12"
+      ],
+      "evidenceJobs": [
+        {
+          "id": "boss-053f5cd9d10c7b240nV43ti8FFtT",
+          "title": "算法应用开发工程师",
+          "company": "自变量机器人",
+          "salaryText": "25-50K·16薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/053f5cd9d10c7b240nV43ti8FFtT.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-6b835bad08ccddef0nd829W1FVFX",
+          "title": "运动控制算法（强化学习方向）",
+          "company": "自变量机器人",
+          "salaryText": "50-80K·16薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/6b835bad08ccddef0nd829W1FVFX.html",
+          "capturedAt": "2026-07-12T21:13:54.464Z",
+          "evidenceLevel": "boss-listing"
+        }
+      ]
+    }
+  ],
+  "salaryBands": [
+    {
+      "band": "30K",
+      "count": 32,
+      "detailCount": 0,
+      "medianMid": 30
+    },
+    {
+      "band": "50K",
+      "count": 32,
+      "detailCount": 0,
+      "medianMid": 52.5
+    },
+    {
+      "band": "100K",
+      "count": 7,
+      "detailCount": 7,
+      "medianMid": 85
+    }
+  ],
+  "benchmarkCandidates": [
+    {
+      "role": "机器人强化学习与运动控制",
+      "detailCount": 3,
+      "companyCount": 3,
+      "salaryBandCount": 3
+    },
+    {
+      "role": "AI Agent 与大模型应用",
+      "detailCount": 3,
+      "companyCount": 3,
+      "salaryBandCount": 3
+    },
+    {
+      "role": "语音、音频与信号算法",
+      "detailCount": 1,
+      "companyCount": 1,
+      "salaryBandCount": 2
+    },
+    {
+      "role": "通用 AI 与算法工程",
+      "detailCount": 0,
+      "companyCount": 0,
+      "salaryBandCount": 2
+    },
+    {
+      "role": "计算机视觉与图形算法",
+      "detailCount": 0,
+      "companyCount": 0,
+      "salaryBandCount": 2
+    },
+    {
+      "role": "行业算法与智能硬件",
+      "detailCount": 0,
+      "companyCount": 0,
+      "salaryBandCount": 2
+    },
+    {
+      "role": "量化与金融 AI",
+      "detailCount": 0,
+      "companyCount": 0,
+      "salaryBandCount": 2
+    },
+    {
+      "role": "研究型 AI 岗位",
+      "detailCount": 0,
+      "companyCount": 0,
+      "salaryBandCount": 2
+    }
+  ],
+  "timeSeries": {
+    "available": false,
+    "dates": [
+      "2026-07-12"
+    ],
+    "statement": "只有一个采集日期，不能判断薪资上涨、下降或持续扩招。"
+  }
+}
