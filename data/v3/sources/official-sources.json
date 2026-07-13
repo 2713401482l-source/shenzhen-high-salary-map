@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "dataKind": "external-context",
+    "excludedFromBossStatistics": true,
+    "capturedAt": "2026-07-14",
+    "purpose": "只佐证深圳产业与人才方向，不参与岗位数量、薪资、能力频率或扩招评分"
+  },
+  "sources": [
+    {
+      "id": "shenzhen-2026-development-plan",
+      "title": "深圳市2025年计划执行情况与2026年计划报告",
+      "publisher": "深圳市发展和改革委员会",
+      "publishedAt": "2026-04-13",
+      "evidenceGrade": "A",
+      "supports": ["人工智能终端", "具身智能机器人", "低空经济", "制造业数字化"],
+      "finding": "深圳把人工智能终端、具身智能机器人和低空经济列为重点方向，并继续推动制造业数字化转型。",
+      "sourceUrl": "https://www.sz.gov.cn/zfgb/2026/gb1409/content/post_12737870.html"
+    },
+    {
+      "id": "shenzhen-low-altitude-infrastructure-2026",
+      "title": "深圳市低空基础设施高质量建设方案（2024—2026年）",
+      "publisher": "深圳市发展和改革委员会",
+      "publishedAt": "2025-07-31",
+      "evidenceGrade": "A",
+      "supports": ["飞控算法", "复杂环境感知", "低功耗芯片", "解决方案"],
+      "finding": "官方方案明确提到飞控算法、复杂环境感知、低功耗芯片等关键技术，并强调跨行业协同和一站式解决方案。",
+      "sourceUrl": "https://fgw.sz.gov.cn/gkmlpt/content/12/12305/post_12305044.html"
+    },
+    {
+      "id": "shenzhen-cross-border-talent-base",
+      "title": "深圳跨境电商人才孵化基地在龙岗园山揭牌",
+      "publisher": "深圳政府在线",
+      "publishedAt": "2025-05-21",
+      "evidenceGrade": "B",
+      "supports": ["跨境电商运营", "平台实操", "合规"],
+      "finding": "政府门户转载信息指出专业人才缺口，并把懂运营、会实操、知合规概括为跨境电商人才培养方向。",
+      "sourceUrl": "https://www.sz.gov.cn/szzt2010/sarczdnl/sarc/qcy/cyfhjd/content/post_12444040.html"
+    },
+    {
+      "id": "qh-google-cross-border-center",
+      "title": "谷歌跨境电商加速中心（深圳）在前海启用",
+      "publisher": "深圳市前海管理局",
+      "publishedAt": "2025-07-30",
+      "evidenceGrade": "A",
+      "supports": ["平台运营", "数据分析", "品牌出海", "数字化营销"],
+      "finding": "前海官方信息把平台运营、数据分析、品牌出海和数字化营销放在同一类复合型人才生态中。",
+      "sourceUrl": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/bmdt/content/post_12301743.html"
+    }
+  ]
+}

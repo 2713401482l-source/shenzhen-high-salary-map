@@ -27,6 +27,17 @@ const demo = JSON.parse(await fs.readFile('data/v3/demo/page-logic-demo.json', '
 if (demo.metadata?.dataKind !== 'demo' || demo.metadata?.excludedFromFormalStats !== true) {
   fail('demo data is not explicitly excluded from formal statistics');
 }
+
+const officialSources = JSON.parse(await fs.readFile('data/v3/sources/official-sources.json', 'utf8'));
+if (officialSources.metadata?.dataKind !== 'external-context' || officialSources.metadata?.excludedFromBossStatistics !== true) {
+  fail('official sources must be isolated from Boss statistics');
+}
+if ((officialSources.sources || []).length < 3) fail('official context requires at least 3 sources');
+for (const source of officialSources.sources || []) {
+  const hostname = new URL(source.sourceUrl).hostname;
+  if (!hostname.endsWith('.sz.gov.cn') && hostname !== 'www.sz.gov.cn') fail(`official source is not on a Shenzhen government domain: ${source.id}`);
+  if (!source.publishedAt || !source.finding || !source.evidenceGrade) fail(`official source is missing traceability fields: ${source.id}`);
+}
 for (const role of demo.roleSignals || []) {
   if ('company' in role || 'sourceUrl' in role) fail(`demo role leaks company/source semantics: ${role.id}`);
 }
@@ -60,6 +71,6 @@ if (!jobsPage.includes('useEffect(() => setPage(1)')) fail('job filters must res
 if (!dataModule.includes("data/v3/analysis/real-analysis.json")) fail('real views must consume the generated V3 analysis');
 if (!pages.includes('realAnalysis.readiness')) fail('pages must disclose formal-analysis readiness');
 
-console.log(JSON.stringify({routes: routes.length, demoRoles: demo.roleSignals.length, bossAccessAllowed: status.bossAccessAllowed, jobPageSize: 12, axionShaderStack: true}, null, 2));
+console.log(JSON.stringify({routes: routes.length, demoRoles: demo.roleSignals.length, officialSources: officialSources.sources.length, bossAccessAllowed: status.bossAccessAllowed, jobPageSize: 12, axionShaderStack: true}, null, 2));
 if (failures) throw new Error(`${failures} V3 product validation failure(s)`);
 console.log('V3 product structure and data isolation are valid.');

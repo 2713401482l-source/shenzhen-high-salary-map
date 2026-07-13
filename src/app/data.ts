@@ -2,6 +2,7 @@ import verifiedSource from '../../data/jobs/verified.json';
 import candidateSource from '../../data/jobs/candidates.json';
 import demoSource from '../../data/v3/demo/page-logic-demo.json';
 import realAnalysisSource from '../../data/v3/analysis/real-analysis.json';
+import officialSourcesSource from '../../data/v3/sources/official-sources.json';
 
 export type SalaryBand = '30K' | '50K' | '100K';
 export type EvidenceLevel = 'boss-detail' | 'boss-listing-plus-detail' | 'boss-listing';
@@ -47,6 +48,7 @@ export const candidateJobs = candidateSource.map(normalizeJob);
 export const realJobs = [...verifiedJobs, ...candidateJobs];
 export const demoData = demoSource;
 export const realAnalysis = realAnalysisSource;
+export const officialSources = officialSourcesSource;
 
 export const capturedAt = realJobs
   .map(job => job.capturedAt)

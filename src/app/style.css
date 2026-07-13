@@ -328,6 +328,20 @@ button { color: inherit; }
 .empty-results svg { width: 28px; height: 28px; color: var(--muted); }
 .empty-results h2 { margin: 20px 0 8px; }
 .empty-results p { margin: 0; color: var(--muted); }
+.official-context { margin-top: 100px; }
+.official-context-head { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(260px, .9fr); gap: 64px; align-items: end; }
+.official-context-head h2 { max-width: 680px; margin: 14px 0 0; font-size: clamp(2rem, 3.5vw, 4rem); letter-spacing: -.05em; line-height: 1; }
+.official-context-head > p { max-width: 520px; margin: 0; color: var(--muted); font-size: 13px; line-height: 1.7; }
+.official-context-grid { margin-top: 44px; display: grid; grid-template-columns: repeat(2, 1fr); border-top: 1px solid var(--line); }
+.official-context-grid > a { min-height: 250px; padding: 28px 28px 28px 0; display: flex; flex-direction: column; border-bottom: 1px solid var(--line); }
+.official-context-grid > a:nth-child(even) { padding-left: 28px; border-left: 1px solid var(--line); }
+.official-context-grid > a > div, .official-context-grid footer { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.official-context-grid > a > div span { color: var(--accent-dark); font-size: 10px; font-weight: 800; }
+.official-context-grid > a > div small, .official-context-grid footer { color: var(--muted); font-size: 10px; }
+.official-context-grid h3 { margin: 38px 0 12px; font-size: 20px; letter-spacing: -.025em; }
+.official-context-grid p { margin: 0 0 28px; color: var(--muted); font-size: 13px; line-height: 1.65; }
+.official-context-grid footer { margin-top: auto; }
+.official-context-grid footer svg { width: 15px; height: 15px; }
 .job-pagination { margin: 36px 0 0; padding: 20px 0; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 18px; border-top: 1px solid var(--line); }
 .job-pagination button { min-height: 44px; padding: 0 16px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; border: 1px solid #cfd1d3; border-radius: 10px; background: white; color: var(--ink); font-weight: 720; cursor: pointer; }
 .job-pagination button:first-child { justify-self: start; }
@@ -433,6 +447,10 @@ button { color: inherit; }
   .skill-combo-card { min-height: 360px; }
   .evidence-heading { align-items: flex-start; flex-direction: column; gap: 8px; }
   .combo-examples > div, .benchmark-grid, .real-paths > div, .method-rules > div { grid-template-columns: 1fr; }
+  .official-context { margin-top: 72px; }
+  .official-context-head, .official-context-grid { grid-template-columns: 1fr; }
+  .official-context-head { gap: 22px; }
+  .official-context-grid > a, .official-context-grid > a:nth-child(even) { min-height: 230px; padding: 24px 0; border-left: 0; }
   .expansion-head, .expansion-list article { grid-template-columns: 1fr; gap: 24px; }
   .expansion-list a { grid-template-columns: minmax(0, 1fr) auto 16px; }
   .benchmark-primary { grid-row: auto; }

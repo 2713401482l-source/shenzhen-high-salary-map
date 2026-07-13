@@ -6,6 +6,7 @@ import {
   demoData,
   districtOptions,
   industryOptions,
+  officialSources,
   realAnalysis,
   realEvidence,
   realJobs,
@@ -109,6 +110,10 @@ export function TrendsPage() {
           {mode === 'demo' ? demoData.roleSignals.map(role => <button key={role.id} className={demoId === role.id ? 'active' : ''} onClick={() => setDemoId(role.id)} aria-pressed={demoId === role.id}><span>{role.name}</span><small>{role.lane}</small></button>) : realRoleFamilies.map(role => <button key={role.name} className={realName === role.name ? 'active' : ''} onClick={() => setRealName(role.name)} aria-pressed={realName === role.name}><span>{role.name}</span><small>{role.count} 条样本</small></button>)}
         </div>
         {mode === 'demo' ? <DemoRoleView role={selectedDemo} /> : selectedReal && <RealRoleView role={selectedReal} />}
+      </section>
+      <section className="official-context">
+        <div className="official-context-head"><div><p className="eyebrow">官方方向佐证</p><h2>这些资料只回答“深圳在往哪里投入”。</h2></div><p>它们不证明某个岗位正在扩招，也不参与 Boss 岗位数量、薪资或能力频率计算。</p></div>
+        <div className="official-context-grid">{officialSources.sources.map(source => <a key={source.id} href={source.sourceUrl} target="_blank" rel="noreferrer"><div><span>证据 {source.evidenceGrade}</span><small>{source.publishedAt}</small></div><h3>{source.title}</h3><p>{source.finding}</p><footer><span>{source.supports.slice(0, 3).join(' · ')}</span><ExternalLink aria-hidden="true" /></footer></a>)}</div>
       </section>
       <section className="plain-callout"><div><h2>{mode === 'demo' ? `${entries.length} 个方向只用于测试浏览逻辑` : `${realAnalysis.readiness.emergingRoles.actual} 个方向达到当前新兴信号门槛`}</h2><p>{mode === 'demo' ? '等真实采集恢复后，同样的模块会换成岗位数、公司数、薪资分布和原始链接。' : `当前共归为 ${entries.length} 个岗位族群。只有至少 3 条岗位、2 家公司并含详情证据的方向才会进入新兴信号。`}</p></div><ArrowButton href="skills.html" tone="orange">继续拆能力</ArrowButton></section>
     </div>
