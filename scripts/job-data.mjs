@@ -2,6 +2,7 @@ import { createHash } from 'node:crypto';
 
 export const DATA_LEVELS = ['candidate', 'verified', 'possibly-offline', 'rejected'];
 export const SALARY_BANDS = ['30K', '50K', '100K'];
+export const EVIDENCE_LEVELS = ['boss-listing', 'boss-listing-plus-detail', 'boss-detail'];
 
 export function normalizeText(value = '') {
   return String(value).normalize('NFKC').replace(/\s+/g, ' ').trim();
@@ -47,11 +48,13 @@ export function validateJob(job, expectedStatus) {
     'id', 'title', 'company', 'salaryText', 'salaryMin', 'salaryMax',
     'salaryBand', 'district', 'industry', 'experience', 'education',
     'sourceUrl', 'capturedAt', 'status', 'duplicateFingerprint',
+    'evidenceLevel',
   ];
   for (const key of common) {
     if (job[key] === undefined || job[key] === null || job[key] === '') errors.push(`missing ${key}`);
   }
   if (!DATA_LEVELS.includes(job.status)) errors.push(`invalid status ${job.status}`);
+  if (!EVIDENCE_LEVELS.includes(job.evidenceLevel)) errors.push(`invalid evidenceLevel ${job.evidenceLevel}`);
   if (expectedStatus && job.status !== expectedStatus) errors.push(`expected status ${expectedStatus}`);
   if (!SALARY_BANDS.includes(job.salaryBand)) errors.push(`invalid salaryBand ${job.salaryBand}`);
   if (Number(job.salaryMin) <= 0 || Number(job.salaryMax) < Number(job.salaryMin)) errors.push('invalid salary range');
@@ -62,6 +65,7 @@ export function validateJob(job, expectedStatus) {
     if (!job.verifiedAt) errors.push('verified job missing verifiedAt');
     if (!isBossJobDetailUrl(job.sourceUrl)) errors.push('verified source is not a Boss job detail URL');
     if (!job.requirementText && !job.descriptionExcerpt) errors.push('verified job missing requirements/description');
+    if (job.evidenceLevel === 'boss-listing') errors.push('verified job requires detail-page evidence');
   }
   if (job.status === 'rejected' && !job.rejectionReason) errors.push('rejected job missing rejectionReason');
   return errors;

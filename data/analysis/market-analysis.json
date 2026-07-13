@@ -1,0 +1,4456 @@
+{
+  "generatedAt": "2026-07-12T23:11:03.908Z",
+  "scope": {
+    "city": "深圳",
+    "salaryBoundary": "岗位薪资上限至少触达30K/月；薪资档位按区间中位数互斥归档",
+    "historicalClaim": "当前公开岗位横截面，不代表历史涨跌"
+  },
+  "evidence": {
+    "total": 71,
+    "verified": 7,
+    "listingObserved": 64,
+    "levels": {
+      "boss-detail": 4,
+      "boss-listing": 64,
+      "boss-listing-plus-detail": 3
+    },
+    "salaryBands": {
+      "100K": 7,
+      "30K": 32,
+      "50K": 32
+    }
+  },
+  "limitations": [
+    "Boss安全验证限制了连续详情页核验，未核验列表样本以较低权重参与探索性分析。",
+    "样本来自当前可访问的公开岗位页面，不能代表深圳全部招聘市场。",
+    "样本目前偏向算法、AI及技术岗位，岗位方向结论必须展示覆盖偏差。"
+  ],
+  "coverageWarning": "样本明显偏向AI、算法、机器人和技术研发岗位；本结果是可访问Boss高薪技术样本的截面，不是深圳全行业普查。",
+  "headlineMetrics": {
+    "jobs": 71,
+    "companies": 66,
+    "industries": 23,
+    "districts": 9,
+    "roleFamilies": 9,
+    "skills": 28
+  },
+  "roleFamilies": [
+    {
+      "name": "强化学习与机器人控制",
+      "count": 21,
+      "weightedDemand": 12.7,
+      "evidence": {
+        "verified": 3,
+        "listingObserved": 18
+      },
+      "salary": {
+        "medianMid": 52.5,
+        "medianMin": 40,
+        "medianMax": 65,
+        "highestMax": 200
+      },
+      "salaryBands": {
+        "30K": 4,
+        "50K": 14,
+        "100K": 3
+      },
+      "topSkills": [
+        {
+          "name": "强化学习",
+          "count": 18
+        },
+        {
+          "name": "机器人控制",
+          "count": 13
+        },
+        {
+          "name": "模型训练与调优",
+          "count": 10
+        },
+        {
+          "name": "智能硬件经验",
+          "count": 8
+        },
+        {
+          "name": "工程部署",
+          "count": 6
+        },
+        {
+          "name": "具身智能",
+          "count": 5
+        },
+        {
+          "name": "大模型",
+          "count": 4
+        },
+        {
+          "name": "团队管理",
+          "count": 4
+        }
+      ],
+      "topIndustries": [
+        {
+          "name": "人工智能",
+          "count": 8
+        },
+        {
+          "name": "智能硬件",
+          "count": 5
+        },
+        {
+          "name": "智能硬件/消费电子",
+          "count": 3
+        },
+        {
+          "name": "计算机软件",
+          "count": 2
+        },
+        {
+          "name": "互联网",
+          "count": 1
+        }
+      ],
+      "topDistricts": [
+        {
+          "name": "南山区",
+          "count": 15
+        },
+        {
+          "name": "深圳",
+          "count": 3
+        },
+        {
+          "name": "宝安区",
+          "count": 2
+        },
+        {
+          "name": "龙岗区",
+          "count": 1
+        }
+      ],
+      "experience": [
+        {
+          "name": "经验不限",
+          "count": 7
+        },
+        {
+          "name": "1-3年",
+          "count": 6
+        },
+        {
+          "name": "3-5年",
+          "count": 4
+        },
+        {
+          "name": "5-10年",
+          "count": 3
+        },
+        {
+          "name": "在校/应届",
+          "count": 1
+        }
+      ],
+      "education": [
+        {
+          "name": "硕士",
+          "count": 16
+        },
+        {
+          "name": "本科",
+          "count": 5
+        }
+      ],
+      "representativeJobs": [
+        {
+          "id": "boss-07127b18e9f769e00nd70tq1FFpY",
+          "title": "强化运控算法联创&组长&专家深圳上海北京等",
+          "company": "芯宇全球",
+          "salaryText": "100-200K·24薪",
+          "evidenceLevel": "boss-listing-plus-detail"
+        },
+        {
+          "id": "boss-2dd0558b65b0a6440nV-39y5GVNS",
+          "title": "深度强化学习算法工程师",
+          "company": "索璞动力",
+          "salaryText": "80-100K",
+          "evidenceLevel": "boss-listing-plus-detail"
+        },
+        {
+          "id": "boss-535998b31709c38f03d60t28ElRT",
+          "title": "强化学习专家",
+          "company": "魔法原子",
+          "salaryText": "70-100K·15薪",
+          "evidenceLevel": "boss-detail"
+        },
+        {
+          "id": "boss-365feaf59f47ee010nZ60t21EVVQ",
+          "title": "具身VLA/VLM/世界模型/强化学习",
+          "company": "墨奇智能",
+          "salaryText": "50-80K·15薪",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-6b835bad08ccddef0nd829W1FVFX",
+          "title": "运动控制算法（强化学习方向）",
+          "company": "自变量机器人",
+          "salaryText": "50-80K·16薪",
+          "evidenceLevel": "boss-listing"
+        }
+      ]
+    },
+    {
+      "name": "AI Agent与大模型",
+      "count": 13,
+      "weightedDemand": 8.4,
+      "evidence": {
+        "verified": 3,
+        "listingObserved": 10
+      },
+      "salary": {
+        "medianMid": 52.5,
+        "medianMin": 40,
+        "medianMax": 60,
+        "highestMax": 150
+      },
+      "salaryBands": {
+        "30K": 4,
+        "50K": 6,
+        "100K": 3
+      },
+      "topSkills": [
+        {
+          "name": "大模型",
+          "count": 10
+        },
+        {
+          "name": "AI Agent",
+          "count": 7
+        },
+        {
+          "name": "主导与决策",
+          "count": 6
+        },
+        {
+          "name": "模型训练与调优",
+          "count": 5
+        },
+        {
+          "name": "工程部署",
+          "count": 4
+        },
+        {
+          "name": "强化学习",
+          "count": 2
+        },
+        {
+          "name": "团队管理",
+          "count": 2
+        },
+        {
+          "name": "语音与音频",
+          "count": 2
+        }
+      ],
+      "topIndustries": [
+        {
+          "name": "互联网",
+          "count": 4
+        },
+        {
+          "name": "电子商务",
+          "count": 2
+        },
+        {
+          "name": "计算机软件",
+          "count": 2
+        },
+        {
+          "name": "半导体/芯片",
+          "count": 1
+        },
+        {
+          "name": "家具/家居",
+          "count": 1
+        }
+      ],
+      "topDistricts": [
+        {
+          "name": "南山区",
+          "count": 8
+        },
+        {
+          "name": "宝安区",
+          "count": 2
+        },
+        {
+          "name": "福田区",
+          "count": 1
+        },
+        {
+          "name": "龙华区",
+          "count": 1
+        },
+        {
+          "name": "深圳",
+          "count": 1
+        }
+      ],
+      "experience": [
+        {
+          "name": "1-3年",
+          "count": 3
+        },
+        {
+          "name": "3-5年",
+          "count": 3
+        },
+        {
+          "name": "5-10年",
+          "count": 3
+        },
+        {
+          "name": "10年以上",
+          "count": 2
+        },
+        {
+          "name": "经验不限",
+          "count": 2
+        }
+      ],
+      "education": [
+        {
+          "name": "本科",
+          "count": 8
+        },
+        {
+          "name": "硕士",
+          "count": 5
+        }
+      ],
+      "representativeJobs": [
+        {
+          "id": "boss-677b5d673b77a4d70nZz3N64FVBT",
+          "title": "ai算法负责人",
+          "company": "杭州文和星途科技",
+          "salaryText": "100-150K",
+          "evidenceLevel": "boss-detail"
+        },
+        {
+          "id": "boss-1ed35a5c9f7e6fbe0ndy3d66ElNS",
+          "title": "AI Agent大模型算法专家",
+          "company": "vivo",
+          "salaryText": "70-90K",
+          "evidenceLevel": "boss-listing-plus-detail"
+        },
+        {
+          "id": "boss-ba334c2c5f5ba58c0nV72960FFFR",
+          "title": "AI算法专家",
+          "company": "绿联科技",
+          "salaryText": "70-85K·15薪",
+          "evidenceLevel": "boss-detail"
+        },
+        {
+          "id": "boss-0769187de25a99460nV43tm1FlVZ",
+          "title": "大模型算法/agent工程-开发/架构师",
+          "company": "深信服科技",
+          "salaryText": "50-80K·15薪",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-0ce33cd374db7bcc0nZ53N65GVVQ",
+          "title": "AI Agent算法专家(A92816)",
+          "company": "上海曦望芯科智能科技",
+          "salaryText": "50-80K·15薪",
+          "evidenceLevel": "boss-listing"
+        }
+      ]
+    },
+    {
+      "name": "科研与研究岗位",
+      "count": 8,
+      "weightedDemand": 4.4,
+      "evidence": {
+        "verified": 0,
+        "listingObserved": 8
+      },
+      "salary": {
+        "medianMid": 48.75,
+        "medianMin": 37.5,
+        "medianMax": 60,
+        "highestMax": 70
+      },
+      "salaryBands": {
+        "30K": 2,
+        "50K": 6,
+        "100K": 0
+      },
+      "topSkills": [
+        {
+          "name": "强化学习",
+          "count": 3
+        },
+        {
+          "name": "深度学习",
+          "count": 3
+        },
+        {
+          "name": "机器人控制",
+          "count": 2
+        },
+        {
+          "name": "计算机视觉",
+          "count": 2
+        },
+        {
+          "name": "智能硬件经验",
+          "count": 2
+        },
+        {
+          "name": "工程部署",
+          "count": 1
+        },
+        {
+          "name": "团队管理",
+          "count": 1
+        },
+        {
+          "name": "游戏行业经验",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "name": "互联网",
+          "count": 2
+        },
+        {
+          "name": "人工智能",
+          "count": 2
+        },
+        {
+          "name": "电子/硬件开发",
+          "count": 1
+        },
+        {
+          "name": "计算机服务",
+          "count": 1
+        },
+        {
+          "name": "计算机软件",
+          "count": 1
+        }
+      ],
+      "topDistricts": [
+        {
+          "name": "南山区",
+          "count": 4
+        },
+        {
+          "name": "龙岗区",
+          "count": 2
+        },
+        {
+          "name": "深圳",
+          "count": 2
+        }
+      ],
+      "experience": [
+        {
+          "name": "3-5年",
+          "count": 3
+        },
+        {
+          "name": "经验不限",
+          "count": 3
+        },
+        {
+          "name": "1-3年",
+          "count": 1
+        },
+        {
+          "name": "在校/应届",
+          "count": 1
+        }
+      ],
+      "education": [
+        {
+          "name": "硕士",
+          "count": 4
+        },
+        {
+          "name": "博士",
+          "count": 3
+        },
+        {
+          "name": "本科",
+          "count": 1
+        }
+      ],
+      "representativeJobs": [
+        {
+          "id": "boss-e2b72242d5c6ce0a031_3tS0FFBV",
+          "title": "游戏AI-深度学习算法研究员(深圳)",
+          "company": "腾讯",
+          "salaryText": "50-70K·15薪",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-8f5df390b12e73920nR93dW1EVdV",
+          "title": "腾讯云乐享-强化学习算法研究员(深圳)",
+          "company": "腾讯",
+          "salaryText": "40-70K·15薪",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-b50adc8a1d6fa9c30nZ60t-8FlRQ",
+          "title": "ai算法研究员",
+          "company": "UsingAI",
+          "salaryText": "40-65K",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-b5a2f4bdd2f218db0nV92N2_EFpT",
+          "title": "资深机器人强化学习算法研究员",
+          "company": "深圳徕福机器人",
+          "salaryText": "40-60K",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-08b309dc5740041f0nZ_3tu1GFJT",
+          "title": "【广州/苏州】 AI 算法博士",
+          "company": "视源股份(CVTE)",
+          "salaryText": "35-60K·13薪",
+          "evidenceLevel": "boss-listing"
+        }
+      ]
+    },
+    {
+      "name": "AI工程化与部署",
+      "count": 7,
+      "weightedDemand": 3.85,
+      "evidence": {
+        "verified": 0,
+        "listingObserved": 7
+      },
+      "salary": {
+        "medianMid": 35,
+        "medianMin": 25,
+        "medianMax": 45,
+        "highestMax": 50
+      },
+      "salaryBands": {
+        "30K": 5,
+        "50K": 2,
+        "100K": 0
+      },
+      "topSkills": [
+        {
+          "name": "工程部署",
+          "count": 3
+        },
+        {
+          "name": "嵌入式",
+          "count": 3
+        },
+        {
+          "name": "深度学习",
+          "count": 2
+        },
+        {
+          "name": "智能硬件经验",
+          "count": 2
+        },
+        {
+          "name": "大模型",
+          "count": 1
+        },
+        {
+          "name": "机器人控制",
+          "count": 1
+        },
+        {
+          "name": "模型训练与调优",
+          "count": 1
+        },
+        {
+          "name": "数据与数据集",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "name": "电子/半导体/集成电路",
+          "count": 1
+        },
+        {
+          "name": "计算机软件",
+          "count": 1
+        },
+        {
+          "name": "企业服务",
+          "count": 1
+        },
+        {
+          "name": "医疗器械",
+          "count": 1
+        },
+        {
+          "name": "智能硬件",
+          "count": 1
+        }
+      ],
+      "topDistricts": [
+        {
+          "name": "南山区",
+          "count": 3
+        },
+        {
+          "name": "龙华区",
+          "count": 2
+        },
+        {
+          "name": "宝安区",
+          "count": 1
+        },
+        {
+          "name": "龙岗区",
+          "count": 1
+        }
+      ],
+      "experience": [
+        {
+          "name": "3-5年",
+          "count": 5
+        },
+        {
+          "name": "1-3年",
+          "count": 1
+        },
+        {
+          "name": "经验不限",
+          "count": 1
+        }
+      ],
+      "education": [
+        {
+          "name": "本科",
+          "count": 5
+        },
+        {
+          "name": "硕士",
+          "count": 2
+        }
+      ],
+      "representativeJobs": [
+        {
+          "id": "boss-78b79322128e24b00nV63d-1EVVR",
+          "title": "嵌入式开发（算法部署）工程师",
+          "company": "拓竹科技",
+          "salaryText": "30-50K·15薪",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-d7022e90489477dc03172ty8GFpQ",
+          "title": "iOS开发工程师（算法实现 / BLE通信）",
+          "company": "深圳艾犀科技有限公司",
+          "salaryText": "30-50K",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-6dd8d557fc525652031z39S8FFRS",
+          "title": "软件算法开发工程师",
+          "company": "新凯来技术有限公司",
+          "salaryText": "25-50K",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-400427525bfb1aee031-2966EltY",
+          "title": "算法工程岗（java开发方向）",
+          "company": "海柔创新科技有限公司",
+          "salaryText": "25-45K·15薪",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-0ccda64ec0b4c21c031z09y1EFJS",
+          "title": "算法测试开发工程师（NLP 方向）",
+          "company": "企知道",
+          "salaryText": "15-30K·14薪",
+          "evidenceLevel": "boss-listing"
+        }
+      ]
+    },
+    {
+      "name": "视觉、图像与图形",
+      "count": 6,
+      "weightedDemand": 3.3,
+      "evidence": {
+        "verified": 0,
+        "listingObserved": 6
+      },
+      "salary": {
+        "medianMid": 33.75,
+        "medianMin": 30,
+        "medianMax": 40,
+        "highestMax": 70
+      },
+      "salaryBands": {
+        "30K": 4,
+        "50K": 2,
+        "100K": 0
+      },
+      "topSkills": [
+        {
+          "name": "图形与几何",
+          "count": 4
+        },
+        {
+          "name": "计算机视觉",
+          "count": 2
+        },
+        {
+          "name": "智能硬件经验",
+          "count": 2
+        },
+        {
+          "name": "模型训练与调优",
+          "count": 1
+        },
+        {
+          "name": "深度学习",
+          "count": 1
+        },
+        {
+          "name": "团队管理",
+          "count": 1
+        },
+        {
+          "name": "医疗行业经验",
+          "count": 1
+        },
+        {
+          "name": "C++",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "name": "计算机软件",
+          "count": 2
+        },
+        {
+          "name": "电子/硬件开发",
+          "count": 1
+        },
+        {
+          "name": "医疗健康",
+          "count": 1
+        },
+        {
+          "name": "智能硬件/消费电子",
+          "count": 1
+        },
+        {
+          "name": "专用设备",
+          "count": 1
+        }
+      ],
+      "topDistricts": [
+        {
+          "name": "深圳",
+          "count": 3
+        },
+        {
+          "name": "宝安区",
+          "count": 2
+        },
+        {
+          "name": "光明区",
+          "count": 1
+        }
+      ],
+      "experience": [
+        {
+          "name": "经验不限",
+          "count": 3
+        },
+        {
+          "name": "5-10年",
+          "count": 2
+        },
+        {
+          "name": "3-5年",
+          "count": 1
+        }
+      ],
+      "education": [
+        {
+          "name": "硕士",
+          "count": 4
+        },
+        {
+          "name": "本科",
+          "count": 2
+        }
+      ],
+      "representativeJobs": [
+        {
+          "id": "boss-4d16467e5691e8670nd-0t29ElNY",
+          "title": "图形算法高级开发工程师",
+          "company": "创鑫激光MAX",
+          "salaryText": "40-70K",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-828d52a05aa414f10nZ80tq-E1pW",
+          "title": "AI 图像算法工程师（eufyMake）",
+          "company": "Anker",
+          "salaryText": "35-55K·16薪",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-5837b85c0d88eb8c0nR939q-E1pX",
+          "title": "AI图像算法",
+          "company": "汉森软件",
+          "salaryText": "35-40K·15薪",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-547f8fff880b8c0b03d70ty5FVRY",
+          "title": "有限单元算法开发工程师",
+          "company": "十沣",
+          "salaryText": "20-40K",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-856a6f166cfb639f03Z73tm0ElRZ",
+          "title": "ai算法工程师",
+          "company": "帝迈生物",
+          "salaryText": "25-35K·15薪",
+          "evidenceLevel": "boss-listing"
+        }
+      ]
+    },
+    {
+      "name": "通用AI与深度学习",
+      "count": 6,
+      "weightedDemand": 3.3,
+      "evidence": {
+        "verified": 0,
+        "listingObserved": 6
+      },
+      "salary": {
+        "medianMid": 30.75,
+        "medianMin": 21.5,
+        "medianMax": 40,
+        "highestMax": 70
+      },
+      "salaryBands": {
+        "30K": 5,
+        "50K": 1,
+        "100K": 0
+      },
+      "topSkills": [
+        {
+          "name": "工程部署",
+          "count": 2
+        },
+        {
+          "name": "主导与决策",
+          "count": 2
+        },
+        {
+          "name": "金融行业经验",
+          "count": 1
+        },
+        {
+          "name": "模型训练与调优",
+          "count": 1
+        },
+        {
+          "name": "团队管理",
+          "count": 1
+        },
+        {
+          "name": "医疗行业经验",
+          "count": 1
+        },
+        {
+          "name": "游戏行业经验",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "name": "互联网",
+          "count": 3
+        },
+        {
+          "name": "计算机软件",
+          "count": 1
+        },
+        {
+          "name": "医疗健康",
+          "count": 1
+        },
+        {
+          "name": "咨询",
+          "count": 1
+        }
+      ],
+      "topDistricts": [
+        {
+          "name": "南山区",
+          "count": 4
+        },
+        {
+          "name": "龙岗区",
+          "count": 1
+        },
+        {
+          "name": "盐田区",
+          "count": 1
+        }
+      ],
+      "experience": [
+        {
+          "name": "3-5年",
+          "count": 3
+        },
+        {
+          "name": "经验不限",
+          "count": 2
+        },
+        {
+          "name": "1-3年",
+          "count": 1
+        }
+      ],
+      "education": [
+        {
+          "name": "本科",
+          "count": 3
+        },
+        {
+          "name": "硕士",
+          "count": 2
+        },
+        {
+          "name": "博士",
+          "count": 1
+        }
+      ],
+      "representativeJobs": [
+        {
+          "id": "boss-9b5204cf61a87a0c0ndy39i0FFNX",
+          "title": "ai算法专家",
+          "company": "Traveloka",
+          "salaryText": "40-70K·15薪",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-2aa47c02c9b1bd9b03N42N-_GFtW",
+          "title": "ai算法工程师",
+          "company": "深圳市途灵旅游科技",
+          "salaryText": "25-45K",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-45c77cf3d5688afe0nZ_3Nu8E1ZV",
+          "title": "AI算法岗位",
+          "company": "华大基因",
+          "salaryText": "23-40K",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-3e251c0215ade9f60nZ93di1FVpV",
+          "title": "初级 AI 算法工程师（游戏 AI 方向）",
+          "company": "智辉云科技",
+          "salaryText": "20-40K·15薪",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-54e1545ab416542903R909m-FlRV",
+          "title": "ai算法专家",
+          "company": "SUTPC",
+          "salaryText": "20-40K·14薪",
+          "evidenceLevel": "boss-listing"
+        }
+      ]
+    },
+    {
+      "name": "量化与金融AI",
+      "count": 5,
+      "weightedDemand": 2.75,
+      "evidence": {
+        "verified": 0,
+        "listingObserved": 5
+      },
+      "salary": {
+        "medianMid": 30,
+        "medianMin": 20,
+        "medianMax": 40,
+        "highestMax": 60
+      },
+      "salaryBands": {
+        "30K": 4,
+        "50K": 1,
+        "100K": 0
+      },
+      "topSkills": [
+        {
+          "name": "量化研究",
+          "count": 4
+        },
+        {
+          "name": "金融行业经验",
+          "count": 3
+        },
+        {
+          "name": "深度学习",
+          "count": 3
+        },
+        {
+          "name": "工程部署",
+          "count": 1
+        },
+        {
+          "name": "模型训练与调优",
+          "count": 1
+        },
+        {
+          "name": "强化学习",
+          "count": 1
+        },
+        {
+          "name": "团队管理",
+          "count": 1
+        },
+        {
+          "name": "主导与决策",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "name": "计算机软件",
+          "count": 3
+        },
+        {
+          "name": "互联网金融",
+          "count": 1
+        },
+        {
+          "name": "基金",
+          "count": 1
+        }
+      ],
+      "topDistricts": [
+        {
+          "name": "南山区",
+          "count": 3
+        },
+        {
+          "name": "福田区",
+          "count": 1
+        },
+        {
+          "name": "罗湖区",
+          "count": 1
+        }
+      ],
+      "experience": [
+        {
+          "name": "1-3年",
+          "count": 2
+        },
+        {
+          "name": "3-5年",
+          "count": 1
+        },
+        {
+          "name": "5-10年",
+          "count": 1
+        },
+        {
+          "name": "在校/应届",
+          "count": 1
+        }
+      ],
+      "education": [
+        {
+          "name": "硕士",
+          "count": 3
+        },
+        {
+          "name": "本科",
+          "count": 2
+        }
+      ],
+      "representativeJobs": [
+        {
+          "id": "boss-1c2f9119034d8d750ndy2dy6FVZV",
+          "title": "AI 算法/工程专家",
+          "company": "中国平安银行",
+          "salaryText": "30-60K·14薪",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-044da74892459df403V73Ny8FFdR",
+          "title": "【深圳】深度学习算法工程师（正式批）",
+          "company": "仲阳天王星",
+          "salaryText": "25-50K·15薪",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-ae3b4f07b2d9584303Z_0t--GVVS",
+          "title": "量化研究员（深度学习方向）",
+          "company": "氢氦软件",
+          "salaryText": "20-40K",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-c79f9339db5aa90b03Rz2dq6F1JQ",
+          "title": "深度学习量化研究员",
+          "company": "鸿濛投资",
+          "salaryText": "18-35K·13薪",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-ab259bdcbe3e97bc0ndz3tS6FlJS",
+          "title": "AI金融量化工程师（强化学习方向）",
+          "company": "深圳高盈国际创新科技",
+          "salaryText": "18-30K",
+          "evidenceLevel": "boss-listing"
+        }
+      ]
+    },
+    {
+      "name": "语音、音频与行业信号",
+      "count": 4,
+      "weightedDemand": 2.65,
+      "evidence": {
+        "verified": 1,
+        "listingObserved": 3
+      },
+      "salary": {
+        "medianMid": 33.75,
+        "medianMin": 27.5,
+        "medianMax": 42.5,
+        "highestMax": 100
+      },
+      "salaryBands": {
+        "30K": 3,
+        "50K": 0,
+        "100K": 1
+      },
+      "topSkills": [
+        {
+          "name": "团队管理",
+          "count": 3
+        },
+        {
+          "name": "工程部署",
+          "count": 2
+        },
+        {
+          "name": "医疗行业经验",
+          "count": 2
+        },
+        {
+          "name": "语音与音频",
+          "count": 2
+        },
+        {
+          "name": "智能硬件经验",
+          "count": 2
+        },
+        {
+          "name": "模型训练与调优",
+          "count": 1
+        },
+        {
+          "name": "嵌入式",
+          "count": 1
+        },
+        {
+          "name": "深度学习",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "name": "医疗器械",
+          "count": 2
+        },
+        {
+          "name": "储能",
+          "count": 1
+        },
+        {
+          "name": "智能硬件/消费电子",
+          "count": 1
+        }
+      ],
+      "topDistricts": [
+        {
+          "name": "龙华区",
+          "count": 2
+        },
+        {
+          "name": "宝安区",
+          "count": 1
+        },
+        {
+          "name": "深圳",
+          "count": 1
+        }
+      ],
+      "experience": [
+        {
+          "name": "3-5年",
+          "count": 3
+        },
+        {
+          "name": "5-10年",
+          "count": 1
+        }
+      ],
+      "education": [
+        {
+          "name": "本科",
+          "count": 2
+        },
+        {
+          "name": "硕士",
+          "count": 2
+        }
+      ],
+      "representativeJobs": [
+        {
+          "id": "boss-024152e507fcd0700nRz09-1E1FZ",
+          "title": "AI语音算法",
+          "company": "飞声医疗",
+          "salaryText": "70-100K·14薪",
+          "evidenceLevel": "boss-detail"
+        },
+        {
+          "id": "boss-2dac73f4d2225ce80nd82tW7EVBR",
+          "title": "语音算法开发工程师（工程/部署）",
+          "company": "绿联科技",
+          "salaryText": "25-45K·14薪",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-38ec439839cf55170ndy2dq0FlNX",
+          "title": "BMS核心算法开发工程师",
+          "company": "摩瓦新能源",
+          "salaryText": "25-40K·14薪",
+          "evidenceLevel": "boss-listing"
+        },
+        {
+          "id": "boss-4c072270a91630f71nJ92NW5GFpV",
+          "title": "呼吸算法开发经理",
+          "company": "唯特医疗",
+          "salaryText": "30-35K·13薪",
+          "evidenceLevel": "boss-listing"
+        }
+      ]
+    },
+    {
+      "name": "用户研究与体验",
+      "count": 1,
+      "weightedDemand": 0.55,
+      "evidence": {
+        "verified": 0,
+        "listingObserved": 1
+      },
+      "salary": {
+        "medianMid": 30,
+        "medianMin": 20,
+        "medianMax": 40,
+        "highestMax": 40
+      },
+      "salaryBands": {
+        "30K": 1,
+        "50K": 0,
+        "100K": 0
+      },
+      "topSkills": [
+        {
+          "name": "金融行业经验",
+          "count": 1
+        },
+        {
+          "name": "量化研究",
+          "count": 1
+        },
+        {
+          "name": "团队管理",
+          "count": 1
+        },
+        {
+          "name": "用户研究",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "name": "互联网金融",
+          "count": 1
+        }
+      ],
+      "topDistricts": [
+        {
+          "name": "南山区",
+          "count": 1
+        }
+      ],
+      "experience": [
+        {
+          "name": "3-5年",
+          "count": 1
+        }
+      ],
+      "education": [
+        {
+          "name": "本科",
+          "count": 1
+        }
+      ],
+      "representativeJobs": [
+        {
+          "id": "boss-025eb2b31125721c0nZ93dS-E1JV",
+          "title": "用户体验研究员-深圳",
+          "company": "深圳灵动",
+          "salaryText": "20-40K·15薪",
+          "evidenceLevel": "boss-listing"
+        }
+      ]
+    }
+  ],
+  "skillStats": [
+    {
+      "skill": "强化学习",
+      "count": 24,
+      "weightedCount": 14.7,
+      "salaryMedianMid": 55,
+      "bands": {
+        "30K": 4,
+        "50K": 16,
+        "100K": 4
+      }
+    },
+    {
+      "skill": "模型训练与调优",
+      "count": 20,
+      "weightedCount": 12.15,
+      "salaryMedianMid": 47.5,
+      "bands": {
+        "30K": 8,
+        "50K": 9,
+        "100K": 3
+      }
+    },
+    {
+      "skill": "工程部署",
+      "count": 19,
+      "weightedCount": 11.7,
+      "salaryMedianMid": 45,
+      "bands": {
+        "30K": 7,
+        "50K": 9,
+        "100K": 3
+      }
+    },
+    {
+      "skill": "智能硬件经验",
+      "count": 17,
+      "weightedCount": 10.6,
+      "salaryMedianMid": 47.5,
+      "bands": {
+        "30K": 4,
+        "50K": 10,
+        "100K": 3
+      }
+    },
+    {
+      "skill": "机器人控制",
+      "count": 16,
+      "weightedCount": 9.95,
+      "salaryMedianMid": 48.75,
+      "bands": {
+        "30K": 5,
+        "50K": 8,
+        "100K": 3
+      }
+    },
+    {
+      "skill": "主导与决策",
+      "count": 14,
+      "weightedCount": 9.75,
+      "salaryMedianMid": 60,
+      "bands": {
+        "30K": 1,
+        "50K": 8,
+        "100K": 5
+      }
+    },
+    {
+      "skill": "大模型",
+      "count": 15,
+      "weightedCount": 9.5,
+      "salaryMedianMid": 45,
+      "bands": {
+        "30K": 5,
+        "50K": 7,
+        "100K": 3
+      }
+    },
+    {
+      "skill": "团队管理",
+      "count": 14,
+      "weightedCount": 8.95,
+      "salaryMedianMid": 40,
+      "bands": {
+        "30K": 6,
+        "50K": 5,
+        "100K": 3
+      }
+    },
+    {
+      "skill": "深度学习",
+      "count": 11,
+      "weightedCount": 6.5,
+      "salaryMedianMid": 37.5,
+      "bands": {
+        "30K": 7,
+        "50K": 3,
+        "100K": 1
+      }
+    },
+    {
+      "skill": "AI Agent",
+      "count": 10,
+      "weightedCount": 5.85,
+      "salaryMedianMid": 53.75,
+      "bands": {
+        "30K": 2,
+        "50K": 7,
+        "100K": 1
+      }
+    },
+    {
+      "skill": "计算机视觉",
+      "count": 8,
+      "weightedCount": 4.4,
+      "salaryMedianMid": 40,
+      "bands": {
+        "30K": 3,
+        "50K": 5,
+        "100K": 0
+      }
+    },
+    {
+      "skill": "医疗行业经验",
+      "count": 5,
+      "weightedCount": 3.2,
+      "salaryMedianMid": 31.5,
+      "bands": {
+        "30K": 4,
+        "50K": 0,
+        "100K": 1
+      }
+    },
+    {
+      "skill": "语音与音频",
+      "count": 4,
+      "weightedCount": 3.1,
+      "salaryMedianMid": 56.25,
+      "bands": {
+        "30K": 2,
+        "50K": 0,
+        "100K": 2
+      }
+    },
+    {
+      "skill": "具身智能",
+      "count": 5,
+      "weightedCount": 2.75,
+      "salaryMedianMid": 52.5,
+      "bands": {
+        "30K": 1,
+        "50K": 4,
+        "100K": 0
+      }
+    },
+    {
+      "skill": "量化研究",
+      "count": 5,
+      "weightedCount": 2.75,
+      "salaryMedianMid": 30,
+      "bands": {
+        "30K": 5,
+        "50K": 0,
+        "100K": 0
+      }
+    },
+    {
+      "skill": "金融行业经验",
+      "count": 5,
+      "weightedCount": 2.75,
+      "salaryMedianMid": 26.5,
+      "bands": {
+        "30K": 4,
+        "50K": 1,
+        "100K": 0
+      }
+    },
+    {
+      "skill": "图形与几何",
+      "count": 4,
+      "weightedCount": 2.2,
+      "salaryMedianMid": 30,
+      "bands": {
+        "30K": 3,
+        "50K": 1,
+        "100K": 0
+      }
+    },
+    {
+      "skill": "嵌入式",
+      "count": 4,
+      "weightedCount": 2.2,
+      "salaryMedianMid": 37.5,
+      "bands": {
+        "30K": 2,
+        "50K": 2,
+        "100K": 0
+      }
+    },
+    {
+      "skill": "NLP",
+      "count": 2,
+      "weightedCount": 1.55,
+      "salaryMedianMid": 50,
+      "bands": {
+        "30K": 1,
+        "50K": 0,
+        "100K": 1
+      }
+    },
+    {
+      "skill": "数据与数据集",
+      "count": 2,
+      "weightedCount": 1.55,
+      "salaryMedianMid": 53.75,
+      "bands": {
+        "30K": 1,
+        "50K": 0,
+        "100K": 1
+      }
+    },
+    {
+      "skill": "C++",
+      "count": 2,
+      "weightedCount": 1.45,
+      "salaryMedianMid": 60,
+      "bands": {
+        "30K": 1,
+        "50K": 0,
+        "100K": 1
+      }
+    },
+    {
+      "skill": "游戏行业经验",
+      "count": 2,
+      "weightedCount": 1.1,
+      "salaryMedianMid": 45,
+      "bands": {
+        "30K": 1,
+        "50K": 1,
+        "100K": 0
+      }
+    },
+    {
+      "skill": "用户研究",
+      "count": 2,
+      "weightedCount": 1.1,
+      "salaryMedianMid": 32.5,
+      "bands": {
+        "30K": 2,
+        "50K": 0,
+        "100K": 0
+      }
+    },
+    {
+      "skill": "Transformer",
+      "count": 1,
+      "weightedCount": 1,
+      "salaryMedianMid": 85,
+      "bands": {
+        "30K": 0,
+        "50K": 0,
+        "100K": 1
+      }
+    },
+    {
+      "skill": "TensorFlow/PyTorch",
+      "count": 1,
+      "weightedCount": 1,
+      "salaryMedianMid": 85,
+      "bands": {
+        "30K": 0,
+        "50K": 0,
+        "100K": 1
+      }
+    },
+    {
+      "skill": "Python",
+      "count": 1,
+      "weightedCount": 0.9,
+      "salaryMedianMid": 90,
+      "bands": {
+        "30K": 0,
+        "50K": 0,
+        "100K": 1
+      }
+    },
+    {
+      "skill": "SLAM",
+      "count": 1,
+      "weightedCount": 0.55,
+      "salaryMedianMid": 40,
+      "bands": {
+        "30K": 0,
+        "50K": 1,
+        "100K": 0
+      }
+    },
+    {
+      "skill": "Java",
+      "count": 1,
+      "weightedCount": 0.55,
+      "salaryMedianMid": 35,
+      "bands": {
+        "30K": 1,
+        "50K": 0,
+        "100K": 0
+      }
+    }
+  ],
+  "skillCooccurrence": [
+    {
+      "pair": "强化学习 + 机器人控制",
+      "weightedCount": 7.75
+    },
+    {
+      "pair": "强化学习 + 模型训练与调优",
+      "weightedCount": 6.75
+    },
+    {
+      "pair": "工程部署 + 模型训练与调优",
+      "weightedCount": 5.2
+    },
+    {
+      "pair": "强化学习 + 智能硬件经验",
+      "weightedCount": 4.75
+    },
+    {
+      "pair": "工程部署 + 强化学习",
+      "weightedCount": 4.75
+    },
+    {
+      "pair": "大模型 + 模型训练与调优",
+      "weightedCount": 4.75
+    },
+    {
+      "pair": "主导与决策 + 大模型",
+      "weightedCount": 4.55
+    },
+    {
+      "pair": "主导与决策 + 强化学习",
+      "weightedCount": 4.45
+    },
+    {
+      "pair": "智能硬件经验 + 机器人控制",
+      "weightedCount": 3.65
+    },
+    {
+      "pair": "AI Agent + 大模型",
+      "weightedCount": 3.65
+    },
+    {
+      "pair": "智能硬件经验 + 模型训练与调优",
+      "weightedCount": 3.55
+    },
+    {
+      "pair": "工程部署 + 机器人控制",
+      "weightedCount": 3.3
+    },
+    {
+      "pair": "工程部署 + 智能硬件经验",
+      "weightedCount": 3.2
+    },
+    {
+      "pair": "机器人控制 + 模型训练与调优",
+      "weightedCount": 3.1
+    },
+    {
+      "pair": "团队管理 + 模型训练与调优",
+      "weightedCount": 3
+    },
+    {
+      "pair": "团队管理 + 强化学习",
+      "weightedCount": 3
+    },
+    {
+      "pair": "大模型 + 工程部署",
+      "weightedCount": 3
+    },
+    {
+      "pair": "主导与决策 + 模型训练与调优",
+      "weightedCount": 2.9
+    },
+    {
+      "pair": "工程部署 + 深度学习",
+      "weightedCount": 2.65
+    },
+    {
+      "pair": "智能硬件经验 + 语音与音频",
+      "weightedCount": 2.55
+    },
+    {
+      "pair": "大模型 + 强化学习",
+      "weightedCount": 2.55
+    },
+    {
+      "pair": "AI Agent + 强化学习",
+      "weightedCount": 2.55
+    },
+    {
+      "pair": "AI Agent + 模型训练与调优",
+      "weightedCount": 2.55
+    },
+    {
+      "pair": "AI Agent + 主导与决策",
+      "weightedCount": 2.55
+    },
+    {
+      "pair": "团队管理 + 智能硬件经验",
+      "weightedCount": 2.45
+    },
+    {
+      "pair": "主导与决策 + 智能硬件经验",
+      "weightedCount": 2.45
+    },
+    {
+      "pair": "主导与决策 + 团队管理",
+      "weightedCount": 2.45
+    },
+    {
+      "pair": "主导与决策 + 工程部署",
+      "weightedCount": 2.45
+    },
+    {
+      "pair": "模型训练与调优 + 深度学习",
+      "weightedCount": 2.1
+    },
+    {
+      "pair": "医疗行业经验 + 工程部署",
+      "weightedCount": 2.1
+    }
+  ],
+  "expansionSignals": [
+    {
+      "company": "腾讯",
+      "count": 3,
+      "jobs": [
+        "AI搜索算法专家",
+        "腾讯云乐享-强化学习算法研究员(深圳)",
+        "游戏AI-深度学习算法研究员(深圳)"
+      ]
+    },
+    {
+      "company": "绿联科技",
+      "count": 2,
+      "jobs": [
+        "AI算法专家",
+        "语音算法开发工程师（工程/部署）"
+      ]
+    },
+    {
+      "company": "深信服科技",
+      "count": 2,
+      "jobs": [
+        "大模型算法/agent工程-开发/架构师",
+        "AI lab- AI 算法工程师（引力计划）"
+      ]
+    },
+    {
+      "company": "自变量机器人",
+      "count": 2,
+      "jobs": [
+        "算法应用开发工程师",
+        "运动控制算法（强化学习方向）"
+      ]
+    }
+  ],
+  "bandComparison": [
+    {
+      "band": "30K",
+      "count": 32,
+      "verified": 0,
+      "salaryMedianMid": 30,
+      "topSkills": [
+        {
+          "name": "模型训练与调优",
+          "count": 8
+        },
+        {
+          "name": "工程部署",
+          "count": 7
+        },
+        {
+          "name": "深度学习",
+          "count": 7
+        },
+        {
+          "name": "团队管理",
+          "count": 6
+        },
+        {
+          "name": "大模型",
+          "count": 5
+        },
+        {
+          "name": "机器人控制",
+          "count": 5
+        },
+        {
+          "name": "量化研究",
+          "count": 5
+        },
+        {
+          "name": "金融行业经验",
+          "count": 4
+        },
+        {
+          "name": "强化学习",
+          "count": 4
+        },
+        {
+          "name": "医疗行业经验",
+          "count": 4
+        }
+      ],
+      "experience": [
+        {
+          "name": "3-5年",
+          "count": 11
+        },
+        {
+          "name": "经验不限",
+          "count": 10
+        },
+        {
+          "name": "1-3年",
+          "count": 8
+        },
+        {
+          "name": "5-10年",
+          "count": 2
+        },
+        {
+          "name": "在校/应届",
+          "count": 1
+        }
+      ],
+      "education": [
+        {
+          "name": "本科",
+          "count": 16
+        },
+        {
+          "name": "硕士",
+          "count": 15
+        },
+        {
+          "name": "博士",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "band": "50K",
+      "count": 32,
+      "verified": 0,
+      "salaryMedianMid": 52.5,
+      "topSkills": [
+        {
+          "name": "强化学习",
+          "count": 16
+        },
+        {
+          "name": "智能硬件经验",
+          "count": 10
+        },
+        {
+          "name": "工程部署",
+          "count": 9
+        },
+        {
+          "name": "模型训练与调优",
+          "count": 9
+        },
+        {
+          "name": "机器人控制",
+          "count": 8
+        },
+        {
+          "name": "主导与决策",
+          "count": 8
+        },
+        {
+          "name": "大模型",
+          "count": 7
+        },
+        {
+          "name": "AI Agent",
+          "count": 7
+        },
+        {
+          "name": "计算机视觉",
+          "count": 5
+        },
+        {
+          "name": "团队管理",
+          "count": 5
+        }
+      ],
+      "experience": [
+        {
+          "name": "3-5年",
+          "count": 11
+        },
+        {
+          "name": "经验不限",
+          "count": 7
+        },
+        {
+          "name": "1-3年",
+          "count": 6
+        },
+        {
+          "name": "5-10年",
+          "count": 6
+        },
+        {
+          "name": "在校/应届",
+          "count": 2
+        }
+      ],
+      "education": [
+        {
+          "name": "硕士",
+          "count": 20
+        },
+        {
+          "name": "本科",
+          "count": 9
+        },
+        {
+          "name": "博士",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "band": "100K",
+      "count": 7,
+      "verified": 7,
+      "salaryMedianMid": 85,
+      "topSkills": [
+        {
+          "name": "主导与决策",
+          "count": 5
+        },
+        {
+          "name": "强化学习",
+          "count": 4
+        },
+        {
+          "name": "大模型",
+          "count": 3
+        },
+        {
+          "name": "工程部署",
+          "count": 3
+        },
+        {
+          "name": "机器人控制",
+          "count": 3
+        },
+        {
+          "name": "模型训练与调优",
+          "count": 3
+        },
+        {
+          "name": "团队管理",
+          "count": 3
+        },
+        {
+          "name": "智能硬件经验",
+          "count": 3
+        },
+        {
+          "name": "语音与音频",
+          "count": 2
+        },
+        {
+          "name": "深度学习",
+          "count": 1
+        }
+      ],
+      "experience": [
+        {
+          "name": "10年以上",
+          "count": 2
+        },
+        {
+          "name": "3-5年",
+          "count": 2
+        },
+        {
+          "name": "5-10年",
+          "count": 2
+        },
+        {
+          "name": "经验不限",
+          "count": 1
+        }
+      ],
+      "education": [
+        {
+          "name": "本科",
+          "count": 4
+        },
+        {
+          "name": "硕士",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "jobs": [
+    {
+      "id": "boss-024152e507fcd0700nRz09-1E1FZ",
+      "bossJobId": "024152e507fcd0700nRz09-1E1FZ",
+      "title": "AI语音算法",
+      "company": "飞声医疗",
+      "salaryText": "70-100K·14薪",
+      "salaryMin": 70,
+      "salaryMax": 100,
+      "salaryMonths": 14,
+      "salaryBand": "100K",
+      "city": "深圳",
+      "district": "龙华区",
+      "addressText": "深圳龙华区金鼎盛科创园",
+      "industry": "医疗器械",
+      "experience": "3-5年",
+      "education": "硕士",
+      "descriptionExcerpt": "公司做AI助听器，国内最好的助听器公司，清华/华为团队，公司发展飞速，预计4年内上市 一、招聘需求 1. 本科及以上学历，电子信息工程、声学工程、信号处",
+      "requirementText": "公司 做AI助 听器，国内最好的助听器公司，清华/华为团队，公司发展飞速，预计4年内上市\n一、招聘需求\n1. 本科及以上学历，电子信息工程、声学工程、信号处理、⼈⼯智能、计算机相关专业，3年以上AI⾳频算法研发经验；\n2. 精通语音信号处理核心技术，涵盖FFT、降噪、啸叫消除、波束形成、语⾳增强、音频编解码、声源分离等核心能力；\n3. 熟练掌握TensorFlow/PyTorch至少一种深度学习框架，具备CNN、RNN、DNN、Transformer等模型的音频算法设计、训练与迭代经验；\n4. 了解音频硬件基础架构与音频链路逻辑，能配合硬件团队完成算法与设备的适配优化，熟悉音频相关行业标准者优先；\n5. 可解决音频算法实际应用中的噪声、失真、延迟等问题；\n二、岗位职责\n1. 负责AI音频核心算法的设计、开发与优化，核心涵盖环境噪声抑制、语音增强、自适应音频调节、音频质量优化等方向；\n2. 搭建算法训练数据集，完成模型的训练、调试与性能评估，持续提升复杂场景下音频输出的清晰度与舒适度；\n3. 协同声学、硬件团队推进算法与硬件设备的适配落地，解决算法部署中的算力匹配、功耗控制、延迟优化等核心问题；\n4. 参与音频系统整体方案设计，对接业务端需求，将技术指标转化为可落地的算法实现目标；",
+      "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
+      "sourceDiscovery": "001-ai-algorithm",
+      "capturedAt": "2026-07-12T21:13:08.537Z",
+      "status": "verified",
+      "duplicateFingerprint": "3e04ed6edab2e28a36e5",
+      "verifiedAt": "2026-07-12T22:23:17.341Z",
+      "evidenceFile": "boss-024152e507fcd0700nRz09-1E1FZ.json",
+      "publishedAt": "2026-07-12",
+      "salaryEvidence": "boss-job-detail",
+      "evidenceLevel": "boss-detail",
+      "analysisWeight": 1,
+      "analysisStatus": "verified",
+      "roleFamily": "语音、音频与行业信号",
+      "extractedSkills": [
+        "深度学习",
+        "Transformer",
+        "语音与音频",
+        "TensorFlow/PyTorch",
+        "模型训练与调优",
+        "工程部署",
+        "数据与数据集",
+        "医疗行业经验",
+        "智能硬件经验",
+        "团队管理"
+      ],
+      "salaryMid": 85
+    },
+    {
+      "id": "boss-07127b18e9f769e00nd70tq1FFpY",
+      "bossJobId": "07127b18e9f769e00nd70tq1FFpY",
+      "title": "强化运控算法联创&组长&专家深圳上海北京等",
+      "company": "芯宇全球",
+      "salaryText": "100-200K·24薪",
+      "salaryMin": 100,
+      "salaryMax": 200,
+      "salaryMonths": 24,
+      "salaryBand": "100K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区科技园",
+      "industry": "智能硬件",
+      "experience": "经验不限",
+      "education": "硕士",
+      "descriptionExcerpt": "岗位职责 1. 研发基于强化学习的人形机器人运动控制算法； 2. 搭建强化学习运动控制器训练流程并优化； 3. 分析评估算法性能,迭代优化控制策略； 4. 与团",
+      "requirementText": "岗位职责 1. 研发基于强化学习的人形机器人运动控制算法； 2. 搭建强化学习运动控制器训练流程并优化； 3. 分析评估算法性能,迭代优化控制策略； 4. 与团",
+      "sourceUrl": "https://www.zhipin.com/job_detail/07127b18e9f769e00nd70tq1FFpY.html",
+      "sourceDiscovery": "003-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "verified",
+      "duplicateFingerprint": "d7ad2f6682833d702e63",
+      "verifiedAt": "2026-07-12T22:07:30.630Z",
+      "evidenceFile": "boss-07127b18e9f769e00nd70tq1FFpY.txt",
+      "evidenceLevel": "boss-listing-plus-detail",
+      "analysisWeight": 0.9,
+      "analysisStatus": "verified",
+      "roleFamily": "强化学习与机器人控制",
+      "extractedSkills": [
+        "强化学习",
+        "机器人控制",
+        "模型训练与调优",
+        "智能硬件经验",
+        "主导与决策",
+        "团队管理"
+      ],
+      "salaryMid": 150
+    },
+    {
+      "id": "boss-1ed35a5c9f7e6fbe0ndy3d66ElNS",
+      "bossJobId": "1ed35a5c9f7e6fbe0ndy3d66ElNS",
+      "title": "AI Agent大模型算法专家",
+      "company": "vivo",
+      "salaryText": "70-90K",
+      "salaryMin": 70,
+      "salaryMax": 90,
+      "salaryBand": "100K",
+      "city": "深圳",
+      "district": "宝安区",
+      "addressText": "深圳宝安区西乡",
+      "industry": "互联网",
+      "experience": "5-10年",
+      "education": "本科",
+      "descriptionExcerpt": "岗位职责 1. 负责 vivo 大模型智能体（Agent）的核心算法研发，推动手机操作系统从「被动指令执行」向「主动自主服务」（Agent Phone）的范式演",
+      "requirementText": "岗 位职责\n1. 负责 vivo 大模型智能体（Agent）的核心算法研发，推动手机操作系统从「被动指令执行」向「主动⾃主服务」（Agent Phone）的范式演进。\n2. 深⼊研究并落地 Planner-Executor 逻辑框架，提升⼤模型在复杂场景下的任务拆解、多步推理（ReAct/CoT/ToT）、工具调用（Tool-Use / Function-Calling）以及长链路的闭环执⾏能力。\n3. 结合 Model Context Protocol（MCP）等前沿协议规范，构建和优化 Agent 与移动端底层系统 API、第三方应用以及个人化记忆（Personalized Memory）系统的交互链路，实现千人千面的上下文感知任务执行。\n4. 主导 Agent 模型的训练与调优，运用 DPO、GRPO 等强化学习与对齐算法，以及 On-Policy Distillation（OPD）等\n陈女士\n刚刚活跃\nvivo\n高级招聘",
+      "sourceUrl": "https://www.zhipin.com/job_detail/1ed35a5c9f7e6fbe0ndy3d66ElNS.html",
+      "sourceDiscovery": "001-ai-algorithm",
+      "capturedAt": "2026-07-12T21:13:08.537Z",
+      "status": "verified",
+      "duplicateFingerprint": "c0e3e928a94ce70886f0",
+      "verifiedAt": "2026-07-12T22:07:31.021Z",
+      "evidenceFile": "boss-1ed35a5c9f7e6fbe0ndy3d66ElNS.txt",
+      "evidenceLevel": "boss-listing-plus-detail",
+      "analysisWeight": 0.9,
+      "analysisStatus": "verified",
+      "roleFamily": "AI Agent与大模型",
+      "extractedSkills": [
+        "强化学习",
+        "大模型",
+        "AI Agent",
+        "模型训练与调优",
+        "工程部署",
+        "主导与决策"
+      ],
+      "salaryMid": 80
+    },
+    {
+      "id": "boss-2dd0558b65b0a6440nV-39y5GVNS",
+      "bossJobId": "2dd0558b65b0a6440nV-39y5GVNS",
+      "title": "深度强化学习算法工程师",
+      "company": "索璞动力",
+      "salaryText": "80-100K",
+      "salaryMin": 80,
+      "salaryMax": 100,
+      "salaryBand": "100K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区科技园",
+      "industry": "人工智能",
+      "experience": "3-5年",
+      "education": "本科",
+      "descriptionExcerpt": "岗位职责： 1、研发适用于多自由度机器人、四足仿生机器人决策规划的深度强化学习算法； 2、负责深度强化学习算法的模型开发、调试与实际机器人验证； 任职要求：",
+      "requirementText": "岗位职责：\n1、研发适用于多自由度机器人、四足仿⽣机器⼈决策规划的深度强化学习算法；\n2、负责深度强化学习算法的模型开发、调试与实际机器⼈验证；\n任职要求：\n1. 深入了解机器人运动学、动⼒学，优化理论，最优控制理论者优先；\n2. 掌握常用深度强化学习算法（PPO、SAC、DDPG、A3C、DQN 等）；\n3. 掌握C++ 和 python 编程语言，了解ROS/ROS 2系统工作方式，了解PyTo\n索璞动力\n招聘者",
+      "sourceUrl": "https://www.zhipin.com/job_detail/2dd0558b65b0a6440nV-39y5GVNS.html",
+      "sourceDiscovery": "003-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "verified",
+      "duplicateFingerprint": "1fdd28c3bc582c3ac12e",
+      "verifiedAt": "2026-07-12T22:07:31.525Z",
+      "evidenceFile": "boss-2dd0558b65b0a6440nV-39y5GVNS.txt",
+      "evidenceLevel": "boss-listing-plus-detail",
+      "analysisWeight": 0.9,
+      "analysisStatus": "verified",
+      "roleFamily": "强化学习与机器人控制",
+      "extractedSkills": [
+        "强化学习",
+        "机器人控制",
+        "Python",
+        "C++"
+      ],
+      "salaryMid": 90
+    },
+    {
+      "id": "boss-535998b31709c38f03d60t28ElRT",
+      "bossJobId": "535998b31709c38f03d60t28ElRT",
+      "title": "强化学习专家",
+      "company": "魔法原子",
+      "salaryText": "70-100K·15薪",
+      "salaryMin": 70,
+      "salaryMax": 100,
+      "salaryMonths": 15,
+      "salaryBand": "100K",
+      "city": "深圳",
+      "district": "宝安区",
+      "addressText": "深圳宝安区西乡",
+      "industry": "人工智能",
+      "experience": "5-10年",
+      "education": "硕士",
+      "descriptionExcerpt": "职位描述： 我们正在寻找一位资深的强化学习专家，加入我们的机器人控制团队。你将主导构建和优化机器人强化学习仿真平台，开发高效的控制策略，解决仿真与实际系统之间的",
+      "requirementText": "职位描述： 我们正在寻找一位资深的强化学习专家，加入我们的机器人控制团队。你将主导构建和优化机器人强化学习仿真平台，开发高效的控制策略，解决仿真与实际系统之间的",
+      "sourceUrl": "https://www.zhipin.com/job_detail/535998b31709c38f03d60t28ElRT.html",
+      "sourceDiscovery": "003-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "verified",
+      "duplicateFingerprint": "02555c3e7afa1f920cc0",
+      "verifiedAt": "2026-07-12T22:37:09.771Z",
+      "evidenceFile": "boss-535998b31709c38f03d60t28ElRT.json",
+      "salaryEvidence": "boss-job-detail",
+      "evidenceLevel": "boss-detail",
+      "analysisWeight": 1,
+      "analysisStatus": "verified",
+      "roleFamily": "强化学习与机器人控制",
+      "extractedSkills": [
+        "强化学习",
+        "机器人控制",
+        "主导与决策",
+        "团队管理"
+      ],
+      "salaryMid": 85
+    },
+    {
+      "id": "boss-677b5d673b77a4d70nZz3N64FVBT",
+      "bossJobId": "677b5d673b77a4d70nZz3N64FVBT",
+      "title": "ai算法负责人",
+      "company": "杭州文和星途科技",
+      "salaryText": "100-150K",
+      "salaryMin": 100,
+      "salaryMax": 150,
+      "salaryBand": "100K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区科技园",
+      "industry": "互联网",
+      "experience": "10年以上",
+      "education": "本科",
+      "descriptionExcerpt": "一、核心岗位职责 技术战略与规划 制定公司 AI 技术路线图，对齐业务目标。 评估、引入与落地前沿技术（大模型、多模态、生成式 AI）。 把控技术风险、算力成本",
+      "requirementText": "一、核心岗位职责 技术战略与规划 制定公司 AI 技术路线图，对齐业务目标。 评估、引入与落地前沿技术（大模型、多模态、生成式 AI）。 把控技术风险、算力成本",
+      "sourceUrl": "https://www.zhipin.com/job_detail/677b5d673b77a4d70nZz3N64FVBT.html",
+      "sourceDiscovery": "001-ai-algorithm",
+      "capturedAt": "2026-07-12T21:13:08.537Z",
+      "status": "verified",
+      "duplicateFingerprint": "50ef4bad4533361df7b7",
+      "verifiedAt": "2026-07-12T22:37:10.181Z",
+      "evidenceFile": "boss-677b5d673b77a4d70nZz3N64FVBT.json",
+      "salaryEvidence": "boss-job-detail",
+      "evidenceLevel": "boss-detail",
+      "analysisWeight": 1,
+      "analysisStatus": "verified",
+      "roleFamily": "AI Agent与大模型",
+      "extractedSkills": [
+        "大模型",
+        "工程部署",
+        "主导与决策"
+      ],
+      "salaryMid": 125
+    },
+    {
+      "id": "boss-ba334c2c5f5ba58c0nV72960FFFR",
+      "bossJobId": "ba334c2c5f5ba58c0nV72960FFFR",
+      "title": "AI算法专家",
+      "company": "绿联科技",
+      "salaryText": "70-85K·15薪",
+      "salaryMin": 70,
+      "salaryMax": 85,
+      "salaryMonths": 15,
+      "salaryBand": "100K",
+      "city": "深圳",
+      "district": "龙华区",
+      "addressText": "深圳龙华区大浪",
+      "industry": "智能硬件/消费电子",
+      "experience": "10年以上",
+      "education": "本科",
+      "descriptionExcerpt": "当前语音、CV多模态、NLP大模型任一方向均有需求。 方向一：语音方向 岗位职责： 1. 负责语音识别系统研发与优化，提升识别准确率、响应速度及多场景适应能力；",
+      "requirementText": "当前语音、CV多模态、NLP大模型任一方向均有需求。 方向一：语音方向 岗位职责： 1. 负责语音识别系统研发与优化，提升识别准确率、响应速度及多场景适应能力；",
+      "sourceUrl": "https://www.zhipin.com/job_detail/ba334c2c5f5ba58c0nV72960FFFR.html",
+      "sourceDiscovery": "001-ai-algorithm",
+      "capturedAt": "2026-07-12T21:13:08.537Z",
+      "status": "verified",
+      "duplicateFingerprint": "5e64eeb417cdeaf27236",
+      "verifiedAt": "2026-07-12T22:37:10.615Z",
+      "evidenceFile": "boss-ba334c2c5f5ba58c0nV72960FFFR.json",
+      "salaryEvidence": "boss-job-detail",
+      "evidenceLevel": "boss-detail",
+      "analysisWeight": 1,
+      "analysisStatus": "verified",
+      "roleFamily": "AI Agent与大模型",
+      "extractedSkills": [
+        "大模型",
+        "语音与音频",
+        "NLP",
+        "智能硬件经验",
+        "主导与决策"
+      ],
+      "salaryMid": 77.5
+    },
+    {
+      "id": "boss-025eb2b31125721c0nZ93dS-E1JV",
+      "bossJobId": "025eb2b31125721c0nZ93dS-E1JV",
+      "title": "用户体验研究员-深圳",
+      "company": "深圳灵动",
+      "salaryText": "20-40K·15薪",
+      "salaryMin": 20,
+      "salaryMax": 40,
+      "salaryMonths": 15,
+      "salaryBand": "30K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区后海",
+      "industry": "互联网金融",
+      "experience": "3-5年",
+      "education": "本科",
+      "descriptionExcerpt": "【职位概述】 作为团队中“用户视角”的提供者，通过专业的用户研究获取用户真实需求，建设对“用户体验”的量化和常态监测。 【核心职责】 围绕业务目标，执行定",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/025eb2b31125721c0nZ93dS-E1JV.html",
+      "sourceDiscovery": "003-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "822220baf32dfa5b625f",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "用户研究与体验",
+      "extractedSkills": [
+        "量化研究",
+        "金融行业经验",
+        "团队管理",
+        "用户研究"
+      ],
+      "salaryMid": 30
+    },
+    {
+      "id": "boss-044da74892459df403V73Ny8FFdR",
+      "bossJobId": "044da74892459df403V73Ny8FFdR",
+      "title": "【深圳】深度学习算法工程师（正式批）",
+      "company": "仲阳天王星",
+      "salaryText": "25-50K·15薪",
+      "salaryMin": 25,
+      "salaryMax": 50,
+      "salaryMonths": 15,
+      "salaryBand": "30K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区华侨城",
+      "industry": "计算机软件",
+      "experience": "在校/应届",
+      "education": "本科",
+      "descriptionExcerpt": "天王星量化旗下高频交易团队，正在寻找一名深度学习算法工程师加入我们的深度学习研究项目，您将与其他具有高频量化交易经验的研发人员一起进行深度学习相关的建模工作。",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/044da74892459df403V73Ny8FFdR.html",
+      "sourceDiscovery": "003-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "4cdcf6c90c5d3a9fbb0c",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "量化与金融AI",
+      "extractedSkills": [
+        "深度学习",
+        "量化研究",
+        "团队管理"
+      ],
+      "salaryMid": 37.5
+    },
+    {
+      "id": "boss-053f5cd9d10c7b240nV43ti8FFtT",
+      "bossJobId": "053f5cd9d10c7b240nV43ti8FFtT",
+      "title": "算法应用开发工程师",
+      "company": "自变量机器人",
+      "salaryText": "25-50K·16薪",
+      "salaryMin": 25,
+      "salaryMax": 50,
+      "salaryMonths": 16,
+      "salaryBand": "30K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区科技园",
+      "industry": "人工智能",
+      "experience": "经验不限",
+      "education": "本科",
+      "descriptionExcerpt": "职位描述 1. 开发具身智能核心算法，包括语言理解、人机交互、机器人移动操作等模块，进行针对具身基座大模型（VLA）的微调和优化，并针对具体的问题，从数据、模型",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/053f5cd9d10c7b240nV43ti8FFtT.html",
+      "sourceDiscovery": "002-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "6275fd063c482ca10c89",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "强化学习与机器人控制",
+      "extractedSkills": [
+        "机器人控制",
+        "具身智能",
+        "大模型",
+        "模型训练与调优"
+      ],
+      "salaryMid": 37.5
+    },
+    {
+      "id": "boss-0769187de25a99460nV43tm1FlVZ",
+      "bossJobId": "0769187de25a99460nV43tm1FlVZ",
+      "title": "大模型算法/agent工程-开发/架构师",
+      "company": "深信服科技",
+      "salaryText": "50-80K·15薪",
+      "salaryMin": 50,
+      "salaryMax": 80,
+      "salaryMonths": 15,
+      "salaryBand": "50K",
+      "city": "深圳",
+      "district": "深圳",
+      "addressText": "深圳",
+      "industry": "计算机软件",
+      "experience": "经验不限",
+      "education": "本科",
+      "descriptionExcerpt": "薪酬open 算法岗位描述 工作职责： 1、负责模型训练相关工作，如微调、强化学习、性能优化等 2、负责基于大模型的agent开发、调优，包括下游任务适配、上下",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/0769187de25a99460nV43tm1FlVZ.html",
+      "sourceDiscovery": "002-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "7dc4f5aecfe32f95cf0e",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "AI Agent与大模型",
+      "extractedSkills": [
+        "强化学习",
+        "大模型",
+        "AI Agent",
+        "模型训练与调优",
+        "主导与决策"
+      ],
+      "salaryMid": 65
+    },
+    {
+      "id": "boss-08b309dc5740041f0nZ_3tu1GFJT",
+      "bossJobId": "08b309dc5740041f0nZ_3tu1GFJT",
+      "title": "【广州/苏州】 AI 算法博士",
+      "company": "视源股份(CVTE)",
+      "salaryText": "35-60K·13薪",
+      "salaryMin": 35,
+      "salaryMax": 60,
+      "salaryMonths": 13,
+      "salaryBand": "50K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区科技园",
+      "industry": "电子/硬件开发",
+      "experience": "经验不限",
+      "education": "博士",
+      "descriptionExcerpt": "岗位职责： 1、负责工业视觉检测一个或几个关键算法模块的研究，包括图像分割、缺陷检测、字符识别等； 2、紧跟最新计算机视觉领域发展方向，引入新技术应用到公司产品",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/08b309dc5740041f0nZ_3tu1GFJT.html",
+      "sourceDiscovery": "001-ai-algorithm",
+      "capturedAt": "2026-07-12T21:13:08.537Z",
+      "status": "candidate",
+      "duplicateFingerprint": "de415057436a19584e87",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "科研与研究岗位",
+      "extractedSkills": [
+        "计算机视觉",
+        "智能硬件经验"
+      ],
+      "salaryMid": 47.5
+    },
+    {
+      "id": "boss-0ad88b630b71693b0nd42dW7FFpV",
+      "bossJobId": "0ad88b630b71693b0nd42dW7FFpV",
+      "title": "AI lab- AI 算法工程师（引力计划）",
+      "company": "深信服科技",
+      "salaryText": "40-70K",
+      "salaryMin": 40,
+      "salaryMax": 70,
+      "salaryBand": "50K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区科技园",
+      "industry": "计算机软件",
+      "experience": "1-3年",
+      "education": "硕士",
+      "descriptionExcerpt": "工作职责： 1、负责模型训练相关工作，如微调、强化学习、性能优化等 2、负责基于大模型的agent开发、调优，包括下游任务适配、上下文管理等 3、其他岗位职责内",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/0ad88b630b71693b0nd42dW7FFpV.html",
+      "sourceDiscovery": "001-ai-algorithm",
+      "capturedAt": "2026-07-12T21:13:08.537Z",
+      "status": "candidate",
+      "duplicateFingerprint": "683b8a20d2f6e384f0b5",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "强化学习与机器人控制",
+      "extractedSkills": [
+        "强化学习",
+        "大模型",
+        "AI Agent",
+        "模型训练与调优",
+        "团队管理"
+      ],
+      "salaryMid": 55
+    },
+    {
+      "id": "boss-0ccda64ec0b4c21c031z09y1EFJS",
+      "bossJobId": "0ccda64ec0b4c21c031z09y1EFJS",
+      "title": "算法测试开发工程师（NLP 方向）",
+      "company": "企知道",
+      "salaryText": "15-30K·14薪",
+      "salaryMin": 15,
+      "salaryMax": 30,
+      "salaryMonths": 14,
+      "salaryBand": "30K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区科技园",
+      "industry": "企业服务",
+      "experience": "3-5年",
+      "education": "本科",
+      "descriptionExcerpt": "算法测试开发工程师（NLP 方向） 一、核心职责 负责 NLP 核心算法（文本分类、语义匹配、NER、情感分析、大模型应用等）的功能、效果及回归测试； 搭建自动",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/0ccda64ec0b4c21c031z09y1EFJS.html",
+      "sourceDiscovery": "002-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "bea124795962260b9dd3",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "AI工程化与部署",
+      "extractedSkills": [
+        "大模型",
+        "NLP"
+      ],
+      "salaryMid": 22.5
+    },
+    {
+      "id": "boss-0ce33cd374db7bcc0nZ53N65GVVQ",
+      "bossJobId": "0ce33cd374db7bcc0nZ53N65GVVQ",
+      "title": "AI Agent算法专家(A92816)",
+      "company": "上海曦望芯科智能科技",
+      "salaryText": "50-80K·15薪",
+      "salaryMin": 50,
+      "salaryMax": 80,
+      "salaryMonths": 15,
+      "salaryBand": "50K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区科技园",
+      "industry": "半导体/芯片",
+      "experience": "5-10年",
+      "education": "硕士",
+      "descriptionExcerpt": "Job Description： 1.设计并实现Agent核心决策机制：任务规划，工具选择，多步推理，human-in-the-loop策略； 2.协助测开团队",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/0ce33cd374db7bcc0nZ53N65GVVQ.html",
+      "sourceDiscovery": "001-ai-algorithm",
+      "capturedAt": "2026-07-12T21:13:08.537Z",
+      "status": "candidate",
+      "duplicateFingerprint": "b8fcf04046faf2c3112d",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "AI Agent与大模型",
+      "extractedSkills": [
+        "AI Agent",
+        "主导与决策",
+        "团队管理"
+      ],
+      "salaryMid": 65
+    },
+    {
+      "id": "boss-136c32fdabffd529031z2dW_EFpY",
+      "bossJobId": "136c32fdabffd529031z2dW_EFpY",
+      "title": "AI Agent算法工程师",
+      "company": "LEAPZERO",
+      "salaryText": "15-30K",
+      "salaryMin": 15,
+      "salaryMax": 30,
+      "salaryBand": "30K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区前海",
+      "industry": "家具/家居",
+      "experience": "1-3年",
+      "education": "本科",
+      "descriptionExcerpt": "【岗位职责】 1、探索与研究：深入探索大语言模型在搜索场景中的推理能力，研究并优化其在信息整合与总结方面的效果； 2、AI搜索总结Agent研发：设计并实现基于",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/136c32fdabffd529031z2dW_EFpY.html",
+      "sourceDiscovery": "001-ai-algorithm",
+      "capturedAt": "2026-07-12T21:13:08.537Z",
+      "status": "candidate",
+      "duplicateFingerprint": "d4090029524e619a95dd",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "AI Agent与大模型",
+      "extractedSkills": [
+        "AI Agent"
+      ],
+      "salaryMid": 22.5
+    },
+    {
+      "id": "boss-1c2f9119034d8d750ndy2dy6FVZV",
+      "bossJobId": "1c2f9119034d8d750ndy2dy6FVZV",
+      "title": "AI 算法/工程专家",
+      "company": "中国平安银行",
+      "salaryText": "30-60K·14薪",
+      "salaryMin": 30,
+      "salaryMax": 60,
+      "salaryMonths": 14,
+      "salaryBand": "50K",
+      "city": "深圳",
+      "district": "罗湖区",
+      "addressText": "深圳罗湖区东门",
+      "industry": "互联网金融",
+      "experience": "5-10年",
+      "education": "硕士",
+      "descriptionExcerpt": "核心职责 1、围绕金融领域的推荐、营销、客服、投研投顾、风控等场景，构建端到端算法解决方案，完成从原型设计、实验验证到生产环境部署的全流程落地； 2、主导或参与",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/1c2f9119034d8d750ndy2dy6FVZV.html",
+      "sourceDiscovery": "001-ai-algorithm",
+      "capturedAt": "2026-07-12T21:13:08.537Z",
+      "status": "candidate",
+      "duplicateFingerprint": "c88f10e02b8381efc0f2",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "量化与金融AI",
+      "extractedSkills": [
+        "工程部署",
+        "金融行业经验",
+        "主导与决策"
+      ],
+      "salaryMid": 45
+    },
+    {
+      "id": "boss-2757a44b33919f3d0nZ_3tW7ElNX",
+      "bossJobId": "2757a44b33919f3d0nZ_3tW7ElNX",
+      "title": "AI搜索算法专家",
+      "company": "腾讯",
+      "salaryText": "40-70K·16薪",
+      "salaryMin": 40,
+      "salaryMax": 70,
+      "salaryMonths": 16,
+      "salaryBand": "50K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区科技园",
+      "industry": "互联网",
+      "experience": "3-5年",
+      "education": "硕士",
+      "descriptionExcerpt": "岗位职责 1.负责AI搜索中检索排序方向的核心技术研发，包括检索规划、语义召回、LLM-based Ranking等算法研发、优化与创新，提升检索的相关性、时效",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/2757a44b33919f3d0nZ_3tW7ElNX.html",
+      "sourceDiscovery": "001-ai-algorithm",
+      "capturedAt": "2026-07-12T21:13:08.537Z",
+      "status": "candidate",
+      "duplicateFingerprint": "3518b3459783c9f9e110",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "AI Agent与大模型",
+      "extractedSkills": [
+        "大模型",
+        "主导与决策"
+      ],
+      "salaryMid": 55
+    },
+    {
+      "id": "boss-2aa47c02c9b1bd9b03N42N-_GFtW",
+      "bossJobId": "2aa47c02c9b1bd9b03N42N-_GFtW",
+      "title": "ai算法工程师",
+      "company": "深圳市途灵旅游科技",
+      "salaryText": "25-45K",
+      "salaryMin": 25,
+      "salaryMax": 45,
+      "salaryBand": "30K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区科技园",
+      "industry": "互联网",
+      "experience": "3-5年",
+      "education": "本科",
+      "descriptionExcerpt": "岗位职责： 1.负责在跨部门团队合作的环境中，参与设计与开发生成式AI模型和相关算法，以优化公司的产品和服务。 2.参与公司人工智能技术的长期战略规划，为公司的",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/2aa47c02c9b1bd9b03N42N-_GFtW.html",
+      "sourceDiscovery": "001-ai-algorithm",
+      "capturedAt": "2026-07-12T21:13:08.537Z",
+      "status": "candidate",
+      "duplicateFingerprint": "00ef3e7eb13d1f57ad90",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "通用AI与深度学习",
+      "extractedSkills": [
+        "团队管理"
+      ],
+      "salaryMid": 35
+    },
+    {
+      "id": "boss-2dac73f4d2225ce80nd82tW7EVBR",
+      "bossJobId": "2dac73f4d2225ce80nd82tW7EVBR",
+      "title": "语音算法开发工程师（工程/部署）",
+      "company": "绿联科技",
+      "salaryText": "25-45K·14薪",
+      "salaryMin": 25,
+      "salaryMax": 45,
+      "salaryMonths": 14,
+      "salaryBand": "30K",
+      "city": "深圳",
+      "district": "深圳",
+      "addressText": "深圳",
+      "industry": "智能硬件/消费电子",
+      "experience": "3-5年",
+      "education": "本科",
+      "descriptionExcerpt": "岗位职责 1. 负责 SED 声音事件检测、KWS 唤醒词等语音算法 SDK 的开发、集成与维护。 2. 负责算法模型在嵌入式/边缘设备上的部署。 3. 负责",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/2dac73f4d2225ce80nd82tW7EVBR.html",
+      "sourceDiscovery": "002-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "fa126455ba4ebc2e9928",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "语音、音频与行业信号",
+      "extractedSkills": [
+        "语音与音频",
+        "工程部署",
+        "嵌入式",
+        "智能硬件经验"
+      ],
+      "salaryMid": 35
+    },
+    {
+      "id": "boss-365feaf59f47ee010nZ60t21EVVQ",
+      "bossJobId": "365feaf59f47ee010nZ60t21EVVQ",
+      "title": "具身VLA/VLM/世界模型/强化学习",
+      "company": "墨奇智能",
+      "salaryText": "50-80K·15薪",
+      "salaryMin": 50,
+      "salaryMax": 80,
+      "salaryMonths": 15,
+      "salaryBand": "50K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区科技园",
+      "industry": "人工智能",
+      "experience": "1-3年",
+      "education": "硕士",
+      "descriptionExcerpt": "职位描述 1.负责具身智能领域的AI算法设计和研发，包括但不限于具身VLM/VLA、世界模型、多模态感知、三维重建、动作生成、强化学习等方向； 2.持续迭代算法",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/365feaf59f47ee010nZ60t21EVVQ.html",
+      "sourceDiscovery": "003-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "e287ef60f6021b245572",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "强化学习与机器人控制",
+      "extractedSkills": [
+        "强化学习",
+        "具身智能"
+      ],
+      "salaryMid": 65
+    },
+    {
+      "id": "boss-38ec439839cf55170ndy2dq0FlNX",
+      "bossJobId": "38ec439839cf55170ndy2dq0FlNX",
+      "title": "BMS核心算法开发工程师",
+      "company": "摩瓦新能源",
+      "salaryText": "25-40K·14薪",
+      "salaryMin": 25,
+      "salaryMax": 40,
+      "salaryMonths": 14,
+      "salaryBand": "30K",
+      "city": "深圳",
+      "district": "龙华区",
+      "addressText": "深圳龙华区龙华",
+      "industry": "储能",
+      "experience": "3-5年",
+      "education": "硕士",
+      "descriptionExcerpt": "岗位职责： 1、BMS核心算法开发（SOX，均衡，热失控，全生命周期的安全管理）； 2、跟踪业界前沿算法，构建储能BMS竞争力。包括电压、温度、力，多重传感器融",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/38ec439839cf55170ndy2dq0FlNX.html",
+      "sourceDiscovery": "002-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "3947197a086d76a41067",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "语音、音频与行业信号",
+      "extractedSkills": [
+        "团队管理"
+      ],
+      "salaryMid": 32.5
+    },
+    {
+      "id": "boss-3d3261b38e8b953703d_29u6FVJR",
+      "bossJobId": "3d3261b38e8b953703d_29u6FVJR",
+      "title": "算法开发工程师",
+      "company": "硅基仿生",
+      "salaryText": "15-30K·13薪",
+      "salaryMin": 15,
+      "salaryMax": 30,
+      "salaryMonths": 13,
+      "salaryBand": "30K",
+      "city": "深圳",
+      "district": "龙华区",
+      "addressText": "深圳龙华区龙华",
+      "industry": "医疗器械",
+      "experience": "经验不限",
+      "education": "硕士",
+      "descriptionExcerpt": "岗位职责 1、负责医疗相关信号数据（如生理信号/传感器数据等）的深度学习算法研发与优化 推动算法在医疗设备 / 嵌入式 / 移动端等边缘场景落地，提升模型性能与",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/3d3261b38e8b953703d_29u6FVJR.html",
+      "sourceDiscovery": "002-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "d5ebd991308d190d836c",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "AI工程化与部署",
+      "extractedSkills": [
+        "深度学习",
+        "工程部署",
+        "嵌入式",
+        "医疗行业经验"
+      ],
+      "salaryMid": 22.5
+    },
+    {
+      "id": "boss-3e251c0215ade9f60nZ93di1FVpV",
+      "bossJobId": "3e251c0215ade9f60nZ93di1FVpV",
+      "title": "初级 AI 算法工程师（游戏 AI 方向）",
+      "company": "智辉云科技",
+      "salaryText": "20-40K·15薪",
+      "salaryMin": 20,
+      "salaryMax": 40,
+      "salaryMonths": 15,
+      "salaryBand": "30K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区科技园",
+      "industry": "计算机软件",
+      "experience": "1-3年",
+      "education": "硕士",
+      "descriptionExcerpt": "【公司背景】 我们是一家专注游戏 AI 算法研发的深圳科技公司，核心方向是不完美信息博弈下的智能决策（神经网络 + 博弈论方法），产品已在海外市场商业化落地、公",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/3e251c0215ade9f60nZ93di1FVpV.html",
+      "sourceDiscovery": "001-ai-algorithm",
+      "capturedAt": "2026-07-12T21:13:08.537Z",
+      "status": "candidate",
+      "duplicateFingerprint": "49a44625905f343adab4",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "通用AI与深度学习",
+      "extractedSkills": [
+        "工程部署",
+        "游戏行业经验"
+      ],
+      "salaryMid": 30
+    },
+    {
+      "id": "boss-400427525bfb1aee031-2966EltY",
+      "bossJobId": "400427525bfb1aee031-2966EltY",
+      "title": "算法工程岗（java开发方向）",
+      "company": "海柔创新科技有限公司",
+      "salaryText": "25-45K·15薪",
+      "salaryMin": 25,
+      "salaryMax": 45,
+      "salaryMonths": 15,
+      "salaryBand": "30K",
+      "city": "深圳",
+      "district": "宝安区",
+      "addressText": "深圳宝安区西乡",
+      "industry": "计算机软件",
+      "experience": "3-5年",
+      "education": "本科",
+      "descriptionExcerpt": "岗位职责： 1. 负责料箱机器人软件系统解决方案中，算法相关工程架构设计与方案开发。有能力基于设计好的算法方案快速理解并进行高质量的快速实现。根据个人能力参与算",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/400427525bfb1aee031-2966EltY.html",
+      "sourceDiscovery": "002-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "c48366e222cc7f5ef314",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "AI工程化与部署",
+      "extractedSkills": [
+        "机器人控制",
+        "Java"
+      ],
+      "salaryMid": 35
+    },
+    {
+      "id": "boss-45c77cf3d5688afe0nZ_3Nu8E1ZV",
+      "bossJobId": "45c77cf3d5688afe0nZ_3Nu8E1ZV",
+      "title": "AI算法岗位",
+      "company": "华大基因",
+      "salaryText": "23-40K",
+      "salaryMin": 23,
+      "salaryMax": 40,
+      "salaryBand": "30K",
+      "city": "深圳",
+      "district": "盐田区",
+      "addressText": "深圳盐田区梅沙",
+      "industry": "医疗健康",
+      "experience": "经验不限",
+      "education": "博士",
+      "descriptionExcerpt": "工作职责 1. 负责医学基因检测业务场景下的AI和ML算法设计、实现和调优，推进算法落地； 2. 将大语言模型等前沿人工智能技术应用于基因组医学以推动精准医学业",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/45c77cf3d5688afe0nZ_3Nu8E1ZV.html",
+      "sourceDiscovery": "001-ai-algorithm",
+      "capturedAt": "2026-07-12T21:13:08.537Z",
+      "status": "candidate",
+      "duplicateFingerprint": "2662fa94628761e752d1",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "通用AI与深度学习",
+      "extractedSkills": [
+        "模型训练与调优",
+        "工程部署",
+        "医疗行业经验"
+      ],
+      "salaryMid": 31.5
+    },
+    {
+      "id": "boss-4c072270a91630f71nJ92NW5GFpV",
+      "bossJobId": "4c072270a91630f71nJ92NW5GFpV",
+      "title": "呼吸算法开发经理",
+      "company": "唯特医疗",
+      "salaryText": "30-35K·13薪",
+      "salaryMin": 30,
+      "salaryMax": 35,
+      "salaryMonths": 13,
+      "salaryBand": "30K",
+      "city": "深圳",
+      "district": "宝安区",
+      "addressText": "深圳宝安区西乡",
+      "industry": "医疗器械",
+      "experience": "5-10年",
+      "education": "本科",
+      "descriptionExcerpt": "岗位职责： 负责带领和指导算法团队的成员，分配团队内部的任务，完成麻醉机和呼吸机的驱动算法开发。 岗位要求： 1、本科以上学历，5年以上工作经验； 2、有麻醉",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/4c072270a91630f71nJ92NW5GFpV.html",
+      "sourceDiscovery": "002-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "2acf23fb8ef109c97608",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "语音、音频与行业信号",
+      "extractedSkills": [
+        "医疗行业经验",
+        "团队管理"
+      ],
+      "salaryMid": 32.5
+    },
+    {
+      "id": "boss-4c5be746aa6d99e40nB629m7GFJU",
+      "bossJobId": "4c5be746aa6d99e40nB629m7GFJU",
+      "title": "强化学习算法工程师（planning）(A199628)",
+      "company": "妙动科技",
+      "salaryText": "50-70K·15薪",
+      "salaryMin": 50,
+      "salaryMax": 70,
+      "salaryMonths": 15,
+      "salaryBand": "50K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区科技园",
+      "industry": "智能硬件/消费电子",
+      "experience": "经验不限",
+      "education": "硕士",
+      "descriptionExcerpt": "职位描述： 工作职责 1. 核心规划模块研发：负责机器人系统的运动规划算法设计与工程落地，解决复杂非结构化场景下的避障、越障、跟随等规划问题； 2. 基于学习的",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/4c5be746aa6d99e40nB629m7GFJU.html",
+      "sourceDiscovery": "003-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "050fbda86cd5857db369",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "强化学习与机器人控制",
+      "extractedSkills": [
+        "强化学习",
+        "机器人控制",
+        "工程部署",
+        "智能硬件经验"
+      ],
+      "salaryMid": 60
+    },
+    {
+      "id": "boss-4d16467e5691e8670nd-0t29ElNY",
+      "bossJobId": "4d16467e5691e8670nd-0t29ElNY",
+      "title": "图形算法高级开发工程师",
+      "company": "创鑫激光MAX",
+      "salaryText": "40-70K",
+      "salaryMin": 40,
+      "salaryMax": 70,
+      "salaryBand": "50K",
+      "city": "深圳",
+      "district": "宝安区",
+      "addressText": "深圳宝安区沙井",
+      "industry": "专用设备",
+      "experience": "5-10年",
+      "education": "硕士",
+      "descriptionExcerpt": "岗位职责： 1. 核心算法研发：（如多相机标定、特征点提取匹配、畸变校正、颜色/光照补偿等）的设计与实现，解决大型工件在拼接过程中的重影、错位等难题。 2. 运",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/4d16467e5691e8670nd-0t29ElNY.html",
+      "sourceDiscovery": "002-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "92797c30af116ba8650a",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "视觉、图像与图形",
+      "extractedSkills": [
+        "图形与几何"
+      ],
+      "salaryMid": 55
+    },
+    {
+      "id": "boss-50e4281ebcc67ebe0nZy3NS4ElVZ",
+      "bossJobId": "50e4281ebcc67ebe0nZy3NS4ElVZ",
+      "title": "算法开发工程师/高薪/双休/年终奖",
+      "company": "外企德科数字",
+      "salaryText": "17-30K·14薪",
+      "salaryMin": 17,
+      "salaryMax": 30,
+      "salaryMonths": 14,
+      "salaryBand": "30K",
+      "city": "深圳",
+      "district": "龙岗区",
+      "addressText": "深圳龙岗区坂田",
+      "industry": "互联网",
+      "experience": "经验不限",
+      "education": "本科",
+      "descriptionExcerpt": "【工作职责】 1、 面向CBG供应链、风控、用户经营、用户声音、零售、渠道等相关领域和产品，通过AI相关的算法推动CBG的商业数字化和智能化转型； 2、 准确把",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/50e4281ebcc67ebe0nZy3NS4ElVZ.html",
+      "sourceDiscovery": "002-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "b7aacdd7fdaac94ff198",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "通用AI与深度学习",
+      "extractedSkills": [
+        "金融行业经验"
+      ],
+      "salaryMid": 23.5
+    },
+    {
+      "id": "boss-52154ad79fd9857403V-09-4ElFW",
+      "bossJobId": "52154ad79fd9857403V-09-4ElFW",
+      "title": "深度学习研究员",
+      "company": "天宫开物",
+      "salaryText": "22-40K",
+      "salaryMin": 22,
+      "salaryMax": 40,
+      "salaryBand": "30K",
+      "city": "深圳",
+      "district": "龙岗区",
+      "addressText": "深圳龙岗区龙岗宝荷",
+      "industry": "计算机软件",
+      "experience": "经验不限",
+      "education": "本科",
+      "descriptionExcerpt": "岗位职责： 1.设计开拓性的新的深度神经网络 2.构建科学、严谨的算法评测体系 3.紧跟领域前沿，推动基础研究 任职要求： 1.精通机器学习(深度学习)，具备创",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/52154ad79fd9857403V-09-4ElFW.html",
+      "sourceDiscovery": "004-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "97f8a2e954157cec8d5f",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "科研与研究岗位",
+      "extractedSkills": [
+        "深度学习"
+      ],
+      "salaryMid": 31
+    },
+    {
+      "id": "boss-53b743f574744fa703x_3t25GFJU",
+      "bossJobId": "53b743f574744fa703x_3t25GFJU",
+      "title": "强化学习算法工程师",
+      "company": "英特仿真",
+      "salaryText": "20-30K",
+      "salaryMin": 20,
+      "salaryMax": 30,
+      "salaryBand": "30K",
+      "city": "深圳",
+      "district": "龙岗区",
+      "addressText": "深圳龙岗区坂田",
+      "industry": "计算机软件",
+      "experience": "经验不限",
+      "education": "硕士",
+      "descriptionExcerpt": "1、负责强化学习算法开发、设计训练策略、优化其在仿真或物理环境中的交互能力； 2、针对具体任务（如物体抓取、导航避障）调整奖励函数与策略模型 能力要求： 1.",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/53b743f574744fa703x_3t25GFJU.html",
+      "sourceDiscovery": "003-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "89ec9e10d87a63b37cc5",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "强化学习与机器人控制",
+      "extractedSkills": [
+        "强化学习",
+        "模型训练与调优"
+      ],
+      "salaryMid": 25
+    },
+    {
+      "id": "boss-547f8fff880b8c0b03d70ty5FVRY",
+      "bossJobId": "547f8fff880b8c0b03d70ty5FVRY",
+      "title": "有限单元算法开发工程师",
+      "company": "十沣",
+      "salaryText": "20-40K",
+      "salaryMin": 20,
+      "salaryMax": 40,
+      "salaryBand": "30K",
+      "city": "深圳",
+      "district": "深圳",
+      "addressText": "深圳",
+      "industry": "计算机软件",
+      "experience": "3-5年",
+      "education": "硕士",
+      "descriptionExcerpt": "职位职责： 1、负责TF-Dyna显式有限元动力学分析软件中单元算法开发，包括实体、壳（实体退化壳、几何精确壳、实体壳、减缩积分壳等）、膜梁、索、轴对称等单元",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/547f8fff880b8c0b03d70ty5FVRY.html",
+      "sourceDiscovery": "002-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "b7b97e6479dbeb764c64",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "视觉、图像与图形",
+      "extractedSkills": [
+        "图形与几何"
+      ],
+      "salaryMid": 30
+    },
+    {
+      "id": "boss-54e1545ab416542903R909m-FlRV",
+      "bossJobId": "54e1545ab416542903R909m-FlRV",
+      "title": "ai算法专家",
+      "company": "SUTPC",
+      "salaryText": "20-40K·14薪",
+      "salaryMin": 20,
+      "salaryMax": 40,
+      "salaryMonths": 14,
+      "salaryBand": "30K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区科技园",
+      "industry": "咨询",
+      "experience": "3-5年",
+      "education": "硕士",
+      "descriptionExcerpt": "人工智能岗位 【岗位职责】 1.沟通对接业务部门，收集并分析业务需求，为人工智能项目的规划和实施提供建议。 2.研究人工智能领域的最新技术和趋势，评估其潜在应用",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/54e1545ab416542903R909m-FlRV.html",
+      "sourceDiscovery": "001-ai-algorithm",
+      "capturedAt": "2026-07-12T21:13:08.537Z",
+      "status": "candidate",
+      "duplicateFingerprint": "94836d1ddaad96b88557",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "通用AI与深度学习",
+      "extractedSkills": [
+        "主导与决策"
+      ],
+      "salaryMid": 30
+    },
+    {
+      "id": "boss-5837b85c0d88eb8c0nR939q-E1pX",
+      "bossJobId": "5837b85c0d88eb8c0nR939q-E1pX",
+      "title": "AI图像算法",
+      "company": "汉森软件",
+      "salaryText": "35-40K·15薪",
+      "salaryMin": 35,
+      "salaryMax": 40,
+      "salaryMonths": 15,
+      "salaryBand": "30K",
+      "city": "深圳",
+      "district": "宝安区",
+      "addressText": "深圳宝安区西乡",
+      "industry": "计算机软件",
+      "experience": "经验不限",
+      "education": "硕士",
+      "descriptionExcerpt": "岗位职责： 1、负责图生图模型（GAN/扩散模型/流匹配模型等）的算法研发、结构优化及超参数调优，提升生成效果与效率。 2、基于数学和深度学习理论分析模型性能瓶",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/5837b85c0d88eb8c0nR939q-E1pX.html",
+      "sourceDiscovery": "001-ai-algorithm",
+      "capturedAt": "2026-07-12T21:13:08.537Z",
+      "status": "candidate",
+      "duplicateFingerprint": "ce7c9a735f3646b55cf8",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "视觉、图像与图形",
+      "extractedSkills": [
+        "深度学习",
+        "计算机视觉",
+        "模型训练与调优"
+      ],
+      "salaryMid": 37.5
+    },
+    {
+      "id": "boss-62336c0bd99569db03F62tu-FVtW",
+      "bossJobId": "62336c0bd99569db03F62tu-FVtW",
+      "title": "深度强化学习算法工程师(J10451)",
+      "company": "卓驭",
+      "salaryText": "40-70K·15薪",
+      "salaryMin": 40,
+      "salaryMax": 70,
+      "salaryMonths": 15,
+      "salaryBand": "50K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区科技园",
+      "industry": "人工智能",
+      "experience": "1-3年",
+      "education": "硕士",
+      "descriptionExcerpt": "\"工作职责: 1. 研发下一代自动驾驶基础大模型，探索强化学习在端到端模型、世界模型、轨迹规划的应用； 2. 和其他团队协作完成大模型的训练优化和部署落地工作，\"",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/62336c0bd99569db03F62tu-FVtW.html",
+      "sourceDiscovery": "003-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "f8c28721519e684627b1",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "强化学习与机器人控制",
+      "extractedSkills": [
+        "强化学习",
+        "具身智能",
+        "大模型",
+        "模型训练与调优",
+        "工程部署",
+        "团队管理"
+      ],
+      "salaryMid": 55
+    },
+    {
+      "id": "boss-6b835bad08ccddef0nd829W1FVFX",
+      "bossJobId": "6b835bad08ccddef0nd829W1FVFX",
+      "title": "运动控制算法（强化学习方向）",
+      "company": "自变量机器人",
+      "salaryText": "50-80K·16薪",
+      "salaryMin": 50,
+      "salaryMax": 80,
+      "salaryMonths": 16,
+      "salaryBand": "50K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区科技园",
+      "industry": "人工智能",
+      "experience": "经验不限",
+      "education": "硕士",
+      "descriptionExcerpt": "1. 负责机器人领域的强化学习算法研究与开发，包括机械臂、灵巧手、机器人全身运动控制等核心技能训练； 2. 熟悉机器人端到端操作模型，研究强化学习在ACT、Di",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/6b835bad08ccddef0nd829W1FVFX.html",
+      "sourceDiscovery": "003-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "85395dda5c91157cfdc4",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "强化学习与机器人控制",
+      "extractedSkills": [
+        "强化学习",
+        "机器人控制",
+        "模型训练与调优"
+      ],
+      "salaryMid": 65
+    },
+    {
+      "id": "boss-6dd8d557fc525652031z39S8FFRS",
+      "bossJobId": "6dd8d557fc525652031z39S8FFRS",
+      "title": "软件算法开发工程师",
+      "company": "新凯来技术有限公司",
+      "salaryText": "25-50K",
+      "salaryMin": 25,
+      "salaryMax": 50,
+      "salaryBand": "30K",
+      "city": "深圳",
+      "district": "龙岗区",
+      "addressText": "深圳龙岗区平湖",
+      "industry": "电子/半导体/集成电路",
+      "experience": "3-5年",
+      "education": "本科",
+      "descriptionExcerpt": "【公司情况】公司主营半导体装备及零部件、高端仪器仪表研发、制造、销售及服务，总部位于深圳，是深圳国资全资子公司。 【招聘岗位】软件开发工程师 【岗位要求】 1",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/6dd8d557fc525652031z39S8FFRS.html",
+      "sourceDiscovery": "002-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "149fd0d85d6ae47a3f2c",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "AI工程化与部署",
+      "extractedSkills": [],
+      "salaryMid": 37.5
+    },
+    {
+      "id": "boss-789dd84992b83f670ndy0tS-EFpU",
+      "bossJobId": "789dd84992b83f670ndy0tS-EFpU",
+      "title": "算法应用开发工程师",
+      "company": "港仔机器人",
+      "salaryText": "45-60K·16薪",
+      "salaryMin": 45,
+      "salaryMax": 60,
+      "salaryMonths": 16,
+      "salaryBand": "50K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区科技园",
+      "industry": "人工智能",
+      "experience": "1-3年",
+      "education": "硕士",
+      "descriptionExcerpt": "岗位职责 1. 负责健康领域智能推荐算法的设计、研发与落地，围绕个人或家庭的长期健康数据进行建模，构建个性化健康画像与推荐策略。 2. 搭建多 Agent 工作",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/789dd84992b83f670ndy0tS-EFpU.html",
+      "sourceDiscovery": "002-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "16817e07d0e79522d7e9",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "AI Agent与大模型",
+      "extractedSkills": [
+        "AI Agent",
+        "工程部署"
+      ],
+      "salaryMid": 52.5
+    },
+    {
+      "id": "boss-78b79322128e24b00nV63d-1EVVR",
+      "bossJobId": "78b79322128e24b00nV63d-1EVVR",
+      "title": "嵌入式开发（算法部署）工程师",
+      "company": "拓竹科技",
+      "salaryText": "30-50K·15薪",
+      "salaryMin": 30,
+      "salaryMax": 50,
+      "salaryMonths": 15,
+      "salaryBand": "50K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区科技园",
+      "industry": "智能硬件",
+      "experience": "3-5年",
+      "education": "本科",
+      "descriptionExcerpt": "岗位职责： 1.深入理解产品需求，进行嵌入式软件开发与优化，实现业务功能； 2. 评估深度学习算法在嵌入式平台的资源占用、准确率，保证算法的良好运行； 3. 负",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/78b79322128e24b00nV63d-1EVVR.html",
+      "sourceDiscovery": "002-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "30c05dbc2e6e0e875a9b",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "AI工程化与部署",
+      "extractedSkills": [
+        "深度学习",
+        "工程部署",
+        "嵌入式",
+        "智能硬件经验"
+      ],
+      "salaryMid": 40
+    },
+    {
+      "id": "boss-7d8ebe55bd16412203F52NW6GVRT",
+      "bossJobId": "7d8ebe55bd16412203F52NW6GVRT",
+      "title": "AI Coding大模型算法工程师",
+      "company": "深圳字节跳动",
+      "salaryText": "30-60K·14薪",
+      "salaryMin": 30,
+      "salaryMax": 60,
+      "salaryMonths": 14,
+      "salaryBand": "50K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区科技园",
+      "industry": "互联网",
+      "experience": "经验不限",
+      "education": "硕士",
+      "descriptionExcerpt": "职位职责： 负责研发提效场景所需要的大模型能力的研发和应用，研究高质量数据的挖掘和合成、大模型的对齐效率、Agent的设计&端到端训练等等，不断思考和跟进AI的",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/7d8ebe55bd16412203F52NW6GVRT.html",
+      "sourceDiscovery": "001-ai-algorithm",
+      "capturedAt": "2026-07-12T21:13:08.537Z",
+      "status": "candidate",
+      "duplicateFingerprint": "052c96c6b0bcc1e03ffa",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "AI Agent与大模型",
+      "extractedSkills": [
+        "大模型",
+        "AI Agent",
+        "模型训练与调优"
+      ],
+      "salaryMid": 45
+    },
+    {
+      "id": "boss-828d52a05aa414f10nZ80tq-E1pW",
+      "bossJobId": "828d52a05aa414f10nZ80tq-E1pW",
+      "title": "AI 图像算法工程师（eufyMake）",
+      "company": "Anker",
+      "salaryText": "35-55K·16薪",
+      "salaryMin": 35,
+      "salaryMax": 55,
+      "salaryMonths": 16,
+      "salaryBand": "50K",
+      "city": "深圳",
+      "district": "深圳",
+      "addressText": "深圳",
+      "industry": "智能硬件/消费电子",
+      "experience": "5-10年",
+      "education": "本科",
+      "descriptionExcerpt": "业务简介： 安克创新推出的全球首款消费级 3D 纹理 UV 打印机 eufyMake E1，在 Kickstarter 创下4200万美元众筹纪录，获得众筹第一",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/828d52a05aa414f10nZ80tq-E1pW.html",
+      "sourceDiscovery": "001-ai-algorithm",
+      "capturedAt": "2026-07-12T21:13:08.537Z",
+      "status": "candidate",
+      "duplicateFingerprint": "90502e0996783f1f7921",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "视觉、图像与图形",
+      "extractedSkills": [
+        "计算机视觉",
+        "智能硬件经验"
+      ],
+      "salaryMid": 45
+    },
+    {
+      "id": "boss-856a6f166cfb639f03Z73tm0ElRZ",
+      "bossJobId": "856a6f166cfb639f03Z73tm0ElRZ",
+      "title": "ai算法工程师",
+      "company": "帝迈生物",
+      "salaryText": "25-35K·15薪",
+      "salaryMin": 25,
+      "salaryMax": 35,
+      "salaryMonths": 15,
+      "salaryBand": "30K",
+      "city": "深圳",
+      "district": "光明区",
+      "addressText": "深圳光明区光明",
+      "industry": "医疗健康",
+      "experience": "经验不限",
+      "education": "硕士",
+      "descriptionExcerpt": "岗位职责： 1、结合临床需求，基于血液细胞分析仪参数、图形、报警、系统信号等信息，负责新一代血液细胞分析之细胞识别、特征抓取、异常报警、新参数模型、多参数联合",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/856a6f166cfb639f03Z73tm0ElRZ.html",
+      "sourceDiscovery": "001-ai-algorithm",
+      "capturedAt": "2026-07-12T21:13:08.537Z",
+      "status": "candidate",
+      "duplicateFingerprint": "276b0aeb032489aea477",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "视觉、图像与图形",
+      "extractedSkills": [
+        "图形与几何",
+        "医疗行业经验"
+      ],
+      "salaryMid": 30
+    },
+    {
+      "id": "boss-889df04b6dc8df510nR90ty-GFBT",
+      "bossJobId": "889df04b6dc8df510nR90ty-GFBT",
+      "title": "强化学习算法工程师",
+      "company": "速腾聚创",
+      "salaryText": "50-80K·15薪",
+      "salaryMin": 50,
+      "salaryMax": 80,
+      "salaryMonths": 15,
+      "salaryBand": "50K",
+      "city": "深圳",
+      "district": "深圳",
+      "addressText": "深圳",
+      "industry": "智能硬件",
+      "experience": "5-10年",
+      "education": "硕士",
+      "descriptionExcerpt": "岗位职责 1、负责机器人决策、控制一体化的强化学习算法的设计、将具体的机器人任务抽象并建模为可求解的强化学习问题。 2、设计与实现高效、鲁棒的奖励函数，以引",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/889df04b6dc8df510nR90ty-GFBT.html",
+      "sourceDiscovery": "003-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "a6de681753a84e898e32",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "强化学习与机器人控制",
+      "extractedSkills": [
+        "强化学习",
+        "机器人控制",
+        "智能硬件经验"
+      ],
+      "salaryMid": 65
+    },
+    {
+      "id": "boss-8f5df390b12e73920nR93dW1EVdV",
+      "bossJobId": "8f5df390b12e73920nR93dW1EVdV",
+      "title": "腾讯云乐享-强化学习算法研究员(深圳)",
+      "company": "腾讯",
+      "salaryText": "40-70K·15薪",
+      "salaryMin": 40,
+      "salaryMax": 70,
+      "salaryMonths": 15,
+      "salaryBand": "50K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区科技园",
+      "industry": "互联网",
+      "experience": "3-5年",
+      "education": "硕士",
+      "descriptionExcerpt": "岗位职责 1.作为研究者，探索有效的 Agentic Workflow 和 Agentic Memory 设计来解决代码领域的问题； 2.主要关注比SFT泛化效",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/8f5df390b12e73920nR93dW1EVdV.html",
+      "sourceDiscovery": "003-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "68b52b8ee5377d662ce0",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "科研与研究岗位",
+      "extractedSkills": [
+        "强化学习",
+        "AI Agent"
+      ],
+      "salaryMid": 55
+    },
+    {
+      "id": "boss-9b5204cf61a87a0c0ndy39i0FFNX",
+      "bossJobId": "9b5204cf61a87a0c0ndy39i0FFNX",
+      "title": "ai算法专家",
+      "company": "Traveloka",
+      "salaryText": "40-70K·15薪",
+      "salaryMin": 40,
+      "salaryMax": 70,
+      "salaryMonths": 15,
+      "salaryBand": "50K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区科技园",
+      "industry": "互联网",
+      "experience": "3-5年",
+      "education": "本科",
+      "descriptionExcerpt": "Role Overview We are looking for a passionate and highly skilled AI Algorithm En",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/9b5204cf61a87a0c0ndy39i0FFNX.html",
+      "sourceDiscovery": "001-ai-algorithm",
+      "capturedAt": "2026-07-12T21:13:08.537Z",
+      "status": "candidate",
+      "duplicateFingerprint": "710f6fad2485e5d3880f",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "通用AI与深度学习",
+      "extractedSkills": [
+        "主导与决策"
+      ],
+      "salaryMid": 55
+    },
+    {
+      "id": "boss-9ed60f4335d4fd7f1HB43tm0GFtQ",
+      "bossJobId": "9ed60f4335d4fd7f1HB43tm0GFtQ",
+      "title": "AI算法工程师",
+      "company": "生境科技",
+      "salaryText": "30-50K·13薪",
+      "salaryMin": 30,
+      "salaryMax": 50,
+      "salaryMonths": 13,
+      "salaryBand": "50K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区西丽",
+      "industry": "人工智能",
+      "experience": "1-3年",
+      "education": "本科",
+      "descriptionExcerpt": "\"岗位职责： 1. 具身智能体的动作序列生成与可解释决策: - 主导基于 LLM/VLA (大语言模型/视觉语言模型) 的智能体（Agent）动作序列生成算法\"",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/9ed60f4335d4fd7f1HB43tm0GFtQ.html",
+      "sourceDiscovery": "001-ai-algorithm",
+      "capturedAt": "2026-07-12T21:13:08.537Z",
+      "status": "candidate",
+      "duplicateFingerprint": "77f910b721ff52822f12",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "强化学习与机器人控制",
+      "extractedSkills": [
+        "具身智能",
+        "大模型",
+        "AI Agent",
+        "计算机视觉",
+        "主导与决策"
+      ],
+      "salaryMid": 40
+    },
+    {
+      "id": "boss-9f04c8d6dc4764c80nd-2dW-GVBU",
+      "bossJobId": "9f04c8d6dc4764c80nd-2dW-GVBU",
+      "title": "AI算法工程师",
+      "company": "深圳菲特奥创新科技",
+      "salaryText": "25-45K·13薪",
+      "salaryMin": 25,
+      "salaryMax": 45,
+      "salaryMonths": 13,
+      "salaryBand": "30K",
+      "city": "深圳",
+      "district": "宝安区",
+      "addressText": "深圳宝安区西乡",
+      "industry": "电子商务",
+      "experience": "5-10年",
+      "education": "本科",
+      "descriptionExcerpt": "岗位职责 1.负责公司 AI 大模型在垂直领域的微调与效果优化，持续提升模型在实际业务场景中的准确率和用户体验； 2.负责 RAG（检索增强生成）系统的架构设计",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/9f04c8d6dc4764c80nd-2dW-GVBU.html",
+      "sourceDiscovery": "001-ai-algorithm",
+      "capturedAt": "2026-07-12T21:13:08.537Z",
+      "status": "candidate",
+      "duplicateFingerprint": "8456cf20d675f3beafcf",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "AI Agent与大模型",
+      "extractedSkills": [
+        "大模型",
+        "模型训练与调优",
+        "用户研究"
+      ],
+      "salaryMid": 35
+    },
+    {
+      "id": "boss-9febb5f6bc42220803V72dm4ElpZ",
+      "bossJobId": "9febb5f6bc42220803V72dm4ElpZ",
+      "title": "计算机网络方向博后/助理研究员",
+      "company": "鹏城实验室",
+      "salaryText": "35-45K",
+      "salaryMin": 35,
+      "salaryMax": 45,
+      "salaryBand": "50K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区西丽",
+      "industry": "学术/科研",
+      "experience": "经验不限",
+      "education": "博士",
+      "descriptionExcerpt": "工作内容： 基于SDW的流量调度系统的研究和开发实现 本团队可能涉及的工作有：使用C语言开发数据平面，用Node.js开发控制平面，用P4语言在可编程交换机上开",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/9febb5f6bc42220803V72dm4ElpZ.html",
+      "sourceDiscovery": "003-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "9564fd24fcdb38cc2f4e",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "科研与研究岗位",
+      "extractedSkills": [
+        "团队管理"
+      ],
+      "salaryMid": 40
+    },
+    {
+      "id": "boss-ab259bdcbe3e97bc0ndz3tS6FlJS",
+      "bossJobId": "ab259bdcbe3e97bc0ndz3tS6FlJS",
+      "title": "AI金融量化工程师（强化学习方向）",
+      "company": "深圳高盈国际创新科技",
+      "salaryText": "18-30K",
+      "salaryMin": 18,
+      "salaryMax": 30,
+      "salaryBand": "30K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区科技园",
+      "industry": "计算机软件",
+      "experience": "1-3年",
+      "education": "本科",
+      "descriptionExcerpt": "岗位职责： 1、负责强化学习交易执行智能体的构建与迭代，结合市场数据与交易约束输出最优执行指令，优化高频交易执行效果。 2、参与策略回测、仿真与实盘测试，搭建绩",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/ab259bdcbe3e97bc0ndz3tS6FlJS.html",
+      "sourceDiscovery": "003-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "c1d2b5e3ea9ca6b96f5d",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "量化与金融AI",
+      "extractedSkills": [
+        "强化学习",
+        "量化研究",
+        "金融行业经验"
+      ],
+      "salaryMid": 24
+    },
+    {
+      "id": "boss-abcc09db515627d903183d21FFVS",
+      "bossJobId": "abcc09db515627d903183d21FFVS",
+      "title": "ai算法工程师",
+      "company": "强瑞技术",
+      "salaryText": "15-30K",
+      "salaryMin": 15,
+      "salaryMax": 30,
+      "salaryBand": "30K",
+      "city": "深圳",
+      "district": "龙华区",
+      "addressText": "深圳龙华区龙华",
+      "industry": "自动化设备",
+      "experience": "1-3年",
+      "education": "硕士",
+      "descriptionExcerpt": "岗位职责 1.负责工业软件算法研究，论文复现； 2.负责数据处理、模型搭建、训练和优化、模型部署； 3.强瑞深思实验室，上班地点：南山、龙华任选 任职要求：满足",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/abcc09db515627d903183d21FFVS.html",
+      "sourceDiscovery": "001-ai-algorithm",
+      "capturedAt": "2026-07-12T21:13:08.537Z",
+      "status": "candidate",
+      "duplicateFingerprint": "f79b49d1b167f9db6984",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "AI工程化与部署",
+      "extractedSkills": [
+        "模型训练与调优",
+        "工程部署",
+        "数据与数据集"
+      ],
+      "salaryMid": 22.5
+    },
+    {
+      "id": "boss-ac9eb6016f09640903150t--GVdW",
+      "bossJobId": "ac9eb6016f09640903150t--GVdW",
+      "title": "【地瓜机器人】SLAM算法开发工程师",
+      "company": "地平线",
+      "salaryText": "30-50K·15薪",
+      "salaryMin": 30,
+      "salaryMax": 50,
+      "salaryMonths": 15,
+      "salaryBand": "50K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区科技园",
+      "industry": "互联网",
+      "experience": "3-5年",
+      "education": "硕士",
+      "descriptionExcerpt": "也有视觉感知算法方向HC 工作职责 1、负责基于激光/视觉SLAM算法开发和优化，提升算法鲁棒性、精度和效率； 2、支持各类型机器人项目开发和量产，解决场景长",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/ac9eb6016f09640903150t--GVdW.html",
+      "sourceDiscovery": "002-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "1ec8d1d30cc16094e9ca",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "强化学习与机器人控制",
+      "extractedSkills": [
+        "机器人控制",
+        "计算机视觉",
+        "SLAM"
+      ],
+      "salaryMid": 40
+    },
+    {
+      "id": "boss-ad62d100c784b0710nd82tu-FFdV",
+      "bossJobId": "ad62d100c784b0710nd82tu-FFdV",
+      "title": "强化学习算法工程师（无人机）",
+      "company": "硅羽科技",
+      "salaryText": "35-60K·14薪",
+      "salaryMin": 35,
+      "salaryMax": 60,
+      "salaryMonths": 14,
+      "salaryBand": "50K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区前海",
+      "industry": "智能硬件/消费电子",
+      "experience": "3-5年",
+      "education": "硕士",
+      "descriptionExcerpt": "岗位职责： 1、研发面向无人机端到端的深度强化学习控制与规划的仿真环境与决策算法； 2、负责强化学习方向的前沿算法调研与优化，主导仿真环境构建、模型训练与调试验",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/ad62d100c784b0710nd82tu-FFdV.html",
+      "sourceDiscovery": "003-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "af27980d88ea97532d6b",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "强化学习与机器人控制",
+      "extractedSkills": [
+        "强化学习",
+        "模型训练与调优",
+        "智能硬件经验",
+        "主导与决策"
+      ],
+      "salaryMid": 47.5
+    },
+    {
+      "id": "boss-ae3b4f07b2d9584303Z_0t--GVVS",
+      "bossJobId": "ae3b4f07b2d9584303Z_0t--GVVS",
+      "title": "量化研究员（深度学习方向）",
+      "company": "氢氦软件",
+      "salaryText": "20-40K",
+      "salaryMin": 20,
+      "salaryMax": 40,
+      "salaryBand": "30K",
+      "city": "深圳",
+      "district": "福田区",
+      "addressText": "深圳福田区石厦",
+      "industry": "计算机软件",
+      "experience": "3-5年",
+      "education": "硕士",
+      "descriptionExcerpt": "工作职责： 1、端到端策略开发 ·负责开发并优化基于深度学习的端到端量化研究模型，涵盖特征提取、模型训练、回测等； ·针对股票量化策略，探索多因子融合、时序预测",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/ae3b4f07b2d9584303Z_0t--GVVS.html",
+      "sourceDiscovery": "004-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "469348421d7dafd00b29",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "量化与金融AI",
+      "extractedSkills": [
+        "深度学习",
+        "模型训练与调优",
+        "量化研究"
+      ],
+      "salaryMid": 30
+    },
+    {
+      "id": "boss-b24036d8310373520nd_2t-8GVdQ",
+      "bossJobId": "b24036d8310373520nd_2t-8GVdQ",
+      "title": "机器人强化学习算法工程师",
+      "company": "深圳超维动力智能科技",
+      "salaryText": "30-60K·16薪",
+      "salaryMin": 30,
+      "salaryMax": 60,
+      "salaryMonths": 16,
+      "salaryBand": "50K",
+      "city": "深圳",
+      "district": "深圳",
+      "addressText": "深圳",
+      "industry": "人工智能",
+      "experience": "在校/应届",
+      "education": "硕士",
+      "descriptionExcerpt": "岗位职责： 专注于机器人领域强化学习（RL）算法的研发、优化与工程落地，聚焦人形机运动控制，推动RL算法从仿真验证到机器人实体的落地应用，解决机器人控制中的核心",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/b24036d8310373520nd_2t-8GVdQ.html",
+      "sourceDiscovery": "003-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "7a81ae7096b374faf6fe",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "强化学习与机器人控制",
+      "extractedSkills": [
+        "强化学习",
+        "机器人控制",
+        "工程部署"
+      ],
+      "salaryMid": 45
+    },
+    {
+      "id": "boss-b3c06ecb948f01c003V82N24GVRR",
+      "bossJobId": "b3c06ecb948f01c003V82N24GVRR",
+      "title": "深度强化学习算法工程师",
+      "company": "火狗智能",
+      "salaryText": "25-50K·13薪",
+      "salaryMin": 25,
+      "salaryMax": 50,
+      "salaryMonths": 13,
+      "salaryBand": "30K",
+      "city": "深圳",
+      "district": "宝安区",
+      "addressText": "深圳宝安区西乡",
+      "industry": "智能硬件",
+      "experience": "经验不限",
+      "education": "硕士",
+      "descriptionExcerpt": "岗位职责 1.研发适用于多自由度机器人、四足式以及轮式仿生机器人决策规划的深度强化学习算法; 2.负责深度强化学习算法的模型开发、调试与实际机器人验证 任职要",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/b3c06ecb948f01c003V82N24GVRR.html",
+      "sourceDiscovery": "003-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "2943b8791b50a66b5394",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "强化学习与机器人控制",
+      "extractedSkills": [
+        "强化学习",
+        "机器人控制",
+        "智能硬件经验"
+      ],
+      "salaryMid": 37.5
+    },
+    {
+      "id": "boss-b50adc8a1d6fa9c30nZ60t-8FlRQ",
+      "bossJobId": "b50adc8a1d6fa9c30nZ60t-8FlRQ",
+      "title": "ai算法研究员",
+      "company": "UsingAI",
+      "salaryText": "40-65K",
+      "salaryMin": 40,
+      "salaryMax": 65,
+      "salaryBand": "50K",
+      "city": "深圳",
+      "district": "深圳",
+      "addressText": "深圳",
+      "industry": "计算机服务",
+      "experience": "在校/应届",
+      "education": "博士",
+      "descriptionExcerpt": "职位描述： 围绕公司工业控制与设备控制相关业务，探索AI技术在该领域的前沿应用场景，主导算法创新与核心技术的突破性研究； 负责强化学习、深度学习等领域的前沿",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/b50adc8a1d6fa9c30nZ60t-8FlRQ.html",
+      "sourceDiscovery": "001-ai-algorithm",
+      "capturedAt": "2026-07-12T21:13:08.537Z",
+      "status": "candidate",
+      "duplicateFingerprint": "76f6c2e81c8f5ff1e783",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "科研与研究岗位",
+      "extractedSkills": [
+        "强化学习",
+        "深度学习",
+        "主导与决策"
+      ],
+      "salaryMid": 52.5
+    },
+    {
+      "id": "boss-b5a2f4bdd2f218db0nV92N2_EFpT",
+      "bossJobId": "b5a2f4bdd2f218db0nV92N2_EFpT",
+      "title": "资深机器人强化学习算法研究员",
+      "company": "深圳徕福机器人",
+      "salaryText": "40-60K",
+      "salaryMin": 40,
+      "salaryMax": 60,
+      "salaryBand": "50K",
+      "city": "深圳",
+      "district": "深圳",
+      "addressText": "深圳",
+      "industry": "人工智能",
+      "experience": "3-5年",
+      "education": "硕士",
+      "descriptionExcerpt": "\"- 岗位职责： 1. 负责核心算法研发与落地：独立负责机器人（足式、轮腿式等）运动控制中基于深度强化学习/模仿学习的核心算法模块（如步态生成、平衡恢复、全身协调\"",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/b5a2f4bdd2f218db0nV92N2_EFpT.html",
+      "sourceDiscovery": "003-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "f812c5b5f673eade3f83",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "科研与研究岗位",
+      "extractedSkills": [
+        "强化学习",
+        "机器人控制",
+        "工程部署"
+      ],
+      "salaryMid": 50
+    },
+    {
+      "id": "boss-c124ad4fa4c53a750ndy2tm8FVVZ",
+      "bossJobId": "c124ad4fa4c53a750ndy2tm8FVVZ",
+      "title": "ai算法工程师",
+      "company": "路特",
+      "salaryText": "30-50K",
+      "salaryMin": 30,
+      "salaryMax": 50,
+      "salaryBand": "50K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区科技园",
+      "industry": "电子商务",
+      "experience": "3-5年",
+      "education": "本科",
+      "descriptionExcerpt": "岗位职责 ● 时序建模：基于IOT 设备传感器数据，构建并优化高准确度的奶量管理趋势预测与睡眠周期模型。 ● 场景化见解：配合大模型团队，将预测算法输出的结构",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/c124ad4fa4c53a750ndy2tm8FVVZ.html",
+      "sourceDiscovery": "001-ai-algorithm",
+      "capturedAt": "2026-07-12T21:13:08.537Z",
+      "status": "candidate",
+      "duplicateFingerprint": "d75af0c78585a4d81e92",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "AI Agent与大模型",
+      "extractedSkills": [
+        "大模型",
+        "团队管理"
+      ],
+      "salaryMid": 40
+    },
+    {
+      "id": "boss-c53cd1efcc04a8aa03xy2Ni0FVNS",
+      "bossJobId": "c53cd1efcc04a8aa03xy2Ni0FVNS",
+      "title": "机器人强化学习算法（扫地机）",
+      "company": "追觅科技",
+      "salaryText": "35-60K·15薪",
+      "salaryMin": 35,
+      "salaryMax": 60,
+      "salaryMonths": 15,
+      "salaryBand": "50K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区科技园",
+      "industry": "家用电器",
+      "experience": "3-5年",
+      "education": "硕士",
+      "descriptionExcerpt": "岗位职责： 1、开发基于三维视觉、多模态信息、模仿学习、强化学习的算法工具库； 2、负责扫地机器人、服务机器人等机器人的仿真系统设计、任务训练、真机部署； 任",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/c53cd1efcc04a8aa03xy2Ni0FVNS.html",
+      "sourceDiscovery": "003-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "cf80e4b2816671c0e8b9",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "强化学习与机器人控制",
+      "extractedSkills": [
+        "强化学习",
+        "机器人控制",
+        "计算机视觉",
+        "模型训练与调优",
+        "工程部署"
+      ],
+      "salaryMid": 47.5
+    },
+    {
+      "id": "boss-c79f9339db5aa90b03Rz2dq6F1JQ",
+      "bossJobId": "c79f9339db5aa90b03Rz2dq6F1JQ",
+      "title": "深度学习量化研究员",
+      "company": "鸿濛投资",
+      "salaryText": "18-35K·13薪",
+      "salaryMin": 18,
+      "salaryMax": 35,
+      "salaryMonths": 13,
+      "salaryBand": "30K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区科技园",
+      "industry": "基金",
+      "experience": "1-3年",
+      "education": "硕士",
+      "descriptionExcerpt": "岗位职责： 1.将深度学习模型应用于量化投资策略的开发，设计基于模型预测结果的交易信号生成机制和资产配置策略，分析交易数据，捕捉市场规律。 2.深度学习模型开发",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/c79f9339db5aa90b03Rz2dq6F1JQ.html",
+      "sourceDiscovery": "004-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "9c6bbf3f6cf311429978",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "量化与金融AI",
+      "extractedSkills": [
+        "深度学习",
+        "量化研究",
+        "金融行业经验"
+      ],
+      "salaryMid": 26.5
+    },
+    {
+      "id": "boss-c966374f464cce910nd-3d69ElNX",
+      "bossJobId": "c966374f464cce910nd-3d69ElNX",
+      "title": "AI工程师（机器学习） | 深圳 | IT",
+      "company": "曼迪匹艾",
+      "salaryText": "20-35K",
+      "salaryMin": 20,
+      "salaryMax": 35,
+      "salaryBand": "30K",
+      "city": "深圳",
+      "district": "福田区",
+      "addressText": "深圳福田区石厦",
+      "industry": "其他行业",
+      "experience": "1-3年",
+      "education": "硕士",
+      "descriptionExcerpt": "职位描述 一、工作职责 1.参与公司核心 AI 项目的算法研发与工程落地； 2.参与 LLM 微调、Prompt 设计、RAG 系统构建； 3.参与基于 Age",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/c966374f464cce910nd-3d69ElNX.html",
+      "sourceDiscovery": "003-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "7032ffe5961222304b73",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "AI Agent与大模型",
+      "extractedSkills": [
+        "大模型",
+        "模型训练与调优",
+        "工程部署"
+      ],
+      "salaryMid": 27.5
+    },
+    {
+      "id": "boss-d7022e90489477dc03172ty8GFpQ",
+      "bossJobId": "d7022e90489477dc03172ty8GFpQ",
+      "title": "iOS开发工程师（算法实现 / BLE通信）",
+      "company": "深圳艾犀科技有限公司",
+      "salaryText": "30-50K",
+      "salaryMin": 30,
+      "salaryMax": 50,
+      "salaryBand": "50K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区科技园",
+      "industry": "智能硬件/消费电子",
+      "experience": "3-5年",
+      "education": "本科",
+      "descriptionExcerpt": "【职位名称】 资深iOS开发工程师（算法实现 / BLE通信） 工作地点： 深圳，或者远程，可协商 报酬范围： 30k - 50k 【我们是谁】 我们是 Axi",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/d7022e90489477dc03172ty8GFpQ.html",
+      "sourceDiscovery": "002-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "d694e59a5d80865fb86a",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "AI工程化与部署",
+      "extractedSkills": [
+        "嵌入式",
+        "智能硬件经验"
+      ],
+      "salaryMid": 40
+    },
+    {
+      "id": "boss-d7727d773135f1a403d62du7ElVQ",
+      "bossJobId": "d7727d773135f1a403d62du7ElVQ",
+      "title": "助理研究员(J10423)",
+      "company": "AIRS",
+      "salaryText": "30-40K",
+      "salaryMin": 30,
+      "salaryMax": 40,
+      "salaryBand": "30K",
+      "city": "深圳",
+      "district": "龙岗区",
+      "addressText": "深圳龙岗区坂田",
+      "industry": "人工智能",
+      "experience": "1-3年",
+      "education": "硕士",
+      "descriptionExcerpt": "\"工作职责: 数据采集系统设计： 1）开发面向机器人多模态感知（如触觉、力觉、视觉）的数据采集硬件与软件架构； 2）设计跨场景（家庭、工业、户外）的机器人-环境\"",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/d7727d773135f1a403d62du7ElVQ.html",
+      "sourceDiscovery": "003-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "56711c1e9dde75c75471",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "科研与研究岗位",
+      "extractedSkills": [
+        "机器人控制",
+        "计算机视觉",
+        "智能硬件经验"
+      ],
+      "salaryMid": 35
+    },
+    {
+      "id": "boss-d8f99f272cbe2a070nd709y6E1pY",
+      "bossJobId": "d8f99f272cbe2a070nd709y6E1pY",
+      "title": "强化学习算法工程师",
+      "company": "yobotics智能机器人",
+      "salaryText": "20-40K",
+      "salaryMin": 20,
+      "salaryMax": 40,
+      "salaryBand": "30K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区科技园",
+      "industry": "其他行业",
+      "experience": "1-3年",
+      "education": "硕士",
+      "descriptionExcerpt": "岗位描述 1、利用强化学习和深度学习研究适用于腿足式机器人平台的控制算法。 2、负责算法模型在实物机器人上的部署优化。 3、了解跟踪强化学习在腿足式机器人领域的",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/d8f99f272cbe2a070nd709y6E1pY.html",
+      "sourceDiscovery": "003-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "8e13ddec9e37fc5c9c9c",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "强化学习与机器人控制",
+      "extractedSkills": [
+        "强化学习",
+        "机器人控制",
+        "深度学习",
+        "工程部署"
+      ],
+      "salaryMid": 30
+    },
+    {
+      "id": "boss-dcd4cf16c63413310nR93t67E1BR",
+      "bossJobId": "dcd4cf16c63413310nR93t67E1BR",
+      "title": "C++几何算法开发",
+      "company": "嘉立创",
+      "salaryText": "20-40K·14薪",
+      "salaryMin": 20,
+      "salaryMax": 40,
+      "salaryMonths": 14,
+      "salaryBand": "30K",
+      "city": "深圳",
+      "district": "深圳",
+      "addressText": "深圳",
+      "industry": "电子/硬件开发",
+      "experience": "经验不限",
+      "education": "本科",
+      "descriptionExcerpt": "工作职责： 1、作为全公司建模算法团队的核心成员，提供产品相关的CAD/CAE/CAM底层算法中难点卡点问题的解决方案，并进行相关算法原型的设计。 2、跟进CA",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/dcd4cf16c63413310nR93t67E1BR.html",
+      "sourceDiscovery": "002-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "9d7635f398b3eea0bd80",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "视觉、图像与图形",
+      "extractedSkills": [
+        "图形与几何",
+        "C++",
+        "智能硬件经验",
+        "团队管理"
+      ],
+      "salaryMid": 30
+    },
+    {
+      "id": "boss-deeb164abef1c15d0nZ83Ni7F1JQ",
+      "bossJobId": "deeb164abef1c15d0nZ83Ni7F1JQ",
+      "title": "资深强化学习算法工程师(A177444)",
+      "company": "逸文科技",
+      "salaryText": "30-60K·14薪",
+      "salaryMin": 30,
+      "salaryMax": 60,
+      "salaryMonths": 14,
+      "salaryBand": "50K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区科技园",
+      "industry": "智能硬件",
+      "experience": "经验不限",
+      "education": "硕士",
+      "descriptionExcerpt": "职位描述： 【职位简介】 我们正在构建下一代消费级智能设备的逆向设计引擎。面对高维度拓扑空间难以搜索以及物理仿真成本极高的挑战，我们寻求一位在强化学习（RL）领",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/deeb164abef1c15d0nZ83Ni7F1JQ.html",
+      "sourceDiscovery": "003-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "70fe1a52be0798d73144",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "强化学习与机器人控制",
+      "extractedSkills": [
+        "强化学习",
+        "智能硬件经验"
+      ],
+      "salaryMid": 45
+    },
+    {
+      "id": "boss-e04f4de404150bfa03B429u4E1JT",
+      "bossJobId": "e04f4de404150bfa03B429u4E1JT",
+      "title": "ai算法工程师",
+      "company": "穗彩科技",
+      "salaryText": "20-40K",
+      "salaryMin": 20,
+      "salaryMax": 40,
+      "salaryBand": "30K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区科技园",
+      "industry": "计算机软件",
+      "experience": "3-5年",
+      "education": "本科",
+      "descriptionExcerpt": "岗位职责 1、基于大模型（GPT、GEMINI、BERT等）开发智能Agent，满足不同业务场景需求和多模态（文本、图像、语音、视频）模型应用开发； 2、利用F",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/e04f4de404150bfa03B429u4E1JT.html",
+      "sourceDiscovery": "001-ai-algorithm",
+      "capturedAt": "2026-07-12T21:13:08.537Z",
+      "status": "candidate",
+      "duplicateFingerprint": "7a9b8288ab048d0e6a22",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "AI Agent与大模型",
+      "extractedSkills": [
+        "大模型",
+        "AI Agent",
+        "计算机视觉",
+        "语音与音频"
+      ],
+      "salaryMid": 30
+    },
+    {
+      "id": "boss-e2b72242d5c6ce0a031_3tS0FFBV",
+      "bossJobId": "e2b72242d5c6ce0a031_3tS0FFBV",
+      "title": "游戏AI-深度学习算法研究员(深圳)",
+      "company": "腾讯",
+      "salaryText": "50-70K·15薪",
+      "salaryMin": 50,
+      "salaryMax": 70,
+      "salaryMonths": 15,
+      "salaryBand": "50K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区科技园",
+      "industry": "互联网",
+      "experience": "3-5年",
+      "education": "硕士",
+      "descriptionExcerpt": "工作内容： 1、负责游戏AI技术的研发，包括但不限于智能AIBOT在拟人性、可控性、多样性以及方案通用性等方面的优化，以及AI相关工具的开发。 2、负责游戏AI",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/e2b72242d5c6ce0a031_3tS0FFBV.html",
+      "sourceDiscovery": "004-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "5cfb023c13a66ce9fe1c",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "科研与研究岗位",
+      "extractedSkills": [
+        "深度学习",
+        "游戏行业经验"
+      ],
+      "salaryMid": 60
+    },
+    {
+      "id": "boss-e514916a1e67c04a0nd_2d25EVFV",
+      "bossJobId": "e514916a1e67c04a0nd_2d25EVFV",
+      "title": "强化学习算法（人形机器人）",
+      "company": "璇玑动力",
+      "salaryText": "40-70K·15薪",
+      "salaryMin": 40,
+      "salaryMax": 70,
+      "salaryMonths": 15,
+      "salaryBand": "50K",
+      "city": "深圳",
+      "district": "深圳",
+      "addressText": "深圳",
+      "industry": "智能硬件/消费电子",
+      "experience": "1-3年",
+      "education": "本科",
+      "descriptionExcerpt": "岗位职责： 1、负责足式机器人（四轮足/四足）强化学习算法研发与工程化落地，包括PPO/SAC/DDPG/TD3等DRL算法设计、训练与优化，保障产品在工业巡检",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/e514916a1e67c04a0nd_2d25EVFV.html",
+      "sourceDiscovery": "003-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "9e9d6c0e9c899946f49f",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "强化学习与机器人控制",
+      "extractedSkills": [
+        "强化学习",
+        "机器人控制",
+        "模型训练与调优",
+        "工程部署",
+        "智能硬件经验"
+      ],
+      "salaryMid": 55
+    },
+    {
+      "id": "boss-f802c5552c92bfd30nd92969F1ZQ",
+      "bossJobId": "f802c5552c92bfd30nd92969F1ZQ",
+      "title": "强化学习框架工程师",
+      "company": "道通科技",
+      "salaryText": "40-65K·20薪",
+      "salaryMin": 40,
+      "salaryMax": 65,
+      "salaryMonths": 20,
+      "salaryBand": "50K",
+      "city": "深圳",
+      "district": "南山区",
+      "addressText": "深圳南山区科技园",
+      "industry": "智能硬件",
+      "experience": "5-10年",
+      "education": "本科",
+      "descriptionExcerpt": "岗位职责 负责具身智能强化学习（RL）训练框架的架构设计与工程实现，定义框架核心模块（环境接口、采样器、训练器、评估器）的抽象与接口规范 负责强化学习训练所需数",
+      "requirementText": "",
+      "sourceUrl": "https://www.zhipin.com/job_detail/f802c5552c92bfd30nd92969F1ZQ.html",
+      "sourceDiscovery": "003-boss-list",
+      "capturedAt": "2026-07-12T21:13:54.464Z",
+      "status": "candidate",
+      "duplicateFingerprint": "b4d442fd2634111a7e2c",
+      "evidenceLevel": "boss-listing",
+      "analysisWeight": 0.55,
+      "analysisStatus": "listing-observed",
+      "roleFamily": "强化学习与机器人控制",
+      "extractedSkills": [
+        "强化学习",
+        "具身智能",
+        "模型训练与调优",
+        "智能硬件经验"
+      ],
+      "salaryMid": 52.5
+    }
+  ]
+}

@@ -59,6 +59,7 @@ for (const input of inputs) {
       sourceDiscovery: path.basename(input, path.extname(input)),
       capturedAt,
       status: 'candidate',
+      evidenceLevel: 'boss-listing',
     };
     job.duplicateFingerprint = duplicateFingerprint(job);
     if (job.salaryMax < 30) {
