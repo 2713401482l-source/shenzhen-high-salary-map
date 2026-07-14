@@ -1,11 +1,12 @@
 {
-  "status": "paused-after-safe-batch",
+  "status": "paused-platform-risk",
   "pausedAt": "2026-07-13T19:40:00+08:00",
-  "lastCheckedAt": "2026-07-15T00:48:34+08:00",
-  "expectedRecoveryAt": "2026-07-14T18:57:00+08:00",
-  "reason": "已用低频人工方式完成一个安全批次：两个关键词各一页，仅打开 3 个符合门槛的详情；未出现 403、验证码或访问频繁提示。",
-  "nextAction": "本批已主动停止。下次采集继续遵守单关键词、单页、少量详情的节奏；遇到 403、验证码或访问频繁提示立即停止。",
-  "bossAccessAllowed": true,
+  "lastCheckedAt": "2026-07-15T01:34:00+08:00",
+  "expectedRecoveryAt": "2026-07-17T01:34:00+08:00",
+  "reason": "搜索“AI产品经理”后打开第二个详情页时，Boss 返回 code=32：账户与 IP 存在异常行为，限制 48 小时，并明确要求不要频繁提交刷新请求。",
+  "nextAction": "恢复时间前禁止访问 Boss。停止自动化连续导航，评估人工单页采集、用户提交快照、公司官网与其他公开招聘源等合规替代方案。",
+  "bossAccessAllowed": false,
   "resumedAt": "2026-07-14T23:59:04+08:00",
-  "pausedAfterBatchAt": "2026-07-15T00:48:34+08:00"
+  "pausedAfterBatchAt": "2026-07-15T00:48:34+08:00",
+  "blockedAt": "2026-07-15T01:34:00+08:00"
 }
