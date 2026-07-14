@@ -2,7 +2,24 @@ import { createHash } from 'node:crypto';
 
 export const DATA_LEVELS = ['candidate', 'verified', 'possibly-offline', 'rejected'];
 export const SALARY_BANDS = ['30K', '50K', '100K'];
-export const EVIDENCE_LEVELS = ['boss-listing', 'boss-listing-plus-detail', 'boss-detail'];
+export const EVIDENCE_LEVELS = [
+  'boss-listing',
+  'boss-listing-plus-detail',
+  'boss-detail',
+  'government-detail',
+  'employer-detail',
+  'public-platform-detail',
+  'licensed-api-detail',
+];
+
+export const SOURCE_PLATFORMS = [
+  'boss',
+  'iucai',
+  'guangdong-public',
+  'liepin',
+  'employer-career',
+  'licensed-api',
+];
 
 export function normalizeText(value = '') {
   return String(value).normalize('NFKC').replace(/\s+/g, ' ').trim();
@@ -42,6 +59,22 @@ export function isBossJobDetailUrl(value = '') {
   }
 }
 
+export function sourcePlatformFor(job) {
+  if (job.sourcePlatform) return job.sourcePlatform;
+  return isBossJobDetailUrl(job.sourceUrl) ? 'boss' : '';
+}
+
+export function isDirectJobDetailUrl(value = '') {
+  try {
+    const url = new URL(value);
+    if (!['https:'].includes(url.protocol)) return false;
+    const pathname = url.pathname.toLowerCase();
+    return !['', '/'].includes(pathname) && !/(\/search|\/jobs?$|\/zhaopin\/?$|\/main\/?$)/.test(pathname);
+  } catch {
+    return false;
+  }
+}
+
 export function validateJob(job, expectedStatus) {
   const errors = [];
   const common = [
@@ -63,9 +96,15 @@ export function validateJob(job, expectedStatus) {
   if (job.duplicateFingerprint !== duplicateFingerprint(job)) errors.push('duplicateFingerprint mismatch');
   if (job.status === 'verified') {
     if (!job.verifiedAt) errors.push('verified job missing verifiedAt');
-    if (!isBossJobDetailUrl(job.sourceUrl)) errors.push('verified source is not a Boss job detail URL');
+    const sourcePlatform = sourcePlatformFor(job);
+    if (!SOURCE_PLATFORMS.includes(sourcePlatform)) errors.push(`unsupported sourcePlatform ${sourcePlatform}`);
+    if (sourcePlatform === 'boss' && !isBossJobDetailUrl(job.sourceUrl)) errors.push('Boss verified source is not a Boss job detail URL');
+    if (sourcePlatform !== 'boss' && !isDirectJobDetailUrl(job.sourceUrl)) errors.push('verified source is not a specific HTTPS job detail URL');
     if (!job.requirementText && !job.descriptionExcerpt) errors.push('verified job missing requirements/description');
     if (job.evidenceLevel === 'boss-listing') errors.push('verified job requires detail-page evidence');
+    if (!job.authenticity || job.authenticity.status !== 'verified') errors.push('verified job missing verified authenticity decision');
+    if (job.analysisEligibility?.formalSample !== true) errors.push('verified job is not eligible for the formal sample');
+    if (!job.sourcePublisher) errors.push('verified job missing sourcePublisher');
   }
   if (job.status === 'rejected' && !job.rejectionReason) errors.push('rejected job missing rejectionReason');
   return errors;

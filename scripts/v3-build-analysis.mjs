@@ -9,8 +9,12 @@ const [verified, candidates, taxonomy] = await Promise.all([
   readJson('data/v3/config/taxonomy.json'),
 ]);
 
-const jobs = [...verified, ...candidates];
-const detailJobs = jobs.filter(job => job.status === 'verified' && job.requirementText?.trim());
+const discoveryJobs = [...verified, ...candidates];
+const formalJobs = verified.filter(job => {
+  if (!job.authenticity) return false;
+  return job.authenticity.status === 'verified' && job.analysisEligibility?.formalSample === true;
+});
+const detailJobs = formalJobs.filter(job => job.requirementText?.trim());
 const regex = value => new RegExp(value, 'i');
 const roleRules = taxonomy.roleRules.map(rule => ({...rule, regex: regex(rule.pattern)}));
 const skillRules = taxonomy.skillRules.map(rule => ({...rule, regex: regex(rule.pattern)}));
@@ -44,17 +48,17 @@ const evidenceJob = job => ({
   evidenceLevel: job.evidenceLevel,
 });
 
-const enriched = jobs.map(job => ({
+const enriched = formalJobs.map(job => ({
   ...job,
   normalizedRole: roleFor(job),
   salaryMid: (job.salaryMin + job.salaryMax) / 2,
-  skills: job.status === 'verified' ? skillsFor(job) : [],
+  skills: skillsFor(job),
 }));
 
 const roleNames = [...new Set(enriched.map(job => job.normalizedRole))];
 const roleSignals = roleNames.map(name => {
   const rows = enriched.filter(job => job.normalizedRole === name);
-  const detailRows = rows.filter(job => job.status === 'verified');
+  const detailRows = rows;
   const companies = new Set(rows.map(job => job.company));
   const industries = new Set(rows.map(job => job.industry));
   const emergingKeyword = /Agent|大模型|强化学习|具身|VLA|VLM|世界模型/i.test(rows.map(job => job.title).join(' '));
@@ -113,7 +117,8 @@ const skillPairs = [...pairCounts.entries()].map(([pair, value]) => ({
   evidenceJobs: value.jobs.map(evidenceJob),
 })).sort((a, b) => b.count - a.count || a.pair.localeCompare(b.pair, 'zh-CN'));
 
-const companyGroups = Object.groupBy(enriched, job => job.company);
+const companyExpansionJobs = enriched.filter(job => job.analysisEligibility?.companyExpansion !== false && !/某公司|某知名|保密|匿名|猎头发布/.test(job.company));
+const companyGroups = Object.groupBy(companyExpansionJobs, job => job.company);
 const expansionSignals = Object.entries(companyGroups).filter(([, rows]) => rows.length >= 2).map(([company, rows]) => ({
   company,
   status: 'same-snapshot-cluster',
@@ -136,10 +141,11 @@ const output = {
     dataKind: 'real-analysis',
     generatedFromLatestCapture: enriched.map(job => job.capturedAt).sort().at(-1),
     sourceFiles: ['data/jobs/verified.json', 'data/jobs/candidates.json'],
-    methodologyVersion: 'v3.1',
+    methodologyVersion: 'v3.2-authenticity-gated',
   },
   readiness: {
-    discovery: {actual: enriched.length, target: 300, pass: enriched.length >= 300},
+    discovery: {actual: discoveryJobs.length, target: 300, pass: discoveryJobs.length >= 300},
+    formalSample: {actual: enriched.length, target: 150, pass: enriched.length >= 150},
     detailEvidence: {actual: detailJobs.length, target: 150, pass: detailJobs.length >= 150},
     emergingRoles: {actual: roleSignals.filter(role => role.status === 'emerging').length, target: 30, pass: roleSignals.filter(role => role.status === 'emerging').length >= 30},
     benchmark: {best: benchmarkCandidates[0] ?? null, target: 50, pass: (benchmarkCandidates[0]?.detailCount ?? 0) >= 50},
@@ -148,11 +154,13 @@ const output = {
   scope: {
     city: '深圳',
     jobs: enriched.length,
+    discoveryJobs: discoveryJobs.length,
+    quarantinedOrUnverified: discoveryJobs.length - enriched.length,
     detailJobs: detailJobs.length,
     companies: new Set(enriched.map(job => job.company)).size,
     industries: new Set(enriched.map(job => job.industry)).size,
     capturedDates: captureDates,
-    warning: '当前样本明显偏 AI、算法、机器人和技术研发岗位，不代表深圳全行业高薪市场。',
+    warning: '正式分析只使用详情核验且通过真实性门槛的岗位。列表观察和隔离记录仅用于发现，不参与趋势、薪资、企业扩招与能力结论。当前正式样本仍明显偏 AI、算法、机器人和技术研发岗位。',
   },
   roleSignals,
   skills: {denominator: detailJobs.length, stats: skillStats, pairs: skillPairs},
@@ -168,7 +176,7 @@ const output = {
     districts: countBy(enriched.map(job => job.district)),
     experience: countBy(enriched.map(job => job.experience)),
     education: countBy(enriched.map(job => job.education)),
-    statement: '这是当前真实样本的内部结构，不代表 Boss 深圳全量岗位分布。',
+    statement: '这是通过真实性门槛的多平台岗位样本内部结构，不代表深圳全量岗位分布。',
   },
   benchmarkCandidates,
   timeSeries: {

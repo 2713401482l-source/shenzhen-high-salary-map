@@ -18,9 +18,9 @@
       "gap": 222
     },
     "detailEvidence": {
-      "actual": 11,
+      "actual": 9,
       "target": 150,
-      "gap": 139
+      "gap": 141
     },
     "assignedToV3Queue": 7,
     "legacyUnassigned": 71
@@ -31,18 +31,18 @@
       "actual": 37,
       "target": 50,
       "gap": 13,
-      "detailActual": 3,
+      "detailActual": 2,
       "detailTarget": 50,
-      "detailGap": 47
+      "detailGap": 48
     },
     {
       "band": "50K",
       "actual": 34,
       "target": 50,
       "gap": 16,
-      "detailActual": 1,
+      "detailActual": 0,
       "detailTarget": 50,
-      "detailGap": 49
+      "detailGap": 50
     },
     {
       "band": "100K",
@@ -151,7 +151,7 @@
     "detailActual": 3,
     "detailTarget": 50,
     "detailGap": 47,
-    "currentFamilyJobs": 25
+    "currentFamilyJobs": 3
   },
   "priorityQueries": [
     {
@@ -229,8 +229,8 @@
     "30K 总样本还差 13 条",
     "50K 总样本还差 16 条",
     "100K 总样本还差 43 条",
-    "30K 详情证据还差 47 条",
-    "50K 详情证据还差 49 条",
+    "30K 详情证据还差 48 条",
+    "50K 详情证据还差 50 条",
     "100K 详情证据还差 43 条",
     "单岗对标“机器人强化学习与运动控制”还差 47 条详情证据"
   ]

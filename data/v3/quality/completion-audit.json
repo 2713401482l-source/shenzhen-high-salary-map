@@ -8,9 +8,9 @@
   "dataset": {
     "grain": "one public Boss job posting per unique Boss job id",
     "totalJobs": 78,
-    "listingObservations": 67,
-    "detailVerified": 11,
-    "companies": 73,
+    "listingObservations": 69,
+    "detailVerified": 9,
+    "companies": 9,
     "captureDates": [
       "2026-07-12",
       "2026-07-15"
@@ -57,7 +57,7 @@
           "pass": false
         },
         "detailEvidence": {
-          "actual": 3,
+          "actual": 2,
           "target": 50,
           "pass": false
         }
@@ -70,7 +70,7 @@
           "pass": false
         },
         "detailEvidence": {
-          "actual": 1,
+          "actual": 0,
           "target": 50,
           "pass": false
         }
@@ -99,7 +99,7 @@
         "role": "机器人强化学习与运动控制",
         "detailCount": 3,
         "companyCount": 3,
-        "salaryBandCount": 3
+        "salaryBandCount": 1
       },
       "target": 50,
       "pass": false
@@ -113,9 +113,9 @@
   "complete": false,
   "blockers": [
     "30K 真实岗位还差 13 条",
-    "30K 详情证据还差 47 条",
+    "30K 详情证据还差 48 条",
     "50K 真实岗位还差 16 条",
-    "50K 详情证据还差 49 条",
+    "50K 详情证据还差 50 条",
     "100K 真实岗位还差 43 条",
     "100K 详情证据还差 43 条",
     "新兴岗位方向还差 28 个",

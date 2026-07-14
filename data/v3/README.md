@@ -10,6 +10,10 @@
 
 V2 的 `data/jobs` 暂时保留，保证正式站点不受 V3 开发影响。V3 数据达到发布门槛后再切换页面数据源。
 
-当前 Boss 采集因平台风控暂停。V3 页面中的真实证据继续读取 `data/jobs/verified.json` 与 `data/jobs/candidates.json`，结构演示读取 `demo/page-logic-demo.json`，两组不会合并统计。
+当前 Boss 采集因平台风控暂停，禁止自动浏览和拟人化采集。正式数据渠道已经扩展为深i人才、广东公共招聘、企业官方招聘页、猎聘公开岗位页与少量 Boss 人工复核证据。来源许可范围见 `config/source-registry.json`，真实性硬门槛见 `config/authenticity-policy.json`。
+
+多平台岗位必须通过 `v3:import-multisource` 导入。搜索引擎摘要只能用于发现岗位，不能直接计入样本；匿名客户、收费培训、招聘主体不明、标题与职责冲突、失效或过期岗位会进入候选/隔离状态，不参与正式分析。公司扩招统计还会额外排除猎头匿名客户和只显示人力服务机构的岗位。
+
+V3 页面中的真实证据继续读取 `data/jobs/verified.json` 与 `data/jobs/candidates.json`，结构演示读取 `demo/page-logic-demo.json`，两组不会合并统计。
 
 执行 `npm run v3:analyze` 会重新生成真实分析。能力统计和能力共现只允许详情核验样本进入分母；单岗对标、时间趋势和新兴岗位使用固定门槛，不足时输出准备度而不是补造结论。执行 `npm run v3:analysis-check` 可以反查每条分析证据。

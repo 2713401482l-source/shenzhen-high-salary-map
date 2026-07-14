@@ -1,0 +1,33 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "exampleOnly": true,
+  "sourcePlatform": "liepin",
+  "sourcePublisher": "示例平台",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-15T12:00:00+08:00",
+  "sourceUrl": "https://example.com/jobs/example-id",
+  "publishedAt": "2026-07-15",
+  "job": {
+    "sourceJobId": "example-id",
+    "title": "示例岗位（禁止导入）",
+    "company": "示例公司（禁止导入）",
+    "salaryText": "30-50K·15薪",
+    "district": "南山区",
+    "addressText": "深圳南山区",
+    "industry": "示例行业",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "这里只展示字段格式。真实导入时必须保留可核验的岗位要求事实，示例记录永远不能进入正式数据。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": null,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [],
+    "reviewNotes": "示例记录"
+  }
+}

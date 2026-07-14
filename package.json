@@ -34,8 +34,11 @@
     "v3:completion-audit": "node scripts/v3-completion-audit.mjs",
     "v3:queue-report": "node scripts/v3-queue-report.mjs",
     "v3:import-snapshot": "node scripts/v3-import-manual-snapshot.mjs",
+    "v3:import-multisource": "node scripts/v3-import-multisource-job.mjs",
+    "v3:source-policy-check": "node scripts/v3-validate-source-policy.mjs",
+    "v3:migrate-legacy-authenticity": "node scripts/v3-migrate-legacy-authenticity.mjs",
     "typecheck": "tsc --noEmit",
-    "verify": "npm run check && npm run analysis:validate && npm run v3:validate && npm run v3:analyze && npm run v3:analysis-check && npm run v3:gaps && npm run v3:gaps-check && npm run v3:completion-audit && npm run v3:product-check && npm run v3:collection-check && npm run typecheck && npm run build && npm audit --omit=dev"
+    "verify": "npm run check && npm run analysis:validate && npm run v3:source-policy-check && npm run v3:validate && npm run v3:analyze && npm run v3:analysis-check && npm run v3:gaps && npm run v3:gaps-check && npm run v3:completion-audit && npm run v3:product-check && npm run v3:collection-check && npm run typecheck && npm run build && npm audit --omit=dev"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.4.1",

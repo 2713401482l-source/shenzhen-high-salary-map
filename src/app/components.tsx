@@ -118,14 +118,14 @@ export function DataNotice({mode}: {mode: DataMode}) {
   </aside>;
   return <aside className="data-notice real-notice">
     <div><Database aria-hidden="true" /><strong>当前是真实证据</strong></div>
-    <p>只使用已保存的 Boss 公开岗位快照。当前样本偏 AI 与算法，趋势只能理解为截面信号。</p>
+    <p>只使用通过真实性门槛的多平台岗位详情。待核验发现不会进入趋势、薪资、能力或企业扩招结论。</p>
   </aside>;
 }
 
 export function EvidenceStrip() {
   const date = new Intl.DateTimeFormat('zh-CN', {year: 'numeric', month: 'long', day: 'numeric'}).format(new Date(capturedAt));
   return <section className="evidence-strip" aria-label="真实数据概览">
-    <div><strong>{realEvidence.total}</strong><span>条真实岗位快照</span></div>
+    <div><strong>{realEvidence.total}</strong><span>条正式核验岗位</span></div>
     <div><strong>{realEvidence.verified}</strong><span>条详情核验</span></div>
     <div><strong>{realEvidence.companies}</strong><span>家样本企业</span></div>
     <div><strong>{date}</strong><span>最近采集</span></div>

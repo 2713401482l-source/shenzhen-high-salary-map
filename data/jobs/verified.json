@@ -26,7 +26,52 @@
     "evidenceFile": "boss-024152e507fcd0700nRz09-1E1FZ.json",
     "publishedAt": "2026-07-12",
     "salaryEvidence": "boss-job-detail",
-    "evidenceLevel": "boss-detail"
+    "evidenceLevel": "boss-detail",
+    "sourcePlatform": "boss",
+    "sourcePublisher": "Boss直聘",
+    "captureMethod": "manual-user-submission",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 0
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": null,
+      "corroboratingUrls": [],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [],
+      "reviewNotes": "历史详情证据已按 V3 多来源真实性规则重新审核。"
+    }
   },
   {
     "id": "boss-07127b18e9f769e00nd70tq1FFpY",
@@ -53,7 +98,52 @@
     "duplicateFingerprint": "d7ad2f6682833d702e63",
     "verifiedAt": "2026-07-12T22:07:30.630Z",
     "evidenceFile": "boss-07127b18e9f769e00nd70tq1FFpY.txt",
-    "evidenceLevel": "boss-listing-plus-detail"
+    "evidenceLevel": "boss-listing-plus-detail",
+    "sourcePlatform": "boss",
+    "sourcePublisher": "Boss直聘",
+    "captureMethod": "manual-user-submission",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 0
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": null,
+      "corroboratingUrls": [],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [],
+      "reviewNotes": "历史详情证据已按 V3 多来源真实性规则重新审核。"
+    }
   },
   {
     "id": "boss-1ed35a5c9f7e6fbe0ndy3d66ElNS",
@@ -79,7 +169,52 @@
     "duplicateFingerprint": "c0e3e928a94ce70886f0",
     "verifiedAt": "2026-07-12T22:07:31.021Z",
     "evidenceFile": "boss-1ed35a5c9f7e6fbe0ndy3d66ElNS.txt",
-    "evidenceLevel": "boss-listing-plus-detail"
+    "evidenceLevel": "boss-listing-plus-detail",
+    "sourcePlatform": "boss",
+    "sourcePublisher": "Boss直聘",
+    "captureMethod": "manual-user-submission",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 0
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": null,
+      "corroboratingUrls": [],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [],
+      "reviewNotes": "历史详情证据已按 V3 多来源真实性规则重新审核。"
+    }
   },
   {
     "id": "boss-2b77d4a28bb036bc0nF829m6FVpU",
@@ -107,7 +242,52 @@
     "duplicateFingerprint": "86618a04170180a52817",
     "verifiedAt": "2026-07-15T01:33:30+08:00",
     "rawDetailEvidenceFile": "v3/collection/raw/2026-07-15/detail-be00b49b2288.json",
-    "salaryEvidence": "boss-job-detail"
+    "salaryEvidence": "boss-job-detail",
+    "sourcePlatform": "boss",
+    "sourcePublisher": "Boss直聘",
+    "captureMethod": "manual-user-submission",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 0
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": null,
+      "corroboratingUrls": [],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [],
+      "reviewNotes": "历史详情证据已按 V3 多来源真实性规则重新审核。"
+    }
   },
   {
     "id": "boss-2dd0558b65b0a6440nV-39y5GVNS",
@@ -133,7 +313,52 @@
     "duplicateFingerprint": "1fdd28c3bc582c3ac12e",
     "verifiedAt": "2026-07-12T22:07:31.525Z",
     "evidenceFile": "boss-2dd0558b65b0a6440nV-39y5GVNS.txt",
-    "evidenceLevel": "boss-listing-plus-detail"
+    "evidenceLevel": "boss-listing-plus-detail",
+    "sourcePlatform": "boss",
+    "sourcePublisher": "Boss直聘",
+    "captureMethod": "manual-user-submission",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 0
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": null,
+      "corroboratingUrls": [],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [],
+      "reviewNotes": "历史详情证据已按 V3 多来源真实性规则重新审核。"
+    }
   },
   {
     "id": "boss-535998b31709c38f03d60t28ElRT",
@@ -161,7 +386,52 @@
     "verifiedAt": "2026-07-12T22:37:09.771Z",
     "evidenceFile": "boss-535998b31709c38f03d60t28ElRT.json",
     "salaryEvidence": "boss-job-detail",
-    "evidenceLevel": "boss-detail"
+    "evidenceLevel": "boss-detail",
+    "sourcePlatform": "boss",
+    "sourcePublisher": "Boss直聘",
+    "captureMethod": "manual-user-submission",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 0
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": null,
+      "corroboratingUrls": [],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [],
+      "reviewNotes": "历史详情证据已按 V3 多来源真实性规则重新审核。"
+    }
   },
   {
     "id": "boss-677b5d673b77a4d70nZz3N64FVBT",
@@ -188,7 +458,52 @@
     "verifiedAt": "2026-07-12T22:37:10.181Z",
     "evidenceFile": "boss-677b5d673b77a4d70nZz3N64FVBT.json",
     "salaryEvidence": "boss-job-detail",
-    "evidenceLevel": "boss-detail"
+    "evidenceLevel": "boss-detail",
+    "sourcePlatform": "boss",
+    "sourcePublisher": "Boss直聘",
+    "captureMethod": "manual-user-submission",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 0
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": null,
+      "corroboratingUrls": [],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [],
+      "reviewNotes": "历史详情证据已按 V3 多来源真实性规则重新审核。"
+    }
   },
   {
     "id": "boss-a026b790933817a10nF829--FFRY",
@@ -216,36 +531,52 @@
     "duplicateFingerprint": "5a4458440fa352f98662",
     "verifiedAt": "2026-07-15T00:48:34+08:00",
     "rawDetailEvidenceFile": "v3/collection/raw/2026-07-15/detail-f75a40b2801d.json",
-    "salaryEvidence": "boss-job-detail"
-  },
-  {
-    "id": "boss-b6aff7c3ee9ea8f50nBy39-4EFNZ",
-    "bossJobId": "b6aff7c3ee9ea8f50nBy39-4EFNZ",
-    "title": "海外用户增长负责人",
-    "company": "某互联网公司（猎头发布）",
-    "salaryText": "20-40K·15薪",
-    "salaryMin": 20,
-    "salaryMax": 40,
-    "salaryMonths": 15,
-    "salaryBand": "30K",
-    "city": "深圳",
-    "district": "深圳",
-    "addressText": "深圳",
-    "industry": "互联网（猎头发布）",
-    "experience": "3-5年",
-    "education": "本科",
-    "descriptionExcerpt": "负责海外用户增长策略，覆盖 SEO、KOL、社交内容、Google/Meta/TikTok 投放、裂变与社区运营。",
-    "requirementText": "负责海外市场研究与用户增长策略，通过 SEO、KOL、病毒内容及 X、Discord、Reddit 等社交渠道获取用户；统筹 Google、Meta、TikTok 等付费增长并关注 ROI；设计用户激励、推荐裂变和社区运营机制。要求本科及以上学历和英语工作能力，海外经历优先；具备 5 年以上 C 端海外运营或增长经验，有 App 海外上线、内容或 AIGC 产品经验，能从 0 到 1 搭建增长体系。该岗位由猎头发布，搜索卡片显示客户为某互联网公司，招聘方页面显示得贤人力。",
-    "sourceUrl": "https://www.zhipin.com/job_detail/b6aff7c3ee9ea8f50nBy39-4EFNZ.html",
-    "sourceDiscovery": "overseas-growth-02",
-    "capturedAt": "2026-07-15T00:48:34+08:00",
-    "rawEvidenceFile": "v3/collection/raw/2026-07-15/listing-9aa432155226.json",
-    "status": "verified",
-    "evidenceLevel": "boss-detail",
-    "duplicateFingerprint": "7ff611b29419044cd258",
-    "verifiedAt": "2026-07-15T00:48:34+08:00",
-    "rawDetailEvidenceFile": "v3/collection/raw/2026-07-15/detail-a02dde5b36b5.json",
-    "salaryEvidence": "boss-job-detail"
+    "salaryEvidence": "boss-job-detail",
+    "sourcePlatform": "boss",
+    "sourcePublisher": "Boss直聘",
+    "captureMethod": "manual-user-submission",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 0
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": null,
+      "corroboratingUrls": [],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [],
+      "reviewNotes": "历史详情证据已按 V3 多来源真实性规则重新审核。"
+    }
   },
   {
     "id": "boss-ba334c2c5f5ba58c0nV72960FFFR",
@@ -273,34 +604,51 @@
     "verifiedAt": "2026-07-12T22:37:10.615Z",
     "evidenceFile": "boss-ba334c2c5f5ba58c0nV72960FFFR.json",
     "salaryEvidence": "boss-job-detail",
-    "evidenceLevel": "boss-detail"
-  },
-  {
-    "id": "boss-faa545dad79192be0nF82dq9FFFU",
-    "bossJobId": "faa545dad79192be0nF82dq9FFFU",
-    "title": "年薪30-50万】用户增长运营/独立站运营经理",
-    "company": "三只蚂蚁",
-    "salaryText": "30-50K",
-    "salaryMin": 30,
-    "salaryMax": 50,
-    "salaryBand": "50K",
-    "city": "深圳",
-    "district": "宝安区",
-    "addressText": "深圳宝安区彤鑫科技大厦A座307",
-    "industry": "未公开",
-    "experience": "1-3年",
-    "education": "学历不限",
-    "descriptionExcerpt": "负责品牌独立站、海外用户运营与达人营销，覆盖站点内容、用户标签、Discord 社群和 Instagram 等平台合作。",
-    "requirementText": "负责品牌独立站日常运营，包括产品页、落地页、FAQ、表单、优惠活动、内容维护与数据观察；建立用户标签与跟进机制，运营 Discord 社群。负责海外达人营销，在 Instagram 等平台寻找 UGC Creator，推进寄样、付费、佣金和 Affiliate 合作；同时参与国内抖音、小红书 KOC 合作。要求至少 1 年独立站、用户、达人或内容运营经验，熟悉 TikTok、Instagram、YouTube、抖音、小红书等平台；有 Shopify 或 WordPress 经验优先，具备英语读写能力，理解 KOL、KOC、UGC 合作方式；对智能硬件、DTC、新消费感兴趣，熟悉 WhatsApp、Telegram、VK 等渠道为加分项。",
-    "sourceUrl": "https://www.zhipin.com/job_detail/faa545dad79192be0nF82dq9FFFU.html",
-    "sourceDiscovery": "overseas-growth-02",
-    "capturedAt": "2026-07-15T00:48:34+08:00",
-    "rawEvidenceFile": "v3/collection/raw/2026-07-15/listing-9aa432155226.json",
-    "status": "verified",
     "evidenceLevel": "boss-detail",
-    "duplicateFingerprint": "ab69aaaf6f03c5be5b01",
-    "verifiedAt": "2026-07-15T00:48:34+08:00",
-    "rawDetailEvidenceFile": "v3/collection/raw/2026-07-15/detail-c09422a3e043.json",
-    "salaryEvidence": "boss-job-detail"
+    "sourcePlatform": "boss",
+    "sourcePublisher": "Boss直聘",
+    "captureMethod": "manual-user-submission",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 0
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": null,
+      "corroboratingUrls": [],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [],
+      "reviewNotes": "历史详情证据已按 V3 多来源真实性规则重新审核。"
+    }
   }
 ]

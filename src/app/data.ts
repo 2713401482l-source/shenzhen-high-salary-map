@@ -6,11 +6,12 @@ import officialSourcesSource from '../../data/v3/sources/official-sources.json';
 import collectionGapReportSource from '../../data/v3/collection/gap-report.json';
 
 export type SalaryBand = '30K' | '50K' | '100K';
-export type EvidenceLevel = 'boss-detail' | 'boss-listing-plus-detail' | 'boss-listing';
+export type EvidenceLevel = 'boss-detail' | 'boss-listing-plus-detail' | 'boss-listing' | 'government-detail' | 'employer-detail' | 'public-platform-detail' | 'licensed-api-detail';
 
 export type Job = {
   id: string;
-  bossJobId: string;
+  bossJobId?: string;
+  sourcePlatform?: string;
   title: string;
   company: string;
   salaryText: string;
@@ -59,6 +60,7 @@ export const capturedAt = realJobs
 
 export const realEvidence = {
   total: realAnalysis.scope.jobs,
+  discoveryTotal: realJobs.length,
   verified: realAnalysis.scope.detailJobs,
   listingObserved: realAnalysis.scope.jobs - realAnalysis.scope.detailJobs,
   companies: realAnalysis.scope.companies,
@@ -106,6 +108,28 @@ export const verifiedSkillPairs = realAnalysis.skills.pairs.map(item => ({
   publishable: item.publishable,
   jobs: item.evidenceJobs.map(evidence => jobsById.get(evidence.id)).filter((job): job is Job => Boolean(job)),
 }));
+
+export type ExpansionSignal = {
+  company: string;
+  jobCount: number;
+  distinctTitles: number;
+  evidenceJobs: Array<{id: string; title: string; salaryText: string; sourceUrl: string}>;
+};
+
+const SOURCE_LABELS: Record<string, string> = {
+  boss: 'Boss直聘',
+  iucai: '深i人才',
+  'guangdong-public': '广东公共招聘',
+  liepin: '猎聘',
+  'employer-career': '企业官网',
+  'licensed-api': '授权数据接口',
+};
+
+export function sourceLabelFor(job: Pick<Job, 'sourcePlatform'>): string {
+  return SOURCE_LABELS[job.sourcePlatform || 'boss'] || job.sourcePlatform || '公开招聘平台';
+}
+
+export const realExpansionSignals = realAnalysisSource.expansionSignals as ExpansionSignal[];
 
 export const districtOptions = [...new Set(realJobs.map(job => job.district))].filter(Boolean).sort();
 export const industryOptions = [...new Set(realJobs.map(job => job.industry))].filter(Boolean).sort();

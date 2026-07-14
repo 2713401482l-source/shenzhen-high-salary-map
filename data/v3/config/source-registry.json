@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-15T12:00:00+08:00",
+  "principle": "只采集公开可核验的岗位事实；搜索结果只能发现岗位，不能单独进入正式统计。",
+  "sources": [
+    {
+      "id": "iucai",
+      "label": "深i人才",
+      "operator": "深圳人才集团体系",
+      "trustTier": "A",
+      "allowedCaptureMethods": ["manual-public-detail"],
+      "detailUrlPatterns": ["^https://(www\\.)?iucai\\.com\\.cn/.+"],
+      "formalSampleAllowed": true,
+      "requiresDirectDetailUrl": true,
+      "notes": "政府背景平台；仍需核验岗位详情、薪资、更新时间和招聘主体。"
+    },
+    {
+      "id": "guangdong-public",
+      "label": "广东公共求职招聘服务平台",
+      "operator": "广东省人力资源和社会保障厅",
+      "trustTier": "A",
+      "allowedCaptureMethods": ["manual-public-detail", "official-api"],
+      "detailUrlPatterns": ["^https://ggfw\\.hrss\\.gd\\.gov\\.cn/.+"],
+      "formalSampleAllowed": true,
+      "requiresDirectDetailUrl": true,
+      "notes": "官方来源；高薪样本可能有限。"
+    },
+    {
+      "id": "employer-career",
+      "label": "企业官方招聘页",
+      "operator": "岗位发布企业",
+      "trustTier": "A",
+      "allowedCaptureMethods": ["manual-public-detail", "official-feed"],
+      "detailUrlPatterns": ["^https://.+/.+"],
+      "formalSampleAllowed": true,
+      "requiresDirectDetailUrl": true,
+      "notes": "用于确认岗位存在；缺少薪资时不能进入薪资统计。"
+    },
+    {
+      "id": "liepin",
+      "label": "猎聘公开岗位页",
+      "operator": "同道精英（天津）信息技术有限公司",
+      "trustTier": "B",
+      "allowedCaptureMethods": ["search-index-discovery", "manual-public-detail"],
+      "detailUrlPatterns": ["^https://(m\\.)?liepin\\.com/(job|a)/[A-Za-z0-9_-]+\\.shtml"],
+      "formalSampleAllowed": true,
+      "requiresDirectDetailUrl": true,
+      "notes": "搜索索引只作发现；正式样本必须回到具体岗位页核验。匿名客户岗位默认隔离。"
+    },
+    {
+      "id": "boss",
+      "label": "Boss直聘",
+      "operator": "北京华品博睿网络技术有限公司",
+      "trustTier": "B",
+      "allowedCaptureMethods": ["manual-user-submission"],
+      "detailUrlPatterns": ["^https://www\\.zhipin\\.com/job_detail/[A-Za-z0-9~_-]+\\.html"],
+      "formalSampleAllowed": true,
+      "requiresDirectDetailUrl": true,
+      "accessStatus": "paused-platform-risk",
+      "notes": "禁止自动浏览、自动翻页、DOM读取和拟人化采集；仅保留人工提交的少量复核证据。"
+    },
+    {
+      "id": "licensed-api",
+      "label": "授权商业职位API",
+      "operator": "待采购供应商",
+      "trustTier": "B",
+      "allowedCaptureMethods": ["licensed-api"],
+      "detailUrlPatterns": ["^https://.+/.+"],
+      "formalSampleAllowed": false,
+      "requiresDirectDetailUrl": true,
+      "notes": "在完成深圳中文岗位覆盖、授权范围与原始链接试验前不得进入正式数据。"
+    }
+  ],
+  "discoveryOnlySources": ["search-engine-result", "industry-report", "social-post"],
+  "prohibitedMethods": [
+    "captcha-bypass",
+    "proxy-rotation",
+    "fingerprint-spoofing",
+    "automated-login",
+    "human-behavior-emulation",
+    "high-frequency-page-navigation"
+  ]
+}

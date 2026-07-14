@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-15T12:00:00+08:00",
+  "formalSampleThreshold": 80,
+  "manualReviewThreshold": 60,
+  "freshness": {
+    "preferredDays": 30,
+    "maximumDays": 45,
+    "unknownPublishedAtRequiresActivePage": true
+  },
+  "hardGates": [
+    "shenzhenLocationEstablished",
+    "specificDetailUrl",
+    "exactSalaryVisible",
+    "namedEmployer",
+    "substantiveRequirements",
+    "activeOrFresh",
+    "noFeeOrDeposit",
+    "titleDescriptionConsistent"
+  ],
+  "scoreWeights": {
+    "sourceTrust": 25,
+    "employerIdentity": 20,
+    "freshness": 20,
+    "detailCompleteness": 15,
+    "crossSourceCorroboration": 10,
+    "internalConsistency": 10
+  },
+  "automaticQuarantineSignals": [
+    "chargesFeeOrDeposit",
+    "asksForPaidTraining",
+    "asksToMoveImmediatelyToPrivateChat",
+    "unnamedEmployer",
+    "salaryOnlyInTitleAndMissingFromDetail",
+    "nonSpecificOrRedirectOnlyUrl",
+    "titleDescriptionMismatch",
+    "locationContradiction",
+    "recruiterIdentityContradiction",
+    "copiedDescriptionAcrossUnrelatedCompanies"
+  ],
+  "reviewSignals": [
+    "salaryFarAboveComparableRoles",
+    "experienceRequirementContradiction",
+    "educationRequirementContradiction",
+    "companyNameAbbreviated",
+    "staffingAgencyPosting",
+    "staleBeyondPreferredDays",
+    "missingPublicationDate",
+    "unusuallyBroadResponsibilities"
+  ],
+  "analysisRules": {
+    "formalMarketDemand": "authenticity.status=verified and all hard gates pass",
+    "salaryStatistics": "formal sample plus exact monthly salary visible on the direct detail page",
+    "skillAnalysis": "formal sample plus requirement text of at least 80 Chinese characters",
+    "companyExpansion": "formal sample plus named end employer; anonymous clients and staffing-only identities excluded",
+    "crossPlatformDuplicate": "same normalized employer + normalized title + district + overlapping salary range within 14 days is one hiring signal",
+    "searchSnippet": "discovery only; never counted without direct-detail verification"
+  }
+}
