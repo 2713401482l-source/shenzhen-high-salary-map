@@ -1,16 +1,16 @@
 {
   "metadata": {
     "dataKind": "v3-completion-audit",
-    "latestCapture": "2026-07-15T00:48:34+08:00",
-    "collectionStatus": "active-low-frequency-manual",
-    "bossAccessAllowed": true
+    "latestCapture": "2026-07-15T01:33:00+08:00",
+    "collectionStatus": "paused-platform-risk",
+    "bossAccessAllowed": false
   },
   "dataset": {
     "grain": "one public Boss job posting per unique Boss job id",
-    "totalJobs": 74,
-    "listingObservations": 64,
-    "detailVerified": 10,
-    "companies": 69,
+    "totalJobs": 78,
+    "listingObservations": 67,
+    "detailVerified": 11,
+    "companies": 73,
     "captureDates": [
       "2026-07-12",
       "2026-07-15"
@@ -52,12 +52,12 @@
       {
         "band": "30K",
         "discovery": {
-          "actual": 34,
+          "actual": 37,
           "target": 50,
           "pass": false
         },
         "detailEvidence": {
-          "actual": 2,
+          "actual": 3,
           "target": 50,
           "pass": false
         }
@@ -65,7 +65,7 @@
       {
         "band": "50K",
         "discovery": {
-          "actual": 33,
+          "actual": 34,
           "target": 50,
           "pass": false
         },
@@ -112,9 +112,9 @@
   },
   "complete": false,
   "blockers": [
-    "30K 真实岗位还差 16 条",
-    "30K 详情证据还差 48 条",
-    "50K 真实岗位还差 17 条",
+    "30K 真实岗位还差 13 条",
+    "30K 详情证据还差 47 条",
+    "50K 真实岗位还差 16 条",
     "50K 详情证据还差 49 条",
     "100K 真实岗位还差 43 条",
     "100K 详情证据还差 43 条",

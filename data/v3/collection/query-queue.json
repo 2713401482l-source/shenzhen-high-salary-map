@@ -234,11 +234,12 @@
     "city": "深圳",
     "targetLaneSamples": 40,
     "searchUrl": "https://www.zhipin.com/c101280600/?query=AI%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86&industry=&position=",
-    "status": "queued",
-    "attempts": 0,
-    "discoveredJobs": 0,
-    "lastAttemptAt": null,
-    "blocker": null
+    "status": "captured-manual",
+    "attempts": 1,
+    "discoveredJobs": 4,
+    "lastAttemptAt": "2026-07-15T01:33:00+08:00",
+    "blocker": null,
+    "lastRawEvidenceFile": "v3/collection/raw/2026-07-15/listing-1518b4cd50c0.json"
   },
   {
     "id": "ai-application-02",

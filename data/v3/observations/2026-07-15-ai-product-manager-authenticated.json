@@ -1,0 +1,73 @@
+{
+  "snapshotId": "2026-07-15-ai-product-manager-authenticated",
+  "queryId": "ai-application-01",
+  "query": "AI产品经理",
+  "city": "深圳",
+  "capturedAt": "2026-07-15T01:34:00+08:00",
+  "sourcePage": "https://www.zhipin.com/web/geek/jobs?city=101280600&query=AI%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86",
+  "captureMethod": "low-frequency-manual-browser",
+  "accessState": {
+    "authenticated": true,
+    "salaryVisible": true,
+    "detailTextVisible": true,
+    "restricted": true,
+    "blocker": "打开第二个候选详情时返回 code=32；账户与 IP 限制至 2026-07-17 01:34。"
+  },
+  "resultSummary": {
+    "visibleListings": 15,
+    "eligibleHighSalaryListings": 4,
+    "detailVerifiedListings": 1,
+    "conclusion": "AI 产品经理搜索页的高薪命中率高于海外运营词，但自动连续打开详情会触发平台限制；4 条列表样本中仅 1 条具备详情证据。"
+  },
+  "observations": [
+    {
+      "bossJobId": "2b77d4a28bb036bc0nF829m6FVpU",
+      "title": "AI产品经理（Codex/AI工作流方向）",
+      "company": "亿豪公司",
+      "location": "深圳·龙华区·龙华",
+      "industry": "互联网",
+      "salaryText": "20-30K",
+      "sourceUrl": "https://www.zhipin.com/job_detail/2b77d4a28bb036bc0nF829m6FVpU.html",
+      "evidenceLevel": "boss-authenticated-detail",
+      "descriptionText": "企业 AI 工作流、Codex、Prompt、Skill 库、AI 视频流程、知识库、SOP 与跨部门项目落地。"
+    },
+    {
+      "bossJobId": "07b91f1655d4171c0nZ63di1E1NR",
+      "title": "ai产品经理",
+      "company": "嘉方传媒",
+      "location": "深圳·南山区·蛇口",
+      "industry": "未公开",
+      "salaryText": "20-40K",
+      "sourceUrl": "https://www.zhipin.com/job_detail/07b91f1655d4171c0nZ63di1E1NR.html",
+      "evidenceLevel": "boss-authenticated-listing"
+    },
+    {
+      "bossJobId": "0755c1f04be233d20nR829W_E1dV",
+      "title": "AI产品经理",
+      "company": "火把公司",
+      "location": "深圳·宝安区·新安",
+      "industry": "未公开",
+      "salaryText": "20-35K",
+      "sourceUrl": "https://www.zhipin.com/job_detail/0755c1f04be233d20nR829W_E1dV.html",
+      "evidenceLevel": "boss-authenticated-listing"
+    },
+    {
+      "bossJobId": "9808341613d3a92c0nZ829W_FFNQ",
+      "title": "AI产品经理",
+      "company": "明途知产",
+      "location": "深圳·宝安区·西乡",
+      "industry": "未公开",
+      "salaryText": "30-60K",
+      "sourceUrl": "https://www.zhipin.com/job_detail/9808341613d3a92c0nZ829W_FFNQ.html",
+      "evidenceLevel": "boss-authenticated-listing"
+    }
+  ],
+  "analysisEligibility": {
+    "roleDiscovery": true,
+    "salaryAnalysis": true,
+    "skillFrequency": true,
+    "benchmarkCorpus": true,
+    "reason": "4 条可用于岗位发现和薪资结构；只有亿豪公司岗位可用于详情能力分析，其余 3 条不得进入详情能力频率或精准对标语料。"
+  },
+  "safetyStop": "平台返回限制后立即停止，未刷新、未重试、未继续打开第三个页面。"
+}
