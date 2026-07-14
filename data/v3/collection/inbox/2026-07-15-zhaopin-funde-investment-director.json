@@ -1,0 +1,35 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-15T06:56:00+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC298522580J40817478310.htm",
+  "job": {
+    "sourceJobId": "CC298522580J40817478310",
+    "title": "投资总监(J10399)",
+    "company": "富德保险控股股份有限公司",
+    "salaryText": "100-150K",
+    "district": "福田区",
+    "addressText": "深圳福田区富德生命保险大厦",
+    "industry": "保险/资产管理",
+    "experience": "10年以上",
+    "education": "本科",
+    "descriptionText": "参与制定保险控股公司及各保险子公司的中长期投资规划、年度投资计划、资产配置计划与相关制度；研究保险资金运用政策和市场，动态调整投资组合，监测重大投资项目运营及信用、市场、政策风险，并提出风险缓释方案。参与资产负债匹配管理，根据市场走势制定交易策略、设计产品和挖掘固收资产机会，同时管理投资团队。要求经济、金融或财会相关专业本科及以上，具有10年以上投资经验、5年以上团队管理及独立项目经历，精通投资全流程、财务建模、行业研究和资本市场规则；熟悉债券投资策略，具备CFA及LP经验者优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.funde-ins.com/",
+    "corroboratingUrls": [
+      "https://www.funde-ins.com/xxgg/"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "missingPublicationDate"
+    ],
+    "reviewNotes": "智联具体岗位详情页展示直接投递、明确固定月薪、深圳福田地址、招聘人数及完整职责要求，发布主体为企业本身而非匿名猎头；富德保险控股官网和公开信息页交叉核验公司主体及投资管理业务。页面未展示明确发布日期，因此保留发布日期缺失提示。"
+  }
+}

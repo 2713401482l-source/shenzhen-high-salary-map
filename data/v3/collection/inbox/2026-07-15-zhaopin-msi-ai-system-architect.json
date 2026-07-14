@@ -1,0 +1,35 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-15T06:55:00+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC120200310J40672419508.htm",
+  "job": {
+    "sourceJobId": "CC120200310J40672419508",
+    "title": "AI系统架构师-博士",
+    "company": "恩斯迈电子（深圳）有限公司",
+    "salaryText": "40-80K",
+    "district": "宝安区",
+    "addressText": "深圳市宝安区石岩街道塘头社区塘头大道37号",
+    "industry": "计算机硬件/半导体/芯片",
+    "experience": "3年以上",
+    "education": "博士",
+    "descriptionText": "负责AI算法模型在不同硬件平台上的工程化设计、实现、加速与系统集成，规划公司AI服务器软硬件平台并完成技术架构设计；根据AI项目场景规划视觉算法工程化和机器学习平台，负责开发及日常运营。要求计算机相关专业博士，具有3年以上软件开发经验，熟悉Java、Python、C++等语言以及TensorFlow、PyTorch、Ray等训练框架；掌握ARM或X86部署、CUDA、多GPU分布式并行、NCCL通信机制及Megatron、DeepSpeed等技术者优先，同时需要良好的中英文表达和跨领域沟通能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.msic.com.cn",
+    "corroboratingUrls": [
+      "https://meeb.sz.gov.cn/attachment/1/1596/1596410/12243669.pdf"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "missingPublicationDate"
+    ],
+    "reviewNotes": "智联具体岗位页仍显示立即投递、招聘方昨日活跃，含明确月薪、深圳宝安详细地址、完整职责与要求；企业介绍同时给出官方招募站和不收费声明，深圳市政府公开名录进一步核验企业主体。页面未展示明确发布日期，因此保留发布日期缺失提示。"
+  }
+}
