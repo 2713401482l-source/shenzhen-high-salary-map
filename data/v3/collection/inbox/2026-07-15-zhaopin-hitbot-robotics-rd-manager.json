@@ -1,0 +1,34 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-15T05:55:00+08:00",
+  "publishedAt": "2026-07-01",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC409009630J40741814101.htm",
+  "job": {
+    "sourceJobId": "CC409009630J40741814101",
+    "title": "研发经理（工业机器人方向）",
+    "company": "慧灵科技（深圳）股份有限公司",
+    "salaryText": "30-50K",
+    "district": "宝安区",
+    "addressText": "深圳宝安区华丰国际机器人产业园E栋二楼",
+    "industry": "工业自动化/机器人",
+    "experience": "5-10年",
+    "education": "硕士",
+    "descriptionText": "管理工业机器人研发团队，带领产品完成从立项、开发到量产的全过程；负责研发进度、资源分配、质量与问题闭环，跟踪行业技术路线，并参与具体研发工作而非只做行政管理。岗位需要带队完成协作机器人、电动夹爪、末端执行器和直线电缸等产品开发维护。要求985或211院校自动化、软件、电子信息等相关专业硕士及以上，具有5年以上工业或协作机器人开发经验和研发管理经历；需精通机械传动结构、嵌入式软件、机器人算法或嵌入式硬件中的至少一项，并理解其余技术方向。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.hitbot.cc/about-us/",
+    "corroboratingUrls": [
+      "https://www.hitbot.cc/contact-us/"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [],
+    "reviewNotes": "智联具体岗位详情页显示立即投递、7月1日更新、明确深圳宝安地址、原始月薪、招聘人数及完整职责要求；企业官网交叉核验慧灵科技主体、机器人业务与同一办公地址。"
+  }
+}

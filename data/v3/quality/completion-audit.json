@@ -7,10 +7,10 @@
   },
   "dataset": {
     "grain": "one public job posting per source-specific job id; cross-platform duplicates are resolved separately",
-    "totalJobs": 92,
+    "totalJobs": 93,
     "listingObservations": 69,
-    "detailVerified": 23,
-    "companies": 23,
+    "detailVerified": 24,
+    "companies": 24,
     "captureDates": [
       "2026-07-12",
       "2026-07-15"
@@ -30,7 +30,7 @@
       },
       {
         "source": "zhaopin",
-        "count": 11
+        "count": 12
       },
       {
         "source": "liepin",
@@ -43,15 +43,15 @@
       "source": "boss",
       "count": 78
     },
-    "largestSourceShare": 0.8478,
+    "largestSourceShare": 0.8387,
     "maximumSingleSourceShare": 0.55,
     "duplicateIds": 0,
     "duplicateFingerprints": 0,
     "duplicateSourceUrls": 0,
     "staleJobs": 0,
     "maximumAgeDaysAtCapture": 45,
-    "formalSampleCount": 23,
-    "formalSampleShare": 0.25,
+    "formalSampleCount": 24,
+    "formalSampleShare": 0.2581,
     "discoveryOnlyCount": 69
   },
   "structuralQuality": {
@@ -101,12 +101,12 @@
       {
         "band": "50K",
         "discovery": {
-          "actual": 43,
+          "actual": 44,
           "target": 240,
           "pass": false
         },
         "detailEvidence": {
-          "actual": 9,
+          "actual": 10,
           "target": 80,
           "pass": false
         }
@@ -132,10 +132,10 @@
     },
     "benchmark": {
       "best": {
-        "role": "AI Agent 与大模型应用",
-        "detailCount": 6,
-        "companyCount": 6,
-        "salaryBandCount": 3
+        "role": "其他专业岗位",
+        "detailCount": 7,
+        "companyCount": 7,
+        "salaryBandCount": 2
       },
       "target": 50,
       "pass": false
@@ -150,11 +150,11 @@
   "blockers": [
     "30K 真实岗位还差 199 条",
     "30K 详情证据还差 74 条",
-    "50K 真实岗位还差 197 条",
-    "50K 详情证据还差 71 条",
+    "50K 真实岗位还差 196 条",
+    "50K 详情证据还差 70 条",
     "100K 真实岗位还差 232 条",
     "100K 详情证据还差 72 条",
     "新兴岗位方向还差 28 个",
-    "单岗对标还差 44 条同岗详情"
+    "单岗对标还差 43 条同岗详情"
   ]
 }

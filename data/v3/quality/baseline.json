@@ -1,32 +1,32 @@
 {
-  "generatedAt": "2026-07-14T20:55:21.743Z",
+  "generatedAt": "2026-07-14T21:52:36.610Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 92,
-    "verifiedDetailJobs": 23,
+    "usableJobs": 93,
+    "verifiedDetailJobs": 24,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 25,
-    "uniqueCompanies": 87,
-    "uniqueRawTitles": 81,
+    "fullRequirementJobs": 26,
+    "uniqueCompanies": 88,
+    "uniqueRawTitles": 82,
     "captureDates": 2
   },
   "distributions": {
     "salaryBands": {
-      "50K": 43,
+      "50K": 44,
       "30K": 41,
       "100K": 8
     },
     "evidenceLevels": {
       "boss-listing": 67,
-      "public-platform-detail": 14,
+      "public-platform-detail": 15,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3
     },
     "captureDates": {
       "2026-07-12": 71,
-      "2026-07-15": 21
+      "2026-07-15": 22
     },
     "industries": {
       "计算机软件": 12,
@@ -35,10 +35,10 @@
       "智能硬件/消费电子": 8,
       "智能硬件": 6,
       "未公开": 5,
+      "工业自动化/机器人": 3,
       "医疗器械": 3,
       "电子/硬件开发": 2,
       "电子商务": 2,
-      "工业自动化/机器人": 2,
       "互联网金融": 2,
       "其他行业": 2,
       "医疗健康": 2,
@@ -69,7 +69,7 @@
     },
     "districts": {
       "南山区": 47,
-      "宝安区": 13,
+      "宝安区": 14,
       "深圳": 11,
       "龙岗区": 6,
       "龙华区": 6,
@@ -110,12 +110,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 92,
+      "current": 93,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 23,
+      "current": 24,
       "required": 240,
       "passed": false
     },
@@ -134,7 +134,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "23/92 条完成详情核验",
+      "evidence": "24/93 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {
