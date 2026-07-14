@@ -798,6 +798,77 @@
     "duplicateFingerprint": "cdd4831ad6059cd06d5f"
   },
   {
+    "id": "zhaopin-4607c096fb93b240f425",
+    "sourceJobId": "CC462765780J40868892513",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "高级Java工程师（多智能体工作流）",
+    "company": "深圳轻喜到家科技有限公司",
+    "salaryText": "25-35K",
+    "salaryMin": 25,
+    "salaryMax": 35,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "宝安区",
+    "addressText": "深圳宝安区华盛泰科技大厦",
+    "industry": "互联网生活服务、软件/IT服务",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionExcerpt": "负责企业级Java系统架构、技术选型和核心模块开发，主导多智能体工作流设计并集成n8n、Dify或腾讯云工作流，构建金融、财务、调度场景的高性能数据处理引擎，推动DevOps、可观测性与自动化测试。要求5年以上Java和3年以上大型分布式架构经验，必须有Multi-Agent或智能工作流实战，熟悉Flink、Spark、Kafka、微服务、Docker与Ku",
+    "requirementText": "负责企业级Java系统架构、技术选型和核心模块开发，主导多智能体工作流设计并集成n8n、Dify或腾讯云工作流，构建金融、财务、调度场景的高性能数据处理引擎，推动DevOps、可观测性与自动化测试。要求5年以上Java和3年以上大型分布式架构经验，必须有Multi-Agent或智能工作流实战，熟悉Flink、Spark、Kafka、微服务、Docker与Kubernetes；有LLM结合工作流及财务清算、智能排班等案例优先。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC462765780J40868892513.htm",
+    "capturedAt": "2026-07-15T20:14:00+08:00",
+    "verifiedAt": "2026-07-15T20:14:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": null,
+      "corroboratingUrls": [],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "missingPublicationDate"
+      ],
+      "reviewNotes": "详情页采集时标注平台核验且可投递；企业已审核，明确展示深圳地址、月薪、招聘人数与完整职责要求。页面未展示发布日期，保留复核信号。"
+    },
+    "duplicateFingerprint": "eb114fefd730fd375f5e"
+  },
+  {
     "id": "zhaopin-85d69d09c9d40336e9e4",
     "sourceJobId": "CC456590280J40837211314",
     "sourcePlatform": "zhaopin",
@@ -873,6 +944,79 @@
     "duplicateFingerprint": "725308a23762f8d047f5"
   },
   {
+    "id": "zhaopin-8dc724f9f906854f52e9",
+    "sourceJobId": "CC318148910J41004776504",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "AI开发工程师",
+    "company": "平安证券股份有限公司",
+    "salaryText": "25-35K·18薪",
+    "salaryMin": 25,
+    "salaryMax": 35,
+    "salaryMonths": 18,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "福田区",
+    "addressText": "深圳福田区皇岗商务中心",
+    "industry": "证券/期货",
+    "experience": "2年以上",
+    "education": "本科",
+    "descriptionExcerpt": "参与GPT、BERT等大模型应用开发与落地，覆盖自然语言处理、文本生成、对话系统和内容理解；负责应用优化和调优，设计智能客服、内容生成、数据分析等场景，并与业务、产品、测试和工程团队协作。要求本科及以上，数学、统计或计算机相关专业，2年以上经验；掌握命名实体识别、文本分类、关系抽取等NLP算法，熟悉PyTorch、TensorFlow或JAX，掌握Pytho",
+    "requirementText": "参与GPT、BERT等大模型应用开发与落地，覆盖自然语言处理、文本生成、对话系统和内容理解；负责应用优化和调优，设计智能客服、内容生成、数据分析等场景，并与业务、产品、测试和工程团队协作。要求本科及以上，数学、统计或计算机相关专业，2年以上经验；掌握命名实体识别、文本分类、关系抽取等NLP算法，熟悉PyTorch、TensorFlow或JAX，掌握Python、Java或C++，理解Transformer并有大模型落地经验。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC318148910J41004776504.htm",
+    "capturedAt": "2026-07-15T20:08:00+08:00",
+    "publishedAt": "2026-07-15",
+    "verifiedAt": "2026-07-15T20:08:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 0
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://stock.pingan.com/",
+      "corroboratingUrls": [
+        "https://stock.pingan.com/"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [],
+      "reviewNotes": "详情页显示当天更新、招聘3人且可投递；企业已审核，明确展示深圳地点、月薪区间、18薪及完整职责要求。"
+    },
+    "duplicateFingerprint": "604133ea0b1988333832"
+  },
+  {
     "id": "zhaopin-a45cacfb6fc42e7b254a",
     "sourceJobId": "CC212499610J40893391403",
     "sourcePlatform": "zhaopin",
@@ -946,6 +1090,79 @@
     "duplicateFingerprint": "c1ccbec3beaa3ec1cc70"
   },
   {
+    "id": "zhaopin-babe976bee277fb679f8",
+    "sourceJobId": "CC838625830J40759330801",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "架构规划岗（深圳）2441",
+    "company": "中移动信息技术有限公司",
+    "salaryText": "70-100K",
+    "salaryMin": 70,
+    "salaryMax": 100,
+    "salaryBand": "100K",
+    "city": "深圳",
+    "district": "福田区",
+    "addressText": "深圳福田区国通大厦",
+    "industry": "软件/IT服务、云计算",
+    "experience": "3-5年",
+    "education": "硕士",
+    "descriptionExcerpt": "负责高并发、低延迟音视频架构设计与优化，解决WebRTC在3D虚拟环境中的动态码率和音频优化问题，研发FEC、NACK、自适应JitterBuffer等抗弱网策略，构建全链路质量监控与跨x86、ARM的分布式SFU架构，并推动AV1、WebTransport、AI降噪落地。要求精通H.264、VP9、AV1等编解码和QUIC等传输技术，具备高并发SFU设计经",
+    "requirementText": "负责高并发、低延迟音视频架构设计与优化，解决WebRTC在3D虚拟环境中的动态码率和音频优化问题，研发FEC、NACK、自适应JitterBuffer等抗弱网策略，构建全链路质量监控与跨x86、ARM的分布式SFU架构，并推动AV1、WebTransport、AI降噪落地。要求精通H.264、VP9、AV1等编解码和QUIC等传输技术，具备高并发SFU设计经验，掌握C++、Rust或Go，熟悉国产AI框架推理加速与国产密码算法。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC838625830J40759330801.htm",
+    "capturedAt": "2026-07-15T20:05:00+08:00",
+    "verifiedAt": "2026-07-15T20:05:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://job.10086.cn/",
+      "corroboratingUrls": [
+        "https://job.10086.cn/"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "missingPublicationDate"
+      ],
+      "reviewNotes": "详情页采集时可投递且未显示失效；企业已审核，为中国移动全资子公司，薪资、深圳地点、职责与要求均完整。页面未展示发布日期，保留复核信号。"
+    },
+    "duplicateFingerprint": "3b47086b5b200bfc482e"
+  },
+  {
     "id": "zhaopin-be87c86e8e583f37fd83",
     "sourceJobId": "CC278982910J40378323106",
     "sourcePlatform": "zhaopin",
@@ -1017,6 +1234,77 @@
       "reviewNotes": "岗位详情页在采集时可直接打开且未显示失效，智联标注企业已审核并展示48个在招职位；企业官网明确包含运动/传动部件业务，上交所公告可核验公司名称与股票代码688686。搜索摘要显示岗位当天更新、招聘方刚刚活跃。"
     },
     "duplicateFingerprint": "d5d283575c5a6d7f0db8"
+  },
+  {
+    "id": "zhaopin-c637d3e7d4c42b0cfddb",
+    "sourceJobId": "CC494527430J40845802415",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "BIOS工程师",
+    "company": "深圳市触想智能股份有限公司",
+    "salaryText": "25-35K",
+    "salaryMin": 25,
+    "salaryMax": 35,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "深圳南山区深圳市触想智能股份有限公司",
+    "industry": "计算机硬件",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionExcerpt": "负责新产品BIOS适配开发、旧版优化维护、缺陷分析和客户定制。要求计算机、电子工程或自动化相关本科及以上，英语四级并能阅读芯片手册；熟悉Intel、AMD芯片组底层架构、ACPI、PCI/PCIe、SMBus和SATA，熟练使用AMI或BYO BIOS环境，具备BIOS移植和功能定制能力；精通汇编与C语言，理解Linux内核和BIOS交互、POST、CMOS",
+    "requirementText": "负责新产品BIOS适配开发、旧版优化维护、缺陷分析和客户定制。要求计算机、电子工程或自动化相关本科及以上，英语四级并能阅读芯片手册；熟悉Intel、AMD芯片组底层架构、ACPI、PCI/PCIe、SMBus和SATA，熟练使用AMI或BYO BIOS环境，具备BIOS移植和功能定制能力；精通汇编与C语言，理解Linux内核和BIOS交互、POST、CMOS、UEFI等机制，并具有5年以上X86平台BIOS项目经验。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC494527430J40845802415.htm",
+    "capturedAt": "2026-07-15T20:11:00+08:00",
+    "verifiedAt": "2026-07-15T20:11:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": null,
+      "corroboratingUrls": [],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "missingPublicationDate"
+      ],
+      "reviewNotes": "详情页采集时可投递且未显示失效；企业已审核、经营状态存续，明确展示深圳地点、薪资和完整要求。页面未展示发布日期，保留复核信号。"
+    },
+    "duplicateFingerprint": "3a0877aaff5aa8571174"
   },
   {
     "id": "zhaopin-e4a1d6448736030385e4",

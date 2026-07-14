@@ -1,32 +1,32 @@
 {
-  "generatedAt": "2026-07-14T19:43:31.103Z",
+  "generatedAt": "2026-07-14T19:46:43.706Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 85,
-    "verifiedDetailJobs": 16,
+    "usableJobs": 89,
+    "verifiedDetailJobs": 20,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 18,
-    "uniqueCompanies": 80,
-    "uniqueRawTitles": 74,
+    "fullRequirementJobs": 22,
+    "uniqueCompanies": 84,
+    "uniqueRawTitles": 78,
     "captureDates": 2
   },
   "distributions": {
     "salaryBands": {
+      "30K": 41,
       "50K": 40,
-      "30K": 38,
-      "100K": 7
+      "100K": 8
     },
     "evidenceLevels": {
       "boss-listing": 67,
+      "public-platform-detail": 11,
       "boss-detail": 8,
-      "public-platform-detail": 7,
       "boss-listing-plus-detail": 3
     },
     "captureDates": {
       "2026-07-12": 71,
-      "2026-07-15": 14
+      "2026-07-15": 18
     },
     "industries": {
       "计算机软件": 12,
@@ -49,26 +49,30 @@
       "电气机械/电力设备、新能源汽车": 1,
       "电子/半导体/集成电路": 1,
       "互联网（猎头发布）": 1,
+      "互联网生活服务、软件/IT服务": 1,
       "基金": 1,
       "计算机服务": 1,
+      "计算机硬件": 1,
       "家具/家居": 1,
       "家用电器": 1,
       "企业服务": 1,
+      "软件/IT服务、云计算": 1,
       "石油/石化、环保": 1,
       "学术/科研": 1,
+      "证券/期货": 1,
       "智慧农业/人工智能": 1,
       "专用设备": 1,
       "咨询": 1,
       "自动化设备": 1
     },
     "districts": {
-      "南山区": 44,
-      "宝安区": 12,
+      "南山区": 45,
+      "宝安区": 13,
       "深圳": 11,
       "龙华区": 6,
       "龙岗区": 5,
+      "福田区": 4,
       "光明区": 3,
-      "福田区": 2,
       "罗湖区": 1,
       "盐田区": 1
     }
@@ -104,12 +108,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 85,
+      "current": 89,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 16,
+      "current": 20,
       "required": 240,
       "passed": false
     },
@@ -128,7 +132,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "16/85 条完成详情核验",
+      "evidence": "20/89 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {

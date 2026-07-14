@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-15T20:14:00+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC462765780J40868892513.htm",
+  "job": {
+    "sourceJobId": "CC462765780J40868892513",
+    "title": "高级Java工程师（多智能体工作流）",
+    "company": "深圳轻喜到家科技有限公司",
+    "salaryText": "25-35K",
+    "district": "宝安区",
+    "addressText": "深圳宝安区华盛泰科技大厦",
+    "industry": "互联网生活服务、软件/IT服务",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责企业级Java系统架构、技术选型和核心模块开发，主导多智能体工作流设计并集成n8n、Dify或腾讯云工作流，构建金融、财务、调度场景的高性能数据处理引擎，推动DevOps、可观测性与自动化测试。要求5年以上Java和3年以上大型分布式架构经验，必须有Multi-Agent或智能工作流实战，熟悉Flink、Spark、Kafka、微服务、Docker与Kubernetes；有LLM结合工作流及财务清算、智能排班等案例优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": null,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["missingPublicationDate"],
+    "reviewNotes": "详情页采集时标注平台核验且可投递；企业已审核，明确展示深圳地址、月薪、招聘人数与完整职责要求。页面未展示发布日期，保留复核信号。"
+  }
+}

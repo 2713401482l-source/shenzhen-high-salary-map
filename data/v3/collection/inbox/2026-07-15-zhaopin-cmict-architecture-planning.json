@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-15T20:05:00+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC838625830J40759330801.htm",
+  "job": {
+    "sourceJobId": "CC838625830J40759330801",
+    "title": "架构规划岗（深圳）2441",
+    "company": "中移动信息技术有限公司",
+    "salaryText": "70-100K",
+    "district": "福田区",
+    "addressText": "深圳福田区国通大厦",
+    "industry": "软件/IT服务、云计算",
+    "experience": "3-5年",
+    "education": "硕士",
+    "descriptionText": "负责高并发、低延迟音视频架构设计与优化，解决WebRTC在3D虚拟环境中的动态码率和音频优化问题，研发FEC、NACK、自适应JitterBuffer等抗弱网策略，构建全链路质量监控与跨x86、ARM的分布式SFU架构，并推动AV1、WebTransport、AI降噪落地。要求精通H.264、VP9、AV1等编解码和QUIC等传输技术，具备高并发SFU设计经验，掌握C++、Rust或Go，熟悉国产AI框架推理加速与国产密码算法。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://job.10086.cn/",
+    "corroboratingUrls": ["https://job.10086.cn/"],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["missingPublicationDate"],
+    "reviewNotes": "详情页采集时可投递且未显示失效；企业已审核，为中国移动全资子公司，薪资、深圳地点、职责与要求均完整。页面未展示发布日期，保留复核信号。"
+  }
+}

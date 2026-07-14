@@ -1,0 +1,32 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-15T20:08:00+08:00",
+  "publishedAt": "2026-07-15",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC318148910J41004776504.htm",
+  "job": {
+    "sourceJobId": "CC318148910J41004776504",
+    "title": "AI开发工程师",
+    "company": "平安证券股份有限公司",
+    "salaryText": "25-35K·18薪",
+    "district": "福田区",
+    "addressText": "深圳福田区皇岗商务中心",
+    "industry": "证券/期货",
+    "experience": "2年以上",
+    "education": "本科",
+    "descriptionText": "参与GPT、BERT等大模型应用开发与落地，覆盖自然语言处理、文本生成、对话系统和内容理解；负责应用优化和调优，设计智能客服、内容生成、数据分析等场景，并与业务、产品、测试和工程团队协作。要求本科及以上，数学、统计或计算机相关专业，2年以上经验；掌握命名实体识别、文本分类、关系抽取等NLP算法，熟悉PyTorch、TensorFlow或JAX，掌握Python、Java或C++，理解Transformer并有大模型落地经验。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://stock.pingan.com/",
+    "corroboratingUrls": ["https://stock.pingan.com/"],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [],
+    "reviewNotes": "详情页显示当天更新、招聘3人且可投递；企业已审核，明确展示深圳地点、月薪区间、18薪及完整职责要求。"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-15T20:11:00+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC494527430J40845802415.htm",
+  "job": {
+    "sourceJobId": "CC494527430J40845802415",
+    "title": "BIOS工程师",
+    "company": "深圳市触想智能股份有限公司",
+    "salaryText": "25-35K",
+    "district": "南山区",
+    "addressText": "深圳南山区深圳市触想智能股份有限公司",
+    "industry": "计算机硬件",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责新产品BIOS适配开发、旧版优化维护、缺陷分析和客户定制。要求计算机、电子工程或自动化相关本科及以上，英语四级并能阅读芯片手册；熟悉Intel、AMD芯片组底层架构、ACPI、PCI/PCIe、SMBus和SATA，熟练使用AMI或BYO BIOS环境，具备BIOS移植和功能定制能力；精通汇编与C语言，理解Linux内核和BIOS交互、POST、CMOS、UEFI等机制，并具有5年以上X86平台BIOS项目经验。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": null,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["missingPublicationDate"],
+    "reviewNotes": "详情页采集时可投递且未显示失效；企业已审核、经营状态存续，明确展示深圳地点、薪资和完整要求。页面未展示发布日期，保留复核信号。"
+  }
+}
