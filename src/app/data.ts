@@ -121,6 +121,7 @@ const SOURCE_LABELS: Record<string, string> = {
   iucai: '深i人才',
   'guangdong-public': '广东公共招聘',
   liepin: '猎聘',
+  zhaopin: '智联招聘',
   'employer-career': '企业官网',
   'licensed-api': '授权数据接口',
 };

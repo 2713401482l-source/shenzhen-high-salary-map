@@ -1,16 +1,16 @@
 {
   "metadata": {
     "dataKind": "v3-completion-audit",
-    "latestCapture": "2026-07-15T01:33:00+08:00",
+    "latestCapture": "2026-07-15T12:30:00+08:00",
     "collectionStatus": "paused-platform-risk",
     "bossAccessAllowed": false
   },
   "dataset": {
-    "grain": "one public Boss job posting per unique Boss job id",
-    "totalJobs": 78,
+    "grain": "one public job posting per source-specific job id; cross-platform duplicates are resolved separately",
+    "totalJobs": 79,
     "listingObservations": 69,
-    "detailVerified": 9,
-    "companies": 9,
+    "detailVerified": 10,
+    "companies": 10,
     "captureDates": [
       "2026-07-12",
       "2026-07-15"
@@ -19,7 +19,6 @@
   "structuralQuality": {
     "missingByField": {
       "id": 0,
-      "bossJobId": 0,
       "title": 0,
       "company": 0,
       "salaryText": 0,
@@ -38,13 +37,12 @@
     },
     "duplicates": {
       "id": 0,
-      "bossJobId": 0,
       "duplicateFingerprint": 0,
       "sourceUrl": 0
     },
     "nonShenzhen": 0,
     "salaryBandMismatch": 0,
-    "invalidBossUrls": 0,
+    "invalidSourceUrls": 0,
     "pass": true
   },
   "requirements": {
@@ -52,12 +50,12 @@
       {
         "band": "30K",
         "discovery": {
-          "actual": 37,
+          "actual": 38,
           "target": 50,
           "pass": false
         },
         "detailEvidence": {
-          "actual": 2,
+          "actual": 3,
           "target": 50,
           "pass": false
         }
@@ -112,8 +110,8 @@
   },
   "complete": false,
   "blockers": [
-    "30K 真实岗位还差 13 条",
-    "30K 详情证据还差 48 条",
+    "30K 真实岗位还差 12 条",
+    "30K 详情证据还差 47 条",
     "50K 真实岗位还差 16 条",
     "50K 详情证据还差 50 条",
     "100K 真实岗位还差 43 条",

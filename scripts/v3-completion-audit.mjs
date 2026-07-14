@@ -1,4 +1,5 @@
 import fs from 'node:fs/promises';
+import { isDirectJobDetailUrl } from './job-data.mjs';
 
 const readJson = async path => JSON.parse(await fs.readFile(path, 'utf8'));
 
@@ -12,7 +13,7 @@ const [candidates, verified, analysis, gapReport, collectionStatus] = await Prom
 
 const allJobs = [...verified, ...candidates];
 const requiredFields = [
-  'id', 'bossJobId', 'title', 'company', 'salaryText', 'salaryMin', 'salaryMax',
+  'id', 'title', 'company', 'salaryText', 'salaryMin', 'salaryMax',
   'salaryBand', 'city', 'district', 'industry', 'experience', 'education',
   'descriptionExcerpt', 'sourceUrl', 'capturedAt', 'evidenceLevel',
 ];
@@ -34,26 +35,19 @@ const structuralQuality = {
   missingByField,
   duplicates: {
     id: duplicateCount('id'),
-    bossJobId: duplicateCount('bossJobId'),
     duplicateFingerprint: duplicateCount('duplicateFingerprint'),
     sourceUrl: duplicateCount('sourceUrl'),
   },
   nonShenzhen: allJobs.filter(job => job.city !== '深圳').length,
   salaryBandMismatch: allJobs.filter(job => expectedBand(job) !== job.salaryBand).length,
-  invalidBossUrls: allJobs.filter(job => {
-    try {
-      return new URL(job.sourceUrl).hostname !== 'www.zhipin.com';
-    } catch {
-      return true;
-    }
-  }).length,
+  invalidSourceUrls: allJobs.filter(job => !isDirectJobDetailUrl(job.sourceUrl)).length,
 };
 
 const structuralPass = Object.values(missingByField).every(value => value === 0)
   && Object.values(structuralQuality.duplicates).every(value => value === 0)
   && structuralQuality.nonShenzhen === 0
   && structuralQuality.salaryBandMismatch === 0
-  && structuralQuality.invalidBossUrls === 0;
+  && structuralQuality.invalidSourceUrls === 0;
 
 const salaryBands = gapReport.salaryBands.map(item => ({
   band: item.band,
@@ -86,7 +80,7 @@ const report = {
     bossAccessAllowed: collectionStatus.bossAccessAllowed,
   },
   dataset: {
-    grain: 'one public Boss job posting per unique Boss job id',
+    grain: 'one public job posting per source-specific job id; cross-platform duplicates are resolved separately',
     totalJobs: allJobs.length,
     listingObservations: candidates.length,
     detailVerified: verified.length,
@@ -111,4 +105,3 @@ console.log(JSON.stringify({
 }, null, 2));
 
 if (!structuralPass) throw new Error('V3 completion audit found structural data-quality failures.');
-
