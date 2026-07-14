@@ -652,6 +652,80 @@
     }
   },
   {
+    "id": "zhaopin-0ffc8ec61ea42cc987a8",
+    "sourceJobId": "CC197007410J40917408915",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "伺服软件算法专家(J10562)",
+    "company": "中山大洋电机股份有限公司",
+    "salaryText": "50-70K·13薪",
+    "salaryMin": 50,
+    "salaryMax": 70,
+    "salaryMonths": 13,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "光明区",
+    "addressText": "深圳光明区光明科技金融大厦",
+    "industry": "电气机械/电力设备、新能源汽车",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionExcerpt": "主导机器人关节模组伺服算法技术路线与架构，设计和优化电流环、速度环、位置环控制算法，以及摩擦、齿隙、转矩波动补偿、振动抑制、扰动观测、在线辨识、参数自整定和阻抗控制；研究模型预测控制、自适应控制等策略并在机器人整机验证。要求本科及以上，5年以上伺服驱动控制算法经验，精通控制理论、永磁同步电机FOC、观测器与环路整定，熟练使用MATLAB/Simulink和C",
+    "requirementText": "主导机器人关节模组伺服算法技术路线与架构，设计和优化电流环、速度环、位置环控制算法，以及摩擦、齿隙、转矩波动补偿、振动抑制、扰动观测、在线辨识、参数自整定和阻抗控制；研究模型预测控制、自适应控制等策略并在机器人整机验证。要求本科及以上，5年以上伺服驱动控制算法经验，精通控制理论、永磁同步电机FOC、观测器与环路整定，熟练使用MATLAB/Simulink和C/C++，具备量产项目经验。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC197007410J40917408915.htm",
+    "capturedAt": "2026-07-15T19:18:00+08:00",
+    "verifiedAt": "2026-07-15T19:18:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://www.broad-ocean.com/",
+      "corroboratingUrls": [
+        "https://www.broad-ocean.com/"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "missingPublicationDate"
+      ],
+      "reviewNotes": "详情页采集时未显示失效且可投递；企业已审核且为上市公司，页面展示明确薪资、深圳光明地址、完整职责与任职要求。发布日期未展示，已保留复核信号。"
+    },
+    "duplicateFingerprint": "07bb22bce65882c2d582"
+  },
+  {
     "id": "zhaopin-4430d28d7099de79735c",
     "sourceJobId": "CCL1488499260J40907405603",
     "sourcePlatform": "zhaopin",
@@ -799,6 +873,79 @@
     "duplicateFingerprint": "725308a23762f8d047f5"
   },
   {
+    "id": "zhaopin-a45cacfb6fc42e7b254a",
+    "sourceJobId": "CC212499610J40893391403",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "数据架构师",
+    "company": "烟台杰瑞石油服务集团股份有限公司",
+    "salaryText": "40-60K·15薪",
+    "salaryMin": 40,
+    "salaryMax": 60,
+    "salaryMonths": 15,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "深圳南山区深圳湾创新科技中心T1栋",
+    "industry": "石油/石化、环保",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionExcerpt": "负责云化DCIM时序数据中台架构，对标头部厂商数据体系；设计云原生DCIM全域分层数据架构和统一数据标准，设计资产、能耗、告警、容量等时序数据模型并推进全链路治理；规划边缘采集、云端传输、云原生存储、计算与分析的云边协同架构；搭建PUE核算、能耗预测、设备健康与告警根因AI分析底座。要求6年以上云原生物联网或工业大数据架构经验，精通时序数据库、云原生数仓建模",
+    "requirementText": "负责云化DCIM时序数据中台架构，对标头部厂商数据体系；设计云原生DCIM全域分层数据架构和统一数据标准，设计资产、能耗、告警、容量等时序数据模型并推进全链路治理；规划边缘采集、云端传输、云原生存储、计算与分析的云边协同架构；搭建PUE核算、能耗预测、设备健康与告警根因AI分析底座。要求6年以上云原生物联网或工业大数据架构经验，精通时序数据库、云原生数仓建模和海量时序数据处理，熟悉IDC动环、能耗与资产业务。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC212499610J40893391403.htm",
+    "capturedAt": "2026-07-15T19:14:00+08:00",
+    "publishedAt": "2026-07-15",
+    "verifiedAt": "2026-07-15T19:14:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 0
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://www.jereh.com/",
+      "corroboratingUrls": [
+        "https://www.jereh.com/"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [],
+      "reviewNotes": "详情页显示当天更新、可立即投递；企业已审核且为上市公司，页面展示明确薪资、深圳地址、完整职责与要求，招聘经理昨日活跃。"
+    },
+    "duplicateFingerprint": "c1ccbec3beaa3ec1cc70"
+  },
+  {
     "id": "zhaopin-be87c86e8e583f37fd83",
     "sourceJobId": "CC278982910J40378323106",
     "sourcePlatform": "zhaopin",
@@ -943,5 +1090,75 @@
       "reviewNotes": "岗位详情页更新于2026-06-24，采集时仍可直接投递，招聘主体为已审核上市公司并展示大量在招职位；集团官网存在正式招聘入口，牧原数智化平台明确包含牧原AI等业务，巨潮资讯近期公告可核验企业主体和证券代码002714。"
     },
     "duplicateFingerprint": "335540ddfdacd97b6ac5"
+  },
+  {
+    "id": "zhaopin-f9d52f85aff9fd0d3f75",
+    "sourceJobId": "CCL1482413560J40894007313",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "数据解决方案架构师",
+    "company": "深圳迅策科技股份有限公司",
+    "salaryText": "35-50K",
+    "salaryMin": 35,
+    "salaryMax": 50,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "深圳南山区深圳湾创新科技中心2A座",
+    "industry": "大数据",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionExcerpt": "岗位职责：面向海外客户调研行业特性、组织架构与数据管理现状，挖掘数据需求；基于公司数据平台设计可交付、可复制的数据项目方案，覆盖数据接入、治理、建模和分析应用；负责需求交流、项目落地到验收的全生命周期管理，协调研发、产品、售前售后和合作伙伴。任职要求：5年以上数据项目实施或交付经验；熟悉数据平台和大数据中台，能独立完成整体方案；理解DAMA-DMBOK、DC",
+    "requirementText": "岗位职责：面向海外客户调研行业特性、组织架构与数据管理现状，挖掘数据需求；基于公司数据平台设计可交付、可复制的数据项目方案，覆盖数据接入、治理、建模和分析应用；负责需求交流、项目落地到验收的全生命周期管理，协调研发、产品、售前售后和合作伙伴。任职要求：5年以上数据项目实施或交付经验；熟悉数据平台和大数据中台，能独立完成整体方案；理解DAMA-DMBOK、DCMM等数据治理框架，具备客户沟通、需求分析与复杂项目统筹能力。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1482413560J40894007313.htm",
+    "capturedAt": "2026-07-15T19:10:00+08:00",
+    "publishedAt": "2026-07-07",
+    "verifiedAt": "2026-07-15T19:10:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 8
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": null,
+      "corroboratingUrls": [],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [],
+      "reviewNotes": "详情页显示2026年7月7日更新、可立即投递；企业已审核，页面展示明确薪资、深圳地址、完整职责与要求，招聘人员昨日活跃。"
+    },
+    "duplicateFingerprint": "8f09891a305c976f7b79"
   }
 ]

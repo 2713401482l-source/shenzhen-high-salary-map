@@ -1,20 +1,54 @@
 {
   "metadata": {
     "dataKind": "v3-completion-audit",
-    "latestCapture": "2026-07-15T17:05:00+08:00",
+    "latestCapture": "2026-07-15T19:18:00+08:00",
     "collectionStatus": "paused-platform-risk",
     "bossAccessAllowed": false
   },
   "dataset": {
     "grain": "one public job posting per source-specific job id; cross-platform duplicates are resolved separately",
-    "totalJobs": 82,
+    "totalJobs": 85,
     "listingObservations": 69,
-    "detailVerified": 13,
-    "companies": 13,
+    "detailVerified": 16,
+    "companies": 16,
     "captureDates": [
       "2026-07-12",
       "2026-07-15"
-    ]
+    ],
+    "targetRange": {
+      "minimum": 600,
+      "preferred": 720,
+      "maximum": 800
+    }
+  },
+  "evidenceQuality": {
+    "grain": "one company-specific job posting on one direct detail URL",
+    "sourcePlatforms": [
+      {
+        "source": "boss",
+        "count": 78
+      },
+      {
+        "source": "zhaopin",
+        "count": 7
+      }
+    ],
+    "sourcePlatformCount": 2,
+    "minimumSourcePlatforms": 5,
+    "largestSource": {
+      "source": "boss",
+      "count": 78
+    },
+    "largestSourceShare": 0.9176,
+    "maximumSingleSourceShare": 0.55,
+    "duplicateIds": 0,
+    "duplicateFingerprints": 0,
+    "duplicateSourceUrls": 0,
+    "staleJobs": 0,
+    "maximumAgeDaysAtCapture": 45,
+    "formalSampleCount": 16,
+    "formalSampleShare": 0.1882,
+    "discoveryOnlyCount": 69
   },
   "structuralQuality": {
     "missingByField": {
@@ -51,25 +85,25 @@
         "band": "30K",
         "discovery": {
           "actual": 38,
-          "target": 50,
+          "target": 240,
           "pass": false
         },
         "detailEvidence": {
           "actual": 3,
-          "target": 50,
+          "target": 80,
           "pass": false
         }
       },
       {
         "band": "50K",
         "discovery": {
-          "actual": 37,
-          "target": 50,
+          "actual": 40,
+          "target": 240,
           "pass": false
         },
         "detailEvidence": {
-          "actual": 3,
-          "target": 50,
+          "actual": 6,
+          "target": 80,
           "pass": false
         }
       },
@@ -77,12 +111,12 @@
         "band": "100K",
         "discovery": {
           "actual": 7,
-          "target": 50,
+          "target": 240,
           "pass": false
         },
         "detailEvidence": {
           "actual": 7,
-          "target": 50,
+          "target": 80,
           "pass": false
         }
       }
@@ -110,12 +144,12 @@
   },
   "complete": false,
   "blockers": [
-    "30K 真实岗位还差 12 条",
-    "30K 详情证据还差 47 条",
-    "50K 真实岗位还差 13 条",
-    "50K 详情证据还差 47 条",
-    "100K 真实岗位还差 43 条",
-    "100K 详情证据还差 43 条",
+    "30K 真实岗位还差 202 条",
+    "30K 详情证据还差 77 条",
+    "50K 真实岗位还差 200 条",
+    "50K 详情证据还差 74 条",
+    "100K 真实岗位还差 233 条",
+    "100K 详情证据还差 73 条",
     "新兴岗位方向还差 28 个",
     "单岗对标还差 46 条同岗详情"
   ]

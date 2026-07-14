@@ -1,0 +1,32 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-15T19:14:00+08:00",
+  "publishedAt": "2026-07-15",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC212499610J40893391403.htm",
+  "job": {
+    "sourceJobId": "CC212499610J40893391403",
+    "title": "数据架构师",
+    "company": "烟台杰瑞石油服务集团股份有限公司",
+    "salaryText": "40-60K·15薪",
+    "district": "南山区",
+    "addressText": "深圳南山区深圳湾创新科技中心T1栋",
+    "industry": "石油/石化、环保",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责云化DCIM时序数据中台架构，对标头部厂商数据体系；设计云原生DCIM全域分层数据架构和统一数据标准，设计资产、能耗、告警、容量等时序数据模型并推进全链路治理；规划边缘采集、云端传输、云原生存储、计算与分析的云边协同架构；搭建PUE核算、能耗预测、设备健康与告警根因AI分析底座。要求6年以上云原生物联网或工业大数据架构经验，精通时序数据库、云原生数仓建模和海量时序数据处理，熟悉IDC动环、能耗与资产业务。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.jereh.com/",
+    "corroboratingUrls": ["https://www.jereh.com/"],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [],
+    "reviewNotes": "详情页显示当天更新、可立即投递；企业已审核且为上市公司，页面展示明确薪资、深圳地址、完整职责与要求，招聘经理昨日活跃。"
+  }
+}

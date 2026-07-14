@@ -22,7 +22,10 @@ const fail = message => {
 };
 
 if (plan.city !== '深圳') fail('collection plan city must be 深圳');
-if (plan.discoveryTarget < 300) fail('discovery target must be at least 300');
+if (plan.targetRange?.minimum !== 600 || plan.targetRange?.maximum !== 800) fail('target range must be 600–800');
+if (plan.discoveryTarget !== plan.targetRange?.preferred) fail('discovery target must equal preferred target');
+if (Object.values(plan.salaryBandTargets ?? {}).reduce((sum, value) => sum + value, 0) !== plan.discoveryTarget) fail('salary band targets must add up to discovery target');
+if (plan.lanes.reduce((sum, lane) => sum + lane.target, 0) !== plan.discoveryTarget) fail('lane targets must add up to discovery target');
 if (plan.emergingRoleTarget < 30) fail('emerging role target must be at least 30');
 if (plan.benchmarkRoleDetailTarget < 50) fail('benchmark role detail target must be at least 50');
 

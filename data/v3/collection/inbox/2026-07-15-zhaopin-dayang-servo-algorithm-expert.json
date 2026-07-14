@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-15T19:18:00+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC197007410J40917408915.htm",
+  "job": {
+    "sourceJobId": "CC197007410J40917408915",
+    "title": "伺服软件算法专家(J10562)",
+    "company": "中山大洋电机股份有限公司",
+    "salaryText": "50-70K·13薪",
+    "district": "光明区",
+    "addressText": "深圳光明区光明科技金融大厦",
+    "industry": "电气机械/电力设备、新能源汽车",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "主导机器人关节模组伺服算法技术路线与架构，设计和优化电流环、速度环、位置环控制算法，以及摩擦、齿隙、转矩波动补偿、振动抑制、扰动观测、在线辨识、参数自整定和阻抗控制；研究模型预测控制、自适应控制等策略并在机器人整机验证。要求本科及以上，5年以上伺服驱动控制算法经验，精通控制理论、永磁同步电机FOC、观测器与环路整定，熟练使用MATLAB/Simulink和C/C++，具备量产项目经验。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.broad-ocean.com/",
+    "corroboratingUrls": ["https://www.broad-ocean.com/"],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["missingPublicationDate"],
+    "reviewNotes": "详情页采集时未显示失效且可投递；企业已审核且为上市公司，页面展示明确薪资、深圳光明地址、完整职责与任职要求。发布日期未展示，已保留复核信号。"
+  }
+}

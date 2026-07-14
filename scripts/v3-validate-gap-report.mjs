@@ -1,4 +1,5 @@
 import fs from 'node:fs/promises';
+import { sourcePlatformFor } from './job-data.mjs';
 
 const read = async file => JSON.parse(await fs.readFile(file, 'utf8'));
 const [report, plan, candidates, verified, queue] = await Promise.all([
@@ -17,6 +18,13 @@ if (report.totals?.discovery?.actual !== jobs.length) fail('discovery actual mis
 if (report.totals?.discovery?.target !== plan.discoveryTarget) fail('discovery target mismatch');
 if (report.totals?.detailEvidence?.actual !== verified.length) fail('detail actual mismatch');
 if (report.totals?.detailEvidence?.target !== plan.verifiedDetailTarget) fail('detail target mismatch');
+const sourcePlatformCount = new Set(jobs.map(sourcePlatformFor).filter(Boolean)).size;
+if (report.quality?.sourcePlatformCount !== sourcePlatformCount) fail('source platform count mismatch');
+if (report.quality?.formalSampleCount !== verified.length) fail('formal sample count mismatch');
+if (report.quality?.discoveryOnlyCount !== candidates.length) fail('discovery-only count mismatch');
+if (report.quality?.duplicateIds !== jobs.length - new Set(jobs.map(job => job.id)).size) fail('duplicate id count mismatch');
+if (report.quality?.duplicateFingerprints !== jobs.length - new Set(jobs.map(job => job.duplicateFingerprint)).size) fail('duplicate fingerprint count mismatch');
+if (report.quality?.duplicateSourceUrls !== jobs.length - new Set(jobs.map(job => job.sourceUrl)).size) fail('duplicate source URL count mismatch');
 for (const band of report.salaryBands ?? []) {
   const actual = jobs.filter(job => job.salaryBand === band.band).length;
   const detailActual = verified.filter(job => job.salaryBand === band.band).length;

@@ -3,10 +3,11 @@ import path from 'node:path';
 
 const root = path.resolve('.');
 const readJson = async file => JSON.parse(await fs.readFile(path.join(root, file), 'utf8'));
-const [verified, candidates, taxonomy] = await Promise.all([
+const [verified, candidates, taxonomy, plan] = await Promise.all([
   readJson('data/jobs/verified.json'),
   readJson('data/jobs/candidates.json'),
   readJson('data/v3/config/taxonomy.json'),
+  readJson('data/v3/config/collection-plan.json'),
 ]);
 
 const discoveryJobs = [...verified, ...candidates];
@@ -144,11 +145,11 @@ const output = {
     methodologyVersion: 'v3.2-authenticity-gated',
   },
   readiness: {
-    discovery: {actual: discoveryJobs.length, target: 300, pass: discoveryJobs.length >= 300},
-    formalSample: {actual: enriched.length, target: 150, pass: enriched.length >= 150},
-    detailEvidence: {actual: detailJobs.length, target: 150, pass: detailJobs.length >= 150},
-    emergingRoles: {actual: roleSignals.filter(role => role.status === 'emerging').length, target: 30, pass: roleSignals.filter(role => role.status === 'emerging').length >= 30},
-    benchmark: {best: benchmarkCandidates[0] ?? null, target: 50, pass: (benchmarkCandidates[0]?.detailCount ?? 0) >= 50},
+    discovery: {actual: discoveryJobs.length, target: plan.discoveryTarget, pass: discoveryJobs.length >= plan.discoveryTarget},
+    formalSample: {actual: enriched.length, target: plan.verifiedDetailTarget, pass: enriched.length >= plan.verifiedDetailTarget},
+    detailEvidence: {actual: detailJobs.length, target: plan.verifiedDetailTarget, pass: detailJobs.length >= plan.verifiedDetailTarget},
+    emergingRoles: {actual: roleSignals.filter(role => role.status === 'emerging').length, target: plan.emergingRoleTarget, pass: roleSignals.filter(role => role.status === 'emerging').length >= plan.emergingRoleTarget},
+    benchmark: {best: benchmarkCandidates[0] ?? null, target: plan.benchmarkRoleDetailTarget, pass: (benchmarkCandidates[0]?.detailCount ?? 0) >= plan.benchmarkRoleDetailTarget},
     timeSeries: {actualDates: captureDates.length, targetDates: 2, pass: captureDates.length >= 2},
   },
   scope: {

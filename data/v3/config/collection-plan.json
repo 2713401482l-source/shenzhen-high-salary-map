@@ -2,17 +2,22 @@
   "version": 3,
   "city": "深圳",
   "bossCityCode": "101280600",
-  "discoveryTarget": 300,
-  "verifiedDetailTarget": 150,
+  "targetRange": {
+    "minimum": 600,
+    "preferred": 720,
+    "maximum": 800
+  },
+  "discoveryTarget": 720,
+  "verifiedDetailTarget": 240,
   "salaryBandTargets": {
-    "30K": 50,
-    "50K": 50,
-    "100K": 50
+    "30K": 240,
+    "50K": 240,
+    "100K": 240
   },
   "verifiedDetailBandTargets": {
-    "30K": 50,
-    "50K": 50,
-    "100K": 50
+    "30K": 80,
+    "50K": 80,
+    "100K": 80
   },
   "emergingRoleTarget": 30,
   "benchmarkRoleDetailTarget": 50,
@@ -20,67 +25,73 @@
     {
       "id": "overseas-growth",
       "label": "海外与跨境增长",
-      "target": 45,
+      "target": 90,
       "queries": ["海外运营", "海外增长", "国际化运营", "跨境电商运营", "TikTok运营", "亚马逊运营", "独立站运营", "海外投放", "海外市场"]
     },
     {
       "id": "content-platform",
       "label": "内容与平台运营",
-      "target": 30,
+      "target": 55,
       "queries": ["短视频运营", "内容策略", "内容增长", "直播运营", "社区运营", "创作者运营", "用户增长运营"]
     },
     {
       "id": "ai-application",
       "label": "AI应用与工作流",
-      "target": 40,
+      "target": 95,
       "queries": ["AI产品经理", "AI应用产品", "AI工作流", "AI Agent", "智能体产品", "提示词工程", "大模型应用", "AI解决方案"]
     },
     {
       "id": "product-commercialization",
       "label": "产品与商业化",
-      "target": 35,
+      "target": 75,
       "queries": ["商业化产品经理", "增长产品经理", "策略产品经理", "平台产品经理", "解决方案产品经理", "产品商业化", "生态产品经理"]
     },
     {
       "id": "data-growth",
       "label": "数据与增长运营",
-      "target": 30,
+      "target": 60,
       "queries": ["数据策略", "商业分析", "增长分析", "数据运营", "策略运营", "经营分析", "用户增长"]
     },
     {
       "id": "smart-manufacturing",
       "label": "智能制造与供应链",
-      "target": 35,
+      "target": 80,
       "queries": ["智能制造", "供应链计划", "供应链数字化", "海外供应链", "品类采购", "制造运营", "工业软件产品", "机器人产品"]
     },
     {
       "id": "solution-sales",
       "label": "解决方案与企业增长",
-      "target": 30,
+      "target": 70,
       "queries": ["解决方案架构师", "售前解决方案", "海外销售", "大客户销售", "客户成功", "渠道负责人", "生态合作"]
     },
     {
       "id": "brand-consumer",
       "label": "品牌与新消费",
-      "target": 25,
+      "target": 45,
       "queries": ["品牌策略", "海外品牌", "品类运营", "消费品产品经理", "整合营销", "全球品牌", "电商增长"]
     },
     {
       "id": "frontier-tech",
       "label": "前沿技术研发",
-      "target": 45,
+      "target": 90,
       "queries": ["具身智能", "强化学习", "机器人算法", "多模态大模型", "端侧大模型", "AI语音", "自动驾驶算法", "量化研究", "芯片架构"]
     },
     {
       "id": "industry-specialists",
       "label": "行业复合型岗位",
-      "target": 35,
+      "target": 60,
       "queries": ["医疗AI", "金融科技产品", "新能源产品", "低空经济", "游戏商业化", "网络安全解决方案", "半导体产品经理", "物流科技"]
     }
   ],
   "salarySearchHints": ["25-35K", "30-50K", "40-60K", "50-80K", "70-100K", "100K以上"],
   "collectionRules": {
-    "maxSequentialDetailPages": 3,
+    "batchSize": 12,
+    "maxSequentialDetailPages": 2,
+    "minimumSourcePlatforms": 5,
+    "maximumSingleSourceShare": 0.55,
+    "maximumDuplicateRate": 0.03,
+    "maximumAgeDaysAtCapture": 45,
+    "searchSnippetsAreDiscoveryOnly": true,
     "stopOnVerificationChallenge": true,
     "verificationWaitMinutes": 15,
     "appendSnapshots": true,

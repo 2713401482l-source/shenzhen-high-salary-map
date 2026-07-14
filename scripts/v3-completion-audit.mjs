@@ -3,12 +3,13 @@ import { isDirectJobDetailUrl } from './job-data.mjs';
 
 const readJson = async path => JSON.parse(await fs.readFile(path, 'utf8'));
 
-const [candidates, verified, analysis, gapReport, collectionStatus] = await Promise.all([
+const [candidates, verified, analysis, gapReport, collectionStatus, collectionPlan] = await Promise.all([
   readJson('data/jobs/candidates.json'),
   readJson('data/jobs/verified.json'),
   readJson('data/v3/analysis/real-analysis.json'),
   readJson('data/v3/collection/gap-report.json'),
   readJson('data/v3/collection/status.json'),
+  readJson('data/v3/config/collection-plan.json'),
 ]);
 
 const allJobs = [...verified, ...candidates];
@@ -86,7 +87,9 @@ const report = {
     detailVerified: verified.length,
     companies: analysis.scope.companies,
     captureDates: analysis.scope.capturedDates,
+    targetRange: collectionPlan.targetRange,
   },
+  evidenceQuality: gapReport.quality,
   structuralQuality: {...structuralQuality, pass: structuralPass},
   requirements,
   complete: structuralPass && blockers.length === 0,

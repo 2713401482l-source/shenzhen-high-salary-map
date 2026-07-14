@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { sourcePlatformFor } from './job-data.mjs';
 
 const readJson = async file => JSON.parse(await fs.readFile(path.resolve(file), 'utf8'));
 const [plan, queue, status, analysis, candidates, verified] = await Promise.all([
@@ -12,6 +13,17 @@ const [plan, queue, status, analysis, candidates, verified] = await Promise.all(
 ]);
 
 const jobs = [...verified, ...candidates];
+const duplicateCount = field => jobs.length - new Set(jobs.map(job => job[field])).size;
+const sourceCounts = Object.entries(jobs.reduce((counts, job) => {
+  const source = sourcePlatformFor(job) || 'unknown';
+  counts[source] = (counts[source] ?? 0) + 1;
+  return counts;
+}, {})).map(([source, count]) => ({source, count})).sort((a, b) => b.count - a.count);
+const largestSource = sourceCounts[0] ?? {source: null, count: 0};
+const staleJobs = jobs.filter(job => {
+  const ageDays = (Date.now() - new Date(job.capturedAt).getTime()) / 86_400_000;
+  return Number.isFinite(ageDays) && ageDays > plan.collectionRules.maximumAgeDaysAtCapture;
+});
 const queryById = new Map(queue.map(item => [item.id, item]));
 const assignedJobs = jobs.filter(job => queryById.has(job.sourceDiscovery));
 const countBy = (rows, field, value) => rows.filter(row => row[field] === value).length;
@@ -72,6 +84,23 @@ const output = {
     assignedToV3Queue: assignedJobs.length,
     legacyUnassigned: jobs.length - assignedJobs.length,
   },
+  quality: {
+    grain: 'one company-specific job posting on one direct detail URL',
+    sourcePlatforms: sourceCounts,
+    sourcePlatformCount: sourceCounts.filter(item => item.source !== 'unknown').length,
+    minimumSourcePlatforms: plan.collectionRules.minimumSourcePlatforms,
+    largestSource,
+    largestSourceShare: jobs.length ? Number((largestSource.count / jobs.length).toFixed(4)) : 0,
+    maximumSingleSourceShare: plan.collectionRules.maximumSingleSourceShare,
+    duplicateIds: duplicateCount('id'),
+    duplicateFingerprints: duplicateCount('duplicateFingerprint'),
+    duplicateSourceUrls: duplicateCount('sourceUrl'),
+    staleJobs: staleJobs.length,
+    maximumAgeDaysAtCapture: plan.collectionRules.maximumAgeDaysAtCapture,
+    formalSampleCount: verified.length,
+    formalSampleShare: jobs.length ? Number((verified.length / jobs.length).toFixed(4)) : 0,
+    discoveryOnlyCount: candidates.length,
+  },
   salaryBands: bandStatus,
   lanes: laneStatus,
   benchmark: {
@@ -87,6 +116,9 @@ const output = {
     ...bandStatus.filter(item => item.detailGap > 0).map(item => `${item.band} 详情证据还差 ${item.detailGap} 条`),
     `单岗对标“${benchmark?.role ?? '未确定'}”还差 ${Math.max(0, plan.benchmarkRoleDetailTarget - (benchmark?.detailCount ?? 0))} 条详情证据`,
     analysis.timeSeries.available ? null : '还缺至少一个不同日期的可比快照，不能判断薪资变化或持续扩招',
+    sourceCounts.filter(item => item.source !== 'unknown').length >= plan.collectionRules.minimumSourcePlatforms ? null : `独立数据平台还差 ${plan.collectionRules.minimumSourcePlatforms - sourceCounts.filter(item => item.source !== 'unknown').length} 个`,
+    jobs.length > 0 && largestSource.count / jobs.length > plan.collectionRules.maximumSingleSourceShare ? `${largestSource.source} 占比过高（${Math.round(largestSource.count / jobs.length * 100)}%），需要增加其他来源` : null,
+    staleJobs.length ? `${staleJobs.length} 条记录超过 ${plan.collectionRules.maximumAgeDaysAtCapture} 天，需要重新核验或移出当前快照` : null,
   ].filter(Boolean),
 };
 
