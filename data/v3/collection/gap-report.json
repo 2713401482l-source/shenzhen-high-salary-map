@@ -13,17 +13,17 @@
   },
   "totals": {
     "discovery": {
-      "actual": 89,
+      "actual": 92,
       "target": 720,
-      "gap": 631
+      "gap": 628
     },
     "detailEvidence": {
-      "actual": 20,
+      "actual": 23,
       "target": 240,
-      "gap": 220
+      "gap": 217
     },
     "assignedToV3Queue": 7,
-    "legacyUnassigned": 82
+    "legacyUnassigned": 85
   },
   "quality": {
     "grain": "one company-specific job posting on one direct detail URL",
@@ -35,23 +35,27 @@
       {
         "source": "zhaopin",
         "count": 11
+      },
+      {
+        "source": "liepin",
+        "count": 3
       }
     ],
-    "sourcePlatformCount": 2,
+    "sourcePlatformCount": 3,
     "minimumSourcePlatforms": 5,
     "largestSource": {
       "source": "boss",
       "count": 78
     },
-    "largestSourceShare": 0.8764,
+    "largestSourceShare": 0.8478,
     "maximumSingleSourceShare": 0.55,
     "duplicateIds": 0,
     "duplicateFingerprints": 0,
     "duplicateSourceUrls": 0,
     "staleJobs": 0,
     "maximumAgeDaysAtCapture": 45,
-    "formalSampleCount": 20,
-    "formalSampleShare": 0.2247,
+    "formalSampleCount": 23,
+    "formalSampleShare": 0.25,
     "discoveryOnlyCount": 69
   },
   "salaryBands": [
@@ -66,12 +70,12 @@
     },
     {
       "band": "50K",
-      "actual": 40,
+      "actual": 43,
       "target": 240,
-      "gap": 200,
-      "detailActual": 6,
+      "gap": 197,
+      "detailActual": 9,
       "detailTarget": 80,
-      "detailGap": 74
+      "detailGap": 71
     },
     {
       "band": "100K",
@@ -256,13 +260,13 @@
   ],
   "publicationBlockers": [
     "30K 总样本还差 199 条",
-    "50K 总样本还差 200 条",
+    "50K 总样本还差 197 条",
     "100K 总样本还差 232 条",
     "30K 详情证据还差 74 条",
-    "50K 详情证据还差 74 条",
+    "50K 详情证据还差 71 条",
     "100K 详情证据还差 72 条",
     "单岗对标“AI Agent 与大模型应用”还差 44 条详情证据",
-    "独立数据平台还差 3 个",
-    "boss 占比过高（88%），需要增加其他来源"
+    "独立数据平台还差 2 个",
+    "boss 占比过高（85%），需要增加其他来源"
   ]
 }

@@ -1,0 +1,36 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "liepin",
+  "sourcePublisher": "猎聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-15T04:53:00+08:00",
+  "publishedAt": "2026-06-03",
+  "sourceUrl": "https://www.liepin.com/job/1983044607.shtml",
+  "job": {
+    "sourceJobId": "1983044607",
+    "title": "IPD流程专家",
+    "company": "深圳市路特创新科技有限公司",
+    "salaryText": "30-50K·13薪",
+    "district": "南山区",
+    "addressText": "深圳南山区航天创新大厦",
+    "industry": "电子商务/消费品",
+    "experience": "3年以上",
+    "education": "本科",
+    "descriptionText": "负责设计并持续优化公司IPD流程，把流程落到具体研发与产品项目中；组织跨职能协作，诊断流程瓶颈并推动改善，维护流程文件、模板和知识库，同时检查流程执行质量。要求工业工程、管理科学、计算机等相关专业本科及以上，具有3年以上IPD或流程改进经验，熟悉软件或高科技制造业的产品开发流程，能够进行流程建模、跨部门推动和方法论沉淀。掌握IPD体系，持PMP或NPDP证书者优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://momcozy.com/",
+    "corroboratingUrls": [
+      "https://bs.sdut.edu.cn/2024/1110/c10936a530326/page.htm"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "staleBeyondPreferredDays"
+    ],
+    "reviewNotes": "猎聘具体岗位详情页显示可投递、明确月薪、深圳南山区与完整职责要求；页面更新距采集42天，未超过45天硬上限但已超过30天优选窗口，故保留时效提示。高校就业页面交叉核验公司主体、品牌与业务方向。"
+  }
+}

@@ -42,7 +42,7 @@
       "operator": "同道精英（天津）信息技术有限公司",
       "trustTier": "B",
       "allowedCaptureMethods": ["search-index-discovery", "manual-public-detail"],
-      "detailUrlPatterns": ["^https://(m\\.)?liepin\\.com/(job|a)/[A-Za-z0-9_-]+\\.shtml"],
+      "detailUrlPatterns": ["^https://(www\\.|m\\.)?liepin\\.com/(job|a)/[A-Za-z0-9_-]+\\.shtml"],
       "formalSampleAllowed": true,
       "requiresDirectDetailUrl": true,
       "notes": "搜索索引只作发现；正式样本必须回到具体岗位页核验。匿名客户岗位默认隔离。"
