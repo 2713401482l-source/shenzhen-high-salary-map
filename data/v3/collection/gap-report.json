@@ -1,7 +1,7 @@
 {
   "metadata": {
     "dataKind": "collection-gap-report",
-    "generatedFromLatestCapture": "2026-07-15T16:35:00+08:00",
+    "generatedFromLatestCapture": "2026-07-15T17:05:00+08:00",
     "bossAccessAllowed": false,
     "sourceFiles": [
       "data/v3/config/collection-plan.json",
@@ -13,17 +13,17 @@
   },
   "totals": {
     "discovery": {
-      "actual": 81,
+      "actual": 82,
       "target": 300,
-      "gap": 219
+      "gap": 218
     },
     "detailEvidence": {
-      "actual": 12,
+      "actual": 13,
       "target": 150,
-      "gap": 138
+      "gap": 137
     },
     "assignedToV3Queue": 7,
-    "legacyUnassigned": 74
+    "legacyUnassigned": 75
   },
   "salaryBands": [
     {
@@ -37,12 +37,12 @@
     },
     {
       "band": "50K",
-      "actual": 36,
+      "actual": 37,
       "target": 50,
-      "gap": 14,
-      "detailActual": 2,
+      "gap": 13,
+      "detailActual": 3,
       "detailTarget": 50,
-      "detailGap": 48
+      "detailGap": 47
     },
     {
       "band": "100K",
@@ -227,10 +227,10 @@
   ],
   "publicationBlockers": [
     "30K 总样本还差 12 条",
-    "50K 总样本还差 14 条",
+    "50K 总样本还差 13 条",
     "100K 总样本还差 43 条",
     "30K 详情证据还差 47 条",
-    "50K 详情证据还差 48 条",
+    "50K 详情证据还差 47 条",
     "100K 详情证据还差 43 条",
     "单岗对标“机器人强化学习与运动控制”还差 46 条详情证据"
   ]

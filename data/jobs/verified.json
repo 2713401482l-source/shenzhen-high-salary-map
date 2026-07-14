@@ -870,5 +870,78 @@
       "reviewNotes": "岗位详情页在采集时可直接打开且未显示失效，智联标注企业已审核并展示48个在招职位；企业官网明确包含运动/传动部件业务，上交所公告可核验公司名称与股票代码688686。搜索摘要显示岗位当天更新、招聘方刚刚活跃。"
     },
     "duplicateFingerprint": "d5d283575c5a6d7f0db8"
+  },
+  {
+    "id": "zhaopin-e4a1d6448736030385e4",
+    "sourceJobId": "CC495147320J40847870011",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "高级算法专家",
+    "company": "牧原食品集团股份有限公司",
+    "salaryText": "40-80K",
+    "salaryMin": 40,
+    "salaryMax": 80,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "深圳南山区牧原数字技术有限公司",
+    "industry": "智慧农业/人工智能",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionExcerpt": "主导机器学习与深度学习算法在集团业务中的端到端落地，包括边缘视觉检测、集团大模型应用、模型压缩移植和通用部署标准建设，并协同业务、硬件和软件团队把模糊需求转化为可量化算法目标。要求具备视觉感知或大模型基础，熟悉PyTorch、TensorFlow、YOLO等框架以及C/C++、Python、Matlab，理解GPU或NPU，具有AI产品工程落地、英文论文阅读",
+    "requirementText": "主导机器学习与深度学习算法在集团业务中的端到端落地，包括边缘视觉检测、集团大模型应用、模型压缩移植和通用部署标准建设，并协同业务、硬件和软件团队把模糊需求转化为可量化算法目标。要求具备视觉感知或大模型基础，熟悉PyTorch、TensorFlow、YOLO等框架以及C/C++、Python、Matlab，理解GPU或NPU，具有AI产品工程落地、英文论文阅读与算法复现能力。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC495147320J40847870011.htm",
+    "capturedAt": "2026-07-15T17:05:00+08:00",
+    "verifiedAt": "2026-07-15T17:05:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://www.muyuanfoods.com/",
+      "corroboratingUrls": [
+        "https://www.muyuanfoods.com/",
+        "https://www.imuyuan.com/",
+        "https://static.cninfo.com.cn/finalpage/2026-06-26/1225388022.PDF"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [],
+      "reviewNotes": "岗位详情页更新于2026-06-24，采集时仍可直接投递，招聘主体为已审核上市公司并展示大量在招职位；集团官网存在正式招聘入口，牧原数智化平台明确包含牧原AI等业务，巨潮资讯近期公告可核验企业主体和证券代码002714。"
+    },
+    "duplicateFingerprint": "335540ddfdacd97b6ac5"
   }
 ]
