@@ -1,0 +1,35 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-15T16:20:00+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC278982910J40378323106.htm",
+  "job": {
+    "sourceJobId": "CC278982910J40378323106",
+    "title": "运动控制算法工程师",
+    "company": "广东奥普特科技股份有限公司",
+    "salaryText": "30-50K",
+    "district": "宝安区",
+    "addressText": "深圳宝安区大正科技园",
+    "industry": "工业自动化/机器人",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "负责运动控制器的软件与算法开发。要求本科及以上学历，电子、计算机或自动化相关专业；熟悉直线、圆弧、空间圆弧和螺旋等插补算法，掌握梯形、指数曲线与S曲线等加减速算法，并理解小线段速度前瞻规划。具备EtherCAT主站、DSP或FPGA开发经验，以及批量运动控制器算法和软件设计经验者优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.optmv.com/",
+    "corroboratingUrls": [
+      "https://www.optmv.com/",
+      "https://www.optmv.com/about/",
+      "https://www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20201230_80239244.shtml"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [],
+    "reviewNotes": "岗位详情页在采集时可直接打开且未显示失效，智联标注企业已审核并展示48个在招职位；企业官网明确包含运动/传动部件业务，上交所公告可核验公司名称与股票代码688686。搜索摘要显示岗位当天更新、招聘方刚刚活跃。"
+  }
+}

@@ -722,5 +722,153 @@
       "reviewNotes": "岗位详情页于2026-07-15显示仍在更新，企业标注已审核并有24个在招职位；公司官网可访问，深圳市2025年创新型中小企业名单包含同名企业。"
     },
     "duplicateFingerprint": "cdd4831ad6059cd06d5f"
+  },
+  {
+    "id": "zhaopin-85d69d09c9d40336e9e4",
+    "sourceJobId": "CC456590280J40837211314",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "资深AI算法工程师（跨国集团+高薪+双休）",
+    "company": "深圳市杉川机器人有限公司",
+    "salaryText": "40-80K·15薪",
+    "salaryMin": 40,
+    "salaryMax": 80,
+    "salaryMonths": 15,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "光明区",
+    "addressText": "深圳光明区杉川集团产业园",
+    "industry": "工业自动化/机器人",
+    "experience": "10年以上",
+    "education": "本科",
+    "descriptionExcerpt": "面向扫地机器人研发深度估计、障碍物检测分割避障和三维重建算法，并把模型优化部署到嵌入式设备。要求计算机、人工智能、机器人或电子工程相关学历，具有移动机器人深度估计与三维重建项目经验，熟悉C/C++、Python、ARM、Linux、TensorFlow或PyTorch，能够完成算法移植与性能优化，并具备英文技术资料阅读能力。",
+    "requirementText": "面向扫地机器人研发深度估计、障碍物检测分割避障和三维重建算法，并把模型优化部署到嵌入式设备。要求计算机、人工智能、机器人或电子工程相关学历，具有移动机器人深度估计与三维重建项目经验，熟悉C/C++、Python、ARM、Linux、TensorFlow或PyTorch，能够完成算法移植与性能优化，并具备英文技术资料阅读能力。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC456590280J40837211314.htm",
+    "capturedAt": "2026-07-15T16:35:00+08:00",
+    "verifiedAt": "2026-07-15T16:35:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://www.piceacorp.com/",
+      "corroboratingUrls": [
+        "https://www.piceacorp.com/",
+        "https://www.piceacorp.com/join-us/",
+        "https://www.jobui.com/company/13619102/salary/j/suanfagongchengshi/",
+        "https://stic.sz.gov.cn/attachment/1/1246/1246016/10427232.pdf"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [],
+      "reviewNotes": "岗位详情页在采集时可直接打开且未显示失效，企业已审核并显示仍有多个在招职位；企业官网具有独立招聘入口，近期第三方岗位记录包含同方向高薪算法岗位，深圳市科技创新委员会名单可核验企业主体。"
+    },
+    "duplicateFingerprint": "725308a23762f8d047f5"
+  },
+  {
+    "id": "zhaopin-be87c86e8e583f37fd83",
+    "sourceJobId": "CC278982910J40378323106",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "运动控制算法工程师",
+    "company": "广东奥普特科技股份有限公司",
+    "salaryText": "30-50K",
+    "salaryMin": 30,
+    "salaryMax": 50,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "宝安区",
+    "addressText": "深圳宝安区大正科技园",
+    "industry": "工业自动化/机器人",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionExcerpt": "负责运动控制器的软件与算法开发。要求本科及以上学历，电子、计算机或自动化相关专业；熟悉直线、圆弧、空间圆弧和螺旋等插补算法，掌握梯形、指数曲线与S曲线等加减速算法，并理解小线段速度前瞻规划。具备EtherCAT主站、DSP或FPGA开发经验，以及批量运动控制器算法和软件设计经验者优先。",
+    "requirementText": "负责运动控制器的软件与算法开发。要求本科及以上学历，电子、计算机或自动化相关专业；熟悉直线、圆弧、空间圆弧和螺旋等插补算法，掌握梯形、指数曲线与S曲线等加减速算法，并理解小线段速度前瞻规划。具备EtherCAT主站、DSP或FPGA开发经验，以及批量运动控制器算法和软件设计经验者优先。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC278982910J40378323106.htm",
+    "capturedAt": "2026-07-15T16:20:00+08:00",
+    "verifiedAt": "2026-07-15T16:20:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://www.optmv.com/",
+      "corroboratingUrls": [
+        "https://www.optmv.com/",
+        "https://www.optmv.com/about/",
+        "https://www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20201230_80239244.shtml"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [],
+      "reviewNotes": "岗位详情页在采集时可直接打开且未显示失效，智联标注企业已审核并展示48个在招职位；企业官网明确包含运动/传动部件业务，上交所公告可核验公司名称与股票代码688686。搜索摘要显示岗位当天更新、招聘方刚刚活跃。"
+    },
+    "duplicateFingerprint": "d5d283575c5a6d7f0db8"
   }
 ]

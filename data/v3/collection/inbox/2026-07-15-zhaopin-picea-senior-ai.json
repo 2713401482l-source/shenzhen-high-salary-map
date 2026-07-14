@@ -1,0 +1,36 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-15T16:35:00+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC456590280J40837211314.htm",
+  "job": {
+    "sourceJobId": "CC456590280J40837211314",
+    "title": "资深AI算法工程师（跨国集团+高薪+双休）",
+    "company": "深圳市杉川机器人有限公司",
+    "salaryText": "40-80K·15薪",
+    "district": "光明区",
+    "addressText": "深圳光明区杉川集团产业园",
+    "industry": "工业自动化/机器人",
+    "experience": "10年以上",
+    "education": "本科",
+    "descriptionText": "面向扫地机器人研发深度估计、障碍物检测分割避障和三维重建算法，并把模型优化部署到嵌入式设备。要求计算机、人工智能、机器人或电子工程相关学历，具有移动机器人深度估计与三维重建项目经验，熟悉C/C++、Python、ARM、Linux、TensorFlow或PyTorch，能够完成算法移植与性能优化，并具备英文技术资料阅读能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.piceacorp.com/",
+    "corroboratingUrls": [
+      "https://www.piceacorp.com/",
+      "https://www.piceacorp.com/join-us/",
+      "https://www.jobui.com/company/13619102/salary/j/suanfagongchengshi/",
+      "https://stic.sz.gov.cn/attachment/1/1246/1246016/10427232.pdf"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [],
+    "reviewNotes": "岗位详情页在采集时可直接打开且未显示失效，企业已审核并显示仍有多个在招职位；企业官网具有独立招聘入口，近期第三方岗位记录包含同方向高薪算法岗位，深圳市科技创新委员会名单可核验企业主体。"
+  }
+}
