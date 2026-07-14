@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "dataKind": "v3-completion-audit",
+    "latestCapture": "2026-07-15T00:48:34+08:00",
+    "collectionStatus": "active-low-frequency-manual",
+    "bossAccessAllowed": true
+  },
+  "dataset": {
+    "grain": "one public Boss job posting per unique Boss job id",
+    "totalJobs": 74,
+    "listingObservations": 64,
+    "detailVerified": 10,
+    "companies": 69,
+    "captureDates": [
+      "2026-07-12",
+      "2026-07-15"
+    ]
+  },
+  "structuralQuality": {
+    "missingByField": {
+      "id": 0,
+      "bossJobId": 0,
+      "title": 0,
+      "company": 0,
+      "salaryText": 0,
+      "salaryMin": 0,
+      "salaryMax": 0,
+      "salaryBand": 0,
+      "city": 0,
+      "district": 0,
+      "industry": 0,
+      "experience": 0,
+      "education": 0,
+      "descriptionExcerpt": 0,
+      "sourceUrl": 0,
+      "capturedAt": 0,
+      "evidenceLevel": 0
+    },
+    "duplicates": {
+      "id": 0,
+      "bossJobId": 0,
+      "duplicateFingerprint": 0,
+      "sourceUrl": 0
+    },
+    "nonShenzhen": 0,
+    "salaryBandMismatch": 0,
+    "invalidBossUrls": 0,
+    "pass": true
+  },
+  "requirements": {
+    "salaryBands": [
+      {
+        "band": "30K",
+        "discovery": {
+          "actual": 34,
+          "target": 50,
+          "pass": false
+        },
+        "detailEvidence": {
+          "actual": 2,
+          "target": 50,
+          "pass": false
+        }
+      },
+      {
+        "band": "50K",
+        "discovery": {
+          "actual": 33,
+          "target": 50,
+          "pass": false
+        },
+        "detailEvidence": {
+          "actual": 1,
+          "target": 50,
+          "pass": false
+        }
+      },
+      {
+        "band": "100K",
+        "discovery": {
+          "actual": 7,
+          "target": 50,
+          "pass": false
+        },
+        "detailEvidence": {
+          "actual": 7,
+          "target": 50,
+          "pass": false
+        }
+      }
+    ],
+    "emergingRoles": {
+      "actual": 2,
+      "target": 30,
+      "pass": false
+    },
+    "benchmark": {
+      "best": {
+        "role": "机器人强化学习与运动控制",
+        "detailCount": 3,
+        "companyCount": 3,
+        "salaryBandCount": 3
+      },
+      "target": 50,
+      "pass": false
+    },
+    "timeSeries": {
+      "actualDates": 2,
+      "targetDates": 2,
+      "pass": true
+    }
+  },
+  "complete": false,
+  "blockers": [
+    "30K 真实岗位还差 16 条",
+    "30K 详情证据还差 48 条",
+    "50K 真实岗位还差 17 条",
+    "50K 详情证据还差 49 条",
+    "100K 真实岗位还差 43 条",
+    "100K 详情证据还差 43 条",
+    "新兴岗位方向还差 28 个",
+    "单岗对标还差 47 条同岗详情"
+  ]
+}

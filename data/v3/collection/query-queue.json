@@ -7,11 +7,13 @@
     "city": "深圳",
     "targetLaneSamples": 45,
     "searchUrl": "https://www.zhipin.com/c101280600/?query=%E6%B5%B7%E5%A4%96%E8%BF%90%E8%90%A5&industry=&position=",
-    "status": "blocked-salary-auth",
-    "attempts": 1,
+    "status": "exhausted",
+    "attempts": 2,
     "discoveredJobs": 15,
-    "lastAttemptAt": "2026-07-13T18:35:26+08:00",
-    "blocker": "当前内置浏览器会话显示登录/注册；Boss 公开页隐藏薪资，不能判定这些岗位是否进入高薪样本"
+    "eligibleJobs": 0,
+    "lastAttemptAt": "2026-07-14T23:59:04+08:00",
+    "blocker": null,
+    "lastObservationFile": "data/v3/observations/2026-07-14-overseas-operations-authenticated.json"
   },
   {
     "id": "overseas-growth-02",
@@ -21,11 +23,12 @@
     "city": "深圳",
     "targetLaneSamples": 45,
     "searchUrl": "https://www.zhipin.com/c101280600/?query=%E6%B5%B7%E5%A4%96%E5%A2%9E%E9%95%BF&industry=&position=",
-    "status": "queued",
-    "attempts": 0,
-    "discoveredJobs": 0,
-    "lastAttemptAt": null,
-    "blocker": null
+    "status": "captured-manual",
+    "attempts": 1,
+    "discoveredJobs": 3,
+    "lastAttemptAt": "2026-07-15T00:48:34+08:00",
+    "blocker": null,
+    "lastRawEvidenceFile": "v3/collection/raw/2026-07-15/listing-9aa432155226.json"
   },
   {
     "id": "overseas-growth-03",

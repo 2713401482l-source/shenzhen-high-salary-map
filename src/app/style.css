@@ -144,7 +144,7 @@ button { color: inherit; }
 
 .inner-main { padding-top: 0; }
 .inner-hero { min-height: 620px; padding: 160px max(24px, calc((100% - 1368px) / 2)) 78px; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-end; background: #ededeb; }
-.inner-hero h1 { max-width: 1040px; margin: 0; font-size: clamp(2.7rem, 5.5vw, 5.4rem); line-height: 1; letter-spacing: -.04em; font-weight: 660; }
+.inner-hero h1 { max-width: 1040px; margin: 0; font-size: clamp(2.7rem, 5.5vw, 5.4rem); line-height: 1; letter-spacing: -.04em; font-weight: 660; text-wrap: balance; }
 .inner-lead { max-width: 680px; margin: 26px 0 0; color: var(--muted); font-size: clamp(16px, 1.5vw, 20px); line-height: 1.55; }
 .inner-hero .data-mode-switch { margin-top: 34px; }
 .content-shell { padding: 34px clamp(8px, 2vw, 28px) 120px; }

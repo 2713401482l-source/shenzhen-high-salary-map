@@ -1,7 +1,7 @@
 {
   "metadata": {
     "dataKind": "real-analysis",
-    "generatedFromLatestCapture": "2026-07-12T21:13:54.464Z",
+    "generatedFromLatestCapture": "2026-07-15T00:48:34+08:00",
     "sourceFiles": [
       "data/jobs/verified.json",
       "data/jobs/candidates.json"
@@ -10,12 +10,12 @@
   },
   "readiness": {
     "discovery": {
-      "actual": 71,
+      "actual": 74,
       "target": 300,
       "pass": false
     },
     "detailEvidence": {
-      "actual": 7,
+      "actual": 10,
       "target": 150,
       "pass": false
     },
@@ -35,19 +35,20 @@
       "pass": false
     },
     "timeSeries": {
-      "actualDates": 1,
+      "actualDates": 2,
       "targetDates": 2,
-      "pass": false
+      "pass": true
     }
   },
   "scope": {
     "city": "深圳",
-    "jobs": 71,
-    "detailJobs": 7,
-    "companies": 66,
-    "industries": 23,
+    "jobs": 74,
+    "detailJobs": 10,
+    "companies": 69,
+    "industries": 25,
     "capturedDates": [
-      "2026-07-12"
+      "2026-07-12",
+      "2026-07-15"
     ],
     "warning": "当前样本明显偏 AI、算法、机器人和技术研发岗位，不代表深圳全行业高薪市场。"
   },
@@ -1143,6 +1144,82 @@
       ]
     },
     {
+      "name": "其他专业岗位",
+      "status": "observed-family",
+      "sampleCount": 3,
+      "companyCount": 3,
+      "industryCount": 2,
+      "detailCount": 3,
+      "salary": {
+        "min": 20,
+        "max": 50,
+        "medianMid": 30,
+        "bands": {
+          "30K": 2,
+          "50K": 1,
+          "100K": 0
+        }
+      },
+      "originalTitles": [
+        "海外运营总监",
+        "海外用户增长负责人",
+        "年薪30-50万】用户增长运营/独立站运营经理"
+      ],
+      "topIndustries": [
+        {
+          "name": "未公开",
+          "count": 2
+        },
+        {
+          "name": "互联网（猎头发布）",
+          "count": 1
+        }
+      ],
+      "topDistricts": [
+        {
+          "name": "宝安区",
+          "count": 1
+        },
+        {
+          "name": "南山区",
+          "count": 1
+        },
+        {
+          "name": "深圳",
+          "count": 1
+        }
+      ],
+      "evidenceJobs": [
+        {
+          "id": "boss-faa545dad79192be0nF82dq9FFFU",
+          "title": "年薪30-50万】用户增长运营/独立站运营经理",
+          "company": "三只蚂蚁",
+          "salaryText": "30-50K",
+          "sourceUrl": "https://www.zhipin.com/job_detail/faa545dad79192be0nF82dq9FFFU.html",
+          "capturedAt": "2026-07-15T00:48:34+08:00",
+          "evidenceLevel": "boss-detail"
+        },
+        {
+          "id": "boss-a026b790933817a10nF829--FFRY",
+          "title": "海外运营总监",
+          "company": "深圳大正动力科技",
+          "salaryText": "20-40K",
+          "sourceUrl": "https://www.zhipin.com/job_detail/a026b790933817a10nF829--FFRY.html",
+          "capturedAt": "2026-07-15T00:48:34+08:00",
+          "evidenceLevel": "boss-detail"
+        },
+        {
+          "id": "boss-b6aff7c3ee9ea8f50nBy39-4EFNZ",
+          "title": "海外用户增长负责人",
+          "company": "某互联网公司（猎头发布）",
+          "salaryText": "20-40K·15薪",
+          "sourceUrl": "https://www.zhipin.com/job_detail/b6aff7c3ee9ea8f50nBy39-4EFNZ.html",
+          "capturedAt": "2026-07-15T00:48:34+08:00",
+          "evidenceLevel": "boss-detail"
+        }
+      ]
+    },
+    {
       "name": "语音、音频与信号算法",
       "status": "early-signal",
       "sampleCount": 2,
@@ -1206,67 +1283,17 @@
     }
   ],
   "skills": {
-    "denominator": 7,
+    "denominator": 10,
     "stats": [
-      {
-        "name": "强化学习",
-        "category": "专业技能",
-        "count": 4,
-        "denominator": 7,
-        "frequency": 0.571,
-        "salaryBands": {
-          "30K": 0,
-          "50K": 0,
-          "100K": 4
-        },
-        "evidenceJobs": [
-          {
-            "id": "boss-07127b18e9f769e00nd70tq1FFpY",
-            "title": "强化运控算法联创&组长&专家深圳上海北京等",
-            "company": "芯宇全球",
-            "salaryText": "100-200K·24薪",
-            "sourceUrl": "https://www.zhipin.com/job_detail/07127b18e9f769e00nd70tq1FFpY.html",
-            "capturedAt": "2026-07-12T21:13:54.464Z",
-            "evidenceLevel": "boss-listing-plus-detail"
-          },
-          {
-            "id": "boss-1ed35a5c9f7e6fbe0ndy3d66ElNS",
-            "title": "AI Agent大模型算法专家",
-            "company": "vivo",
-            "salaryText": "70-90K",
-            "sourceUrl": "https://www.zhipin.com/job_detail/1ed35a5c9f7e6fbe0ndy3d66ElNS.html",
-            "capturedAt": "2026-07-12T21:13:08.537Z",
-            "evidenceLevel": "boss-listing-plus-detail"
-          },
-          {
-            "id": "boss-2dd0558b65b0a6440nV-39y5GVNS",
-            "title": "深度强化学习算法工程师",
-            "company": "索璞动力",
-            "salaryText": "80-100K",
-            "sourceUrl": "https://www.zhipin.com/job_detail/2dd0558b65b0a6440nV-39y5GVNS.html",
-            "capturedAt": "2026-07-12T21:13:54.464Z",
-            "evidenceLevel": "boss-listing-plus-detail"
-          },
-          {
-            "id": "boss-535998b31709c38f03d60t28ElRT",
-            "title": "强化学习专家",
-            "company": "魔法原子",
-            "salaryText": "70-100K·15薪",
-            "sourceUrl": "https://www.zhipin.com/job_detail/535998b31709c38f03d60t28ElRT.html",
-            "capturedAt": "2026-07-12T21:13:54.464Z",
-            "evidenceLevel": "boss-detail"
-          }
-        ]
-      },
       {
         "name": "行业经验",
         "category": "行业经验",
-        "count": 4,
-        "denominator": 7,
-        "frequency": 0.571,
+        "count": 6,
+        "denominator": 10,
+        "frequency": 0.6,
         "salaryBands": {
-          "30K": 0,
-          "50K": 0,
+          "30K": 1,
+          "50K": 1,
           "100K": 4
         },
         "evidenceJobs": [
@@ -1305,17 +1332,35 @@
             "sourceUrl": "https://www.zhipin.com/job_detail/535998b31709c38f03d60t28ElRT.html",
             "capturedAt": "2026-07-12T21:13:54.464Z",
             "evidenceLevel": "boss-detail"
+          },
+          {
+            "id": "boss-a026b790933817a10nF829--FFRY",
+            "title": "海外运营总监",
+            "company": "深圳大正动力科技",
+            "salaryText": "20-40K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/a026b790933817a10nF829--FFRY.html",
+            "capturedAt": "2026-07-15T00:48:34+08:00",
+            "evidenceLevel": "boss-detail"
+          },
+          {
+            "id": "boss-faa545dad79192be0nF82dq9FFFU",
+            "title": "年薪30-50万】用户增长运营/独立站运营经理",
+            "company": "三只蚂蚁",
+            "salaryText": "30-50K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/faa545dad79192be0nF82dq9FFFU.html",
+            "capturedAt": "2026-07-15T00:48:34+08:00",
+            "evidenceLevel": "boss-detail"
           }
         ]
       },
       {
         "name": "主导与路线责任",
         "category": "管理能力",
-        "count": 4,
-        "denominator": 7,
-        "frequency": 0.571,
+        "count": 6,
+        "denominator": 10,
+        "frequency": 0.6,
         "salaryBands": {
-          "30K": 0,
+          "30K": 2,
           "50K": 0,
           "100K": 4
         },
@@ -1355,6 +1400,124 @@
             "sourceUrl": "https://www.zhipin.com/job_detail/677b5d673b77a4d70nZz3N64FVBT.html",
             "capturedAt": "2026-07-12T21:13:08.537Z",
             "evidenceLevel": "boss-detail"
+          },
+          {
+            "id": "boss-a026b790933817a10nF829--FFRY",
+            "title": "海外运营总监",
+            "company": "深圳大正动力科技",
+            "salaryText": "20-40K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/a026b790933817a10nF829--FFRY.html",
+            "capturedAt": "2026-07-15T00:48:34+08:00",
+            "evidenceLevel": "boss-detail"
+          },
+          {
+            "id": "boss-b6aff7c3ee9ea8f50nBy39-4EFNZ",
+            "title": "海外用户增长负责人",
+            "company": "某互联网公司（猎头发布）",
+            "salaryText": "20-40K·15薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/b6aff7c3ee9ea8f50nBy39-4EFNZ.html",
+            "capturedAt": "2026-07-15T00:48:34+08:00",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "name": "工程部署与性能优化",
+        "category": "工程能力",
+        "count": 4,
+        "denominator": 10,
+        "frequency": 0.4,
+        "salaryBands": {
+          "30K": 0,
+          "50K": 1,
+          "100K": 3
+        },
+        "evidenceJobs": [
+          {
+            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
+            "title": "AI语音算法",
+            "company": "飞声医疗",
+            "salaryText": "70-100K·14薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          },
+          {
+            "id": "boss-1ed35a5c9f7e6fbe0ndy3d66ElNS",
+            "title": "AI Agent大模型算法专家",
+            "company": "vivo",
+            "salaryText": "70-90K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/1ed35a5c9f7e6fbe0ndy3d66ElNS.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          },
+          {
+            "id": "boss-677b5d673b77a4d70nZz3N64FVBT",
+            "title": "ai算法负责人",
+            "company": "杭州文和星途科技",
+            "salaryText": "100-150K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/677b5d673b77a4d70nZz3N64FVBT.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          },
+          {
+            "id": "boss-faa545dad79192be0nF82dq9FFFU",
+            "title": "年薪30-50万】用户增长运营/独立站运营经理",
+            "company": "三只蚂蚁",
+            "salaryText": "30-50K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/faa545dad79192be0nF82dq9FFFU.html",
+            "capturedAt": "2026-07-15T00:48:34+08:00",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "name": "强化学习",
+        "category": "专业技能",
+        "count": 4,
+        "denominator": 10,
+        "frequency": 0.4,
+        "salaryBands": {
+          "30K": 0,
+          "50K": 0,
+          "100K": 4
+        },
+        "evidenceJobs": [
+          {
+            "id": "boss-07127b18e9f769e00nd70tq1FFpY",
+            "title": "强化运控算法联创&组长&专家深圳上海北京等",
+            "company": "芯宇全球",
+            "salaryText": "100-200K·24薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/07127b18e9f769e00nd70tq1FFpY.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          },
+          {
+            "id": "boss-1ed35a5c9f7e6fbe0ndy3d66ElNS",
+            "title": "AI Agent大模型算法专家",
+            "company": "vivo",
+            "salaryText": "70-90K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/1ed35a5c9f7e6fbe0ndy3d66ElNS.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          },
+          {
+            "id": "boss-2dd0558b65b0a6440nV-39y5GVNS",
+            "title": "深度强化学习算法工程师",
+            "company": "索璞动力",
+            "salaryText": "80-100K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/2dd0558b65b0a6440nV-39y5GVNS.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          },
+          {
+            "id": "boss-535998b31709c38f03d60t28ElRT",
+            "title": "强化学习专家",
+            "company": "魔法原子",
+            "salaryText": "70-100K·15薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/535998b31709c38f03d60t28ElRT.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-detail"
           }
         ]
       },
@@ -1362,8 +1525,8 @@
         "name": "大模型与 Agent",
         "category": "AI 工具",
         "count": 3,
-        "denominator": 7,
-        "frequency": 0.429,
+        "denominator": 10,
+        "frequency": 0.3,
         "salaryBands": {
           "30K": 0,
           "50K": 0,
@@ -1394,47 +1557,6 @@
             "company": "绿联科技",
             "salaryText": "70-85K·15薪",
             "sourceUrl": "https://www.zhipin.com/job_detail/ba334c2c5f5ba58c0nV72960FFFR.html",
-            "capturedAt": "2026-07-12T21:13:08.537Z",
-            "evidenceLevel": "boss-detail"
-          }
-        ]
-      },
-      {
-        "name": "工程部署与性能优化",
-        "category": "工程能力",
-        "count": 3,
-        "denominator": 7,
-        "frequency": 0.429,
-        "salaryBands": {
-          "30K": 0,
-          "50K": 0,
-          "100K": 3
-        },
-        "evidenceJobs": [
-          {
-            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
-            "title": "AI语音算法",
-            "company": "飞声医疗",
-            "salaryText": "70-100K·14薪",
-            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
-            "capturedAt": "2026-07-12T21:13:08.537Z",
-            "evidenceLevel": "boss-detail"
-          },
-          {
-            "id": "boss-1ed35a5c9f7e6fbe0ndy3d66ElNS",
-            "title": "AI Agent大模型算法专家",
-            "company": "vivo",
-            "salaryText": "70-90K",
-            "sourceUrl": "https://www.zhipin.com/job_detail/1ed35a5c9f7e6fbe0ndy3d66ElNS.html",
-            "capturedAt": "2026-07-12T21:13:08.537Z",
-            "evidenceLevel": "boss-listing-plus-detail"
-          },
-          {
-            "id": "boss-677b5d673b77a4d70nZz3N64FVBT",
-            "title": "ai算法负责人",
-            "company": "杭州文和星途科技",
-            "salaryText": "100-150K",
-            "sourceUrl": "https://www.zhipin.com/job_detail/677b5d673b77a4d70nZz3N64FVBT.html",
             "capturedAt": "2026-07-12T21:13:08.537Z",
             "evidenceLevel": "boss-detail"
           }
@@ -1444,8 +1566,8 @@
         "name": "机器人控制",
         "category": "专业技能",
         "count": 3,
-        "denominator": 7,
-        "frequency": 0.429,
+        "denominator": 10,
+        "frequency": 0.3,
         "salaryBands": {
           "30K": 0,
           "50K": 0,
@@ -1482,11 +1604,52 @@
         ]
       },
       {
+        "name": "跨团队协作",
+        "category": "软技能",
+        "count": 3,
+        "denominator": 10,
+        "frequency": 0.3,
+        "salaryBands": {
+          "30K": 1,
+          "50K": 0,
+          "100K": 2
+        },
+        "evidenceJobs": [
+          {
+            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
+            "title": "AI语音算法",
+            "company": "飞声医疗",
+            "salaryText": "70-100K·14薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          },
+          {
+            "id": "boss-1ed35a5c9f7e6fbe0ndy3d66ElNS",
+            "title": "AI Agent大模型算法专家",
+            "company": "vivo",
+            "salaryText": "70-90K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/1ed35a5c9f7e6fbe0ndy3d66ElNS.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          },
+          {
+            "id": "boss-a026b790933817a10nF829--FFRY",
+            "title": "海外运营总监",
+            "company": "深圳大正动力科技",
+            "salaryText": "20-40K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/a026b790933817a10nF829--FFRY.html",
+            "capturedAt": "2026-07-15T00:48:34+08:00",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
         "name": "计算机视觉",
         "category": "专业技能",
         "count": 2,
-        "denominator": 7,
-        "frequency": 0.286,
+        "denominator": 10,
+        "frequency": 0.2,
         "salaryBands": {
           "30K": 0,
           "50K": 0,
@@ -1514,15 +1677,15 @@
         ]
       },
       {
-        "name": "跨团队协作",
-        "category": "软技能",
+        "name": "数据、实验与评测",
+        "category": "数据能力",
         "count": 2,
-        "denominator": 7,
-        "frequency": 0.286,
+        "denominator": 10,
+        "frequency": 0.2,
         "salaryBands": {
-          "30K": 0,
+          "30K": 1,
           "50K": 0,
-          "100K": 2
+          "100K": 1
         },
         "evidenceJobs": [
           {
@@ -1535,13 +1698,13 @@
             "evidenceLevel": "boss-detail"
           },
           {
-            "id": "boss-1ed35a5c9f7e6fbe0ndy3d66ElNS",
-            "title": "AI Agent大模型算法专家",
-            "company": "vivo",
-            "salaryText": "70-90K",
-            "sourceUrl": "https://www.zhipin.com/job_detail/1ed35a5c9f7e6fbe0ndy3d66ElNS.html",
-            "capturedAt": "2026-07-12T21:13:08.537Z",
-            "evidenceLevel": "boss-listing-plus-detail"
+            "id": "boss-a026b790933817a10nF829--FFRY",
+            "title": "海外运营总监",
+            "company": "深圳大正动力科技",
+            "salaryText": "20-40K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/a026b790933817a10nF829--FFRY.html",
+            "capturedAt": "2026-07-15T00:48:34+08:00",
+            "evidenceLevel": "boss-detail"
           }
         ]
       },
@@ -1549,8 +1712,8 @@
         "name": "语音与信号处理",
         "category": "专业技能",
         "count": 2,
-        "denominator": 7,
-        "frequency": 0.286,
+        "denominator": 10,
+        "frequency": 0.2,
         "salaryBands": {
           "30K": 0,
           "50K": 0,
@@ -1581,31 +1744,8 @@
         "name": "深度学习框架",
         "category": "AI 工具",
         "count": 1,
-        "denominator": 7,
-        "frequency": 0.143,
-        "salaryBands": {
-          "30K": 0,
-          "50K": 0,
-          "100K": 1
-        },
-        "evidenceJobs": [
-          {
-            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
-            "title": "AI语音算法",
-            "company": "飞声医疗",
-            "salaryText": "70-100K·14薪",
-            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
-            "capturedAt": "2026-07-12T21:13:08.537Z",
-            "evidenceLevel": "boss-detail"
-          }
-        ]
-      },
-      {
-        "name": "数据、实验与评测",
-        "category": "数据能力",
-        "count": 1,
-        "denominator": 7,
-        "frequency": 0.143,
+        "denominator": 10,
+        "frequency": 0.1,
         "salaryBands": {
           "30K": 0,
           "50K": 0,
@@ -1627,8 +1767,8 @@
         "name": "C++",
         "category": "专业技能",
         "count": 1,
-        "denominator": 7,
-        "frequency": 0.143,
+        "denominator": 10,
+        "frequency": 0.1,
         "salaryBands": {
           "30K": 0,
           "50K": 0,
@@ -1650,8 +1790,8 @@
         "name": "Python",
         "category": "专业技能",
         "count": 1,
-        "denominator": 7,
-        "frequency": 0.143,
+        "denominator": 10,
+        "frequency": 0.1,
         "salaryBands": {
           "30K": 0,
           "50K": 0,
@@ -1674,7 +1814,7 @@
       {
         "pair": "机器人控制 + 行业经验",
         "count": 3,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -1709,7 +1849,7 @@
       {
         "pair": "强化学习 + 机器人控制",
         "count": 3,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -1744,7 +1884,7 @@
       {
         "pair": "强化学习 + 行业经验",
         "count": 3,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -1779,7 +1919,7 @@
       {
         "pair": "主导与路线责任 + 强化学习",
         "count": 3,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -1812,9 +1952,44 @@
         ]
       },
       {
+        "pair": "主导与路线责任 + 行业经验",
+        "count": 3,
+        "denominator": 10,
+        "publishable": true,
+        "evidenceJobs": [
+          {
+            "id": "boss-07127b18e9f769e00nd70tq1FFpY",
+            "title": "强化运控算法联创&组长&专家深圳上海北京等",
+            "company": "芯宇全球",
+            "salaryText": "100-200K·24薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/07127b18e9f769e00nd70tq1FFpY.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          },
+          {
+            "id": "boss-535998b31709c38f03d60t28ElRT",
+            "title": "强化学习专家",
+            "company": "魔法原子",
+            "salaryText": "70-100K·15薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/535998b31709c38f03d60t28ElRT.html",
+            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "evidenceLevel": "boss-detail"
+          },
+          {
+            "id": "boss-a026b790933817a10nF829--FFRY",
+            "title": "海外运营总监",
+            "company": "深圳大正动力科技",
+            "salaryText": "20-40K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/a026b790933817a10nF829--FFRY.html",
+            "capturedAt": "2026-07-15T00:48:34+08:00",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
         "pair": "大模型与 Agent + 工程部署与性能优化",
         "count": 2,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -1840,7 +2015,7 @@
       {
         "pair": "大模型与 Agent + 计算机视觉",
         "count": 2,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -1866,7 +2041,7 @@
       {
         "pair": "工程部署与性能优化 + 跨团队协作",
         "count": 2,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -1890,9 +2065,113 @@
         ]
       },
       {
+        "pair": "工程部署与性能优化 + 行业经验",
+        "count": 2,
+        "denominator": 10,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
+            "title": "AI语音算法",
+            "company": "飞声医疗",
+            "salaryText": "70-100K·14薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          },
+          {
+            "id": "boss-faa545dad79192be0nF82dq9FFFU",
+            "title": "年薪30-50万】用户增长运营/独立站运营经理",
+            "company": "三只蚂蚁",
+            "salaryText": "30-50K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/faa545dad79192be0nF82dq9FFFU.html",
+            "capturedAt": "2026-07-15T00:48:34+08:00",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "pair": "数据、实验与评测 + 跨团队协作",
+        "count": 2,
+        "denominator": 10,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
+            "title": "AI语音算法",
+            "company": "飞声医疗",
+            "salaryText": "70-100K·14薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          },
+          {
+            "id": "boss-a026b790933817a10nF829--FFRY",
+            "title": "海外运营总监",
+            "company": "深圳大正动力科技",
+            "salaryText": "20-40K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/a026b790933817a10nF829--FFRY.html",
+            "capturedAt": "2026-07-15T00:48:34+08:00",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "pair": "数据、实验与评测 + 行业经验",
+        "count": 2,
+        "denominator": 10,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
+            "title": "AI语音算法",
+            "company": "飞声医疗",
+            "salaryText": "70-100K·14薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          },
+          {
+            "id": "boss-a026b790933817a10nF829--FFRY",
+            "title": "海外运营总监",
+            "company": "深圳大正动力科技",
+            "salaryText": "20-40K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/a026b790933817a10nF829--FFRY.html",
+            "capturedAt": "2026-07-15T00:48:34+08:00",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
+        "pair": "行业经验 + 跨团队协作",
+        "count": 2,
+        "denominator": 10,
+        "publishable": false,
+        "evidenceJobs": [
+          {
+            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
+            "title": "AI语音算法",
+            "company": "飞声医疗",
+            "salaryText": "70-100K·14薪",
+            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          },
+          {
+            "id": "boss-a026b790933817a10nF829--FFRY",
+            "title": "海外运营总监",
+            "company": "深圳大正动力科技",
+            "salaryText": "20-40K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/a026b790933817a10nF829--FFRY.html",
+            "capturedAt": "2026-07-15T00:48:34+08:00",
+            "evidenceLevel": "boss-detail"
+          }
+        ]
+      },
+      {
         "pair": "主导与路线责任 + 大模型与 Agent",
         "count": 2,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -1918,7 +2197,7 @@
       {
         "pair": "主导与路线责任 + 工程部署与性能优化",
         "count": 2,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -1944,7 +2223,7 @@
       {
         "pair": "主导与路线责任 + 机器人控制",
         "count": 2,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -1968,27 +2247,27 @@
         ]
       },
       {
-        "pair": "主导与路线责任 + 行业经验",
+        "pair": "主导与路线责任 + 跨团队协作",
         "count": 2,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
-            "id": "boss-07127b18e9f769e00nd70tq1FFpY",
-            "title": "强化运控算法联创&组长&专家深圳上海北京等",
-            "company": "芯宇全球",
-            "salaryText": "100-200K·24薪",
-            "sourceUrl": "https://www.zhipin.com/job_detail/07127b18e9f769e00nd70tq1FFpY.html",
-            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "id": "boss-1ed35a5c9f7e6fbe0ndy3d66ElNS",
+            "title": "AI Agent大模型算法专家",
+            "company": "vivo",
+            "salaryText": "70-90K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/1ed35a5c9f7e6fbe0ndy3d66ElNS.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
             "evidenceLevel": "boss-listing-plus-detail"
           },
           {
-            "id": "boss-535998b31709c38f03d60t28ElRT",
-            "title": "强化学习专家",
-            "company": "魔法原子",
-            "salaryText": "70-100K·15薪",
-            "sourceUrl": "https://www.zhipin.com/job_detail/535998b31709c38f03d60t28ElRT.html",
-            "capturedAt": "2026-07-12T21:13:54.464Z",
+            "id": "boss-a026b790933817a10nF829--FFRY",
+            "title": "海外运营总监",
+            "company": "深圳大正动力科技",
+            "salaryText": "20-40K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/a026b790933817a10nF829--FFRY.html",
+            "capturedAt": "2026-07-15T00:48:34+08:00",
             "evidenceLevel": "boss-detail"
           }
         ]
@@ -1996,7 +2275,7 @@
       {
         "pair": "大模型与 Agent + 跨团队协作",
         "count": 1,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -2013,7 +2292,7 @@
       {
         "pair": "大模型与 Agent + 强化学习",
         "count": 1,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -2030,7 +2309,7 @@
       {
         "pair": "大模型与 Agent + 语音与信号处理",
         "count": 1,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -2047,7 +2326,7 @@
       {
         "pair": "工程部署与性能优化 + 计算机视觉",
         "count": 1,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -2064,7 +2343,7 @@
       {
         "pair": "工程部署与性能优化 + 强化学习",
         "count": 1,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -2081,7 +2360,7 @@
       {
         "pair": "工程部署与性能优化 + 深度学习框架",
         "count": 1,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -2098,24 +2377,7 @@
       {
         "pair": "工程部署与性能优化 + 数据、实验与评测",
         "count": 1,
-        "denominator": 7,
-        "publishable": false,
-        "evidenceJobs": [
-          {
-            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
-            "title": "AI语音算法",
-            "company": "飞声医疗",
-            "salaryText": "70-100K·14薪",
-            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
-            "capturedAt": "2026-07-12T21:13:08.537Z",
-            "evidenceLevel": "boss-detail"
-          }
-        ]
-      },
-      {
-        "pair": "工程部署与性能优化 + 行业经验",
-        "count": 1,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -2132,7 +2394,7 @@
       {
         "pair": "工程部署与性能优化 + 语音与信号处理",
         "count": 1,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -2149,7 +2411,7 @@
       {
         "pair": "计算机视觉 + 语音与信号处理",
         "count": 1,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -2166,7 +2428,7 @@
       {
         "pair": "强化学习 + 跨团队协作",
         "count": 1,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -2183,7 +2445,7 @@
       {
         "pair": "深度学习框架 + 跨团队协作",
         "count": 1,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -2200,7 +2462,7 @@
       {
         "pair": "深度学习框架 + 行业经验",
         "count": 1,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -2217,24 +2479,7 @@
       {
         "pair": "深度学习框架 + 语音与信号处理",
         "count": 1,
-        "denominator": 7,
-        "publishable": false,
-        "evidenceJobs": [
-          {
-            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
-            "title": "AI语音算法",
-            "company": "飞声医疗",
-            "salaryText": "70-100K·14薪",
-            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
-            "capturedAt": "2026-07-12T21:13:08.537Z",
-            "evidenceLevel": "boss-detail"
-          }
-        ]
-      },
-      {
-        "pair": "数据、实验与评测 + 跨团队协作",
-        "count": 1,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -2251,24 +2496,7 @@
       {
         "pair": "数据、实验与评测 + 深度学习框架",
         "count": 1,
-        "denominator": 7,
-        "publishable": false,
-        "evidenceJobs": [
-          {
-            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
-            "title": "AI语音算法",
-            "company": "飞声医疗",
-            "salaryText": "70-100K·14薪",
-            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
-            "capturedAt": "2026-07-12T21:13:08.537Z",
-            "evidenceLevel": "boss-detail"
-          }
-        ]
-      },
-      {
-        "pair": "数据、实验与评测 + 行业经验",
-        "count": 1,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -2285,24 +2513,7 @@
       {
         "pair": "数据、实验与评测 + 语音与信号处理",
         "count": 1,
-        "denominator": 7,
-        "publishable": false,
-        "evidenceJobs": [
-          {
-            "id": "boss-024152e507fcd0700nRz09-1E1FZ",
-            "title": "AI语音算法",
-            "company": "飞声医疗",
-            "salaryText": "70-100K·14薪",
-            "sourceUrl": "https://www.zhipin.com/job_detail/024152e507fcd0700nRz09-1E1FZ.html",
-            "capturedAt": "2026-07-12T21:13:08.537Z",
-            "evidenceLevel": "boss-detail"
-          }
-        ]
-      },
-      {
-        "pair": "行业经验 + 跨团队协作",
-        "count": 1,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -2319,7 +2530,7 @@
       {
         "pair": "行业经验 + 语音与信号处理",
         "count": 1,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -2336,7 +2547,7 @@
       {
         "pair": "语音与信号处理 + 跨团队协作",
         "count": 1,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -2353,7 +2564,7 @@
       {
         "pair": "主导与路线责任 + 计算机视觉",
         "count": 1,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -2368,26 +2579,26 @@
         ]
       },
       {
-        "pair": "主导与路线责任 + 跨团队协作",
+        "pair": "主导与路线责任 + 数据、实验与评测",
         "count": 1,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
-            "id": "boss-1ed35a5c9f7e6fbe0ndy3d66ElNS",
-            "title": "AI Agent大模型算法专家",
-            "company": "vivo",
-            "salaryText": "70-90K",
-            "sourceUrl": "https://www.zhipin.com/job_detail/1ed35a5c9f7e6fbe0ndy3d66ElNS.html",
-            "capturedAt": "2026-07-12T21:13:08.537Z",
-            "evidenceLevel": "boss-listing-plus-detail"
+            "id": "boss-a026b790933817a10nF829--FFRY",
+            "title": "海外运营总监",
+            "company": "深圳大正动力科技",
+            "salaryText": "20-40K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/a026b790933817a10nF829--FFRY.html",
+            "capturedAt": "2026-07-15T00:48:34+08:00",
+            "evidenceLevel": "boss-detail"
           }
         ]
       },
       {
         "pair": "C++ + 机器人控制",
         "count": 1,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -2404,7 +2615,7 @@
       {
         "pair": "C++ + 强化学习",
         "count": 1,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -2421,7 +2632,7 @@
       {
         "pair": "C++ + 行业经验",
         "count": 1,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -2438,7 +2649,7 @@
       {
         "pair": "C++ + Python",
         "count": 1,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -2455,7 +2666,7 @@
       {
         "pair": "Python + 机器人控制",
         "count": 1,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -2472,7 +2683,7 @@
       {
         "pair": "Python + 强化学习",
         "count": 1,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -2489,7 +2700,7 @@
       {
         "pair": "Python + 行业经验",
         "count": 1,
-        "denominator": 7,
+        "denominator": 10,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -2635,14 +2846,14 @@
   "salaryBands": [
     {
       "band": "30K",
-      "count": 32,
-      "detailCount": 0,
+      "count": 34,
+      "detailCount": 2,
       "medianMid": 30
     },
     {
       "band": "50K",
-      "count": 32,
-      "detailCount": 0,
+      "count": 33,
+      "detailCount": 1,
       "medianMid": 52.5
     },
     {
@@ -2653,15 +2864,15 @@
     }
   ],
   "marketProfile": {
-    "denominator": 71,
+    "denominator": 74,
     "salaryBands": [
       {
         "name": "30K",
-        "count": 32
+        "count": 34
       },
       {
         "name": "50K",
-        "count": 32
+        "count": 33
       },
       {
         "name": "100K",
@@ -2710,6 +2921,10 @@
         "count": 2
       },
       {
+        "name": "未公开",
+        "count": 2
+      },
+      {
         "name": "医疗健康",
         "count": 2
       },
@@ -2723,6 +2938,10 @@
       },
       {
         "name": "电子/半导体/集成电路",
+        "count": 1
+      },
+      {
+        "name": "互联网（猎头发布）",
         "count": 1
       },
       {
@@ -2765,15 +2984,15 @@
     "districts": [
       {
         "name": "南山区",
-        "count": 38
+        "count": 39
       },
       {
         "name": "深圳",
-        "count": 10
+        "count": 11
       },
       {
         "name": "宝安区",
-        "count": 8
+        "count": 9
       },
       {
         "name": "龙岗区",
@@ -2803,15 +3022,15 @@
     "experience": [
       {
         "name": "3-5年",
-        "count": 24
+        "count": 25
       },
       {
         "name": "经验不限",
-        "count": 18
+        "count": 19
       },
       {
         "name": "1-3年",
-        "count": 14
+        "count": 15
       },
       {
         "name": "5-10年",
@@ -2833,11 +3052,15 @@
       },
       {
         "name": "本科",
-        "count": 29
+        "count": 30
       },
       {
         "name": "博士",
         "count": 4
+      },
+      {
+        "name": "学历不限",
+        "count": 2
       }
     ],
     "statement": "这是当前真实样本的内部结构，不代表 Boss 深圳全量岗位分布。"
@@ -2854,6 +3077,12 @@
       "detailCount": 3,
       "companyCount": 3,
       "salaryBandCount": 3
+    },
+    {
+      "role": "其他专业岗位",
+      "detailCount": 3,
+      "companyCount": 3,
+      "salaryBandCount": 2
     },
     {
       "role": "语音、音频与信号算法",
@@ -2893,10 +3122,11 @@
     }
   ],
   "timeSeries": {
-    "available": false,
+    "available": true,
     "dates": [
-      "2026-07-12"
+      "2026-07-12",
+      "2026-07-15"
     ],
-    "statement": "只有一个采集日期，不能判断薪资上涨、下降或持续扩招。"
+    "statement": "已具备跨日期岗位快照，可开始做同岗可比变化。"
   }
 }

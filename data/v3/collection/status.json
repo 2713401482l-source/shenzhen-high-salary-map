@@ -1,9 +1,11 @@
 {
-  "status": "paused-platform-risk",
+  "status": "paused-after-safe-batch",
   "pausedAt": "2026-07-13T19:40:00+08:00",
-  "lastCheckedAt": "2026-07-14T00:51:47+08:00",
+  "lastCheckedAt": "2026-07-15T00:48:34+08:00",
   "expectedRecoveryAt": "2026-07-14T18:57:00+08:00",
-  "reason": "单次检查仍返回 code=32，页面明确显示账号和 IP 暂时受限，并要求不要频繁刷新。",
-  "nextAction": "恢复时间前不再访问 Boss；继续完成产品正式态。恢复后先做一次低频人工确认，再决定是否恢复采集。",
-  "bossAccessAllowed": false
+  "reason": "已用低频人工方式完成一个安全批次：两个关键词各一页，仅打开 3 个符合门槛的详情；未出现 403、验证码或访问频繁提示。",
+  "nextAction": "本批已主动停止。下次采集继续遵守单关键词、单页、少量详情的节奏；遇到 403、验证码或访问频繁提示立即停止。",
+  "bossAccessAllowed": true,
+  "resumedAt": "2026-07-14T23:59:04+08:00",
+  "pausedAfterBatchAt": "2026-07-15T00:48:34+08:00"
 }

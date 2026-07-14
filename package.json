@@ -31,10 +31,11 @@
     "v3:gaps-check": "node scripts/v3-validate-gap-report.mjs",
     "v3:product-check": "node scripts/v3-validate-product.mjs",
     "v3:collection-check": "node scripts/v3-collection-check.mjs",
+    "v3:completion-audit": "node scripts/v3-completion-audit.mjs",
     "v3:queue-report": "node scripts/v3-queue-report.mjs",
     "v3:import-snapshot": "node scripts/v3-import-manual-snapshot.mjs",
     "typecheck": "tsc --noEmit",
-    "verify": "npm run check && npm run analysis:validate && npm run v3:validate && npm run v3:analyze && npm run v3:analysis-check && npm run v3:gaps && npm run v3:gaps-check && npm run v3:product-check && npm run v3:collection-check && npm run typecheck && npm run build && npm audit --omit=dev"
+    "verify": "npm run check && npm run analysis:validate && npm run v3:validate && npm run v3:analyze && npm run v3:analysis-check && npm run v3:gaps && npm run v3:gaps-check && npm run v3:completion-audit && npm run v3:product-check && npm run v3:collection-check && npm run typecheck && npm run build && npm audit --omit=dev"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.4.1",

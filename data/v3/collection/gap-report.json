@@ -1,8 +1,8 @@
 {
   "metadata": {
     "dataKind": "collection-gap-report",
-    "generatedFromLatestCapture": "2026-07-12T21:13:54.464Z",
-    "bossAccessAllowed": false,
+    "generatedFromLatestCapture": "2026-07-15T00:48:34+08:00",
+    "bossAccessAllowed": true,
     "sourceFiles": [
       "data/v3/config/collection-plan.json",
       "data/v3/collection/query-queue.json",
@@ -13,36 +13,36 @@
   },
   "totals": {
     "discovery": {
-      "actual": 71,
+      "actual": 74,
       "target": 300,
-      "gap": 229
+      "gap": 226
     },
     "detailEvidence": {
-      "actual": 7,
+      "actual": 10,
       "target": 150,
-      "gap": 143
+      "gap": 140
     },
-    "assignedToV3Queue": 0,
+    "assignedToV3Queue": 3,
     "legacyUnassigned": 71
   },
   "salaryBands": [
     {
       "band": "30K",
-      "actual": 32,
+      "actual": 34,
       "target": 50,
-      "gap": 18,
-      "detailActual": 0,
+      "gap": 16,
+      "detailActual": 2,
       "detailTarget": 50,
-      "detailGap": 50
+      "detailGap": 48
     },
     {
       "band": "50K",
-      "actual": 32,
+      "actual": 33,
       "target": 50,
-      "gap": 18,
-      "detailActual": 0,
+      "gap": 17,
+      "detailActual": 1,
       "detailTarget": 50,
-      "detailGap": 50
+      "detailGap": 49
     },
     {
       "band": "100K",
@@ -55,15 +55,6 @@
     }
   ],
   "lanes": [
-    {
-      "id": "overseas-growth",
-      "label": "海外与跨境增长",
-      "actual": 0,
-      "target": 45,
-      "gap": 45,
-      "queriesCaptured": 0,
-      "queriesTotal": 9
-    },
     {
       "id": "frontier-tech",
       "label": "前沿技术研发",
@@ -144,6 +135,15 @@
       "gap": 25,
       "queriesCaptured": 0,
       "queriesTotal": 7
+    },
+    {
+      "id": "overseas-growth",
+      "label": "海外与跨境增长",
+      "actual": 3,
+      "target": 45,
+      "gap": 42,
+      "queriesCaptured": 1,
+      "queriesTotal": 9
     }
   ],
   "benchmark": {
@@ -154,13 +154,6 @@
     "currentFamilyJobs": 25
   },
   "priorityQueries": [
-    {
-      "id": "overseas-growth-01",
-      "laneId": "overseas-growth",
-      "laneLabel": "海外与跨境增长",
-      "query": "海外运营",
-      "reason": "海外与跨境增长当前新队列归档 0/45 条"
-    },
     {
       "id": "frontier-tech-01",
       "laneId": "frontier-tech",
@@ -223,16 +216,22 @@
       "laneLabel": "品牌与新消费",
       "query": "品牌策略",
       "reason": "品牌与新消费当前新队列归档 0/25 条"
+    },
+    {
+      "id": "overseas-growth-03",
+      "laneId": "overseas-growth",
+      "laneLabel": "海外与跨境增长",
+      "query": "国际化运营",
+      "reason": "海外与跨境增长当前新队列归档 3/45 条"
     }
   ],
   "publicationBlockers": [
-    "30K 总样本还差 18 条",
-    "50K 总样本还差 18 条",
+    "30K 总样本还差 16 条",
+    "50K 总样本还差 17 条",
     "100K 总样本还差 43 条",
-    "30K 详情证据还差 50 条",
-    "50K 详情证据还差 50 条",
+    "30K 详情证据还差 48 条",
+    "50K 详情证据还差 49 条",
     "100K 详情证据还差 43 条",
-    "单岗对标“机器人强化学习与运动控制”还差 47 条详情证据",
-    "还缺至少一个不同日期的可比快照，不能判断薪资变化或持续扩招"
+    "单岗对标“机器人强化学习与运动控制”还差 47 条详情证据"
   ]
 }

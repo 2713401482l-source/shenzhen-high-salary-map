@@ -1,0 +1,65 @@
+{
+  "snapshotId": "2026-07-15-overseas-growth-authenticated",
+  "queryId": "overseas-growth-02",
+  "query": "海外增长",
+  "city": "深圳",
+  "capturedAt": "2026-07-15T00:48:34+08:00",
+  "sourcePage": "https://www.zhipin.com/web/geek/jobs?city=101280600&query=%E6%B5%B7%E5%A4%96%E5%A2%9E%E9%95%BF",
+  "captureMethod": "low-frequency-manual-browser",
+  "accessState": {
+    "authenticated": true,
+    "salaryVisible": true,
+    "detailTextVisible": true,
+    "restricted": false
+  },
+  "resultSummary": {
+    "visibleListings": 15,
+    "eligibleHighSalaryListings": 3,
+    "detailVerifiedListings": 3,
+    "conclusion": "“海外增长”比宽泛的“海外运营”更容易命中高薪职责，首屏出现 3 条触达约 30K 的岗位，分别偏向独立站与达人增长、全渠道用户增长、海外经营管理。"
+  },
+  "observations": [
+    {
+      "bossJobId": "faa545dad79192be0nF82dq9FFFU",
+      "title": "年薪30-50万】用户增长运营/独立站运营经理",
+      "company": "三只蚂蚁",
+      "location": "深圳·宝安区",
+      "industry": "未公开",
+      "salaryText": "30-50K",
+      "sourceUrl": "https://www.zhipin.com/job_detail/faa545dad79192be0nF82dq9FFFU.html",
+      "evidenceLevel": "boss-authenticated-detail",
+      "descriptionText": "独立站运营、海外用户运营、Discord 社群、海外达人营销、UGC Creator、英语读写及 Shopify/WordPress。"
+    },
+    {
+      "bossJobId": "b6aff7c3ee9ea8f50nBy39-4EFNZ",
+      "title": "海外用户增长负责人",
+      "company": "某互联网公司（猎头发布）",
+      "location": "深圳",
+      "industry": "互联网（猎头发布）",
+      "salaryText": "20-40K·15薪",
+      "sourceUrl": "https://www.zhipin.com/job_detail/b6aff7c3ee9ea8f50nBy39-4EFNZ.html",
+      "evidenceLevel": "boss-authenticated-detail",
+      "descriptionText": "海外市场研究、SEO、KOL、X/Discord/Reddit 内容增长、Google/Meta/TikTok 投放、裂变与社区运营。"
+    },
+    {
+      "bossJobId": "a026b790933817a10nF829--FFRY",
+      "title": "海外运营总监",
+      "company": "深圳大正动力科技",
+      "location": "深圳·南山区",
+      "industry": "未公开",
+      "salaryText": "20-40K",
+      "sourceUrl": "https://www.zhipin.com/job_detail/a026b790933817a10nF829--FFRY.html",
+      "evidenceLevel": "boss-authenticated-detail",
+      "descriptionText": "海外经营与利润、跨境电商平台、经销渠道、品牌内容、达人合作、广告投放、团队建设和数据复盘。"
+    }
+  ],
+  "analysisEligibility": {
+    "roleDiscovery": true,
+    "salaryAnalysis": true,
+    "formalHighSalarySample": true,
+    "skillFrequency": true,
+    "benchmarkCorpus": true,
+    "reason": "3 条岗位均已在登录状态下逐条打开 Boss 详情页，核对薪资、公司、地点与完整职责要求。"
+  },
+  "safetyStop": "完成这 3 条详情核验后停止本轮 Boss 操作；未翻页、未并发、未继续搜索第三个关键词。"
+}

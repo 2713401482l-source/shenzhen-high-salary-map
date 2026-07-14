@@ -7,7 +7,7 @@ const queue = JSON.parse(await fs.readFile(path.join(root, 'collection/query-que
 const observationDir = path.join(root, 'observations');
 const observationFiles = (await fs.readdir(observationDir)).filter(file => file.endsWith('.json')).sort();
 const demo = JSON.parse(await fs.readFile(path.join(root, 'demo/page-logic-demo.json'), 'utf8'));
-const allowedStatuses = new Set(['queued', 'collected', 'blocked-salary-auth', 'blocked-verification', 'exhausted']);
+const allowedStatuses = new Set(['queued', 'collected', 'captured-manual', 'blocked-salary-auth', 'blocked-verification', 'exhausted']);
 const queryIds = new Set();
 const globalObservationIds = new Set();
 let failures = 0;
@@ -37,7 +37,10 @@ for (const file of observationFiles) {
   const batch = JSON.parse(await fs.readFile(path.join(observationDir, file), 'utf8'));
   if (!queryIds.has(batch.queryId)) fail(`${file}: unknown queryId ${batch.queryId}`);
   if (batch.city !== '深圳') fail(`${file}: city must be 深圳`);
-  if (!Array.isArray(batch.observations) || !batch.observations.length) fail(`${file}: observations must be a non-empty array`);
+  if (!Array.isArray(batch.observations)) fail(`${file}: observations must be an array`);
+  if (Array.isArray(batch.observations) && !batch.observations.length && batch.resultSummary?.eligibleHighSalaryListings !== 0) {
+    fail(`${file}: an empty observation batch must explicitly record zero eligible high-salary listings`);
+  }
   if (!batch.accessState || typeof batch.accessState.salaryVisible !== 'boolean') fail(`${file}: missing accessState.salaryVisible`);
   if (!batch.analysisEligibility) fail(`${file}: missing analysisEligibility`);
 

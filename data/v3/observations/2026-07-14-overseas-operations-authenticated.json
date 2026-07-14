@@ -1,0 +1,40 @@
+{
+  "snapshotId": "2026-07-14-overseas-operations-authenticated",
+  "queryId": "overseas-growth-01",
+  "query": "海外运营",
+  "city": "深圳",
+  "capturedAt": "2026-07-14T23:59:04+08:00",
+  "sourcePage": "https://www.zhipin.com/web/geek/jobs?query=%E6%B5%B7%E5%A4%96%E8%BF%90%E8%90%A5&city=101280600&industry=&position=",
+  "captureMethod": "low-frequency-manual-browser",
+  "accessState": {
+    "authenticated": true,
+    "salaryVisible": true,
+    "detailTextVisible": true,
+    "restricted": false
+  },
+  "resultSummary": {
+    "visibleListings": 15,
+    "monthlySalaryListings": 13,
+    "internshipDayRateListings": 2,
+    "eligibleHighSalaryListings": 0,
+    "highestVisibleMonthlySalary": "20-23K",
+    "conclusion": "宽泛关键词“海外运营”的首屏结果以执行层社媒和专员岗位为主，本批没有触达约 30K 的有效高薪样本。"
+  },
+  "visibleExamples": [
+    {"title": "海外社媒运营-欧美女装-双休", "salaryText": "10-15K"},
+    {"title": "国外社媒运营专员", "salaryText": "9-14K"},
+    {"title": "海外达人运营", "salaryText": "20-23K"},
+    {"title": "海外运营（欧美市场&双休）", "salaryText": "12-15K"},
+    {"title": "海外社媒运营（TikTok和Instagram）", "salaryText": "8-12K"},
+    {"title": "海外运营/速卖通/TikTok/Ozon 跨境运营", "salaryText": "8-13K"}
+  ],
+  "observations": [],
+  "analysisEligibility": {
+    "roleDiscovery": true,
+    "salaryAnalysis": true,
+    "formalHighSalarySample": false,
+    "skillFrequency": false,
+    "benchmarkCorpus": false,
+    "reason": "本批薪资均未触达约 30K；只保留为关键词质量与市场分层证据，不写入正式高薪岗位库。"
+  }
+}
