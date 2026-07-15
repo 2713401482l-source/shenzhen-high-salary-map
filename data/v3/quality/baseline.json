@@ -1,32 +1,32 @@
 {
-  "generatedAt": "2026-07-15T14:54:52.469Z",
+  "generatedAt": "2026-07-15T15:13:16.961Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 112,
-    "verifiedDetailJobs": 43,
+    "usableJobs": 113,
+    "verifiedDetailJobs": 44,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 45,
-    "uniqueCompanies": 107,
-    "uniqueRawTitles": 100,
+    "fullRequirementJobs": 46,
+    "uniqueCompanies": 108,
+    "uniqueRawTitles": 101,
     "captureDates": 2
   },
   "distributions": {
     "salaryBands": {
-      "50K": 51,
+      "50K": 52,
       "30K": 48,
       "100K": 13
     },
     "evidenceLevels": {
       "boss-listing": 67,
-      "public-platform-detail": 34,
+      "public-platform-detail": 35,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3
     },
     "captureDates": {
       "2026-07-12": 71,
-      "2026-07-15": 41
+      "2026-07-15": 42
     },
     "industries": {
       "计算机软件": 12,
@@ -55,6 +55,7 @@
       "电子商务/3C零售": 1,
       "电子商务/消费品": 1,
       "动力电池/新能源": 1,
+      "房地产开发经营/产业园运营/物业管理": 1,
       "工业自动化/机器人/专用设备制造": 1,
       "互联网（猎头发布）": 1,
       "互联网电商/综合商贸": 1,
@@ -86,7 +87,7 @@
       "自动化设备": 1
     },
     "districts": {
-      "南山区": 53,
+      "南山区": 54,
       "宝安区": 17,
       "深圳": 11,
       "龙华区": 9,
@@ -129,12 +130,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 112,
+      "current": 113,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 43,
+      "current": 44,
       "required": 240,
       "passed": false
     },
@@ -153,7 +154,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "43/112 条完成详情核验",
+      "evidence": "44/113 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {

@@ -2630,6 +2630,81 @@
     "duplicateFingerprint": "432ba88549233d845f1c"
   },
   {
+    "id": "zhaopin-c8bb43e6c50dbc6617e8",
+    "sourceJobId": "CC351729710J40700491101",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "AI高级产品经理",
+    "company": "深圳市华丰世纪投资（集团）有限公司",
+    "salaryText": "30-50K",
+    "salaryMin": 30,
+    "salaryMax": 50,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "深圳市南山区华海金融创新中心A塔",
+    "industry": "房地产开发经营/产业园运营/物业管理",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionExcerpt": "结合行业趋势研究AI技术对商业模式的重塑，基于产业园区运营、招商和企业服务场景制定AI赋能解决方案，设计产品功能模块并平衡技术可行性与商业价值；研究AI在营销推广、自动化运营、个性化服务、成本优化等场景的应用，推动整体方案落地；通过用户调研、数据分析和模型效果监控优化产品，提升招商运营转化率与客户满意度。要求本科及以上学历，具备三年以上互联网或AI产品经验，",
+    "requirementText": "结合行业趋势研究AI技术对商业模式的重塑，基于产业园区运营、招商和企业服务场景制定AI赋能解决方案，设计产品功能模块并平衡技术可行性与商业价值；研究AI在营销推广、自动化运营、个性化服务、成本优化等场景的应用，推动整体方案落地；通过用户调研、数据分析和模型效果监控优化产品，提升招商运营转化率与客户满意度。要求本科及以上学历，具备三年以上互联网或AI产品经验，熟悉NLP、CV、推荐算法等AI模型基本原理和AI Agent应用场景，能够与技术团队深入沟通，具有商业模式创新、战略规划、市场洞察、数据驱动决策及复杂业务问题解决能力。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC351729710J40700491101.htm",
+    "capturedAt": "2026-07-15T23:11:00+08:00",
+    "verifiedAt": "2026-07-15T23:11:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://www.hfcentury.com/",
+      "corroboratingUrls": [
+        "https://www.hfcentury.com/",
+        "https://wy.hfcentury.com/huahaijinrongchuangxinzhongxin.html",
+        "https://www.hh-jr.cn/"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "missingPublicationDate"
+      ],
+      "reviewNotes": "智联独立岗位详情页未显示明确发布日期，因此不推测发布日期并保留缺失日期复核标记；采集时页面未显示失效，仍展示招聘1人、发布者沟通入口、公司17个在招职位、固定月薪30-50K、深圳南山区地址和完整职责要求，满足日期未知时以活跃详情页作为新鲜度证据的规则。华丰世纪集团官网与华海金融创新中心公开页面核验企业全称、产业园区运营业务及岗位办公项目。"
+    },
+    "duplicateFingerprint": "f7bdd0bcc7d0236f5d2d"
+  },
+  {
     "id": "zhaopin-dc10fa61809003cbc13f",
     "sourceJobId": "CC842705430J40863954601",
     "sourcePlatform": "zhaopin",
