@@ -3609,6 +3609,85 @@
     "duplicateFingerprint": "f7bdd0bcc7d0236f5d2d"
   },
   {
+    "id": "zhaopin-c8e3a2f97be71b5d803c",
+    "sourceJobId": "CC192921310J40785452509",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "无人机算法专家-E8924F",
+    "company": "京东集团",
+    "salaryText": "35-70K·16薪",
+    "salaryMin": 35,
+    "salaryMax": 70,
+    "salaryMonths": 16,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "深圳南山区前海壹号（卓越B座）",
+    "industry": "互联网电商、智慧物流与无人机",
+    "experience": "5-10年",
+    "education": "硕士",
+    "descriptionExcerpt": "主导无人机飞控系统总体设计，定义导航、控制和传感等子系统的技术需求与接口规范；统筹飞控软硬件架构，保障状态估计、路径规划等模块协同并解决系统兼容问题；推动冗余设计、时延优化等技术攻关，跟踪AI飞控趋势，主导系统联调测试与适航认证支持。要求控制科学、航空航天或自动化等相关专业本科及以上学历，五年以上飞控系统开发经验，熟悉PX4或ArduPilot平台，精通C/",
+    "requirementText": "主导无人机飞控系统总体设计，定义导航、控制和传感等子系统的技术需求与接口规范；统筹飞控软硬件架构，保障状态估计、路径规划等模块协同并解决系统兼容问题；推动冗余设计、时延优化等技术攻关，跟踪AI飞控趋势，主导系统联调测试与适航认证支持。要求控制科学、航空航天或自动化等相关专业本科及以上学历，五年以上飞控系统开发经验，熟悉PX4或ArduPilot平台，精通C/C++与嵌入式开发，掌握传感器融合和控制律设计；有高安全飞控项目经验或熟悉DO-178C适航标准者优先。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC192921310J40785452509.htm",
+    "capturedAt": "2026-07-16T03:12:00+08:00",
+    "publishedAt": "2026-07-16",
+    "verifiedAt": "2026-07-16T03:12:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 0
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://www.jd.com/",
+      "corroboratingUrls": [
+        "https://developer.jdcloud.com/jd-industry-news/article/446",
+        "https://www.jingdonglogistics.com/GlobalWarehouse_Services/%E4%BA%AC%E4%B8%9C%E7%89%A9%E6%B5%81%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C_%E4%B8%AD%E4%B8%9C.pdf"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "岗位详情页显示采集当天更新",
+        "岗位明确招聘1人并可立即投递",
+        "企业页面显示7388个在招职位",
+        "企业主体已审核且经营状态存续"
+      ],
+      "reviewNotes": "智联具体岗位详情页显示采集当天更新、固定月薪35-70K并单独标注16薪、深圳南山具体地址、招聘1人、可立即投递以及完整飞控系统职责与技术要求；发布主体为平台已审核的京东集团，而非匿名客户或猎头。京东云官方资料公开其无人机、无人车等智能物流技术布局，京东物流官方产品手册列有物流无人机产品，岗位职责与企业公开业务方向一致。未发现收费、付费培训、提成冒充固定月薪或地点矛盾。"
+    },
+    "duplicateFingerprint": "e8df24ba1b381cc5a647"
+  },
+  {
     "id": "zhaopin-db5d63ff947322b2ce05",
     "sourceJobId": "CCL1289947610J40859991011",
     "sourcePlatform": "zhaopin",

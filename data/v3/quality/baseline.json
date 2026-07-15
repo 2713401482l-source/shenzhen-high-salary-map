@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-07-15T18:53:41.346Z",
+  "generatedAt": "2026-07-15T19:36:44.628Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 129,
-    "verifiedDetailJobs": 60,
+    "usableJobs": 130,
+    "verifiedDetailJobs": 61,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 62,
+    "fullRequirementJobs": 63,
     "uniqueCompanies": 121,
-    "uniqueRawTitles": 117,
+    "uniqueRawTitles": 118,
     "captureDates": 3
   },
   "distributions": {
     "salaryBands": {
-      "50K": 58,
+      "50K": 59,
       "30K": 54,
       "100K": 17
     },
     "evidenceLevels": {
       "boss-listing": 67,
-      "public-platform-detail": 51,
+      "public-platform-detail": 52,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3
     },
     "captureDates": {
       "2026-07-12": 71,
       "2026-07-15": 46,
-      "2026-07-16": 12
+      "2026-07-16": 13
     },
     "industries": {
       "计算机软件": 12,
@@ -62,6 +62,7 @@
       "工业自动化/机器人/专用设备制造": 1,
       "核电、能源科技、企业软件": 1,
       "互联网（猎头发布）": 1,
+      "互联网电商、智慧物流与无人机": 1,
       "互联网电商/综合商贸": 1,
       "互联网社交/数字内容、企业协作软件、人工智能": 1,
       "互联网生活服务、软件/IT服务": 1,
@@ -104,7 +105,7 @@
       "自动化设备": 1
     },
     "districts": {
-      "南山区": 61,
+      "南山区": 62,
       "宝安区": 21,
       "龙华区": 11,
       "深圳": 11,
@@ -125,6 +126,10 @@
     {
       "company": "腾讯",
       "count": 3
+    },
+    {
+      "company": "京东集团",
+      "count": 2
     },
     {
       "company": "绿联科技",
@@ -159,12 +164,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 129,
+      "current": 130,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 60,
+      "current": 61,
       "required": 240,
       "passed": false
     },
@@ -183,7 +188,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "60/129 条完成详情核验",
+      "evidence": "61/130 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {
