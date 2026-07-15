@@ -1,0 +1,40 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-16T01:31:00+08:00",
+  "publishedAt": "2026-07-16",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC397028480J40995098604.htm",
+  "job": {
+    "sourceJobId": "CC397028480J40995098604",
+    "title": "机器人仿真数据工程师",
+    "company": "深圳市杰普特光电股份有限公司",
+    "salaryText": "18-35K",
+    "district": "龙华区",
+    "addressText": "深圳市龙华区观澜科兴科学园B座102",
+    "industry": "智能制造/机器人、半导体/芯片",
+    "experience": "1-3年",
+    "education": "硕士",
+    "descriptionText": "负责搭建与维护机器人仿真环境，用于算法验证、系统测试与数据生成；设计可扩展的仿真场景和任务环境，支持感知与学习模型训练评估；开发多场景、多参数、多扰动的自动化数据生成流程，与感知及学习团队定义仿真数据需求和评估标准；提升仿真与真实系统的一致性并支持Sim-to-Real探索，构建数据生成工具链，完成仿真环境与真实机器人系统接口对齐验证。要求机器人、计算机、图形学、仿真等相关专业硕士及以上学历，熟悉Isaac Sim、Gazebo、MuJoCo、Unity至少一种平台，具备Python或C++编程能力，理解机器人感知与控制原理，能独立构建仿真环境和自动化数据生成流程；有合成数据、物理引擎、传感器仿真、域随机化或机器人学习协作经验优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.jptoe.com/",
+    "corroboratingUrls": [
+      "https://www.jptoe.com/about/about-us",
+      "https://www.jptoe.com/contact-us",
+      "https://www.sse.com.cn/star/market/stocklist/info/company/index.shtml?COMPANY_CODE=688025"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "岗位页面显示招1人",
+      "公司页面显示132个在招职位",
+      "招聘发布者昨日活跃"
+    ],
+    "reviewNotes": "智联招聘独立岗位详情页在采集时有效，搜索索引显示7月16日更新；页面展示固定月薪18-35K、深圳龙华区、1-3年经验、硕士学历、完整职责要求及招1人，招聘发布者昨日活跃。杰普特官网、公司介绍、联系页和上交所科创板公司资料交叉核验企业全称、股票代码688025、深圳主体及激光光学与智能装备业务。"
+  }
+}

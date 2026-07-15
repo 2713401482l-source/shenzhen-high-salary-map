@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-07-15T16:54:16.062Z",
+  "generatedAt": "2026-07-15T17:35:11.993Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 122,
-    "verifiedDetailJobs": 53,
+    "usableJobs": 123,
+    "verifiedDetailJobs": 54,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 55,
+    "fullRequirementJobs": 56,
     "uniqueCompanies": 115,
-    "uniqueRawTitles": 110,
+    "uniqueRawTitles": 111,
     "captureDates": 3
   },
   "distributions": {
     "salaryBands": {
       "50K": 54,
-      "30K": 51,
+      "30K": 52,
       "100K": 17
     },
     "evidenceLevels": {
       "boss-listing": 67,
-      "public-platform-detail": 44,
+      "public-platform-detail": 45,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3
     },
     "captureDates": {
       "2026-07-12": 71,
       "2026-07-15": 46,
-      "2026-07-16": 5
+      "2026-07-16": 6
     },
     "industries": {
       "计算机软件": 12,
@@ -92,6 +92,7 @@
       "医药制造/生物制药/学术推广": 1,
       "证券/期货": 1,
       "智慧农业/人工智能": 1,
+      "智能制造/机器人、半导体/芯片": 1,
       "专用设备": 1,
       "咨询": 1,
       "自动化设备": 1
@@ -99,8 +100,8 @@
     "districts": {
       "南山区": 59,
       "宝安区": 18,
+      "龙华区": 11,
       "深圳": 11,
-      "龙华区": 10,
       "龙岗区": 9,
       "福田区": 6,
       "光明区": 6,
@@ -132,6 +133,10 @@
       "count": 2
     },
     {
+      "company": "深圳市杰普特光电股份有限公司",
+      "count": 2
+    },
+    {
       "company": "深圳市塞防科技有限公司",
       "count": 2
     },
@@ -148,12 +153,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 122,
+      "current": 123,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 53,
+      "current": 54,
       "required": 240,
       "passed": false
     },
@@ -172,7 +177,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "53/122 条完成详情核验",
+      "evidence": "54/123 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {
