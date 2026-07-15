@@ -1,0 +1,36 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-15T21:21:00+08:00",
+  "publishedAt": "2026-07-15",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC308841480J40644229609.htm",
+  "job": {
+    "sourceJobId": "CC308841480J40644229609",
+    "title": "销售副总/总经理",
+    "company": "深圳市诺峰光电设备有限公司",
+    "salaryText": "80-150K",
+    "district": "龙华区",
+    "addressText": "深圳龙华区诺峰科技园西门",
+    "industry": "半导体设备/工业自动化/智能制造",
+    "experience": "5-10年",
+    "education": "大专",
+    "descriptionText": "根据公司战略发展方向和年度经营目标统筹制定业务发展规划，带领销售团队完成客户开拓与销售计划；需要理解晶圆生产制造工艺流程，具备半导体设备或材料的销售与市场推广经验，熟悉清洗机、减薄机、CMP、刻蚀机、CVD等设备方向；能够对销售人员开展客户分析和战术指导，推动年度目标落地，并拥有与业务方向匹配的行业客户资源。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.sznuofeng.com/",
+    "corroboratingUrls": [
+      "https://www.sznuofeng.com/en/page-140663.html",
+      "https://www.nfwafer.com/",
+      "https://www.sznuofeng.com/page-26134.html"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [],
+    "reviewNotes": "智联具体岗位详情页显示采集当天更新、立即投递、招聘1人、固定月薪、深圳龙华具体地址以及与半导体设备销售管理一致的职责和经验要求；平台展示企业主体已审核、经营状态存续且有22个在招职位。诺峰光电官网核验公司全称、深圳观澜地址和智能装备业务，诺峰半导体官网进一步核验清洗、减薄、刻蚀等高端半导体设备方向，岗位描述与企业公开业务一致。"
+  }
+}
