@@ -1,0 +1,40 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-16T02:51:00+08:00",
+  "publishedAt": "2026-07-06",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC231175610J40849900007.htm",
+  "job": {
+    "sourceJobId": "CC231175610J40849900007",
+    "title": "海外销售总监/大区总",
+    "company": "深圳市创世纪机械有限公司",
+    "salaryText": "45-75K·14薪",
+    "district": "宝安区",
+    "addressText": "深圳市宝安区深圳市创世纪机械有限公司总部",
+    "industry": "通用设备制造、数控机床与智能装备",
+    "experience": "10年以上",
+    "education": "本科",
+    "descriptionText": "负责海外区域布局规划和销售目标达成，执行公司经营战略并建立海外销售策略、营销组织和管理体系，合理配置资源，制定年度、季度和月度销售计划并督导实施；负责海外人才培养和团队建设，拓展新产品及新市场，研判市场和竞争变化并推动产品开发；审核销售报表、组织渠道网络、推动客户转化和团队绩效考核，督导应收账款回款及风险控制。要求统招本科及以上学历，具有十年以上机床或工程机械行业海外销售、营销管理经验，能够利用既有资源深挖海外商机，并具备沟通抗压、组织协调、公开宣讲、市场洞察、商务应变及政府项目运作能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.szccm.com/",
+    "corroboratingUrls": [
+      "https://www.taiqunjingji.com/aboutus.html",
+      "https://static.cninfo.com.cn/finalpage/2022-02-19/1212403842.PDF"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "岗位详情页显示97个在招职位",
+      "岗位明确招聘1人",
+      "岗位页面仍可立即投递",
+      "企业官网和上市公司公告交叉核验主体"
+    ],
+    "reviewNotes": "智联独立详情页显示7月6日更新，固定月薪45-75K并单独标注14薪，深圳宝安区总部办公，岗位仍可立即投递且招聘1人。创世纪机械官网和上市公司公开文件确认企业全称、数控机床及智能装备业务和宝安区经营地址。岗位职责与海外销售总监标题一致，要求十年以上机床或工程机械海外营销经验，未发现收费、付费培训、匿名客户或提成冒充固定月薪信号。"
+  }
+}

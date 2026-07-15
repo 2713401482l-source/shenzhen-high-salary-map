@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-07-15T18:33:49.634Z",
+  "generatedAt": "2026-07-15T18:53:41.346Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 127,
-    "verifiedDetailJobs": 58,
+    "usableJobs": 129,
+    "verifiedDetailJobs": 60,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 60,
-    "uniqueCompanies": 119,
-    "uniqueRawTitles": 115,
+    "fullRequirementJobs": 62,
+    "uniqueCompanies": 121,
+    "uniqueRawTitles": 117,
     "captureDates": 3
   },
   "distributions": {
     "salaryBands": {
-      "50K": 56,
+      "50K": 58,
       "30K": 54,
       "100K": 17
     },
     "evidenceLevels": {
       "boss-listing": 67,
-      "public-platform-detail": 49,
+      "public-platform-detail": 51,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3
     },
     "captureDates": {
       "2026-07-12": 71,
       "2026-07-15": 46,
-      "2026-07-16": 10
+      "2026-07-16": 12
     },
     "industries": {
       "计算机软件": 12,
@@ -82,12 +82,14 @@
       "软件/IT服务、云计算": 1,
       "软件和信息技术服务、企业数字化": 1,
       "石油/石化、环保": 1,
+      "通用设备制造、数控机床与智能装备": 1,
       "物联网、船舶/航空/航天/军工、工业自动化/机器人": 1,
       "物联网/船舶航空航天军工": 1,
       "消费电子/智能硬件/互联网电商": 1,
       "鞋服箱包批发/零售/贸易": 1,
       "新能源、便携式储能、跨境电商": 1,
       "新能源汽车、储能、电池管理系统": 1,
+      "新能源汽车零部件、半导体与电连接组件": 1,
       "学术/科研": 1,
       "学术/科研/重大科学装置": 1,
       "医疗设备/康复机器人/人工智能": 1,
@@ -103,7 +105,7 @@
     },
     "districts": {
       "南山区": 61,
-      "宝安区": 19,
+      "宝安区": 21,
       "龙华区": 11,
       "深圳": 11,
       "龙岗区": 9,
@@ -157,12 +159,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 127,
+      "current": 129,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 58,
+      "current": 60,
       "required": 240,
       "passed": false
     },
@@ -181,7 +183,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "58/127 条完成详情核验",
+      "evidence": "60/129 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {
