@@ -1,32 +1,32 @@
 {
-  "generatedAt": "2026-07-15T15:33:10.408Z",
+  "generatedAt": "2026-07-15T15:44:15.993Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 115,
-    "verifiedDetailJobs": 46,
+    "usableJobs": 116,
+    "verifiedDetailJobs": 47,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 48,
+    "fullRequirementJobs": 49,
     "uniqueCompanies": 110,
-    "uniqueRawTitles": 103,
+    "uniqueRawTitles": 104,
     "captureDates": 2
   },
   "distributions": {
     "salaryBands": {
       "50K": 52,
       "30K": 49,
-      "100K": 14
+      "100K": 15
     },
     "evidenceLevels": {
       "boss-listing": 67,
-      "public-platform-detail": 37,
+      "public-platform-detail": 38,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3
     },
     "captureDates": {
       "2026-07-12": 71,
-      "2026-07-15": 44
+      "2026-07-15": 45
     },
     "industries": {
       "计算机软件": 12,
@@ -56,6 +56,7 @@
       "电子商务/消费品": 1,
       "动力电池/新能源": 1,
       "房地产开发经营/产业园运营/物业管理": 1,
+      "工业自动化、机器人、新能源装备": 1,
       "工业自动化/机器人/专用设备制造": 1,
       "互联网（猎头发布）": 1,
       "互联网电商/综合商贸": 1,
@@ -90,7 +91,7 @@
     },
     "districts": {
       "南山区": 55,
-      "宝安区": 17,
+      "宝安区": 18,
       "深圳": 11,
       "龙岗区": 9,
       "龙华区": 9,
@@ -120,6 +121,10 @@
       "count": 2
     },
     {
+      "company": "深圳吉阳智能科技有限公司",
+      "count": 2
+    },
+    {
       "company": "自变量机器人",
       "count": 2
     }
@@ -132,12 +137,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 115,
+      "current": 116,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 46,
+      "current": 47,
       "required": 240,
       "passed": false
     },
@@ -156,7 +161,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "46/115 条完成详情核验",
+      "evidence": "47/116 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {
