@@ -1,7 +1,7 @@
 {
   "metadata": {
     "dataKind": "collection-gap-report",
-    "generatedFromLatestCapture": "2026-07-16T05:01:00+08:00",
+    "generatedFromLatestCapture": "2026-07-16T07:11:00+08:00",
     "bossAccessAllowed": false,
     "sourceFiles": [
       "data/v3/config/collection-plan.json",
@@ -13,17 +13,17 @@
   },
   "totals": {
     "discovery": {
-      "actual": 140,
+      "actual": 141,
       "target": 720,
-      "gap": 580
+      "gap": 579
     },
     "detailEvidence": {
-      "actual": 71,
+      "actual": 72,
       "target": 240,
-      "gap": 169
+      "gap": 168
     },
     "assignedToV3Queue": 7,
-    "legacyUnassigned": 133
+    "legacyUnassigned": 134
   },
   "quality": {
     "grain": "one company-specific job posting on one direct detail URL",
@@ -34,7 +34,7 @@
       },
       {
         "source": "zhaopin",
-        "count": 59
+        "count": 60
       },
       {
         "source": "liepin",
@@ -47,15 +47,15 @@
       "source": "boss",
       "count": 78
     },
-    "largestSourceShare": 0.5571,
+    "largestSourceShare": 0.5532,
     "maximumSingleSourceShare": 0.55,
     "duplicateIds": 0,
     "duplicateFingerprints": 0,
     "duplicateSourceUrls": 0,
     "staleJobs": 0,
     "maximumAgeDaysAtCapture": 45,
-    "formalSampleCount": 71,
-    "formalSampleShare": 0.5071,
+    "formalSampleCount": 72,
+    "formalSampleShare": 0.5106,
     "discoveryOnlyCount": 69
   },
   "salaryBands": [
@@ -70,12 +70,12 @@
     },
     {
       "band": "50K",
-      "actual": 65,
+      "actual": 66,
       "target": 240,
-      "gap": 175,
-      "detailActual": 31,
+      "gap": 174,
+      "detailActual": 32,
       "detailTarget": 80,
-      "detailGap": 49
+      "detailGap": 48
     },
     {
       "band": "100K",
@@ -260,13 +260,13 @@
   ],
   "publicationBlockers": [
     "30K 总样本还差 183 条",
-    "50K 总样本还差 175 条",
+    "50K 总样本还差 174 条",
     "100K 总样本还差 222 条",
     "30K 详情证据还差 58 条",
-    "50K 详情证据还差 49 条",
+    "50K 详情证据还差 48 条",
     "100K 详情证据还差 62 条",
     "单岗对标“其他专业岗位”还差 26 条详情证据",
     "独立数据平台还差 2 个",
-    "boss 占比过高（56%），需要增加其他来源"
+    "boss 占比过高（55%），需要增加其他来源"
   ]
 }

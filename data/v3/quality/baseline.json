@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-07-15T21:04:04.794Z",
+  "generatedAt": "2026-07-15T23:17:34.893Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 140,
-    "verifiedDetailJobs": 71,
+    "usableJobs": 141,
+    "verifiedDetailJobs": 72,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 73,
-    "uniqueCompanies": 127,
-    "uniqueRawTitles": 128,
+    "fullRequirementJobs": 74,
+    "uniqueCompanies": 128,
+    "uniqueRawTitles": 129,
     "captureDates": 3
   },
   "distributions": {
     "salaryBands": {
-      "50K": 65,
+      "50K": 66,
       "30K": 57,
       "100K": 18
     },
     "evidenceLevels": {
       "boss-listing": 67,
-      "public-platform-detail": 62,
+      "public-platform-detail": 63,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3
     },
     "captureDates": {
       "2026-07-12": 71,
       "2026-07-15": 46,
-      "2026-07-16": 23
+      "2026-07-16": 24
     },
     "industries": {
       "计算机软件": 12,
@@ -82,6 +82,7 @@
       "量子计算/半导体/人工智能": 1,
       "绿色能源/智算中心/人工智能基础设施": 1,
       "企业服务": 1,
+      "汽车智能网联": 1,
       "人工智能、工业自动化、智能制造": 1,
       "人工智能、云计算、企业数字化解决方案": 1,
       "软件/IT服务、产业互联网平台、金融科技": 1,
@@ -113,7 +114,7 @@
       "自动化设备": 1
     },
     "districts": {
-      "南山区": 67,
+      "南山区": 68,
       "宝安区": 22,
       "龙岗区": 11,
       "龙华区": 11,
@@ -180,12 +181,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 140,
+      "current": 141,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 71,
+      "current": 72,
       "required": 240,
       "passed": false
     },
@@ -204,7 +205,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "71/140 条完成详情核验",
+      "evidence": "72/141 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {
