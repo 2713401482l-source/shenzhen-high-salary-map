@@ -1,32 +1,33 @@
 {
-  "generatedAt": "2026-07-15T15:54:03.809Z",
+  "generatedAt": "2026-07-15T16:08:27.820Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 117,
-    "verifiedDetailJobs": 48,
+    "usableJobs": 118,
+    "verifiedDetailJobs": 49,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 50,
-    "uniqueCompanies": 111,
-    "uniqueRawTitles": 105,
-    "captureDates": 2
+    "fullRequirementJobs": 51,
+    "uniqueCompanies": 112,
+    "uniqueRawTitles": 106,
+    "captureDates": 3
   },
   "distributions": {
     "salaryBands": {
       "50K": 52,
-      "30K": 49,
+      "30K": 50,
       "100K": 16
     },
     "evidenceLevels": {
       "boss-listing": 67,
-      "public-platform-detail": 39,
+      "public-platform-detail": 40,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3
     },
     "captureDates": {
       "2026-07-12": 71,
-      "2026-07-15": 46
+      "2026-07-15": 46,
+      "2026-07-16": 1
     },
     "industries": {
       "计算机软件": 12,
@@ -73,6 +74,7 @@
       "绿色能源/智算中心/人工智能基础设施": 1,
       "企业服务": 1,
       "人工智能、云计算、企业数字化解决方案": 1,
+      "软件/IT服务、产业互联网平台、金融科技": 1,
       "软件/IT服务、云计算": 1,
       "石油/石化、环保": 1,
       "物联网/船舶航空航天军工": 1,
@@ -91,7 +93,7 @@
       "自动化设备": 1
     },
     "districts": {
-      "南山区": 56,
+      "南山区": 57,
       "宝安区": 18,
       "深圳": 11,
       "龙岗区": 9,
@@ -138,12 +140,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 117,
+      "current": 118,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 48,
+      "current": 49,
       "required": 240,
       "passed": false
     },
@@ -153,7 +155,7 @@
       "passed": false
     },
     "timeSnapshots": {
-      "current": 2,
+      "current": 3,
       "required": 2,
       "passed": true
     }
@@ -162,7 +164,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "48/117 条完成详情核验",
+      "evidence": "49/118 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {
@@ -174,7 +176,7 @@
     {
       "severity": "high",
       "issue": "缺少时间序列",
-      "evidence": "当前只有 2 个采集日期",
+      "evidence": "当前只有 3 个采集日期",
       "impact": "不能判断薪资涨跌或持续扩招"
     },
     {
