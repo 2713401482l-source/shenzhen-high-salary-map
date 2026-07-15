@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-07-15T20:44:52.335Z",
+  "generatedAt": "2026-07-15T20:55:30.386Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 137,
-    "verifiedDetailJobs": 68,
+    "usableJobs": 139,
+    "verifiedDetailJobs": 70,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 70,
+    "fullRequirementJobs": 72,
     "uniqueCompanies": 126,
-    "uniqueRawTitles": 125,
+    "uniqueRawTitles": 127,
     "captureDates": 3
   },
   "distributions": {
     "salaryBands": {
-      "50K": 63,
+      "50K": 65,
       "30K": 56,
       "100K": 18
     },
     "evidenceLevels": {
       "boss-listing": 67,
-      "public-platform-detail": 59,
+      "public-platform-detail": 61,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3
     },
     "captureDates": {
       "2026-07-12": 71,
       "2026-07-15": 46,
-      "2026-07-16": 20
+      "2026-07-16": 22
     },
     "industries": {
       "计算机软件": 12,
@@ -37,6 +37,7 @@
       "智能硬件": 6,
       "未公开": 5,
       "工业自动化/机器人": 3,
+      "石油/石化、环保": 3,
       "医疗器械": 3,
       "电子/硬件开发": 2,
       "电子商务": 2,
@@ -86,7 +87,6 @@
       "软件/IT服务、产业互联网平台、金融科技": 1,
       "软件/IT服务、云计算": 1,
       "软件和信息技术服务、企业数字化": 1,
-      "石油/石化、环保": 1,
       "石油石化、海洋低空经济与产业数字化": 1,
       "石油装备、能源技术与环保": 1,
       "通用设备制造、数控机床与智能装备": 1,
@@ -112,7 +112,7 @@
       "自动化设备": 1
     },
     "districts": {
-      "南山区": 65,
+      "南山区": 67,
       "宝安区": 22,
       "龙岗区": 11,
       "龙华区": 11,
@@ -130,6 +130,10 @@
     "duplicateFingerprintGroups": 0
   },
   "expansionCandidates": [
+    {
+      "company": "烟台杰瑞石油服务集团股份有限公司",
+      "count": 4
+    },
     {
       "company": "腾讯",
       "count": 3
@@ -159,10 +163,6 @@
       "count": 2
     },
     {
-      "company": "烟台杰瑞石油服务集团股份有限公司",
-      "count": 2
-    },
-    {
       "company": "字节跳动",
       "count": 2
     },
@@ -179,12 +179,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 137,
+      "current": 139,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 68,
+      "current": 70,
       "required": 240,
       "passed": false
     },
@@ -203,7 +203,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "68/137 条完成详情核验",
+      "evidence": "70/139 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {

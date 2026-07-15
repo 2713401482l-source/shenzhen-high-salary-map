@@ -1,7 +1,7 @@
 {
   "metadata": {
     "dataKind": "collection-gap-report",
-    "generatedFromLatestCapture": "2026-07-16T04:41:00+08:00",
+    "generatedFromLatestCapture": "2026-07-16T04:51:00+08:00",
     "bossAccessAllowed": false,
     "sourceFiles": [
       "data/v3/config/collection-plan.json",
@@ -13,17 +13,17 @@
   },
   "totals": {
     "discovery": {
-      "actual": 137,
+      "actual": 139,
       "target": 720,
-      "gap": 583
+      "gap": 581
     },
     "detailEvidence": {
-      "actual": 68,
+      "actual": 70,
       "target": 240,
-      "gap": 172
+      "gap": 170
     },
     "assignedToV3Queue": 7,
-    "legacyUnassigned": 130
+    "legacyUnassigned": 132
   },
   "quality": {
     "grain": "one company-specific job posting on one direct detail URL",
@@ -34,7 +34,7 @@
       },
       {
         "source": "zhaopin",
-        "count": 56
+        "count": 58
       },
       {
         "source": "liepin",
@@ -47,15 +47,15 @@
       "source": "boss",
       "count": 78
     },
-    "largestSourceShare": 0.5693,
+    "largestSourceShare": 0.5612,
     "maximumSingleSourceShare": 0.55,
     "duplicateIds": 0,
     "duplicateFingerprints": 0,
     "duplicateSourceUrls": 0,
     "staleJobs": 0,
     "maximumAgeDaysAtCapture": 45,
-    "formalSampleCount": 68,
-    "formalSampleShare": 0.4964,
+    "formalSampleCount": 70,
+    "formalSampleShare": 0.5036,
     "discoveryOnlyCount": 69
   },
   "salaryBands": [
@@ -70,12 +70,12 @@
     },
     {
       "band": "50K",
-      "actual": 63,
+      "actual": 65,
       "target": 240,
-      "gap": 177,
-      "detailActual": 29,
+      "gap": 175,
+      "detailActual": 31,
       "detailTarget": 80,
-      "detailGap": 51
+      "detailGap": 49
     },
     {
       "band": "100K",
@@ -181,10 +181,10 @@
   ],
   "benchmark": {
     "role": "其他专业岗位",
-    "detailActual": 21,
+    "detailActual": 23,
     "detailTarget": 50,
-    "detailGap": 29,
-    "currentFamilyJobs": 21
+    "detailGap": 27,
+    "currentFamilyJobs": 23
   },
   "priorityQueries": [
     {
@@ -260,13 +260,13 @@
   ],
   "publicationBlockers": [
     "30K 总样本还差 184 条",
-    "50K 总样本还差 177 条",
+    "50K 总样本还差 175 条",
     "100K 总样本还差 222 条",
     "30K 详情证据还差 59 条",
-    "50K 详情证据还差 51 条",
+    "50K 详情证据还差 49 条",
     "100K 详情证据还差 62 条",
-    "单岗对标“其他专业岗位”还差 29 条详情证据",
+    "单岗对标“其他专业岗位”还差 27 条详情证据",
     "独立数据平台还差 2 个",
-    "boss 占比过高（57%），需要增加其他来源"
+    "boss 占比过高（56%），需要增加其他来源"
   ]
 }

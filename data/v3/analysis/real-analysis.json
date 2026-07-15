@@ -1,7 +1,7 @@
 {
   "metadata": {
     "dataKind": "real-analysis",
-    "generatedFromLatestCapture": "2026-07-16T04:41:00+08:00",
+    "generatedFromLatestCapture": "2026-07-16T04:51:00+08:00",
     "sourceFiles": [
       "data/jobs/verified.json",
       "data/jobs/candidates.json"
@@ -10,17 +10,17 @@
   },
   "readiness": {
     "discovery": {
-      "actual": 137,
+      "actual": 139,
       "target": 720,
       "pass": false
     },
     "formalSample": {
-      "actual": 68,
+      "actual": 70,
       "target": 240,
       "pass": false
     },
     "detailEvidence": {
-      "actual": 68,
+      "actual": 70,
       "target": 240,
       "pass": false
     },
@@ -32,7 +32,7 @@
     "benchmark": {
       "best": {
         "role": "其他专业岗位",
-        "detailCount": 21,
+        "detailCount": 23,
         "companyCount": 21,
         "salaryBandCount": 3
       },
@@ -47,10 +47,10 @@
   },
   "scope": {
     "city": "深圳",
-    "jobs": 68,
-    "discoveryJobs": 137,
+    "jobs": 70,
+    "discoveryJobs": 139,
     "quarantinedOrUnverified": 69,
-    "detailJobs": 68,
+    "detailJobs": 70,
     "companies": 62,
     "industries": 61,
     "capturedDates": [
@@ -64,17 +64,17 @@
     {
       "name": "其他专业岗位",
       "status": "observed-family",
-      "sampleCount": 21,
+      "sampleCount": 23,
       "companyCount": 21,
-      "industryCount": 21,
-      "detailCount": 21,
+      "industryCount": 22,
+      "detailCount": 23,
       "salary": {
         "min": 20,
         "max": 100,
         "medianMid": 40,
         "bands": {
           "30K": 9,
-          "50K": 10,
+          "50K": 12,
           "100K": 2
         }
       },
@@ -83,6 +83,7 @@
         "IPD流程专家",
         "中/高级机械结构工程师（Ebike）(MJ006114)",
         "客服总经理/电商客服一把手",
+        "前端架构师（数字孪生&可视化）",
         "海外销售总监/大区总",
         "产品经理（资金/司库线）",
         "先进材料开发工程师",
@@ -97,10 +98,15 @@
         "BIOS工程师",
         "销售总监",
         "FPC销售总监",
+        "后端架构师（微服务&云原生）",
         "数据解决方案架构师",
         "材料研发高级工程师"
       ],
       "topIndustries": [
+        {
+          "name": "石油/石化、环保",
+          "count": 2
+        },
         {
           "name": "半导体装备、芯片与高端工业装备",
           "count": 1
@@ -116,16 +122,12 @@
         {
           "name": "电子商务/3C零售",
           "count": 1
-        },
-        {
-          "name": "电子商务/消费品",
-          "count": 1
         }
       ],
       "topDistricts": [
         {
           "name": "南山区",
-          "count": 10
+          "count": 12
         },
         {
           "name": "宝安区",
@@ -182,12 +184,30 @@
           "evidenceLevel": "public-platform-detail"
         },
         {
+          "id": "zhaopin-153d9cd6ebed7d02c90e",
+          "title": "前端架构师（数字孪生&可视化）",
+          "company": "烟台杰瑞石油服务集团股份有限公司",
+          "salaryText": "40-60K·15薪",
+          "sourceUrl": "https://www.zhaopin.com/jobdetail/CC212499610J40893395403.htm",
+          "capturedAt": "2026-07-16T04:51:00+08:00",
+          "evidenceLevel": "public-platform-detail"
+        },
+        {
           "id": "zhaopin-776adc91f988b6afab74",
           "title": "SoC系统软件架构师/工程师-高速接口",
           "company": "字节跳动",
           "salaryText": "40-60K",
           "sourceUrl": "https://www.zhaopin.com/jobdetail/CC469217510J40844622501.htm",
           "capturedAt": "2026-07-16T04:00:00+08:00",
+          "evidenceLevel": "public-platform-detail"
+        },
+        {
+          "id": "zhaopin-df56aabfdb46ef8afcd2",
+          "title": "后端架构师（微服务&云原生）",
+          "company": "烟台杰瑞石油服务集团股份有限公司",
+          "salaryText": "40-60K·15薪",
+          "sourceUrl": "https://www.zhaopin.com/jobdetail/CC212499610J40893394103.htm",
+          "capturedAt": "2026-07-16T04:51:00+08:00",
           "evidenceLevel": "public-platform-detail"
         },
         {
@@ -1260,17 +1280,17 @@
     }
   ],
   "skills": {
-    "denominator": 68,
+    "denominator": 70,
     "stats": [
       {
         "name": "跨团队协作",
         "category": "软技能",
-        "count": 46,
-        "denominator": 68,
-        "frequency": 0.676,
+        "count": 47,
+        "denominator": 70,
+        "frequency": 0.671,
         "salaryBands": {
           "30K": 12,
-          "50K": 22,
+          "50K": 23,
           "100K": 12
         },
         "evidenceJobs": [
@@ -1617,6 +1637,15 @@
             "evidenceLevel": "public-platform-detail"
           },
           {
+            "id": "zhaopin-df56aabfdb46ef8afcd2",
+            "title": "后端架构师（微服务&云原生）",
+            "company": "烟台杰瑞石油服务集团股份有限公司",
+            "salaryText": "40-60K·15薪",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC212499610J40893394103.htm",
+            "capturedAt": "2026-07-16T04:51:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
             "id": "zhaopin-e4a1d6448736030385e4",
             "title": "高级算法专家",
             "company": "牧原食品集团股份有限公司",
@@ -1693,12 +1722,12 @@
       {
         "name": "主导与路线责任",
         "category": "管理能力",
-        "count": 40,
-        "denominator": 68,
-        "frequency": 0.588,
+        "count": 42,
+        "denominator": 70,
+        "frequency": 0.6,
         "salaryBands": {
           "30K": 9,
-          "50K": 17,
+          "50K": 19,
           "100K": 14
         },
         "evidenceJobs": [
@@ -1772,6 +1801,15 @@
             "salaryText": "25-45K",
             "sourceUrl": "https://www.zhaopin.com/jobdetail/CC846065300J40810476101.htm",
             "capturedAt": "2026-07-15T23:21:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-153d9cd6ebed7d02c90e",
+            "title": "前端架构师（数字孪生&可视化）",
+            "company": "烟台杰瑞石油服务集团股份有限公司",
+            "salaryText": "40-60K·15薪",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC212499610J40893395403.htm",
+            "capturedAt": "2026-07-16T04:51:00+08:00",
             "evidenceLevel": "public-platform-detail"
           },
           {
@@ -2009,6 +2047,15 @@
             "evidenceLevel": "public-platform-detail"
           },
           {
+            "id": "zhaopin-df56aabfdb46ef8afcd2",
+            "title": "后端架构师（微服务&云原生）",
+            "company": "烟台杰瑞石油服务集团股份有限公司",
+            "salaryText": "40-60K·15薪",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC212499610J40893394103.htm",
+            "capturedAt": "2026-07-16T04:51:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
             "id": "zhaopin-e4a1d6448736030385e4",
             "title": "高级算法专家",
             "company": "牧原食品集团股份有限公司",
@@ -2068,8 +2115,8 @@
         "name": "行业经验",
         "category": "行业经验",
         "count": 39,
-        "denominator": 68,
-        "frequency": 0.574,
+        "denominator": 70,
+        "frequency": 0.557,
         "salaryBands": {
           "30K": 9,
           "50K": 19,
@@ -2432,12 +2479,12 @@
       {
         "name": "工程部署与性能优化",
         "category": "工程能力",
-        "count": 26,
-        "denominator": 68,
-        "frequency": 0.382,
+        "count": 28,
+        "denominator": 70,
+        "frequency": 0.4,
         "salaryBands": {
           "30K": 6,
-          "50K": 12,
+          "50K": 14,
           "100K": 8
         },
         "evidenceJobs": [
@@ -2493,6 +2540,15 @@
             "salaryText": "25-45K",
             "sourceUrl": "https://www.zhaopin.com/jobdetail/CC846065300J40810476101.htm",
             "capturedAt": "2026-07-15T23:21:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-153d9cd6ebed7d02c90e",
+            "title": "前端架构师（数字孪生&可视化）",
+            "company": "烟台杰瑞石油服务集团股份有限公司",
+            "salaryText": "40-60K·15薪",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC212499610J40893395403.htm",
+            "capturedAt": "2026-07-16T04:51:00+08:00",
             "evidenceLevel": "public-platform-detail"
           },
           {
@@ -2640,6 +2696,15 @@
             "evidenceLevel": "public-platform-detail"
           },
           {
+            "id": "zhaopin-df56aabfdb46ef8afcd2",
+            "title": "后端架构师（微服务&云原生）",
+            "company": "烟台杰瑞石油服务集团股份有限公司",
+            "salaryText": "40-60K·15薪",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC212499610J40893394103.htm",
+            "capturedAt": "2026-07-16T04:51:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
             "id": "zhaopin-e4a1d6448736030385e4",
             "title": "高级算法专家",
             "company": "牧原食品集团股份有限公司",
@@ -2681,8 +2746,8 @@
         "name": "数据、实验与评测",
         "category": "数据能力",
         "count": 21,
-        "denominator": 68,
-        "frequency": 0.309,
+        "denominator": 70,
+        "frequency": 0.3,
         "salaryBands": {
           "30K": 10,
           "50K": 7,
@@ -2884,8 +2949,8 @@
         "name": "C++",
         "category": "专业技能",
         "count": 17,
-        "denominator": 68,
-        "frequency": 0.25,
+        "denominator": 70,
+        "frequency": 0.243,
         "salaryBands": {
           "30K": 3,
           "50K": 11,
@@ -3051,8 +3116,8 @@
         "name": "大模型与 Agent",
         "category": "AI 工具",
         "count": 14,
-        "denominator": 68,
-        "frequency": 0.206,
+        "denominator": 70,
+        "frequency": 0.2,
         "salaryBands": {
           "30K": 4,
           "50K": 5,
@@ -3191,8 +3256,8 @@
         "name": "机器人控制",
         "category": "专业技能",
         "count": 14,
-        "denominator": 68,
-        "frequency": 0.206,
+        "denominator": 70,
+        "frequency": 0.2,
         "salaryBands": {
           "30K": 3,
           "50K": 5,
@@ -3331,8 +3396,8 @@
         "name": "Python",
         "category": "专业技能",
         "count": 14,
-        "denominator": 68,
-        "frequency": 0.206,
+        "denominator": 70,
+        "frequency": 0.2,
         "salaryBands": {
           "30K": 5,
           "50K": 8,
@@ -3471,8 +3536,8 @@
         "name": "计算机视觉",
         "category": "专业技能",
         "count": 13,
-        "denominator": 68,
-        "frequency": 0.191,
+        "denominator": 70,
+        "frequency": 0.186,
         "salaryBands": {
           "30K": 3,
           "50K": 6,
@@ -3602,8 +3667,8 @@
         "name": "深度学习框架",
         "category": "AI 工具",
         "count": 9,
-        "denominator": 68,
-        "frequency": 0.132,
+        "denominator": 70,
+        "frequency": 0.129,
         "salaryBands": {
           "30K": 3,
           "50K": 5,
@@ -3697,8 +3762,8 @@
         "name": "强化学习",
         "category": "专业技能",
         "count": 7,
-        "denominator": 68,
-        "frequency": 0.103,
+        "denominator": 70,
+        "frequency": 0.1,
         "salaryBands": {
           "30K": 0,
           "50K": 1,
@@ -3774,8 +3839,8 @@
         "name": "语音与信号处理",
         "category": "专业技能",
         "count": 7,
-        "denominator": 68,
-        "frequency": 0.103,
+        "denominator": 70,
+        "frequency": 0.1,
         "salaryBands": {
           "30K": 2,
           "50K": 2,
@@ -3851,8 +3916,8 @@
     "pairs": [
       {
         "pair": "主导与路线责任 + 跨团队协作",
-        "count": 32,
-        "denominator": 68,
+        "count": 33,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -4090,6 +4155,15 @@
             "evidenceLevel": "public-platform-detail"
           },
           {
+            "id": "zhaopin-df56aabfdb46ef8afcd2",
+            "title": "后端架构师（微服务&云原生）",
+            "company": "烟台杰瑞石油服务集团股份有限公司",
+            "salaryText": "40-60K·15薪",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC212499610J40893394103.htm",
+            "capturedAt": "2026-07-16T04:51:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
             "id": "zhaopin-e4a1d6448736030385e4",
             "title": "高级算法专家",
             "company": "牧原食品集团股份有限公司",
@@ -4148,7 +4222,7 @@
       {
         "pair": "主导与路线责任 + 行业经验",
         "count": 28,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -4408,7 +4482,7 @@
       {
         "pair": "行业经验 + 跨团队协作",
         "count": 27,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -4658,8 +4732,8 @@
       },
       {
         "pair": "工程部署与性能优化 + 跨团队协作",
-        "count": 20,
-        "denominator": 68,
+        "count": 21,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -4807,6 +4881,15 @@
             "evidenceLevel": "public-platform-detail"
           },
           {
+            "id": "zhaopin-df56aabfdb46ef8afcd2",
+            "title": "后端架构师（微服务&云原生）",
+            "company": "烟台杰瑞石油服务集团股份有限公司",
+            "salaryText": "40-60K·15薪",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC212499610J40893394103.htm",
+            "capturedAt": "2026-07-16T04:51:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
             "id": "zhaopin-e4a1d6448736030385e4",
             "title": "高级算法专家",
             "company": "牧原食品集团股份有限公司",
@@ -4845,9 +4928,161 @@
         ]
       },
       {
+        "pair": "主导与路线责任 + 工程部署与性能优化",
+        "count": 16,
+        "denominator": 70,
+        "publishable": true,
+        "evidenceJobs": [
+          {
+            "id": "boss-1ed35a5c9f7e6fbe0ndy3d66ElNS",
+            "title": "AI Agent大模型算法专家",
+            "company": "vivo",
+            "salaryText": "70-90K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/1ed35a5c9f7e6fbe0ndy3d66ElNS.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-listing-plus-detail"
+          },
+          {
+            "id": "boss-677b5d673b77a4d70nZz3N64FVBT",
+            "title": "ai算法负责人",
+            "company": "杭州文和星途科技",
+            "salaryText": "100-150K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/677b5d673b77a4d70nZz3N64FVBT.html",
+            "capturedAt": "2026-07-12T21:13:08.537Z",
+            "evidenceLevel": "boss-detail"
+          },
+          {
+            "id": "zhaopin-12be0c00d46c6ee2e45d",
+            "title": "AI架构师（大模型AI）",
+            "company": "悦智人工智能（深圳）有限责任公司",
+            "salaryText": "25-45K",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC846065300J40810476101.htm",
+            "capturedAt": "2026-07-15T23:21:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-153d9cd6ebed7d02c90e",
+            "title": "前端架构师（数字孪生&可视化）",
+            "company": "烟台杰瑞石油服务集团股份有限公司",
+            "salaryText": "40-60K·15薪",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC212499610J40893395403.htm",
+            "capturedAt": "2026-07-16T04:51:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-428feb0a105229a06a13",
+            "title": "算力中心副总经理（绿电方向）",
+            "company": "深圳市朗坤科技股份有限公司",
+            "salaryText": "60-100K",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC132081930J40857151901.htm",
+            "capturedAt": "2026-07-15T16:54:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-4de653308c0e68ca1fca",
+            "title": "具身智能算法经理",
+            "company": "深圳吉阳智能科技有限公司",
+            "salaryText": "80-120K",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC480141730J40894767613.htm",
+            "capturedAt": "2026-07-15T23:41:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-6072c3b8e67a25af1e03",
+            "title": "海外市场（博士）",
+            "company": "深圳市省油灯网络科技有限公司",
+            "salaryText": "60-90K",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC302011130J40821347711.htm",
+            "capturedAt": "2026-07-15T23:31:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-90553f16c773e727cf09",
+            "title": "人工智能首席专家",
+            "company": "深圳惠特科学技术有限公司",
+            "salaryText": "40-60K",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1504292280J40971017304.htm",
+            "capturedAt": "2026-07-15T08:42:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-c65e6bd45f4216d5226b",
+            "title": "销售副总/总经理",
+            "company": "深圳市诺峰光电设备有限公司",
+            "salaryText": "80-150K",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC308841480J40644229609.htm",
+            "capturedAt": "2026-07-15T21:21:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-c8bb43e6c50dbc6617e8",
+            "title": "AI高级产品经理",
+            "company": "深圳市华丰世纪投资（集团）有限公司",
+            "salaryText": "30-50K",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC351729710J40700491101.htm",
+            "capturedAt": "2026-07-15T23:11:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-ce4c1a0b38afa2348304",
+            "title": "低空经济首席工程师(J10037)",
+            "company": "海油来博(天津)科技股份有限公司",
+            "salaryText": "30-60K",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC581863630J40855599507.htm",
+            "capturedAt": "2026-07-16T04:21:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-dc10fa61809003cbc13f",
+            "title": "销售总监-生化线-Base地不限",
+            "company": "深圳海思安生物技术有限公司",
+            "salaryText": "20-40K",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC842705430J40863954601.htm",
+            "capturedAt": "2026-07-15T20:58:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-df56aabfdb46ef8afcd2",
+            "title": "后端架构师（微服务&云原生）",
+            "company": "烟台杰瑞石油服务集团股份有限公司",
+            "salaryText": "40-60K·15薪",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC212499610J40893394103.htm",
+            "capturedAt": "2026-07-16T04:51:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-e4a1d6448736030385e4",
+            "title": "高级算法专家",
+            "company": "牧原食品集团股份有限公司",
+            "salaryText": "40-80K",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC495147320J40847870011.htm",
+            "capturedAt": "2026-07-15T17:05:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-e8107ebbb31511ed9d24",
+            "title": "AI系统架构师-博士",
+            "company": "恩斯迈电子（深圳）有限公司",
+            "salaryText": "40-80K",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC120200310J40672419508.htm",
+            "capturedAt": "2026-07-15T06:55:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-f9d52f85aff9fd0d3f75",
+            "title": "数据解决方案架构师",
+            "company": "深圳迅策科技股份有限公司",
+            "salaryText": "35-50K",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1482413560J40894007313.htm",
+            "capturedAt": "2026-07-15T19:10:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          }
+        ]
+      },
+      {
         "pair": "数据、实验与评测 + 跨团队协作",
         "count": 14,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -4979,143 +5214,9 @@
         ]
       },
       {
-        "pair": "主导与路线责任 + 工程部署与性能优化",
-        "count": 14,
-        "denominator": 68,
-        "publishable": true,
-        "evidenceJobs": [
-          {
-            "id": "boss-1ed35a5c9f7e6fbe0ndy3d66ElNS",
-            "title": "AI Agent大模型算法专家",
-            "company": "vivo",
-            "salaryText": "70-90K",
-            "sourceUrl": "https://www.zhipin.com/job_detail/1ed35a5c9f7e6fbe0ndy3d66ElNS.html",
-            "capturedAt": "2026-07-12T21:13:08.537Z",
-            "evidenceLevel": "boss-listing-plus-detail"
-          },
-          {
-            "id": "boss-677b5d673b77a4d70nZz3N64FVBT",
-            "title": "ai算法负责人",
-            "company": "杭州文和星途科技",
-            "salaryText": "100-150K",
-            "sourceUrl": "https://www.zhipin.com/job_detail/677b5d673b77a4d70nZz3N64FVBT.html",
-            "capturedAt": "2026-07-12T21:13:08.537Z",
-            "evidenceLevel": "boss-detail"
-          },
-          {
-            "id": "zhaopin-12be0c00d46c6ee2e45d",
-            "title": "AI架构师（大模型AI）",
-            "company": "悦智人工智能（深圳）有限责任公司",
-            "salaryText": "25-45K",
-            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC846065300J40810476101.htm",
-            "capturedAt": "2026-07-15T23:21:00+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "zhaopin-428feb0a105229a06a13",
-            "title": "算力中心副总经理（绿电方向）",
-            "company": "深圳市朗坤科技股份有限公司",
-            "salaryText": "60-100K",
-            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC132081930J40857151901.htm",
-            "capturedAt": "2026-07-15T16:54:00+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "zhaopin-4de653308c0e68ca1fca",
-            "title": "具身智能算法经理",
-            "company": "深圳吉阳智能科技有限公司",
-            "salaryText": "80-120K",
-            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC480141730J40894767613.htm",
-            "capturedAt": "2026-07-15T23:41:00+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "zhaopin-6072c3b8e67a25af1e03",
-            "title": "海外市场（博士）",
-            "company": "深圳市省油灯网络科技有限公司",
-            "salaryText": "60-90K",
-            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC302011130J40821347711.htm",
-            "capturedAt": "2026-07-15T23:31:00+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "zhaopin-90553f16c773e727cf09",
-            "title": "人工智能首席专家",
-            "company": "深圳惠特科学技术有限公司",
-            "salaryText": "40-60K",
-            "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1504292280J40971017304.htm",
-            "capturedAt": "2026-07-15T08:42:00+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "zhaopin-c65e6bd45f4216d5226b",
-            "title": "销售副总/总经理",
-            "company": "深圳市诺峰光电设备有限公司",
-            "salaryText": "80-150K",
-            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC308841480J40644229609.htm",
-            "capturedAt": "2026-07-15T21:21:00+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "zhaopin-c8bb43e6c50dbc6617e8",
-            "title": "AI高级产品经理",
-            "company": "深圳市华丰世纪投资（集团）有限公司",
-            "salaryText": "30-50K",
-            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC351729710J40700491101.htm",
-            "capturedAt": "2026-07-15T23:11:00+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "zhaopin-ce4c1a0b38afa2348304",
-            "title": "低空经济首席工程师(J10037)",
-            "company": "海油来博(天津)科技股份有限公司",
-            "salaryText": "30-60K",
-            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC581863630J40855599507.htm",
-            "capturedAt": "2026-07-16T04:21:00+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "zhaopin-dc10fa61809003cbc13f",
-            "title": "销售总监-生化线-Base地不限",
-            "company": "深圳海思安生物技术有限公司",
-            "salaryText": "20-40K",
-            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC842705430J40863954601.htm",
-            "capturedAt": "2026-07-15T20:58:00+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "zhaopin-e4a1d6448736030385e4",
-            "title": "高级算法专家",
-            "company": "牧原食品集团股份有限公司",
-            "salaryText": "40-80K",
-            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC495147320J40847870011.htm",
-            "capturedAt": "2026-07-15T17:05:00+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "zhaopin-e8107ebbb31511ed9d24",
-            "title": "AI系统架构师-博士",
-            "company": "恩斯迈电子（深圳）有限公司",
-            "salaryText": "40-80K",
-            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC120200310J40672419508.htm",
-            "capturedAt": "2026-07-15T06:55:00+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "zhaopin-f9d52f85aff9fd0d3f75",
-            "title": "数据解决方案架构师",
-            "company": "深圳迅策科技股份有限公司",
-            "salaryText": "35-50K",
-            "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1482413560J40894007313.htm",
-            "capturedAt": "2026-07-15T19:10:00+08:00",
-            "evidenceLevel": "public-platform-detail"
-          }
-        ]
-      },
-      {
         "pair": "工程部署与性能优化 + 行业经验",
         "count": 13,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -5240,7 +5341,7 @@
       {
         "pair": "数据、实验与评测 + 行业经验",
         "count": 12,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -5356,7 +5457,7 @@
       {
         "pair": "C++ + Python",
         "count": 12,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -5472,7 +5573,7 @@
       {
         "pair": "工程部署与性能优化 + 数据、实验与评测",
         "count": 11,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -5579,7 +5680,7 @@
       {
         "pair": "机器人控制 + 行业经验",
         "count": 11,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -5686,7 +5787,7 @@
       {
         "pair": "C++ + 工程部署与性能优化",
         "count": 11,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -5793,7 +5894,7 @@
       {
         "pair": "C++ + 跨团队协作",
         "count": 11,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -5900,7 +6001,7 @@
       {
         "pair": "C++ + 行业经验",
         "count": 11,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -6007,7 +6108,7 @@
       {
         "pair": "大模型与 Agent + 工程部署与性能优化",
         "count": 10,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -6105,7 +6206,7 @@
       {
         "pair": "大模型与 Agent + 跨团队协作",
         "count": 10,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -6203,7 +6304,7 @@
       {
         "pair": "工程部署与性能优化 + 计算机视觉",
         "count": 10,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -6301,7 +6402,7 @@
       {
         "pair": "主导与路线责任 + 大模型与 Agent",
         "count": 10,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -6399,7 +6500,7 @@
       {
         "pair": "主导与路线责任 + 数据、实验与评测",
         "count": 10,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -6497,7 +6598,7 @@
       {
         "pair": "Python + 工程部署与性能优化",
         "count": 10,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -6595,7 +6696,7 @@
       {
         "pair": "计算机视觉 + 跨团队协作",
         "count": 9,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -6684,7 +6785,7 @@
       {
         "pair": "Python + 行业经验",
         "count": 9,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -6773,7 +6874,7 @@
       {
         "pair": "工程部署与性能优化 + 深度学习框架",
         "count": 8,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -6853,7 +6954,7 @@
       {
         "pair": "主导与路线责任 + 计算机视觉",
         "count": 8,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -6933,7 +7034,7 @@
       {
         "pair": "Python + 深度学习框架",
         "count": 8,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7013,7 +7114,7 @@
       {
         "pair": "大模型与 Agent + 数据、实验与评测",
         "count": 7,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7084,7 +7185,7 @@
       {
         "pair": "主导与路线责任 + 机器人控制",
         "count": 7,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7155,7 +7256,7 @@
       {
         "pair": "大模型与 Agent + 计算机视觉",
         "count": 6,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7217,7 +7318,7 @@
       {
         "pair": "机器人控制 + 跨团队协作",
         "count": 6,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7279,7 +7380,7 @@
       {
         "pair": "深度学习框架 + 跨团队协作",
         "count": 6,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7341,7 +7442,7 @@
       {
         "pair": "深度学习框架 + 行业经验",
         "count": 6,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7403,7 +7504,7 @@
       {
         "pair": "数据、实验与评测 + 计算机视觉",
         "count": 6,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7465,7 +7566,7 @@
       {
         "pair": "行业经验 + 计算机视觉",
         "count": 6,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7527,7 +7628,7 @@
       {
         "pair": "C++ + 计算机视觉",
         "count": 6,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7589,7 +7690,7 @@
       {
         "pair": "C++ + 深度学习框架",
         "count": 6,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7651,7 +7752,7 @@
       {
         "pair": "C++ + 主导与路线责任",
         "count": 6,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7713,7 +7814,7 @@
       {
         "pair": "Python + 跨团队协作",
         "count": 6,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7775,7 +7876,7 @@
       {
         "pair": "Python + 数据、实验与评测",
         "count": 6,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7837,7 +7938,7 @@
       {
         "pair": "大模型与 Agent + 行业经验",
         "count": 5,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7890,7 +7991,7 @@
       {
         "pair": "工程部署与性能优化 + 语音与信号处理",
         "count": 5,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7943,7 +8044,7 @@
       {
         "pair": "强化学习 + 机器人控制",
         "count": 5,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7996,7 +8097,7 @@
       {
         "pair": "强化学习 + 行业经验",
         "count": 5,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8049,7 +8150,7 @@
       {
         "pair": "数据、实验与评测 + 深度学习框架",
         "count": 5,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8102,7 +8203,7 @@
       {
         "pair": "主导与路线责任 + 强化学习",
         "count": 5,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8155,7 +8256,7 @@
       {
         "pair": "C++ + 机器人控制",
         "count": 5,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8208,7 +8309,7 @@
       {
         "pair": "C++ + 数据、实验与评测",
         "count": 5,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8261,7 +8362,7 @@
       {
         "pair": "Python + 机器人控制",
         "count": 5,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8314,7 +8415,7 @@
       {
         "pair": "Python + 计算机视觉",
         "count": 5,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8367,7 +8468,7 @@
       {
         "pair": "工程部署与性能优化 + 机器人控制",
         "count": 4,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8411,7 +8512,7 @@
       {
         "pair": "深度学习框架 + 语音与信号处理",
         "count": 4,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8455,7 +8556,7 @@
       {
         "pair": "行业经验 + 语音与信号处理",
         "count": 4,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8499,7 +8600,7 @@
       {
         "pair": "Python + 语音与信号处理",
         "count": 4,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8543,7 +8644,7 @@
       {
         "pair": "大模型与 Agent + 强化学习",
         "count": 3,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8578,7 +8679,7 @@
       {
         "pair": "大模型与 Agent + 深度学习框架",
         "count": 3,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8613,7 +8714,7 @@
       {
         "pair": "机器人控制 + 深度学习框架",
         "count": 3,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8648,7 +8749,7 @@
       {
         "pair": "强化学习 + 跨团队协作",
         "count": 3,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8683,7 +8784,7 @@
       {
         "pair": "深度学习框架 + 计算机视觉",
         "count": 3,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8718,7 +8819,7 @@
       {
         "pair": "数据、实验与评测 + 语音与信号处理",
         "count": 3,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8753,7 +8854,7 @@
       {
         "pair": "语音与信号处理 + 跨团队协作",
         "count": 3,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8788,7 +8889,7 @@
       {
         "pair": "主导与路线责任 + 深度学习框架",
         "count": 3,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8823,7 +8924,7 @@
       {
         "pair": "C++ + 大模型与 Agent",
         "count": 3,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8858,7 +8959,7 @@
       {
         "pair": "C++ + 语音与信号处理",
         "count": 3,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8893,7 +8994,7 @@
       {
         "pair": "Python + 大模型与 Agent",
         "count": 3,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8928,7 +9029,7 @@
       {
         "pair": "Python + 主导与路线责任",
         "count": 3,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8963,7 +9064,7 @@
       {
         "pair": "工程部署与性能优化 + 强化学习",
         "count": 2,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -8989,7 +9090,7 @@
       {
         "pair": "机器人控制 + 语音与信号处理",
         "count": 2,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -9015,7 +9116,7 @@
       {
         "pair": "强化学习 + 数据、实验与评测",
         "count": 2,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -9041,7 +9142,7 @@
       {
         "pair": "数据、实验与评测 + 机器人控制",
         "count": 2,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -9067,7 +9168,7 @@
       {
         "pair": "C++ + 强化学习",
         "count": 2,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -9093,7 +9194,7 @@
       {
         "pair": "大模型与 Agent + 机器人控制",
         "count": 1,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -9110,7 +9211,7 @@
       {
         "pair": "大模型与 Agent + 语音与信号处理",
         "count": 1,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -9127,7 +9228,7 @@
       {
         "pair": "机器人控制 + 计算机视觉",
         "count": 1,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -9144,7 +9245,7 @@
       {
         "pair": "计算机视觉 + 语音与信号处理",
         "count": 1,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -9161,7 +9262,7 @@
       {
         "pair": "强化学习 + 计算机视觉",
         "count": 1,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -9178,7 +9279,7 @@
       {
         "pair": "Python + 强化学习",
         "count": 1,
-        "denominator": 68,
+        "denominator": 70,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -9195,6 +9296,54 @@
     ]
   },
   "expansionSignals": [
+    {
+      "company": "烟台杰瑞石油服务集团股份有限公司",
+      "status": "same-snapshot-cluster",
+      "jobCount": 4,
+      "distinctTitles": 4,
+      "capturedDates": [
+        "2026-07-16",
+        "2026-07-15"
+      ],
+      "evidenceJobs": [
+        {
+          "id": "zhaopin-153d9cd6ebed7d02c90e",
+          "title": "前端架构师（数字孪生&可视化）",
+          "company": "烟台杰瑞石油服务集团股份有限公司",
+          "salaryText": "40-60K·15薪",
+          "sourceUrl": "https://www.zhaopin.com/jobdetail/CC212499610J40893395403.htm",
+          "capturedAt": "2026-07-16T04:51:00+08:00",
+          "evidenceLevel": "public-platform-detail"
+        },
+        {
+          "id": "zhaopin-a37a31a7e8ad809e4ba9",
+          "title": "首席知识产权官（CIPO）(J13478)",
+          "company": "烟台杰瑞石油服务集团股份有限公司",
+          "salaryText": "60-100K·15薪",
+          "sourceUrl": "https://www.zhaopin.com/jobdetail/CC212499610J40903308103.htm",
+          "capturedAt": "2026-07-16T03:42:00+08:00",
+          "evidenceLevel": "public-platform-detail"
+        },
+        {
+          "id": "zhaopin-a45cacfb6fc42e7b254a",
+          "title": "数据架构师",
+          "company": "烟台杰瑞石油服务集团股份有限公司",
+          "salaryText": "40-60K·15薪",
+          "sourceUrl": "https://www.zhaopin.com/jobdetail/CC212499610J40893391403.htm",
+          "capturedAt": "2026-07-15T19:14:00+08:00",
+          "evidenceLevel": "public-platform-detail"
+        },
+        {
+          "id": "zhaopin-df56aabfdb46ef8afcd2",
+          "title": "后端架构师（微服务&云原生）",
+          "company": "烟台杰瑞石油服务集团股份有限公司",
+          "salaryText": "40-60K·15薪",
+          "sourceUrl": "https://www.zhaopin.com/jobdetail/CC212499610J40893394103.htm",
+          "capturedAt": "2026-07-16T04:51:00+08:00",
+          "evidenceLevel": "public-platform-detail"
+        }
+      ]
+    },
     {
       "company": "京东集团",
       "status": "same-snapshot-cluster",
@@ -9315,36 +9464,6 @@
       ]
     },
     {
-      "company": "烟台杰瑞石油服务集团股份有限公司",
-      "status": "same-snapshot-cluster",
-      "jobCount": 2,
-      "distinctTitles": 2,
-      "capturedDates": [
-        "2026-07-16",
-        "2026-07-15"
-      ],
-      "evidenceJobs": [
-        {
-          "id": "zhaopin-a37a31a7e8ad809e4ba9",
-          "title": "首席知识产权官（CIPO）(J13478)",
-          "company": "烟台杰瑞石油服务集团股份有限公司",
-          "salaryText": "60-100K·15薪",
-          "sourceUrl": "https://www.zhaopin.com/jobdetail/CC212499610J40903308103.htm",
-          "capturedAt": "2026-07-16T03:42:00+08:00",
-          "evidenceLevel": "public-platform-detail"
-        },
-        {
-          "id": "zhaopin-a45cacfb6fc42e7b254a",
-          "title": "数据架构师",
-          "company": "烟台杰瑞石油服务集团股份有限公司",
-          "salaryText": "40-60K·15薪",
-          "sourceUrl": "https://www.zhaopin.com/jobdetail/CC212499610J40893391403.htm",
-          "capturedAt": "2026-07-15T19:14:00+08:00",
-          "evidenceLevel": "public-platform-detail"
-        }
-      ]
-    },
-    {
       "company": "字节跳动",
       "status": "same-snapshot-cluster",
       "jobCount": 2,
@@ -9383,8 +9502,8 @@
     },
     {
       "band": "50K",
-      "count": 29,
-      "detailCount": 29,
+      "count": 31,
+      "detailCount": 31,
       "medianMid": 50
     },
     {
@@ -9395,7 +9514,7 @@
     }
   ],
   "marketProfile": {
-    "denominator": 68,
+    "denominator": 70,
     "salaryBands": [
       {
         "name": "30K",
@@ -9403,7 +9522,7 @@
       },
       {
         "name": "50K",
-        "count": 29
+        "count": 31
       },
       {
         "name": "100K",
@@ -9417,6 +9536,10 @@
       },
       {
         "name": "互联网",
+        "count": 3
+      },
+      {
+        "name": "石油/石化、环保",
         "count": 3
       },
       {
@@ -9564,10 +9687,6 @@
         "count": 1
       },
       {
-        "name": "石油/石化、环保",
-        "count": 1
-      },
-      {
         "name": "石油石化、海洋低空经济与产业数字化",
         "count": 1
       },
@@ -9659,7 +9778,7 @@
     "districts": [
       {
         "name": "南山区",
-        "count": 29
+        "count": 31
       },
       {
         "name": "宝安区",
@@ -9693,11 +9812,11 @@
     "experience": [
       {
         "name": "5-10年",
-        "count": 28
+        "count": 29
       },
       {
         "name": "3-5年",
-        "count": 12
+        "count": 13
       },
       {
         "name": "10年以上",
@@ -9747,7 +9866,7 @@
     "education": [
       {
         "name": "本科",
-        "count": 37
+        "count": 39
       },
       {
         "name": "硕士",
@@ -9775,7 +9894,7 @@
   "benchmarkCandidates": [
     {
       "role": "其他专业岗位",
-      "detailCount": 21,
+      "detailCount": 23,
       "companyCount": 21,
       "salaryBandCount": 3
     },

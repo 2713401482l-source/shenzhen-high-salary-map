@@ -1,0 +1,40 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-16T04:51:00+08:00",
+  "publishedAt": "2026-07-14",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC212499610J40893395403.htm",
+  "job": {
+    "sourceJobId": "CC212499610J40893395403",
+    "title": "前端架构师（数字孪生&可视化）",
+    "company": "烟台杰瑞石油服务集团股份有限公司",
+    "salaryText": "40-60K·15薪",
+    "district": "南山区",
+    "addressText": "深圳市南山区深圳湾创新科技中心T1栋47楼",
+    "industry": "石油/石化、环保",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责DCIM云端前端与三维可视化总体架构，搭建Vue 3、TypeScript前端工程化体系、组件库及云端部署架构；统筹后台管理、数据大屏和三维数字孪生的整体云化技术方案，解决海量点位渲染、三维场景性能与云端前后端数据联动问题，并制定前端技术标准。要求五年以上前端架构经验，精通Vue 3、TypeScript、工程化和云端发布部署，熟练使用ECharts、Three.js或WebGL，有IDC机房三维孪生或云化DCIM前端架构经验者优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.jereh.com/",
+    "corroboratingUrls": [
+      "https://www.jereh.com/"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "岗位详情页显示7月14日更新",
+      "岗位明确招聘1人且可立即投递",
+      "企业页面显示627个在招职位",
+      "企业主体已审核、已上市且经营状态存续",
+      "职位发布者昨日活跃"
+    ],
+    "reviewNotes": "智联具体岗位详情页展示固定月薪40-60K并单独标注15薪、深圳南山区具体办公地址、招聘1人、可立即投递，以及完整的数字孪生可视化前端架构职责与技术要求；发布主体为平台已审核的烟台杰瑞石油服务集团股份有限公司，企业官网公开业务与集团主体信息。未发现收费、付费培训、匿名客户、提成冒充固定月薪或地点矛盾信号。"
+  }
+}
