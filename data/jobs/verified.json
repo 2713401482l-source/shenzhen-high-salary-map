@@ -3596,6 +3596,82 @@
     "duplicateFingerprint": "1144810ba0060e9eafd6"
   },
   {
+    "id": "zhaopin-eb18c5047e4cc69e7de8",
+    "sourceJobId": "CC336668610J40868003712",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "项目总监",
+    "company": "深圳市科列技术股份有限公司",
+    "salaryText": "45-55K",
+    "salaryMin": 45,
+    "salaryMax": 55,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "深圳市南山区高新技术产业园北区庆邦电子大厦B栋5楼",
+    "industry": "新能源汽车、储能、电池管理系统",
+    "experience": "10年以上",
+    "education": "本科",
+    "descriptionExcerpt": "统筹汽车电子与BMS项目从RFQ、立项、EVT、DVT、PVT到SOP的全生命周期，建立风险升级、决策和变更控制机制；协调系统、硬件、软件、测试、制造、质量及供应链资源，参与关键客户会议并处理重大争议和交付风险；识别技术、质量、供应链、制造、库存和外协风险，优化项目管理流程并培养项目经理。要求电子、电气、自动化等相关专业本科及以上学历，具有10年以上汽车电子",
+    "requirementText": "统筹汽车电子与BMS项目从RFQ、立项、EVT、DVT、PVT到SOP的全生命周期，建立风险升级、决策和变更控制机制；协调系统、硬件、软件、测试、制造、质量及供应链资源，参与关键客户会议并处理重大争议和交付风险；识别技术、质量、供应链、制造、库存和外协风险，优化项目管理流程并培养项目经理。要求电子、电气、自动化等相关专业本科及以上学历，具有10年以上汽车电子、BMS或ECU经验、5年以上项目管理经验和至少2年项目群或大型项目负责人经历，具备BMS或ECU量产经验、跨部门协调能力、客户高层沟通能力以及项目成本和商业风险意识。",
+    "sourceUrl": "https://m.zhaopin.com/jobs/CC336668610J40868003712.htm",
+    "capturedAt": "2026-07-16T01:41:00+08:00",
+    "publishedAt": "2026-07-15",
+    "verifiedAt": "2026-07-16T01:41:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 1
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://www.klclear.com/",
+      "corroboratingUrls": [
+        "https://www.klclear.com/index.php?a=index&c=Lists&m=home&tid=10",
+        "https://www.klclear.com/index.php?a=index&aid=177&c=View&m=home"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "岗位页面显示招1人",
+        "企业页面显示6个在招职位"
+      ],
+      "reviewNotes": "智联招聘具体岗位详情页显示7月15日发布，采集时可查看，固定月薪45-55K，工作地点为深圳南山区，实名企业、招1人及完整职责要求均明确。科列技术官网确认公司全称、股票代码832432、BMS主营业务和庆邦电子大厦办公地址，岗位描述中的汽车电子与电池管理系统场景和企业业务一致。"
+    },
+    "duplicateFingerprint": "8112ce853d60b287cbfb"
+  },
+  {
     "id": "zhaopin-ecd330d21d2952bba3bb",
     "sourceJobId": "CC298522580J40817478310",
     "sourcePlatform": "zhaopin",
