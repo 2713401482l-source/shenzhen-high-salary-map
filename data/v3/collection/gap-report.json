@@ -13,17 +13,17 @@
   },
   "totals": {
     "discovery": {
-      "actual": 96,
+      "actual": 97,
       "target": 720,
-      "gap": 624
+      "gap": 623
     },
     "detailEvidence": {
-      "actual": 27,
+      "actual": 28,
       "target": 240,
-      "gap": 213
+      "gap": 212
     },
     "assignedToV3Queue": 7,
-    "legacyUnassigned": 89
+    "legacyUnassigned": 90
   },
   "quality": {
     "grain": "one company-specific job posting on one direct detail URL",
@@ -34,7 +34,7 @@
       },
       {
         "source": "zhaopin",
-        "count": 15
+        "count": 16
       },
       {
         "source": "liepin",
@@ -47,15 +47,15 @@
       "source": "boss",
       "count": 78
     },
-    "largestSourceShare": 0.8125,
+    "largestSourceShare": 0.8041,
     "maximumSingleSourceShare": 0.55,
     "duplicateIds": 0,
     "duplicateFingerprints": 0,
     "duplicateSourceUrls": 0,
     "staleJobs": 0,
     "maximumAgeDaysAtCapture": 45,
-    "formalSampleCount": 27,
-    "formalSampleShare": 0.2813,
+    "formalSampleCount": 28,
+    "formalSampleShare": 0.2887,
     "discoveryOnlyCount": 69
   },
   "salaryBands": [
@@ -70,12 +70,12 @@
     },
     {
       "band": "50K",
-      "actual": 46,
+      "actual": 47,
       "target": 240,
-      "gap": 194,
-      "detailActual": 12,
+      "gap": 193,
+      "detailActual": 13,
       "detailTarget": 80,
-      "detailGap": 68
+      "detailGap": 67
     },
     {
       "band": "100K",
@@ -180,7 +180,7 @@
     }
   ],
   "benchmark": {
-    "role": "其他专业岗位",
+    "role": "AI Agent 与大模型应用",
     "detailActual": 7,
     "detailTarget": 50,
     "detailGap": 43,
@@ -260,13 +260,13 @@
   ],
   "publicationBlockers": [
     "30K 总样本还差 199 条",
-    "50K 总样本还差 194 条",
+    "50K 总样本还差 193 条",
     "100K 总样本还差 231 条",
     "30K 详情证据还差 74 条",
-    "50K 详情证据还差 68 条",
+    "50K 详情证据还差 67 条",
     "100K 详情证据还差 71 条",
-    "单岗对标“其他专业岗位”还差 43 条详情证据",
+    "单岗对标“AI Agent 与大模型应用”还差 43 条详情证据",
     "独立数据平台还差 2 个",
-    "boss 占比过高（81%），需要增加其他来源"
+    "boss 占比过高（80%），需要增加其他来源"
   ]
 }

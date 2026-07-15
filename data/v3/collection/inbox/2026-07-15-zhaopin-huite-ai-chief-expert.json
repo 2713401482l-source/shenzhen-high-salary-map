@@ -1,0 +1,35 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-15T08:42:00+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1504292280J40971017304.htm",
+  "job": {
+    "sourceJobId": "CCL1504292280J40971017304",
+    "title": "人工智能首席专家",
+    "company": "深圳惠特科学技术有限公司",
+    "salaryText": "40-60K",
+    "district": "光明区",
+    "addressText": "深圳光明区招商局智慧城A区-A2栋404",
+    "industry": "技术服务/实验室安全数字化",
+    "experience": "5-10年",
+    "education": "硕士",
+    "descriptionText": "负责制定公司人工智能发展战略、技术研发路线和预算，推动人工智能与实验室安全专业场景融合，并承担AI解决方案及项目核心技术研发、用户需求转化、产品功能设计和项目交付。要求人工智能、应用数学、电子信息或计算机相关专业硕士及以上学历，在深度学习、自然语言处理或计算机视觉领域拥有五年以上一线经验；理解语言及多模态大模型、AI智能体的原理和落地方法，熟悉开源组件、框架与中间件；精通Python和C++，掌握PyTorch、TensorFlow、Transformer、YOLO等框架，并能适应应用软件框架和大数据平台环境。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.htkxjs.com/",
+    "corroboratingUrls": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202505281680639339_1.pdf?1748446833000.pdf="
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "missingPublicationDate"
+    ],
+    "reviewNotes": "智联具体岗位详情页显示固定月薪、深圳光明详细地址、招聘人数、完整职责与任职要求，页面仍可投递且招聘人员三日内活跃。全国股转系统挂牌法律意见书核验深圳惠特科学技术有限公司为惠特科学子公司，并披露其成立日期、统一社会信用代码、注册地址、法定代表人和经营范围。详情页未展示明确发布日期，因此保留发布日期缺失提示。"
+  }
+}

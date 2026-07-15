@@ -7,10 +7,10 @@
   },
   "dataset": {
     "grain": "one public job posting per source-specific job id; cross-platform duplicates are resolved separately",
-    "totalJobs": 96,
+    "totalJobs": 97,
     "listingObservations": 69,
-    "detailVerified": 27,
-    "companies": 27,
+    "detailVerified": 28,
+    "companies": 28,
     "captureDates": [
       "2026-07-12",
       "2026-07-15"
@@ -30,7 +30,7 @@
       },
       {
         "source": "zhaopin",
-        "count": 15
+        "count": 16
       },
       {
         "source": "liepin",
@@ -43,15 +43,15 @@
       "source": "boss",
       "count": 78
     },
-    "largestSourceShare": 0.8125,
+    "largestSourceShare": 0.8041,
     "maximumSingleSourceShare": 0.55,
     "duplicateIds": 0,
     "duplicateFingerprints": 0,
     "duplicateSourceUrls": 0,
     "staleJobs": 0,
     "maximumAgeDaysAtCapture": 45,
-    "formalSampleCount": 27,
-    "formalSampleShare": 0.2813,
+    "formalSampleCount": 28,
+    "formalSampleShare": 0.2887,
     "discoveryOnlyCount": 69
   },
   "structuralQuality": {
@@ -101,12 +101,12 @@
       {
         "band": "50K",
         "discovery": {
-          "actual": 46,
+          "actual": 47,
           "target": 240,
           "pass": false
         },
         "detailEvidence": {
-          "actual": 12,
+          "actual": 13,
           "target": 80,
           "pass": false
         }
@@ -132,10 +132,10 @@
     },
     "benchmark": {
       "best": {
-        "role": "其他专业岗位",
+        "role": "AI Agent 与大模型应用",
         "detailCount": 7,
         "companyCount": 7,
-        "salaryBandCount": 2
+        "salaryBandCount": 3
       },
       "target": 50,
       "pass": false
@@ -150,8 +150,8 @@
   "blockers": [
     "30K 真实岗位还差 199 条",
     "30K 详情证据还差 74 条",
-    "50K 真实岗位还差 194 条",
-    "50K 详情证据还差 68 条",
+    "50K 真实岗位还差 193 条",
+    "50K 详情证据还差 67 条",
     "100K 真实岗位还差 231 条",
     "100K 详情证据还差 71 条",
     "新兴岗位方向还差 28 个",
