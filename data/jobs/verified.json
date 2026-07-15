@@ -2177,5 +2177,77 @@
       "reviewNotes": "详情页显示2026年7月7日更新、可立即投递；企业已审核，页面展示明确薪资、深圳地址、完整职责与要求，招聘人员昨日活跃。"
     },
     "duplicateFingerprint": "8f09891a305c976f7b79"
+  },
+  {
+    "id": "zhaopin-fe4ab171cc17bde0570f",
+    "sourceJobId": "CC480141730J40894771613",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "运动控制算法专家",
+    "company": "深圳吉阳智能科技有限公司",
+    "salaryText": "100-150K",
+    "salaryMin": 100,
+    "salaryMax": 150,
+    "salaryBand": "100K",
+    "city": "深圳",
+    "district": "宝安区",
+    "addressText": "深圳宝安区深圳吉阳智能科技有限公司",
+    "industry": "工业自动化/机器人/专用设备制造",
+    "experience": "5-10年",
+    "education": "博士",
+    "descriptionExcerpt": "作为运动控制算法技术带头人，负责人形机器人、四足机器人及工业机器人的高动态运动控制架构设计与核心算法攻关，主导MPC、WBC、强化学习控制、力控和平衡控制算法研发，解决复杂地形及人机交互场景中的稳定性、柔顺性和安全性问题，并指导算法团队、推动技术预研和专利布局。要求控制科学、机械工程、自动化或计算机相关专业博士学历优先，具备八年以上机器人或无人机高动态运动控",
+    "requirementText": "作为运动控制算法技术带头人，负责人形机器人、四足机器人及工业机器人的高动态运动控制架构设计与核心算法攻关，主导MPC、WBC、强化学习控制、力控和平衡控制算法研发，解决复杂地形及人机交互场景中的稳定性、柔顺性和安全性问题，并指导算法团队、推动技术预研和专利布局。要求控制科学、机械工程、自动化或计算机相关专业博士学历优先，具备八年以上机器人或无人机高动态运动控制研发与完整产品量产经验，精通MPC、WBC、LQR、强化学习控制、多刚体动力学及C++实时控制开发。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC480141730J40894771613.htm",
+    "capturedAt": "2026-07-15T10:47:00+08:00",
+    "publishedAt": "2026-07-10",
+    "verifiedAt": "2026-07-15T10:47:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 5
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://www.geesun.com/",
+      "corroboratingUrls": [
+        "https://std.samr.gov.cn/gb/search/gbDetailed?id=C55140AB03FB0D53E05397BE0A0A4346"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [],
+      "reviewNotes": "智联具体岗位页显示2026年7月10日更新、可直接投递、固定月薪、深圳宝安地点、实名企业与完整职责要求。吉阳智能企业官网持续更新经营动态，全国标准信息公共服务平台将深圳吉阳智能科技有限公司列为动力锂电池生产设备通讯接口国家标准项目的主要起草单位，交叉核验企业主体及技术领域。"
+    },
+    "duplicateFingerprint": "5248bb982ee362b09873"
   }
 ]
