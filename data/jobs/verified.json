@@ -946,6 +946,80 @@
     "duplicateFingerprint": "07bb22bce65882c2d582"
   },
   {
+    "id": "zhaopin-12be0c00d46c6ee2e45d",
+    "sourceJobId": "CC846065300J40810476101",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "AI架构师（大模型AI）",
+    "company": "悦智人工智能（深圳）有限责任公司",
+    "salaryText": "25-45K",
+    "salaryMin": 25,
+    "salaryMax": 45,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "深圳市南山区腾云悦智科技（深圳）有限责任公司",
+    "industry": "人工智能、云计算、企业数字化解决方案",
+    "experience": "5-10年",
+    "education": "大专",
+    "descriptionExcerpt": "负责集团资产管理平台整体架构设计，覆盖模型开发、Agent编排、知识库、数据集与模型文件管理、自动化部署等模块，输出可落地的架构蓝图和技术方案；负责云原生、大模型应用、RAG、微调、提示词工程、分布式训练与推理加速、MLOps等关键技术选型和技术栈搭建，保障平台高可用、可扩展和性能。要求熟悉LLMOps过程并有大模型微调、蒸馏、压缩实践，熟悉MLOps训练、",
+    "requirementText": "负责集团资产管理平台整体架构设计，覆盖模型开发、Agent编排、知识库、数据集与模型文件管理、自动化部署等模块，输出可落地的架构蓝图和技术方案；负责云原生、大模型应用、RAG、微调、提示词工程、分布式训练与推理加速、MLOps等关键技术选型和技术栈搭建，保障平台高可用、可扩展和性能。要求熟悉LLMOps过程并有大模型微调、蒸馏、压缩实践，熟悉MLOps训练、评测、推理流程，熟悉AgentOps及智能体构建、评测和调优；具备五年以上AI技术架构师经验，并承担过五百万元以上AI项目技术负责人，有千万级AI项目或大数据平台架构经验者优先。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC846065300J40810476101.htm",
+    "capturedAt": "2026-07-15T23:21:00+08:00",
+    "verifiedAt": "2026-07-15T23:21:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://www.yuezhi.ai/",
+      "corroboratingUrls": [
+        "https://www.yuezhi.ai/",
+        "https://www.yuezhi.ai/contact_complex.aspx?nid=7"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "missingPublicationDate"
+      ],
+      "reviewNotes": "智联独立详情页未展示明确发布日期，因此不推测发布日期并保留缺失日期复核标记。采集时页面仍展示固定月薪25-45K、深圳南山区地址、招聘1人、立即投递入口和完整职责要求，按真实性策略以活跃详情页作为新鲜度证据。悦智人工智能官网核验企业全称、成立信息以及人工智能、云计算与全球行业解决方案业务，岗位内容与公司业务方向一致。"
+    },
+    "duplicateFingerprint": "7e7208fb52a1f2061b0e"
+  },
+  {
     "id": "zhaopin-226dda9ea61267b41ec8",
     "sourceJobId": "CC397028480J41020987104",
     "sourcePlatform": "zhaopin",
