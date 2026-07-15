@@ -2789,6 +2789,82 @@
     "duplicateFingerprint": "d110bcaebe573ba9552f"
   },
   {
+    "id": "zhaopin-93e42677d5f80f52d899",
+    "sourceJobId": "CC147303860J40775870507",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "架构师",
+    "company": "深圳市思源计算机软件股份有限公司",
+    "salaryText": "30-40K",
+    "salaryMin": 30,
+    "salaryMax": 40,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "广东省深圳市南山区科发路3号中电长城大厦北塔1201",
+    "industry": "软件和信息技术服务、企业数字化",
+    "experience": "10年以上",
+    "education": "本科",
+    "descriptionExcerpt": "负责公司核心通用组件与技术框架的设计、优化和开发，制定代码规范并把控研发过程与代码质量，承担核心代码编写和技术难点攻关；负责大型平台总体架构、子系统功能与非功能需求、交互接口以及关键技术路线的研究和决策，持续推动平台架构升级。要求本科及以上学历，具有十年以上软件开发和五年以上架构设计经验，主导过大型产品或项目总体设计；精通Java并发、NIO、JVM调优及常",
+    "requirementText": "负责公司核心通用组件与技术框架的设计、优化和开发，制定代码规范并把控研发过程与代码质量，承担核心代码编写和技术难点攻关；负责大型平台总体架构、子系统功能与非功能需求、交互接口以及关键技术路线的研究和决策，持续推动平台架构升级。要求本科及以上学历，具有十年以上软件开发和五年以上架构设计经验，主导过大型产品或项目总体设计；精通Java并发、NIO、JVM调优及常用设计模式，熟悉微服务、高并发和分布式系统，掌握Nacos、Redis、Dubbo、MyCat以及MySQL或Oracle优化，能够指导和培养技术骨干；具有大型SaaS平台、组件化或中台建设经验，以及熟悉AI开发应用者优先。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC147303860J40775870507.htm",
+    "capturedAt": "2026-07-16T02:21:00+08:00",
+    "verifiedAt": "2026-07-16T02:21:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://www.syswinsoft.com/",
+      "corroboratingUrls": [
+        "https://www.zhaopin.com/companydetail/jobs-CZ147303860/"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "岗位详情页可立即沟通和投递",
+        "企业招聘页显示27个在招职位",
+        "企业招聘页显示招聘负责人今日回复",
+        "企业官网地址与岗位地址一致"
+      ],
+      "reviewNotes": "智联独立岗位详情页展示固定月薪30-40K、深圳南山区具体地址、10年以上经验、本科学历及完整职责要求；采集时企业招聘页仍列出该岗位，并显示招聘负责人今日回复。页面未展示明确发布日期，因此按缺少发布日期进行人工复核，以岗位仍可投递、招聘方当日活跃作为新鲜度证据。思源软件官网确认公司全称、主营不动产数智化软件业务及深圳南山区科发路3号办公地址，与岗位详情页完全一致。"
+    },
+    "duplicateFingerprint": "d2153a78e25f9036cb66"
+  },
+  {
     "id": "zhaopin-99712a922716dec2e142",
     "sourceJobId": "CC344054930J40758020706",
     "sourcePlatform": "zhaopin",
