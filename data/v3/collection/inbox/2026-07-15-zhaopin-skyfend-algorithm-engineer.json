@@ -1,0 +1,38 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-15T22:31:00+08:00",
+  "publishedAt": "2026-06-03",
+  "sourceUrl": "https://m.zhaopin.com/jobs/CCL1474860650J40901173612.htm",
+  "job": {
+    "sourceJobId": "CCL1474860650J40901173612",
+    "title": "算法工程师(A27571)",
+    "company": "深圳市塞防科技有限公司",
+    "salaryText": "20-40K·15薪",
+    "district": "南山区",
+    "addressText": "深圳市南山区南山智城A2栋",
+    "industry": "物联网/船舶航空航天军工",
+    "experience": "经验不限",
+    "education": "硕士",
+    "descriptionText": "负责雷达、激光雷达、视觉等多源信息处理算法研发，覆盖目标检测、识别、跟踪、融合与决策处理；设计目标起始、确认、维持、合并拆分、终止、数据关联、状态估计和航迹质量评估流程；开展传感器级、目标级、轨迹级融合以及跨源时空对齐、坐标转换和置信度评估；搭建算法仿真、数据回放与性能评估平台，参与工程化实现、系统集成、联调联试和外场测试。要求计算机、电子信息、自动化、数学、人工智能或雷达工程等相关专业硕士及以上学历，理解概率统计、贝叶斯估计、状态空间与测量模型，掌握Kalman、EKF、UKF、IMM、粒子滤波、JPDA、MHT或GNN等至少一种算法，具备C/C++或Python开发能力及AI深度学习经验。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://cn.skyfend.com/",
+    "corroboratingUrls": [
+      "https://cn.skyfend.com/company/",
+      "https://cn.skyfend.com/contact/",
+      "https://www.szns.gov.cn/attachment/1/1697/1697553/12702528.pdf"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "staleBeyondPreferredDays"
+    ],
+    "reviewNotes": "智联具体岗位详情页显示深圳南山区、固定月薪20-40K并标注15薪、完整职责要求、招聘1人和06-03发布日期；采集时距发布42天，仍在45天硬上限内但超过30天优选期，因此保留新鲜度复核标记。塞防科技官网的公司介绍和联系页核验了企业名称、低空防御业务及南山智城A2栋办公地址，南山区政府定向配租企业名录进一步佐证企业主体。"
+  }
+}

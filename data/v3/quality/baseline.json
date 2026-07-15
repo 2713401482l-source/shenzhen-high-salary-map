@@ -1,32 +1,32 @@
 {
-  "generatedAt": "2026-07-15T13:24:42.143Z",
+  "generatedAt": "2026-07-15T14:33:17.504Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 110,
-    "verifiedDetailJobs": 41,
+    "usableJobs": 111,
+    "verifiedDetailJobs": 42,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 43,
-    "uniqueCompanies": 105,
-    "uniqueRawTitles": 98,
+    "fullRequirementJobs": 44,
+    "uniqueCompanies": 106,
+    "uniqueRawTitles": 99,
     "captureDates": 2
   },
   "distributions": {
     "salaryBands": {
       "50K": 51,
-      "30K": 46,
+      "30K": 47,
       "100K": 13
     },
     "evidenceLevels": {
       "boss-listing": 67,
-      "public-platform-detail": 32,
+      "public-platform-detail": 33,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3
     },
     "captureDates": {
       "2026-07-12": 71,
-      "2026-07-15": 39
+      "2026-07-15": 40
     },
     "industries": {
       "计算机软件": 12,
@@ -70,6 +70,7 @@
       "企业服务": 1,
       "软件/IT服务、云计算": 1,
       "石油/石化、环保": 1,
+      "物联网/船舶航空航天军工": 1,
       "消费电子/智能硬件/互联网电商": 1,
       "鞋服箱包批发/零售/贸易": 1,
       "学术/科研": 1,
@@ -84,7 +85,7 @@
       "自动化设备": 1
     },
     "districts": {
-      "南山区": 51,
+      "南山区": 52,
       "宝安区": 17,
       "深圳": 11,
       "龙华区": 9,
@@ -127,12 +128,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 110,
+      "current": 111,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 41,
+      "current": 42,
       "required": 240,
       "passed": false
     },
@@ -151,7 +152,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "41/110 条完成详情核验",
+      "evidence": "42/111 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {
