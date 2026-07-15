@@ -13,17 +13,17 @@
   },
   "totals": {
     "discovery": {
-      "actual": 95,
+      "actual": 96,
       "target": 720,
-      "gap": 625
+      "gap": 624
     },
     "detailEvidence": {
-      "actual": 26,
+      "actual": 27,
       "target": 240,
-      "gap": 214
+      "gap": 213
     },
     "assignedToV3Queue": 7,
-    "legacyUnassigned": 88
+    "legacyUnassigned": 89
   },
   "quality": {
     "grain": "one company-specific job posting on one direct detail URL",
@@ -34,7 +34,7 @@
       },
       {
         "source": "zhaopin",
-        "count": 14
+        "count": 15
       },
       {
         "source": "liepin",
@@ -47,15 +47,15 @@
       "source": "boss",
       "count": 78
     },
-    "largestSourceShare": 0.8211,
+    "largestSourceShare": 0.8125,
     "maximumSingleSourceShare": 0.55,
     "duplicateIds": 0,
     "duplicateFingerprints": 0,
     "duplicateSourceUrls": 0,
     "staleJobs": 0,
     "maximumAgeDaysAtCapture": 45,
-    "formalSampleCount": 26,
-    "formalSampleShare": 0.2737,
+    "formalSampleCount": 27,
+    "formalSampleShare": 0.2813,
     "discoveryOnlyCount": 69
   },
   "salaryBands": [
@@ -70,12 +70,12 @@
     },
     {
       "band": "50K",
-      "actual": 45,
+      "actual": 46,
       "target": 240,
-      "gap": 195,
-      "detailActual": 11,
+      "gap": 194,
+      "detailActual": 12,
       "detailTarget": 80,
-      "detailGap": 69
+      "detailGap": 68
     },
     {
       "band": "100K",
@@ -260,13 +260,13 @@
   ],
   "publicationBlockers": [
     "30K 总样本还差 199 条",
-    "50K 总样本还差 195 条",
+    "50K 总样本还差 194 条",
     "100K 总样本还差 231 条",
     "30K 详情证据还差 74 条",
-    "50K 详情证据还差 69 条",
+    "50K 详情证据还差 68 条",
     "100K 详情证据还差 71 条",
     "单岗对标“其他专业岗位”还差 43 条详情证据",
     "独立数据平台还差 2 个",
-    "boss 占比过高（82%），需要增加其他来源"
+    "boss 占比过高（81%），需要增加其他来源"
   ]
 }

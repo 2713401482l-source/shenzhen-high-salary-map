@@ -1089,6 +1089,79 @@
     "duplicateFingerprint": "eb114fefd730fd375f5e"
   },
   {
+    "id": "zhaopin-4aeaa2ccb9e4bb142dd8",
+    "sourceJobId": "CCL1257318640J40696324706",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "高级嵌入式软件工程师",
+    "company": "深圳先进光源研究院",
+    "salaryText": "40-50K",
+    "salaryMin": 40,
+    "salaryMax": 50,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "光明区",
+    "addressText": "深圳光明区新永丰工业区A3栋3-6层",
+    "industry": "学术/科研/重大科学装置",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionExcerpt": "负责基于STM32、GD32等ARM Cortex-M系列MCU的嵌入式软件开发，包括外设驱动、RTOS移植和低功耗优化；承担FPGA逻辑开发，实现高速数据采集、通信控制、实时信号处理与硬件加速，并开发维护激光器Windows或Linux上位机软件。岗位还需编写设计文档、测试用例和用户手册，并配合硬件团队完成电路调试和系统联调。要求计算机、电子、通信或自动化",
+    "requirementText": "负责基于STM32、GD32等ARM Cortex-M系列MCU的嵌入式软件开发，包括外设驱动、RTOS移植和低功耗优化；承担FPGA逻辑开发，实现高速数据采集、通信控制、实时信号处理与硬件加速，并开发维护激光器Windows或Linux上位机软件。岗位还需编写设计文档、测试用例和用户手册，并配合硬件团队完成电路调试和系统联调。要求计算机、电子、通信或自动化相关专业本科及以上，5年以上嵌入式和上位机开发经验，精通STM32、FreeRTOS或uCOS、Xilinx或Altera工具链、LVDS或PCIe高速接口，并熟练掌握C/C++、Python及Qt、WPF或Electron等GUI框架。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1257318640J40696324706.htm",
+    "capturedAt": "2026-07-15T07:52:00+08:00",
+    "verifiedAt": "2026-07-15T07:52:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": null,
+      "corroboratingUrls": [
+        "https://myjob.dlmu.edu.cn/campus/view/id/866442"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "missingPublicationDate"
+      ],
+      "reviewNotes": "智联具体岗位详情页显示可直接投递、招聘人员三日内活跃，含固定月薪、深圳光明详细地址、招聘人数及完整职责要求；高校就业平台近期招聘公告交叉核验研究院主体、事业单位属性和持续招聘事实。页面未展示明确发布日期，因此保留日期缺失提示。"
+    },
+    "duplicateFingerprint": "3edc61a701dbfce24efe"
+  },
+  {
     "id": "zhaopin-689fbcff388992a7494b",
     "sourceJobId": "CC409009630J40741814101",
     "sourcePlatform": "zhaopin",

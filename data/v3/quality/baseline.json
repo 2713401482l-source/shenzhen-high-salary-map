@@ -1,32 +1,32 @@
 {
-  "generatedAt": "2026-07-14T22:53:37.579Z",
+  "generatedAt": "2026-07-15T00:08:32.135Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 95,
-    "verifiedDetailJobs": 26,
+    "usableJobs": 96,
+    "verifiedDetailJobs": 27,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 28,
-    "uniqueCompanies": 90,
-    "uniqueRawTitles": 84,
+    "fullRequirementJobs": 29,
+    "uniqueCompanies": 91,
+    "uniqueRawTitles": 85,
     "captureDates": 2
   },
   "distributions": {
     "salaryBands": {
-      "50K": 45,
+      "50K": 46,
       "30K": 41,
       "100K": 9
     },
     "evidenceLevels": {
       "boss-listing": 67,
-      "public-platform-detail": 17,
+      "public-platform-detail": 18,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3
     },
     "captureDates": {
       "2026-07-12": 71,
-      "2026-07-15": 24
+      "2026-07-15": 25
     },
     "industries": {
       "计算机软件": 12,
@@ -63,6 +63,7 @@
       "软件/IT服务、云计算": 1,
       "石油/石化、环保": 1,
       "学术/科研": 1,
+      "学术/科研/重大科学装置": 1,
       "证券/期货": 1,
       "智慧农业/人工智能": 1,
       "专用设备": 1,
@@ -76,7 +77,7 @@
       "龙岗区": 6,
       "龙华区": 6,
       "福田区": 5,
-      "光明区": 3,
+      "光明区": 4,
       "罗湖区": 1,
       "盐田区": 1
     }
@@ -112,12 +113,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 95,
+      "current": 96,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 26,
+      "current": 27,
       "required": 240,
       "passed": false
     },
@@ -136,7 +137,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "26/95 条完成详情核验",
+      "evidence": "27/96 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {
