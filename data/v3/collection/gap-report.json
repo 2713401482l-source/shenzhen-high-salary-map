@@ -1,7 +1,7 @@
 {
   "metadata": {
     "dataKind": "collection-gap-report",
-    "generatedFromLatestCapture": "2026-07-15T22:31:00+08:00",
+    "generatedFromLatestCapture": "2026-07-15T22:51:00+08:00",
     "bossAccessAllowed": false,
     "sourceFiles": [
       "data/v3/config/collection-plan.json",
@@ -13,17 +13,17 @@
   },
   "totals": {
     "discovery": {
-      "actual": 111,
+      "actual": 112,
       "target": 720,
-      "gap": 609
+      "gap": 608
     },
     "detailEvidence": {
-      "actual": 42,
+      "actual": 43,
       "target": 240,
-      "gap": 198
+      "gap": 197
     },
     "assignedToV3Queue": 7,
-    "legacyUnassigned": 104
+    "legacyUnassigned": 105
   },
   "quality": {
     "grain": "one company-specific job posting on one direct detail URL",
@@ -34,7 +34,7 @@
       },
       {
         "source": "zhaopin",
-        "count": 30
+        "count": 31
       },
       {
         "source": "liepin",
@@ -47,26 +47,26 @@
       "source": "boss",
       "count": 78
     },
-    "largestSourceShare": 0.7027,
+    "largestSourceShare": 0.6964,
     "maximumSingleSourceShare": 0.55,
     "duplicateIds": 0,
     "duplicateFingerprints": 0,
     "duplicateSourceUrls": 0,
     "staleJobs": 0,
     "maximumAgeDaysAtCapture": 45,
-    "formalSampleCount": 42,
-    "formalSampleShare": 0.3784,
+    "formalSampleCount": 43,
+    "formalSampleShare": 0.3839,
     "discoveryOnlyCount": 69
   },
   "salaryBands": [
     {
       "band": "30K",
-      "actual": 47,
+      "actual": 48,
       "target": 240,
-      "gap": 193,
-      "detailActual": 12,
+      "gap": 192,
+      "detailActual": 13,
       "detailTarget": 80,
-      "detailGap": 68
+      "detailGap": 67
     },
     {
       "band": "50K",
@@ -259,10 +259,10 @@
     }
   ],
   "publicationBlockers": [
-    "30K 总样本还差 193 条",
+    "30K 总样本还差 192 条",
     "50K 总样本还差 189 条",
     "100K 总样本还差 227 条",
-    "30K 详情证据还差 68 条",
+    "30K 详情证据还差 67 条",
     "50K 详情证据还差 63 条",
     "100K 详情证据还差 67 条",
     "单岗对标“其他专业岗位”还差 39 条详情证据",

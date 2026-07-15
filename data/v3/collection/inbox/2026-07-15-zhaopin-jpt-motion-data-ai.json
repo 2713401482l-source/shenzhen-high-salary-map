@@ -1,0 +1,35 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-15T22:51:00+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC397028480J41020987104.htm",
+  "job": {
+    "sourceJobId": "CC397028480J41020987104",
+    "title": "AI算法工程师（运动数据建模）",
+    "company": "深圳市杰普特光电股份有限公司",
+    "salaryText": "20-40K",
+    "district": "南山区",
+    "addressText": "深圳市南山区湾区数字技术创新中心",
+    "industry": "半导体/芯片/智能制造",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "负责医院采集的患者运动数据清洗、质量控制、缺失与异常数据处理、噪声过滤、标准化、动作片段切分、时序对齐和数据脱敏；基于无标记点动作捕捉数据提取人体运动学特征，结合临床量表、医生评分和患者基础信息建立运动功能预测模型；负责机器学习与深度学习模型的训练、验证、调参和评估，并与临床医生、康复治疗师、产品经理及软件工程师协作，把算法输出转化为临床报告和产品功能。要求本科及以上学历，熟练使用Python、NumPy、Pandas、Scikit-learn、PyTorch或TensorFlow，具备数据清洗、特征工程、真实世界数据处理、机器学习和深度学习能力，具有数学、统计、信号处理基础及规范的工程实现能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.jptoe.com/",
+    "corroboratingUrls": [
+      "https://www.jptoe.com/about/about-us",
+      "https://www.jptoe.com/contact-us",
+      "https://www.sse.com.cn/star/market/stocklist/info/company/index.shtml?COMPANY_CODE=688025"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [],
+    "reviewNotes": "智联独立岗位详情页可直接投递，显示固定月薪20-40K、深圳南山区、3-5年经验、本科学历及完整职责要求；页面采集前3天仍被公开索引且招聘者三日内活跃。岗位页未展示明确发布日期，因此不推测发布日期，依据采集时页面活跃状态满足新鲜度硬门槛。杰普特官网、公司介绍、联系页及上交所科创板公司资料交叉核验企业全称、股票代码688025、深圳主体与激光光学智能装备业务。"
+  }
+}
