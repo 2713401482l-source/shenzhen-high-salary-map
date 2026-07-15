@@ -1456,6 +1456,82 @@
     "duplicateFingerprint": "725308a23762f8d047f5"
   },
   {
+    "id": "zhaopin-89b1059f71f55aebb87b",
+    "sourceJobId": "CC852790960J40785091406",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "量子纠错研究员",
+    "company": "深圳量旋科技股份有限公司",
+    "salaryText": "40-60K·13薪",
+    "salaryMin": 40,
+    "salaryMax": 60,
+    "salaryMonths": 13,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "宝安区",
+    "addressText": "深圳宝安区联合金融大厦（页面同时标注福保地铁站B口步行330米）",
+    "industry": "量子计算/半导体/人工智能",
+    "experience": "经验不限（任职资格注明通常需3-5年以上相关研究经验，以成果为准）",
+    "education": "硕士（任职资格要求博士或同等研究能力）",
+    "descriptionExcerpt": "面向超导量子处理器真实噪声模型开展量子纠错理论分析与仿真，研究表面码、LDPC码等适配硬件的编码方案；设计逻辑量子比特的逻辑门、态制备、测量与读出协议；与软件、实验物理团队共同开发纠错模拟器和解码器、设计实验并分析数据。要求物理、计算机、量子信息或量子计算方向博士或同等研究能力，通常具备3-5年以上相关研究经验，熟悉主流量子纠错码，掌握Python，具备C+",
+    "requirementText": "面向超导量子处理器真实噪声模型开展量子纠错理论分析与仿真，研究表面码、LDPC码等适配硬件的编码方案；设计逻辑量子比特的逻辑门、态制备、测量与读出协议；与软件、实验物理团队共同开发纠错模拟器和解码器、设计实验并分析数据。要求物理、计算机、量子信息或量子计算方向博士或同等研究能力，通常具备3-5年以上相关研究经验，熟悉主流量子纠错码，掌握Python，具备C++、Qiskit、Cirq、Stim、TKET、噪声建模或解码器工程经验者优先。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC852790960J40785091406.htm",
+    "capturedAt": "2026-07-15T15:18:00+08:00",
+    "publishedAt": "2026-07-07",
+    "verifiedAt": "2026-07-15T15:18:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 8
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://www.spinq.cn/",
+      "corroboratingUrls": [
+        "https://www.spinq.cn/",
+        "https://www.spinq.cn/news-detail/liang-zi-fu-neng-yao-gan-liang-xuan-ke-ji-yu-si-xiang-ke-ji-da-cheng-zhan-lue-he-zuo20260610"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "districtAddressLabelInconsistent"
+      ],
+      "reviewNotes": "智联具体岗位详情页显示7月7日更新、立即投递、固定月薪、深圳具体地址和完整职责要求；公司主体已审核，公司招聘页7月15日更新并显示27个在招职位，形成扩招信号。量旋科技官网明确显示公司全称、深圳主体、量子芯片与全栈量子计算业务，并有2026年6月企业动态交叉核验。平台的宝安区标签与福保地铁站地址描述存在轻微不一致，已保留原始信息并标记，不据此推断更细位置。"
+    },
+    "duplicateFingerprint": "0845185b95d8f8f79be5"
+  },
+  {
     "id": "zhaopin-8dc724f9f906854f52e9",
     "sourceJobId": "CC318148910J41004776504",
     "sourcePlatform": "zhaopin",
