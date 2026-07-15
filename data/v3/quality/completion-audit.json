@@ -7,10 +7,10 @@
   },
   "dataset": {
     "grain": "one public job posting per source-specific job id; cross-platform duplicates are resolved separately",
-    "totalJobs": 97,
+    "totalJobs": 99,
     "listingObservations": 69,
-    "detailVerified": 28,
-    "companies": 28,
+    "detailVerified": 30,
+    "companies": 30,
     "captureDates": [
       "2026-07-12",
       "2026-07-15"
@@ -30,7 +30,7 @@
       },
       {
         "source": "zhaopin",
-        "count": 16
+        "count": 18
       },
       {
         "source": "liepin",
@@ -43,15 +43,15 @@
       "source": "boss",
       "count": 78
     },
-    "largestSourceShare": 0.8041,
+    "largestSourceShare": 0.7879,
     "maximumSingleSourceShare": 0.55,
     "duplicateIds": 0,
     "duplicateFingerprints": 0,
     "duplicateSourceUrls": 0,
     "staleJobs": 0,
     "maximumAgeDaysAtCapture": 45,
-    "formalSampleCount": 28,
-    "formalSampleShare": 0.2887,
+    "formalSampleCount": 30,
+    "formalSampleShare": 0.303,
     "discoveryOnlyCount": 69
   },
   "structuralQuality": {
@@ -88,12 +88,12 @@
       {
         "band": "30K",
         "discovery": {
-          "actual": 41,
+          "actual": 42,
           "target": 240,
           "pass": false
         },
         "detailEvidence": {
-          "actual": 6,
+          "actual": 7,
           "target": 80,
           "pass": false
         }
@@ -101,12 +101,12 @@
       {
         "band": "50K",
         "discovery": {
-          "actual": 47,
+          "actual": 48,
           "target": 240,
           "pass": false
         },
         "detailEvidence": {
-          "actual": 13,
+          "actual": 14,
           "target": 80,
           "pass": false
         }
@@ -132,10 +132,10 @@
     },
     "benchmark": {
       "best": {
-        "role": "AI Agent 与大模型应用",
-        "detailCount": 7,
-        "companyCount": 7,
-        "salaryBandCount": 3
+        "role": "其他专业岗位",
+        "detailCount": 9,
+        "companyCount": 9,
+        "salaryBandCount": 2
       },
       "target": 50,
       "pass": false
@@ -148,13 +148,13 @@
   },
   "complete": false,
   "blockers": [
-    "30K 真实岗位还差 199 条",
-    "30K 详情证据还差 74 条",
-    "50K 真实岗位还差 193 条",
-    "50K 详情证据还差 67 条",
+    "30K 真实岗位还差 198 条",
+    "30K 详情证据还差 73 条",
+    "50K 真实岗位还差 192 条",
+    "50K 详情证据还差 66 条",
     "100K 真实岗位还差 231 条",
     "100K 详情证据还差 71 条",
     "新兴岗位方向还差 28 个",
-    "单岗对标还差 43 条同岗详情"
+    "单岗对标还差 41 条同岗详情"
   ]
 }

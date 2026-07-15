@@ -13,17 +13,17 @@
   },
   "totals": {
     "discovery": {
-      "actual": 97,
+      "actual": 99,
       "target": 720,
-      "gap": 623
+      "gap": 621
     },
     "detailEvidence": {
-      "actual": 28,
+      "actual": 30,
       "target": 240,
-      "gap": 212
+      "gap": 210
     },
     "assignedToV3Queue": 7,
-    "legacyUnassigned": 90
+    "legacyUnassigned": 92
   },
   "quality": {
     "grain": "one company-specific job posting on one direct detail URL",
@@ -34,7 +34,7 @@
       },
       {
         "source": "zhaopin",
-        "count": 16
+        "count": 18
       },
       {
         "source": "liepin",
@@ -47,35 +47,35 @@
       "source": "boss",
       "count": 78
     },
-    "largestSourceShare": 0.8041,
+    "largestSourceShare": 0.7879,
     "maximumSingleSourceShare": 0.55,
     "duplicateIds": 0,
     "duplicateFingerprints": 0,
     "duplicateSourceUrls": 0,
     "staleJobs": 0,
     "maximumAgeDaysAtCapture": 45,
-    "formalSampleCount": 28,
-    "formalSampleShare": 0.2887,
+    "formalSampleCount": 30,
+    "formalSampleShare": 0.303,
     "discoveryOnlyCount": 69
   },
   "salaryBands": [
     {
       "band": "30K",
-      "actual": 41,
+      "actual": 42,
       "target": 240,
-      "gap": 199,
-      "detailActual": 6,
+      "gap": 198,
+      "detailActual": 7,
       "detailTarget": 80,
-      "detailGap": 74
+      "detailGap": 73
     },
     {
       "band": "50K",
-      "actual": 47,
+      "actual": 48,
       "target": 240,
-      "gap": 193,
-      "detailActual": 13,
+      "gap": 192,
+      "detailActual": 14,
       "detailTarget": 80,
-      "detailGap": 67
+      "detailGap": 66
     },
     {
       "band": "100K",
@@ -180,11 +180,11 @@
     }
   ],
   "benchmark": {
-    "role": "AI Agent 与大模型应用",
-    "detailActual": 7,
+    "role": "其他专业岗位",
+    "detailActual": 9,
     "detailTarget": 50,
-    "detailGap": 43,
-    "currentFamilyJobs": 7
+    "detailGap": 41,
+    "currentFamilyJobs": 9
   },
   "priorityQueries": [
     {
@@ -259,14 +259,14 @@
     }
   ],
   "publicationBlockers": [
-    "30K 总样本还差 199 条",
-    "50K 总样本还差 193 条",
+    "30K 总样本还差 198 条",
+    "50K 总样本还差 192 条",
     "100K 总样本还差 231 条",
-    "30K 详情证据还差 74 条",
-    "50K 详情证据还差 67 条",
+    "30K 详情证据还差 73 条",
+    "50K 详情证据还差 66 条",
     "100K 详情证据还差 71 条",
-    "单岗对标“AI Agent 与大模型应用”还差 43 条详情证据",
+    "单岗对标“其他专业岗位”还差 41 条详情证据",
     "独立数据平台还差 2 个",
-    "boss 占比过高（80%），需要增加其他来源"
+    "boss 占比过高（79%），需要增加其他来源"
   ]
 }
