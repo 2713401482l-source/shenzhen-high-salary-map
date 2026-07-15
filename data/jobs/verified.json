@@ -3589,6 +3589,79 @@
     "duplicateFingerprint": "652b215a59bf2745b03d"
   },
   {
+    "id": "zhaopin-f9978fbc8a916c250403",
+    "sourceJobId": "CC469217510J40819496601",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "大模型应用开发工程师-飞书文档",
+    "company": "字节跳动",
+    "salaryText": "40-80K",
+    "salaryMin": 40,
+    "salaryMax": 80,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "深圳市南山区深圳湾创新科技中心T2栋6层",
+    "industry": "互联网社交/数字内容、企业协作软件、人工智能",
+    "experience": "经验不限",
+    "education": "硕士",
+    "descriptionExcerpt": "基于大语言模型设计飞书文档智能助手，围绕内容创作与消费场景提升生产效率；负责Prompt工程和指令模板调优，探索React Agent、Multi Agent在复杂创作及运营场景中的协作机制，并通过实验评估持续优化长期性能。结合业务需求使用LoRA、QLoRA定制模型，以DPO、GRPO和RLHF等方法提升输出质量。要求具备大模型应用开发经验、数据分析和业务",
+    "requirementText": "基于大语言模型设计飞书文档智能助手，围绕内容创作与消费场景提升生产效率；负责Prompt工程和指令模板调优，探索React Agent、Multi Agent在复杂创作及运营场景中的协作机制，并通过实验评估持续优化长期性能。结合业务需求使用LoRA、QLoRA定制模型，以DPO、GRPO和RLHF等方法提升输出质量。要求具备大模型应用开发经验、数据分析和业务问题量化能力；熟悉多轮对话、RAG、Agent、LangChain、模型微调或对齐技术者优先。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC469217510J40819496601.htm",
+    "capturedAt": "2026-07-16T00:41:00+08:00",
+    "publishedAt": "2026-07-08",
+    "verifiedAt": "2026-07-16T00:41:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 8
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://www.bytedance.com/zh/",
+      "corroboratingUrls": [
+        "https://www.bytedance.com/zh/",
+        "https://seed.bytedance.com/zh/direction/llm"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [],
+      "reviewNotes": "智联招聘具体岗位详情页在采集时可投递，7月8日更新，展示明确月薪、深圳南山办公地址、招聘人数及完整职责要求；招聘主体为平台已审核的字节跳动，工商主体为北京抖音信息服务有限公司。字节跳动官网确认飞书产品与招聘联系信息，Seed官网交叉印证其大模型、Agent和应用研发方向。"
+    },
+    "duplicateFingerprint": "97efb247f26bcf12aa4b"
+  },
+  {
     "id": "zhaopin-f9d52f85aff9fd0d3f75",
     "sourceJobId": "CCL1482413560J40894007313",
     "sourcePlatform": "zhaopin",
