@@ -1,0 +1,34 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-15T15:54:00+08:00",
+  "publishedAt": "2026-07-09",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1513149870J40894352513.htm",
+  "job": {
+    "sourceJobId": "CCL1513149870J40894352513",
+    "title": "AI算法工程师｜医疗运动数据建模",
+    "company": "广东爱比力智能科技有限公司",
+    "salaryText": "20-40K",
+    "district": "南山区",
+    "addressText": "深圳南山区华中科技大学深圳产学研基地A座",
+    "industry": "医疗设备/康复机器人/人工智能",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "负责医院患者运动数据的清洗、质量控制、异常与噪声处理、时序对齐及脱敏，基于无标记点动作捕捉数据提取人体运动学特征，结合临床量表、医生评分和患者信息建立运动功能预测模型；完成机器学习与深度学习模型训练、验证、调参与评估，并与医生、康复治疗师、产品经理和软件工程师协作，把算法结果转化为临床报告和产品指标。要求本科及以上学历，熟练使用Python、NumPy、Pandas、Scikit-learn、PyTorch或TensorFlow，具备真实世界数据清洗、特征工程、机器学习、深度学习、统计和信号处理基础，以及可复现、可维护、可部署的算法工程能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": null,
+    "corroboratingUrls": [
+      "https://static.nfnews.com/content/202506/23/c11428546.html"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [],
+    "reviewNotes": "智联具体岗位详情页显示7月9日更新、立即投递、固定月薪、深圳南山具体地址、完整职责和任职要求；平台显示企业主体已审核、经营状态存续。南方+对企业孵化背景、康复机器人产品和技术方向的公开报道与岗位描述相互吻合，用于交叉核验企业及业务真实性。"
+  }
+}

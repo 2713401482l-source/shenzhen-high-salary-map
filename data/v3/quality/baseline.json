@@ -1,32 +1,32 @@
 {
-  "generatedAt": "2026-07-15T07:01:07.397Z",
+  "generatedAt": "2026-07-15T08:04:41.751Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 104,
-    "verifiedDetailJobs": 35,
+    "usableJobs": 106,
+    "verifiedDetailJobs": 37,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 37,
-    "uniqueCompanies": 99,
-    "uniqueRawTitles": 92,
+    "fullRequirementJobs": 39,
+    "uniqueCompanies": 101,
+    "uniqueRawTitles": 94,
     "captureDates": 2
   },
   "distributions": {
     "salaryBands": {
       "50K": 51,
-      "30K": 43,
+      "30K": 45,
       "100K": 10
     },
     "evidenceLevels": {
       "boss-listing": 67,
-      "public-platform-detail": 26,
+      "public-platform-detail": 28,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3
     },
     "captureDates": {
       "2026-07-12": 71,
-      "2026-07-15": 33
+      "2026-07-15": 35
     },
     "industries": {
       "计算机软件": 12,
@@ -68,9 +68,11 @@
       "企业服务": 1,
       "软件/IT服务、云计算": 1,
       "石油/石化、环保": 1,
+      "消费电子/智能硬件/互联网电商": 1,
       "鞋服箱包批发/零售/贸易": 1,
       "学术/科研": 1,
       "学术/科研/重大科学装置": 1,
+      "医疗设备/康复机器人/人工智能": 1,
       "证券/期货": 1,
       "智慧农业/人工智能": 1,
       "专用设备": 1,
@@ -78,11 +80,11 @@
       "自动化设备": 1
     },
     "districts": {
-      "南山区": 49,
+      "南山区": 50,
       "宝安区": 17,
       "深圳": 11,
+      "龙华区": 8,
       "龙岗区": 7,
-      "龙华区": 7,
       "光明区": 6,
       "福田区": 5,
       "罗湖区": 1,
@@ -120,12 +122,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 104,
+      "current": 106,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 35,
+      "current": 37,
       "required": 240,
       "passed": false
     },
@@ -144,7 +146,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "35/104 条完成详情核验",
+      "evidence": "37/106 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {

@@ -1532,6 +1532,151 @@
     "duplicateFingerprint": "0845185b95d8f8f79be5"
   },
   {
+    "id": "zhaopin-8cb535690dd1aefaa8e8",
+    "sourceJobId": "CC463958210J40787792306",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "品牌副总经理",
+    "company": "深圳市智纬科技有限公司",
+    "salaryText": "25-35K",
+    "salaryMin": 25,
+    "salaryMax": 35,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "龙华区",
+    "addressText": "深圳龙华区利金城科技工业园8号厂房6楼",
+    "industry": "消费电子/智能硬件/互联网电商",
+    "experience": "5-10年（任职要求注明8年以上品牌营销经验）",
+    "education": "本科",
+    "descriptionExcerpt": "负责制定公司品牌战略与中长期发展规划，明确品牌定位、核心价值主张和传播路径；统筹新品上市、大型促销、行业展会等全渠道营销活动，主导品牌视觉与内容体系建设，建立品牌效果评估体系并通过数据分析优化营销ROI，同时管理品牌团队并推动产品、销售、研发跨部门协作。要求本科及以上学历，具备8年以上品牌营销经验，其中至少3年消费电子或智能硬件行业经验，有品牌从0到1或从1",
+    "requirementText": "负责制定公司品牌战略与中长期发展规划，明确品牌定位、核心价值主张和传播路径；统筹新品上市、大型促销、行业展会等全渠道营销活动，主导品牌视觉与内容体系建设，建立品牌效果评估体系并通过数据分析优化营销ROI，同时管理品牌团队并推动产品、销售、研发跨部门协作。要求本科及以上学历，具备8年以上品牌营销经验，其中至少3年消费电子或智能硬件行业经验，有品牌从0到1或从1到N的完整操盘经历，精通品牌定位、整合营销、内容营销和数字营销，并具备市场洞察、数据分析、团队管理及跨部门沟通能力。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC463958210J40787792306.htm",
+    "capturedAt": "2026-07-15T15:54:00+08:00",
+    "publishedAt": "2026-07-09",
+    "verifiedAt": "2026-07-15T15:54:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 6
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": null,
+      "corroboratingUrls": [
+        "https://www.szlhq.gov.cn/attachment/1/1493/1493378/11548334.pdf",
+        "https://www.cnverify.com/company/Shenzhen-Zhiwei-Technology-Co-Ltd-2"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [],
+      "reviewNotes": "智联具体岗位详情页显示7月9日更新、立即投递、固定月薪、深圳龙华具体地址、完整职责和任职要求；平台显示企业主体已审核并有12个在招职位。深圳市生态环境部门公开记录和企业登记查询交叉核验公司全称、统一社会信用代码、深圳龙华经营地址及消费电子制造业务。"
+    },
+    "duplicateFingerprint": "af82918071ba376b5ac1"
+  },
+  {
+    "id": "zhaopin-8d2447aafb9773b621d8",
+    "sourceJobId": "CCL1513149870J40894352513",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "AI算法工程师｜医疗运动数据建模",
+    "company": "广东爱比力智能科技有限公司",
+    "salaryText": "20-40K",
+    "salaryMin": 20,
+    "salaryMax": 40,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "深圳南山区华中科技大学深圳产学研基地A座",
+    "industry": "医疗设备/康复机器人/人工智能",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionExcerpt": "负责医院患者运动数据的清洗、质量控制、异常与噪声处理、时序对齐及脱敏，基于无标记点动作捕捉数据提取人体运动学特征，结合临床量表、医生评分和患者信息建立运动功能预测模型；完成机器学习与深度学习模型训练、验证、调参与评估，并与医生、康复治疗师、产品经理和软件工程师协作，把算法结果转化为临床报告和产品指标。要求本科及以上学历，熟练使用Python、NumPy、Pa",
+    "requirementText": "负责医院患者运动数据的清洗、质量控制、异常与噪声处理、时序对齐及脱敏，基于无标记点动作捕捉数据提取人体运动学特征，结合临床量表、医生评分和患者信息建立运动功能预测模型；完成机器学习与深度学习模型训练、验证、调参与评估，并与医生、康复治疗师、产品经理和软件工程师协作，把算法结果转化为临床报告和产品指标。要求本科及以上学历，熟练使用Python、NumPy、Pandas、Scikit-learn、PyTorch或TensorFlow，具备真实世界数据清洗、特征工程、机器学习、深度学习、统计和信号处理基础，以及可复现、可维护、可部署的算法工程能力。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1513149870J40894352513.htm",
+    "capturedAt": "2026-07-15T15:54:00+08:00",
+    "publishedAt": "2026-07-09",
+    "verifiedAt": "2026-07-15T15:54:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 6
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": null,
+      "corroboratingUrls": [
+        "https://static.nfnews.com/content/202506/23/c11428546.html"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [],
+      "reviewNotes": "智联具体岗位详情页显示7月9日更新、立即投递、固定月薪、深圳南山具体地址、完整职责和任职要求；平台显示企业主体已审核、经营状态存续。南方+对企业孵化背景、康复机器人产品和技术方向的公开报道与岗位描述相互吻合，用于交叉核验企业及业务真实性。"
+    },
+    "duplicateFingerprint": "7d3d887c499ff4272c49"
+  },
+  {
     "id": "zhaopin-8dc724f9f906854f52e9",
     "sourceJobId": "CC318148910J41004776504",
     "sourcePlatform": "zhaopin",
