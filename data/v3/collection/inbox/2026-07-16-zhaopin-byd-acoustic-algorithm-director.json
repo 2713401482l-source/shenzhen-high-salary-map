@@ -1,0 +1,41 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-16T04:21:00+08:00",
+  "publishedAt": "2026-07-16",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC132962990J40965102602.htm",
+  "job": {
+    "sourceJobId": "CC132962990J40965102602",
+    "title": "主任算法工程师（声学方向）",
+    "company": "比亚迪股份有限公司",
+    "salaryText": "40-60K",
+    "district": "龙岗区",
+    "addressText": "广东省深圳市龙岗区宝龙大道与宝龙四路交汇处",
+    "industry": "新能源汽车、智能座舱与动力电池",
+    "experience": "10年以上",
+    "education": "硕士",
+    "descriptionText": "负责音频信号处理、声学建模、语音增强、音效合成等前沿算法研究，评估深度学习、生成模型和神经音频编码的产品落地可行性；设计声场控制、降噪、回声消除、声源分离、音色转换和声学场景识别算法，覆盖传统DSP与CNN、RNN、Transformer等AI模型。岗位还需构建音频数据集与训练pipeline，针对嵌入式、移动端或云端完成量化、剪枝、蒸馏、TensorRT及ONNX Runtime优化，并协同软硬件团队完成麦克风阵列、声学结构、算力内存评估和产品调优。要求声学、信号处理或自动化相关专业，理解傅里叶变换、统计信号处理、自适应滤波及AI降噪，具备算法从研发、部署到测评体系建设的全栈经验，并掌握Matlab、C、C++或Python。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.byd.com/cn",
+    "corroboratingUrls": [
+      "https://oip.byd.com/",
+      "https://www.byd.com/zh-hk/support/dilink"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "岗位详情页显示采集当天更新",
+      "岗位明确招聘1人且可立即投递",
+      "企业页面显示5315个在招职位",
+      "企业主体已审核、已上市且经营状态存续",
+      "职位发布者三日内活跃"
+    ],
+    "reviewNotes": "智联具体岗位详情页展示固定月薪40-60K、深圳龙岗具体地点、10年以上经验、硕士学历、招聘1人、可立即投递，以及完整的声学算法研发和工程化要求；发布主体为平台已审核的比亚迪股份有限公司。比亚迪DiLink官方资料公开智能座舱、语音识别和定制音效能力，与岗位的音频算法、声学调优及软硬件协同职责一致。未发现收费、付费培训、提成冒充固定月薪、地点矛盾或匿名客户信号。"
+  }
+}

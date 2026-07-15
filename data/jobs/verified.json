@@ -1321,6 +1321,85 @@
     "duplicateFingerprint": "5b83d848456096176971"
   },
   {
+    "id": "zhaopin-2457344aaf5c1924b49e",
+    "sourceJobId": "CC132962990J40965102602",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "主任算法工程师（声学方向）",
+    "company": "比亚迪股份有限公司",
+    "salaryText": "40-60K",
+    "salaryMin": 40,
+    "salaryMax": 60,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "龙岗区",
+    "addressText": "广东省深圳市龙岗区宝龙大道与宝龙四路交汇处",
+    "industry": "新能源汽车、智能座舱与动力电池",
+    "experience": "10年以上",
+    "education": "硕士",
+    "descriptionExcerpt": "负责音频信号处理、声学建模、语音增强、音效合成等前沿算法研究，评估深度学习、生成模型和神经音频编码的产品落地可行性；设计声场控制、降噪、回声消除、声源分离、音色转换和声学场景识别算法，覆盖传统DSP与CNN、RNN、Transformer等AI模型。岗位还需构建音频数据集与训练pipeline，针对嵌入式、移动端或云端完成量化、剪枝、蒸馏、TensorRT及",
+    "requirementText": "负责音频信号处理、声学建模、语音增强、音效合成等前沿算法研究，评估深度学习、生成模型和神经音频编码的产品落地可行性；设计声场控制、降噪、回声消除、声源分离、音色转换和声学场景识别算法，覆盖传统DSP与CNN、RNN、Transformer等AI模型。岗位还需构建音频数据集与训练pipeline，针对嵌入式、移动端或云端完成量化、剪枝、蒸馏、TensorRT及ONNX Runtime优化，并协同软硬件团队完成麦克风阵列、声学结构、算力内存评估和产品调优。要求声学、信号处理或自动化相关专业，理解傅里叶变换、统计信号处理、自适应滤波及AI降噪，具备算法从研发、部署到测评体系建设的全栈经验，并掌握Matlab、C、C++或Python。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC132962990J40965102602.htm",
+    "capturedAt": "2026-07-16T04:21:00+08:00",
+    "publishedAt": "2026-07-16",
+    "verifiedAt": "2026-07-16T04:21:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 0
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://www.byd.com/cn",
+      "corroboratingUrls": [
+        "https://oip.byd.com/",
+        "https://www.byd.com/zh-hk/support/dilink"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "岗位详情页显示采集当天更新",
+        "岗位明确招聘1人且可立即投递",
+        "企业页面显示5315个在招职位",
+        "企业主体已审核、已上市且经营状态存续",
+        "职位发布者三日内活跃"
+      ],
+      "reviewNotes": "智联具体岗位详情页展示固定月薪40-60K、深圳龙岗具体地点、10年以上经验、硕士学历、招聘1人、可立即投递，以及完整的声学算法研发和工程化要求；发布主体为平台已审核的比亚迪股份有限公司。比亚迪DiLink官方资料公开智能座舱、语音识别和定制音效能力，与岗位的音频算法、声学调优及软硬件协同职责一致。未发现收费、付费培训、提成冒充固定月薪、地点矛盾或匿名客户信号。"
+    },
+    "duplicateFingerprint": "f1abd4eadbceea087195"
+  },
+  {
     "id": "zhaopin-3c13bce46505fb780ae3",
     "sourceJobId": "CC540412320J40913370312",
     "sourcePlatform": "zhaopin",
@@ -3845,6 +3924,86 @@
       "reviewNotes": "智联具体岗位详情页显示采集当天更新、固定月薪35-70K并单独标注16薪、深圳南山具体地址、招聘1人、可立即投递以及完整飞控系统职责与技术要求；发布主体为平台已审核的京东集团，而非匿名客户或猎头。京东云官方资料公开其无人机、无人车等智能物流技术布局，京东物流官方产品手册列有物流无人机产品，岗位职责与企业公开业务方向一致。未发现收费、付费培训、提成冒充固定月薪或地点矛盾。"
     },
     "duplicateFingerprint": "e8df24ba1b381cc5a647"
+  },
+  {
+    "id": "zhaopin-ce4c1a0b38afa2348304",
+    "sourceJobId": "CC581863630J40855599507",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "低空经济首席工程师(J10037)",
+    "company": "海油来博(天津)科技股份有限公司",
+    "salaryText": "30-60K",
+    "salaryMin": 30,
+    "salaryMax": 60,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "深圳市南山区后海滨路",
+    "industry": "石油石化、海洋低空经济与产业数字化",
+    "experience": "经验不限（要求资深工程师任职年限）",
+    "education": "本科",
+    "descriptionExcerpt": "牵头制定海洋低空业务技术路线与研发战略，构建自主可控的核心技术体系；研究低空经济政策并输出行业研究和可行性分析，统筹重大科技专项、核心能力建设、数字化转型和新场景开拓。岗位需全面负责海洋低空飞行器、海上低空作业系统、海空通信与导航、海上空域管理等方向的技术攻关、总体方案设计、产品研发和工程化落地，协调科研、基础设施及场景应用全流程，推动成果转化、产业合作、标",
+    "requirementText": "牵头制定海洋低空业务技术路线与研发战略，构建自主可控的核心技术体系；研究低空经济政策并输出行业研究和可行性分析，统筹重大科技专项、核心能力建设、数字化转型和新场景开拓。岗位需全面负责海洋低空飞行器、海上低空作业系统、海空通信与导航、海上空域管理等方向的技术攻关、总体方案设计、产品研发和工程化落地，协调科研、基础设施及场景应用全流程，推动成果转化、产业合作、标准与资质落地，并建设专业人才梯队。要求本科及以上学历、副高级及以上技术职称，具有资深工程师或相当层级任职经历，能够解决跨飞行器、通信导航、空域管理和海洋作业场景的复杂技术问题。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC581863630J40855599507.htm",
+    "capturedAt": "2026-07-16T04:21:00+08:00",
+    "publishedAt": "2026-07-01",
+    "verifiedAt": "2026-07-16T04:21:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 15
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://www.raiborn.com/",
+      "corroboratingUrls": [
+        "https://wap.sasac.gov.cn/n2588025/n2588124/c35358971/content.html",
+        "https://www.sz.gov.cn/cn/xxgk/zfxxgj/tpxw/content/post_12819730.html",
+        "https://buy.cnooc.com.cn/cbjyweb/001/001003/20220905/280d80ac-7e97-43ba-878e-62759be5b0ec.html"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "岗位详情页显示2026年7月1日更新",
+        "岗位可立即投递",
+        "企业页面显示68个在招职位",
+        "企业主体已审核且经营状态存续",
+        "职位发布者昨日活跃"
+      ],
+      "reviewNotes": "智联具体岗位详情页展示固定月薪30-60K、深圳南山具体地点、本科与副高级职称要求、可立即投递，以及完整的海洋低空技术路线、研发和产业落地职责；发布主体为平台已审核且明确命名的海油来博。国务院国资委和深圳市政府公开资料均显示中国海油正在推进海上油田无人机规模化作业、海空通信导航和深圳海洋低空应用；中国海油采办系统亦能核验海油来博主体。岗位内容与公开产业事实一致，未发现收费、付费培训、提成冒充固定月薪或匿名客户信号。"
+    },
+    "duplicateFingerprint": "06e47cba18bf0afeac84"
   },
   {
     "id": "zhaopin-db5d63ff947322b2ce05",

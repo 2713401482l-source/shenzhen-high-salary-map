@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-07-15T20:15:04.066Z",
+  "generatedAt": "2026-07-15T20:26:44.010Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 132,
-    "verifiedDetailJobs": 63,
+    "usableJobs": 134,
+    "verifiedDetailJobs": 65,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 65,
-    "uniqueCompanies": 121,
-    "uniqueRawTitles": 120,
+    "fullRequirementJobs": 67,
+    "uniqueCompanies": 123,
+    "uniqueRawTitles": 122,
     "captureDates": 3
   },
   "distributions": {
     "salaryBands": {
-      "50K": 60,
+      "50K": 62,
       "30K": 54,
       "100K": 18
     },
     "evidenceLevels": {
       "boss-listing": 67,
-      "public-platform-detail": 54,
+      "public-platform-detail": 56,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3
     },
     "captureDates": {
       "2026-07-12": 71,
       "2026-07-15": 46,
-      "2026-07-16": 15
+      "2026-07-16": 17
     },
     "industries": {
       "计算机软件": 12,
@@ -84,6 +84,7 @@
       "软件/IT服务、云计算": 1,
       "软件和信息技术服务、企业数字化": 1,
       "石油/石化、环保": 1,
+      "石油石化、海洋低空经济与产业数字化": 1,
       "石油装备、能源技术与环保": 1,
       "通用设备制造、数控机床与智能装备": 1,
       "物联网、船舶/航空/航天/军工、工业自动化/机器人": 1,
@@ -92,6 +93,7 @@
       "鞋服箱包批发/零售/贸易": 1,
       "新能源、便携式储能、跨境电商": 1,
       "新能源汽车、储能、电池管理系统": 1,
+      "新能源汽车、智能座舱与动力电池": 1,
       "新能源汽车零部件、半导体与电连接组件": 1,
       "学术/科研": 1,
       "学术/科研/重大科学装置": 1,
@@ -107,11 +109,11 @@
       "自动化设备": 1
     },
     "districts": {
-      "南山区": 64,
+      "南山区": 65,
       "宝安区": 21,
       "龙华区": 11,
       "深圳": 11,
-      "龙岗区": 9,
+      "龙岗区": 10,
       "福田区": 6,
       "光明区": 6,
       "罗湖区": 2,
@@ -174,12 +176,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 132,
+      "current": 134,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 63,
+      "current": 65,
       "required": 240,
       "passed": false
     },
@@ -198,7 +200,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "63/132 条完成详情核验",
+      "evidence": "65/134 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {
