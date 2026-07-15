@@ -1,0 +1,41 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-16T04:00:00+08:00",
+  "publishedAt": "2026-07-13",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC469217510J40844622501.htm",
+  "job": {
+    "sourceJobId": "CC469217510J40844622501",
+    "title": "SoC系统软件架构师/工程师-高速接口",
+    "company": "字节跳动",
+    "salaryText": "40-60K",
+    "district": "南山区",
+    "addressText": "深圳市南山区深圳湾创新科技中心2栋B座20层",
+    "industry": "互联网社交、数字内容与自研芯片",
+    "experience": "经验不限（岗位要求5年以上研发经验）",
+    "education": "本科",
+    "descriptionText": "负责字节跳动自研芯片的系统软件架构设计和优化，参与重点模块开发调试，支撑芯片产品在数据中心大规模上线并解决线上重点问题；负责SoC芯片BSP和驱动设计开发、硅前软硬件联调验证、硅后芯片调出及产品化，并结合业务需求和行业趋势为芯片软硬件协同设计提供输入。要求计算机相关专业本科及以上、5年以上研发经验，精通Serdes或UCIe的C2C、D2D接口调试和测试，熟悉UCIe、PCIe、CXL及高速以太网协议，具备驱动开发调试经验；熟悉ARM或RISC-V SoC体系架构、芯片研发流程、AXI或CHI片上总线及FlexNOC、CMN等互联IP。具备GPU、GPGPU或NPU架构、大模型训练推理、CUDA或ROCm软件栈、Chiplet或多卡互联经验者优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.bytedance.com/zh/",
+    "corroboratingUrls": [
+      "https://seed.bytedance.com/zh/direction/infrastructures",
+      "https://seed.bytedance.com/zh/blog/peking-university-bytedance-doubao-large-model-system-software-joint-laboratory-established-focusing-on-key-issues-in-ai-system-software"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "岗位详情页显示2026年7月13日更新",
+      "岗位明确招聘4人且可立即投递",
+      "企业页面显示429个在招职位",
+      "企业主体已审核且经营状态存续",
+      "职位发布者三日内活跃"
+    ],
+    "reviewNotes": "智联具体岗位详情页展示固定月薪40-60K、深圳南山区具体办公地址、招聘4人、可立即投递，以及完整的SoC系统软件和高速互联技术要求；发布主体为平台已审核的字节跳动，而非匿名客户或猎头。字节跳动Seed官方资料公开其系统软件、AI基础设施、异构硬件编译及大规模生产环境方向，与岗位职责相互印证。未发现收费、付费培训、提成冒充固定月薪、地点矛盾或岗位失效信号。"
+  }
+}
