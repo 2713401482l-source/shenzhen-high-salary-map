@@ -1,0 +1,37 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘·智联猎头",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-16T00:51:00+08:00",
+  "publishedAt": "2026-06-16",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1318355140J40815810103.htm",
+  "job": {
+    "sourceJobId": "CCL1318355140J40815810103",
+    "title": "EPR总架构师",
+    "company": "中广核研究院有限公司",
+    "salaryText": "70-80K",
+    "district": "福田区",
+    "addressText": "深圳市福田区中广核大厦深南大道2002号",
+    "industry": "核电、能源科技、企业软件",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责企业级ERP技术规划与标准化建设，编制和实施技术规划，完善工作流程、技术规范、文档模板、方法工具和知识沉淀；组织前沿技术研究、关键技术路线储备、科研项目及知识产权管理，评审系统设计和平台架构方案，解决工程应用中的系统级技术问题，并建设年度培训和专业能力体系。要求本科毕业满10年或硕士毕业满8年，熟悉ERP产品行业、核电安全文化、软件质保及设计规范，并掌握人力、财务、物资、项目或生产运营至少一个业务领域。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.cgnpc.com.cn/",
+    "corroboratingUrls": [
+      "https://job.cgnpc.com.cn/clients/article/showArticleDtl?id=704",
+      "https://www.cgnpc.com.cn/cgn/c101047/con_list.shtml"
+    ],
+    "staffingAgencyPosting": true,
+    "endEmployerNamed": true,
+    "signals": [
+      "staffingAgencyPosting"
+    ],
+    "reviewNotes": "智联猎头代中广核研究院发布，详情页明确披露客户公司全称而非匿名客户；采集时可投递，6月16日更新，招聘方昨日活跃，展示深圳福田地址、明确月薪和完整要求。岗位标题写作EPR，但职责全文持续使用ERP并明确企业资源管理业务，按原始标题保留并在分析中按ERP架构岗位理解。中广核官方招聘页确认研究院主体、本部位于深圳及其集团成员身份。"
+  }
+}
