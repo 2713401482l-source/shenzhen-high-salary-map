@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-07-15T19:36:44.628Z",
+  "generatedAt": "2026-07-15T19:55:31.428Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 130,
-    "verifiedDetailJobs": 61,
+    "usableJobs": 131,
+    "verifiedDetailJobs": 62,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 63,
+    "fullRequirementJobs": 64,
     "uniqueCompanies": 121,
-    "uniqueRawTitles": 118,
+    "uniqueRawTitles": 119,
     "captureDates": 3
   },
   "distributions": {
     "salaryBands": {
       "50K": 59,
       "30K": 54,
-      "100K": 17
+      "100K": 18
     },
     "evidenceLevels": {
       "boss-listing": 67,
-      "public-platform-detail": 52,
+      "public-platform-detail": 53,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3
     },
     "captureDates": {
       "2026-07-12": 71,
       "2026-07-15": 46,
-      "2026-07-16": 13
+      "2026-07-16": 14
     },
     "industries": {
       "计算机软件": 12,
@@ -83,6 +83,7 @@
       "软件/IT服务、云计算": 1,
       "软件和信息技术服务、企业数字化": 1,
       "石油/石化、环保": 1,
+      "石油装备、能源技术与环保": 1,
       "通用设备制造、数控机床与智能装备": 1,
       "物联网、船舶/航空/航天/军工、工业自动化/机器人": 1,
       "物联网/船舶航空航天军工": 1,
@@ -105,7 +106,7 @@
       "自动化设备": 1
     },
     "districts": {
-      "南山区": 62,
+      "南山区": 63,
       "宝安区": 21,
       "龙华区": 11,
       "深圳": 11,
@@ -152,6 +153,10 @@
       "count": 2
     },
     {
+      "company": "烟台杰瑞石油服务集团股份有限公司",
+      "count": 2
+    },
+    {
       "company": "自变量机器人",
       "count": 2
     }
@@ -164,12 +169,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 130,
+      "current": 131,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 61,
+      "current": 62,
       "required": 240,
       "passed": false
     },
@@ -188,7 +193,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "61/130 条完成详情核验",
+      "evidence": "62/131 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {
