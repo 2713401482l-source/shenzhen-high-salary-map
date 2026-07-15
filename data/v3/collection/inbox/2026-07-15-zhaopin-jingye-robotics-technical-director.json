@@ -1,0 +1,37 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-15T23:51:00+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC647126180J40767554106.htm",
+  "job": {
+    "sourceJobId": "CC647126180J40767554106",
+    "title": "技术总监（JD00147）",
+    "company": "敬业钢铁有限公司",
+    "salaryText": "60-100K",
+    "district": "南山区",
+    "addressText": "深圳市南山区中国华润大厦",
+    "industry": "矿产冶金、智能制造、工业机器人",
+    "experience": "5-10年",
+    "education": "硕士",
+    "descriptionText": "负责研判智能制造和移动机器人行业趋势，制定公司中长期产品与技术战略路线，引进前沿核心技术并布局发明专利和知识产权体系；统筹组建和管理机械结构、电控硬件、嵌入式软件、运动算法、整机测试全栈研发团队，建立研发流程、项目管控和整机质量标准；全权负责机器人产品从0到1原型研发、样机验证、迭代优化到量产转化，牵头重载AGV核心技术攻关和多机型系统集成；对接客户、供应链、高校和科研院所并推动产学研合作。要求自动化、机械电子、机器人工程或计算机相关专业研究生及以上学历，八年以上工业机器人研发经验、五年以上技术管理经验，精通重载AGV从研发到量产全流程，能够搭建机械、电控、软件、算法等全栈团队并解决复杂非标工程问题。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.hbjyjt.com/",
+    "corroboratingUrls": [
+      "https://www.hbjyjt.com/",
+      "https://www.hbjyjt.com/aboutus.html",
+      "https://www.steelsidc.org.cn/index.php?a=show&c=index&catid=249&id=8623&m=content"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "missingPublicationDate"
+    ],
+    "reviewNotes": "智联具体岗位详情页未展示明确发布日期，因此不推测日期并保留缺失日期复核标记。采集时详情页仍展示立即投递入口、招聘1人、固定月薪60-100K、深圳南山区具体办公地址、实名企业和完整职责要求，招聘发布者显示刚刚活跃。敬业集团官网核验企业主体、高端制造、智能工厂和全球业务方向，行业公开资料佐证其5G智能化生产实践；岗位中的移动机器人、AGV和智能制造职责与企业转型方向一致。"
+  }
+}
