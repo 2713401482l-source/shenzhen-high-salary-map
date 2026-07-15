@@ -1,0 +1,35 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-16T00:21:00+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1474860650J40904547312.htm",
+  "job": {
+    "sourceJobId": "CCL1474860650J40904547312",
+    "title": "硬件总监(A192627)",
+    "company": "深圳市塞防科技有限公司",
+    "salaryText": "40-80K·15薪",
+    "district": "南山区",
+    "addressText": "深圳市南山区南山智城A2栋23楼",
+    "industry": "物联网、船舶/航空/航天/军工、工业自动化/机器人",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "领导和管理硬件部门日常工作，参与硬件问题专家评审并提供技术决策；全面负责视频监控类产品的硬件架构设计，覆盖方案设计、原理图、PCB布局指导、BOM制作、调试测试和缺陷解决；处理单板测试、整机测试及生产加工环节的硬件问题，保障产品质量与量产进度。要求统招本科及以上学历，具备8年以上嵌入式硬件开发经验和团队管理经验；熟练掌握ARM、DSP处理器硬件设计，能够独立完成单板方案、原理图、BOM和Layout指导；精通OrCAD与Cadence Allegro，理解DDR、PCIe、I2C、SPI、UART、SATA、USB、MIPI等总线与接口，并具备EMC、热设计、SMT、插件、组装和测试经验；有IPC、NVR等视频监控产品经验优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://cn.skyfend.com/",
+    "corroboratingUrls": [
+      "https://cn.skyfend.com/company/",
+      "https://zxqyj.sz.gov.cn/attachment/1/1671/1671112/12595051.pdf"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "publishedAt": "2026-06-24",
+    "signals": [],
+    "reviewNotes": "智联具体岗位详情页在采集时仍展示立即投递入口，明确标注更新时间为2026年6月24日、深圳南山区、固定月薪40-80K并另列15薪、实名企业、招聘1人和完整职责要求。企业官网核验公司名称、反无人机业务方向及南山智城A2栋22-23楼地址，与岗位工作地点一致；深圳市中小企业服务局公布的2025年深圳市专精特新中小企业名单包含深圳市塞防科技有限公司。岗位中的视频监控硬件架构、嵌入式设计、EMC与量产职责同企业反无人机系统业务具有合理一致性。"
+  }
+}

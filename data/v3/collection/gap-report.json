@@ -1,7 +1,7 @@
 {
   "metadata": {
     "dataKind": "collection-gap-report",
-    "generatedFromLatestCapture": "2026-07-16T00:01:00+08:00",
+    "generatedFromLatestCapture": "2026-07-16T00:21:00+08:00",
     "bossAccessAllowed": false,
     "sourceFiles": [
       "data/v3/config/collection-plan.json",
@@ -13,17 +13,17 @@
   },
   "totals": {
     "discovery": {
-      "actual": 118,
+      "actual": 119,
       "target": 720,
-      "gap": 602
+      "gap": 601
     },
     "detailEvidence": {
-      "actual": 49,
+      "actual": 50,
       "target": 240,
-      "gap": 191
+      "gap": 190
     },
     "assignedToV3Queue": 7,
-    "legacyUnassigned": 111
+    "legacyUnassigned": 112
   },
   "quality": {
     "grain": "one company-specific job posting on one direct detail URL",
@@ -34,7 +34,7 @@
       },
       {
         "source": "zhaopin",
-        "count": 37
+        "count": 38
       },
       {
         "source": "liepin",
@@ -47,15 +47,15 @@
       "source": "boss",
       "count": 78
     },
-    "largestSourceShare": 0.661,
+    "largestSourceShare": 0.6555,
     "maximumSingleSourceShare": 0.55,
     "duplicateIds": 0,
     "duplicateFingerprints": 0,
     "duplicateSourceUrls": 0,
     "staleJobs": 0,
     "maximumAgeDaysAtCapture": 45,
-    "formalSampleCount": 49,
-    "formalSampleShare": 0.4153,
+    "formalSampleCount": 50,
+    "formalSampleShare": 0.4202,
     "discoveryOnlyCount": 69
   },
   "salaryBands": [
@@ -70,12 +70,12 @@
     },
     {
       "band": "50K",
-      "actual": 52,
+      "actual": 53,
       "target": 240,
-      "gap": 188,
-      "detailActual": 18,
+      "gap": 187,
+      "detailActual": 19,
       "detailTarget": 80,
-      "detailGap": 62
+      "detailGap": 61
     },
     {
       "band": "100K",
@@ -260,10 +260,10 @@
   ],
   "publicationBlockers": [
     "30K 总样本还差 190 条",
-    "50K 总样本还差 188 条",
+    "50K 总样本还差 187 条",
     "100K 总样本还差 224 条",
     "30K 详情证据还差 65 条",
-    "50K 详情证据还差 62 条",
+    "50K 详情证据还差 61 条",
     "100K 详情证据还差 64 条",
     "单岗对标“其他专业岗位”还差 38 条详情证据",
     "独立数据平台还差 2 个",
