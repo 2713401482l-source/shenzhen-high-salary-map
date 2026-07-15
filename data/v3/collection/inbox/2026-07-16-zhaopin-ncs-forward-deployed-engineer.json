@@ -1,0 +1,40 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-16T07:31:00+08:00",
+  "publishedAt": "2026-07-15",
+  "sourceUrl": "https://m.zhaopin.com/jobs/CC138904820J40920551208.htm",
+  "job": {
+    "sourceJobId": "CC138904820J40920551208",
+    "title": "FDE(前沿部署工程师)",
+    "company": "恩士迅信息科技(中国)有限责任公司",
+    "salaryText": "70-100K",
+    "district": "龙岗区",
+    "addressText": "深圳龙岗区天安云谷二期6栋9楼",
+    "industry": "软件与IT服务、数据与AI解决方案",
+    "experience": "3-5年（职位正文要求5年以上）",
+    "education": "本科",
+    "descriptionText": "岗位定位：作为客户现场与产品研发的桥梁，在客户现场端到端交付Palantir Foundry、Gotham与AIP解决方案，解决复杂业务和数据问题并推动平台落地。核心职责包括理解客户业务痛点并转化为可落地方案，覆盖需求定义、架构设计、POC验证和生产部署；使用Foundry Pipeline Builder、Ontology、Slate、AIP及Python、Java、TypeScript进行数据集成、模型构建、定制应用与工作流开发；设计数据治理、权限和合规体系；开展客户培训并推动产品迭代。要求本科及以上学历，具备软件工程、数据工程、解决方案架构或客户现场交付经验，掌握至少一门编程语言以及大规模数据处理、数据建模、ETL、API集成和云服务；有Palantir平台、AI/ML、大模型微调、提示工程或知识图谱经验优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.ncs.com.cn/zh-cn",
+    "corroboratingUrls": [
+      "https://www.ncs.com.cn/zh-cn/about-us/regional-offices",
+      "https://www.ncs.com.cn/zh-cn/about-us/newsroom/ncs-next-launches-shenzhen/"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "职位详情页显示07-15更新",
+      "招聘10人且可立即投递",
+      "experienceRequirementContradiction",
+      "企业官网确认深圳机构与深圳创新中心"
+    ],
+    "reviewNotes": "具体岗位详情页在采集时有效，明确显示深圳龙岗固定月薪7-10万元、招聘10人、完整职责与要求，发布主体为平台认证的恩士迅信息科技(中国)有限责任公司，并非匿名客户或猎头代招。恩士迅中国官网确认其在深圳设有机构和创新中心，业务包括数据与AI、云、平台及数字化服务，与岗位的现场数据平台交付职责一致。页面顶部经验标签为3-5年，正文基础要求写5年以上工作经验、2年以上相关交付经验，已在结构化字段中保留该差异。未发现收费、付费培训、提成冒充固定月薪或地点矛盾。"
+  }
+}

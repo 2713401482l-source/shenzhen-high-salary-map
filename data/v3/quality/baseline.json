@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-07-15T23:24:24.503Z",
+  "generatedAt": "2026-07-15T23:34:02.561Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 142,
-    "verifiedDetailJobs": 73,
+    "usableJobs": 143,
+    "verifiedDetailJobs": 74,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 75,
-    "uniqueCompanies": 129,
-    "uniqueRawTitles": 130,
+    "fullRequirementJobs": 76,
+    "uniqueCompanies": 130,
+    "uniqueRawTitles": 131,
     "captureDates": 3
   },
   "distributions": {
     "salaryBands": {
       "50K": 67,
       "30K": 57,
-      "100K": 18
+      "100K": 19
     },
     "evidenceLevels": {
       "boss-listing": 67,
-      "public-platform-detail": 64,
+      "public-platform-detail": 65,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3
     },
     "captureDates": {
       "2026-07-12": 71,
       "2026-07-15": 46,
-      "2026-07-16": 25
+      "2026-07-16": 26
     },
     "industries": {
       "计算机软件": 12,
@@ -88,6 +88,7 @@
       "软件/IT服务、产业互联网平台、金融科技": 1,
       "软件/IT服务、云计算": 1,
       "软件和信息技术服务、企业数字化": 1,
+      "软件与IT服务、数据与AI解决方案": 1,
       "生物/制药、学术/科研": 1,
       "石油石化、海洋低空经济与产业数字化": 1,
       "石油装备、能源技术与环保": 1,
@@ -117,8 +118,8 @@
     "districts": {
       "南山区": 68,
       "宝安区": 22,
+      "龙岗区": 12,
       "龙华区": 12,
-      "龙岗区": 11,
       "深圳": 11,
       "福田区": 7,
       "光明区": 7,
@@ -182,12 +183,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 142,
+      "current": 143,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 73,
+      "current": 74,
       "required": 240,
       "passed": false
     },
@@ -206,7 +207,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "73/142 条完成详情核验",
+      "evidence": "74/143 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {
