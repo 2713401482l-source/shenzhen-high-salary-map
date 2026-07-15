@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-07-15T23:17:34.893Z",
+  "generatedAt": "2026-07-15T23:24:24.503Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 141,
-    "verifiedDetailJobs": 72,
+    "usableJobs": 142,
+    "verifiedDetailJobs": 73,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 74,
-    "uniqueCompanies": 128,
-    "uniqueRawTitles": 129,
+    "fullRequirementJobs": 75,
+    "uniqueCompanies": 129,
+    "uniqueRawTitles": 130,
     "captureDates": 3
   },
   "distributions": {
     "salaryBands": {
-      "50K": 66,
+      "50K": 67,
       "30K": 57,
       "100K": 18
     },
     "evidenceLevels": {
       "boss-listing": 67,
-      "public-platform-detail": 63,
+      "public-platform-detail": 64,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3
     },
     "captureDates": {
       "2026-07-12": 71,
       "2026-07-15": 46,
-      "2026-07-16": 24
+      "2026-07-16": 25
     },
     "industries": {
       "计算机软件": 12,
@@ -91,6 +91,7 @@
       "生物/制药、学术/科研": 1,
       "石油石化、海洋低空经济与产业数字化": 1,
       "石油装备、能源技术与环保": 1,
+      "通信/网络设备、半导体/芯片、智能终端ODM": 1,
       "通用设备制造、数控机床与智能装备": 1,
       "物联网、船舶/航空/航天/军工、工业自动化/机器人": 1,
       "物联网/船舶航空航天军工": 1,
@@ -116,8 +117,8 @@
     "districts": {
       "南山区": 68,
       "宝安区": 22,
+      "龙华区": 12,
       "龙岗区": 11,
-      "龙华区": 11,
       "深圳": 11,
       "福田区": 7,
       "光明区": 7,
@@ -181,12 +182,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 141,
+      "current": 142,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 72,
+      "current": 73,
       "required": 240,
       "passed": false
     },
@@ -205,7 +206,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "72/141 条完成详情核验",
+      "evidence": "73/142 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {
