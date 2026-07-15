@@ -1234,6 +1234,80 @@
     "duplicateFingerprint": "bd6d21cfda7ccf9bbf3d"
   },
   {
+    "id": "zhaopin-6b724695041eddf54430",
+    "sourceJobId": "CC192921310J40823522509",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "无人机定位算法工程师",
+    "company": "京东集团",
+    "salaryText": "30-60K·16薪",
+    "salaryMin": 30,
+    "salaryMax": 60,
+    "salaryMonths": 16,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "深圳南山区豪威大厦",
+    "industry": "互联网电商/综合商贸",
+    "experience": "1-3年",
+    "education": "硕士",
+    "descriptionExcerpt": "负责以视觉为主的多传感器无人机融合定位算法研发，覆盖多摄像头、IMU、GNSS等传感器选型、校准、故障诊断与自动化测试，并将算法部署到真实场景，持续优化鲁棒性和实时性。要求硕士及以上学历，具备视觉融合或SLAM项目经验，熟悉VSLAM、LiDAR SLAM、SFM、VIO及GTSAM、Ceres、g2o等工具，理解相机、IMU与GNSS原理，能够使用C/C+",
+    "requirementText": "负责以视觉为主的多传感器无人机融合定位算法研发，覆盖多摄像头、IMU、GNSS等传感器选型、校准、故障诊断与自动化测试，并将算法部署到真实场景，持续优化鲁棒性和实时性。要求硕士及以上学历，具备视觉融合或SLAM项目经验，熟悉VSLAM、LiDAR SLAM、SFM、VIO及GTSAM、Ceres、g2o等工具，理解相机、IMU与GNSS原理，能够使用C/C++完成算法实现和性能优化。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC192921310J40823522509.htm",
+    "capturedAt": "2026-07-15T03:58:00+08:00",
+    "publishedAt": "2026-07-15",
+    "verifiedAt": "2026-07-15T03:58:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 0
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://about.jd.com/cont",
+      "corroboratingUrls": [
+        "https://ir.jd.com/zh-hans/",
+        "https://zhaopin.jd.com/web/static/develop/2"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [],
+      "reviewNotes": "岗位详情页采集时可直接打开，公开检索结果标注当日更新；页面显示明确深圳南山地址、固定月薪、16薪、招聘人数、完整职责要求与已审核企业主体。京东官方公司及招聘页面用于交叉核验雇主身份。"
+    },
+    "duplicateFingerprint": "6d6a4d50da80ed6bd5f9"
+  },
+  {
     "id": "zhaopin-85d69d09c9d40336e9e4",
     "sourceJobId": "CC456590280J40837211314",
     "sourcePlatform": "zhaopin",
@@ -2107,6 +2181,79 @@
       "reviewNotes": "智联具体岗位详情页展示直接投递、明确固定月薪、深圳福田地址、招聘人数及完整职责要求，发布主体为企业本身而非匿名猎头；富德保险控股官网和公开信息页交叉核验公司主体及投资管理业务。页面未展示明确发布日期，因此保留发布日期缺失提示。"
     },
     "duplicateFingerprint": "5583e59653a36c4d51e6"
+  },
+  {
+    "id": "zhaopin-efe167e390d90bf70b9b",
+    "sourceJobId": "CC120064600J40829600516",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "三维视觉算法工程师",
+    "company": "深圳和而泰智能控制股份有限公司",
+    "salaryText": "30-55K",
+    "salaryMin": 30,
+    "salaryMax": 55,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "光明区",
+    "addressText": "深圳市光明区深圳和而泰智能控制有限公司",
+    "industry": "消费电子/智能硬件",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionExcerpt": "负责智能烤箱食材三维感知算法研发与工程化落地，面向高温、油污和非刚性物体完成RGB-D、TOF或结构光体积估计、点云处理、网格重建、联合标定、多传感器融合及端侧性能优化。要求本科及以上学历，精通PCL、OpenMesh、Meshlab、泊松重建、TSDF、OpenCV及C++或Python，熟悉TensorRT、ONNX Runtime、RKNN或ARM N",
+    "requirementText": "负责智能烤箱食材三维感知算法研发与工程化落地，面向高温、油污和非刚性物体完成RGB-D、TOF或结构光体积估计、点云处理、网格重建、联合标定、多传感器融合及端侧性能优化。要求本科及以上学历，精通PCL、OpenMesh、Meshlab、泊松重建、TSDF、OpenCV及C++或Python，熟悉TensorRT、ONNX Runtime、RKNN或ARM Neon，有TOF、结构光、双目相机及量产项目经验优先。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC120064600J40829600516.htm",
+    "capturedAt": "2026-07-15T04:01:00+08:00",
+    "publishedAt": "2026-07-08",
+    "verifiedAt": "2026-07-15T04:01:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 7
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://www.szhittech.com/about",
+      "corroboratingUrls": [
+        "https://www.szhittech.com/",
+        "https://www.szhittech.com/investor"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [],
+      "reviewNotes": "智联具体岗位详情页显示7月8日更新、立即投递、明确深圳光明地址、原始月薪与完整职责要求；企业主体已审核且显示61个在招岗位。和而泰官网及投资者页面交叉核验公司全称、上市身份、智能控制业务和深圳主体。"
+    },
+    "duplicateFingerprint": "652b215a59bf2745b03d"
   },
   {
     "id": "zhaopin-f9d52f85aff9fd0d3f75",

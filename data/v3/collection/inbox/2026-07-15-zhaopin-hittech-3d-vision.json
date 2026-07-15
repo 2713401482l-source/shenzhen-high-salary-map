@@ -1,0 +1,35 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-15T04:01:00+08:00",
+  "publishedAt": "2026-07-08",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC120064600J40829600516.htm",
+  "job": {
+    "sourceJobId": "CC120064600J40829600516",
+    "title": "三维视觉算法工程师",
+    "company": "深圳和而泰智能控制股份有限公司",
+    "salaryText": "30-55K",
+    "district": "光明区",
+    "addressText": "深圳市光明区深圳和而泰智能控制有限公司",
+    "industry": "消费电子/智能硬件",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "负责智能烤箱食材三维感知算法研发与工程化落地，面向高温、油污和非刚性物体完成RGB-D、TOF或结构光体积估计、点云处理、网格重建、联合标定、多传感器融合及端侧性能优化。要求本科及以上学历，精通PCL、OpenMesh、Meshlab、泊松重建、TSDF、OpenCV及C++或Python，熟悉TensorRT、ONNX Runtime、RKNN或ARM Neon，有TOF、结构光、双目相机及量产项目经验优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.szhittech.com/about",
+    "corroboratingUrls": [
+      "https://www.szhittech.com/",
+      "https://www.szhittech.com/investor"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [],
+    "reviewNotes": "智联具体岗位详情页显示7月8日更新、立即投递、明确深圳光明地址、原始月薪与完整职责要求；企业主体已审核且显示61个在招岗位。和而泰官网及投资者页面交叉核验公司全称、上市身份、智能控制业务和深圳主体。"
+  }
+}

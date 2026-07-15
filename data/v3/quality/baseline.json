@@ -1,32 +1,32 @@
 {
-  "generatedAt": "2026-07-15T02:54:47.369Z",
+  "generatedAt": "2026-07-15T04:00:00.900Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 100,
-    "verifiedDetailJobs": 31,
+    "usableJobs": 102,
+    "verifiedDetailJobs": 33,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 33,
-    "uniqueCompanies": 95,
-    "uniqueRawTitles": 88,
+    "fullRequirementJobs": 35,
+    "uniqueCompanies": 97,
+    "uniqueRawTitles": 90,
     "captureDates": 2
   },
   "distributions": {
     "salaryBands": {
-      "50K": 48,
+      "50K": 50,
       "30K": 42,
       "100K": 10
     },
     "evidenceLevels": {
       "boss-listing": 67,
-      "public-platform-detail": 22,
+      "public-platform-detail": 24,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3
     },
     "captureDates": {
       "2026-07-12": 71,
-      "2026-07-15": 29
+      "2026-07-15": 31
     },
     "industries": {
       "计算机软件": 12,
@@ -41,6 +41,7 @@
       "电子商务": 2,
       "互联网金融": 2,
       "其他行业": 2,
+      "消费电子/智能硬件": 2,
       "医疗健康": 2,
       "半导体/芯片": 1,
       "保险/资产管理": 1,
@@ -53,6 +54,7 @@
       "电子商务/消费品": 1,
       "工业自动化/机器人/专用设备制造": 1,
       "互联网（猎头发布）": 1,
+      "互联网电商/综合商贸": 1,
       "互联网生活服务、软件/IT服务": 1,
       "基金": 1,
       "计算机服务": 1,
@@ -64,7 +66,6 @@
       "企业服务": 1,
       "软件/IT服务、云计算": 1,
       "石油/石化、环保": 1,
-      "消费电子/智能硬件": 1,
       "鞋服箱包批发/零售/贸易": 1,
       "学术/科研": 1,
       "学术/科研/重大科学装置": 1,
@@ -75,13 +76,13 @@
       "自动化设备": 1
     },
     "districts": {
-      "南山区": 48,
+      "南山区": 49,
       "宝安区": 16,
       "深圳": 11,
       "龙岗区": 7,
+      "光明区": 6,
       "龙华区": 6,
       "福田区": 5,
-      "光明区": 5,
       "罗湖区": 1,
       "盐田区": 1
     }
@@ -117,12 +118,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 100,
+      "current": 102,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 31,
+      "current": 33,
       "required": 240,
       "passed": false
     },
@@ -141,7 +142,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "31/100 条完成详情核验",
+      "evidence": "33/102 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {
