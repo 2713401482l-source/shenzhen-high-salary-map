@@ -1,0 +1,37 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-15T16:54:00+08:00",
+  "publishedAt": "2026-06-12",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC132081930J40857151901.htm",
+  "job": {
+    "sourceJobId": "CC132081930J40857151901",
+    "title": "算力中心副总经理（绿电方向）",
+    "company": "深圳市朗坤科技股份有限公司",
+    "salaryText": "60-100K",
+    "district": "龙岗区",
+    "addressText": "深圳龙岗区朗坤科技园",
+    "industry": "绿色能源/智算中心/人工智能基础设施",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责绿电算力中心从选址、立项、可研、规划设计、报批报建、工程建设到验收投产和运营交付的全周期管理，主导千卡级算力集群落地；对接政府部门办理项目备案、电力配额、能耗指标和绿电直连，结合生物质发电、光伏、储能资源编制投资测算、电力调度与储能方案，并拓展大模型训练和推理算力客户。岗位还需搭建业务团队，统筹昇腾、H200、B300等GPU服务器和储能设备供应链，建立运维SOP和收益模型。要求本科及以上学历，具备5年以上大型算力或IDC数据中心全周期管理经验，主导过千卡级集群交付，熟悉算力政策、能耗审批、绿电配额、液冷、Tier III/IV标准、IRR测算、供应链整合和数亿级项目管理。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://en.leoking.com/",
+    "corroboratingUrls": [
+      "https://en.leoking.com/",
+      "https://finance.eastmoney.com/a/202606293786541459.html"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "staleBeyondPreferredDays"
+    ],
+    "reviewNotes": "智联具体岗位详情页显示6月12日更新、立即投递、固定月薪、深圳龙岗具体地址和完整职责要求；截至采集日33天，仍在45天上限内，但已超过30天优先新鲜度，故保留复核标记。平台显示企业主体已审核、上市公司且有132个在招职位。公司官网与2026年6月朗坤绿能智算子公司成立报道交叉核验企业主体、绿色能源业务和‘绿电+智算’战略，岗位方向与近期业务动作一致。"
+  }
+}

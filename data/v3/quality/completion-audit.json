@@ -7,10 +7,10 @@
   },
   "dataset": {
     "grain": "one public job posting per source-specific job id; cross-platform duplicates are resolved separately",
-    "totalJobs": 106,
+    "totalJobs": 107,
     "listingObservations": 69,
-    "detailVerified": 37,
-    "companies": 37,
+    "detailVerified": 38,
+    "companies": 38,
     "captureDates": [
       "2026-07-12",
       "2026-07-15"
@@ -30,7 +30,7 @@
       },
       {
         "source": "zhaopin",
-        "count": 25
+        "count": 26
       },
       {
         "source": "liepin",
@@ -43,15 +43,15 @@
       "source": "boss",
       "count": 78
     },
-    "largestSourceShare": 0.7358,
+    "largestSourceShare": 0.729,
     "maximumSingleSourceShare": 0.55,
     "duplicateIds": 0,
     "duplicateFingerprints": 0,
     "duplicateSourceUrls": 0,
     "staleJobs": 0,
     "maximumAgeDaysAtCapture": 45,
-    "formalSampleCount": 37,
-    "formalSampleShare": 0.3491,
+    "formalSampleCount": 38,
+    "formalSampleShare": 0.3551,
     "discoveryOnlyCount": 69
   },
   "structuralQuality": {
@@ -114,12 +114,12 @@
       {
         "band": "100K",
         "discovery": {
-          "actual": 10,
+          "actual": 11,
           "target": 240,
           "pass": false
         },
         "detailEvidence": {
-          "actual": 10,
+          "actual": 11,
           "target": 80,
           "pass": false
         }
@@ -152,8 +152,8 @@
     "30K 详情证据还差 70 条",
     "50K 真实岗位还差 189 条",
     "50K 详情证据还差 63 条",
-    "100K 真实岗位还差 230 条",
-    "100K 详情证据还差 70 条",
+    "100K 真实岗位还差 229 条",
+    "100K 详情证据还差 69 条",
     "新兴岗位方向还差 28 个",
     "单岗对标还差 40 条同岗详情"
   ]
