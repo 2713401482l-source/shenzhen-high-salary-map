@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-07-15T20:26:44.010Z",
+  "generatedAt": "2026-07-15T20:33:58.624Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 134,
-    "verifiedDetailJobs": 65,
+    "usableJobs": 135,
+    "verifiedDetailJobs": 66,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 67,
-    "uniqueCompanies": 123,
-    "uniqueRawTitles": 122,
+    "fullRequirementJobs": 68,
+    "uniqueCompanies": 124,
+    "uniqueRawTitles": 123,
     "captureDates": 3
   },
   "distributions": {
     "salaryBands": {
-      "50K": 62,
+      "50K": 63,
       "30K": 54,
       "100K": 18
     },
     "evidenceLevels": {
       "boss-listing": 67,
-      "public-platform-detail": 56,
+      "public-platform-detail": 57,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3
     },
     "captureDates": {
       "2026-07-12": 71,
       "2026-07-15": 46,
-      "2026-07-16": 17
+      "2026-07-16": 18
     },
     "industries": {
       "计算机软件": 12,
@@ -55,6 +55,7 @@
       "电子/半导体/集成电路": 1,
       "电子商务/3C零售": 1,
       "电子商务/消费品": 1,
+      "动力电池、新能源汽车与全球化制造": 1,
       "动力电池/新能源": 1,
       "房地产开发经营/产业园运营/物业管理": 1,
       "工业自动化、机器人、新能源装备": 1,
@@ -114,8 +115,8 @@
       "龙华区": 11,
       "深圳": 11,
       "龙岗区": 10,
+      "光明区": 7,
       "福田区": 6,
-      "光明区": 6,
       "罗湖区": 2,
       "坪山区": 1,
       "盐田区": 1
@@ -176,12 +177,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 134,
+      "current": 135,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 65,
+      "current": 66,
       "required": 240,
       "passed": false
     },
@@ -200,7 +201,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "65/134 条完成详情核验",
+      "evidence": "66/135 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {
