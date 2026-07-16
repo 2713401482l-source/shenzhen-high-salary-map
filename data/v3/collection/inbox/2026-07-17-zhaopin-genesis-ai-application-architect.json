@@ -1,0 +1,38 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-17T04:01:54+08:00",
+  "publishedAt": "2026-06-09",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC231175610J40854468307.htm",
+  "job": {
+    "sourceJobId": "CC231175610J40854468307",
+    "title": "AI应用架构师",
+    "company": "深圳市创世纪机械有限公司",
+    "salaryText": "25-35K",
+    "district": "宝安区",
+    "addressText": "深圳市宝安区深圳市创世纪机械有限公司总部",
+    "industry": "高端智能装备、数控机床、工业自动化与人工智能",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "岗位职责：独立或带领团队完成AI应用平台的设计、开发和优化，推动AI技术在制造行业落地；负责企业级AI平台设计与开发，包括智能问答、知识库、技能注册和智能体平台建设；与业务部门协作，将AI技术和业务数字化结合；指导初级工程师并提升团队技术能力。任职要求：计算机、人工智能、数据科学或电子工程等相关专业本科及以上学历；五年以上AI相关经验，具备AI项目开发和部署经验；理解RAG、向量数据库、向量模型和大语言模型，熟悉LangChain、LangGraph、PyTorch、ONNX等框架及模型训练和高并发部署；熟悉RAG、Embedding、AI Agent、Dify二次开发与部署；熟悉制造业，有大模型、多模态或语音识别项目落地经验者优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.szccm.com/",
+    "corroboratingUrls": [
+      "https://www.taiqunjingji.com/aboutus.html",
+      "https://static.cninfo.com.cn/finalpage/2025-04-23/1223219871.PDF",
+      "https://static.cninfo.com.cn/finalpage/2026-04-01/1225068436.PDF"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "staleBeyondPreferredDays"
+    ],
+    "reviewNotes": "智联独立详情页明确显示2026年6月9日更新、深圳宝安区总部、固定月薪2.5-3.5万、立即投递入口和完整职责要求；统一记录为25-35K，不含年薪换算或提成。采集时距更新38天，超过30天优选期但仍在45天硬性上限内，且页面仍可投递，因此保留staleBeyondPreferredDays复核标记。发布主体为平台审核的深圳市创世纪机械有限公司，属于上市公司实名直招，不是匿名客户或猎头代招。岗位聚焦制造业AI平台、RAG、知识库、Agent和Dify落地，与同公司已收录的AI战略管理岗及海外销售岗在职位层级、职责和详情链接上均不同，不构成重复。企业官网和上市公司公开文件确认高端智能装备、智能制造、人工智能及创世纪AI云平台业务。未发现收费、付费培训、押金、提成冒充固定月薪、地点矛盾或标题职责错配。"
+  }
+}

@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-16T19:54:58.086Z",
+  "generatedAt": "2026-07-16T20:03:04.834Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 186,
-    "verifiedDetailJobs": 117,
+    "usableJobs": 187,
+    "verifiedDetailJobs": 118,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 119,
+    "fullRequirementJobs": 120,
     "uniqueCompanies": 159,
-    "uniqueRawTitles": 172,
+    "uniqueRawTitles": 173,
     "captureDates": 4
   },
   "distributions": {
     "salaryBands": {
       "50K": 85,
-      "30K": 77,
+      "30K": 78,
       "100K": 24
     },
     "evidenceLevels": {
-      "public-platform-detail": 107,
+      "public-platform-detail": 108,
       "boss-listing": 67,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3,
@@ -29,7 +29,7 @@
       "2026-07-12": 71,
       "2026-07-16": 57,
       "2026-07-15": 46,
-      "2026-07-17": 12
+      "2026-07-17": 13
     },
     "industries": {
       "计算机软件": 12,
@@ -45,6 +45,7 @@
       "电力电子、消费电子与高端电源制造": 2,
       "电子/硬件开发": 2,
       "电子商务": 2,
+      "高端智能装备、数控机床、工业自动化与人工智能": 2,
       "互联网金融": 2,
       "其他行业": 2,
       "消费电子/智能硬件": 2,
@@ -75,7 +76,6 @@
       "动力电池/新能源": 1,
       "房地产开发经营/产业园运营/物业管理": 1,
       "高端音频设备、电子研发与制造": 1,
-      "高端智能装备、数控机床、工业自动化与人工智能": 1,
       "工业自动化、半导体装备与新材料": 1,
       "工业自动化、机器人、新能源装备": 1,
       "工业自动化、智能仓储机器人": 1,
@@ -160,7 +160,7 @@
     },
     "districts": {
       "南山区": 81,
-      "宝安区": 37,
+      "宝安区": 38,
       "龙华区": 15,
       "龙岗区": 14,
       "光明区": 12,
@@ -184,6 +184,10 @@
     {
       "company": "烟台杰瑞石油服务集团股份有限公司",
       "count": 4
+    },
+    {
+      "company": "深圳市创世纪机械有限公司",
+      "count": 3
     },
     {
       "company": "深圳市新旗滨科技有限公司",
@@ -230,10 +234,6 @@
       "count": 2
     },
     {
-      "company": "深圳市创世纪机械有限公司",
-      "count": 2
-    },
-    {
       "company": "深圳市恩乐实业有限公司",
       "count": 2
     },
@@ -262,12 +262,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 186,
+      "current": 187,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 117,
+      "current": 118,
       "required": 240,
       "passed": false
     },
@@ -286,7 +286,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "117/186 条完成详情核验",
+      "evidence": "118/187 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {
