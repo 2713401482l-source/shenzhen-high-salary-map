@@ -1,7 +1,7 @@
 {
   "metadata": {
     "dataKind": "collection-gap-report",
-    "generatedFromLatestCapture": "2026-07-16T11:41:00+08:00",
+    "generatedFromLatestCapture": "2026-07-16T12:11:00+08:00",
     "bossAccessAllowed": false,
     "sourceFiles": [
       "data/v3/config/collection-plan.json",
@@ -13,17 +13,17 @@
   },
   "totals": {
     "discovery": {
-      "actual": 158,
+      "actual": 159,
       "target": 720,
-      "gap": 562
+      "gap": 561
     },
     "detailEvidence": {
-      "actual": 89,
+      "actual": 90,
       "target": 240,
-      "gap": 151
+      "gap": 150
     },
     "assignedToV3Queue": 7,
-    "legacyUnassigned": 151
+    "legacyUnassigned": 152
   },
   "quality": {
     "grain": "one company-specific job posting on one direct detail URL",
@@ -34,7 +34,7 @@
       },
       {
         "source": "zhaopin",
-        "count": 77
+        "count": 78
       },
       {
         "source": "liepin",
@@ -47,15 +47,15 @@
       "source": "boss",
       "count": 78
     },
-    "largestSourceShare": 0.4937,
+    "largestSourceShare": 0.4906,
     "maximumSingleSourceShare": 0.55,
     "duplicateIds": 0,
     "duplicateFingerprints": 0,
     "duplicateSourceUrls": 0,
     "staleJobs": 0,
     "maximumAgeDaysAtCapture": 45,
-    "formalSampleCount": 89,
-    "formalSampleShare": 0.5633,
+    "formalSampleCount": 90,
+    "formalSampleShare": 0.566,
     "discoveryOnlyCount": 69
   },
   "salaryBands": [
@@ -79,12 +79,12 @@
     },
     {
       "band": "100K",
-      "actual": 20,
+      "actual": 21,
       "target": 240,
-      "gap": 220,
-      "detailActual": 20,
+      "gap": 219,
+      "detailActual": 21,
       "detailTarget": 80,
-      "detailGap": 60
+      "detailGap": 59
     }
   ],
   "lanes": [
@@ -261,10 +261,10 @@
   "publicationBlockers": [
     "30K 总样本还差 176 条",
     "50K 总样本还差 166 条",
-    "100K 总样本还差 220 条",
+    "100K 总样本还差 219 条",
     "30K 详情证据还差 51 条",
     "50K 详情证据还差 40 条",
-    "100K 详情证据还差 60 条",
+    "100K 详情证据还差 59 条",
     "单岗对标“其他专业岗位”还差 22 条详情证据",
     "独立数据平台还差 2 个"
   ]

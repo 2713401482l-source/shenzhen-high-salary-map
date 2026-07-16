@@ -1,0 +1,33 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-16T12:11:00+08:00",
+  "publishedAt": "2026-07-16",
+  "sourceUrl": "https://m.zhaopin.com/jobs/CC195096520J40926365608.htm",
+  "job": {
+    "sourceJobId": "CC195096520J40926365608",
+    "title": "人工智能首席专家",
+    "company": "华润电力",
+    "salaryText": "50-100K",
+    "district": "南山区",
+    "addressText": "深圳南山区华润置地大厦C座",
+    "industry": "电力/新能源/人工智能",
+    "experience": "5-10年",
+    "education": "博士",
+    "descriptionText": "负责AI大模型在风电、光伏、火电生产场景的关键技术研发，带领团队开展语言模型、计算机视觉、端到端控制、多模态和时间序列模型在设备运行、检修维护、故障诊断、安全管理及电力交易中的应用研究；统筹科研项目全生命周期、实验室团队建设、成果转化和技术培训。要求博士，5年以上大模型相关经历，掌握Python、PyTorch、TensorFlow及主流大模型开发平台，并具备国家或省部级项目、科技奖或实验室管理等高质量成果。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "corroboratingUrls": [
+      "https://www.crpower.com.hk/znjsb/index.html"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [],
+    "reviewNotes": "智联移动端具体岗位页显示2026年7月16日、可立即投递、招聘1人、深圳南山和固定月薪5-10万。华润电力官网公开控股级电力人工智能技术实验室及发电领域AI大模型研发方向，与岗位职责相互印证。"
+  }
+}

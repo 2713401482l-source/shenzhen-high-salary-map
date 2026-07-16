@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-16T03:45:18.760Z",
+  "generatedAt": "2026-07-16T04:14:36.786Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 158,
-    "verifiedDetailJobs": 89,
+    "usableJobs": 159,
+    "verifiedDetailJobs": 90,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 91,
-    "uniqueCompanies": 141,
+    "fullRequirementJobs": 92,
+    "uniqueCompanies": 142,
     "uniqueRawTitles": 145,
     "captureDates": 3
   },
@@ -16,10 +16,10 @@
     "salaryBands": {
       "50K": 74,
       "30K": 64,
-      "100K": 20
+      "100K": 21
     },
     "evidenceLevels": {
-      "public-platform-detail": 80,
+      "public-platform-detail": 81,
       "boss-listing": 67,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3
@@ -27,7 +27,7 @@
     "captureDates": {
       "2026-07-12": 71,
       "2026-07-15": 46,
-      "2026-07-16": 41
+      "2026-07-16": 42
     },
     "industries": {
       "计算机软件": 12,
@@ -58,6 +58,7 @@
       "储能": 1,
       "储能/新能源": 1,
       "大数据": 1,
+      "电力/新能源/人工智能": 1,
       "电气机械/电力设备、新能源汽车": 1,
       "电子/半导体/集成电路": 1,
       "电子商务/3C零售": 1,
@@ -131,7 +132,7 @@
       "PCB设备、工业自动化与半导体检测": 1
     },
     "districts": {
-      "南山区": 74,
+      "南山区": 75,
       "宝安区": 27,
       "龙华区": 14,
       "龙岗区": 12,
@@ -214,12 +215,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 158,
+      "current": 159,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 89,
+      "current": 90,
       "required": 240,
       "passed": false
     },
@@ -238,7 +239,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "89/158 条完成详情核验",
+      "evidence": "90/159 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {
