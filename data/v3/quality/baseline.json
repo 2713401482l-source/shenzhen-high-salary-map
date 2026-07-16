@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-07-16T05:41:35.248Z",
+  "generatedAt": "2026-07-16T05:59:18.172Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 163,
-    "verifiedDetailJobs": 94,
+    "usableJobs": 164,
+    "verifiedDetailJobs": 95,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 96,
+    "fullRequirementJobs": 97,
     "uniqueCompanies": 144,
-    "uniqueRawTitles": 149,
+    "uniqueRawTitles": 150,
     "captureDates": 3
   },
   "distributions": {
     "salaryBands": {
-      "50K": 75,
+      "50K": 76,
       "30K": 66,
       "100K": 22
     },
     "evidenceLevels": {
-      "public-platform-detail": 85,
+      "public-platform-detail": 86,
       "boss-listing": 67,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3
     },
     "captureDates": {
       "2026-07-12": 71,
-      "2026-07-15": 46,
-      "2026-07-16": 46
+      "2026-07-16": 47,
+      "2026-07-15": 46
     },
     "industries": {
       "计算机软件": 12,
@@ -89,6 +89,7 @@
       "建筑材料、非金属矿物制品、玻璃与新材料": 1,
       "建筑材料、非金属矿物制品、功能薄膜与新材料": 1,
       "矿产冶金、智能制造、工业机器人": 1,
+      "矿产冶金、专用设备制造、工业自动化与机器人": 1,
       "量子计算/半导体/人工智能": 1,
       "绿色能源/智算中心/人工智能基础设施": 1,
       "企业服务": 1,
@@ -137,7 +138,7 @@
     },
     "districts": {
       "南山区": 76,
-      "宝安区": 29,
+      "宝安区": 30,
       "龙华区": 14,
       "龙岗区": 13,
       "深圳": 11,
@@ -183,6 +184,10 @@
       "count": 2
     },
     {
+      "company": "敬业钢铁有限公司",
+      "count": 2
+    },
+    {
       "company": "绿联科技",
       "count": 2
     },
@@ -219,12 +224,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 163,
+      "current": 164,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 94,
+      "current": 95,
       "required": 240,
       "passed": false
     },
@@ -243,7 +248,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "94/163 条完成详情核验",
+      "evidence": "95/164 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {
