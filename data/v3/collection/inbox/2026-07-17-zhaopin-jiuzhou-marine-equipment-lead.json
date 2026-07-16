@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-17T07:51:28+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC130677500J40846758905.htm",
+  "job": {
+    "sourceJobId": "CC130677500J40846758905",
+    "title": "海洋装备方向技术带头人",
+    "company": "四川九洲电器集团有限责任公司",
+    "salaryText": "50-55K",
+    "district": "南山区",
+    "addressText": "深圳南山区深圳九洲电器大厦A座",
+    "industry": "船舶/航空/航天/军工",
+    "experience": "10年以上",
+    "education": "硕士",
+    "descriptionText": "根据公司战略制定中长期产品与技术发展规划并组织实施，主持海洋装备方向产品研制，指导和处理开发实施过程中的技术问题，主持核心技术研发及高校、研发机构合作和人才引进。要求硕士及以上，电子信息、自动化、机械、船舶与海洋工程等专业优先；熟悉海洋装备产品设计开发流程，具备逻辑分析、沟通协调、团队管理、领导决策、风险和保密意识，并拥有10年以上相关经验。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "",
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["missingPublicationDate", "activeApplyEntry", "activeRecruiter", "platformBusinessLicenseVerified"],
+    "reviewNotes": "智联独立详情页公开展示深圳南山区具体地址、固定月薪50-55K、10年以上、硕士、全职、招1人及完整职责要求。企业为明确命名且平台已审核的四川九洲电器集团有限责任公司，工商主体存续；招聘经理三日内活跃，页面提供立即沟通和投递入口。页面未显示可记录的发布日期，因此保留missingPublicationDate信号，以详情仍有效和招聘方活跃作为在招证据。未发现收费、培训、押金、匿名客户、提成冒充月薪、年薪误读或职位信息矛盾。"
+  }
+}

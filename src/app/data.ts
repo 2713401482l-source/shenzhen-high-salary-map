@@ -43,6 +43,7 @@ const normalizeJob = (job: (typeof verifiedSource)[number] | (typeof candidateSo
   salaryBand: job.salaryBand as SalaryBand,
   evidenceLevel: job.evidenceLevel as EvidenceLevel,
   status: job.status as 'verified' | 'candidate',
+  sourceVisibility: ('sourceVisibility' in job ? job.sourceVisibility : undefined) as 'visible' | 'hidden' | undefined,
   requirementText: job.requirementText ?? '',
   capturedAt: job.capturedAt,
 });

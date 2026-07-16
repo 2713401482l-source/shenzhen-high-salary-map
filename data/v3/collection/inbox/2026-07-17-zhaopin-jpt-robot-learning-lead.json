@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-17T07:51:28+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC397028480J40985887304.htm",
+  "job": {
+    "sourceJobId": "CC397028480J40985887304",
+    "title": "机器人学习工程师（团队负责人）",
+    "company": "深圳市杰普特光电股份有限公司",
+    "salaryText": "30-60K",
+    "district": "南山区",
+    "addressText": "深圳南山区华中科技大学深圳产学研基地A座217",
+    "industry": "半导体/芯片、智能制造",
+    "experience": "3-5年",
+    "education": "硕士",
+    "descriptionText": "负责设计并推动机器人学习与决策系统演进，贯通数据、学习、评估和部署，使学习行为可在真实机器人稳定运行；建设并领导智能团队，制定技术路线，与感知和软件团队构建可扩展工作流。要求机器人、机器学习或计算机相关硕博学历，具备VLA或多模态策略模型训练部署、闭环评估、真实机器人落地、感知控制仿真集成及复杂代码库工程化经验，能够主导架构取舍并指导工程师交付。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.jptoe.com/",
+    "corroboratingUrls": ["https://www.jptoe.com/"],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["recentPublicationDate", "activeApplyEntry", "platformBusinessLicenseVerified", "listedCompany"],
+    "reviewNotes": "智联独立详情页明确展示深圳南山区具体地址、固定月薪30-60K、3-5年、硕士、全职、招1人、完整职责与要求，标注6月15日更新且采集时仍可立即投递。用人企业为明确命名且平台已审核的深圳市杰普特光电股份有限公司，页面展示上市公司和存续工商信息，并与企业官网主体一致，不是匿名客户或中介代招。未发现收费、培训、押金、提成冒充月薪、年薪误读或标题职责错配。"
+  }
+}

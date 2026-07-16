@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-17T07:51:28+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1365128990J40800666608.htm",
+  "job": {
+    "sourceJobId": "CCL1365128990J40800666608",
+    "title": "房地产项目总经理",
+    "company": "深圳新玺投资有限公司",
+    "salaryText": "50-100K",
+    "district": "南山区",
+    "addressText": "深圳南山区华侨城新玺名苑",
+    "industry": "房地产开发经营",
+    "experience": "10年以上",
+    "education": "本科",
+    "descriptionText": "负责大型房地产项目开发管理及深圳一级、二级开发全流程，统筹平台与项目管理、团队协作、政府和设计施工资源，保障进度、成本和销售目标，并负责市场判断与风险控制。要求10年以上大型房地产项目经验，熟悉深圳豪宅及刚改市场，具有50人以上团队管理和大型项目业绩，具备领导力、跨组织沟通协调、资源整合、市场洞察与风险控制能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "",
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["missingPublicationDate", "activeApplyEntry", "activeRecruiter", "platformBusinessLicenseVerified"],
+    "reviewNotes": "智联独立详情页公开展示深圳南山区具体项目地址、固定月薪50-100K、10年以上、本科、全职、招1人及实质性任职要求。企业为明确命名且平台已审核的深圳新玺投资有限公司，工商主体存续；职位发布者为企业HRD，页面提供立即沟通和投递入口。页面未展示可记录的发布日期，因此保留missingPublicationDate信号，以详情仍有效、企业有11个在招职位及直接投递入口作为在招证据。未发现收费、培训、押金、匿名客户、提成冒充月薪或年薪误读。"
+  }
+}
