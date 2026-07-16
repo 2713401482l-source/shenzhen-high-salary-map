@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-16T16:46:10.677Z",
+  "generatedAt": "2026-07-16T16:53:19.231Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 179,
-    "verifiedDetailJobs": 110,
+    "usableJobs": 180,
+    "verifiedDetailJobs": 111,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 112,
-    "uniqueCompanies": 156,
-    "uniqueRawTitles": 165,
+    "fullRequirementJobs": 113,
+    "uniqueCompanies": 157,
+    "uniqueRawTitles": 166,
     "captureDates": 4
   },
   "distributions": {
     "salaryBands": {
       "50K": 81,
-      "30K": 74,
+      "30K": 75,
       "100K": 24
     },
     "evidenceLevels": {
-      "public-platform-detail": 100,
+      "public-platform-detail": 101,
       "boss-listing": 67,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3,
@@ -29,7 +29,7 @@
       "2026-07-12": 71,
       "2026-07-16": 57,
       "2026-07-15": 46,
-      "2026-07-17": 5
+      "2026-07-17": 6
     },
     "industries": {
       "计算机软件": 12,
@@ -105,6 +105,7 @@
       "绿色能源/智算中心/人工智能基础设施": 1,
       "企业服务": 1,
       "汽车智能网联": 1,
+      "人工智能、工业智能与具身机器人": 1,
       "人工智能、工业自动化、智能制造": 1,
       "人工智能、航空航天与新材料": 1,
       "人工智能、云计算、企业数字化解决方案": 1,
@@ -153,7 +154,7 @@
       "PCB设备、工业自动化与半导体检测": 1
     },
     "districts": {
-      "南山区": 78,
+      "南山区": 79,
       "宝安区": 36,
       "龙华区": 15,
       "龙岗区": 14,
@@ -252,12 +253,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 179,
+      "current": 180,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 110,
+      "current": 111,
       "required": 240,
       "passed": false
     },
@@ -276,7 +277,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "110/179 条完成详情核验",
+      "evidence": "111/180 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {

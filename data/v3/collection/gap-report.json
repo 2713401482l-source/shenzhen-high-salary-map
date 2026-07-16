@@ -1,7 +1,7 @@
 {
   "metadata": {
     "dataKind": "collection-gap-report",
-    "generatedFromLatestCapture": "2026-07-17T00:41:50+08:00",
+    "generatedFromLatestCapture": "2026-07-17T00:51:51+08:00",
     "bossAccessAllowed": false,
     "sourceFiles": [
       "data/v3/config/collection-plan.json",
@@ -13,17 +13,17 @@
   },
   "totals": {
     "discovery": {
-      "actual": 179,
+      "actual": 180,
       "target": 720,
-      "gap": 541
+      "gap": 540
     },
     "detailEvidence": {
-      "actual": 110,
+      "actual": 111,
       "target": 240,
-      "gap": 130
+      "gap": 129
     },
     "assignedToV3Queue": 7,
-    "legacyUnassigned": 172
+    "legacyUnassigned": 173
   },
   "quality": {
     "grain": "one company-specific job posting on one direct detail URL",
@@ -42,7 +42,7 @@
       },
       {
         "source": "liepin",
-        "count": 4
+        "count": 5
       },
       {
         "source": "employer-career",
@@ -55,26 +55,26 @@
       "source": "zhaopin",
       "count": 86
     },
-    "largestSourceShare": 0.4804,
+    "largestSourceShare": 0.4778,
     "maximumSingleSourceShare": 0.55,
     "duplicateIds": 0,
     "duplicateFingerprints": 0,
     "duplicateSourceUrls": 0,
     "staleJobs": 0,
     "maximumAgeDaysAtCapture": 45,
-    "formalSampleCount": 110,
-    "formalSampleShare": 0.6145,
+    "formalSampleCount": 111,
+    "formalSampleShare": 0.6167,
     "discoveryOnlyCount": 69
   },
   "salaryBands": [
     {
       "band": "30K",
-      "actual": 74,
+      "actual": 75,
       "target": 240,
-      "gap": 166,
-      "detailActual": 39,
+      "gap": 165,
+      "detailActual": 40,
       "detailTarget": 80,
-      "detailGap": 41
+      "detailGap": 40
     },
     {
       "band": "50K",
@@ -267,10 +267,10 @@
     }
   ],
   "publicationBlockers": [
-    "30K 总样本还差 166 条",
+    "30K 总样本还差 165 条",
     "50K 总样本还差 159 条",
     "100K 总样本还差 216 条",
-    "30K 详情证据还差 41 条",
+    "30K 详情证据还差 40 条",
     "50K 详情证据还差 33 条",
     "100K 详情证据还差 56 条",
     "单岗对标“其他专业岗位”还差 9 条详情证据"
