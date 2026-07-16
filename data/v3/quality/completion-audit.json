@@ -1,16 +1,16 @@
 {
   "metadata": {
     "dataKind": "v3-completion-audit",
-    "latestCapture": "2026-07-17T04:21:54+08:00",
+    "latestCapture": "2026-07-17T05:04:29+08:00",
     "collectionStatus": "paused-platform-risk",
     "bossAccessAllowed": false
   },
   "dataset": {
     "grain": "one public job posting per source-specific job id; cross-platform duplicates are resolved separately",
-    "totalJobs": 189,
+    "totalJobs": 190,
     "listingObservations": 69,
-    "detailVerified": 120,
-    "companies": 96,
+    "detailVerified": 121,
+    "companies": 97,
     "captureDates": [
       "2026-07-12",
       "2026-07-15",
@@ -36,7 +36,7 @@
       },
       {
         "source": "job5156",
-        "count": 14
+        "count": 15
       },
       {
         "source": "liepin",
@@ -53,15 +53,15 @@
       "source": "zhaopin",
       "count": 91
     },
-    "largestSourceShare": 0.4815,
+    "largestSourceShare": 0.4789,
     "maximumSingleSourceShare": 0.55,
     "duplicateIds": 0,
     "duplicateFingerprints": 0,
     "duplicateSourceUrls": 0,
     "staleJobs": 0,
     "maximumAgeDaysAtCapture": 45,
-    "formalSampleCount": 120,
-    "formalSampleShare": 0.6349,
+    "formalSampleCount": 121,
+    "formalSampleShare": 0.6368,
     "discoveryOnlyCount": 69
   },
   "structuralQuality": {
@@ -98,12 +98,12 @@
       {
         "band": "30K",
         "discovery": {
-          "actual": 78,
+          "actual": 79,
           "target": 240,
           "pass": false
         },
         "detailEvidence": {
-          "actual": 43,
+          "actual": 44,
           "target": 80,
           "pass": false
         }
@@ -143,8 +143,8 @@
     "benchmark": {
       "best": {
         "role": "其他专业岗位",
-        "detailCount": 44,
-        "companyCount": 37,
+        "detailCount": 45,
+        "companyCount": 38,
         "salaryBandCount": 3
       },
       "target": 50,
@@ -158,13 +158,13 @@
   },
   "complete": false,
   "blockers": [
-    "30K 真实岗位还差 162 条",
-    "30K 详情证据还差 37 条",
+    "30K 真实岗位还差 161 条",
+    "30K 详情证据还差 36 条",
     "50K 真实岗位还差 154 条",
     "50K 详情证据还差 28 条",
     "100K 真实岗位还差 215 条",
     "100K 详情证据还差 55 条",
     "新兴岗位方向还差 28 个",
-    "单岗对标还差 6 条同岗详情"
+    "单岗对标还差 5 条同岗详情"
   ]
 }

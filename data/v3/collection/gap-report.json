@@ -1,7 +1,7 @@
 {
   "metadata": {
     "dataKind": "collection-gap-report",
-    "generatedFromLatestCapture": "2026-07-17T04:21:54+08:00",
+    "generatedFromLatestCapture": "2026-07-17T05:04:29+08:00",
     "bossAccessAllowed": false,
     "sourceFiles": [
       "data/v3/config/collection-plan.json",
@@ -13,17 +13,17 @@
   },
   "totals": {
     "discovery": {
-      "actual": 189,
+      "actual": 190,
       "target": 720,
-      "gap": 531
+      "gap": 530
     },
     "detailEvidence": {
-      "actual": 120,
+      "actual": 121,
       "target": 240,
-      "gap": 120
+      "gap": 119
     },
     "assignedToV3Queue": 7,
-    "legacyUnassigned": 182
+    "legacyUnassigned": 183
   },
   "quality": {
     "grain": "one company-specific job posting on one direct detail URL",
@@ -38,7 +38,7 @@
       },
       {
         "source": "job5156",
-        "count": 14
+        "count": 15
       },
       {
         "source": "liepin",
@@ -55,26 +55,26 @@
       "source": "zhaopin",
       "count": 91
     },
-    "largestSourceShare": 0.4815,
+    "largestSourceShare": 0.4789,
     "maximumSingleSourceShare": 0.55,
     "duplicateIds": 0,
     "duplicateFingerprints": 0,
     "duplicateSourceUrls": 0,
     "staleJobs": 0,
     "maximumAgeDaysAtCapture": 45,
-    "formalSampleCount": 120,
-    "formalSampleShare": 0.6349,
+    "formalSampleCount": 121,
+    "formalSampleShare": 0.6368,
     "discoveryOnlyCount": 69
   },
   "salaryBands": [
     {
       "band": "30K",
-      "actual": 78,
+      "actual": 79,
       "target": 240,
-      "gap": 162,
-      "detailActual": 43,
+      "gap": 161,
+      "detailActual": 44,
       "detailTarget": 80,
-      "detailGap": 37
+      "detailGap": 36
     },
     {
       "band": "50K",
@@ -189,10 +189,10 @@
   ],
   "benchmark": {
     "role": "其他专业岗位",
-    "detailActual": 44,
+    "detailActual": 45,
     "detailTarget": 50,
-    "detailGap": 6,
-    "currentFamilyJobs": 44
+    "detailGap": 5,
+    "currentFamilyJobs": 45
   },
   "priorityQueries": [
     {
@@ -267,12 +267,12 @@
     }
   ],
   "publicationBlockers": [
-    "30K 总样本还差 162 条",
+    "30K 总样本还差 161 条",
     "50K 总样本还差 154 条",
     "100K 总样本还差 215 条",
-    "30K 详情证据还差 37 条",
+    "30K 详情证据还差 36 条",
     "50K 详情证据还差 28 条",
     "100K 详情证据还差 55 条",
-    "单岗对标“其他专业岗位”还差 6 条详情证据"
+    "单岗对标“其他专业岗位”还差 5 条详情证据"
   ]
 }
