@@ -1,7 +1,7 @@
 {
   "metadata": {
     "dataKind": "real-analysis",
-    "generatedFromLatestCapture": "2026-07-16T07:31:00+08:00",
+    "generatedFromLatestCapture": "2026-07-16T08:11:00+08:00",
     "sourceFiles": [
       "data/jobs/verified.json",
       "data/jobs/candidates.json"
@@ -10,17 +10,17 @@
   },
   "readiness": {
     "discovery": {
-      "actual": 143,
+      "actual": 144,
       "target": 720,
       "pass": false
     },
     "formalSample": {
-      "actual": 74,
+      "actual": 75,
       "target": 240,
       "pass": false
     },
     "detailEvidence": {
-      "actual": 74,
+      "actual": 75,
       "target": 240,
       "pass": false
     },
@@ -32,8 +32,8 @@
     "benchmark": {
       "best": {
         "role": "其他专业岗位",
-        "detailCount": 25,
-        "companyCount": 23,
+        "detailCount": 26,
+        "companyCount": 24,
         "salaryBandCount": 3
       },
       "target": 50,
@@ -47,12 +47,12 @@
   },
   "scope": {
     "city": "深圳",
-    "jobs": 74,
-    "discoveryJobs": 143,
+    "jobs": 75,
+    "discoveryJobs": 144,
     "quarantinedOrUnverified": 69,
-    "detailJobs": 74,
+    "detailJobs": 75,
     "companies": 66,
-    "industries": 65,
+    "industries": 66,
     "capturedDates": [
       "2026-07-12",
       "2026-07-15",
@@ -64,16 +64,16 @@
     {
       "name": "其他专业岗位",
       "status": "observed-family",
-      "sampleCount": 25,
-      "companyCount": 23,
-      "industryCount": 24,
-      "detailCount": 25,
+      "sampleCount": 26,
+      "companyCount": 24,
+      "industryCount": 25,
+      "detailCount": 26,
       "salary": {
         "min": 20,
         "max": 100,
         "medianMid": 40,
         "bands": {
-          "30K": 10,
+          "30K": 11,
           "50K": 13,
           "100K": 2
         }
@@ -101,6 +101,7 @@
         "FPC销售总监",
         "后端架构师（微服务&云原生）",
         "事业部总经理/副总裁(非手机业务)",
+        "解决方案经理(外语能力)",
         "数据解决方案架构师",
         "材料研发高级工程师"
       ],
@@ -141,7 +142,7 @@
         },
         {
           "name": "龙华区",
-          "count": 2
+          "count": 3
         },
         {
           "name": "福田区",
@@ -300,6 +301,15 @@
           "salaryText": "30-40K",
           "sourceUrl": "https://www.zhaopin.com/jobdetail/CC147303860J40775870507.htm",
           "capturedAt": "2026-07-16T02:21:00+08:00",
+          "evidenceLevel": "public-platform-detail"
+        },
+        {
+          "id": "zhaopin-f8ddf8850316a9b4bddd",
+          "title": "解决方案经理(外语能力)",
+          "company": "海目星激光科技集团股份有限公司",
+          "salaryText": "30-40K",
+          "sourceUrl": "https://www.zhaopin.com/jobdetail/CC298574210J40846516914.htm",
+          "capturedAt": "2026-07-16T08:11:00+08:00",
           "evidenceLevel": "public-platform-detail"
         },
         {
@@ -1324,16 +1334,16 @@
     }
   ],
   "skills": {
-    "denominator": 74,
+    "denominator": 75,
     "stats": [
       {
         "name": "跨团队协作",
         "category": "软技能",
-        "count": 50,
-        "denominator": 74,
-        "frequency": 0.676,
+        "count": 51,
+        "denominator": 75,
+        "frequency": 0.68,
         "salaryBands": {
-          "30K": 12,
+          "30K": 13,
           "50K": 25,
           "100K": 13
         },
@@ -1762,6 +1772,15 @@
             "evidenceLevel": "public-platform-detail"
           },
           {
+            "id": "zhaopin-f8ddf8850316a9b4bddd",
+            "title": "解决方案经理(外语能力)",
+            "company": "海目星激光科技集团股份有限公司",
+            "salaryText": "30-40K",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC298574210J40846516914.htm",
+            "capturedAt": "2026-07-16T08:11:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
             "id": "zhaopin-f9d52f85aff9fd0d3f75",
             "title": "数据解决方案架构师",
             "company": "深圳迅策科技股份有限公司",
@@ -1793,11 +1812,11 @@
       {
         "name": "主导与路线责任",
         "category": "管理能力",
-        "count": 42,
-        "denominator": 74,
-        "frequency": 0.568,
+        "count": 43,
+        "denominator": 75,
+        "frequency": 0.573,
         "salaryBands": {
-          "30K": 9,
+          "30K": 10,
           "50K": 19,
           "100K": 14
         },
@@ -2163,6 +2182,15 @@
             "evidenceLevel": "public-platform-detail"
           },
           {
+            "id": "zhaopin-f8ddf8850316a9b4bddd",
+            "title": "解决方案经理(外语能力)",
+            "company": "海目星激光科技集团股份有限公司",
+            "salaryText": "30-40K",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC298574210J40846516914.htm",
+            "capturedAt": "2026-07-16T08:11:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
             "id": "zhaopin-f9d52f85aff9fd0d3f75",
             "title": "数据解决方案架构师",
             "company": "深圳迅策科技股份有限公司",
@@ -2186,8 +2214,8 @@
         "name": "行业经验",
         "category": "行业经验",
         "count": 40,
-        "denominator": 74,
-        "frequency": 0.541,
+        "denominator": 75,
+        "frequency": 0.533,
         "salaryBands": {
           "30K": 9,
           "50K": 20,
@@ -2560,8 +2588,8 @@
         "name": "工程部署与性能优化",
         "category": "工程能力",
         "count": 30,
-        "denominator": 74,
-        "frequency": 0.405,
+        "denominator": 75,
+        "frequency": 0.4,
         "salaryBands": {
           "30K": 6,
           "50K": 15,
@@ -2844,8 +2872,8 @@
         "name": "数据、实验与评测",
         "category": "数据能力",
         "count": 23,
-        "denominator": 74,
-        "frequency": 0.311,
+        "denominator": 75,
+        "frequency": 0.307,
         "salaryBands": {
           "30K": 11,
           "50K": 7,
@@ -3065,8 +3093,8 @@
         "name": "C++",
         "category": "专业技能",
         "count": 19,
-        "denominator": 74,
-        "frequency": 0.257,
+        "denominator": 75,
+        "frequency": 0.253,
         "salaryBands": {
           "30K": 4,
           "50K": 12,
@@ -3250,8 +3278,8 @@
         "name": "Python",
         "category": "专业技能",
         "count": 16,
-        "denominator": 74,
-        "frequency": 0.216,
+        "denominator": 75,
+        "frequency": 0.213,
         "salaryBands": {
           "30K": 6,
           "50K": 8,
@@ -3408,8 +3436,8 @@
         "name": "大模型与 Agent",
         "category": "AI 工具",
         "count": 15,
-        "denominator": 74,
-        "frequency": 0.203,
+        "denominator": 75,
+        "frequency": 0.2,
         "salaryBands": {
           "30K": 4,
           "50K": 5,
@@ -3557,8 +3585,8 @@
         "name": "机器人控制",
         "category": "专业技能",
         "count": 15,
-        "denominator": 74,
-        "frequency": 0.203,
+        "denominator": 75,
+        "frequency": 0.2,
         "salaryBands": {
           "30K": 4,
           "50K": 5,
@@ -3706,8 +3734,8 @@
         "name": "计算机视觉",
         "category": "专业技能",
         "count": 14,
-        "denominator": 74,
-        "frequency": 0.189,
+        "denominator": 75,
+        "frequency": 0.187,
         "salaryBands": {
           "30K": 3,
           "50K": 7,
@@ -3846,8 +3874,8 @@
         "name": "深度学习框架",
         "category": "AI 工具",
         "count": 9,
-        "denominator": 74,
-        "frequency": 0.122,
+        "denominator": 75,
+        "frequency": 0.12,
         "salaryBands": {
           "30K": 3,
           "50K": 5,
@@ -3941,8 +3969,8 @@
         "name": "强化学习",
         "category": "专业技能",
         "count": 7,
-        "denominator": 74,
-        "frequency": 0.095,
+        "denominator": 75,
+        "frequency": 0.093,
         "salaryBands": {
           "30K": 0,
           "50K": 1,
@@ -4018,8 +4046,8 @@
         "name": "语音与信号处理",
         "category": "专业技能",
         "count": 7,
-        "denominator": 74,
-        "frequency": 0.095,
+        "denominator": 75,
+        "frequency": 0.093,
         "salaryBands": {
           "30K": 2,
           "50K": 2,
@@ -4095,8 +4123,8 @@
     "pairs": [
       {
         "pair": "主导与路线责任 + 跨团队协作",
-        "count": 33,
-        "denominator": 74,
+        "count": 34,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -4379,6 +4407,15 @@
             "evidenceLevel": "public-platform-detail"
           },
           {
+            "id": "zhaopin-f8ddf8850316a9b4bddd",
+            "title": "解决方案经理(外语能力)",
+            "company": "海目星激光科技集团股份有限公司",
+            "salaryText": "30-40K",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC298574210J40846516914.htm",
+            "capturedAt": "2026-07-16T08:11:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
             "id": "zhaopin-f9d52f85aff9fd0d3f75",
             "title": "数据解决方案架构师",
             "company": "深圳迅策科技股份有限公司",
@@ -4401,7 +4438,7 @@
       {
         "pair": "行业经验 + 跨团队协作",
         "count": 28,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -4661,7 +4698,7 @@
       {
         "pair": "主导与路线责任 + 行业经验",
         "count": 28,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -4921,7 +4958,7 @@
       {
         "pair": "工程部署与性能优化 + 跨团队协作",
         "count": 23,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -5136,7 +5173,7 @@
       {
         "pair": "主导与路线责任 + 工程部署与性能优化",
         "count": 16,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -5288,7 +5325,7 @@
       {
         "pair": "数据、实验与评测 + 跨团队协作",
         "count": 15,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -5431,7 +5468,7 @@
       {
         "pair": "工程部署与性能优化 + 行业经验",
         "count": 14,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -5565,7 +5602,7 @@
       {
         "pair": "C++ + Python",
         "count": 13,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -5690,7 +5727,7 @@
       {
         "pair": "工程部署与性能优化 + 数据、实验与评测",
         "count": 12,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -5806,7 +5843,7 @@
       {
         "pair": "数据、实验与评测 + 行业经验",
         "count": 12,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -5922,7 +5959,7 @@
       {
         "pair": "C++ + 跨团队协作",
         "count": 12,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -6038,7 +6075,7 @@
       {
         "pair": "大模型与 Agent + 工程部署与性能优化",
         "count": 11,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -6145,7 +6182,7 @@
       {
         "pair": "大模型与 Agent + 跨团队协作",
         "count": 11,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -6252,7 +6289,7 @@
       {
         "pair": "机器人控制 + 行业经验",
         "count": 11,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -6359,7 +6396,7 @@
       {
         "pair": "C++ + 工程部署与性能优化",
         "count": 11,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -6466,7 +6503,7 @@
       {
         "pair": "C++ + 行业经验",
         "count": 11,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -6573,7 +6610,7 @@
       {
         "pair": "Python + 工程部署与性能优化",
         "count": 11,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -6680,7 +6717,7 @@
       {
         "pair": "工程部署与性能优化 + 计算机视觉",
         "count": 10,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -6778,7 +6815,7 @@
       {
         "pair": "计算机视觉 + 跨团队协作",
         "count": 10,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -6876,7 +6913,7 @@
       {
         "pair": "主导与路线责任 + 大模型与 Agent",
         "count": 10,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -6974,7 +7011,7 @@
       {
         "pair": "主导与路线责任 + 数据、实验与评测",
         "count": 10,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7072,7 +7109,7 @@
       {
         "pair": "Python + 行业经验",
         "count": 9,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7161,7 +7198,7 @@
       {
         "pair": "大模型与 Agent + 数据、实验与评测",
         "count": 8,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7241,7 +7278,7 @@
       {
         "pair": "工程部署与性能优化 + 深度学习框架",
         "count": 8,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7321,7 +7358,7 @@
       {
         "pair": "主导与路线责任 + 计算机视觉",
         "count": 8,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7401,7 +7438,7 @@
       {
         "pair": "Python + 深度学习框架",
         "count": 8,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7481,7 +7518,7 @@
       {
         "pair": "Python + 数据、实验与评测",
         "count": 8,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7561,7 +7598,7 @@
       {
         "pair": "主导与路线责任 + 机器人控制",
         "count": 7,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7632,7 +7669,7 @@
       {
         "pair": "C++ + 计算机视觉",
         "count": 7,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7703,7 +7740,7 @@
       {
         "pair": "Python + 跨团队协作",
         "count": 7,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7774,7 +7811,7 @@
       {
         "pair": "大模型与 Agent + 计算机视觉",
         "count": 6,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7836,7 +7873,7 @@
       {
         "pair": "机器人控制 + 跨团队协作",
         "count": 6,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7898,7 +7935,7 @@
       {
         "pair": "深度学习框架 + 跨团队协作",
         "count": 6,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7960,7 +7997,7 @@
       {
         "pair": "深度学习框架 + 行业经验",
         "count": 6,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8022,7 +8059,7 @@
       {
         "pair": "数据、实验与评测 + 计算机视觉",
         "count": 6,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8084,7 +8121,7 @@
       {
         "pair": "行业经验 + 计算机视觉",
         "count": 6,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8146,7 +8183,7 @@
       {
         "pair": "C++ + 机器人控制",
         "count": 6,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8208,7 +8245,7 @@
       {
         "pair": "C++ + 深度学习框架",
         "count": 6,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8270,7 +8307,7 @@
       {
         "pair": "C++ + 数据、实验与评测",
         "count": 6,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8332,7 +8369,7 @@
       {
         "pair": "C++ + 主导与路线责任",
         "count": 6,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8394,7 +8431,7 @@
       {
         "pair": "Python + 机器人控制",
         "count": 6,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8456,7 +8493,7 @@
       {
         "pair": "大模型与 Agent + 行业经验",
         "count": 5,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8509,7 +8546,7 @@
       {
         "pair": "工程部署与性能优化 + 语音与信号处理",
         "count": 5,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8562,7 +8599,7 @@
       {
         "pair": "强化学习 + 机器人控制",
         "count": 5,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8615,7 +8652,7 @@
       {
         "pair": "强化学习 + 行业经验",
         "count": 5,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8668,7 +8705,7 @@
       {
         "pair": "数据、实验与评测 + 深度学习框架",
         "count": 5,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8721,7 +8758,7 @@
       {
         "pair": "主导与路线责任 + 强化学习",
         "count": 5,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8774,7 +8811,7 @@
       {
         "pair": "Python + 计算机视觉",
         "count": 5,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8827,7 +8864,7 @@
       {
         "pair": "工程部署与性能优化 + 机器人控制",
         "count": 4,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8871,7 +8908,7 @@
       {
         "pair": "深度学习框架 + 语音与信号处理",
         "count": 4,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8915,7 +8952,7 @@
       {
         "pair": "行业经验 + 语音与信号处理",
         "count": 4,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8959,7 +8996,7 @@
       {
         "pair": "Python + 大模型与 Agent",
         "count": 4,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -9003,7 +9040,7 @@
       {
         "pair": "Python + 语音与信号处理",
         "count": 4,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -9047,7 +9084,7 @@
       {
         "pair": "大模型与 Agent + 强化学习",
         "count": 3,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -9082,7 +9119,7 @@
       {
         "pair": "大模型与 Agent + 深度学习框架",
         "count": 3,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -9117,7 +9154,7 @@
       {
         "pair": "机器人控制 + 深度学习框架",
         "count": 3,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -9152,7 +9189,7 @@
       {
         "pair": "强化学习 + 跨团队协作",
         "count": 3,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -9187,7 +9224,7 @@
       {
         "pair": "深度学习框架 + 计算机视觉",
         "count": 3,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -9222,7 +9259,7 @@
       {
         "pair": "数据、实验与评测 + 机器人控制",
         "count": 3,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -9257,7 +9294,7 @@
       {
         "pair": "数据、实验与评测 + 语音与信号处理",
         "count": 3,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -9292,7 +9329,7 @@
       {
         "pair": "语音与信号处理 + 跨团队协作",
         "count": 3,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -9327,7 +9364,7 @@
       {
         "pair": "主导与路线责任 + 深度学习框架",
         "count": 3,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -9362,7 +9399,7 @@
       {
         "pair": "C++ + 大模型与 Agent",
         "count": 3,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -9397,7 +9434,7 @@
       {
         "pair": "C++ + 语音与信号处理",
         "count": 3,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -9432,7 +9469,7 @@
       {
         "pair": "Python + 主导与路线责任",
         "count": 3,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -9467,7 +9504,7 @@
       {
         "pair": "工程部署与性能优化 + 强化学习",
         "count": 2,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -9493,7 +9530,7 @@
       {
         "pair": "机器人控制 + 语音与信号处理",
         "count": 2,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -9519,7 +9556,7 @@
       {
         "pair": "强化学习 + 数据、实验与评测",
         "count": 2,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -9545,7 +9582,7 @@
       {
         "pair": "C++ + 强化学习",
         "count": 2,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -9571,7 +9608,7 @@
       {
         "pair": "大模型与 Agent + 机器人控制",
         "count": 1,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -9588,7 +9625,7 @@
       {
         "pair": "大模型与 Agent + 语音与信号处理",
         "count": 1,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -9605,7 +9642,7 @@
       {
         "pair": "机器人控制 + 计算机视觉",
         "count": 1,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -9622,7 +9659,7 @@
       {
         "pair": "计算机视觉 + 语音与信号处理",
         "count": 1,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -9639,7 +9676,7 @@
       {
         "pair": "强化学习 + 计算机视觉",
         "count": 1,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -9656,7 +9693,7 @@
       {
         "pair": "Python + 强化学习",
         "count": 1,
-        "denominator": 74,
+        "denominator": 75,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -9717,6 +9754,35 @@
           "salaryText": "40-60K·15薪",
           "sourceUrl": "https://www.zhaopin.com/jobdetail/CC212499610J40893394103.htm",
           "capturedAt": "2026-07-16T04:51:00+08:00",
+          "evidenceLevel": "public-platform-detail"
+        }
+      ]
+    },
+    {
+      "company": "海目星激光科技集团股份有限公司",
+      "status": "same-snapshot-cluster",
+      "jobCount": 2,
+      "distinctTitles": 2,
+      "capturedDates": [
+        "2026-07-16"
+      ],
+      "evidenceJobs": [
+        {
+          "id": "zhaopin-5d3ec3919ea16acba29f",
+          "title": "软件算法专家",
+          "company": "海目星激光科技集团股份有限公司",
+          "salaryText": "25-40K",
+          "sourceUrl": "https://www.zhaopin.com/jobdetail/CC298574210J40874559414.htm",
+          "capturedAt": "2026-07-16T00:31:00+08:00",
+          "evidenceLevel": "public-platform-detail"
+        },
+        {
+          "id": "zhaopin-f8ddf8850316a9b4bddd",
+          "title": "解决方案经理(外语能力)",
+          "company": "海目星激光科技集团股份有限公司",
+          "salaryText": "30-40K",
+          "sourceUrl": "https://www.zhaopin.com/jobdetail/CC298574210J40846516914.htm",
+          "capturedAt": "2026-07-16T08:11:00+08:00",
           "evidenceLevel": "public-platform-detail"
         }
       ]
@@ -9873,8 +9939,8 @@
   "salaryBands": [
     {
       "band": "30K",
-      "count": 22,
-      "detailCount": 22,
+      "count": 23,
+      "detailCount": 23,
       "medianMid": 30
     },
     {
@@ -9891,11 +9957,11 @@
     }
   ],
   "marketProfile": {
-    "denominator": 74,
+    "denominator": 75,
     "salaryBands": [
       {
         "name": "30K",
-        "count": 22
+        "count": 23
       },
       {
         "name": "50K",
@@ -9985,6 +10051,10 @@
       },
       {
         "name": "工业自动化、机器人、新能源装备",
+        "count": 1
+      },
+      {
+        "name": "工业自动化/机器人、电气机械/电力设备",
         "count": 1
       },
       {
@@ -10179,7 +10249,7 @@
       },
       {
         "name": "龙华区",
-        "count": 9
+        "count": 10
       },
       {
         "name": "龙岗区",
@@ -10205,7 +10275,7 @@
     "experience": [
       {
         "name": "5-10年",
-        "count": 31
+        "count": 32
       },
       {
         "name": "3-5年",
@@ -10263,7 +10333,7 @@
     "education": [
       {
         "name": "本科",
-        "count": 41
+        "count": 42
       },
       {
         "name": "硕士",
@@ -10291,8 +10361,8 @@
   "benchmarkCandidates": [
     {
       "role": "其他专业岗位",
-      "detailCount": 25,
-      "companyCount": 23,
+      "detailCount": 26,
+      "companyCount": 24,
       "salaryBandCount": 3
     },
     {
