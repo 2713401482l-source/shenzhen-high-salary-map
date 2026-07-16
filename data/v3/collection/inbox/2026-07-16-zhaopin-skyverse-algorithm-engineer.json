@@ -1,0 +1,39 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-16T09:41:00+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC313517880J40891520613.htm",
+  "job": {
+    "sourceJobId": "CC313517880J40891520613",
+    "title": "算法工程师",
+    "company": "深圳中科飞测科技股份有限公司",
+    "salaryText": "25-50K·14薪",
+    "district": "龙华区",
+    "addressText": "深圳市龙华区银星科技园银星智谷J栋301",
+    "industry": "半导体设备、仪器仪表与工业检测",
+    "experience": "经验不限",
+    "education": "博士",
+    "descriptionText": "负责机器学习算法的开发、分析和测试，并在客户现场开展算法模型优化与维护。要求博士学历，具备扎实的数学、统计学基础，熟悉常用机器学习算法和时间序列分析方法；具有深度学习开发经验，理解CNN、RNN、GAN等网络，熟练掌握TensorFlow、PyTorch等至少一种框架；能够完成模型剪枝、压缩和GPU加速等工程优化，熟悉异常检测、故障预测、根因分析和时间序列预测，能够跟进热点论文并复现代码，同时接受必要出差。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.skyverse.cn/",
+    "corroboratingUrls": [
+      "https://www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20230518_89633026.shtml",
+      "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2025-04-04/688361_20250404_TKWZ.pdf"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "职位详情页采集时可立即投递",
+      "页面标注更新时间为6月25日，距采集日21天",
+      "智联标注企业已审核并显示111个在招职位",
+      "上海证券交易所公告确认企业全称与证券代码688361"
+    ],
+    "reviewNotes": "智联具体岗位页展示25-50K固定月薪及14薪、深圳龙华具体办公地址、博士学历和完整算法要求。公司主体已审核，页面采集时仍可立即投递；6月25日更新，未超过45天有效期。上交所上市公告和年度报告可交叉核验企业全称及存续经营信息。未发现付费培训、押金、提成冒充月薪、匿名客户、猎头代招或岗位描述错配信号。"
+  }
+}

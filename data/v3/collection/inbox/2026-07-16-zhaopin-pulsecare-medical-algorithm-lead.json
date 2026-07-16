@@ -1,0 +1,39 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-16T09:41:00+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1353275480J40856090411.htm",
+  "job": {
+    "sourceJobId": "CCL1353275480J40856090411",
+    "title": "医疗器械算法负责人",
+    "company": "深圳迈微医疗科技有限公司",
+    "salaryText": "30-50K·13薪",
+    "district": "光明区",
+    "addressText": "深圳市光明区康佳光明科技中心A座C6迈微医疗科技",
+    "industry": "医疗设备与创新医疗器械",
+    "experience": "3年以上",
+    "education": "本科",
+    "descriptionText": "负责三维图形算法研发与优化、竞品三维图形方案分析和前沿算法预研工程化；开发心电辅助诊断算法，完成心脏电生理数据分析、算法设计、验证和持续改进；处理超声图像序列并进行心脏三维建模，协同软硬件工程师完成跨平台移植和性能优化。要求本科及以上学历，计算机、软件工程、图形图像、数字几何或应用数学相关专业，熟练使用C/C++以及CUDA、STL、Boost，具备3D图形学和数学基础，熟悉点云、Mesh、PCL、CGAL、VTK者优先，并需有三年以上实际项目经验。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://pulsecare.cn/index.aspx",
+    "corroboratingUrls": [
+      "https://pulsecare.cn/index.aspx",
+      "https://career.nankai.edu.cn/correcruit/content/id/112973.html"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "职位详情页采集时可立即投递",
+      "页面标注更新时间为6月12日，距采集日34天",
+      "智联标注企业已审核并显示19个在招职位",
+      "企业官网与高校招聘页可交叉核验企业名称和医疗器械业务"
+    ],
+    "reviewNotes": "智联具体岗位页展示30-50K固定月薪及13薪、深圳光明具体办公地址、本科门槛和完整医疗算法要求。公司主体已审核，页面采集时仍可立即投递；6月12日更新，未超过45天有效期。企业官网和南开大学就业信息页可核验公司名称、深圳总部与医疗器械方向。未发现付费培训、押金、提成冒充月薪、匿名客户、猎头代招或岗位描述错配信号。"
+  }
+}
