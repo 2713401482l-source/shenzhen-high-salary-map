@@ -1,0 +1,35 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-16T10:51:00+08:00",
+  "publishedAt": "2026-06-04",
+  "sourceUrl": "https://m.zhaopin.com/jobs/CCL1503873160J40823681501.htm",
+  "job": {
+    "sourceJobId": "CCL1503873160J40823681501",
+    "title": "助理副总裁 - AI 软件开发",
+    "company": "银河市场信息技术(深圳)有限公司",
+    "salaryText": "80-100K",
+    "district": "南山区",
+    "addressText": "深圳南山区深圳自贸中心",
+    "industry": "软件/IT服务/人工智能",
+    "experience": "10年以上",
+    "education": "本科",
+    "descriptionText": "负责制定并持续优化公司的人工智能解决方案、技术策略和发展蓝图，确保AI战略与整体业务转型目标一致；领导模型开发、数据工程和产品交付团队，与业务部门识别高价值AI应用并推动规模化落地；建立负责任AI、数据安全和模型治理规范，监控机器学习、计算机视觉、自然语言处理与生成式AI的开发运行，参与现代AI平台架构及其与企业信息系统的整合。要求本科及以上学历，具备10年以上技术领导经验及至少5年AI或机器学习经验，掌握机器学习、深度学习、NLP、计算机视觉、云端AI平台、MLOps、模型监控与再训练，并具备跨部门沟通和团队建设能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "corroboratingUrls": [
+      "https://shuidi.cn/company-07834311436217ae6d2d2b56ebe93001.html"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "staleBeyondPreferredDays"
+    ],
+    "reviewNotes": "智联移动端具体岗位页显示固定月薪80-100K、深圳南山区具体工作地址、实名企业、招聘1人及完整AI技术管理职责，发布日期为2026年6月4日，采集时距发布42天，仍在45天硬性上限内但已超过30天优选期，因此保留过优选期复核信号。公开企业登记聚合页显示同名企业经营状态存续，行业与岗位内容无明显矛盾；页面未出现匿名客户、收费培训、押金、提成冒充固定月薪或地点冲突。"
+  }
+}
