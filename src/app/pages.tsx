@@ -62,10 +62,10 @@ export function HomePage() {
     <section className="home-hero">
       <HeroShader />
       <div className="home-hero-content">
-        <p className="hero-kicker">深圳高薪需求研究</p>
-        <h1>先别急着找工作，<br />看看市场在为哪些能力付高价。</h1>
-        <p>从真实岗位反推能力组合、对标岗位与成长方向。</p>
-        <div className="hero-actions"><ArrowButton href="trends.html" tone="orange">开始逆向搜索</ArrowButton><a className="quiet-link" href="jobs.html">直接看真实岗位 <ArrowRight /></a></div>
+        <p className="hero-kicker">深职图谱 · 深圳高薪岗位与能力情报</p>
+        <h1>看清深圳高薪岗位，<br />找到下一步该补的能力。</h1>
+        <p>从公开岗位反推企业愿意付费的能力组合、对标岗位与成长方向。</p>
+        <div className="hero-actions"><ArrowButton href="jobs.html" tone="orange">查看岗位机会</ArrowButton><a className="quiet-link" href="skills.html">探索能力图谱 <ArrowRight /></a></div>
       </div>
     </section>
     <EvidenceStrip />

@@ -14,6 +14,10 @@ const navItems: Array<{key: PageKey; label: string; href: string}> = [
   {key: 'growth', label: '成长路径', href: 'growth.html'},
 ];
 
+function BrandMark() {
+  return <img className="brand-mark" src="assets/brand/shenzhi-tupu-mark.png" alt="" width="44" height="44" />;
+}
+
 export function TextRoll({children}: {children: React.ReactNode}) {
   return <span className="text-roll" aria-hidden="true"><span>{children}</span><span>{children}</span></span>;
 }
@@ -72,9 +76,9 @@ export function Header({page}: {page: PageKey}) {
   return <>
     <header className="top-shell">
       <div className="top-nav">
-        <a className="brand" href="index.html" aria-label="深圳高薪需求研究首页">
-          <span className="brand-mark" aria-hidden="true">SZ</span>
-          <span className="brand-name">深圳高薪需求研究</span>
+        <a className="brand" href="index.html" aria-label="深职图谱首页">
+          <BrandMark />
+          <span className="brand-name">深职图谱</span>
         </a>
         <nav className="desktop-nav" aria-label="主导航">
           {navItems.map(item => <a key={item.key} href={item.href} aria-current={page === item.key ? 'page' : undefined}>{item.label}</a>)}
@@ -83,6 +87,7 @@ export function Header({page}: {page: PageKey}) {
           <TextRoll>查看真实岗位</TextRoll>
           <span><ArrowUpRight aria-hidden="true" /></span>
         </a>
+        <a className="mobile-brand-name" href="index.html" aria-label="深职图谱首页">深职图谱</a>
         <button ref={triggerRef} className="mobile-menu-trigger" type="button" onClick={() => setOpen(value => !value)} aria-label={open ? '关闭导航' : '打开导航'} aria-expanded={open} aria-controls="mobile-navigation-panel">{open ? <X /> : <Menu />}</button>
       </div>
     </header>
@@ -143,7 +148,7 @@ export function InnerHero({eyebrow, title, lead, mode, onModeChange}: {eyebrow: 
 
 export function Footer() {
   return <footer className="site-footer">
-    <div><a className="brand" href="index.html"><span className="brand-mark">SZ</span><span className="brand-name">深圳高薪需求研究</span></a><p>把招聘平台当成需求数据库，而不是投递按钮。</p></div>
+    <div><a className="brand" href="index.html"><BrandMark /><span className="brand-name">深职图谱</span></a><p>深圳高薪岗位与能力情报。看岗位，也看下一步该补什么。</p></div>
     <nav aria-label="页脚导航"><a href="jobs.html">岗位证据库</a><a href="method.html">方法与数据边界</a></nav>
   </footer>;
 }

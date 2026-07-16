@@ -4,14 +4,14 @@ import { resolve } from 'node:path';
 
 const publicBase = 'https://2713401482l-source.github.io/shenzhen-high-salary-map/';
 const routeMeta = {
-  'index.html': {title: '深圳高薪需求研究', description: '从深圳高薪岗位反推市场需求、能力组合与成长路径。'},
-  'trends.html': {title: '发现机会｜深圳高薪需求研究', description: '逆向搜索深圳高薪岗位，识别值得继续研究的新兴岗位信号。'},
-  'skills.html': {title: '能力组合｜深圳高薪需求研究', description: '从可核验岗位要求中拆解高频能力、能力组合和原文证据。'},
-  'benchmark.html': {title: '单岗对标｜深圳高薪需求研究', description: '锁定单一岗位，按企业共同要求倒推能力学习优先级。'},
-  'growth.html': {title: '成长路径｜深圳高薪需求研究', description: '比较市场需求、薪资上限、能力门槛和企业多岗位信号。'},
-  'map.html': {title: '成长路径｜深圳高薪需求研究', description: '比较市场需求、薪资上限、能力门槛和企业多岗位信号。'},
-  'jobs.html': {title: '真实岗位库｜深圳高薪需求研究', description: '查看深圳高薪岗位的 Boss 原始薪资、公司、区域和岗位详情链接。'},
-  'method.html': {title: '方法与边界｜深圳高薪需求研究', description: '了解真实样本、列表观察、演示数据和正式分析门槛。'},
+  'index.html': {title: '深职图谱｜深圳高薪岗位与能力情报', description: '看清深圳高薪岗位，找到下一步该补的能力。'},
+  'trends.html': {title: '发现机会｜深职图谱', description: '逆向搜索深圳高薪岗位，识别值得继续研究的新兴岗位信号。'},
+  'skills.html': {title: '能力组合｜深职图谱', description: '从岗位要求中拆解高频能力、能力组合和原文证据。'},
+  'benchmark.html': {title: '单岗对标｜深职图谱', description: '锁定单一岗位，按企业共同要求倒推能力学习优先级。'},
+  'growth.html': {title: '成长路径｜深职图谱', description: '比较市场需求、薪资上限、能力门槛和企业多岗位信号。'},
+  'map.html': {title: '成长路径｜深职图谱', description: '比较市场需求、薪资上限、能力门槛和企业多岗位信号。'},
+  'jobs.html': {title: '岗位机会｜深职图谱', description: '查看深圳高薪岗位的薪资、公司、区域与可信度说明。'},
+  'method.html': {title: '方法与边界｜深职图谱', description: '了解真实样本、高概率判断、演示数据和正式分析门槛。'},
 };
 
 function reportMeta() {
@@ -29,7 +29,9 @@ function reportMeta() {
           {tag: 'meta', attrs: {name: 'color-scheme', content: 'light'}, injectTo: 'head'},
           {tag: 'meta', attrs: {property: 'og:type', content: 'website'}, injectTo: 'head'},
           {tag: 'meta', attrs: {property: 'og:locale', content: 'zh_CN'}, injectTo: 'head'},
-          {tag: 'meta', attrs: {property: 'og:site_name', content: '深圳高薪需求研究'}, injectTo: 'head'},
+          {tag: 'meta', attrs: {property: 'og:site_name', content: '深职图谱'}, injectTo: 'head'},
+          {tag: 'link', attrs: {rel: 'icon', type: 'image/png', href: 'assets/brand/shenzhi-tupu-mark.png'}, injectTo: 'head'},
+          {tag: 'link', attrs: {rel: 'apple-touch-icon', href: 'assets/brand/shenzhi-tupu-mark.png'}, injectTo: 'head'},
           {tag: 'meta', attrs: {property: 'og:title', content: meta.title}, injectTo: 'head'},
           {tag: 'meta', attrs: {property: 'og:description', content: meta.description}, injectTo: 'head'},
           {tag: 'meta', attrs: {property: 'og:url', content: canonical}, injectTo: 'head'},
