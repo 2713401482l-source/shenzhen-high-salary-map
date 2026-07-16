@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-16T04:36:35.986Z",
+  "generatedAt": "2026-07-16T05:15:45.989Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 160,
-    "verifiedDetailJobs": 91,
+    "usableJobs": 161,
+    "verifiedDetailJobs": 92,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 93,
+    "fullRequirementJobs": 94,
     "uniqueCompanies": 143,
-    "uniqueRawTitles": 146,
+    "uniqueRawTitles": 147,
     "captureDates": 3
   },
   "distributions": {
     "salaryBands": {
-      "50K": 74,
+      "50K": 75,
       "30K": 65,
       "100K": 21
     },
     "evidenceLevels": {
-      "public-platform-detail": 82,
+      "public-platform-detail": 83,
       "boss-listing": 67,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3
@@ -27,7 +27,7 @@
     "captureDates": {
       "2026-07-12": 71,
       "2026-07-15": 46,
-      "2026-07-16": 43
+      "2026-07-16": 44
     },
     "industries": {
       "计算机软件": 12,
@@ -76,6 +76,7 @@
       "互联网电商/综合商贸": 1,
       "互联网社交、数字内容与自研芯片": 1,
       "互联网社交/数字内容、企业协作软件、人工智能": 1,
+      "互联网社交/数字内容、人工智能": 1,
       "互联网生活服务、软件/IT服务": 1,
       "基金": 1,
       "计算机服务": 1,
@@ -133,7 +134,7 @@
       "PCB设备、工业自动化与半导体检测": 1
     },
     "districts": {
-      "南山区": 75,
+      "南山区": 76,
       "宝安区": 27,
       "龙华区": 14,
       "龙岗区": 13,
@@ -157,6 +158,10 @@
     },
     {
       "company": "腾讯",
+      "count": 3
+    },
+    {
+      "company": "字节跳动",
       "count": 3
     },
     {
@@ -200,10 +205,6 @@
       "count": 2
     },
     {
-      "company": "字节跳动",
-      "count": 2
-    },
-    {
       "company": "自变量机器人",
       "count": 2
     }
@@ -216,12 +217,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 160,
+      "current": 161,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 91,
+      "current": 92,
       "required": 240,
       "passed": false
     },
@@ -240,7 +241,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "91/160 条完成详情核验",
+      "evidence": "92/161 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {
