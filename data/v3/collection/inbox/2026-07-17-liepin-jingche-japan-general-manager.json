@@ -1,0 +1,35 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "liepin",
+  "sourcePublisher": "猎聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-17T07:31:27+08:00",
+  "sourceUrl": "https://www.liepin.com/job/1983864361.shtml",
+  "job": {
+    "sourceJobId": "1983864361",
+    "title": "日本事业部总经理",
+    "company": "晶澈科技",
+    "salaryText": "100-150K",
+    "district": "福田区",
+    "addressText": "深圳市福田区",
+    "industry": "消费电子/跨境电商",
+    "experience": "5年以上",
+    "education": "本科",
+    "descriptionText": "全面统筹日本市场业务，制定经营方案并完成营收、利润指标；研判市场、竞品与客户需求，制定定价、新品和市场策略；负责亚马逊、乐天等线上平台及线下商社、批发商、代理商渠道运营，管理销售、回款和分销资源；管理日本本地销售运营团队和核心客户，制定本地化营销预算与活动方案。要求日语达到母语或商务流利水平，英语可作为办公语言；具备5年以上相关经验、本科学历，以及日本市场、电商渠道、线下分销、团队和经营管理能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "",
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "recentPublicationDate",
+      "activeApplyEntry",
+      "verifiedRecruiter"
+    ],
+    "reviewNotes": "猎聘独立岗位详情页在采集时可公开访问，明确展示深圳福田区、固定月薪100-150K、5年以上、本科、招1人、完整岗位职责与任职要求；页面标注2026-07-10更新，并提供投简历与沟通入口。发布主体和用人企业均明确为晶澈科技，招聘人员已认证，不是匿名客户或猎头代招。未发现收费、付费培训、押金、提成冒充固定月薪、年薪误读或地点矛盾。因本轮合格岗位不足5条，按批量导入策略暂存快照，等待后续统一dry-run。"
+  }
+}
