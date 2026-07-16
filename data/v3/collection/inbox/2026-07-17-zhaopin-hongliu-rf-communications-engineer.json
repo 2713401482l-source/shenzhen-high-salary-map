@@ -1,0 +1,35 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-17T07:41:28+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1257988090J41013804904.htm",
+  "job": {
+    "sourceJobId": "CCL1257988090J41013804904",
+    "title": "无线/射频通信工程师",
+    "company": "宏流信息技术(深圳)有限公司",
+    "salaryText": "15-30K",
+    "district": "南山区",
+    "addressText": "深圳南山区海天二路（腾讯大厦旁）2304",
+    "industry": "通信/网络设备",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "负责帧码类紧凑型基站硬件整机集成开发、调试与测试，覆盖基站板、功放、天线、功分器、GPS模块、路由器、电源、电池、散热和整机结构；完成散热、电磁兼容、射频部件选型及功能性能验证，并管理部件供应商。要求具有基站整机、射频功放或直放站等硬件集成经验，理解射频指标、基站射频信号链和无线传播模型，掌握网络分析仪、频谱仪、信号源、示波器及万用表，具备项目管理、学习和沟通能力；能用英语进行技术交流者优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "",
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "recentPublicationDate",
+      "activeApplyEntry",
+      "platformBusinessLicenseVerified"
+    ],
+    "reviewNotes": "智联独立岗位详情页在采集时可公开访问，明确展示深圳南山区具体办公地址、固定月薪15-30K、3-5年、本科、全职、完整职责和任职要求；页面标注6月25日更新，距采集日22天，并提供立即投递入口。发布企业宏流信息技术(深圳)有限公司名称明确，平台显示已审核、营业执照信息和存续工商主体，不是匿名客户或中介代招。未发现收费、培训、押金、提成冒充月薪、年薪误读、地点矛盾或标题职责错配。因当前待导入合格快照总数不足5条，先保留等待统一dry-run和导入。"
+  }
+}
