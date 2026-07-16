@@ -2970,6 +2970,81 @@
     "duplicateFingerprint": "7e7208fb52a1f2061b0e"
   },
   {
+    "id": "zhaopin-1405d41a3e20009aa907",
+    "sourceJobId": "CCL1362239030J40901427315",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "芯片架构工程师",
+    "company": "深圳市新凯来技术有限公司",
+    "salaryText": "25-50K",
+    "salaryMin": 25,
+    "salaryMax": 50,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "龙岗区",
+    "addressText": "深圳龙岗区平湖旭日东路91号",
+    "industry": "半导体/芯片",
+    "experience": "经验不限",
+    "education": "本科",
+    "descriptionExcerpt": "负责芯片架构规划，将产品需求转化为技术规格，完成核心IP选型和系统方案设计；使用C、Python等工具进行性能、功耗及成本建模，指导设计、验证和软件团队推动架构落地，并参与芯片测试调试及性能瓶颈分析。要求具备芯片从概念、设计、验证、流片到硅后调试的完整项目经验，理解不同工艺节点下功耗、性能、面积的权衡，熟悉SoC设计验证流程以及PCIe、DDR、AHB/AX",
+    "requirementText": "负责芯片架构规划，将产品需求转化为技术规格，完成核心IP选型和系统方案设计；使用C、Python等工具进行性能、功耗及成本建模，指导设计、验证和软件团队推动架构落地，并参与芯片测试调试及性能瓶颈分析。要求具备芯片从概念、设计、验证、流片到硅后调试的完整项目经验，理解不同工艺节点下功耗、性能、面积的权衡，熟悉SoC设计验证流程以及PCIe、DDR、AHB/AXI、Ethernet、RDMA、NVMe等协议，能够使用C/C++、SystemC、SystemVerilog或Python/MATLAB开展架构建模和仿真。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1362239030J40901427315.htm",
+    "capturedAt": "2026-07-17T05:51:55+08:00",
+    "verifiedAt": "2026-07-17T05:51:55+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://www.sicarrier.com/",
+      "corroboratingUrls": [
+        "https://www.sicarrier.com/",
+        "https://www.sicarrier.com/%E5%85%B3%E4%BA%8E%E6%88%91%E4%BB%AC/%E5%85%AC%E5%8F%B8%E7%AE%80%E4%BB%8B",
+        "https://www.sicarrier.com/%E5%85%B3%E4%BA%8E%E6%88%91%E4%BB%AC/%E8%81%94%E7%B3%BB%E6%88%91%E4%BB%AC"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "missingPublicationDate"
+      ],
+      "reviewNotes": "智联独立岗位详情页在采集时仍可公开访问，未显示失效，明确展示深圳龙岗区平湖具体地址、固定月薪25-50K、本科、全职、招聘2人、完整职责和任职要求，并提供招聘方沟通入口。岗位发布主体为平台已审核且明确命名的深圳市新凯来技术有限公司，不是匿名客户或中介代招。公司官网核验了同名主体、半导体装备及零部件业务，并给出深圳龙岗区平湖街道新凯来园区地址，和岗位方向、地点一致。详情页未展示可可靠抄录的发布日期，因此保留missingPublicationDate复核信号，以页面仍有效且招聘入口可用作为活跃证据。未发现收费、付费培训、押金、提成冒充固定月薪、年薪误读、地点矛盾或标题职责错配。"
+    },
+    "duplicateFingerprint": "9972d690d1327aa0573a"
+  },
+  {
     "id": "zhaopin-1437e4a4300a2a7e338f",
     "sourceJobId": "CCL1503873160J40823681501",
     "sourcePlatform": "zhaopin",
