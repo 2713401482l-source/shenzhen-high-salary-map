@@ -1,0 +1,34 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-16T11:41:00+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC130455220J40843962307.htm",
+  "job": {
+    "sourceJobId": "CC130455220J40843962307",
+    "title": "架构师",
+    "company": "深圳市先创数字技术有限公司",
+    "salaryText": "30-60K",
+    "district": "南山区",
+    "addressText": "深圳南山区留学生创业大厦二期",
+    "industry": "人工智能/大数据/云计算",
+    "experience": "经验不限（正文要求8年以上开发经验）",
+    "education": "硕士",
+    "descriptionText": "负责大数据平台、时空数据底座、AI风控与业务算法、微服务后台的整体架构设计和技术攻坚，统筹Java、Web、大数据组件及机器学习算法架构，规划实时计算、离线数仓、数据治理、图计算和缓存体系。要求本科及以上、8年以上开发及3年以上架构经验，精通Java微服务、MySQL、Redis、Hadoop、Spark、Flink、Kafka、机器学习、Docker/K8s和高并发高可用设计。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "corroboratingUrls": [
+      "https://www.jobui.com/company/10053/jobs/"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "experienceRequirementContradiction"
+    ],
+    "reviewNotes": "公开详情页仍可访问并显示19个在招职位、企业已审核及存续工商信息；页面顶部写经验不限，但正文明确要求8年以上开发经验，已保留矛盾标记。"
+  }
+}

@@ -1937,6 +1937,79 @@
     "duplicateFingerprint": "f1abd4eadbceea087195"
   },
   {
+    "id": "zhaopin-251e55e5d7a28b3990ff",
+    "sourceJobId": "CC814084700J41007991904",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "嵌入式GUI架构师",
+    "company": "深圳市衍星科技有限公司",
+    "salaryText": "40-80K",
+    "salaryMin": 40,
+    "salaryMax": 80,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "宝安区",
+    "addressText": "深圳宝安区前海人寿金融中心T211",
+    "industry": "智能硬件/智能相机/半导体芯片",
+    "experience": "10年以上（正文要求5年以上相关经验）",
+    "education": "本科",
+    "descriptionExcerpt": "负责嵌入式设备UI框架与组件体系设计，优化状态管理、事件响应、动画、CPU/GPU负载和触摸响应，解决内存泄漏、卡顿与崩溃，并制定开发规范和技术文档。要求本科及以上、5年以上嵌入式GUI经验，精通C/C++及LVGL或EW，熟悉Linux设备驱动、Framebuffer、OpenGL ES、Vulkan、DirectFB、多线程、GPU加速和异步渲染；运动相",
+    "requirementText": "负责嵌入式设备UI框架与组件体系设计，优化状态管理、事件响应、动画、CPU/GPU负载和触摸响应，解决内存泄漏、卡顿与崩溃，并制定开发规范和技术文档。要求本科及以上、5年以上嵌入式GUI经验，精通C/C++及LVGL或EW，熟悉Linux设备驱动、Framebuffer、OpenGL ES、Vulkan、DirectFB、多线程、GPU加速和异步渲染；运动相机、智能摄像头或智能手表经验优先。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC814084700J41007991904.htm",
+    "capturedAt": "2026-07-16T11:41:00+08:00",
+    "verifiedAt": "2026-07-16T11:41:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": false
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "corroboratingUrls": [
+        "https://www.zhaopin.com/companydetail/9144F81PQ9TKCAWP9M.htm"
+      ],
+      "staffingAgencyPosting": true,
+      "endEmployerNamed": true,
+      "signals": [
+        "staffingAgencyPosting",
+        "experienceRequirementContradiction"
+      ],
+      "reviewNotes": "岗位由持证人力资源服务公司发布，详情页明确披露最终客户深圳市衍星科技有限公司及客户地址；页面顶部写10年以上，正文写5年以上相关经验，已保留矛盾标记。"
+    },
+    "duplicateFingerprint": "9e7673984090ca43631b"
+  },
+  {
     "id": "zhaopin-3c13bce46505fb780ae3",
     "sourceJobId": "CC540412320J40913370312",
     "sourcePlatform": "zhaopin",
@@ -4647,6 +4720,78 @@
       "reviewNotes": "智联具体岗位详情页显示深圳南山区、固定月薪20-40K并标注15薪、完整职责要求、招聘1人和06-03发布日期；采集时距发布42天，仍在45天硬上限内但超过30天优选期，因此保留新鲜度复核标记。塞防科技官网的公司介绍和联系页核验了企业名称、低空防御业务及南山智城A2栋办公地址，南山区政府定向配租企业名录进一步佐证企业主体。"
     },
     "duplicateFingerprint": "5c1ce7d408c7581ffbae"
+  },
+  {
+    "id": "zhaopin-b7a19c80d40efc7ef8ac",
+    "sourceJobId": "CC130455220J40843962307",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "架构师",
+    "company": "深圳市先创数字技术有限公司",
+    "salaryText": "30-60K",
+    "salaryMin": 30,
+    "salaryMax": 60,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "深圳南山区留学生创业大厦二期",
+    "industry": "人工智能/大数据/云计算",
+    "experience": "经验不限（正文要求8年以上开发经验）",
+    "education": "硕士",
+    "descriptionExcerpt": "负责大数据平台、时空数据底座、AI风控与业务算法、微服务后台的整体架构设计和技术攻坚，统筹Java、Web、大数据组件及机器学习算法架构，规划实时计算、离线数仓、数据治理、图计算和缓存体系。要求本科及以上、8年以上开发及3年以上架构经验，精通Java微服务、MySQL、Redis、Hadoop、Spark、Flink、Kafka、机器学习、Docker/K8",
+    "requirementText": "负责大数据平台、时空数据底座、AI风控与业务算法、微服务后台的整体架构设计和技术攻坚，统筹Java、Web、大数据组件及机器学习算法架构，规划实时计算、离线数仓、数据治理、图计算和缓存体系。要求本科及以上、8年以上开发及3年以上架构经验，精通Java微服务、MySQL、Redis、Hadoop、Spark、Flink、Kafka、机器学习、Docker/K8s和高并发高可用设计。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC130455220J40843962307.htm",
+    "capturedAt": "2026-07-16T11:41:00+08:00",
+    "verifiedAt": "2026-07-16T11:41:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "corroboratingUrls": [
+        "https://www.jobui.com/company/10053/jobs/"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "experienceRequirementContradiction"
+      ],
+      "reviewNotes": "公开详情页仍可访问并显示19个在招职位、企业已审核及存续工商信息；页面顶部写经验不限，但正文明确要求8年以上开发经验，已保留矛盾标记。"
+    },
+    "duplicateFingerprint": "355bf04079a977f37ee0"
   },
   {
     "id": "zhaopin-babe976bee277fb679f8",

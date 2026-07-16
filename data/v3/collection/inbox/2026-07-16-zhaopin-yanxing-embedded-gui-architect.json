@@ -1,0 +1,35 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-16T11:41:00+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC814084700J41007991904.htm",
+  "job": {
+    "sourceJobId": "CC814084700J41007991904",
+    "title": "嵌入式GUI架构师",
+    "company": "深圳市衍星科技有限公司",
+    "salaryText": "40-80K",
+    "district": "宝安区",
+    "addressText": "深圳宝安区前海人寿金融中心T211",
+    "industry": "智能硬件/智能相机/半导体芯片",
+    "experience": "10年以上（正文要求5年以上相关经验）",
+    "education": "本科",
+    "descriptionText": "负责嵌入式设备UI框架与组件体系设计，优化状态管理、事件响应、动画、CPU/GPU负载和触摸响应，解决内存泄漏、卡顿与崩溃，并制定开发规范和技术文档。要求本科及以上、5年以上嵌入式GUI经验，精通C/C++及LVGL或EW，熟悉Linux设备驱动、Framebuffer、OpenGL ES、Vulkan、DirectFB、多线程、GPU加速和异步渲染；运动相机、智能摄像头或智能手表经验优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "corroboratingUrls": [
+      "https://www.zhaopin.com/companydetail/9144F81PQ9TKCAWP9M.htm"
+    ],
+    "staffingAgencyPosting": true,
+    "endEmployerNamed": true,
+    "signals": [
+      "staffingAgencyPosting",
+      "experienceRequirementContradiction"
+    ],
+    "reviewNotes": "岗位由持证人力资源服务公司发布，详情页明确披露最终客户深圳市衍星科技有限公司及客户地址；页面顶部写10年以上，正文写5年以上相关经验，已保留矛盾标记。"
+  }
+}
