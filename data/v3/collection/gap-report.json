@@ -1,7 +1,7 @@
 {
   "metadata": {
     "dataKind": "collection-gap-report",
-    "generatedFromLatestCapture": "2026-07-17T00:31:50+08:00",
+    "generatedFromLatestCapture": "2026-07-17T00:41:50+08:00",
     "bossAccessAllowed": false,
     "sourceFiles": [
       "data/v3/config/collection-plan.json",
@@ -13,17 +13,17 @@
   },
   "totals": {
     "discovery": {
-      "actual": 178,
+      "actual": 179,
       "target": 720,
-      "gap": 542
+      "gap": 541
     },
     "detailEvidence": {
-      "actual": 109,
+      "actual": 110,
       "target": 240,
-      "gap": 131
+      "gap": 130
     },
     "assignedToV3Queue": 7,
-    "legacyUnassigned": 171
+    "legacyUnassigned": 172
   },
   "quality": {
     "grain": "one company-specific job posting on one direct detail URL",
@@ -38,7 +38,7 @@
       },
       {
         "source": "job5156",
-        "count": 9
+        "count": 10
       },
       {
         "source": "liepin",
@@ -55,26 +55,26 @@
       "source": "zhaopin",
       "count": 86
     },
-    "largestSourceShare": 0.4831,
+    "largestSourceShare": 0.4804,
     "maximumSingleSourceShare": 0.55,
     "duplicateIds": 0,
     "duplicateFingerprints": 0,
     "duplicateSourceUrls": 0,
     "staleJobs": 0,
     "maximumAgeDaysAtCapture": 45,
-    "formalSampleCount": 109,
-    "formalSampleShare": 0.6124,
+    "formalSampleCount": 110,
+    "formalSampleShare": 0.6145,
     "discoveryOnlyCount": 69
   },
   "salaryBands": [
     {
       "band": "30K",
-      "actual": 73,
+      "actual": 74,
       "target": 240,
-      "gap": 167,
-      "detailActual": 38,
+      "gap": 166,
+      "detailActual": 39,
       "detailTarget": 80,
-      "detailGap": 42
+      "detailGap": 41
     },
     {
       "band": "50K",
@@ -267,10 +267,10 @@
     }
   ],
   "publicationBlockers": [
-    "30K 总样本还差 167 条",
+    "30K 总样本还差 166 条",
     "50K 总样本还差 159 条",
     "100K 总样本还差 216 条",
-    "30K 详情证据还差 42 条",
+    "30K 详情证据还差 41 条",
     "50K 详情证据还差 33 条",
     "100K 详情证据还差 56 条",
     "单岗对标“其他专业岗位”还差 9 条详情证据"

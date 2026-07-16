@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-16T16:34:31.844Z",
+  "generatedAt": "2026-07-16T16:46:10.677Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 178,
-    "verifiedDetailJobs": 109,
+    "usableJobs": 179,
+    "verifiedDetailJobs": 110,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 111,
-    "uniqueCompanies": 155,
-    "uniqueRawTitles": 164,
+    "fullRequirementJobs": 112,
+    "uniqueCompanies": 156,
+    "uniqueRawTitles": 165,
     "captureDates": 4
   },
   "distributions": {
     "salaryBands": {
       "50K": 81,
-      "30K": 73,
+      "30K": 74,
       "100K": 24
     },
     "evidenceLevels": {
-      "public-platform-detail": 99,
+      "public-platform-detail": 100,
       "boss-listing": 67,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3,
@@ -29,7 +29,7 @@
       "2026-07-12": 71,
       "2026-07-16": 57,
       "2026-07-15": 46,
-      "2026-07-17": 4
+      "2026-07-17": 5
     },
     "industries": {
       "计算机软件": 12,
@@ -71,6 +71,7 @@
       "动力电池、新能源汽车与全球化制造": 1,
       "动力电池/新能源": 1,
       "房地产开发经营/产业园运营/物业管理": 1,
+      "高端音频设备、电子研发与制造": 1,
       "工业自动化、半导体装备与新材料": 1,
       "工业自动化、机器人、新能源装备": 1,
       "工业自动化、智能仓储机器人": 1,
@@ -154,8 +155,8 @@
     "districts": {
       "南山区": 78,
       "宝安区": 36,
+      "龙华区": 15,
       "龙岗区": 14,
-      "龙华区": 14,
       "深圳": 12,
       "福田区": 10,
       "光明区": 10,
@@ -251,12 +252,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 178,
+      "current": 179,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 109,
+      "current": 110,
       "required": 240,
       "passed": false
     },
@@ -275,7 +276,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "109/178 条完成详情核验",
+      "evidence": "110/179 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {
