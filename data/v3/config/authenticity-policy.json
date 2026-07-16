@@ -3,6 +3,21 @@
   "updatedAt": "2026-07-15T12:00:00+08:00",
   "formalSampleThreshold": 80,
   "manualReviewThreshold": 60,
+  "probableSampleThreshold": 70,
+  "probableSamplePolicy": {
+    "purpose": "允许基于可信招聘平台的公开索引信息和既有数据经验，将高概率真实岗位放入发现池展示。",
+    "requiredSignals": [
+      "shenzhenLocationEstablished",
+      "exactMonthlySalaryVisible",
+      "namedEmployer",
+      "specificJobUrlDiscovered",
+      "freshOrRecentlyIndexed",
+      "titleDescriptionConsistent"
+    ],
+    "excludedFromDetailEvidence": true,
+    "excludedFromSkillAnalysis": true,
+    "hideSourceEntryInFrontend": true
+  },
   "freshness": {
     "preferredDays": 30,
     "maximumDays": 45,
@@ -54,6 +69,6 @@
     "skillAnalysis": "formal sample plus requirement text of at least 80 Chinese characters",
     "companyExpansion": "formal sample plus named end employer; anonymous clients and staffing-only identities excluded",
     "crossPlatformDuplicate": "same normalized employer + normalized title + district + overlapping salary range within 14 days is one hiring signal",
-    "searchSnippet": "discovery only; never counted without direct-detail verification"
+    "searchSnippet": "may enter the probable discovery pool when all probable signals pass; never counted as detail evidence or used for skill analysis"
   }
 }

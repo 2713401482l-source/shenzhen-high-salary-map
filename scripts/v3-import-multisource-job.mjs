@@ -14,11 +14,13 @@ if (snapshot.exampleOnly) throw new Error('示例快照禁止导入');
 const registry = JSON.parse(await fs.readFile('data/v3/config/source-registry.json', 'utf8'));
 const policy = JSON.parse(await fs.readFile('data/v3/config/authenticity-policy.json', 'utf8'));
 const source = registry.sources.find(row => row.id === snapshot.sourcePlatform);
-if (!source || !source.formalSampleAllowed) throw new Error(`来源尚未获准进入正式样本: ${snapshot.sourcePlatform}`);
+if (!source || (!source.formalSampleAllowed && !source.probableSampleAllowed)) throw new Error(`来源尚未获准进入岗位样本: ${snapshot.sourcePlatform}`);
 if (!source.allowedCaptureMethods.includes(snapshot.captureMethod)) throw new Error(`来源不允许这种采集方式: ${snapshot.captureMethod}`);
-if (snapshot.captureMethod.includes('discovery')) throw new Error('搜索索引只能写入发现队列，不能导入岗位样本层');
 
 const authenticity = evaluateAuthenticity(snapshot, policy, source);
+if (snapshot.captureMethod.includes('discovery') && authenticity.status !== 'probable') {
+  throw new Error(`公开索引信息未达到高概率可信门槛: ${authenticity.probableFailedSignals?.join(', ') || authenticity.status}`);
+}
 const job = toMultiSourceJob(snapshot, authenticity);
 job.duplicateFingerprint = duplicateFingerprint(job);
 const jobErrors = validateJob(job, job.status);

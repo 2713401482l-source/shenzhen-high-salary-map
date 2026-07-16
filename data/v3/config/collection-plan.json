@@ -95,11 +95,14 @@
     "maximumSingleSourceShare": 0.55,
     "maximumDuplicateRate": 0.03,
     "maximumAgeDaysAtCapture": 45,
-    "searchSnippetsAreDiscoveryOnly": true,
+    "searchSnippetsAreDiscoveryOnly": false,
+    "searchSnippetsMayEnterProbablePool": true,
     "stopOnVerificationChallenge": true,
     "verificationWaitMinutes": 15,
     "appendSnapshots": true,
     "preserveRawSalaryText": true,
-    "directJobDetailUrlRequired": true
+    "directJobDetailUrlRequired": false,
+    "directJobDetailUrlRequiredForVerified": true,
+    "probableSourceEntryHidden": true
   }
 }

@@ -68,7 +68,8 @@ const jobDatabase = pages.split('function JobCard')[1]?.split('export function M
 if (!jobsPage.includes('realJobs.filter')) fail('job database is not driven by realJobs');
 if (jobsPage.includes('demoData')) fail('job database must not read demoData');
 if (!jobDatabase.includes('job.salaryText')) fail('job database must preserve the original salary text');
-if (!jobDatabase.includes('job.sourceUrl')) fail('job database must expose the direct job detail URL');
+if (!jobDatabase.includes("job.sourceVisibility !== 'hidden'")) fail('job database must hide source entries for probable jobs');
+if (!jobDatabase.includes('job.sourceUrl')) fail('verified job cards must retain the direct job detail URL');
 if (!jobsPage.includes('const pageSize = 12')) fail('job database must limit result density with 12-item pages');
 if (!jobsPage.includes('aria-label="岗位结果分页"')) fail('job database is missing accessible pagination');
 if (!jobsPage.includes('useEffect(() => setPage(1)')) fail('job filters must reset pagination');

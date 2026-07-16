@@ -10,6 +10,7 @@ export const EVIDENCE_LEVELS = [
   'employer-detail',
   'public-platform-detail',
   'licensed-api-detail',
+  'public-index-probable',
 ];
 
 export const SOURCE_PLATFORMS = [
@@ -107,6 +108,13 @@ export function validateJob(job, expectedStatus) {
     if (!job.authenticity || job.authenticity.status !== 'verified') errors.push('verified job missing verified authenticity decision');
     if (job.analysisEligibility?.formalSample !== true) errors.push('verified job is not eligible for the formal sample');
     if (!job.sourcePublisher) errors.push('verified job missing sourcePublisher');
+  }
+  if (job.authenticity?.status === 'probable') {
+    if (job.status !== 'candidate') errors.push('probable job must stay in candidate layer');
+    if (job.evidenceLevel !== 'public-index-probable') errors.push('probable job requires public-index-probable evidence level');
+    if (job.sourceVisibility !== 'hidden') errors.push('probable job source entry must be hidden');
+    if (job.analysisEligibility?.formalSample !== false) errors.push('probable job cannot enter the formal sample');
+    if (job.analysisEligibility?.skills !== false) errors.push('probable job cannot enter skill analysis');
   }
   if (job.status === 'rejected' && !job.rejectionReason) errors.push('rejected job missing rejectionReason');
   return errors;

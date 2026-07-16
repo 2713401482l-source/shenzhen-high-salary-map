@@ -18,9 +18,11 @@ if (policy.hardGates.length < 8) failures.push('authenticity policy needs all ha
 const totalWeight = Object.values(policy.scoreWeights).reduce((sum, value) => sum + value, 0);
 if (totalWeight !== 100) failures.push(`score weights must total 100, got ${totalWeight}`);
 if (policy.formalSampleThreshold < 80) failures.push('formal sample threshold must be at least 80');
+if (policy.probableSampleThreshold < 70) failures.push('probable sample threshold must be at least 70');
+if (policy.probableSamplePolicy?.hideSourceEntryInFrontend !== true) failures.push('probable samples must hide their source entry in the frontend');
 if (!registry.prohibitedMethods.includes('captcha-bypass')) failures.push('captcha bypass must be prohibited');
 if (!registry.prohibitedMethods.includes('human-behavior-emulation')) failures.push('human behavior emulation must be prohibited');
 
-console.log(JSON.stringify({ sources: registry.sources.length, formalSources: registry.sources.filter(source => source.formalSampleAllowed).length, hardGates: policy.hardGates.length, formalSampleThreshold: policy.formalSampleThreshold, scoreWeightTotal: totalWeight }, null, 2));
+console.log(JSON.stringify({ sources: registry.sources.length, formalSources: registry.sources.filter(source => source.formalSampleAllowed).length, probableSources: registry.sources.filter(source => source.probableSampleAllowed).length, hardGates: policy.hardGates.length, formalSampleThreshold: policy.formalSampleThreshold, probableSampleThreshold: policy.probableSampleThreshold, scoreWeightTotal: totalWeight }, null, 2));
 if (failures.length) throw new Error(`来源与真实性策略校验失败:\n- ${failures.join('\n- ')}`);
 console.log('多平台来源与真实性策略校验通过。');

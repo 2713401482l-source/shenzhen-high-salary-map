@@ -7,6 +7,7 @@ import {
   demoData,
   districtOptions,
   industryOptions,
+  isProbableJob,
   officialSources,
   realAnalysis,
   realEvidence,
@@ -15,6 +16,7 @@ import {
   realRoleFamilies,
   salaryBandFromMid,
   sourceLabelFor,
+  probableJobs,
   verifiedJobs,
   verifiedSkillPairs,
   verifiedSkillStats,
@@ -246,11 +248,13 @@ export function GrowthPage() {
 type SortMode = 'salary-desc' | 'salary-asc' | 'recent';
 
 function JobCard({job}: {job: Job}) {
+  const probable = isProbableJob(job);
+  const showSourceEntry = job.sourceVisibility !== 'hidden' && !probable;
   return <article className="job-card">
-    <div className="job-card-main"><div className="job-card-title"><span className={job.status === 'verified' ? 'evidence-flag' : 'listing-flag'}>{job.status === 'verified' ? `已核验 · ${sourceLabelFor(job)}` : `待核验 · ${sourceLabelFor(job)}`}</span><h2>{job.title}</h2><p>{job.company}</p></div><div className="job-salary"><strong>{job.salaryText}</strong><span>{salaryBandFromMid(job)} 统计档</span></div></div>
+    <div className="job-card-main"><div className="job-card-title"><span className={job.status === 'verified' ? 'evidence-flag' : probable ? 'probable-flag' : 'listing-flag'}>{job.status === 'verified' ? `已核验 · ${sourceLabelFor(job)}` : probable ? '高概率可信 · 公开信息判断' : `待核验 · ${sourceLabelFor(job)}`}</span><h2>{job.title}</h2><p>{job.company}</p></div><div className="job-salary"><strong>{job.salaryText}</strong><span>{salaryBandFromMid(job)} 统计档</span></div></div>
     <dl><div><dt>区域</dt><dd>{job.district}</dd></div><div><dt>行业</dt><dd>{job.industry}</dd></div><div><dt>经验</dt><dd>{job.experience}</dd></div><div><dt>学历</dt><dd>{job.education}</dd></div></dl>
     <details><summary>查看岗位摘要 <ChevronDown /></summary><p>{job.requirementText || job.descriptionExcerpt || '当前快照没有保存完整岗位要求。'}</p></details>
-    <div className="job-card-foot"><small>采集于 {new Date(job.capturedAt).toLocaleDateString('zh-CN')}，岗位可能变化</small><a href={job.sourceUrl} target="_blank" rel="noreferrer">打开当前公司岗位详情 <ExternalLink /></a></div>
+    <div className="job-card-foot"><small>采集于 {new Date(job.capturedAt).toLocaleDateString('zh-CN')}，岗位可能变化</small>{showSourceEntry ? <a href={job.sourceUrl} target="_blank" rel="noreferrer">打开当前公司岗位详情 <ExternalLink /></a> : <span className="source-hidden-note">该岗位未做详情核验，来源入口不展示</span>}</div>
   </article>;
 }
 
@@ -281,8 +285,8 @@ export function JobsPage() {
     document.querySelector('.job-result-head')?.scrollIntoView({behavior: 'smooth', block: 'start'});
   };
   return <main id="main" className="inner-main jobs-page">
-    <InnerHero eyebrow="岗位证据库" title="薪资看原始区间，来源直达具体公司岗位。" lead="统计档位只服务图表，岗位库保留各招聘来源展示的原始薪资。" />
-    <div className="content-shell"><aside className="data-notice real-notice"><div><Database /><strong>正式证据与待核验发现分开</strong></div><p>当前展示 {realEvidence.discoveryTotal} 条公开岗位发现，其中 {realEvidence.verified} 条通过详情核验并进入正式分析；其余记录只用于继续核验。</p></aside>
+    <InnerHero eyebrow="岗位观察库" title="详情证据和高概率岗位，分层展示。" lead="详情核验岗位保留原始来源；高概率岗位基于公开信息判断，不展示具体来源入口。" />
+    <div className="content-shell"><aside className="data-notice real-notice"><div><Database /><strong>详情核验与高概率判断分开</strong></div><p>当前展示 {realEvidence.discoveryTotal} 条公开岗位，其中 {realEvidence.verified} 条通过详情核验，{realEvidence.probable} 条属于高概率可信判断。高概率岗位计入发现池和薪资档观察，但不进入技能要求分析。</p></aside>
       <section className="job-toolbar" aria-label="岗位筛选">
         <label className="search-field"><span>搜索岗位或公司</span><div><Search /><input value={query} onChange={event => setQuery(event.target.value)} placeholder="例如：AI、vivo" /></div></label>
         <div className="filter-fields"><label><span>行业</span><select value={industry} onChange={event => setIndustry(event.target.value)}><option>全部行业</option>{industryOptions.map(item => <option key={item}>{item}</option>)}</select></label><label><span>区域</span><select value={district} onChange={event => setDistrict(event.target.value)}><option>全部区域</option>{districtOptions.map(item => <option key={item}>{item}</option>)}</select></label><label><span>薪资</span><select value={band} onChange={event => setBand(event.target.value)}><option>全部薪资</option><option>30K</option><option>50K</option><option>100K</option></select></label><label><span>排序</span><select value={sort} onChange={event => setSort(event.target.value as SortMode)}><option value="salary-desc">薪资上限从高到低</option><option value="salary-asc">薪资下限从低到高</option><option value="recent">采集时间从新到旧</option></select></label></div>
@@ -309,10 +313,10 @@ export function MethodPage() {
   return <main id="main" className="inner-main">
     <InnerHero eyebrow="方法与边界" title="哪些是证据，哪些只是为了测试页面？" lead="把真实样本、列表观察和结构演示分开，避免漂亮页面掩盖数据缺口。" />
     <div className="content-shell method-content">
-      <section className="method-levels"><article><span className="evidence-flag">真实性核验通过</span><h2>{verifiedJobs.length} 条</h2><p>保存了具体岗位详情、薪资和要求，可进入正式分析。</p></article><article><span className="listing-flag">待核验发现</span><h2>{candidateJobs.length} 条</h2><p>只用于继续查证；不会进入趋势、薪资、能力或企业扩招结论。</p></article><article><DemoFlag /><h2>{demoData.roleSignals.length} 个方向</h2><p>完全独立的结构假设，只用于评判页面逻辑，不进入任何正式统计。</p></article></section>
+      <section className="method-levels"><article><span className="evidence-flag">详情核验通过</span><h2>{verifiedJobs.length} 条</h2><p>保存了具体岗位详情、薪资和要求，可进入完整分析。</p></article><article><span className="probable-flag">高概率可信</span><h2>{probableJobs.length} 条</h2><p>基于可信平台、明确公司、深圳地点、固定月薪和新鲜度综合判断；展示岗位但隐藏来源入口，不进入技能分析。</p></article><article><span className="listing-flag">普通待核验</span><h2>{candidateJobs.length - probableJobs.length} 条</h2><p>只用于继续查证，不进入详情证据结论。</p></article><article><DemoFlag /><h2>{demoData.roleSignals.length} 个方向</h2><p>完全独立的结构假设，只用于评判页面逻辑，不进入任何正式统计。</p></article></section>
       <section className="readiness-section"><div><p className="eyebrow">正式版进度</p><h2>哪些结论已经能说，哪些还不能？</h2><p>达到门槛的模块才会从结构演示切换为默认真实证据。</p></div><div className="readiness-list">{readinessItems.map(item => <article key={item.label}><div><strong>{item.label}</strong><span>{item.actual}/{item.target} {item.unit}</span></div><progress value={item.actual} max={item.target} aria-label={`${item.label}：${item.actual}/${item.target} ${item.unit}`} /></article>)}</div></section>
       <section className="band-readiness"><div className="band-readiness-head"><p className="eyebrow">三档数据缺口</p><h2>有岗位，不等于已经能拆能力。</h2><p>总样本用于观察岗位数量和薪资结构；只有保存了详情要求的岗位，才能进入能力组合、精准对标和成长路径分析。</p></div><div className="band-readiness-grid">{collectionGapReport.salaryBands.map(item => <article key={item.band}><strong>{item.band}</strong><div><span>总样本</span><b>{item.actual}/{item.target}</b><progress value={item.actual} max={item.target} aria-label={`${item.band} 总样本：${item.actual}/${item.target}`} /></div><div><span>详情证据</span><b>{item.detailActual}/{item.detailTarget}</b><progress value={item.detailActual} max={item.detailTarget} aria-label={`${item.band} 详情证据：${item.detailActual}/${item.detailTarget}`} /></div></article>)}</div></section>
-      <section className="method-rules"><h2>页面如何避免混淆</h2><div><article><strong>默认分组</strong><p>所有分析页都有“结构演示 / 真实证据”切换，两组不在同一张图里叠加。</p></article><article><strong>统计隔离</strong><p>只有通过真实性硬门槛的详情岗位进入正式统计；待核验发现和演示数据都被排除。</p></article><article><strong>来源隔离</strong><p>正式岗位标明平台并直达具体详情页；搜索摘要不能单独成为正式证据。</p></article><article><strong>结论降级</strong><p>没有 50 条同岗需求时，单岗对标显示空状态，不把邻近岗位硬拼成正式结论。</p></article></div></section>
+      <section className="method-rules"><h2>页面如何区分可信程度</h2><div><article><strong>详情核验</strong><p>完整详情岗位可以进入薪资、技能和企业信号分析，并保留具体来源入口。</p></article><article><strong>高概率判断</strong><p>明确公司、深圳地点、固定月薪和近期公开信号同时成立时，可进入岗位观察和薪资档统计。</p></article><article><strong>来源隐藏</strong><p>没有打开详情页核验的高概率岗位不显示平台名或外链，避免把索引入口误当详情证据。</p></article><article><strong>技能隔离</strong><p>高概率岗位没有完整要求原文，不进入能力频次、技能组合和单岗对标。</p></article></div></section>
       <section className="method-boundary"><h2>当前数据边界</h2><p>最近一次真实采集时间：{new Date(capturedAt).toLocaleString('zh-CN')}。Boss 自动访问已经停止，后续从深圳官方招聘、企业官网和其他公开平台补充，并逐条执行真实性核验。现有正式样本仍偏 AI、算法、机器人和技术岗位，因此不能代表深圳全行业高薪市场，也不能表达薪资历史涨跌。</p><a href="jobs.html">查看全部岗位证据 <ArrowRight /></a></section>
     </div>
   </main>;

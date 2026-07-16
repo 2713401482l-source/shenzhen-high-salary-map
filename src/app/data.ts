@@ -6,7 +6,7 @@ import officialSourcesSource from '../../data/v3/sources/official-sources.json';
 import collectionGapReportSource from '../../data/v3/collection/gap-report.json';
 
 export type SalaryBand = '30K' | '50K' | '100K';
-export type EvidenceLevel = 'boss-detail' | 'boss-listing-plus-detail' | 'boss-listing' | 'government-detail' | 'employer-detail' | 'public-platform-detail' | 'licensed-api-detail';
+export type EvidenceLevel = 'boss-detail' | 'boss-listing-plus-detail' | 'boss-listing' | 'government-detail' | 'employer-detail' | 'public-platform-detail' | 'licensed-api-detail' | 'public-index-probable';
 
 export type Job = {
   id: string;
@@ -31,6 +31,8 @@ export type Job = {
   capturedAt: string;
   evidenceLevel: EvidenceLevel;
   status: 'verified' | 'candidate';
+  sourceVisibility?: 'visible' | 'hidden';
+  authenticity?: {status?: string};
 };
 
 export type DemoRole = (typeof demoSource.roleSignals)[number];
@@ -47,6 +49,7 @@ const normalizeJob = (job: (typeof verifiedSource)[number] | (typeof candidateSo
 
 export const verifiedJobs = verifiedSource.map(normalizeJob);
 export const candidateJobs = candidateSource.map(normalizeJob);
+export const probableJobs = candidateJobs.filter(job => job.authenticity?.status === 'probable');
 export const realJobs = [...verifiedJobs, ...candidateJobs];
 export const demoData = demoSource;
 export const realAnalysis = realAnalysisSource;
@@ -62,6 +65,7 @@ export const realEvidence = {
   total: realAnalysis.scope.jobs,
   discoveryTotal: realJobs.length,
   verified: realAnalysis.scope.detailJobs,
+  probable: probableJobs.length,
   listingObserved: realAnalysis.scope.jobs - realAnalysis.scope.detailJobs,
   companies: realAnalysis.scope.companies,
 };
@@ -128,6 +132,10 @@ const SOURCE_LABELS: Record<string, string> = {
 
 export function sourceLabelFor(job: Pick<Job, 'sourcePlatform'>): string {
   return SOURCE_LABELS[job.sourcePlatform || 'boss'] || job.sourcePlatform || '公开招聘平台';
+}
+
+export function isProbableJob(job: Pick<Job, 'authenticity'>): boolean {
+  return job.authenticity?.status === 'probable';
 }
 
 export const realExpansionSignals = realAnalysisSource.expansionSignals as ExpansionSignal[];

@@ -17,9 +17,10 @@ export function evaluateAuthenticity(snapshot, policy, source) {
   const ageDays = snapshot.publishedAt
     ? Math.floor((Date.parse(snapshot.capturedAt) - Date.parse(`${snapshot.publishedAt}T00:00:00+08:00`)) / 86400000)
     : null;
-  const sourceSpecificDetailUrl = isDirectJobDetailUrl(snapshot.sourceUrl)
-    && (source.detailUrlPatterns || []).some(pattern => new RegExp(pattern, 'i').test(snapshot.sourceUrl))
-    && !snapshot.captureMethod.includes('discovery');
+  const sourcePatternMatch = isDirectJobDetailUrl(snapshot.sourceUrl)
+    && (source.detailUrlPatterns || []).some(pattern => new RegExp(pattern, 'i').test(snapshot.sourceUrl));
+  const sourceSpecificDetailUrl = sourcePatternMatch && !snapshot.captureMethod.includes('discovery');
+  const discoveryCapture = snapshot.captureMethod.includes('discovery');
   const hardGates = {
     shenzhenLocationEstablished: SHENZHEN.test(`${job.city || ''}${job.district || ''}${job.addressText || ''}`),
     specificDetailUrl: sourceSpecificDetailUrl,
@@ -43,12 +44,36 @@ export function evaluateAuthenticity(snapshot, policy, source) {
   };
   const score = Object.values(scoreParts).reduce((sum, value) => sum + value, 0);
   const failedHardGates = Object.entries(hardGates).filter(([, passed]) => !passed).map(([name]) => name);
-  const status = failedHardGates.length || quarantineSignals.length
+  const probableSignals = {
+    shenzhenLocationEstablished: hardGates.shenzhenLocationEstablished,
+    exactMonthlySalaryVisible: hardGates.exactSalaryVisible,
+    namedEmployer: hardGates.namedEmployer,
+    specificJobUrlDiscovered: sourcePatternMatch,
+    freshOrRecentlyIndexed: Boolean(
+      verification.searchResultFreshAtCapture === true
+      || (ageDays !== null && ageDays <= policy.freshness.maximumDays)
+    ),
+    titleDescriptionConsistent: hardGates.titleDescriptionConsistent,
+  };
+  const probableFailedSignals = Object.entries(probableSignals).filter(([, passed]) => !passed).map(([name]) => name);
+  const probableScore = sourceTrust
+    + (probableSignals.namedEmployer ? 25 : 0)
+    + (probableSignals.freshOrRecentlyIndexed ? 20 : 0)
+    + (probableSignals.exactMonthlySalaryVisible ? 15 : 0)
+    + (probableSignals.shenzhenLocationEstablished && probableSignals.titleDescriptionConsistent ? 15 : 0);
+  const probable = discoveryCapture
+    && source.probableSampleAllowed === true
+    && probableFailedSignals.length === 0
+    && quarantineSignals.length === 0
+    && probableScore >= policy.probableSampleThreshold;
+  const status = probable
+    ? 'probable'
+    : failedHardGates.length || quarantineSignals.length
     ? 'quarantined'
     : score >= policy.formalSampleThreshold ? 'verified'
       : score >= policy.manualReviewThreshold ? 'manual-review'
         : 'quarantined';
-  return { status, score, scoreParts, hardGates, failedHardGates, quarantineSignals, ageDays };
+  return { status, score, scoreParts, hardGates, failedHardGates, quarantineSignals, ageDays, probableScore, probableSignals, probableFailedSignals };
 }
 
 export function stableSourceId(snapshot) {
@@ -69,6 +94,7 @@ export function toMultiSourceJob(snapshot, authenticity) {
     'licensed-api': 'licensed-api-detail',
   };
   const formalSample = authenticity.status === 'verified';
+  const probableSample = authenticity.status === 'probable';
   const job = {
     id: `${snapshot.sourcePlatform}-${sourceId}`,
     sourceJobId: snapshot.job.sourceJobId || sourceId,
@@ -93,9 +119,10 @@ export function toMultiSourceJob(snapshot, authenticity) {
     sourceUrl: snapshot.sourceUrl,
     capturedAt: snapshot.capturedAt,
     ...(snapshot.publishedAt ? { publishedAt: snapshot.publishedAt } : {}),
-    verifiedAt: snapshot.capturedAt,
+    ...(formalSample ? { verifiedAt: snapshot.capturedAt } : {}),
     status: formalSample ? 'verified' : 'candidate',
-    evidenceLevel: evidenceBySource[snapshot.sourcePlatform],
+    evidenceLevel: probableSample ? 'public-index-probable' : evidenceBySource[snapshot.sourcePlatform],
+    sourceVisibility: probableSample ? 'hidden' : 'visible',
     authenticity,
     analysisEligibility: {
       formalSample,
