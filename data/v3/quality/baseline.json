@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-16T21:53:57.352Z",
+  "generatedAt": "2026-07-16T22:03:55.631Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 192,
-    "verifiedDetailJobs": 123,
+    "usableJobs": 193,
+    "verifiedDetailJobs": 124,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 125,
-    "uniqueCompanies": 161,
+    "fullRequirementJobs": 126,
+    "uniqueCompanies": 162,
     "uniqueRawTitles": 178,
     "captureDates": 4
   },
   "distributions": {
     "salaryBands": {
-      "50K": 86,
+      "50K": 87,
       "30K": 81,
       "100K": 25
     },
     "evidenceLevels": {
-      "public-platform-detail": 113,
+      "public-platform-detail": 114,
       "boss-listing": 67,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3,
@@ -29,7 +29,7 @@
       "2026-07-12": 71,
       "2026-07-16": 57,
       "2026-07-15": 46,
-      "2026-07-17": 18
+      "2026-07-17": 19
     },
     "industries": {
       "计算机软件": 12,
@@ -97,6 +97,7 @@
       "计算机硬件": 1,
       "计算机硬件、半导体/芯片、通信与智能制造": 1,
       "计算机硬件/半导体/芯片": 1,
+      "计算机硬件/云计算与大数据": 1,
       "技术服务/实验室安全数字化": 1,
       "家具/家居": 1,
       "家用电器": 1,
@@ -166,9 +167,9 @@
       "宝安区": 39,
       "龙岗区": 17,
       "龙华区": 15,
+      "福田区": 12,
       "光明区": 12,
       "深圳": 12,
-      "福田区": 11,
       "罗湖区": 2,
       "坪山区": 1,
       "盐田区": 1
@@ -273,12 +274,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 192,
+      "current": 193,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 123,
+      "current": 124,
       "required": 240,
       "passed": false
     },
@@ -297,7 +298,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "123/192 条完成详情核验",
+      "evidence": "124/193 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {

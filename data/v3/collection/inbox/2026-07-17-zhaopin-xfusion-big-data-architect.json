@@ -1,0 +1,37 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-17T06:01:55+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1367103620J40919415415.htm",
+  "job": {
+    "sourceJobId": "CCL1367103620J40919415415",
+    "title": "大数据架构师",
+    "company": "超聚变数字技术股份有限公司",
+    "salaryText": "40-70K·13薪",
+    "district": "福田区",
+    "addressText": "深圳福田区泰然七路1号博今国际",
+    "industry": "计算机硬件/云计算与大数据",
+    "experience": "10年以上",
+    "education": "本科",
+    "descriptionText": "负责智能数据平台新技术、新架构的预研验证和可落地方案输出，主导AI业务场景下大数据技术架构设计、搭建与持续优化，建立数据标准、质量监控、元数据管理、分级权限、审计追踪和容灾备份体系，并承担平台核心模块的需求分析、设计、开发、交付和性能调优。要求精通Hadoop、Spark、Flink、Doris、Hive、Kafka、DolphinScheduler等主流组件中的至少四种，具备数据仓库维度建模、数据平台全生命周期建设经验，熟练掌握Java、Python、Scala、Shell、SQL中的至少两种，能够独立完成平台搭建、数据开发、运维和性能优化；具有数据湖、湖仓一体、流批一体及大模型数据应用经验者优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.xfusion.com/cn/about",
+    "corroboratingUrls": [
+      "https://www.xfusion.com/cn/about",
+      "https://www.xfusion.com/cn/contact-us",
+      "https://www.xfusion.com/cn/material-center"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "missingPublicationDate"
+    ],
+    "reviewNotes": "智联独立岗位详情页在采集时仍可公开访问并提供立即投递入口，明确展示深圳福田区具体办公地址、固定月薪40-70K并另列13薪、本科、全职、招聘1人、完整职责和任职要求；发布主体为平台已审核且明确命名的超聚变数字技术股份有限公司，不是匿名客户或中介代招。超聚变官网核验同名主体及AI、数据、算力业务，官网资料中心明确列出xRAY智能数据与AI使能平台，联系页提供社会招聘邮箱，和岗位方向一致。详情页未展示可可靠抄录的发布日期，因此保留missingPublicationDate复核信号，以页面仍有效、立即投递及招聘方活跃作为在招证据。未发现收费、付费培训、押金、提成冒充固定月薪、年薪误读、地点矛盾或标题职责错配。"
+  }
+}
