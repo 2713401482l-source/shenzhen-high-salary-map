@@ -1,0 +1,41 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-16T09:01:00+08:00",
+  "publishedAt": "2026-06-04",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC233216410J40821865216.htm",
+  "job": {
+    "sourceJobId": "CC233216410J40821865216",
+    "title": "销售经理（业内头部企业）",
+    "company": "深圳市裕同包装科技股份有限公司",
+    "salaryText": "30-40K·13薪",
+    "district": "宝安区",
+    "addressText": "深圳市宝安区深圳市裕同包装科技股份有限公司",
+    "industry": "宠物用品、日化制造与国际市场",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "岗位负责拓展国际宠物品牌、连锁零售商和进口商，通过展会、海关数据及线上渠道获取客户，制定ODM、定制或品牌代理合作策略并推进合同谈判；协同研发、设计、生产、质控与法规团队完成产品打样、成本核算、合规认证、工厂审核、订单交付和出口售后，并持续收集全球宠物用品趋势、竞品动态与法规变化。要求本科及以上学历，具有五年以上国际销售经验及三年以上宠物用品或宠物清洁用品B2B大客户开发经验，掌握大客户全流程管理、商务谈判、BSCI、Sedex和ISO等审核体系，英语可作为工作语言并能接受频繁出差，具备跨部门项目协同、独立市场分析和宠物产品进口注册合规经验。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://cn.szyuto.com/",
+    "corroboratingUrls": [
+      "https://static.cninfo.com.cn/finalpage/2026-04-28/1225200138.PDF",
+      "https://cn.szyuto.com/about/global_footprint",
+      "https://www.yutoeco.cn/%E6%96%B0%E9%97%BB_nc1"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "岗位详情页显示6月4日更新且仍可立即投递",
+      "详情页展示深圳宝安具体工作地点和固定月薪区间",
+      "企业为深交所上市公司裕同科技，证券代码002831",
+      "企业年报与官网可交叉确认海外布局和宠物经济业务方向"
+    ],
+    "reviewNotes": "采集时岗位距更新日42天，仍在真实性策略规定的45天上限内，详情页可立即投递。平台摘要栏标注大专，但完整任职要求明确写明本科及以上，本样本按完整要求记录为本科，并保留该不一致供复核。岗位固定月薪为30-40K，13薪单独标注，不计入月薪换算。发布主体为实名上市公司，职责与企业海外布局、宠物用品业务方向一致；未发现收费、付费培训、匿名客户、提成冒充固定月薪或地点矛盾。"
+  }
+}
