@@ -1,7 +1,7 @@
 {
   "metadata": {
     "dataKind": "collection-gap-report",
-    "generatedFromLatestCapture": "2026-07-17T00:11:50+08:00",
+    "generatedFromLatestCapture": "2026-07-17T00:21:49+08:00",
     "bossAccessAllowed": false,
     "sourceFiles": [
       "data/v3/config/collection-plan.json",
@@ -13,17 +13,17 @@
   },
   "totals": {
     "discovery": {
-      "actual": 176,
+      "actual": 177,
       "target": 720,
-      "gap": 544
+      "gap": 543
     },
     "detailEvidence": {
-      "actual": 107,
+      "actual": 108,
       "target": 240,
-      "gap": 133
+      "gap": 132
     },
     "assignedToV3Queue": 7,
-    "legacyUnassigned": 169
+    "legacyUnassigned": 170
   },
   "quality": {
     "grain": "one company-specific job posting on one direct detail URL",
@@ -38,7 +38,7 @@
       },
       {
         "source": "job5156",
-        "count": 7
+        "count": 8
       },
       {
         "source": "liepin",
@@ -55,15 +55,15 @@
       "source": "zhaopin",
       "count": 86
     },
-    "largestSourceShare": 0.4886,
+    "largestSourceShare": 0.4859,
     "maximumSingleSourceShare": 0.55,
     "duplicateIds": 0,
     "duplicateFingerprints": 0,
     "duplicateSourceUrls": 0,
     "staleJobs": 0,
     "maximumAgeDaysAtCapture": 45,
-    "formalSampleCount": 107,
-    "formalSampleShare": 0.608,
+    "formalSampleCount": 108,
+    "formalSampleShare": 0.6102,
     "discoveryOnlyCount": 69
   },
   "salaryBands": [
@@ -78,12 +78,12 @@
     },
     {
       "band": "50K",
-      "actual": 79,
+      "actual": 80,
       "target": 240,
-      "gap": 161,
-      "detailActual": 45,
+      "gap": 160,
+      "detailActual": 46,
       "detailTarget": 80,
-      "detailGap": 35
+      "detailGap": 34
     },
     {
       "band": "100K",
@@ -189,10 +189,10 @@
   ],
   "benchmark": {
     "role": "其他专业岗位",
-    "detailActual": 39,
+    "detailActual": 40,
     "detailTarget": 50,
-    "detailGap": 11,
-    "currentFamilyJobs": 39
+    "detailGap": 10,
+    "currentFamilyJobs": 40
   },
   "priorityQueries": [
     {
@@ -268,11 +268,11 @@
   ],
   "publicationBlockers": [
     "30K 总样本还差 167 条",
-    "50K 总样本还差 161 条",
+    "50K 总样本还差 160 条",
     "100K 总样本还差 216 条",
     "30K 详情证据还差 42 条",
-    "50K 详情证据还差 35 条",
+    "50K 详情证据还差 34 条",
     "100K 详情证据还差 56 条",
-    "单岗对标“其他专业岗位”还差 11 条详情证据"
+    "单岗对标“其他专业岗位”还差 10 条详情证据"
   ]
 }
