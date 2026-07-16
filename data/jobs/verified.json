@@ -2679,6 +2679,85 @@
     "duplicateFingerprint": "472546d6009cfb021573"
   },
   {
+    "id": "zhaopin-74826574704a2ac60603",
+    "sourceJobId": "CC120200310J40583459408",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "AI视觉高级工程师-博士",
+    "company": "恩斯迈电子（深圳）有限公司",
+    "salaryText": "40-80K",
+    "salaryMin": 40,
+    "salaryMax": 80,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "宝安区",
+    "addressText": "深圳市宝安区石岩街道塘头大道37号恩斯迈电子有限公司",
+    "industry": "计算机硬件、半导体/芯片、通信与智能制造",
+    "experience": "经验不限",
+    "education": "博士",
+    "descriptionExcerpt": "负责智能制造领域计算机视觉核心算法的优化与创新研究，覆盖检测、分类、分割和OCR等任务；开展大规模深度学习与机器学习算法研发，包括网络结构设计、分布式训练、持续学习、无监督、自监督、半监督学习以及模型部署量化；针对实际制造场景完成算法设计、实现、迭代优化并向下游团队交付。要求计算机相关专业博士，具备计算机视觉、机器学习优化、数据挖掘或人工智能经验，能够独立开",
+    "requirementText": "负责智能制造领域计算机视觉核心算法的优化与创新研究，覆盖检测、分类、分割和OCR等任务；开展大规模深度学习与机器学习算法研发，包括网络结构设计、分布式训练、持续学习、无监督、自监督、半监督学习以及模型部署量化；针对实际制造场景完成算法设计、实现、迭代优化并向下游团队交付。要求计算机相关专业博士，具备计算机视觉、机器学习优化、数据挖掘或人工智能经验，能够独立开展创新算法设计与工程实现；熟练使用C/C++或Python，掌握Caffe、TensorFlow、PyTorch等至少一种深度学习框架，并具备问题分析、团队协作与技术沟通能力。有开源项目贡献、国际顶级会议或期刊论文以及重要算法竞赛经验者优先。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC120200310J40583459408.htm",
+    "capturedAt": "2026-07-16T08:31:00+08:00",
+    "verifiedAt": "2026-07-16T08:31:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://tw.msi.com/about/brandStory",
+      "corroboratingUrls": [
+        "https://h5.msic.com.cn/legal-agreement/doc.html",
+        "https://www.msi.com/Landing/Artificial-Intelligence",
+        "https://storage-asset.msi.com/global/pdf/csr/MSIS-ISO-27001.pdf"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "岗位详情页采集时可立即沟通",
+        "岗位明确招聘1人并展示固定月薪",
+        "企业主体已审核且经营状态存续",
+        "招聘页明确声明公司招聘从不收取任何费用",
+        "missingPublicationDate"
+      ],
+      "reviewNotes": "智联具体岗位详情页展示40-80K固定月薪、深圳宝安具体厂区、博士学历、实名企业和完整AI视觉算法要求，页面采集时仍可沟通。页面未展示发布日期，因此按真实性策略记录missingPublicationDate，仅以页面活跃状态作为在招证据。MSI官方品牌历程确认2000年成立深圳宝安厂恩斯迈电子，官方隐私政策与认证文件确认公司全称及塘头大道37号地址；MSI官方AI页面和深圳制造基地信息与岗位的计算机视觉、深度学习和智能制造方向一致。招聘页同时明确公司自主招聘且不收取费用，未发现付费培训、提成薪资、匿名客户、地点矛盾或职责错配信号。"
+    },
+    "duplicateFingerprint": "606048580c589fb9e4c9"
+  },
+  {
     "id": "zhaopin-776adc91f988b6afab74",
     "sourceJobId": "CC469217510J40844622501",
     "sourcePlatform": "zhaopin",

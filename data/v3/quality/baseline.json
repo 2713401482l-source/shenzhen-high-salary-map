@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-07-16T00:13:53.763Z",
+  "generatedAt": "2026-07-16T00:34:36.301Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 144,
-    "verifiedDetailJobs": 75,
+    "usableJobs": 145,
+    "verifiedDetailJobs": 76,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 77,
+    "fullRequirementJobs": 78,
     "uniqueCompanies": 130,
-    "uniqueRawTitles": 132,
+    "uniqueRawTitles": 133,
     "captureDates": 3
   },
   "distributions": {
     "salaryBands": {
-      "50K": 67,
+      "50K": 68,
       "30K": 58,
       "100K": 19
     },
     "evidenceLevels": {
       "boss-listing": 67,
-      "public-platform-detail": 66,
+      "public-platform-detail": 67,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3
     },
     "captureDates": {
       "2026-07-12": 71,
       "2026-07-15": 46,
-      "2026-07-16": 27
+      "2026-07-16": 28
     },
     "industries": {
       "计算机软件": 12,
@@ -75,6 +75,7 @@
       "基金": 1,
       "计算机服务": 1,
       "计算机硬件": 1,
+      "计算机硬件、半导体/芯片、通信与智能制造": 1,
       "计算机硬件/半导体/芯片": 1,
       "技术服务/实验室安全数字化": 1,
       "家具/家居": 1,
@@ -118,7 +119,7 @@
     },
     "districts": {
       "南山区": 68,
-      "宝安区": 22,
+      "宝安区": 23,
       "龙华区": 13,
       "龙岗区": 12,
       "深圳": 11,
@@ -142,6 +143,10 @@
     {
       "company": "腾讯",
       "count": 3
+    },
+    {
+      "company": "恩斯迈电子（深圳）有限公司",
+      "count": 2
     },
     {
       "company": "海目星激光科技集团股份有限公司",
@@ -188,12 +193,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 144,
+      "current": 145,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 75,
+      "current": 76,
       "required": 240,
       "passed": false
     },
@@ -212,7 +217,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "75/144 条完成详情核验",
+      "evidence": "76/145 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {
