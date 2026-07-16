@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-16T12:53:40.525Z",
+  "generatedAt": "2026-07-16T13:07:40.520Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 170,
-    "verifiedDetailJobs": 101,
+    "usableJobs": 171,
+    "verifiedDetailJobs": 102,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 103,
-    "uniqueCompanies": 149,
-    "uniqueRawTitles": 156,
+    "fullRequirementJobs": 104,
+    "uniqueCompanies": 150,
+    "uniqueRawTitles": 157,
     "captureDates": 3
   },
   "distributions": {
     "salaryBands": {
       "50K": 77,
-      "30K": 69,
+      "30K": 70,
       "100K": 24
     },
     "evidenceLevels": {
-      "public-platform-detail": 91,
+      "public-platform-detail": 92,
       "boss-listing": 67,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3,
@@ -27,7 +27,7 @@
     },
     "captureDates": {
       "2026-07-12": 71,
-      "2026-07-16": 53,
+      "2026-07-16": 54,
       "2026-07-15": 46
     },
     "industries": {
@@ -92,6 +92,7 @@
       "家用电器": 1,
       "建筑材料、非金属矿物制品、玻璃与新材料": 1,
       "建筑材料、非金属矿物制品、功能薄膜与新材料": 1,
+      "精密模型、CNC加工与专用设备制造": 1,
       "矿产冶金、智能制造、工业机器人": 1,
       "矿产冶金、专用设备制造、工业自动化与机器人": 1,
       "量子计算/半导体/人工智能": 1,
@@ -145,7 +146,7 @@
     },
     "districts": {
       "南山区": 77,
-      "宝安区": 33,
+      "宝安区": 34,
       "龙华区": 14,
       "龙岗区": 13,
       "深圳": 12,
@@ -235,12 +236,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 170,
+      "current": 171,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 101,
+      "current": 102,
       "required": 240,
       "passed": false
     },
@@ -259,7 +260,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "101/170 条完成详情核验",
+      "evidence": "102/171 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {
