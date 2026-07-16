@@ -1,7 +1,7 @@
 {
   "metadata": {
     "dataKind": "collection-gap-report",
-    "generatedFromLatestCapture": "2026-07-17T04:11:54+08:00",
+    "generatedFromLatestCapture": "2026-07-17T04:21:54+08:00",
     "bossAccessAllowed": false,
     "sourceFiles": [
       "data/v3/config/collection-plan.json",
@@ -13,24 +13,24 @@
   },
   "totals": {
     "discovery": {
-      "actual": 188,
+      "actual": 189,
       "target": 720,
-      "gap": 532
+      "gap": 531
     },
     "detailEvidence": {
-      "actual": 119,
+      "actual": 120,
       "target": 240,
-      "gap": 121
+      "gap": 120
     },
     "assignedToV3Queue": 7,
-    "legacyUnassigned": 181
+    "legacyUnassigned": 182
   },
   "quality": {
     "grain": "one company-specific job posting on one direct detail URL",
     "sourcePlatforms": [
       {
         "source": "zhaopin",
-        "count": 90
+        "count": 91
       },
       {
         "source": "boss",
@@ -53,17 +53,17 @@
     "minimumSourcePlatforms": 5,
     "largestSource": {
       "source": "zhaopin",
-      "count": 90
+      "count": 91
     },
-    "largestSourceShare": 0.4787,
+    "largestSourceShare": 0.4815,
     "maximumSingleSourceShare": 0.55,
     "duplicateIds": 0,
     "duplicateFingerprints": 0,
     "duplicateSourceUrls": 0,
     "staleJobs": 0,
     "maximumAgeDaysAtCapture": 45,
-    "formalSampleCount": 119,
-    "formalSampleShare": 0.633,
+    "formalSampleCount": 120,
+    "formalSampleShare": 0.6349,
     "discoveryOnlyCount": 69
   },
   "salaryBands": [
@@ -78,12 +78,12 @@
     },
     {
       "band": "50K",
-      "actual": 85,
+      "actual": 86,
       "target": 240,
-      "gap": 155,
-      "detailActual": 51,
+      "gap": 154,
+      "detailActual": 52,
       "detailTarget": 80,
-      "detailGap": 29
+      "detailGap": 28
     },
     {
       "band": "100K",
@@ -268,10 +268,10 @@
   ],
   "publicationBlockers": [
     "30K 总样本还差 162 条",
-    "50K 总样本还差 155 条",
+    "50K 总样本还差 154 条",
     "100K 总样本还差 215 条",
     "30K 详情证据还差 37 条",
-    "50K 详情证据还差 29 条",
+    "50K 详情证据还差 28 条",
     "100K 详情证据还差 55 条",
     "单岗对标“其他专业岗位”还差 6 条详情证据"
   ]

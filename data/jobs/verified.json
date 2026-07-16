@@ -2349,6 +2349,81 @@
     "duplicateFingerprint": "57700232934f673b6827"
   },
   {
+    "id": "zhaopin-07b24227c299bf868c94",
+    "sourceJobId": "CC480141730J40894756613",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "嵌入式经理",
+    "company": "深圳吉阳智能科技有限公司",
+    "salaryText": "50-80K",
+    "salaryMin": 50,
+    "salaryMax": 80,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "宝安区",
+    "addressText": "深圳市宝安区深圳吉阳智能科技有限公司",
+    "industry": "工业自动化、机器人与智能装备",
+    "experience": "5-10年（正文要求8年以上相关经验）",
+    "education": "本科",
+    "descriptionExcerpt": "岗位职责：负责机器人嵌入式系统软硬件团队的管理与技术规划，统筹约20人的嵌入式团队；主导主控、驱动、传感器接口、通信模块等嵌入式硬件架构，以及BSP、RTOS、驱动开发等底层软件设计；建立嵌入式开发规范、测试体系和版本管理流程，保障硬件可靠性与软件稳定性；推动嵌入式平台标准化，支撑工业机器人、四足机器人和人形机器人等多条产品线复用与快速迭代；管理硬件和软件工",
+    "requirementText": "岗位职责：负责机器人嵌入式系统软硬件团队的管理与技术规划，统筹约20人的嵌入式团队；主导主控、驱动、传感器接口、通信模块等嵌入式硬件架构，以及BSP、RTOS、驱动开发等底层软件设计；建立嵌入式开发规范、测试体系和版本管理流程，保障硬件可靠性与软件稳定性；推动嵌入式平台标准化，支撑工业机器人、四足机器人和人形机器人等多条产品线复用与快速迭代；管理硬件和软件工程师梯队并培养嵌入式复合人才。任职要求：本科及以上学历，电子工程、计算机、自动化等相关专业；具有8年以上嵌入式硬件或软件开发经验及3年以上团队管理经验；精通ARM、DSP、FPGA等嵌入式平台，熟悉RTOS、嵌入式Linux、电机驱动及CAN、EtherCAT等通信协议；具备硬件设计、底层软件和系统调试全栈能力，并有机器人或智能硬件量产经验。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC480141730J40894756613.htm",
+    "capturedAt": "2026-07-17T04:21:54+08:00",
+    "publishedAt": "2026-07-17",
+    "verifiedAt": "2026-07-17T04:21:54+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 0
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://www.geesun.com/",
+      "corroboratingUrls": [
+        "https://www.geesun.com/",
+        "https://szrobotics.cn/nd.jsp?groupId=-1&id=1243"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "experienceRequirementContradiction"
+      ],
+      "reviewNotes": "智联独立岗位详情页明确显示2026年7月17日更新、固定月薪5-8万元、深圳宝安区工作地点、企业直招、完整职责要求及立即投递入口；统一月薪口径记录为50-80K，不含提成或年薪换算。页面经验标签为5-10年，正文要求8年以上嵌入式开发经验和3年以上团队管理经验，已保留experienceRequirementContradiction复核信号。深圳吉阳智能科技有限公司通过平台营业执照审核，招聘者采集时显示昨日活跃且企业仍有多个在招职位；企业官网核验其锂电智能装备与工业自动化业务，深圳市机器人协会公开会员页进一步核验其机器人企业身份，与岗位涉及工业、四足和人形机器人嵌入式平台的职责一致。该岗位与同公司已收录的具身智能算法经理、运动控制算法专家职责和详情链接均不同，不作重复合并。未发现收费、付费培训、押金、匿名客户、代理代招、提成冒充固定月薪、地点矛盾或标题职责错配。"
+    },
+    "duplicateFingerprint": "89987f71853bef2b6208"
+  },
+  {
     "id": "zhaopin-09a2aac8529ec74fc65c",
     "sourceJobId": "CCL1523331990J40891819403",
     "sourcePlatform": "zhaopin",
