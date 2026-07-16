@@ -64,6 +64,7 @@ export function toMultiSourceJob(snapshot, authenticity) {
     'guangdong-public': 'government-detail',
     liepin: 'public-platform-detail',
     zhaopin: 'public-platform-detail',
+    job5156: 'public-platform-detail',
     'employer-career': 'employer-detail',
     'licensed-api': 'licensed-api-detail',
   };

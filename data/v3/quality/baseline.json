@@ -1,32 +1,32 @@
 {
-  "generatedAt": "2026-07-16T06:33:51.624Z",
+  "generatedAt": "2026-07-16T07:41:46.725Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 166,
-    "verifiedDetailJobs": 97,
+    "usableJobs": 167,
+    "verifiedDetailJobs": 98,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 99,
-    "uniqueCompanies": 145,
-    "uniqueRawTitles": 152,
+    "fullRequirementJobs": 100,
+    "uniqueCompanies": 146,
+    "uniqueRawTitles": 153,
     "captureDates": 3
   },
   "distributions": {
     "salaryBands": {
       "50K": 76,
-      "30K": 66,
+      "30K": 67,
       "100K": 24
     },
     "evidenceLevels": {
-      "public-platform-detail": 88,
+      "public-platform-detail": 89,
       "boss-listing": 67,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3
     },
     "captureDates": {
       "2026-07-12": 71,
-      "2026-07-16": 49,
+      "2026-07-16": 50,
       "2026-07-15": 46
     },
     "industries": {
@@ -64,6 +64,7 @@
       "电子/半导体/集成电路": 1,
       "电子商务/3C零售": 1,
       "电子商务/消费品": 1,
+      "电子制造、新能源与电力电子": 1,
       "动力电池、新能源汽车与全球化制造": 1,
       "动力电池/新能源": 1,
       "房地产开发经营/产业园运营/物业管理": 1,
@@ -140,7 +141,7 @@
     },
     "districts": {
       "南山区": 77,
-      "宝安区": 31,
+      "宝安区": 32,
       "龙华区": 14,
       "龙岗区": 13,
       "深圳": 11,
@@ -230,12 +231,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 166,
+      "current": 167,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 97,
+      "current": 98,
       "required": 240,
       "passed": false
     },
@@ -254,7 +255,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "97/166 条完成详情核验",
+      "evidence": "98/167 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {

@@ -18,6 +18,7 @@ export const SOURCE_PLATFORMS = [
   'guangdong-public',
   'liepin',
   'zhaopin',
+  'job5156',
   'employer-career',
   'licensed-api',
 ];

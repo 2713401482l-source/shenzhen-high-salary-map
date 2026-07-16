@@ -59,6 +59,17 @@
       "notes": "只允许少量人工核验具体详情页；必须有明确企业、原始薪资、完整要求和新鲜度证据，并优先增加企业官网或政府名单交叉佐证。"
     },
     {
+      "id": "job5156",
+      "label": "智通直聘公开岗位页",
+      "operator": "广东智通人才连锁股份有限公司",
+      "trustTier": "B",
+      "allowedCaptureMethods": ["search-index-discovery", "manual-public-detail"],
+      "detailUrlPatterns": ["^https://(www\\.|m\\.)?job5156\\.com/[A-Za-z0-9_-]+/job_[A-Za-z0-9_-]+$"],
+      "formalSampleAllowed": true,
+      "requiresDirectDetailUrl": true,
+      "notes": "制造业与工程技术岗位补充来源；正式样本必须来自具体岗位页，明确显示企业、深圳地点、固定月薪、完整要求、刷新日期和可投递状态，并使用企业官网或官方披露交叉核验。"
+    },
+    {
       "id": "boss",
       "label": "Boss直聘",
       "operator": "北京华品博睿网络技术有限公司",
