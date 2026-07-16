@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-16T16:07:23.857Z",
+  "generatedAt": "2026-07-16T16:17:54.256Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 175,
-    "verifiedDetailJobs": 106,
+    "usableJobs": 176,
+    "verifiedDetailJobs": 107,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 108,
-    "uniqueCompanies": 153,
-    "uniqueRawTitles": 161,
+    "fullRequirementJobs": 109,
+    "uniqueCompanies": 154,
+    "uniqueRawTitles": 162,
     "captureDates": 4
   },
   "distributions": {
     "salaryBands": {
       "50K": 79,
-      "30K": 72,
+      "30K": 73,
       "100K": 24
     },
     "evidenceLevels": {
-      "public-platform-detail": 96,
+      "public-platform-detail": 97,
       "boss-listing": 67,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3,
@@ -29,7 +29,7 @@
       "2026-07-12": 71,
       "2026-07-16": 57,
       "2026-07-15": 46,
-      "2026-07-17": 1
+      "2026-07-17": 2
     },
     "industries": {
       "计算机软件": 12,
@@ -118,6 +118,7 @@
       "生物/制药、学术/科研": 1,
       "石油石化、海洋低空经济与产业数字化": 1,
       "石油装备、能源技术与环保": 1,
+      "视频安全、物联网、通信设备与人工智能": 1,
       "数据存储、精密制造": 1,
       "通信/网络设备、半导体/芯片、智能终端ODM": 1,
       "通信设备制造与无线天线解决方案": 1,
@@ -150,7 +151,7 @@
       "PCB设备、工业自动化与半导体检测": 1
     },
     "districts": {
-      "南山区": 77,
+      "南山区": 78,
       "宝安区": 36,
       "龙岗区": 14,
       "龙华区": 14,
@@ -245,12 +246,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 175,
+      "current": 176,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 106,
+      "current": 107,
       "required": 240,
       "passed": false
     },
@@ -269,7 +270,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "106/175 条完成详情核验",
+      "evidence": "107/176 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {

@@ -4579,6 +4579,85 @@
     "duplicateFingerprint": "a426db15f971a4561f2a"
   },
   {
+    "id": "zhaopin-818c3f040d63e49bec77",
+    "sourceJobId": "CC228363810J40843808211",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "Agent开发工程师（中高级）",
+    "company": "深圳市同为数码科技股份有限公司",
+    "salaryText": "20-35K",
+    "salaryMin": 20,
+    "salaryMax": 35,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "深圳市南山区沙河西路1841号深圳湾科技生态园二区9栋",
+    "industry": "视频安全、物联网、通信设备与人工智能",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionExcerpt": "负责公司内部AI Agent的规划、开发、测试与部署，设计并实现代码生成、测试自动化及数据分析自动化等场景的智能体应用；打通GitHub、JIRA、ERP、OA、PLM和CI/CD等系统，建设Agent工具调用与数据互通能力；跟踪AI Agent、LLM和RPA等领域技术，编写技术文档、组织内部培训并沉淀可复用的企业AI能力。要求统招本科及以上学历，计算机、",
+    "requirementText": "负责公司内部AI Agent的规划、开发、测试与部署，设计并实现代码生成、测试自动化及数据分析自动化等场景的智能体应用；打通GitHub、JIRA、ERP、OA、PLM和CI/CD等系统，建设Agent工具调用与数据互通能力；跟踪AI Agent、LLM和RPA等领域技术，编写技术文档、组织内部培训并沉淀可复用的企业AI能力。要求统招本科及以上学历，计算机、软件工程或人工智能相关专业，具有至少3年软件开发经验；熟练掌握Python，熟悉LangChain、AutoGen等Agent框架，掌握Prompt工程、RAG、MCP和A2A技术；具有代码生成或测试自动化Agent实战经验，并具备业务理解、跨部门协作和独立推进能力。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC228363810J40843808211.htm",
+    "capturedAt": "2026-07-17T00:11:50+08:00",
+    "verifiedAt": "2026-07-17T00:11:50+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://cn.tvt.net.cn/",
+      "corroboratingUrls": [
+        "https://cn.tvt.net.cn/introduce/index51.html",
+        "https://static.cninfo.com.cn/finalpage/2026-04-24/1225170506.PDF"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "智联具体岗位页在采集时仍公开展示并保留职位信息",
+        "岗位明确招聘1人并展示20-35K固定月薪",
+        "页面完整展示深圳南山区具体工作地址、经验、学历、职责和任职要求",
+        "岗位企业通过智联营业执照认证并公开工商主体",
+        "同为股份官网确认公司总部位于深圳并具有视频智能分析、深度学习和云平台技术",
+        "同为股份2025年年度报告披露大模型、AI平台和多模态技术的产品化投入，与Agent岗位方向一致"
+      ],
+      "reviewNotes": "智联独立详情页显示深圳南山区、固定月薪20-35K、招聘1人和完整职责要求，采集时页面仍有效。页面未公开可解析的更新时间，因此按真实性策略保留缺少发布日期的复核信号，但页面活跃、可核验且企业仍有公开招聘信息。发布企业为深圳市同为数码科技股份有限公司，不是匿名客户或人力资源代招；官网和2025年年度报告能够核验企业主体、深圳总部及大模型与AI技术投入。未发现收费、付费培训、提成冒充固定月薪、地点矛盾或岗位描述错配。"
+    },
+    "duplicateFingerprint": "2c481e2ec2369d7af12e"
+  },
+  {
     "id": "zhaopin-838290d53d9c437719d5",
     "sourceJobId": "CC469217510J40676013301",
     "sourcePlatform": "zhaopin",
