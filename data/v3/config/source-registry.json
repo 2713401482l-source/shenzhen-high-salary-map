@@ -74,12 +74,12 @@
       "label": "Boss直聘",
       "operator": "北京华品博睿网络技术有限公司",
       "trustTier": "B",
-      "allowedCaptureMethods": ["manual-user-submission"],
+      "allowedCaptureMethods": ["search-index-discovery", "manual-public-detail", "manual-user-submission"],
       "detailUrlPatterns": ["^https://www\\.zhipin\\.com/job_detail/[A-Za-z0-9~_-]+\\.html"],
       "formalSampleAllowed": true,
       "requiresDirectDetailUrl": true,
-      "accessStatus": "paused-platform-risk",
-      "notes": "禁止自动浏览、自动翻页、DOM读取和拟人化采集；仅保留人工提交的少量复核证据。"
+      "accessStatus": "active-light-public-detail",
+      "notes": "仅允许低频核验公开岗位详情页；每批最多打开2个Boss详情页，不连续翻页、不自动登录、不绕过验证码或风控。遇到验证码、403、code=32或其他风险提示立即停止并恢复平台风险暂停。"
     },
     {
       "id": "licensed-api",

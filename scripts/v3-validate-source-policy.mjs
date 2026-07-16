@@ -11,7 +11,9 @@ for (const source of registry.sources) {
   if (!Array.isArray(source.allowedCaptureMethods) || !source.allowedCaptureMethods.length) failures.push(`missing capture methods: ${source.id}`);
   if (!Array.isArray(source.detailUrlPatterns) || !source.detailUrlPatterns.length) failures.push(`missing detail URL patterns: ${source.id}`);
 }
-if (registry.sources.find(source => source.id === 'boss')?.accessStatus !== 'paused-platform-risk') failures.push('Boss access must remain paused-platform-risk');
+const bossSource = registry.sources.find(source => source.id === 'boss');
+if (!['paused-platform-risk', 'active-light-public-detail'].includes(bossSource?.accessStatus)) failures.push('Boss access status must be paused-platform-risk or active-light-public-detail');
+if (bossSource?.accessStatus === 'active-light-public-detail' && !bossSource.allowedCaptureMethods.includes('manual-public-detail')) failures.push('Light Boss access must allow manual-public-detail capture');
 if (policy.hardGates.length < 8) failures.push('authenticity policy needs all hard gates');
 const totalWeight = Object.values(policy.scoreWeights).reduce((sum, value) => sum + value, 0);
 if (totalWeight !== 100) failures.push(`score weights must total 100, got ${totalWeight}`);

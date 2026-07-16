@@ -85,8 +85,12 @@
   ],
   "salarySearchHints": ["25-35K", "30-50K", "40-60K", "50-80K", "70-100K", "100K以上"],
   "collectionRules": {
-    "batchSize": 12,
+    "batchSize": 40,
+    "maxDetailPagesPerBatch": 15,
+    "importBatchTarget": 5,
     "maxSequentialDetailPages": 2,
+    "bossMaxDetailPagesPerBatch": 2,
+    "bossCooldownMinutes": 10,
     "minimumSourcePlatforms": 5,
     "maximumSingleSourceShare": 0.55,
     "maximumDuplicateRate": 0.03,
