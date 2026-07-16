@@ -1,32 +1,32 @@
 {
-  "generatedAt": "2026-07-16T05:59:18.172Z",
+  "generatedAt": "2026-07-16T06:09:04.845Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 164,
-    "verifiedDetailJobs": 95,
+    "usableJobs": 165,
+    "verifiedDetailJobs": 96,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 97,
+    "fullRequirementJobs": 98,
     "uniqueCompanies": 144,
-    "uniqueRawTitles": 150,
+    "uniqueRawTitles": 151,
     "captureDates": 3
   },
   "distributions": {
     "salaryBands": {
       "50K": 76,
       "30K": 66,
-      "100K": 22
+      "100K": 23
     },
     "evidenceLevels": {
-      "public-platform-detail": 86,
+      "public-platform-detail": 87,
       "boss-listing": 67,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3
     },
     "captureDates": {
       "2026-07-12": 71,
-      "2026-07-16": 47,
+      "2026-07-16": 48,
       "2026-07-15": 46
     },
     "industries": {
@@ -58,6 +58,7 @@
       "储能": 1,
       "储能/新能源": 1,
       "大数据": 1,
+      "电力、新能源、储能与智能微电网": 1,
       "电力/新能源/人工智能": 1,
       "电气机械/电力设备、新能源汽车": 1,
       "电子/半导体/集成电路": 1,
@@ -137,7 +138,7 @@
       "PCB设备、工业自动化与半导体检测": 1
     },
     "districts": {
-      "南山区": 76,
+      "南山区": 77,
       "宝安区": 30,
       "龙华区": 14,
       "龙岗区": 13,
@@ -177,6 +178,10 @@
     },
     {
       "company": "海目星激光科技集团股份有限公司",
+      "count": 2
+    },
+    {
+      "company": "华润电力",
       "count": 2
     },
     {
@@ -224,12 +229,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 164,
+      "current": 165,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 95,
+      "current": 96,
       "required": 240,
       "passed": false
     },
@@ -248,7 +253,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "95/164 条完成详情核验",
+      "evidence": "96/165 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {
