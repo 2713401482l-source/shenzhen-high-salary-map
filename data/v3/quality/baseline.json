@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-16T21:05:19.596Z",
+  "generatedAt": "2026-07-16T21:13:42.082Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 190,
-    "verifiedDetailJobs": 121,
+    "usableJobs": 191,
+    "verifiedDetailJobs": 122,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 123,
+    "fullRequirementJobs": 124,
     "uniqueCompanies": 161,
-    "uniqueRawTitles": 176,
+    "uniqueRawTitles": 177,
     "captureDates": 4
   },
   "distributions": {
     "salaryBands": {
       "50K": 86,
-      "30K": 79,
+      "30K": 80,
       "100K": 25
     },
     "evidenceLevels": {
-      "public-platform-detail": 111,
+      "public-platform-detail": 112,
       "boss-listing": 67,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3,
@@ -29,7 +29,7 @@
       "2026-07-12": 71,
       "2026-07-16": 57,
       "2026-07-15": 46,
-      "2026-07-17": 16
+      "2026-07-17": 17
     },
     "industries": {
       "计算机软件": 12,
@@ -48,6 +48,7 @@
       "高端智能装备、数控机床、工业自动化与人工智能": 2,
       "互联网金融": 2,
       "其他行业": 2,
+      "橡胶/塑料制品、消费电子精密制造": 2,
       "消费电子/智能硬件": 2,
       "医疗健康": 2,
       "半导体/芯片": 1,
@@ -135,7 +136,6 @@
       "物理AI仿真、机器人软件": 1,
       "物联网、船舶/航空/航天/军工、工业自动化/机器人": 1,
       "物联网/船舶航空航天军工": 1,
-      "橡胶/塑料制品、消费电子精密制造": 1,
       "消费电子、智能硬件与智能清洁电器": 1,
       "消费电子/智能硬件/半导体芯片": 1,
       "消费电子/智能硬件/互联网电商": 1,
@@ -164,7 +164,7 @@
     "districts": {
       "南山区": 82,
       "宝安区": 39,
-      "龙岗区": 15,
+      "龙岗区": 16,
       "龙华区": 15,
       "光明区": 12,
       "深圳": 12,
@@ -237,6 +237,10 @@
       "count": 2
     },
     {
+      "company": "深圳市博硕科技股份有限公司",
+      "count": 2
+    },
+    {
       "company": "深圳市恩乐实业有限公司",
       "count": 2
     },
@@ -265,12 +269,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 190,
+      "current": 191,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 121,
+      "current": 122,
       "required": 240,
       "passed": false
     },
@@ -289,7 +293,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "121/190 条完成详情核验",
+      "evidence": "122/191 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {

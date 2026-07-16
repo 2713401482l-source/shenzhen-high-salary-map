@@ -1,7 +1,7 @@
 {
   "metadata": {
     "dataKind": "collection-gap-report",
-    "generatedFromLatestCapture": "2026-07-17T05:04:29+08:00",
+    "generatedFromLatestCapture": "2026-07-17T05:12:57+08:00",
     "bossAccessAllowed": false,
     "sourceFiles": [
       "data/v3/config/collection-plan.json",
@@ -13,17 +13,17 @@
   },
   "totals": {
     "discovery": {
-      "actual": 190,
+      "actual": 191,
       "target": 720,
-      "gap": 530
+      "gap": 529
     },
     "detailEvidence": {
-      "actual": 121,
+      "actual": 122,
       "target": 240,
-      "gap": 119
+      "gap": 118
     },
     "assignedToV3Queue": 7,
-    "legacyUnassigned": 183
+    "legacyUnassigned": 184
   },
   "quality": {
     "grain": "one company-specific job posting on one direct detail URL",
@@ -38,7 +38,7 @@
       },
       {
         "source": "job5156",
-        "count": 15
+        "count": 16
       },
       {
         "source": "liepin",
@@ -55,26 +55,26 @@
       "source": "zhaopin",
       "count": 91
     },
-    "largestSourceShare": 0.4789,
+    "largestSourceShare": 0.4764,
     "maximumSingleSourceShare": 0.55,
     "duplicateIds": 0,
     "duplicateFingerprints": 0,
     "duplicateSourceUrls": 0,
     "staleJobs": 0,
     "maximumAgeDaysAtCapture": 45,
-    "formalSampleCount": 121,
-    "formalSampleShare": 0.6368,
+    "formalSampleCount": 122,
+    "formalSampleShare": 0.6387,
     "discoveryOnlyCount": 69
   },
   "salaryBands": [
     {
       "band": "30K",
-      "actual": 79,
+      "actual": 80,
       "target": 240,
-      "gap": 161,
-      "detailActual": 44,
+      "gap": 160,
+      "detailActual": 45,
       "detailTarget": 80,
-      "detailGap": 36
+      "detailGap": 35
     },
     {
       "band": "50K",
@@ -267,10 +267,10 @@
     }
   ],
   "publicationBlockers": [
-    "30K 总样本还差 161 条",
+    "30K 总样本还差 160 条",
     "50K 总样本还差 154 条",
     "100K 总样本还差 215 条",
-    "30K 详情证据还差 36 条",
+    "30K 详情证据还差 35 条",
     "50K 详情证据还差 28 条",
     "100K 详情证据还差 55 条",
     "单岗对标“其他专业岗位”还差 5 条详情证据"
