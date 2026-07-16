@@ -6811,6 +6811,81 @@
     "duplicateFingerprint": "9f0dba36d96dc359692f"
   },
   {
+    "id": "zhaopin-a7829015cd8e725ff716",
+    "sourceJobId": "CCL1504827490J40843003311",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "AI感知算法专家/组长（高薪+双休+前景好）",
+    "company": "苏州虚空涡旋科技有限公司",
+    "salaryText": "60-100K·15薪",
+    "salaryMin": 60,
+    "salaryMax": 100,
+    "salaryMonths": 15,
+    "salaryBand": "100K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "深圳市南山区永新汇永新时代广场2号楼15层1502",
+    "industry": "消费电子、智能硬件与智能清洁电器",
+    "experience": "3-5年",
+    "education": "硕士",
+    "descriptionExcerpt": "岗位职责：主导AI算法架构设计、性能优化与工程化落地；主导数据分析工具、自动化数据标注平台和模型端到端评估平台等平台级功能开发；与算法、软件、结构、硬件团队跨部门协作，推进核心问题与技术难点解决；开展AI算法预研并扩展新技术和新应用。任职要求：统招硕士及以上学历，计算机科学、人工智能、自动化等相关专业；具备3年以上视觉AI算法经验并至少有一款量产产品项目经验",
+    "requirementText": "岗位职责：主导AI算法架构设计、性能优化与工程化落地；主导数据分析工具、自动化数据标注平台和模型端到端评估平台等平台级功能开发；与算法、软件、结构、硬件团队跨部门协作，推进核心问题与技术难点解决；开展AI算法预研并扩展新技术和新应用。任职要求：统招硕士及以上学历，计算机科学、人工智能、自动化等相关专业；具备3年以上视觉AI算法经验并至少有一款量产产品项目经验；熟练掌握Python、C++，具有扎实的立体视觉、图形学和深度学习理论基础；精通目标检测、分割和追踪算法，具备模型训练、调优、部署经验；有瑞芯微RKNN、NXP、地平线旭日、Jetson等平台的模型部署与优化经验，并具备深入分析和解决问题的能力。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1504827490J40843003311.htm",
+    "capturedAt": "2026-07-17T04:11:54+08:00",
+    "verifiedAt": "2026-07-17T04:11:54+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "corroboratingUrls": [
+        "https://www.tanzhi.cn/companies/69929cbd-3131-4449-9796-8b99142d96a6/"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "missingPublicationDate",
+        "salaryFarAboveComparableRoles",
+        "companyScaleNeedsReview"
+      ],
+      "reviewNotes": "智联独立岗位详情页在采集时仍可公开访问并提供立即投递入口，明确显示深圳南山区具体办公地址、招聘3人、3-5年、硕士、完整职责和任职要求。页面原始薪资为6-10万·15薪，按统一月薪口径规范为60-100K·15薪，不包含提成冒充固定月薪，也未按年薪折算。发布主体为平台营业执照已审核的苏州虚空涡旋科技有限公司，不是匿名客户或猎头代招；谈职公开公司页交叉确认同名主体及VORTEX智能清洁电器ODM业务。岗位页未展示可可靠抄录的发布日期，因此保留missingPublicationDate信号，以详情页有效和可投递作为新鲜度证据。该薪资明显高于常见同类岗位，且公司成立于2025年4月、注册资本100万元，与平台标注的10000人以上规模口径缺少独立依据，因此保留salaryFarAboveComparableRoles和companyScaleNeedsReview供后续复核，不使用规模宣称支撑真实性。未发现收费、付费培训、押金、匿名客户、地点矛盾、标题职责错配或提成冒充月薪。"
+    },
+    "duplicateFingerprint": "f27523995b2a75b2f5eb"
+  },
+  {
     "id": "zhaopin-abb03e3601117b2aa57d",
     "sourceJobId": "CCL1474860650J40901173612",
     "sourcePlatform": "zhaopin",
