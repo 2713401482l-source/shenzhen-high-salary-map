@@ -1,0 +1,39 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-16T09:51:00+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC334402310J40994430602.htm",
+  "job": {
+    "sourceJobId": "CC334402310J40994430602",
+    "title": "算法工程师（工业领域AOI/图像检测）",
+    "company": "深圳市大族数控科技股份有限公司",
+    "salaryText": "25-50K",
+    "district": "宝安区",
+    "addressText": "深圳市宝安区福海街道重庆路100号",
+    "industry": "PCB设备、工业自动化与半导体检测",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "负责工业AOI自动光学检测系统及图像检测算法的设计、开发和落地，针对短路、断路、虚焊、针孔、异物、偏移等缺陷完成检测、定位与分类；进行需求抽象、图像预处理、特征提取、缺陷识别和分割，并持续优化精度、速度和鲁棒性。要求本科及以上学历，具备三年以上工业AOI或图像检测算法经验，精通滤波、阈值分割、边缘检测、形态学等传统算法以及YOLO、Faster R-CNN、U-Net等深度学习方法，熟练使用Python、C++、OpenCV、TensorFlow或PyTorch，有PCB、半导体或电子制造算法落地经验者优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.hanscnc.com/",
+    "corroboratingUrls": [
+      "https://www.hanscnc.com/about-us.html",
+      "https://www.szse.cn/www/disclosure/notice/company/t20220225_591436.html"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "职位详情页采集时可立即投递",
+      "页面标注更新时间为7月7日，距采集日9天",
+      "智联标注企业已审核并显示221个在招职位",
+      "企业官网与深交所公告可核验企业全称和证券代码301200"
+    ],
+    "reviewNotes": "智联具体岗位页展示25-50K固定月薪、深圳宝安具体地址、本科学历与完整工业AOI算法要求。页面7月7日更新，采集时仍可立即投递，未超过45天有效期。企业官网和深交所上市公告可交叉核验公司全称、PCB设备业务及证券代码301200。未发现付费培训、押金、提成冒充月薪、匿名客户、猎头代招或职位描述错配信号。"
+  }
+}

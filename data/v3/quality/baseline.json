@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-16T01:49:25.471Z",
+  "generatedAt": "2026-07-16T01:58:07.963Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 150,
-    "verifiedDetailJobs": 81,
+    "usableJobs": 152,
+    "verifiedDetailJobs": 83,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 83,
-    "uniqueCompanies": 135,
-    "uniqueRawTitles": 138,
+    "fullRequirementJobs": 85,
+    "uniqueCompanies": 137,
+    "uniqueRawTitles": 140,
     "captureDates": 3
   },
   "distributions": {
     "salaryBands": {
       "50K": 70,
-      "30K": 61,
+      "30K": 63,
       "100K": 19
     },
     "evidenceLevels": {
-      "public-platform-detail": 72,
+      "public-platform-detail": 74,
       "boss-listing": 67,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3
@@ -27,7 +27,7 @@
     "captureDates": {
       "2026-07-12": 71,
       "2026-07-15": 46,
-      "2026-07-16": 33
+      "2026-07-16": 35
     },
     "industries": {
       "计算机软件": 12,
@@ -90,6 +90,7 @@
       "企业服务": 1,
       "汽车智能网联": 1,
       "人工智能、工业自动化、智能制造": 1,
+      "人工智能、航空航天与新材料": 1,
       "人工智能、云计算、企业数字化解决方案": 1,
       "软件/IT服务、产业互联网平台、金融科技": 1,
       "软件/IT服务、云计算": 1,
@@ -120,11 +121,12 @@
       "智能制造/机器人、半导体/芯片": 1,
       "专用设备": 1,
       "咨询": 1,
-      "自动化设备": 1
+      "自动化设备": 1,
+      "PCB设备、工业自动化与半导体检测": 1
     },
     "districts": {
-      "南山区": 69,
-      "宝安区": 24,
+      "南山区": 70,
+      "宝安区": 25,
       "龙华区": 14,
       "龙岗区": 12,
       "深圳": 11,
@@ -198,12 +200,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 150,
+      "current": 152,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 81,
+      "current": 83,
       "required": 240,
       "passed": false
     },
@@ -222,7 +224,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "81/150 条完成详情核验",
+      "evidence": "83/152 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {

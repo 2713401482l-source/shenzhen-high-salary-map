@@ -2305,6 +2305,84 @@
     "duplicateFingerprint": "b08abb5ddbb5b54ccc8b"
   },
   {
+    "id": "zhaopin-549f1dfd118f944e3b0d",
+    "sourceJobId": "CC526342880J40745991106",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "大模型Agent算法工程师",
+    "company": "光启技术股份有限公司",
+    "salaryText": "20-40K",
+    "salaryMin": 20,
+    "salaryMax": 40,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "深圳市南山区科技园高新中一道9号",
+    "industry": "人工智能、航空航天与新材料",
+    "experience": "1-3年",
+    "education": "硕士",
+    "descriptionExcerpt": "基于Qwen、DeepSeek、GPT、Kimi等大模型，负责Agent、RAG及知识库系统的架构设计与开发，构建Planning、Memory、Tool Use、Reflection等能力，并完成数据处理、SFT或LoRA微调、评估、优化和部署闭环；设计基于vLLM等推理引擎的高并发低延迟服务。要求硕士及以上学历，理解ReAct、Plan-Execute、",
+    "requirementText": "基于Qwen、DeepSeek、GPT、Kimi等大模型，负责Agent、RAG及知识库系统的架构设计与开发，构建Planning、Memory、Tool Use、Reflection等能力，并完成数据处理、SFT或LoRA微调、评估、优化和部署闭环；设计基于vLLM等推理引擎的高并发低延迟服务。要求硕士及以上学历，理解ReAct、Plan-Execute、多Agent协作，熟练使用LangGraph、LlamaIndex、Dify，掌握Transformer、PyTorch或TensorFlow、DeepSpeed、vLLM、Python、向量数据库、FastAPI、Docker和Kubernetes，并具备Prompt工程、RAG检索优化与自动化评测经验。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC526342880J40745991106.htm",
+    "capturedAt": "2026-07-16T09:51:00+08:00",
+    "verifiedAt": "2026-07-16T09:51:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002625",
+      "corroboratingUrls": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-25/1223281089.PDF",
+        "https://static.cninfo.com.cn/finalpage/2026-04-28/1225220996.PDF"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "职位详情页采集时可继续查看并显示固定月薪",
+        "岗位明确招聘5人并展示深圳具体工作地点",
+        "智联标注企业已审核并显示52个在招职位",
+        "巨潮资讯上市公司公告可核验企业全称与证券代码002625",
+        "missingPublicationDate"
+      ],
+      "reviewNotes": "智联具体岗位页展示20-40K固定月薪、深圳南山具体地址、硕士门槛和完整Agent工程要求；企业实名且已审核，岗位明确招聘5人，采集时页面仍有效。页面未展示发布日期，因此按真实性策略记录missingPublicationDate并以活跃详情页作为在招证据。巨潮资讯公告可交叉核验企业主体和上市公司身份。未发现付费培训、押金、提成冒充月薪、匿名客户、猎头代招或职位描述错配信号。"
+    },
+    "duplicateFingerprint": "c3d43331b6074d55fde9"
+  },
+  {
     "id": "zhaopin-585f7caa2c88dc66b2d2",
     "sourceJobId": "CCL1362239030J40925243015",
     "sourcePlatform": "zhaopin",
@@ -4870,6 +4948,83 @@
       "reviewNotes": "智联具体岗位详情页展示固定月薪30-60K、深圳南山具体地点、本科与副高级职称要求、可立即投递，以及完整的海洋低空技术路线、研发和产业落地职责；发布主体为平台已审核且明确命名的海油来博。国务院国资委和深圳市政府公开资料均显示中国海油正在推进海上油田无人机规模化作业、海空通信导航和深圳海洋低空应用；中国海油采办系统亦能核验海油来博主体。岗位内容与公开产业事实一致，未发现收费、付费培训、提成冒充固定月薪或匿名客户信号。"
     },
     "duplicateFingerprint": "06e47cba18bf0afeac84"
+  },
+  {
+    "id": "zhaopin-d7a5bc3cc026b4800f46",
+    "sourceJobId": "CC334402310J40994430602",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "算法工程师（工业领域AOI/图像检测）",
+    "company": "深圳市大族数控科技股份有限公司",
+    "salaryText": "25-50K",
+    "salaryMin": 25,
+    "salaryMax": 50,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "宝安区",
+    "addressText": "深圳市宝安区福海街道重庆路100号",
+    "industry": "PCB设备、工业自动化与半导体检测",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionExcerpt": "负责工业AOI自动光学检测系统及图像检测算法的设计、开发和落地，针对短路、断路、虚焊、针孔、异物、偏移等缺陷完成检测、定位与分类；进行需求抽象、图像预处理、特征提取、缺陷识别和分割，并持续优化精度、速度和鲁棒性。要求本科及以上学历，具备三年以上工业AOI或图像检测算法经验，精通滤波、阈值分割、边缘检测、形态学等传统算法以及YOLO、Faster R-CNN、",
+    "requirementText": "负责工业AOI自动光学检测系统及图像检测算法的设计、开发和落地，针对短路、断路、虚焊、针孔、异物、偏移等缺陷完成检测、定位与分类；进行需求抽象、图像预处理、特征提取、缺陷识别和分割，并持续优化精度、速度和鲁棒性。要求本科及以上学历，具备三年以上工业AOI或图像检测算法经验，精通滤波、阈值分割、边缘检测、形态学等传统算法以及YOLO、Faster R-CNN、U-Net等深度学习方法，熟练使用Python、C++、OpenCV、TensorFlow或PyTorch，有PCB、半导体或电子制造算法落地经验者优先。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC334402310J40994430602.htm",
+    "capturedAt": "2026-07-16T09:51:00+08:00",
+    "verifiedAt": "2026-07-16T09:51:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://www.hanscnc.com/",
+      "corroboratingUrls": [
+        "https://www.hanscnc.com/about-us.html",
+        "https://www.szse.cn/www/disclosure/notice/company/t20220225_591436.html"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "职位详情页采集时可立即投递",
+        "页面标注更新时间为7月7日，距采集日9天",
+        "智联标注企业已审核并显示221个在招职位",
+        "企业官网与深交所公告可核验企业全称和证券代码301200"
+      ],
+      "reviewNotes": "智联具体岗位页展示25-50K固定月薪、深圳宝安具体地址、本科学历与完整工业AOI算法要求。页面7月7日更新，采集时仍可立即投递，未超过45天有效期。企业官网和深交所上市公告可交叉核验公司全称、PCB设备业务及证券代码301200。未发现付费培训、押金、提成冒充月薪、匿名客户、猎头代招或职位描述错配信号。"
+    },
+    "duplicateFingerprint": "8a61bf088339dcd3eb36"
   },
   {
     "id": "zhaopin-db5d63ff947322b2ce05",

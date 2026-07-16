@@ -1,0 +1,40 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-16T09:51:00+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC526342880J40745991106.htm",
+  "job": {
+    "sourceJobId": "CC526342880J40745991106",
+    "title": "大模型Agent算法工程师",
+    "company": "光启技术股份有限公司",
+    "salaryText": "20-40K",
+    "district": "南山区",
+    "addressText": "深圳市南山区科技园高新中一道9号",
+    "industry": "人工智能、航空航天与新材料",
+    "experience": "1-3年",
+    "education": "硕士",
+    "descriptionText": "基于Qwen、DeepSeek、GPT、Kimi等大模型，负责Agent、RAG及知识库系统的架构设计与开发，构建Planning、Memory、Tool Use、Reflection等能力，并完成数据处理、SFT或LoRA微调、评估、优化和部署闭环；设计基于vLLM等推理引擎的高并发低延迟服务。要求硕士及以上学历，理解ReAct、Plan-Execute、多Agent协作，熟练使用LangGraph、LlamaIndex、Dify，掌握Transformer、PyTorch或TensorFlow、DeepSpeed、vLLM、Python、向量数据库、FastAPI、Docker和Kubernetes，并具备Prompt工程、RAG检索优化与自动化评测经验。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002625",
+    "corroboratingUrls": [
+      "https://static.cninfo.com.cn/finalpage/2025-04-25/1223281089.PDF",
+      "https://static.cninfo.com.cn/finalpage/2026-04-28/1225220996.PDF"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "职位详情页采集时可继续查看并显示固定月薪",
+      "岗位明确招聘5人并展示深圳具体工作地点",
+      "智联标注企业已审核并显示52个在招职位",
+      "巨潮资讯上市公司公告可核验企业全称与证券代码002625",
+      "missingPublicationDate"
+    ],
+    "reviewNotes": "智联具体岗位页展示20-40K固定月薪、深圳南山具体地址、硕士门槛和完整Agent工程要求；企业实名且已审核，岗位明确招聘5人，采集时页面仍有效。页面未展示发布日期，因此按真实性策略记录missingPublicationDate并以活跃详情页作为在招证据。巨潮资讯公告可交叉核验企业主体和上市公司身份。未发现付费培训、押金、提成冒充月薪、匿名客户、猎头代招或职位描述错配信号。"
+  }
+}
