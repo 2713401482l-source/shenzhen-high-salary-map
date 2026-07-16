@@ -78,8 +78,8 @@
       "detailUrlPatterns": ["^https://www\\.zhipin\\.com/job_detail/[A-Za-z0-9~_-]+\\.html"],
       "formalSampleAllowed": true,
       "requiresDirectDetailUrl": true,
-      "accessStatus": "active-light-public-detail",
-      "notes": "仅允许低频核验公开岗位详情页；每批最多打开2个Boss详情页，不连续翻页、不自动登录、不绕过验证码或风控。遇到验证码、403、code=32或其他风险提示立即停止并恢复平台风险暂停。"
+      "accessStatus": "paused-platform-risk",
+      "notes": "2026-07-17轻度核验两个公开详情页时均被重定向至安全校验页，已立即停止访问。禁止自动浏览、自动翻页、自动登录、绕过验证或拟人化采集；仅保留人工提交的少量复核证据。"
     },
     {
       "id": "licensed-api",

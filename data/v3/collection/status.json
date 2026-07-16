@@ -1,12 +1,12 @@
 {
-  "status": "active-light-public-detail",
+  "status": "paused-platform-risk",
   "pausedAt": "2026-07-13T19:40:00+08:00",
-  "lastCheckedAt": "2026-07-17T06:22:26+08:00",
+  "lastCheckedAt": "2026-07-17T06:27:00+08:00",
   "expectedRecoveryAt": "2026-07-17T01:34:00+08:00",
-  "reason": "搜索“AI产品经理”后打开第二个详情页时，Boss 返回 code=32：账户与 IP 存在异常行为，限制 48 小时，并明确要求不要频繁提交刷新请求。",
-  "nextAction": "允许低频人工式公开详情核验，每批最多2个Boss详情页且不连续翻页；遇到验证码、403、code=32或其他风控立即重新暂停。",
-  "bossAccessAllowed": true,
+  "reason": "2026-07-17轻度打开两个公开岗位详情页时均被重定向至Boss安全校验页；未尝试登录、刷新或绕过，已按策略立即停止。",
+  "nextAction": "暂停Boss访问，继续使用智联、智通、猎聘和企业官网公开详情；除非用户再次明确确认稳定解封，否则不恢复。",
+  "bossAccessAllowed": false,
   "resumedAt": "2026-07-17T06:22:26+08:00",
   "pausedAfterBatchAt": "2026-07-15T00:48:34+08:00",
-  "blockedAt": "2026-07-15T01:34:00+08:00"
+  "blockedAt": "2026-07-17T06:27:00+08:00"
 }
