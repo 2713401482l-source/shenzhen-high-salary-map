@@ -952,6 +952,81 @@
     "duplicateFingerprint": "bc55c8450195a61c5aff"
   },
   {
+    "id": "zhaopin-09a2aac8529ec74fc65c",
+    "sourceJobId": "CCL1523331990J40891819403",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "资深系统运维主管",
+    "company": "奈一佳（北京）科技有限责任公司",
+    "salaryText": "30-60K·16薪",
+    "salaryMin": 30,
+    "salaryMax": 60,
+    "salaryMonths": 16,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "深圳南山区西丽街道仙元路8号",
+    "industry": "产业互联网、云计算与AI算力基础设施",
+    "experience": "经验不限",
+    "education": "本科",
+    "descriptionExcerpt": "岗位负责集团数据中心、云端计算、存储与备份资源的规划建设，主导公有云、私有云和物理机组成的混合云架构，建设算力集群并制定备份、容灾、恢复和SLA机制；带领运维团队完善自动化、监控、故障处置和复盘体系，参与数据库、网络和部署架构评审，并承担云资源成本优化。要求具有主流公有云生产环境及混合云管理经验，至少两年大规模Kubernetes生产集群运维经历，熟悉Lin",
+    "requirementText": "岗位负责集团数据中心、云端计算、存储与备份资源的规划建设，主导公有云、私有云和物理机组成的混合云架构，建设算力集群并制定备份、容灾、恢复和SLA机制；带领运维团队完善自动化、监控、故障处置和复盘体系，参与数据库、网络和部署架构评审，并承担云资源成本优化。要求具有主流公有云生产环境及混合云管理经验，至少两年大规模Kubernetes生产集群运维经历，熟悉Linux、虚拟化、分布式存储、备份容灾和自动化监控；能够管理GPU服务器与高性能网络，掌握CUDA、cuDNN、NCCL等AI计算环境，了解vLLM、TensorRT-LLM、模型量化、KV Cache、动态Batch以及Volcano等分布式算力调度技术。CKA、CKS、云架构师或RHCA认证，以及AIOps、ISO 27001和等保2.0经验为加分项。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1523331990J40891819403.htm",
+    "capturedAt": "2026-07-16T09:11:00+08:00",
+    "publishedAt": "2026-07-10",
+    "verifiedAt": "2026-07-16T09:11:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 6
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "corroboratingUrls": [],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "岗位详情页显示7月10日更新并可立即投递",
+        "岗位明确招聘1人并展示深圳南山具体工作地址",
+        "详情页完整展示固定月薪、16薪标注、职责和任职要求",
+        "平台营业执照信息显示企业主体存续且已审核"
+      ],
+      "reviewNotes": "智联独立详情页显示固定月薪30-60K，16薪作为奖金周期单独标注，不折算进月薪；岗位位于深圳南山区，页面仍可立即投递。企业为平台已审核实名主体，工商栏显示成立于2023年、经营状态存续、注册资本503.23万元。岗位职责集中于混合云、Kubernetes、GPU算力集群、大模型部署和运维团队管理，标题与内容一致。当前未找到企业官网或政府名单作为额外交叉来源，因此保留来源集中风险提示；未发现匿名客户、收费、付费培训、提成冒充固定月薪或地点矛盾。"
+    },
+    "duplicateFingerprint": "edb822b14771fe82b817"
+  },
+  {
     "id": "zhaopin-0cbe90c22c78f0dcb25f",
     "sourceJobId": "CC179499310J40846970611",
     "sourcePlatform": "zhaopin",
