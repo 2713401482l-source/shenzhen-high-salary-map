@@ -1,7 +1,7 @@
 {
   "metadata": {
     "dataKind": "collection-gap-report",
-    "generatedFromLatestCapture": "2026-07-16T13:17:00+08:00",
+    "generatedFromLatestCapture": "2026-07-16T13:27:00+08:00",
     "bossAccessAllowed": false,
     "sourceFiles": [
       "data/v3/config/collection-plan.json",
@@ -13,24 +13,24 @@
   },
   "totals": {
     "discovery": {
-      "actual": 162,
+      "actual": 163,
       "target": 720,
-      "gap": 558
+      "gap": 557
     },
     "detailEvidence": {
-      "actual": 93,
+      "actual": 94,
       "target": 240,
-      "gap": 147
+      "gap": 146
     },
     "assignedToV3Queue": 7,
-    "legacyUnassigned": 155
+    "legacyUnassigned": 156
   },
   "quality": {
     "grain": "one company-specific job posting on one direct detail URL",
     "sourcePlatforms": [
       {
         "source": "zhaopin",
-        "count": 81
+        "count": 82
       },
       {
         "source": "boss",
@@ -45,28 +45,28 @@
     "minimumSourcePlatforms": 5,
     "largestSource": {
       "source": "zhaopin",
-      "count": 81
+      "count": 82
     },
-    "largestSourceShare": 0.5,
+    "largestSourceShare": 0.5031,
     "maximumSingleSourceShare": 0.55,
     "duplicateIds": 0,
     "duplicateFingerprints": 0,
     "duplicateSourceUrls": 0,
     "staleJobs": 0,
     "maximumAgeDaysAtCapture": 45,
-    "formalSampleCount": 93,
-    "formalSampleShare": 0.5741,
+    "formalSampleCount": 94,
+    "formalSampleShare": 0.5767,
     "discoveryOnlyCount": 69
   },
   "salaryBands": [
     {
       "band": "30K",
-      "actual": 65,
+      "actual": 66,
       "target": 240,
-      "gap": 175,
-      "detailActual": 30,
+      "gap": 174,
+      "detailActual": 31,
       "detailTarget": 80,
-      "detailGap": 50
+      "detailGap": 49
     },
     {
       "band": "50K",
@@ -181,10 +181,10 @@
   ],
   "benchmark": {
     "role": "其他专业岗位",
-    "detailActual": 29,
+    "detailActual": 30,
     "detailTarget": 50,
-    "detailGap": 21,
-    "currentFamilyJobs": 29
+    "detailGap": 20,
+    "currentFamilyJobs": 30
   },
   "priorityQueries": [
     {
@@ -259,13 +259,13 @@
     }
   ],
   "publicationBlockers": [
-    "30K 总样本还差 175 条",
+    "30K 总样本还差 174 条",
     "50K 总样本还差 165 条",
     "100K 总样本还差 218 条",
-    "30K 详情证据还差 50 条",
+    "30K 详情证据还差 49 条",
     "50K 详情证据还差 39 条",
     "100K 详情证据还差 58 条",
-    "单岗对标“其他专业岗位”还差 21 条详情证据",
+    "单岗对标“其他专业岗位”还差 20 条详情证据",
     "独立数据平台还差 2 个"
   ]
 }
