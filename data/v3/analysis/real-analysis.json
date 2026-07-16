@@ -1,7 +1,7 @@
 {
   "metadata": {
     "dataKind": "real-analysis",
-    "generatedFromLatestCapture": "2026-07-17T00:51:51+08:00",
+    "generatedFromLatestCapture": "2026-07-17T01:21:50+08:00",
     "sourceFiles": [
       "data/jobs/verified.json",
       "data/jobs/candidates.json"
@@ -10,17 +10,17 @@
   },
   "readiness": {
     "discovery": {
-      "actual": 180,
+      "actual": 181,
       "target": 720,
       "pass": false
     },
     "formalSample": {
-      "actual": 111,
+      "actual": 112,
       "target": 240,
       "pass": false
     },
     "detailEvidence": {
-      "actual": 111,
+      "actual": 112,
       "target": 240,
       "pass": false
     },
@@ -47,12 +47,12 @@
   },
   "scope": {
     "city": "深圳",
-    "jobs": 111,
-    "discoveryJobs": 180,
+    "jobs": 112,
+    "discoveryJobs": 181,
     "quarantinedOrUnverified": 69,
-    "detailJobs": 111,
-    "companies": 93,
-    "industries": 101,
+    "detailJobs": 112,
+    "companies": 94,
+    "industries": 102,
     "capturedDates": [
       "2026-07-12",
       "2026-07-15",
@@ -755,22 +755,23 @@
     {
       "name": "通用 AI 与算法工程",
       "status": "observed-family",
-      "sampleCount": 13,
-      "companyCount": 11,
-      "industryCount": 13,
-      "detailCount": 13,
+      "sampleCount": 14,
+      "companyCount": 12,
+      "industryCount": 14,
+      "detailCount": 14,
       "salary": {
         "min": 18,
         "max": 100,
-        "medianMid": 40,
+        "medianMid": 37.5,
         "bands": {
-          "30K": 6,
+          "30K": 7,
           "50K": 6,
           "100K": 1
         }
       },
       "originalTitles": [
         "AI产品经理（Codex/AI工作流方向）",
+        "高级资深结构工程师",
         "DSP高级软件工程师",
         "伺服软件算法专家(J10562)",
         "AI算法工程师（运动数据建模）",
@@ -794,22 +795,22 @@
           "count": 1
         },
         {
+          "name": "电子/半导体/集成电路、智能声学穿戴",
+          "count": 1
+        },
+        {
           "name": "电子制造、新能源与电力电子",
           "count": 1
         },
         {
           "name": "房地产开发经营/产业园运营/物业管理",
           "count": 1
-        },
-        {
-          "name": "工业自动化/机器人、工业检测",
-          "count": 1
         }
       ],
       "topDistricts": [
         {
           "name": "南山区",
-          "count": 6
+          "count": 7
         },
         {
           "name": "龙华区",
@@ -899,6 +900,15 @@
           "salaryText": "30-40K·13薪",
           "sourceUrl": "https://www.job5156.com/shenzhen/job_281370800",
           "capturedAt": "2026-07-16T15:30:00+08:00",
+          "evidenceLevel": "public-platform-detail"
+        },
+        {
+          "id": "job5156-896fe7f7336534352ed8",
+          "title": "高级资深结构工程师",
+          "company": "江西联创宏声电子股份有限公司东莞分公司",
+          "salaryText": "30-35K",
+          "sourceUrl": "https://www.job5156.com/shenzhen/job_281510401",
+          "capturedAt": "2026-07-17T01:21:50+08:00",
           "evidenceLevel": "public-platform-detail"
         },
         {
@@ -1718,16 +1728,16 @@
     }
   ],
   "skills": {
-    "denominator": 111,
+    "denominator": 112,
     "stats": [
       {
         "name": "跨团队协作",
         "category": "软技能",
-        "count": 76,
-        "denominator": 111,
-        "frequency": 0.685,
+        "count": 77,
+        "denominator": 112,
+        "frequency": 0.688,
         "salaryBands": {
-          "30K": 23,
+          "30K": 24,
           "50K": 35,
           "100K": 18
         },
@@ -1829,6 +1839,15 @@
             "salaryText": "35-50K·13薪",
             "sourceUrl": "https://www.job5156.com/shenzhen/job_281524463",
             "capturedAt": "2026-07-16T21:24:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "job5156-896fe7f7336534352ed8",
+            "title": "高级资深结构工程师",
+            "company": "江西联创宏声电子股份有限公司东莞分公司",
+            "salaryText": "30-35K",
+            "sourceUrl": "https://www.job5156.com/shenzhen/job_281510401",
+            "capturedAt": "2026-07-17T01:21:50+08:00",
             "evidenceLevel": "public-platform-detail"
           },
           {
@@ -2421,11 +2440,11 @@
       {
         "name": "主导与路线责任",
         "category": "管理能力",
-        "count": 59,
-        "denominator": 111,
-        "frequency": 0.532,
+        "count": 60,
+        "denominator": 112,
+        "frequency": 0.536,
         "salaryBands": {
-          "30K": 15,
+          "30K": 16,
           "50K": 27,
           "100K": 17
         },
@@ -2509,6 +2528,15 @@
             "salaryText": "35-50K·13薪",
             "sourceUrl": "https://www.job5156.com/shenzhen/job_281524463",
             "capturedAt": "2026-07-16T21:24:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "job5156-896fe7f7336534352ed8",
+            "title": "高级资深结构工程师",
+            "company": "江西联创宏声电子股份有限公司东莞分公司",
+            "salaryText": "30-35K",
+            "sourceUrl": "https://www.job5156.com/shenzhen/job_281510401",
+            "capturedAt": "2026-07-17T01:21:50+08:00",
             "evidenceLevel": "public-platform-detail"
           },
           {
@@ -2966,11 +2994,11 @@
       {
         "name": "行业经验",
         "category": "行业经验",
-        "count": 55,
-        "denominator": 111,
-        "frequency": 0.495,
+        "count": 56,
+        "denominator": 112,
+        "frequency": 0.5,
         "salaryBands": {
-          "30K": 16,
+          "30K": 17,
           "50K": 25,
           "100K": 14
         },
@@ -3045,6 +3073,15 @@
             "salaryText": "35-50K·13薪",
             "sourceUrl": "https://www.job5156.com/shenzhen/job_281524463",
             "capturedAt": "2026-07-16T21:24:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "job5156-896fe7f7336534352ed8",
+            "title": "高级资深结构工程师",
+            "company": "江西联创宏声电子股份有限公司东莞分公司",
+            "salaryText": "30-35K",
+            "sourceUrl": "https://www.job5156.com/shenzhen/job_281510401",
+            "capturedAt": "2026-07-17T01:21:50+08:00",
             "evidenceLevel": "public-platform-detail"
           },
           {
@@ -3476,8 +3513,8 @@
         "name": "工程部署与性能优化",
         "category": "工程能力",
         "count": 45,
-        "denominator": 111,
-        "frequency": 0.405,
+        "denominator": 112,
+        "frequency": 0.402,
         "salaryBands": {
           "30K": 14,
           "50K": 20,
@@ -3895,8 +3932,8 @@
         "name": "数据、实验与评测",
         "category": "数据能力",
         "count": 34,
-        "denominator": 111,
-        "frequency": 0.306,
+        "denominator": 112,
+        "frequency": 0.304,
         "salaryBands": {
           "30K": 16,
           "50K": 10,
@@ -4215,8 +4252,8 @@
         "name": "大模型与 Agent",
         "category": "AI 工具",
         "count": 23,
-        "denominator": 111,
-        "frequency": 0.207,
+        "denominator": 112,
+        "frequency": 0.205,
         "salaryBands": {
           "30K": 9,
           "50K": 7,
@@ -4436,8 +4473,8 @@
         "name": "C++",
         "category": "专业技能",
         "count": 23,
-        "denominator": 111,
-        "frequency": 0.207,
+        "denominator": 112,
+        "frequency": 0.205,
         "salaryBands": {
           "30K": 5,
           "50K": 15,
@@ -4657,8 +4694,8 @@
         "name": "Python",
         "category": "专业技能",
         "count": 23,
-        "denominator": 111,
-        "frequency": 0.207,
+        "denominator": 112,
+        "frequency": 0.205,
         "salaryBands": {
           "30K": 11,
           "50K": 9,
@@ -4878,8 +4915,8 @@
         "name": "计算机视觉",
         "category": "专业技能",
         "count": 20,
-        "denominator": 111,
-        "frequency": 0.18,
+        "denominator": 112,
+        "frequency": 0.179,
         "salaryBands": {
           "30K": 5,
           "50K": 9,
@@ -5072,8 +5109,8 @@
         "name": "机器人控制",
         "category": "专业技能",
         "count": 18,
-        "denominator": 111,
-        "frequency": 0.162,
+        "denominator": 112,
+        "frequency": 0.161,
         "salaryBands": {
           "30K": 5,
           "50K": 7,
@@ -5248,8 +5285,8 @@
         "name": "深度学习框架",
         "category": "AI 工具",
         "count": 16,
-        "denominator": 111,
-        "frequency": 0.144,
+        "denominator": 112,
+        "frequency": 0.143,
         "salaryBands": {
           "30K": 6,
           "50K": 8,
@@ -5406,8 +5443,8 @@
         "name": "语音与信号处理",
         "category": "专业技能",
         "count": 10,
-        "denominator": 111,
-        "frequency": 0.09,
+        "denominator": 112,
+        "frequency": 0.089,
         "salaryBands": {
           "30K": 3,
           "50K": 4,
@@ -5510,7 +5547,7 @@
         "name": "强化学习",
         "category": "专业技能",
         "count": 7,
-        "denominator": 111,
+        "denominator": 112,
         "frequency": 0.063,
         "salaryBands": {
           "30K": 0,
@@ -5587,8 +5624,8 @@
     "pairs": [
       {
         "pair": "主导与路线责任 + 跨团队协作",
-        "count": 46,
-        "denominator": 111,
+        "count": 47,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -5643,6 +5680,15 @@
             "salaryText": "35-50K·13薪",
             "sourceUrl": "https://www.job5156.com/shenzhen/job_281524463",
             "capturedAt": "2026-07-16T21:24:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "job5156-896fe7f7336534352ed8",
+            "title": "高级资深结构工程师",
+            "company": "江西联创宏声电子股份有限公司东莞分公司",
+            "salaryText": "30-35K",
+            "sourceUrl": "https://www.job5156.com/shenzhen/job_281510401",
+            "capturedAt": "2026-07-17T01:21:50+08:00",
             "evidenceLevel": "public-platform-detail"
           },
           {
@@ -6009,8 +6055,8 @@
       },
       {
         "pair": "行业经验 + 跨团队协作",
-        "count": 41,
-        "denominator": 111,
+        "count": 42,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -6056,6 +6102,15 @@
             "salaryText": "35-50K·13薪",
             "sourceUrl": "https://www.job5156.com/shenzhen/job_281524463",
             "capturedAt": "2026-07-16T21:24:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "job5156-896fe7f7336534352ed8",
+            "title": "高级资深结构工程师",
+            "company": "江西联创宏声电子股份有限公司东莞分公司",
+            "salaryText": "30-35K",
+            "sourceUrl": "https://www.job5156.com/shenzhen/job_281510401",
+            "capturedAt": "2026-07-17T01:21:50+08:00",
             "evidenceLevel": "public-platform-detail"
           },
           {
@@ -6386,8 +6441,8 @@
       },
       {
         "pair": "主导与路线责任 + 行业经验",
-        "count": 36,
-        "denominator": 111,
+        "count": 37,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -6433,6 +6488,15 @@
             "salaryText": "35-50K·13薪",
             "sourceUrl": "https://www.job5156.com/shenzhen/job_281524463",
             "capturedAt": "2026-07-16T21:24:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "job5156-896fe7f7336534352ed8",
+            "title": "高级资深结构工程师",
+            "company": "江西联创宏声电子股份有限公司东莞分公司",
+            "salaryText": "30-35K",
+            "sourceUrl": "https://www.job5156.com/shenzhen/job_281510401",
+            "capturedAt": "2026-07-17T01:21:50+08:00",
             "evidenceLevel": "public-platform-detail"
           },
           {
@@ -6719,7 +6783,7 @@
       {
         "pair": "工程部署与性能优化 + 跨团队协作",
         "count": 32,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7015,7 +7079,7 @@
       {
         "pair": "数据、实验与评测 + 跨团队协作",
         "count": 23,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7230,7 +7294,7 @@
       {
         "pair": "主导与路线责任 + 工程部署与性能优化",
         "count": 21,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7427,7 +7491,7 @@
       {
         "pair": "工程部署与性能优化 + 行业经验",
         "count": 20,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7615,7 +7679,7 @@
       {
         "pair": "大模型与 Agent + 工程部署与性能优化",
         "count": 18,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7785,7 +7849,7 @@
       {
         "pair": "工程部署与性能优化 + 数据、实验与评测",
         "count": 18,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -7955,7 +8019,7 @@
       {
         "pair": "数据、实验与评测 + 行业经验",
         "count": 17,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8116,7 +8180,7 @@
       {
         "pair": "Python + 工程部署与性能优化",
         "count": 17,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8277,7 +8341,7 @@
       {
         "pair": "大模型与 Agent + 跨团队协作",
         "count": 15,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8420,7 +8484,7 @@
       {
         "pair": "工程部署与性能优化 + 计算机视觉",
         "count": 15,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8563,7 +8627,7 @@
       {
         "pair": "计算机视觉 + 跨团队协作",
         "count": 15,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8706,7 +8770,7 @@
       {
         "pair": "主导与路线责任 + 数据、实验与评测",
         "count": 15,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8849,7 +8913,7 @@
       {
         "pair": "C++ + Python",
         "count": 15,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -8992,7 +9056,7 @@
       {
         "pair": "C++ + 工程部署与性能优化",
         "count": 14,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -9126,7 +9190,7 @@
       {
         "pair": "C++ + 跨团队协作",
         "count": 14,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -9260,7 +9324,7 @@
       {
         "pair": "工程部署与性能优化 + 深度学习框架",
         "count": 13,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -9385,7 +9449,7 @@
       {
         "pair": "机器人控制 + 行业经验",
         "count": 13,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -9510,7 +9574,7 @@
       {
         "pair": "C++ + 行业经验",
         "count": 12,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -9626,7 +9690,7 @@
       {
         "pair": "Python + 深度学习框架",
         "count": 12,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -9742,7 +9806,7 @@
       {
         "pair": "Python + 数据、实验与评测",
         "count": 12,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -9858,7 +9922,7 @@
       {
         "pair": "大模型与 Agent + 数据、实验与评测",
         "count": 11,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -9965,7 +10029,7 @@
       {
         "pair": "主导与路线责任 + 大模型与 Agent",
         "count": 11,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -10072,7 +10136,7 @@
       {
         "pair": "Python + 跨团队协作",
         "count": 11,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -10179,7 +10243,7 @@
       {
         "pair": "主导与路线责任 + 计算机视觉",
         "count": 10,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -10277,7 +10341,7 @@
       {
         "pair": "C++ + 计算机视觉",
         "count": 10,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -10375,7 +10439,7 @@
       {
         "pair": "深度学习框架 + 跨团队协作",
         "count": 9,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -10464,7 +10528,7 @@
       {
         "pair": "主导与路线责任 + 机器人控制",
         "count": 9,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -10553,7 +10617,7 @@
       {
         "pair": "Python + 行业经验",
         "count": 9,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -10642,7 +10706,7 @@
       {
         "pair": "大模型与 Agent + 计算机视觉",
         "count": 8,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -10722,7 +10786,7 @@
       {
         "pair": "大模型与 Agent + 行业经验",
         "count": 8,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -10802,7 +10866,7 @@
       {
         "pair": "机器人控制 + 跨团队协作",
         "count": 8,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -10882,7 +10946,7 @@
       {
         "pair": "数据、实验与评测 + 计算机视觉",
         "count": 8,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -10962,7 +11026,7 @@
       {
         "pair": "行业经验 + 计算机视觉",
         "count": 8,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -11042,7 +11106,7 @@
       {
         "pair": "C++ + 深度学习框架",
         "count": 8,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -11122,7 +11186,7 @@
       {
         "pair": "C++ + 主导与路线责任",
         "count": 8,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -11202,7 +11266,7 @@
       {
         "pair": "Python + 大模型与 Agent",
         "count": 8,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -11282,7 +11346,7 @@
       {
         "pair": "Python + 计算机视觉",
         "count": 8,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -11362,7 +11426,7 @@
       {
         "pair": "大模型与 Agent + 深度学习框架",
         "count": 7,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -11433,7 +11497,7 @@
       {
         "pair": "深度学习框架 + 行业经验",
         "count": 7,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -11504,7 +11568,7 @@
       {
         "pair": "数据、实验与评测 + 深度学习框架",
         "count": 7,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -11575,7 +11639,7 @@
       {
         "pair": "C++ + 数据、实验与评测",
         "count": 7,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -11646,7 +11710,7 @@
       {
         "pair": "深度学习框架 + 计算机视觉",
         "count": 6,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -11708,7 +11772,7 @@
       {
         "pair": "行业经验 + 语音与信号处理",
         "count": 6,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -11770,7 +11834,7 @@
       {
         "pair": "语音与信号处理 + 跨团队协作",
         "count": 6,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -11832,7 +11896,7 @@
       {
         "pair": "C++ + 机器人控制",
         "count": 6,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -11894,7 +11958,7 @@
       {
         "pair": "Python + 机器人控制",
         "count": 6,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -11956,7 +12020,7 @@
       {
         "pair": "工程部署与性能优化 + 机器人控制",
         "count": 5,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -12009,7 +12073,7 @@
       {
         "pair": "工程部署与性能优化 + 语音与信号处理",
         "count": 5,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -12062,7 +12126,7 @@
       {
         "pair": "强化学习 + 机器人控制",
         "count": 5,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -12115,7 +12179,7 @@
       {
         "pair": "强化学习 + 行业经验",
         "count": 5,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -12168,7 +12232,7 @@
       {
         "pair": "数据、实验与评测 + 语音与信号处理",
         "count": 5,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -12221,7 +12285,7 @@
       {
         "pair": "主导与路线责任 + 强化学习",
         "count": 5,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -12274,7 +12338,7 @@
       {
         "pair": "深度学习框架 + 语音与信号处理",
         "count": 4,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -12318,7 +12382,7 @@
       {
         "pair": "数据、实验与评测 + 机器人控制",
         "count": 4,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -12362,7 +12426,7 @@
       {
         "pair": "主导与路线责任 + 深度学习框架",
         "count": 4,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -12406,7 +12470,7 @@
       {
         "pair": "Python + 语音与信号处理",
         "count": 4,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -12450,7 +12514,7 @@
       {
         "pair": "大模型与 Agent + 强化学习",
         "count": 3,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -12485,7 +12549,7 @@
       {
         "pair": "机器人控制 + 深度学习框架",
         "count": 3,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -12520,7 +12584,7 @@
       {
         "pair": "强化学习 + 跨团队协作",
         "count": 3,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -12555,7 +12619,7 @@
       {
         "pair": "主导与路线责任 + 语音与信号处理",
         "count": 3,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -12590,7 +12654,7 @@
       {
         "pair": "C++ + 大模型与 Agent",
         "count": 3,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -12625,7 +12689,7 @@
       {
         "pair": "C++ + 语音与信号处理",
         "count": 3,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -12660,7 +12724,7 @@
       {
         "pair": "Python + 主导与路线责任",
         "count": 3,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -12695,7 +12759,7 @@
       {
         "pair": "工程部署与性能优化 + 强化学习",
         "count": 2,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -12721,7 +12785,7 @@
       {
         "pair": "机器人控制 + 语音与信号处理",
         "count": 2,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -12747,7 +12811,7 @@
       {
         "pair": "强化学习 + 数据、实验与评测",
         "count": 2,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -12773,7 +12837,7 @@
       {
         "pair": "C++ + 强化学习",
         "count": 2,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -12799,7 +12863,7 @@
       {
         "pair": "大模型与 Agent + 机器人控制",
         "count": 1,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -12816,7 +12880,7 @@
       {
         "pair": "大模型与 Agent + 语音与信号处理",
         "count": 1,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -12833,7 +12897,7 @@
       {
         "pair": "机器人控制 + 计算机视觉",
         "count": 1,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -12850,7 +12914,7 @@
       {
         "pair": "计算机视觉 + 语音与信号处理",
         "count": 1,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -12867,7 +12931,7 @@
       {
         "pair": "强化学习 + 计算机视觉",
         "count": 1,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -12884,7 +12948,7 @@
       {
         "pair": "Python + 强化学习",
         "count": 1,
-        "denominator": 111,
+        "denominator": 112,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -13353,8 +13417,8 @@
   "salaryBands": [
     {
       "band": "30K",
-      "count": 40,
-      "detailCount": 40,
+      "count": 41,
+      "detailCount": 41,
       "medianMid": 30
     },
     {
@@ -13371,11 +13435,11 @@
     }
   ],
   "marketProfile": {
-    "denominator": 111,
+    "denominator": 112,
     "salaryBands": [
       {
         "name": "30K",
-        "count": 40
+        "count": 41
       },
       {
         "name": "50K",
@@ -13469,6 +13533,10 @@
       },
       {
         "name": "电气机械/电力设备、新能源汽车",
+        "count": 1
+      },
+      {
+        "name": "电子/半导体/集成电路、智能声学穿戴",
         "count": 1
       },
       {
@@ -13795,7 +13863,7 @@
     "districts": [
       {
         "name": "南山区",
-        "count": 43
+        "count": 44
       },
       {
         "name": "宝安区",
@@ -13860,6 +13928,10 @@
         "count": 3
       },
       {
+        "name": "5年及以上",
+        "count": 2
+      },
+      {
         "name": "8年以上",
         "count": 2
       },
@@ -13885,10 +13957,6 @@
       },
       {
         "name": "5-8年",
-        "count": 1
-      },
-      {
-        "name": "5年及以上",
         "count": 1
       },
       {
@@ -13927,7 +13995,7 @@
     "education": [
       {
         "name": "本科",
-        "count": 61
+        "count": 62
       },
       {
         "name": "硕士",
@@ -13979,8 +14047,8 @@
     },
     {
       "role": "通用 AI 与算法工程",
-      "detailCount": 13,
-      "companyCount": 11,
+      "detailCount": 14,
+      "companyCount": 12,
       "salaryBandCount": 3
     },
     {
