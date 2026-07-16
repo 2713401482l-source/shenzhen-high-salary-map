@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-16T02:55:43.919Z",
+  "generatedAt": "2026-07-16T03:34:54.284Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 155,
-    "verifiedDetailJobs": 86,
+    "usableJobs": 156,
+    "verifiedDetailJobs": 87,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 88,
-    "uniqueCompanies": 139,
-    "uniqueRawTitles": 143,
+    "fullRequirementJobs": 89,
+    "uniqueCompanies": 140,
+    "uniqueRawTitles": 144,
     "captureDates": 3
   },
   "distributions": {
     "salaryBands": {
-      "50K": 71,
+      "50K": 72,
       "30K": 64,
       "100K": 20
     },
     "evidenceLevels": {
-      "public-platform-detail": 77,
+      "public-platform-detail": 78,
       "boss-listing": 67,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3
@@ -27,7 +27,7 @@
     "captureDates": {
       "2026-07-12": 71,
       "2026-07-15": 46,
-      "2026-07-16": 38
+      "2026-07-16": 39
     },
     "industries": {
       "计算机软件": 12,
@@ -106,6 +106,7 @@
       "通用设备制造、数控机床与智能装备": 1,
       "物联网、船舶/航空/航天/军工、工业自动化/机器人": 1,
       "物联网/船舶航空航天军工": 1,
+      "消费电子/智能硬件/半导体芯片": 1,
       "消费电子/智能硬件/互联网电商": 1,
       "鞋服箱包批发/零售/贸易": 1,
       "新能源、便携式储能、跨境电商": 1,
@@ -128,7 +129,7 @@
       "PCB设备、工业自动化与半导体检测": 1
     },
     "districts": {
-      "南山区": 72,
+      "南山区": 73,
       "宝安区": 26,
       "龙华区": 14,
       "龙岗区": 12,
@@ -207,12 +208,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 155,
+      "current": 156,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 86,
+      "current": 87,
       "required": 240,
       "passed": false
     },
@@ -231,7 +232,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "86/155 条完成详情核验",
+      "evidence": "87/156 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {

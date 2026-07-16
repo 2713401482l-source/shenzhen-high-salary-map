@@ -1,16 +1,16 @@
 {
   "metadata": {
     "dataKind": "v3-completion-audit",
-    "latestCapture": "2026-07-16T10:51:00+08:00",
+    "latestCapture": "2026-07-16T11:31:00+08:00",
     "collectionStatus": "paused-platform-risk",
     "bossAccessAllowed": false
   },
   "dataset": {
     "grain": "one public job posting per source-specific job id; cross-platform duplicates are resolved separately",
-    "totalJobs": 155,
+    "totalJobs": 156,
     "listingObservations": 69,
-    "detailVerified": 86,
-    "companies": 75,
+    "detailVerified": 87,
+    "companies": 76,
     "captureDates": [
       "2026-07-12",
       "2026-07-15",
@@ -31,7 +31,7 @@
       },
       {
         "source": "zhaopin",
-        "count": 74
+        "count": 75
       },
       {
         "source": "liepin",
@@ -44,15 +44,15 @@
       "source": "boss",
       "count": 78
     },
-    "largestSourceShare": 0.5032,
+    "largestSourceShare": 0.5,
     "maximumSingleSourceShare": 0.55,
     "duplicateIds": 0,
     "duplicateFingerprints": 0,
     "duplicateSourceUrls": 0,
     "staleJobs": 0,
     "maximumAgeDaysAtCapture": 45,
-    "formalSampleCount": 86,
-    "formalSampleShare": 0.5548,
+    "formalSampleCount": 87,
+    "formalSampleShare": 0.5577,
     "discoveryOnlyCount": 69
   },
   "structuralQuality": {
@@ -102,12 +102,12 @@
       {
         "band": "50K",
         "discovery": {
-          "actual": 71,
+          "actual": 72,
           "target": 240,
           "pass": false
         },
         "detailEvidence": {
-          "actual": 37,
+          "actual": 38,
           "target": 80,
           "pass": false
         }
@@ -151,8 +151,8 @@
   "blockers": [
     "30K 真实岗位还差 176 条",
     "30K 详情证据还差 51 条",
-    "50K 真实岗位还差 169 条",
-    "50K 详情证据还差 43 条",
+    "50K 真实岗位还差 168 条",
+    "50K 详情证据还差 42 条",
     "100K 真实岗位还差 220 条",
     "100K 详情证据还差 60 条",
     "新兴岗位方向还差 28 个",
