@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-07-16T00:34:36.301Z",
+  "generatedAt": "2026-07-16T00:59:02.757Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 145,
-    "verifiedDetailJobs": 76,
+    "usableJobs": 146,
+    "verifiedDetailJobs": 77,
     "listingOnlyJobs": 69,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 78,
-    "uniqueCompanies": 130,
-    "uniqueRawTitles": 133,
+    "fullRequirementJobs": 79,
+    "uniqueCompanies": 131,
+    "uniqueRawTitles": 134,
     "captureDates": 3
   },
   "distributions": {
     "salaryBands": {
       "50K": 68,
-      "30K": 58,
+      "30K": 59,
       "100K": 19
     },
     "evidenceLevels": {
+      "public-platform-detail": 68,
       "boss-listing": 67,
-      "public-platform-detail": 67,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3
     },
     "captureDates": {
       "2026-07-12": 71,
       "2026-07-15": 46,
-      "2026-07-16": 28
+      "2026-07-16": 29
     },
     "industries": {
       "计算机软件": 12,
@@ -46,6 +46,7 @@
       "消费电子/智能硬件": 2,
       "医疗健康": 2,
       "半导体/芯片": 1,
+      "半导体/芯片、电子行业ODM与集成供应链": 1,
       "半导体/芯片/智能制造": 1,
       "半导体设备/工业自动化/智能制造": 1,
       "半导体装备、芯片与高端工业装备": 1,
@@ -123,7 +124,7 @@
       "龙华区": 13,
       "龙岗区": 12,
       "深圳": 11,
-      "福田区": 7,
+      "福田区": 8,
       "光明区": 7,
       "罗湖区": 2,
       "坪山区": 1,
@@ -193,12 +194,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 145,
+      "current": 146,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 76,
+      "current": 77,
       "required": 240,
       "passed": false
     },
@@ -217,7 +218,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "76/145 条完成详情核验",
+      "evidence": "77/146 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {
