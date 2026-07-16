@@ -1,0 +1,42 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "liepin",
+  "sourcePublisher": "猎聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-17T00:01:49+08:00",
+  "publishedAt": "2026-07-15",
+  "sourceUrl": "https://www.liepin.com/job/1984126339.shtml",
+  "job": {
+    "sourceJobId": "1984126339",
+    "title": "高级机械工程师",
+    "company": "未来机器人（深圳）有限公司",
+    "salaryText": "30-50K",
+    "district": "福田区",
+    "addressText": "深圳市福田区深港国际科技园A栋7层",
+    "industry": "工业自动化、智能仓储机器人",
+    "experience": "5-8年",
+    "education": "本科",
+    "descriptionText": "负责AGV无人叉车机械结构研发，完成样机试制到产品量产的全过程设计、验证和持续优化；负责设计图纸、BOM等技术资料的编制、归档和维护；与电气工程师协同完成电机、泵站、油缸、传感器等关键零部件的选型；承担现有产品维护、升级及其他研发任务。要求机械相关专业本科及以上学历，具有5-8年叉车行业工作经验，有仓储叉车整车或AMR整机设计经验者优先；熟悉钣金、焊接、材料选用和形位公差，能够熟练使用CAD、SolidWorks或ProE等设计软件，了解电气基础知识，并具备良好的沟通协作和团队配合能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.weilairobotics.com/",
+    "corroboratingUrls": [
+      "https://www.weilairobotics.com/about/",
+      "https://www.weilairobotics.com/about/index74.html"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "猎聘具体岗位页显示2026年7月15日更新",
+      "岗位页显示招聘1人并保留应聘和沟通入口",
+      "页面明确展示深圳福田区工作地点、30-50K固定月薪和完整任职要求",
+      "岗位发布主体为未来机器人（深圳）有限公司，不是匿名客户或猎头代招",
+      "未来机器人官网确认公司2016年成立、总部位于深圳福田并从事智能仓储无人搬运",
+      "未来机器人官方招聘页公开同名深圳高级机械工程师岗位及一致的核心职责要求"
+    ],
+    "reviewNotes": "该岗位由未来机器人（深圳）有限公司直接发布，猎聘详情页显示深圳福田区、30-50K月薪、本科及5-8年经验，职责和要求完整，2026年7月15日更新且仍可直接应聘。公司官网能够交叉确认企业主体、深圳总部、智能仓储机器人业务以及同名岗位。未发现收费、付费培训、提成冒充固定月薪、匿名客户、地点矛盾或岗位描述错配。"
+  }
+}

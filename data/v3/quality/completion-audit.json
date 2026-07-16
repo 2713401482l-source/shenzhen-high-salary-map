@@ -1,20 +1,21 @@
 {
   "metadata": {
     "dataKind": "v3-completion-audit",
-    "latestCapture": "2026-07-16T21:34:00+08:00",
+    "latestCapture": "2026-07-17T00:01:49+08:00",
     "collectionStatus": "paused-platform-risk",
     "bossAccessAllowed": false
   },
   "dataset": {
     "grain": "one public job posting per source-specific job id; cross-platform duplicates are resolved separately",
-    "totalJobs": 174,
+    "totalJobs": 175,
     "listingObservations": 69,
-    "detailVerified": 105,
-    "companies": 88,
+    "detailVerified": 106,
+    "companies": 89,
     "captureDates": [
       "2026-07-12",
       "2026-07-15",
-      "2026-07-16"
+      "2026-07-16",
+      "2026-07-17"
     ],
     "targetRange": {
       "minimum": 600,
@@ -39,7 +40,7 @@
       },
       {
         "source": "liepin",
-        "count": 3
+        "count": 4
       },
       {
         "source": "employer-career",
@@ -52,15 +53,15 @@
       "source": "zhaopin",
       "count": 85
     },
-    "largestSourceShare": 0.4885,
+    "largestSourceShare": 0.4857,
     "maximumSingleSourceShare": 0.55,
     "duplicateIds": 0,
     "duplicateFingerprints": 0,
     "duplicateSourceUrls": 0,
     "staleJobs": 0,
     "maximumAgeDaysAtCapture": 45,
-    "formalSampleCount": 105,
-    "formalSampleShare": 0.6034,
+    "formalSampleCount": 106,
+    "formalSampleShare": 0.6057,
     "discoveryOnlyCount": 69
   },
   "structuralQuality": {
@@ -110,12 +111,12 @@
       {
         "band": "50K",
         "discovery": {
-          "actual": 78,
+          "actual": 79,
           "target": 240,
           "pass": false
         },
         "detailEvidence": {
-          "actual": 44,
+          "actual": 45,
           "target": 80,
           "pass": false
         }
@@ -142,15 +143,15 @@
     "benchmark": {
       "best": {
         "role": "其他专业岗位",
-        "detailCount": 38,
-        "companyCount": 35,
+        "detailCount": 39,
+        "companyCount": 36,
         "salaryBandCount": 3
       },
       "target": 50,
       "pass": false
     },
     "timeSeries": {
-      "actualDates": 3,
+      "actualDates": 4,
       "targetDates": 2,
       "pass": true
     }
@@ -159,11 +160,11 @@
   "blockers": [
     "30K 真实岗位还差 168 条",
     "30K 详情证据还差 43 条",
-    "50K 真实岗位还差 162 条",
-    "50K 详情证据还差 36 条",
+    "50K 真实岗位还差 161 条",
+    "50K 详情证据还差 35 条",
     "100K 真实岗位还差 216 条",
     "100K 详情证据还差 56 条",
     "新兴岗位方向还差 28 个",
-    "单岗对标还差 12 条同岗详情"
+    "单岗对标还差 11 条同岗详情"
   ]
 }
