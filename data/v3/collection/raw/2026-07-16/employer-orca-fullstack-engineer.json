@@ -1,0 +1,35 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "employer-career",
+  "sourcePublisher": "上海松应科技有限公司官方招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-16T20:27:00+08:00",
+  "sourceUrl": "https://www.orca3d.cn/joinus.html",
+  "job": {
+    "sourceJobId": "orca-social-fullstack-engineer-shenzhen",
+    "title": "全栈工程师",
+    "company": "上海松应科技有限公司",
+    "salaryText": "20-40K（官网原文：底薪＋绩效奖金20k-40k）",
+    "district": "深圳",
+    "addressText": "深圳",
+    "industry": "物理AI仿真、机器人软件",
+    "experience": "3-5年",
+    "education": "本科及以上",
+    "descriptionText": "岗位要求：本科及以上学历，计算机或软件工程相关专业；具有3-5年全栈开发经验，独立负责过中型以上Web项目；前端精通React或Vue框架以及HTML、CSS、JavaScript、Promise等技术栈，后端熟练使用Python的Django或Flask，或Java的Spring Boot，精通MySQL或PostgreSQL并熟悉Redis或MongoDB；熟悉Linux运维并掌握Docker、Kubernetes容器化部署；了解WebSocket实时通信及RESTful API设计规范。具备TypeScript、Node.js、WebGL、Unity全栈开发能力，云平台运维经验，或熟悉Blender、Unity等3D工具数据交互逻辑者优先。岗位职责：负责公司Web平台全栈开发，包括前端UI设计、后端服务架构及数据库开发；搭建高性能仿真数据可视化界面；优化系统架构，保障高并发场景下的稳定性与安全性；协同团队完成项目模块和业务系统的集成落地。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.orca3d.cn/home.html",
+    "corroboratingUrls": [
+      "https://www.shanghai.gov.cn/nw15343/20251226/1023f45597444086ae91ca2ee02a1908.html"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "missingPublicationDate"
+    ],
+    "reviewNotes": "松应科技官方网站独立招聘页明确写明社会招聘计划持续进行中，并展示可立即申请的全栈工程师岗位；岗位地点为深圳，薪资原文为“底薪＋绩效奖金20k-40k”，完整列出3-5年经验、本科及以上学历、前后端技术栈、数据库、Linux、Docker/K8s、WebSocket及云平台等要求。薪资字段保留官网原始构成，未把绩效奖金改写为固定底薪，也未进行年薪折算。上海市政府公开信息确认企业全称为上海松应科技有限公司及其ORCA物理AI仿真业务，和岗位的仿真数据可视化、Web平台开发职责一致。页面没有公开发布日期，因此以当前可申请状态作为新鲜度证据并标记缺少发布日期；未发现收费、付费培训、匿名代招、提成冒充月薪、地点矛盾或职责错配。"
+  }
+}
