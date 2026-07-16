@@ -7405,6 +7405,81 @@
     "duplicateFingerprint": "06e47cba18bf0afeac84"
   },
   {
+    "id": "zhaopin-d27e57478852f6f4170f",
+    "sourceJobId": "CC852790960J40751386006",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "量子机器学习算法工程师",
+    "company": "深圳量旋科技有限公司",
+    "salaryText": "30-50K",
+    "salaryMin": 30,
+    "salaryMax": 50,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "福田区",
+    "addressText": "深圳市福田区福保街道市花路1号（福保地铁站B口步行约480米）",
+    "industry": "量子计算、计算机硬件、半导体与人工智能",
+    "experience": "3-5年",
+    "education": "硕士",
+    "descriptionExcerpt": "岗位职责：学习并复现公开发表的量子机器学习算法；针对实际应用场景开发基于机器学习算法的应用。任职要求：硕士及以上学历，物理、数学等相关专业优先；熟悉机器学习、深度学习，熟悉量子算法者优先；具有两年以上机器学习实际应用开发经验，能够使用Python及常用机器学习工具完成算法开发；有大语言模型微调或应用开发经验者优先；英语六级，能够阅读英文技术资料并开展技术交流",
+    "requirementText": "岗位职责：学习并复现公开发表的量子机器学习算法；针对实际应用场景开发基于机器学习算法的应用。任职要求：硕士及以上学历，物理、数学等相关专业优先；熟悉机器学习、深度学习，熟悉量子算法者优先；具有两年以上机器学习实际应用开发经验，能够使用Python及常用机器学习工具完成算法开发；有大语言模型微调或应用开发经验者优先；英语六级，能够阅读英文技术资料并开展技术交流。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC852790960J40751386006.htm",
+    "capturedAt": "2026-07-17T03:41:53+08:00",
+    "verifiedAt": "2026-07-17T03:41:53+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://www.spinq.cn/about-us",
+      "corroboratingUrls": [
+        "https://www.spinq.cn/",
+        "https://www.spinq.cn/about-us",
+        "https://fgw.sz.gov.cn/ztzl/qtztzl/szscjmyjjfzzhfwpt/mqfc/myqyfzdt/content/post_12742172.html"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "missingPublicationDate"
+      ],
+      "reviewNotes": "智联独立岗位详情页显示明确公司、深圳福田具体地址、完整职责与任职要求，招聘人数1人；页面原始薪资为3-5万/月，按统一月薪口径规范为30-50K，不含年薪换算或提成。岗位页采集时仍可访问，招聘方曾先生显示今日活跃并提供沟通与视频面试入口，作为在招新鲜度证据；页面未展示可可靠抄录的发布日期，已保留missingPublicationDate信号，不虚构日期。公司页面显示主体已核验并有多个在招职位；量旋科技官网和深圳市发展改革委公开报道共同确认深圳量旋科技有限公司及其量子计算业务。未发现收费培训、押金、匿名客户、猎头代招或职责标题错配。"
+    },
+    "duplicateFingerprint": "15b17f9ea89ede4e3fe5"
+  },
+  {
     "id": "zhaopin-d7a5bc3cc026b4800f46",
     "sourceJobId": "CC334402310J40994430602",
     "sourcePlatform": "zhaopin",
