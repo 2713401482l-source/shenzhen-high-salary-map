@@ -1,0 +1,38 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "search-index-discovery",
+  "capturedAt": "2026-07-18T00:08:48+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC828691300J40827027303.htm",
+  "job": {
+    "sourceJobId": "CC828691300J40827027303",
+    "title": "研发项目总监",
+    "company": "上海联铪泰电子有限公司",
+    "salaryText": "35-70K",
+    "district": "南山区",
+    "addressText": "深圳市南山区高发科技园",
+    "industry": "电子/半导体/集成电路",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "公开搜索索引显示，该岗位负责建立并持续优化研发项目管理制度、流程、模板和项目管理信息系统，统筹项目计划、资源、进度、成本、质量及风险，推动PPAP等关键交付并建设项目管理团队。岗位要求本科及以上学历，具有三年以上研发项目管理经验，熟悉ISO/TS16949质量体系、项目策划和风险管理方法，能够熟练使用Project、Visio等工具；具备PMP资格、较强跨部门沟通协调及团队管理能力者优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": false,
+    "searchResultFreshAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "indexedWithin30Days",
+      "namedEmployerInSearchIndex",
+      "exactMonthlySalaryInSearchIndex",
+      "shenzhenAddressInSearchIndex",
+      "completeRequirementsInSearchIndex",
+      "recruiterRecentlyActiveInSearchIndex"
+    ],
+    "reviewNotes": "仅作为高概率发现层候选保存。搜索索引在采集时显示实名公司、深圳具体地址、固定月薪、完整职责要求、可投递入口及招聘方近期活跃信号；未把搜索摘要当作详情核验，前端来源入口应保持隐藏。"
+  }
+}
