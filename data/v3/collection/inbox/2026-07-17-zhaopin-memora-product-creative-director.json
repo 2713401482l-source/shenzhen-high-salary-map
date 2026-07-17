@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-17T09:21:48+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC213889830J40831894801.htm",
+  "job": {
+    "sourceJobId": "CC213889830J40831894801",
+    "title": "产品创意开发总监(J10071)",
+    "company": "深圳诗普琳珠宝有限公司",
+    "salaryText": "45-70K",
+    "district": "罗湖区",
+    "addressText": "深圳罗湖区水贝国际中心30层",
+    "industry": "珠宝首饰、零售",
+    "experience": "8年以上",
+    "education": "本科",
+    "descriptionText": "负责珠宝产品年度及季度开发战略、原创设计与创意团队管理，统筹从概念、图纸、打样到定样上市的全流程，并持续研究国际潮流、竞品和消费者审美。要求本科及以上珠宝设计、美术或相关专业，8年以上珠宝产品开发或创意设计经验及3年以上团队管理经验，熟悉珠宝生产工艺、材质和供应链，具备成功产品系列案例、市场洞察与跨部门项目管理能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "http://www.memora.com.cn/",
+    "corroboratingUrls": ["http://www.memora.com.cn/", "https://cug.91wllm.cn/company/view/id/379860"],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["activeApplyEntry", "platformBusinessLicenseVerified", "activeRecruiter", "multipleOpenRoles", "officialWebsiteCorroboration"],
+    "reviewNotes": "智联独立详情页明确展示深圳罗湖水贝具体地址、固定月薪4.5-7万、完整职责和任职要求，采集时仍可立即投递，招聘经理当日活跃且企业有大量在招职位。发布企业深圳诗普琳珠宝有限公司工商主体存续并经平台审核，品牌官网及中国地质大学就业信息可交叉确认主体与品牌关系；页面未显示发布日期，按策略使用活跃页面与可投递状态证明新鲜度。未发现匿名客户、中介代招、收费培训或薪资口径异常。"
+  }
+}

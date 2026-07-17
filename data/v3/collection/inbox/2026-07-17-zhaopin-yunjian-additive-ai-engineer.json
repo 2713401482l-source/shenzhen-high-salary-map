@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-17T09:21:48+08:00",
+  "publishedAt": "2026-06-16",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1477114960J40863946910.htm",
+  "job": {
+    "sourceJobId": "CCL1477114960J40863946910",
+    "title": "AI大模型应用工程师（增材制造方向）",
+    "company": "泉州云箭测控信息科技有限公司",
+    "salaryText": "30-50K",
+    "district": "光明区",
+    "addressText": "深圳市光明区光电东路库马克大厦西侧约90米",
+    "industry": "半导体芯片、航空航天军工、增材制造",
+    "experience": "3-5年",
+    "education": "硕士",
+    "descriptionText": "研发面向增材制造的大模型应用框架，构建融合工艺、传感器和质检数据的多模态工业数据管道，开发结合第一性原理与数据驱动的物理信息模型，并负责从数据采集、训练到产线部署的全流程。要求计算机、人工智能或应用数学相关硕士及以上学历，3年以上AI研发经验，熟练掌握PyTorch或TensorFlow、Transformer、分布式训练、模型压缩与部署优化，并具备工业制造、材料科学或物理仿真经验者优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "corroboratingUrls": ["https://www.qzlj.gov.cn/zwgk/zdgkxx/hjbh/jsxmhjyxpj/202504/P020250402533216431416.pdf", "https://kjt.fj.gov.cn/xxgk/tzgg/202410/P020241024533483888851.pdf"],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["recentPublicationDate", "activeApplyEntry", "platformBusinessLicenseVerified", "activeRecruiter", "governmentRecordCorroboration"],
+    "reviewNotes": "智联独立详情页明确展示深圳光明区具体地址、固定月薪3-5万、完整职责和任职要求，6月16日更新，采集时仍可立即投递且人事主管三日内活跃。发布企业主体和营业执照经平台审核，泉州市政府环评文件与福建省科技型中小企业名单可交叉确认企业及其增材制造业务；不是匿名客户或中介代招，未发现收费培训、提成冒充固定月薪、地点矛盾或职责错配。"
+  }
+}

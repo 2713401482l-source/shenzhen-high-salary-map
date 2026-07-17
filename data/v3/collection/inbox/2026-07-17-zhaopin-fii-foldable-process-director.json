@@ -1,0 +1,32 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-17T09:21:48+08:00",
+  "publishedAt": "2026-06-28",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1393497680J40803348609.htm",
+  "job": {
+    "sourceJobId": "CCL1393497680J40803348609",
+    "title": "手机组件制程规格制定-主任工程师",
+    "company": "富联裕展科技(深圳)有限公司",
+    "salaryText": "35-60K·13薪",
+    "district": "龙华区",
+    "addressText": "深圳龙华区富士康科技集团观澜科技园",
+    "industry": "消费电子、智能硬件",
+    "experience": "10年以上",
+    "education": "本科",
+    "descriptionText": "负责手机折叠总成开发方案的设计规划与布局，研究产品技术壁垒、行业发展和竞争产品，并引导客户设计。要求具有10年以上手机结构件与制程开发经验、5年以上团队管理经验，主导过折叠手机组装设计开发项目，掌握材料、结构、制程设计与规划，具备项目精细化管理、资源调配、行业技术研究及原材料机械和化学性能分析能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.foxconn.com/zh-cn/",
+    "corroboratingUrls": ["https://www.foxconn.com/zh-cn/"],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["recentPublicationDate", "activeApplyEntry", "platformBusinessLicenseVerified", "activeRecruiter", "officialWebsiteCorroboration"],
+    "reviewNotes": "智联独立详情页明确展示深圳龙华区具体园区、固定月薪3.5-6万及13薪、完整职责和任职要求，6月28日更新，采集时仍可立即投递。发布企业为富联裕展科技(深圳)有限公司，工商主体存续且经平台审核，并可由富士康官方集团信息交叉佐证；不是匿名客户或中介代招，未发现收费培训、提成冒充固定月薪、地点矛盾或失效信号。"
+  }
+}

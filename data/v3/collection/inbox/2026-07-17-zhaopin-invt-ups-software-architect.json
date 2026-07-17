@@ -1,0 +1,32 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-17T09:01:28+08:00",
+  "publishedAt": "2026-07-07",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC134263690J40737988907.htm",
+  "job": {
+    "sourceJobId": "CC134263690J40737988907",
+    "title": "UPS软件架构师",
+    "company": "深圳市英威腾电气股份有限公司",
+    "salaryText": "30-50K·14薪",
+    "district": "光明区",
+    "addressText": "深圳光明区英威腾光明科技大厦",
+    "industry": "工业自动化、能源电力",
+    "experience": "5-10年",
+    "education": "硕士",
+    "descriptionText": "参与UPS产品架构规划和需求分析，主导领域架构或产品架构的分析设计、维护与优化，指导技术团队遵循架构最佳实践，并跟踪技术趋势、评估其对企业技术架构的影响。要求计算机、软件工程或电子相关专业硕士及以上学历，具备5年以上UPS领域架构或产品架构设计经验，熟练掌握领域分析设计方法和系统分析设计流程，并具备创新、逻辑分析、沟通协调与团队合作能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.invt.com.cn/",
+    "corroboratingUrls": ["https://www.invt.com.cn/"],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["recentPublicationDate", "activeApplyEntry", "platformBusinessLicenseVerified", "activeRecruiter", "officialWebsiteCorroboration"],
+    "reviewNotes": "智联独立详情页显示深圳光明区具体地址、固定月薪3-5万及14薪、完整职责与要求，7月7日更新，采集时可立即投递且招聘经理三日内活跃。上市公司主体、工商信息和营业执照明确并经平台审核，页面公司网址与官方主体一致；不是匿名客户或中介代招，未发现收费培训、提成冒充月薪或失效信号。"
+  }
+}
