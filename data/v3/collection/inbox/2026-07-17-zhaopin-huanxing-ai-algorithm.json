@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-17T08:11:28+08:00",
+  "publishedAt": "2026-07-17",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1509375420J40947073415.htm",
+  "job": {
+    "sourceJobId": "CCL1509375420J40947073415",
+    "title": "AI算法工程师",
+    "company": "广州焕兴科技有限公司",
+    "salaryText": "30-60K",
+    "district": "南山区",
+    "addressText": "深圳南山区兴海大道3076号",
+    "industry": "人工智能、技术服务、物流科技",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "围绕物流全链路的网点排班、干线排线、运力调度、车货匹配、时效预测、仓储需求预测和智能定价等业务，使用机器学习、深度学习、运筹优化、强化学习及大模型完成建模与算法方案设计；负责OCR、异常件分拣、智能客服、视觉盘点、运单解析和物流风控等模型研发；完成数据清洗、特征工程、训练调优、评估压缩、上线部署及持续迭代。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["recentPublicationDate", "activeApplyEntry", "platformBusinessLicenseVerified"],
+    "reviewNotes": "智联独立岗位详情页显示深圳南山区具体地址、固定月薪30-60K、3-5年、本科、全职以及完整算法工作内容，采集时标注今日更新并提供立即投递入口。公司名称、平台审核与工商主体明确，不是匿名客户；未发现收费、培训、押金、提成冒充固定月薪、年薪误读或地点矛盾。"
+  }
+}

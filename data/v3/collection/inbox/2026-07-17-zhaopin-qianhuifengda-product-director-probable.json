@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "search-index-discovery",
+  "capturedAt": "2026-07-17T08:11:28+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1500850250J40978830702.htm",
+  "job": {
+    "sourceJobId": "CCL1500850250J40978830702",
+    "title": "产品总监",
+    "company": "黑龙江省钱慧丰达科技有限公司",
+    "salaryText": "30-50K·14薪",
+    "district": "盐田区",
+    "addressText": "深圳盐田区",
+    "industry": "消费品、产品研发",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "公开索引信息显示该岗位负责护肤产品线规划、新品立项和年度上新节奏，统筹配方研发、功效评估、稳定性测试、中试放大及量产落地，并主导市场调研、竞品分析、用户痛点挖掘、产品定义、差异化定位和核心卖点提炼；需要跨研发、生产、品控、包装、市场和销售多部门推进项目，管控进度、成本与品质。"
+  },
+  "verification": {
+    "pageActiveAtCapture": false,
+    "searchResultFreshAtCapture": true,
+    "employerNamed": true,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["recentlyIndexed", "titleDescriptionConsistent"],
+    "reviewNotes": "本条仅进入高概率发现层：公开索引在采集日显示深圳盐田区、固定月薪30-50K并标注14薪、5-10年、本科、明确公司和具体岗位URL，标题与职责一致。未把索引摘要当作详情证据，不参与正式市场、薪资或技能分析，前端隐藏来源入口；后续若详情复核通过再晋级。"
+  }
+}

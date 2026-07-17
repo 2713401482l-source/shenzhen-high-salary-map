@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-17T08:11:28+08:00",
+  "publishedAt": "2026-07-17",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC336169030J40831732309.htm",
+  "job": {
+    "sourceJobId": "CC336169030J40831732309",
+    "title": "数字IC验证工程师",
+    "company": "成都天锐星通科技股份有限公司",
+    "salaryText": "20-40K",
+    "district": "南山区",
+    "addressText": "深圳南山区",
+    "industry": "半导体/芯片、相控阵通信",
+    "experience": "3-5年",
+    "education": "硕士",
+    "descriptionText": "负责对接芯片设计需求，制定相控阵专用数字及混合信号芯片的验证方案、计划、重点与验收标准；搭建UVM验证环境并开发模块级、系统级测试用例，覆盖多通道同步、幅相控制、DBF运算、高速接口和异常处理；开展功能、时序及混合信号仿真，推动覆盖率收敛，协助定位设计问题、完成流片前签核，并在流片后参与芯片bring-up及与相控阵系统的联调验证。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["recentPublicationDate", "activeApplyEntry", "platformBusinessLicenseVerified"],
+    "reviewNotes": "智联独立岗位详情页显示深圳南山区、固定月薪20-40K、3-5年、硕士、全职、招1人及完整芯片验证职责，采集时标注今日更新并提供立即投递入口。发布公司明确且非匿名客户，不是猎头代招；未发现收费、培训、押金、提成冒充固定月薪、年薪误读或地点矛盾。"
+  }
+}

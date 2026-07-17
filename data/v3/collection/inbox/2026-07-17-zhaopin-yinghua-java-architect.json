@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-17T08:11:28+08:00",
+  "publishedAt": "2026-07-17",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1512466950J40962621402.htm",
+  "job": {
+    "sourceJobId": "CCL1512466950J40962621402",
+    "title": "高级Java开发工程师/架构师",
+    "company": "楹桦投资（深圳）有限公司",
+    "salaryText": "40-60K",
+    "district": "盐田区",
+    "addressText": "深圳盐田区",
+    "industry": "物联网、软件与IT服务",
+    "experience": "10年以上",
+    "education": "本科",
+    "descriptionText": "负责物联网平台与应用的架构设计、核心模块开发、平台基础服务完善及Java工程师技术指导，参与需求分析、系统设计、软件工程文档和产品文档编写，完成模块集成、单元测试、模块测试及DevOps环境维护。要求计算机相关专业本科以上、10年以上Java经验，精通Java，熟悉高并发高性能分布式系统设计与调优，熟悉TCP、UDP、HTTP等协议，了解MQTT、Modbus者优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["recentPublicationDate", "activeApplyEntry", "platformBusinessLicenseVerified"],
+    "reviewNotes": "智联独立岗位详情页显示深圳盐田区、固定月薪40-60K、10年以上、本科、全职、招3人和完整职责要求，采集时标注今日更新并提供立即投递入口。发布公司名称明确且平台已审核，不是匿名客户或猎头代招；未发现收费、付费培训、押金、提成冒充固定月薪、年薪误读或标题职责错配。"
+  }
+}

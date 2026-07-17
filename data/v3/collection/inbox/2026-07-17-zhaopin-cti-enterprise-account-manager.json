@@ -1,0 +1,32 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-17T08:11:28+08:00",
+  "publishedAt": "2026-07-17",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1480998910J40770846806.htm",
+  "job": {
+    "sourceJobId": "CCL1480998910J40770846806",
+    "title": "企业客户经理",
+    "company": "中国电信国际有限公司",
+    "salaryText": "40-70K·13薪",
+    "district": "福田区",
+    "addressText": "深圳福田区深南大道与益田路路口",
+    "industry": "通信网络、ICT、云计算",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "负责企业客户全生命周期管理、新客户开发与存量客户价值挖掘，制定客户渗透策略并与管理层和关键决策人建立合作；围绕ICT、企业网络、SD-WAN、云服务和数据中心输出定制化方案，主导需求调研、方案设计、商务谈判和项目落地。要求3年以上B2B销售经验，具备电信、ICT、云计算或系统集成领域经历，能够独立完成复杂企业客户开发并协调售前、产品与交付团队。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.chinatelecomglobal.com/",
+    "corroboratingUrls": ["https://www.chinatelecomglobal.com/"],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["recentPublicationDate", "activeApplyEntry", "platformBusinessLicenseVerified", "stateOwnedEnterprise"],
+    "reviewNotes": "智联独立岗位详情页显示深圳福田区具体地址、固定月薪40-70K并标注13薪、3-5年、本科、全职、招1人及完整职责要求，采集时标注今日更新并提供立即投递入口。发布主体为中国电信国际有限公司且平台已审核，不是匿名客户或中介代招；未发现收费、付费培训、押金、提成冒充固定月薪、年薪误读或地点矛盾。"
+  }
+}

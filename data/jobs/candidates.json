@@ -1809,5 +1809,91 @@
       ],
       "reviewNotes": "需要补充招聘主体或薪资口径证据后才能恢复为正式样本。"
     }
+  },
+  {
+    "id": "zhaopin-73efc8b697baad67161e",
+    "sourceJobId": "CCL1500850250J40978830702",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "search-index-discovery",
+    "title": "产品总监",
+    "company": "黑龙江省钱慧丰达科技有限公司",
+    "salaryText": "30-50K·14薪",
+    "salaryMin": 30,
+    "salaryMax": 50,
+    "salaryMonths": 14,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "盐田区",
+    "addressText": "深圳盐田区",
+    "industry": "消费品、产品研发",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionExcerpt": "公开索引信息显示该岗位负责护肤产品线规划、新品立项和年度上新节奏，统筹配方研发、功效评估、稳定性测试、中试放大及量产落地，并主导市场调研、竞品分析、用户痛点挖掘、产品定义、差异化定位和核心卖点提炼；需要跨研发、生产、品控、包装、市场和销售多部门推进项目，管控进度、成本与品质。",
+    "requirementText": "公开索引信息显示该岗位负责护肤产品线规划、新品立项和年度上新节奏，统筹配方研发、功效评估、稳定性测试、中试放大及量产落地，并主导市场调研、竞品分析、用户痛点挖掘、产品定义、差异化定位和核心卖点提炼；需要跨研发、生产、品控、包装、市场和销售多部门推进项目，管控进度、成本与品质。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1500850250J40978830702.htm",
+    "capturedAt": "2026-07-17T08:11:28+08:00",
+    "status": "candidate",
+    "evidenceLevel": "public-index-probable",
+    "sourceVisibility": "hidden",
+    "authenticity": {
+      "status": "probable",
+      "score": 65,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 0,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": false,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": false,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [
+        "specificDetailUrl",
+        "activeOrFresh"
+      ],
+      "quarantineSignals": [],
+      "ageDays": null,
+      "probableScore": 95,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": false,
+      "marketDemand": false,
+      "salary": false,
+      "skills": false,
+      "companyExpansion": false
+    },
+    "verification": {
+      "pageActiveAtCapture": false,
+      "searchResultFreshAtCapture": true,
+      "employerNamed": true,
+      "corroboratingUrls": [],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "recentlyIndexed",
+        "titleDescriptionConsistent"
+      ],
+      "reviewNotes": "本条仅进入高概率发现层：公开索引在采集日显示深圳盐田区、固定月薪30-50K并标注14薪、5-10年、本科、明确公司和具体岗位URL，标题与职责一致。未把索引摘要当作详情证据，不参与正式市场、薪资或技能分析，前端隐藏来源入口；后续若详情复核通过再晋级。"
+    },
+    "duplicateFingerprint": "ab68cb4cfaf9a2e810f0"
   }
 ]
