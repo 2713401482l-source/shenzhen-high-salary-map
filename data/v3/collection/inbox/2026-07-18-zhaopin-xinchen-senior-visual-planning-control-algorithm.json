@@ -1,0 +1,40 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-18T02:00:51+08:00",
+  "publishedAt": "2026-07-14",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1512524350J40870334512.htm",
+  "job": {
+    "sourceJobId": "CCL1512524350J40870334512",
+    "title": "资深视觉规控算法工程师",
+    "company": "芯辰远航(厦门)科技有限公司深圳分公司",
+    "salaryText": "50-80K",
+    "district": "南山区",
+    "addressText": "深圳市南山区方直前海国际文化中心",
+    "industry": "汽车智能网联/自动驾驶",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "负责车辆运动学与动力学建模，以及决策规划、轨迹跟踪、横纵向控制算法的设计、工程部署、实车调参与测试，并推动感知、定位、规划、控制全链路联调和系统问题诊断。要求自动化、车辆、计算机、电子或机械相关本科及以上学历，具备运动控制或主动安全项目经验，掌握PID、MPC、LQ等控制方法及AEB、LDW、ACC功能，熟悉C++、Python、Linux和嵌入式部署，能够独立负责关键模块并指导团队成员。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "directDetailPageVisible",
+      "publishedWithin45Days",
+      "exactMonthlySalaryVisible",
+      "shenzhenAddressVisible",
+      "completeRequirementsVisible",
+      "directApplyVisible",
+      "businessRegistrationVisible",
+      "recruiterRecentlyActive"
+    ],
+    "reviewNotes": "智联公开具体岗位详情页显示7月14日更新、立即投递、固定月薪50-80K、深圳南山具体地址及完整职责要求；招聘企业经平台审核，工商状态存续，业务方向与自动驾驶规控算法岗位一致，招聘负责人近三日活跃。未发现匿名客户、收费培训、提成冒充月薪、年薪误读或虚假招聘信号。"
+  }
+}

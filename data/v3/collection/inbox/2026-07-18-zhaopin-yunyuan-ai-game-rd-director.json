@@ -1,0 +1,38 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-18T02:00:51+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1523980510J40901397712.htm",
+  "job": {
+    "sourceJobId": "CCL1523980510J40901397712",
+    "title": "研发总监",
+    "company": "深圳市云元智域科技有限公司",
+    "salaryText": "40-60K",
+    "district": "南山区",
+    "addressText": "深圳市南山区金融基地2栋312",
+    "industry": "游戏/人工智能数字人",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责AI棋牌游戏整体技术架构，覆盖高并发服务、AI数字人实时交互、Go后端核心研发，以及Cocos前端、后端、数字人和测试团队的技术管理与研发规范建设；同时推进3D、语音、动作等数字人技术集成和云架构、容器化部署。要求八年以上游戏或互联网研发经验、三年以上团队管理经验，熟悉棋牌或实时游戏，精通Go、微服务和高并发体系，并掌握Cocos、AI数字人、Kubernetes、Docker及CI/CD，能够承担关键技术决策。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "directDetailPageVisible",
+      "activePageVisible",
+      "exactMonthlySalaryVisible",
+      "shenzhenAddressVisible",
+      "completeRequirementsVisible",
+      "directCommunicationVisible",
+      "businessRegistrationVisible"
+    ],
+    "reviewNotes": "智联公开具体岗位详情页当前有效，展示固定月薪40-60K、深圳南山具体地址、完整职责要求与招聘负责人即时沟通入口；企业经平台审核且工商状态存续，AI数字人棋牌游戏业务与研发总监职责相符。详情页未展示明确发布日期，因此以页面当前可沟通、职位仍开放作为新鲜度证据；未发现匿名客户、劳务派遣、收费培训、提成冒充月薪、年薪误读或虚假招聘信号。"
+  }
+}
