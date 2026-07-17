@@ -1,0 +1,40 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-18T01:28:50+08:00",
+  "publishedAt": "2026-06-18",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1524170290J40869093810.htm",
+  "job": {
+    "sourceJobId": "CCL1524170290J40869093810",
+    "title": "伺服软件算法专家(J10732)",
+    "company": "大洋机器人科技(深圳)有限公司",
+    "salaryText": "30-60K",
+    "district": "光明区",
+    "addressText": "深圳市光明区光明科技金融大厦1001",
+    "industry": "工业自动化/机器人",
+    "experience": "5-10年",
+    "education": "硕士",
+    "descriptionText": "主导机器人关节模组伺服算法技术路线与架构，设计并优化电流环、速度环、位置环，以及摩擦、齿隙、转矩波动补偿、振动抑制、扰动观测、参数自整定、阻抗和力位混合控制算法，并完成实机验证、性能优化和技术文档。要求控制、电力电子或机电相关硕士学历，五年以上伺服驱动控制算法经验，具备机器人关节或工业伺服从零到一开发及量产经验，精通控制理论、电机FOC、MATLAB/Simulink和C/C++。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "directDetailPageVisible",
+      "publishedWithin45Days",
+      "exactMonthlySalaryVisible",
+      "shenzhenAddressVisible",
+      "completeRequirementsVisible",
+      "directApplyVisible",
+      "businessRegistrationVisible",
+      "recruiterRecentlyActive"
+    ],
+    "reviewNotes": "智联公开具体详情页显示6月18日更新、立即投递、固定月薪30-60K、深圳光明具体地址及完整职责要求；招聘企业经平台审核，工商状态存续，机器人业务与伺服算法岗位一致，招聘负责人昨日活跃。未发现匿名客户、收费培训、提成冒充月薪或虚假招聘信号。"
+  }
+}

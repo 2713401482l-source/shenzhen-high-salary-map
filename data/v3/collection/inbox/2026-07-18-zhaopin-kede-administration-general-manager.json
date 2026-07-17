@@ -1,0 +1,40 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-18T01:28:50+08:00",
+  "publishedAt": "2026-07-16",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1522651060J40848298111.htm",
+  "job": {
+    "sourceJobId": "CCL1522651060J40848298111",
+    "title": "行政部总经理【上市公司总部】",
+    "company": "苏州科德教育科技股份有限公司深圳分公司",
+    "salaryText": "30-50K·18薪",
+    "district": "福田区",
+    "addressText": "深圳市福田区富德生命保险大厦37F",
+    "industry": "教育、化工",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "全面负责公司行政体系制度建设、流程优化、成本管控与服务提升，统筹后勤保障、固定资产、办公及行政采购、供应商、车辆、会务活动、基建工程和行政团队管理，并控制预算、推动降本增效。要求本科及以上学历，五至八年以上全盘行政管理和团队管理经验，熟悉办公后勤、安保、车辆、基建、采购、环境与消防，具有制造业、园区或集团公司经验者优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "directDetailPageVisible",
+      "publishedWithin45Days",
+      "exactMonthlySalaryVisible",
+      "shenzhenAddressVisible",
+      "completeRequirementsVisible",
+      "directApplyVisible",
+      "businessRegistrationVisible",
+      "employerVerifiedByPlatform"
+    ],
+    "reviewNotes": "智联公开具体详情页显示7月16日更新、立即投递、固定月薪30-50K并另列18薪、深圳福田具体地址及完整职责要求。招聘主体为上市公司深圳分公司，平台审核与存续工商信息齐全，行政管理职责和企业组织场景匹配。未发现匿名客户、收费培训、提成冒充月薪或虚假招聘信号。"
+  }
+}

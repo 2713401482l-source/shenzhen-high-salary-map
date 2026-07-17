@@ -1,0 +1,44 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-18T01:28:50+08:00",
+  "publishedAt": "2026-06-17",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC331664610J40800334616.htm",
+  "job": {
+    "sourceJobId": "CC331664610J40800334616",
+    "title": "高级算法工程师（ROS 2/部署方向）（深圳008）",
+    "company": "拓邦股份",
+    "salaryText": "25-50K",
+    "district": "宝安区",
+    "addressText": "深圳市宝安区拓邦股份园区",
+    "industry": "工业自动化/机器人、电子制造",
+    "experience": "1-3年",
+    "education": "硕士",
+    "descriptionText": "负责具身智能与机器人算法在ROS 2环境中的工程化集成、优化和部署，搭建感知、规划、控制与模型推理链路，推进VLA、Transformer及深度学习模型在机器人硬件上的性能优化和稳定运行。要求硕士及以上学历，具备机器人或人工智能算法经验，熟悉ROS 2、PyTorch、Python和C++，理解Transformer、Attention、导航算法及模型部署流程，能够完成跨模块联调和实际场景验证。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.topband.com/cn/",
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [
+      "https://www.topband.com/cn/",
+      "https://disc.static.szse.cn/disc/disk03/finalpage/2026-04-02/c65c47a1-97a2-4930-8d50-ed11e41d9876.pdf"
+    ],
+    "signals": [
+      "directDetailPageVisible",
+      "publishedWithin45Days",
+      "exactMonthlySalaryVisible",
+      "shenzhenAddressVisible",
+      "completeRequirementsVisible",
+      "directApplyVisible",
+      "businessRegistrationVisible",
+      "employerVerifiedByPlatform"
+    ],
+    "reviewNotes": "智联公开具体岗位详情页显示6月17日更新、立即投递、固定月薪25-50K、深圳宝安工作地点及完整职责要求；招聘企业为经平台审核的上市公司。拓邦官网及深交所年度报告均展示机器人、驱动模组、导航和AI视觉等业务，和具身智能、ROS 2部署职责相符。未发现匿名客户、收费培训、提成冒充月薪或虚假招聘信号。"
+  }
+}
