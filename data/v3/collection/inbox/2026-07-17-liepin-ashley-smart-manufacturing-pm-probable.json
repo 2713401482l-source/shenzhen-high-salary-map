@@ -1,0 +1,38 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "liepin",
+  "sourcePublisher": "猎聘",
+  "captureMethod": "search-index-discovery",
+  "capturedAt": "2026-07-17T10:32:16+08:00",
+  "publishedAt": "2026-07-06",
+  "sourceUrl": "https://www.liepin.com/job/1983927387.shtml",
+  "job": {
+    "sourceJobId": "1983927387",
+    "title": "外企｜产品经理（智能制造系统）",
+    "company": "爱室丽家居(上海)有限公司深圳分公司",
+    "salaryText": "30-50K·13薪",
+    "district": "南山区",
+    "addressText": "深圳市南山区万象天地",
+    "industry": "家居/智能制造",
+    "experience": "5年以上",
+    "education": "本科",
+    "descriptionText": "公开搜索索引显示，该岗位面向智能制造系统和工厂运营场景，负责需求调研、产品规划、方案设计、项目交付与持续优化，覆盖MES、APS、制造运营以及AI在生产流程中的应用。岗位要求本科及以上学历，具备五年以上制造业数字化产品、业务分析、FDE、IT咨询或相关经验，能够理解复杂业务流程，完成跨部门沟通、需求拆解和产品落地，并使用英文与全球团队协作。"
+  },
+  "verification": {
+    "pageActiveAtCapture": false,
+    "searchResultFreshAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "indexedWithin30Days",
+      "namedEmployerInSearchIndex",
+      "exactMonthlySalaryInSearchIndex",
+      "shenzhenAddressInSearchIndex",
+      "completeRequirementsInSearchIndex"
+    ],
+    "reviewNotes": "仅作为高概率发现层候选保存。搜索索引在采集时显示实名公司、深圳具体地点、固定月薪、完整职责要求和45天内日期；猎聘详情访问触发安全校验后已立即停止，因此未将其计为详情核验样本，前端来源入口应保持隐藏。"
+  }
+}

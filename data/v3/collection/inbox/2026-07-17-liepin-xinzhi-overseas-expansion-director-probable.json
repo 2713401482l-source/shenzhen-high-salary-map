@@ -1,0 +1,38 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "liepin",
+  "sourcePublisher": "猎聘",
+  "captureMethod": "search-index-discovery",
+  "capturedAt": "2026-07-17T10:32:16+08:00",
+  "publishedAt": "2026-07-13",
+  "sourceUrl": "https://www.liepin.com/job/1974713229.shtml",
+  "job": {
+    "sourceJobId": "1974713229",
+    "title": "海外拓展总监",
+    "company": "芯智控股",
+    "salaryText": "30-60K",
+    "district": "南山区",
+    "addressText": "深圳市南山区粤海街道科苑路金融科技大厦16楼",
+    "industry": "电子/半导体/集成电路",
+    "experience": "经验不限",
+    "education": "本科",
+    "descriptionText": "公开搜索索引显示，该岗位负责制定海外市场拓展战略和年度计划，开发并维护海外客户与渠道伙伴，推动项目落地、商务谈判及销售目标达成，并持续收集市场、竞争对手和客户需求信息。岗位要求具备海外市场开拓、国际商务或半导体相关业务经验，拥有较强的英文沟通、跨文化协作、商务谈判和团队管理能力，能够适应海外出差并独立推进复杂项目。"
+  },
+  "verification": {
+    "pageActiveAtCapture": false,
+    "searchResultFreshAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "indexedWithin30Days",
+      "namedEmployerInSearchIndex",
+      "exactMonthlySalaryInSearchIndex",
+      "shenzhenAddressInSearchIndex",
+      "completeRequirementsInSearchIndex"
+    ],
+    "reviewNotes": "仅作为高概率发现层候选保存。搜索索引在采集时显示实名公司、深圳具体地址、固定月薪、完整职责要求和近期发布信号；猎聘详情访问触发安全校验后已立即停止，因此未将其计为详情核验样本，前端来源入口应保持隐藏。"
+  }
+}
