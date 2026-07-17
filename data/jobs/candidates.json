@@ -2678,5 +2678,94 @@
       "reviewNotes": "本条仅进入高概率发现层：公开索引在采集日显示深圳盐田区、固定月薪30-50K并标注14薪、5-10年、本科、明确公司和具体岗位URL，标题与职责一致。未把索引摘要当作详情证据，不参与正式市场、薪资或技能分析，前端隐藏来源入口；后续若详情复核通过再晋级。"
     },
     "duplicateFingerprint": "ab68cb4cfaf9a2e810f0"
+  },
+  {
+    "id": "zhaopin-b24e40762ffe48ecb8dc",
+    "sourceJobId": "CCL1474860650J40913191112",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "Digital Agent开发工程师",
+    "company": "深圳市塞防科技有限公司",
+    "salaryText": "25-50K·15薪",
+    "salaryMin": 25,
+    "salaryMax": 50,
+    "salaryMonths": 15,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "深圳市南山区南山智城-A2栋23层",
+    "industry": "人工智能、物联网、船舶/航空/航天/军工",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionExcerpt": "面向防空指挥、目标分配和反制策略生成设计垂直领域智能体，建设多智能体协同、分布式决策、AI建议与硬件接口闭环，并在Mesh组网和低时延环境中优化指令同步。要求具备三至五年以上软件开发经验，核心参与过Agent框架、企业级RAG或自动化决策项目，精通Python及Go或C++，熟悉LangChain、LangGraph、CrewAI等编排框架和分布式消息协议，",
+    "requirementText": "面向防空指挥、目标分配和反制策略生成设计垂直领域智能体，建设多智能体协同、分布式决策、AI建议与硬件接口闭环，并在Mesh组网和低时延环境中优化指令同步。要求具备三至五年以上软件开发经验，核心参与过Agent框架、企业级RAG或自动化决策项目，精通Python及Go或C++，熟悉LangChain、LangGraph、CrewAI等编排框架和分布式消息协议，并能够输出完整技术方案。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1474860650J40913191112.htm",
+    "capturedAt": "2026-07-18T00:48:49+08:00",
+    "publishedAt": "2026-06-15",
+    "status": "candidate",
+    "evidenceLevel": "public-platform-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "manual-review",
+      "score": 75,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 10,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 33,
+      "probableScore": 95,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": false,
+      "marketDemand": false,
+      "salary": false,
+      "skills": false,
+      "companyExpansion": false
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "corroboratingUrls": [],
+      "signals": [
+        "directDetailPageVisible",
+        "publishedWithin45Days",
+        "exactMonthlySalaryVisible",
+        "shenzhenAddressVisible",
+        "completeRequirementsVisible",
+        "directApplyVisible",
+        "businessRegistrationVisible",
+        "employerVerifiedByPlatform"
+      ],
+      "reviewNotes": "智联公开具体详情页显示6月15日更新、立即投递、深圳南山区具体工作地点、固定月薪25-50K并另列15薪、完整职责及任职要求。用人企业实名且经平台审核，工商状态存续；岗位中的防空指挥、多智能体与反制策略工程内容和企业低空安全业务方向一致。"
+    },
+    "duplicateFingerprint": "41040383ac27194e51a3"
   }
 ]

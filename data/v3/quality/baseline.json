@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-17T16:44:44.278Z",
+  "generatedAt": "2026-07-17T17:10:51.321Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 238,
-    "verifiedDetailJobs": 159,
-    "listingOnlyJobs": 79,
+    "usableJobs": 243,
+    "verifiedDetailJobs": 163,
+    "listingOnlyJobs": 80,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 171,
-    "uniqueCompanies": 199,
-    "uniqueRawTitles": 222,
+    "fullRequirementJobs": 176,
+    "uniqueCompanies": 200,
+    "uniqueRawTitles": 227,
     "captureDates": 5
   },
   "distributions": {
     "salaryBands": {
-      "50K": 119,
-      "30K": 87,
+      "50K": 121,
+      "30K": 90,
       "100K": 32
     },
     "evidenceLevels": {
-      "public-platform-detail": 150,
+      "public-platform-detail": 155,
       "boss-listing": 67,
       "public-index-probable": 9,
       "boss-detail": 8,
@@ -31,7 +31,7 @@
       "2026-07-17": 61,
       "2026-07-16": 57,
       "2026-07-15": 46,
-      "2026-07-18": 3
+      "2026-07-18": 8
     },
     "industries": {
       "计算机软件": 12,
@@ -145,6 +145,7 @@
       "人工智能、工业自动化/机器人": 1,
       "人工智能、航空航天与新材料": 1,
       "人工智能、技术服务、物流科技": 1,
+      "人工智能、物联网、船舶/航空/航天/军工": 1,
       "人工智能、云计算、企业数字化解决方案": 1,
       "人工智能/大数据/云计算": 1,
       "人工智能/大数据/云计算/政企信息化": 1,
@@ -167,8 +168,11 @@
       "通信网络、ICT、云计算": 1,
       "通用设备制造、数控机床与智能装备": 1,
       "通用设备制造、智能制造": 1,
+      "五金卫浴建材制造与外贸出口": 1,
       "物理AI仿真、机器人软件": 1,
+      "物联网、船舶/航空/航天/军工": 1,
       "物联网、船舶/航空/航天/军工、工业自动化/机器人": 1,
+      "物联网、船舶/航空/航天/军工、人工智能": 1,
       "物联网、软件与IT服务": 1,
       "物联网/船舶航空航天军工": 1,
       "物业管理、云计算、物联网": 1,
@@ -192,6 +196,7 @@
       "医药制造/生物制药/学术推广": 1,
       "证券/期货": 1,
       "智慧农业/人工智能": 1,
+      "智能硬件、船舶/航空/航天/军工": 1,
       "智能硬件、液晶显示、自动化设备": 1,
       "智能硬件/智能相机/半导体芯片": 1,
       "智能制造/机器人、半导体/芯片": 1,
@@ -205,11 +210,11 @@
       "PCB设备、工业自动化与半导体检测": 1
     },
     "districts": {
-      "南山区": 100,
+      "南山区": 104,
       "宝安区": 46,
       "龙岗区": 20,
+      "龙华区": 19,
       "光明区": 18,
-      "龙华区": 18,
       "福田区": 16,
       "深圳": 12,
       "罗湖区": 4,
@@ -225,6 +230,10 @@
   "expansionCandidates": [
     {
       "company": "深圳市皓文电子股份有限公司",
+      "count": 6
+    },
+    {
+      "company": "深圳市塞防科技有限公司",
       "count": 6
     },
     {
@@ -296,10 +305,6 @@
       "count": 2
     },
     {
-      "company": "深圳市塞防科技有限公司",
-      "count": 2
-    },
-    {
       "company": "深圳市先创数字技术有限公司",
       "count": 2
     },
@@ -320,12 +325,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 238,
+      "current": 243,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 159,
+      "current": 163,
       "required": 240,
       "passed": false
     },
@@ -344,7 +349,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "159/238 条完成详情核验",
+      "evidence": "163/243 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {
