@@ -1,0 +1,30 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-17T08:51:28+08:00",
+  "publishedAt": "2026-07-02",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1309918150J40873221614.htm",
+  "job": {
+    "sourceJobId": "CCL1309918150J40873221614",
+    "title": "法务BP总监",
+    "company": "万物云空间科技服务股份有限公司",
+    "salaryText": "50-80K",
+    "district": "福田区",
+    "addressText": "深圳福田区创智云中心T3",
+    "industry": "物业管理、云计算、物联网",
+    "experience": "10年以上",
+    "education": "本科",
+    "descriptionText": "负责物业服务、采购和合作协议的合同全生命周期管理，为经营决策和商业模式提供法律意见，统筹诉讼仲裁、合规风控体系、应收账款及劳动用工专项风险，并跟踪行业立法、建立案例库和输出合规指引。要求法学统招本科及以上、通过A类法律职业资格考试，8年以上法律实务和3年以上大型企业法务管理经验；头部物业、地产或大型服务企业法务BP经验及数字化法务工具经验优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["recentPublicationDate", "activeApplyEntry", "platformBusinessLicenseVerified", "activeRecruiter"],
+    "reviewNotes": "智联独立详情页显示深圳福田区具体地址、固定月薪5-8万、完整职责和要求，7月2日更新，采集时可立即投递且招聘经理昨日活跃。上市公司主体、工商信息及营业执照明确并经平台审核，不是匿名客户或猎头代招；未发现收费培训、提成冒充月薪、年薪误读或失效信号。"
+  }
+}

@@ -2752,6 +2752,90 @@
     "duplicateFingerprint": "edb822b14771fe82b817"
   },
   {
+    "id": "zhaopin-0b8db6aafdb447e29fa7",
+    "sourceJobId": "CCL1309918150J40873221614",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "法务BP总监",
+    "company": "万物云空间科技服务股份有限公司",
+    "salaryText": "50-80K",
+    "salaryMin": 50,
+    "salaryMax": 80,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "福田区",
+    "addressText": "深圳福田区创智云中心T3",
+    "industry": "物业管理、云计算、物联网",
+    "experience": "10年以上",
+    "education": "本科",
+    "descriptionExcerpt": "负责物业服务、采购和合作协议的合同全生命周期管理，为经营决策和商业模式提供法律意见，统筹诉讼仲裁、合规风控体系、应收账款及劳动用工专项风险，并跟踪行业立法、建立案例库和输出合规指引。要求法学统招本科及以上、通过A类法律职业资格考试，8年以上法律实务和3年以上大型企业法务管理经验；头部物业、地产或大型服务企业法务BP经验及数字化法务工具经验优先。",
+    "requirementText": "负责物业服务、采购和合作协议的合同全生命周期管理，为经营决策和商业模式提供法律意见，统筹诉讼仲裁、合规风控体系、应收账款及劳动用工专项风险，并跟踪行业立法、建立案例库和输出合规指引。要求法学统招本科及以上、通过A类法律职业资格考试，8年以上法律实务和3年以上大型企业法务管理经验；头部物业、地产或大型服务企业法务BP经验及数字化法务工具经验优先。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1309918150J40873221614.htm",
+    "capturedAt": "2026-07-17T08:51:28+08:00",
+    "publishedAt": "2026-07-02",
+    "verifiedAt": "2026-07-17T08:51:28+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 15,
+      "probableScore": 95,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "recentPublicationDate",
+        "activeApplyEntry",
+        "platformBusinessLicenseVerified",
+        "activeRecruiter"
+      ],
+      "reviewNotes": "智联独立详情页显示深圳福田区具体地址、固定月薪5-8万、完整职责和要求，7月2日更新，采集时可立即投递且招聘经理昨日活跃。上市公司主体、工商信息及营业执照明确并经平台审核，不是匿名客户或猎头代招；未发现收费培训、提成冒充月薪、年薪误读或失效信号。"
+    },
+    "duplicateFingerprint": "7fa92fce28a23bd2c949"
+  },
+  {
     "id": "zhaopin-0cbe90c22c78f0dcb25f",
     "sourceJobId": "CC179499310J40846970611",
     "sourcePlatform": "zhaopin",
@@ -3592,6 +3676,90 @@
     "duplicateFingerprint": "e9d62743547623fc5d74"
   },
   {
+    "id": "zhaopin-1bcbfae6744316706952",
+    "sourceJobId": "CCL1514361810J40874655609",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "高级架构师",
+    "company": "深圳市普洛西科技有限公司",
+    "salaryText": "35-45K",
+    "salaryMin": 35,
+    "salaryMax": 45,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "宝安区",
+    "addressText": "深圳宝安区前海卓越宝中时代广场C座25楼",
+    "industry": "互联网电商",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionExcerpt": "作为应用层开发核心架构负责人，串联后端、数据和产品业务团队，主导亚马逊业务系统从0到1的架构规划、分库分表、服务拆分、限流容灾、数据链路标准及线上风险治理，并探索大模型、向量数据库与RAG在跨境运营中的落地。要求5年以上亚马逊跨境系统后端开发经验、至少2年架构设计经验，精通分布式架构、缓存、分库分表、性能调优和容灾建设，熟悉亚马逊商品、订单、广告、利润及风控",
+    "requirementText": "作为应用层开发核心架构负责人，串联后端、数据和产品业务团队，主导亚马逊业务系统从0到1的架构规划、分库分表、服务拆分、限流容灾、数据链路标准及线上风险治理，并探索大模型、向量数据库与RAG在跨境运营中的落地。要求5年以上亚马逊跨境系统后端开发经验、至少2年架构设计经验，精通分布式架构、缓存、分库分表、性能调优和容灾建设，熟悉亚马逊商品、订单、广告、利润及风控全链路，统招本科；有AI架构、多商户隔离和跨部门规范制定经验者优先。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1514361810J40874655609.htm",
+    "capturedAt": "2026-07-17T08:51:28+08:00",
+    "publishedAt": "2026-07-16",
+    "verifiedAt": "2026-07-17T08:51:28+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 1,
+      "probableScore": 95,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "recentPublicationDate",
+        "activeApplyEntry",
+        "platformBusinessLicenseVerified",
+        "activeRecruiter"
+      ],
+      "reviewNotes": "智联独立详情页显示深圳宝安区具体地址、固定月薪3.5-4.5万、完整职责与任职要求，7月16日更新，采集时可立即投递且招聘负责人昨日活跃。公司主体和营业执照已由平台审核，不是匿名客户或中介代招，未发现收费培训、提成冒充月薪、年薪误读或岗位失效信号。"
+    },
+    "duplicateFingerprint": "6aeaa46f9162d4d0de77"
+  },
+  {
     "id": "zhaopin-1c3cacad382349bdff7b",
     "sourceJobId": "CCL1474860650J40904547312",
     "sourcePlatform": "zhaopin",
@@ -4049,6 +4217,94 @@
       "reviewNotes": "岗位由持证人力资源服务公司发布，详情页明确披露最终客户深圳市衍星科技有限公司及客户地址；页面顶部写10年以上，正文写5年以上相关经验，已保留矛盾标记。"
     },
     "duplicateFingerprint": "9e7673984090ca43631b"
+  },
+  {
+    "id": "zhaopin-371b997e68241d3c1982",
+    "sourceJobId": "CC280373830J40807161005",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "高级软件架构师",
+    "company": "深圳市华汉伟业科技有限公司",
+    "salaryText": "20-40K",
+    "salaryMin": 20,
+    "salaryMax": 40,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "深圳南山区深圳国际创新谷6栋A座17楼",
+    "industry": "工业自动化/机器人、仪器仪表、机器视觉",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionExcerpt": "负责机器视觉软件系统架构设计，覆盖相机、光源、镜头和视觉引导模块，制定产品系统功能规范；保证架构具备可维护性和扩展性，协调图像处理算法模块并制定测试验证方案，分析实验数据、定位现场问题，推动机器视觉系统商业化落地。要求统招本科及以上学历，电子工程、通信工程、计算机或自动化相关专业，具备5年以上经验，掌握计算机组成原理、操作系统、数据结构、设计模式与网络通信，",
+    "requirementText": "负责机器视觉软件系统架构设计，覆盖相机、光源、镜头和视觉引导模块，制定产品系统功能规范；保证架构具备可维护性和扩展性，协调图像处理算法模块并制定测试验证方案，分析实验数据、定位现场问题，推动机器视觉系统商业化落地。要求统招本科及以上学历，电子工程、通信工程、计算机或自动化相关专业，具备5年以上经验，掌握计算机组成原理、操作系统、数据结构、设计模式与网络通信，对机器视觉软硬件模块、测试方法和系统集成有深入经验；有机器视觉系统量产开发并实现批量销售经验者优先。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC280373830J40807161005.htm",
+    "capturedAt": "2026-07-17T08:31:28+08:00",
+    "publishedAt": "2026-07-08",
+    "verifiedAt": "2026-07-17T08:31:28+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 9,
+      "probableScore": 95,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://www.hhwytech.com/",
+      "corroboratingUrls": [
+        "https://www.hhwytech.com/overview"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "recentPublicationDate",
+        "activeApplyEntry",
+        "platformBusinessLicenseVerified",
+        "officialWebsiteCorroboration"
+      ],
+      "reviewNotes": "智联独立详情页明确展示深圳南山区具体地址、固定月薪2-4万、3-5年、本科、全职、招3人、完整职责与要求，标注7月8日更新且采集时仍可立即投递。用人企业为平台已审核的深圳市华汉伟业科技有限公司，并与企业官网主体及机器视觉业务一致，不是匿名客户或中介代招。未发现收费、培训、押金、提成冒充月薪、年薪误读或标题职责错配。"
+    },
+    "duplicateFingerprint": "252d3c9031a0fae27f8b"
   },
   {
     "id": "zhaopin-3c13bce46505fb780ae3",
@@ -8714,6 +8970,95 @@
     "duplicateFingerprint": "06e47cba18bf0afeac84"
   },
   {
+    "id": "zhaopin-d1322ba853f20f06698d",
+    "sourceJobId": "CCL1459983570J40949159715",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "法务经理/总监（IPO与知识产权方向）",
+    "company": "深圳君佩珠宝集团有限公司",
+    "salaryText": "30-50K",
+    "salaryMin": 30,
+    "salaryMax": 50,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "罗湖区",
+    "addressText": "深圳罗湖区京基100大厦A座",
+    "industry": "珠宝首饰批发零售",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionExcerpt": "负责珠宝行业合规政策跟踪、合同全流程、商标专利知识产权战略、经营法律风险、复杂诉讼、法务团队管理、外部律所资源协调及重大经营决策法律支持。要求法律专业本科及以上学历，5年以上企业法务管理经验，精通合同与知识产权法律法规，具备法律文书、沟通协调、团队管理和复杂法律事务处理能力，并具备IPO上市及知识产权相关经验。",
+    "requirementText": "负责珠宝行业合规政策跟踪、合同全流程、商标专利知识产权战略、经营法律风险、复杂诉讼、法务团队管理、外部律所资源协调及重大经营决策法律支持。要求法律专业本科及以上学历，5年以上企业法务管理经验，精通合同与知识产权法律法规，具备法律文书、沟通协调、团队管理和复杂法律事务处理能力，并具备IPO上市及知识产权相关经验。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1459983570J40949159715.htm",
+    "capturedAt": "2026-07-17T08:51:28+08:00",
+    "publishedAt": "2026-06-13",
+    "verifiedAt": "2026-07-17T08:51:28+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 10,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 34,
+      "probableScore": 95,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://junpeizhubao.com/",
+      "corroboratingUrls": [
+        "https://junpeizhubao.com/pinpaijianjie.html"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "recentPublicationDate",
+        "activeApplyEntry",
+        "platformBusinessLicenseVerified",
+        "multipleOpenRoles",
+        "officialWebsiteCorroboration"
+      ],
+      "reviewNotes": "智联独立详情页显示深圳罗湖区京基100具体地址、固定月薪3-5万、完整职责与要求，6月13日更新且采集时仍可立即投递。企业主体、工商信息和营业执照明确并经平台审核，当前有63个在招职位，不是匿名客户或中介代招；未发现收费培训、提成冒充月薪或年薪误读。"
+    },
+    "duplicateFingerprint": "9135ebf99cd96ece116d"
+  },
+  {
     "id": "zhaopin-d27e57478852f6f4170f",
     "sourceJobId": "CC852790960J40751386006",
     "sourcePlatform": "zhaopin",
@@ -9173,6 +9518,90 @@
       "reviewNotes": "智联具体岗位详情页展示固定月薪40-60K并单独标注15薪、深圳南山区具体办公地址、招聘1人、可立即投递，以及完整的DCIM云化微服务架构职责与技术要求；发布主体为平台已审核的烟台杰瑞石油服务集团股份有限公司，企业官网公开业务与集团主体信息。未发现收费、付费培训、匿名客户、提成冒充固定月薪或地点矛盾信号。"
     },
     "duplicateFingerprint": "8bd802aaa663fc666e0d"
+  },
+  {
+    "id": "zhaopin-e29f798fcfd246315b74",
+    "sourceJobId": "CCL1485298180J40985224002",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "法务总监",
+    "company": "深圳易储数智能源集团有限公司",
+    "salaryText": "35-50K",
+    "salaryMin": 35,
+    "salaryMax": 50,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "深圳南山区科兴科学园A2栋8楼801-805室",
+    "industry": "储能",
+    "experience": "5-10年",
+    "education": "硕士",
+    "descriptionExcerpt": "负责搭建和管理公司法务体系，覆盖经营风险识别、投融资、知识产权、数据合规、劳动用工、重大合同、诉讼仲裁及外部法律资源管理。要求法律相关专业硕士及以上学历，持A类法律职业资格证或律师执业证，8年以上法律工作经验及3年以上企业法务管理经验，熟悉民法典、公司法、知识产权、数据安全及个人信息保护法规；新能源、储能或电力投资行业经验优先。",
+    "requirementText": "负责搭建和管理公司法务体系，覆盖经营风险识别、投融资、知识产权、数据合规、劳动用工、重大合同、诉讼仲裁及外部法律资源管理。要求法律相关专业硕士及以上学历，持A类法律职业资格证或律师执业证，8年以上法律工作经验及3年以上企业法务管理经验，熟悉民法典、公司法、知识产权、数据安全及个人信息保护法规；新能源、储能或电力投资行业经验优先。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1485298180J40985224002.htm",
+    "capturedAt": "2026-07-17T08:51:28+08:00",
+    "publishedAt": "2026-06-17",
+    "verifiedAt": "2026-07-17T08:51:28+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 30,
+      "probableScore": 95,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "recentPublicationDate",
+        "activeApplyEntry",
+        "platformBusinessLicenseVerified",
+        "multipleOpenRoles"
+      ],
+      "reviewNotes": "智联独立详情页显示深圳南山区具体办公地址、固定月薪3.5-5万、完整职责与要求，6月17日更新，采集时仍可立即投递。用人企业主体、工商信息和营业执照均明确且平台已审核，当前有多个在招职位，不是匿名客户或猎头代招；未发现收费、培训、提成或年薪误读。"
+    },
+    "duplicateFingerprint": "33fbc1dc7a505186c87d"
   },
   {
     "id": "zhaopin-e2fa48d353d3af765dae",

@@ -1,0 +1,32 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-17T08:51:28+08:00",
+  "publishedAt": "2026-06-13",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1459983570J40949159715.htm",
+  "job": {
+    "sourceJobId": "CCL1459983570J40949159715",
+    "title": "法务经理/总监（IPO与知识产权方向）",
+    "company": "深圳君佩珠宝集团有限公司",
+    "salaryText": "30-50K",
+    "district": "罗湖区",
+    "addressText": "深圳罗湖区京基100大厦A座",
+    "industry": "珠宝首饰批发零售",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责珠宝行业合规政策跟踪、合同全流程、商标专利知识产权战略、经营法律风险、复杂诉讼、法务团队管理、外部律所资源协调及重大经营决策法律支持。要求法律专业本科及以上学历，5年以上企业法务管理经验，精通合同与知识产权法律法规，具备法律文书、沟通协调、团队管理和复杂法律事务处理能力，并具备IPO上市及知识产权相关经验。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://junpeizhubao.com/",
+    "corroboratingUrls": ["https://junpeizhubao.com/pinpaijianjie.html"],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["recentPublicationDate", "activeApplyEntry", "platformBusinessLicenseVerified", "multipleOpenRoles", "officialWebsiteCorroboration"],
+    "reviewNotes": "智联独立详情页显示深圳罗湖区京基100具体地址、固定月薪3-5万、完整职责与要求，6月13日更新且采集时仍可立即投递。企业主体、工商信息和营业执照明确并经平台审核，当前有63个在招职位，不是匿名客户或中介代招；未发现收费培训、提成冒充月薪或年薪误读。"
+  }
+}

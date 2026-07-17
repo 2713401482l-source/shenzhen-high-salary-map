@@ -1,0 +1,32 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-17T08:31:28+08:00",
+  "publishedAt": "2026-07-08",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC280373830J40807161005.htm",
+  "job": {
+    "sourceJobId": "CC280373830J40807161005",
+    "title": "高级软件架构师",
+    "company": "深圳市华汉伟业科技有限公司",
+    "salaryText": "20-40K",
+    "district": "南山区",
+    "addressText": "深圳南山区深圳国际创新谷6栋A座17楼",
+    "industry": "工业自动化/机器人、仪器仪表、机器视觉",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "负责机器视觉软件系统架构设计，覆盖相机、光源、镜头和视觉引导模块，制定产品系统功能规范；保证架构具备可维护性和扩展性，协调图像处理算法模块并制定测试验证方案，分析实验数据、定位现场问题，推动机器视觉系统商业化落地。要求统招本科及以上学历，电子工程、通信工程、计算机或自动化相关专业，具备5年以上经验，掌握计算机组成原理、操作系统、数据结构、设计模式与网络通信，对机器视觉软硬件模块、测试方法和系统集成有深入经验；有机器视觉系统量产开发并实现批量销售经验者优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.hhwytech.com/",
+    "corroboratingUrls": ["https://www.hhwytech.com/overview"],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["recentPublicationDate", "activeApplyEntry", "platformBusinessLicenseVerified", "officialWebsiteCorroboration"],
+    "reviewNotes": "智联独立详情页明确展示深圳南山区具体地址、固定月薪2-4万、3-5年、本科、全职、招3人、完整职责与要求，标注7月8日更新且采集时仍可立即投递。用人企业为平台已审核的深圳市华汉伟业科技有限公司，并与企业官网主体及机器视觉业务一致，不是匿名客户或中介代招。未发现收费、培训、押金、提成冒充月薪、年薪误读或标题职责错配。"
+  }
+}
