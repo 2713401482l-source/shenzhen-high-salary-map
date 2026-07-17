@@ -1,0 +1,40 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-18T00:48:49+08:00",
+  "publishedAt": "2026-06-24",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1474860650J40904509112.htm",
+  "job": {
+    "sourceJobId": "CCL1474860650J40904509112",
+    "title": "售前解决方案技术副总监/总监(A87681)",
+    "company": "深圳市塞防科技有限公司",
+    "salaryText": "35-70K·15薪",
+    "district": "南山区",
+    "addressText": "深圳市南山区南山智城-A2栋23楼",
+    "industry": "物联网、船舶/航空/航天/军工",
+    "experience": "5-10年",
+    "education": "不限",
+    "descriptionText": "负责反无人机及低空安全业务的售前解决方案体系建设、重大项目技术统筹和团队管理，面向政府及企业客户完成需求分析、方案设计、技术交流、投标支持和交付衔接。要求具备六年以上ToG或ToB售前经验、三年以上团队管理经验，主导过千万级政府项目，能够建立标准化售前流程、知识库和质量机制；具备低空经济、安防或反无人机行业背景优先，并要求英语达到工作沟通水平。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "directDetailPageVisible",
+      "publishedWithin45Days",
+      "exactMonthlySalaryVisible",
+      "shenzhenAddressVisible",
+      "completeRequirementsVisible",
+      "directApplyVisible",
+      "businessRegistrationVisible",
+      "employerVerifiedByPlatform"
+    ],
+    "reviewNotes": "智联公开具体岗位详情页在采集时可直接访问并展示立即投递入口，明确标注6月24日更新、深圳南山区具体办公地址、固定月薪35-70K并另列15薪、完整职责和任职要求。用人企业实名且经平台审核，工商信息显示存续，岗位所述低空安全与反无人机售前工作和企业主营方向一致。"
+  }
+}

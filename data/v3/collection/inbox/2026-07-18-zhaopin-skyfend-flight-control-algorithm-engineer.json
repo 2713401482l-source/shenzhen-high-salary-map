@@ -1,0 +1,40 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-18T00:48:49+08:00",
+  "publishedAt": "2026-07-01",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1474860650J40824388312.htm",
+  "job": {
+    "sourceJobId": "CCL1474860650J40824388312",
+    "title": "飞控算法工程师（无人机）(A178772)",
+    "company": "深圳市塞防科技有限公司",
+    "salaryText": "30-60K·15薪",
+    "district": "南山区",
+    "addressText": "深圳市南山区南山智城-A2栋23层",
+    "industry": "智能硬件、船舶/航空/航天/军工",
+    "experience": "经验不限",
+    "education": "硕士",
+    "descriptionText": "主导无人机制导与飞行控制算法开发，设计姿态控制、轨迹跟踪、运动估计和路径规划策略，完成仿真测试并推动算法与瑞芯微3588、英伟达NX等硬件平台集成。要求硕士及以上学历，精通C/C++与Python，熟悉ROS或ROS2、Linux、PID、KF或EKF状态估计，以及PX4或APM开源飞控架构；需要具备两年以上制导算法开发及PX4整机调试经验。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "directDetailPageVisible",
+      "publishedWithin45Days",
+      "exactMonthlySalaryVisible",
+      "shenzhenAddressVisible",
+      "completeRequirementsVisible",
+      "directApplyVisible",
+      "businessRegistrationVisible",
+      "employerVerifiedByPlatform"
+    ],
+    "reviewNotes": "智联具体岗位详情页在采集时仍有效并提供立即投递，显示7月1日更新、深圳南山区具体地址、固定月薪30-60K并另列15薪、完整职责与要求。实名企业经平台审核且工商状态存续，岗位的无人机飞控与制导职责同企业反无人机业务方向吻合。"
+  }
+}

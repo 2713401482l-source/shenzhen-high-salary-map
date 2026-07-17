@@ -1,0 +1,41 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-18T00:48:49+08:00",
+  "publishedAt": "2026-07-18",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1474860650J40918869912.htm",
+  "job": {
+    "sourceJobId": "CCL1474860650J40918869912",
+    "title": "仿真算法工程师",
+    "company": "深圳市塞防科技有限公司",
+    "salaryText": "25-50K·15薪",
+    "district": "南山区",
+    "addressText": "深圳市南山区南山智城-A2栋",
+    "industry": "物联网、船舶/航空/航天/军工、人工智能",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "负责基于Unreal Engine构建城市、园区、机场和能源设施等高保真低空场景，建设视觉算法训练所需的合成数据工具链，并集成AirSim、PX4和ROS完成无人机仿真、动力学与传感器建模。要求本科及以上学历、三年以上仿真平台或无人机仿真经验，熟练使用C++或Python，具备UE4或UE5项目经验，并熟悉AirSim、Gazebo、CARLA、Isaac Sim或ROS生态中的至少一种。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "directDetailPageVisible",
+      "publishedWithin45Days",
+      "exactMonthlySalaryVisible",
+      "shenzhenAddressVisible",
+      "completeRequirementsVisible",
+      "directApplyVisible",
+      "recruiterRecentlyActive",
+      "businessRegistrationVisible",
+      "employerVerifiedByPlatform"
+    ],
+    "reviewNotes": "智联公开详情页显示当天更新、立即投递、深圳南山区具体工作地点、固定月薪25-50K并另列15薪，以及完整职责和任职要求。发布者三日内活跃，用人企业实名且经平台审核，工商状态存续；岗位技术栈与企业无人机防控业务具有合理一致性。"
+  }
+}
