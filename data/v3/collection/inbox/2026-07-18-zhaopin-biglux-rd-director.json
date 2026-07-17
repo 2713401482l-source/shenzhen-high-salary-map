@@ -1,0 +1,41 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-18T00:38:48+08:00",
+  "publishedAt": "2026-07-02",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC693563030J40860136811.htm",
+  "job": {
+    "sourceJobId": "CC693563030J40860136811",
+    "title": "研发总监",
+    "company": "深圳市大照视界科技有限公司",
+    "salaryText": "35-50K",
+    "district": "宝安区",
+    "addressText": "深圳市宝安区石岩街道龙腾社区光明路66号",
+    "industry": "电气机械/电力设备、半导体/芯片",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "面向北美、欧洲、澳洲、中东等国际市场，负责移动太阳能监控塔产品的研发战略、技术路线和迭代规划；主导太阳能供电、储能、低功耗监控、AI识别、5G传输与远程群控等核心技术研发，搭建新能源、结构、物联网和工业设计跨领域团队，并把海外客户反馈转化为产品改进计划。要求本科及以上学历，10年以上研发经验及5年以上研发管理经验，熟悉太阳能、智能安防、物联网或监控系统集成，掌握设计、测试、打样和量产全流程，了解ISO、CE、ETL、SAA等国际认证及跨境合规，能够使用英语进行技术沟通并具备国际化产品商业落地能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "directDetailPageVisible",
+      "publishedWithin45Days",
+      "exactMonthlySalaryVisible",
+      "shenzhenAddressVisible",
+      "completeRequirementsVisible",
+      "directApplyVisible",
+      "recruiterRecentlyActive",
+      "businessRegistrationVisible",
+      "employerVerifiedByPlatform"
+    ],
+    "reviewNotes": "公开具体岗位页在采集时可直接查看，显示7月2日更新、立即投递、深圳宝安具体地址、实名且平台已审核的用人企业、固定月薪、完整职责和任职要求。招聘方采集时刚刚活跃，企业工商信息显示存续，职位内容与公司移动太阳能和海外市场业务介绍一致。"
+  }
+}
