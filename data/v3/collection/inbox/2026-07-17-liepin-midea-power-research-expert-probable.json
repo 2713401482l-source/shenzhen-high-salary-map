@@ -1,0 +1,30 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "liepin",
+  "sourcePublisher": "猎聘",
+  "captureMethod": "search-index-discovery",
+  "capturedAt": "2026-07-17T10:01:49+08:00",
+  "sourceUrl": "https://www.liepin.com/job/1982729045.shtml",
+  "job": {
+    "sourceJobId": "1982729045",
+    "title": "电力研究专家",
+    "company": "美的集团",
+    "salaryText": "35-65K·18薪",
+    "district": "南山区",
+    "addressText": "深圳市南山区",
+    "industry": "电力技术/新能源",
+    "experience": "10年以上",
+    "education": "硕士",
+    "descriptionText": "公开索引显示岗位负责电力产品技术研究与创新、关键技术突破、行业趋势和竞品核心功能分析，推动技术升级并培养技术骨干和建设培训体系。要求硕士以上、十年以上电力产品研发和技术积累，熟悉电力行业协议标准与产品特性，能够洞察前沿技术与行业变化、制定实施方案并进行跨项目和跨团队协作。"
+  },
+  "verification": {
+    "pageActiveAtCapture": false,
+    "searchResultFreshAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": ["indexedWithin30Days", "namedEmployerInSearchIndex", "exactMonthlySalaryInSearchIndex"]
+  }
+}

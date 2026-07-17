@@ -13,9 +13,9 @@
   },
   "totals": {
     "discovery": {
-      "actual": 223,
+      "actual": 228,
       "target": 720,
-      "gap": 497
+      "gap": 492
     },
     "detailEvidence": {
       "actual": 153,
@@ -23,7 +23,7 @@
       "gap": 87
     },
     "assignedToV3Queue": 7,
-    "legacyUnassigned": 216
+    "legacyUnassigned": 221
   },
   "quality": {
     "grain": "one company-specific job posting on one direct detail URL",
@@ -42,7 +42,7 @@
       },
       {
         "source": "liepin",
-        "count": 6
+        "count": 11
       },
       {
         "source": "employer-career",
@@ -55,7 +55,7 @@
       "source": "zhaopin",
       "count": 122
     },
-    "largestSourceShare": 0.5471,
+    "largestSourceShare": 0.5351,
     "maximumSingleSourceShare": 0.55,
     "duplicateIds": 0,
     "duplicateFingerprints": 0,
@@ -63,8 +63,8 @@
     "staleJobs": 0,
     "maximumAgeDaysAtCapture": 45,
     "formalSampleCount": 153,
-    "formalSampleShare": 0.6861,
-    "discoveryOnlyCount": 70
+    "formalSampleShare": 0.6711,
+    "discoveryOnlyCount": 75
   },
   "salaryBands": [
     {
@@ -78,9 +78,9 @@
     },
     {
       "band": "50K",
-      "actual": 107,
+      "actual": 112,
       "target": 240,
-      "gap": 133,
+      "gap": 128,
       "detailActual": 72,
       "detailTarget": 80,
       "detailGap": 8
@@ -268,7 +268,7 @@
   ],
   "publicationBlockers": [
     "30K 总样本还差 154 条",
-    "50K 总样本还差 133 条",
+    "50K 总样本还差 128 条",
     "100K 总样本还差 210 条",
     "30K 详情证据还差 29 条",
     "50K 详情证据还差 8 条",

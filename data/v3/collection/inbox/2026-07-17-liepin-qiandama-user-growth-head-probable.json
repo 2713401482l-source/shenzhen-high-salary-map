@@ -1,0 +1,30 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "liepin",
+  "sourcePublisher": "猎聘",
+  "captureMethod": "search-index-discovery",
+  "capturedAt": "2026-07-17T10:01:49+08:00",
+  "sourceUrl": "https://www.liepin.com/job/1969019893.shtml",
+  "job": {
+    "sourceJobId": "1969019893",
+    "title": "用户增长负责人(MJ008530)",
+    "company": "钱大妈",
+    "salaryText": "50-70K",
+    "district": "南山区",
+    "addressText": "深圳南山区赛西科技大厦15层",
+    "industry": "新零售/用户增长",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "公开索引显示岗位对用户运营KPI负责，制定并执行精准运营、流量运营、社区和私域运营体系，策划线上线下活动、提升参与和裂变、推动NPS与转介绍增长，并协调产研及总部资源。要求本科以上，具有线上用户运营和团队管理经验，熟悉精准运营、流量、客服客诉和社群策略，具备系统思考、用户洞察、数据分析建模和跨部门沟通能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": false,
+    "searchResultFreshAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": ["indexedWithin30Days", "namedEmployerInSearchIndex", "exactMonthlySalaryInSearchIndex"]
+  }
+}

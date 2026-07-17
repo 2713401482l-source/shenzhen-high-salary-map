@@ -1,0 +1,30 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "liepin",
+  "sourcePublisher": "猎聘",
+  "captureMethod": "search-index-discovery",
+  "capturedAt": "2026-07-17T10:01:49+08:00",
+  "sourceUrl": "https://www.liepin.com/job/1983675109.shtml",
+  "job": {
+    "sourceJobId": "1983675109",
+    "title": "具身智能数据研发工程师(J65524)",
+    "company": "安世腾科技",
+    "salaryText": "30-50K",
+    "district": "南山区",
+    "addressText": "深圳南山区百度国际大厦西塔楼32层",
+    "industry": "人工智能/智算服务",
+    "experience": "1-3年",
+    "education": "本科",
+    "descriptionText": "公开索引显示岗位负责具身智能机器人无本体数采和UMI手持采集数据链路研发，搭建轻量化人机操作数据管线；基于Mass或AMASS完成人体动作重构、姿态解算、动作生成和迁移，并治理视觉、深度、IMU、力控及手部姿态等多模态数据，结合仿真和真机优化Sim-to-Real方案，支持机器人抓取、整理和交互模型训练。"
+  },
+  "verification": {
+    "pageActiveAtCapture": false,
+    "searchResultFreshAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": ["indexedWithin30Days", "namedEmployerInSearchIndex", "exactMonthlySalaryInSearchIndex"]
+  }
+}

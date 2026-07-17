@@ -1,0 +1,30 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "liepin",
+  "sourcePublisher": "猎聘",
+  "captureMethod": "search-index-discovery",
+  "capturedAt": "2026-07-17T10:01:49+08:00",
+  "sourceUrl": "https://www.liepin.com/job/1981259221.shtml",
+  "job": {
+    "sourceJobId": "1981259221",
+    "title": "AI大模型算法高级工程师（知识库助手、编程助手、Openclaw）",
+    "company": "优必选机器人",
+    "salaryText": "30-60K",
+    "district": "南山区",
+    "addressText": "深圳南山区南山智园C1栋",
+    "industry": "机器人/人工智能",
+    "experience": "2年以上",
+    "education": "硕士",
+    "descriptionText": "公开索引显示岗位负责基于大模型与OpenClaw研发内部编程助手和知识库问答助手，承担核心算法设计、模型选型、优化迭代、私有环境部署、测试运维以及AI Agent和代码生成技术研究。要求研究生以上，具有大模型或智能体研发经验，熟悉模型微调、提示词、多模态交互及PyTorch或TensorFlow等深度学习框架。"
+  },
+  "verification": {
+    "pageActiveAtCapture": false,
+    "searchResultFreshAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": ["indexedWithin30Days", "namedEmployerInSearchIndex", "exactMonthlySalaryInSearchIndex"]
+  }
+}

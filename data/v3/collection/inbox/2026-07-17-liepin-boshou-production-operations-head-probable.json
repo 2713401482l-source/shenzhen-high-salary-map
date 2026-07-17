@@ -1,0 +1,30 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "liepin",
+  "sourcePublisher": "猎聘",
+  "captureMethod": "search-index-discovery",
+  "capturedAt": "2026-07-17T10:01:49+08:00",
+  "sourceUrl": "https://www.liepin.com/job/1983541437.shtml",
+  "job": {
+    "sourceJobId": "1983541437",
+    "title": "生产运营负责人",
+    "company": "深圳市博硕科技股份有限公司",
+    "salaryText": "35-65K",
+    "district": "龙岗区",
+    "addressText": "深圳市龙岗区博硕科技园区",
+    "industry": "电子制造/智能制造",
+    "experience": "8年以上",
+    "education": "大专",
+    "descriptionText": "公开索引显示岗位全面负责组装事业部生产运营，统筹排产、人员、设备、物料和订单交付，对产值、良率、效率与成本指标负责，并主导新品NPI、制程标准化、精益生产、UPH和OEE改善。岗位还需推进质量闭环、6S、ESD、安全生产、班组人才梯队和跨部门DFM协作，要求八年以上相关运营管理经验。"
+  },
+  "verification": {
+    "pageActiveAtCapture": false,
+    "searchResultFreshAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": ["indexedWithin30Days", "namedEmployerInSearchIndex", "exactMonthlySalaryInSearchIndex"]
+  }
+}
