@@ -1,0 +1,30 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-17T09:51:49+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC647126180J40767522006.htm",
+  "job": {
+    "sourceJobId": "CC647126180J40767522006",
+    "title": "营销总监(JD00144)",
+    "company": "敬业钢铁有限公司",
+    "salaryText": "60-100K",
+    "district": "南山区",
+    "addressText": "深圳南山区中国华润大厦",
+    "industry": "钢铁/工业数字化",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责工业智能化业务营销体系从零到一建设，搭建团队、销售流程、品牌和市场进入策略，识别目标客户及定价机会，深挖工业企业智能化转型需求并推动重点客户成交，同时将市场反馈输入产品迭代。要求机械、自动化、冶金、市场营销等相关专业本科及以上，具有工业产品销售和团队管理经验者优先，具备良好的沟通协调、市场分析、复杂问题解决及目标推进能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["activeApplyEntry", "platformBusinessLicenseVerified", "activeRecruiter", "multipleOpenRoles"],
+    "reviewNotes": "智联独立详情页采集时可立即投递，明确展示敬业钢铁有限公司、深圳南山区中国华润大厦、固定月薪60-100K及完整职责要求。公司主体经平台营业执照审核，招聘方三日内活跃且公司有多个在招岗位；薪资为岗位固定月薪区间，未发现匿名客户、收费、培训、押金或纯提成描述。"
+  }
+}

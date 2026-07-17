@@ -1,0 +1,30 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-17T09:51:49+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1336918050J40741456806.htm",
+  "job": {
+    "sourceJobId": "CCL1336918050J40741456806",
+    "title": "资深高速连接器研发工程师",
+    "company": "远东电气股份有限公司",
+    "salaryText": "40-80K",
+    "district": "龙华区",
+    "addressText": "深圳龙华区环智中心C座34F",
+    "industry": "电气设备/高速互连",
+    "experience": "10年以上",
+    "education": "本科",
+    "descriptionText": "负责高速连接器、线缆、线束、互连铜箔及机器人互连产品的全流程研发，攻关56G及以上高速传输、高密度、散热和制造工艺问题，并跟踪AI算力互连、CPO、硅光和液冷等方向。工作包括技术标准建立、团队指导、跨部门支持、专利布局和产业生态合作。要求本科以上、十年以上连接器或高速互连研发经验，能够独立推进产品定义、仿真、结构设计、验证和量产落地。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["activeApplyEntry", "platformBusinessLicenseVerified", "activeRecruiter", "multipleOpenRoles"],
+    "reviewNotes": "智联独立岗位详情页采集时仍可立即投递，明确展示远东电气股份有限公司、深圳龙华区环智中心具体办公地点、固定月薪40-80K以及完整职责要求。页面日期为3月18日，但招聘方昨日活跃且投递入口有效，采用当前活跃招聘方和可投递状态作为新鲜度证据；未发现匿名客户、收费培训、押金或薪资口径异常。"
+  }
+}

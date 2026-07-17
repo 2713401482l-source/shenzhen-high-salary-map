@@ -1,0 +1,30 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-17T09:51:49+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC195096520J40926368608.htm",
+  "job": {
+    "sourceJobId": "CC195096520J40926368608",
+    "title": "新型储能研究中心主任",
+    "company": "华润电力",
+    "salaryText": "50-100K",
+    "district": "南山区",
+    "addressText": "深圳南山区华润置地大厦C座",
+    "industry": "电力/新能源",
+    "experience": "5-10年",
+    "education": "博士",
+    "descriptionText": "负责新型储能研究中心技术路线与团队建设，围绕电化学储能、系统集成、EMS控制算法、构网型储能、安全预警、故障诊断和寿命预测开展研发，推动工程示范及商业化落地。要求相关专业博士，具有五年以上储能技术或科研管理经验，主持国家或省部级项目、重大成果或实验室建设者优先；熟悉BMS、PCS、EMS、消防、热管理、配电和通信全链路，能使用Matlab、Simulink、RT-LAB或ADPSS等工具。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["activeApplyEntry", "platformBusinessLicenseVerified", "activeRecruiter", "multipleOpenRoles"],
+    "reviewNotes": "智联独立岗位详情页采集时可公开访问并可立即投递，明确展示华润电力、深圳南山区具体办公地点、固定月薪50-100K、博士及完整职责要求。招聘方当前在线，公司主体经平台营业执照审核且同时有多个在招职位；未发现匿名客户、培训收费、押金、纯提成冒充固定薪资或年薪误读。"
+  }
+}

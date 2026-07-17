@@ -3156,6 +3156,92 @@
     "duplicateFingerprint": "07bb22bce65882c2d582"
   },
   {
+    "id": "zhaopin-119277f851b9f8eb5220",
+    "sourceJobId": "CC195096520J40926369208",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "“润电鸿”实验室主任",
+    "company": "华润电力",
+    "salaryText": "50-100K",
+    "salaryMin": 50,
+    "salaryMax": 100,
+    "salaryBand": "100K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "深圳南山区华润置地大厦C座",
+    "industry": "电力/工业软件",
+    "experience": "5-10年",
+    "education": "博士",
+    "descriptionExcerpt": "负责面向电力行业的OpenHarmony、openEuler嵌入式系统架构和实验室建设，包括内核裁剪、驱动适配、实时性优化、协议栈及现场控制器、网关和终端产品研发，推进IEC104、MQTT、Modbus、IEC61850等协议适配以及安全启动和可信执行环境。要求相关专业博士、五年以上经验，熟悉Linux、OpenHarmony、openEuler或RTOS",
+    "requirementText": "负责面向电力行业的OpenHarmony、openEuler嵌入式系统架构和实验室建设，包括内核裁剪、驱动适配、实时性优化、协议栈及现场控制器、网关和终端产品研发，推进IEC104、MQTT、Modbus、IEC61850等协议适配以及安全启动和可信执行环境。要求相关专业博士、五年以上经验，熟悉Linux、OpenHarmony、openEuler或RTOS，掌握ARM或RISC-V平台、C/C++、驱动、内核、协议和嵌入式安全，并具备项目和团队管理能力。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC195096520J40926369208.htm",
+    "capturedAt": "2026-07-17T09:51:49+08:00",
+    "verifiedAt": "2026-07-17T09:51:49+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null,
+      "probableScore": 75,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": false,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": [
+        "freshOrRecentlyIndexed"
+      ]
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "corroboratingUrls": [],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "activeApplyEntry",
+        "platformBusinessLicenseVerified",
+        "activeRecruiter",
+        "multipleOpenRoles"
+      ],
+      "reviewNotes": "智联独立岗位详情页采集时仍提供立即投递入口，明确展示华润电力、深圳南山区具体地点、固定月薪50-100K及完整职责要求。页面虽显示4月9日更新，但公司招聘方当日仍有回复记录、职位仍可投递，采用活跃入口和活跃招聘方作为新鲜度证据；未发现收费培训、押金、匿名代招或薪资口径异常。"
+    },
+    "duplicateFingerprint": "708b2df18d4020992a03"
+  },
+  {
     "id": "zhaopin-12be0c00d46c6ee2e45d",
     "sourceJobId": "CC846065300J40810476101",
     "sourcePlatform": "zhaopin",
@@ -3766,6 +3852,92 @@
     "duplicateFingerprint": "e9d62743547623fc5d74"
   },
   {
+    "id": "zhaopin-1abf41b206b0e298b644",
+    "sourceJobId": "CCL1336918050J40741456806",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "资深高速连接器研发工程师",
+    "company": "远东电气股份有限公司",
+    "salaryText": "40-80K",
+    "salaryMin": 40,
+    "salaryMax": 80,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "龙华区",
+    "addressText": "深圳龙华区环智中心C座34F",
+    "industry": "电气设备/高速互连",
+    "experience": "10年以上",
+    "education": "本科",
+    "descriptionExcerpt": "负责高速连接器、线缆、线束、互连铜箔及机器人互连产品的全流程研发，攻关56G及以上高速传输、高密度、散热和制造工艺问题，并跟踪AI算力互连、CPO、硅光和液冷等方向。工作包括技术标准建立、团队指导、跨部门支持、专利布局和产业生态合作。要求本科以上、十年以上连接器或高速互连研发经验，能够独立推进产品定义、仿真、结构设计、验证和量产落地。",
+    "requirementText": "负责高速连接器、线缆、线束、互连铜箔及机器人互连产品的全流程研发，攻关56G及以上高速传输、高密度、散热和制造工艺问题，并跟踪AI算力互连、CPO、硅光和液冷等方向。工作包括技术标准建立、团队指导、跨部门支持、专利布局和产业生态合作。要求本科以上、十年以上连接器或高速互连研发经验，能够独立推进产品定义、仿真、结构设计、验证和量产落地。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1336918050J40741456806.htm",
+    "capturedAt": "2026-07-17T09:51:49+08:00",
+    "verifiedAt": "2026-07-17T09:51:49+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null,
+      "probableScore": 75,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": false,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": [
+        "freshOrRecentlyIndexed"
+      ]
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "corroboratingUrls": [],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "activeApplyEntry",
+        "platformBusinessLicenseVerified",
+        "activeRecruiter",
+        "multipleOpenRoles"
+      ],
+      "reviewNotes": "智联独立岗位详情页采集时仍可立即投递，明确展示远东电气股份有限公司、深圳龙华区环智中心具体办公地点、固定月薪40-80K以及完整职责要求。页面日期为3月18日，但招聘方昨日活跃且投递入口有效，采用当前活跃招聘方和可投递状态作为新鲜度证据；未发现匿名客户、收费培训、押金或薪资口径异常。"
+    },
+    "duplicateFingerprint": "983b98650df36d460a22"
+  },
+  {
     "id": "zhaopin-1bcbfae6744316706952",
     "sourceJobId": "CCL1514361810J40874655609",
     "sourcePlatform": "zhaopin",
@@ -4155,6 +4327,93 @@
       "reviewNotes": "智联独立岗位详情页可直接投递，显示固定月薪20-40K、深圳南山区、3-5年经验、本科学历及完整职责要求；页面采集前3天仍被公开索引且招聘者三日内活跃。岗位页未展示明确发布日期，因此不推测发布日期，依据采集时页面活跃状态满足新鲜度硬门槛。杰普特官网、公司介绍、联系页及上交所科创板公司资料交叉核验企业全称、股票代码688025、深圳主体与激光光学智能装备业务。"
     },
     "duplicateFingerprint": "5b83d848456096176971"
+  },
+  {
+    "id": "zhaopin-232e82112356cf6ddc4b",
+    "sourceJobId": "CC133094290J40771025306",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "电源专家",
+    "company": "深圳顺络电子股份有限公司",
+    "salaryText": "40-80K·14薪",
+    "salaryMin": 40,
+    "salaryMax": 80,
+    "salaryMonths": 14,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "龙华区",
+    "addressText": "深圳市龙华区",
+    "industry": "电子元器件/电源",
+    "experience": "10年以上",
+    "education": "本科",
+    "descriptionExcerpt": "负责电源产品技术路线、系统架构和平台化建设，覆盖AC-DC、DC-DC以及PFC、LLC、移相全桥、Buck、Boost等拓扑，推进MOSFET、IGBT、SiC、GaN器件和磁性元件选型，使用PSpice、Simplis或Saber进行仿真，并指导热设计和PCB设计。岗位还负责EMC、EMI、环路稳定性、保护及安规认证等技术难题，要求本科以上、十年以上相关",
+    "requirementText": "负责电源产品技术路线、系统架构和平台化建设，覆盖AC-DC、DC-DC以及PFC、LLC、移相全桥、Buck、Boost等拓扑，推进MOSFET、IGBT、SiC、GaN器件和磁性元件选型，使用PSpice、Simplis或Saber进行仿真，并指导热设计和PCB设计。岗位还负责EMC、EMI、环路稳定性、保护及安规认证等技术难题，要求本科以上、十年以上相关经验并能承担团队技术领导职责。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC133094290J40771025306.htm",
+    "capturedAt": "2026-07-17T09:51:49+08:00",
+    "verifiedAt": "2026-07-17T09:51:49+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null,
+      "probableScore": 75,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": false,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": [
+        "freshOrRecentlyIndexed"
+      ]
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "corroboratingUrls": [],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "activeApplyEntry",
+        "platformBusinessLicenseVerified",
+        "activeRecruiter",
+        "multipleOpenRoles"
+      ],
+      "reviewNotes": "智联独立详情页采集时可立即投递，明确展示深圳顺络电子股份有限公司、深圳龙华区、固定月薪40-80K并注明14薪，以及完整技术职责与十年以上经验要求。招聘方当前在线，公司主体经平台营业执照审核；未发现匿名客户、中介代招、培训收费、押金或提成冒充固定月薪。"
+    },
+    "duplicateFingerprint": "6973abb9dfd45b7dd4ba"
   },
   {
     "id": "zhaopin-2457344aaf5c1924b49e",
@@ -4561,6 +4820,92 @@
       "reviewNotes": "智联具体岗位详情页在采集时仍展示立即投递入口，明确标注更新时间为2026年6月25日、深圳南山区、固定月薪20-35K并另列13薪、实名企业及完整职责要求。详情页摘要经验标注为1-3年，而正文要求3年以上ToB软件产品经验；本记录保留平台摘要口径并在核验中披露该差异，不据此扩张推断。拜特科技官网核验企业全称、深圳总部地址及司库和资金管理主营业务，岗位职责与企业公开业务方向一致。"
     },
     "duplicateFingerprint": "8ce55601a01f7730d495"
+  },
+  {
+    "id": "zhaopin-3caf0959d9c080c607ad",
+    "sourceJobId": "CC647126180J40767522006",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "营销总监(JD00144)",
+    "company": "敬业钢铁有限公司",
+    "salaryText": "60-100K",
+    "salaryMin": 60,
+    "salaryMax": 100,
+    "salaryBand": "100K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "深圳南山区中国华润大厦",
+    "industry": "钢铁/工业数字化",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionExcerpt": "负责工业智能化业务营销体系从零到一建设，搭建团队、销售流程、品牌和市场进入策略，识别目标客户及定价机会，深挖工业企业智能化转型需求并推动重点客户成交，同时将市场反馈输入产品迭代。要求机械、自动化、冶金、市场营销等相关专业本科及以上，具有工业产品销售和团队管理经验者优先，具备良好的沟通协调、市场分析、复杂问题解决及目标推进能力。",
+    "requirementText": "负责工业智能化业务营销体系从零到一建设，搭建团队、销售流程、品牌和市场进入策略，识别目标客户及定价机会，深挖工业企业智能化转型需求并推动重点客户成交，同时将市场反馈输入产品迭代。要求机械、自动化、冶金、市场营销等相关专业本科及以上，具有工业产品销售和团队管理经验者优先，具备良好的沟通协调、市场分析、复杂问题解决及目标推进能力。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC647126180J40767522006.htm",
+    "capturedAt": "2026-07-17T09:51:49+08:00",
+    "verifiedAt": "2026-07-17T09:51:49+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null,
+      "probableScore": 75,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": false,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": [
+        "freshOrRecentlyIndexed"
+      ]
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "corroboratingUrls": [],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "activeApplyEntry",
+        "platformBusinessLicenseVerified",
+        "activeRecruiter",
+        "multipleOpenRoles"
+      ],
+      "reviewNotes": "智联独立详情页采集时可立即投递，明确展示敬业钢铁有限公司、深圳南山区中国华润大厦、固定月薪60-100K及完整职责要求。公司主体经平台营业执照审核，招聘方三日内活跃且公司有多个在招岗位；薪资为岗位固定月薪区间，未发现匿名客户、收费、培训、押金或纯提成描述。"
+    },
+    "duplicateFingerprint": "37e7e7f7309d66050fb9"
   },
   {
     "id": "zhaopin-3f52851cfda50e56edc8",
@@ -6189,6 +6534,92 @@
       "reviewNotes": "智联具体岗位详情页展示固定月薪45-60K并单独标注14薪、深圳光明研发基地、硕士及3至5年经验要求、可立即投递，以及完整的跨境资本运作职责；发布主体为平台已审核且明确命名的欣旺达动力科技股份有限公司。欣旺达动力官网显示公司已在匈牙利、泰国、摩洛哥等地部署海外制造基地，并持续推进全球化战略，与岗位涉及的跨境并购、融资、合规与投后整合职责一致。未发现收费、付费培训、提成冒充固定月薪、匿名客户或地点矛盾信号。"
     },
     "duplicateFingerprint": "ca51db5743e1b4e8ae59"
+  },
+  {
+    "id": "zhaopin-6b6c825b8043d73613fa",
+    "sourceJobId": "CC195096520J40926368608",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "新型储能研究中心主任",
+    "company": "华润电力",
+    "salaryText": "50-100K",
+    "salaryMin": 50,
+    "salaryMax": 100,
+    "salaryBand": "100K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "深圳南山区华润置地大厦C座",
+    "industry": "电力/新能源",
+    "experience": "5-10年",
+    "education": "博士",
+    "descriptionExcerpt": "负责新型储能研究中心技术路线与团队建设，围绕电化学储能、系统集成、EMS控制算法、构网型储能、安全预警、故障诊断和寿命预测开展研发，推动工程示范及商业化落地。要求相关专业博士，具有五年以上储能技术或科研管理经验，主持国家或省部级项目、重大成果或实验室建设者优先；熟悉BMS、PCS、EMS、消防、热管理、配电和通信全链路，能使用Matlab、Simulink、",
+    "requirementText": "负责新型储能研究中心技术路线与团队建设，围绕电化学储能、系统集成、EMS控制算法、构网型储能、安全预警、故障诊断和寿命预测开展研发，推动工程示范及商业化落地。要求相关专业博士，具有五年以上储能技术或科研管理经验，主持国家或省部级项目、重大成果或实验室建设者优先；熟悉BMS、PCS、EMS、消防、热管理、配电和通信全链路，能使用Matlab、Simulink、RT-LAB或ADPSS等工具。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC195096520J40926368608.htm",
+    "capturedAt": "2026-07-17T09:51:49+08:00",
+    "verifiedAt": "2026-07-17T09:51:49+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null,
+      "probableScore": 75,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": false,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": [
+        "freshOrRecentlyIndexed"
+      ]
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "corroboratingUrls": [],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "activeApplyEntry",
+        "platformBusinessLicenseVerified",
+        "activeRecruiter",
+        "multipleOpenRoles"
+      ],
+      "reviewNotes": "智联独立岗位详情页采集时可公开访问并可立即投递，明确展示华润电力、深圳南山区具体办公地点、固定月薪50-100K、博士及完整职责要求。招聘方当前在线，公司主体经平台营业执照审核且同时有多个在招职位；未发现匿名客户、培训收费、押金、纯提成冒充固定薪资或年薪误读。"
+    },
+    "duplicateFingerprint": "33dd3185a17eef7fbb81"
   },
   {
     "id": "zhaopin-6b724695041eddf54430",

@@ -1,0 +1,30 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-17T09:51:49+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC195096520J40926369208.htm",
+  "job": {
+    "sourceJobId": "CC195096520J40926369208",
+    "title": "“润电鸿”实验室主任",
+    "company": "华润电力",
+    "salaryText": "50-100K",
+    "district": "南山区",
+    "addressText": "深圳南山区华润置地大厦C座",
+    "industry": "电力/工业软件",
+    "experience": "5-10年",
+    "education": "博士",
+    "descriptionText": "负责面向电力行业的OpenHarmony、openEuler嵌入式系统架构和实验室建设，包括内核裁剪、驱动适配、实时性优化、协议栈及现场控制器、网关和终端产品研发，推进IEC104、MQTT、Modbus、IEC61850等协议适配以及安全启动和可信执行环境。要求相关专业博士、五年以上经验，熟悉Linux、OpenHarmony、openEuler或RTOS，掌握ARM或RISC-V平台、C/C++、驱动、内核、协议和嵌入式安全，并具备项目和团队管理能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["activeApplyEntry", "platformBusinessLicenseVerified", "activeRecruiter", "multipleOpenRoles"],
+    "reviewNotes": "智联独立岗位详情页采集时仍提供立即投递入口，明确展示华润电力、深圳南山区具体地点、固定月薪50-100K及完整职责要求。页面虽显示4月9日更新，但公司招聘方当日仍有回复记录、职位仍可投递，采用活跃入口和活跃招聘方作为新鲜度证据；未发现收费培训、押金、匿名代招或薪资口径异常。"
+  }
+}
