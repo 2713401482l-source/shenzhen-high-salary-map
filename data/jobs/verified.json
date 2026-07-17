@@ -809,6 +809,95 @@
     "duplicateFingerprint": "091535cbfec737a0c7aa"
   },
   {
+    "id": "job5156-0921b66ec9efe9ca1acf",
+    "sourceJobId": "281513422",
+    "sourcePlatform": "job5156",
+    "sourcePublisher": "智通直聘",
+    "captureMethod": "manual-public-detail",
+    "title": "ID设计师",
+    "company": "江西联创宏声电子股份有限公司东莞分公司",
+    "salaryText": "25-35K",
+    "salaryMin": 25,
+    "salaryMax": 35,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "福田区",
+    "addressText": "深圳市福田区新一代产业园4栋",
+    "industry": "消费电子/声学产品/3C",
+    "experience": "5年及以上",
+    "education": "本科",
+    "descriptionExcerpt": "负责耳机等消费电子产品的工业设计与外观方案输出，独立推进从创意草图、三维建模、效果表现到设计落地的完整流程。要求工业设计相关本科背景，五年以上3C产品设计经验并具备独立完成耳机产品的经历，熟练使用三维建模、KeyShot及Adobe系列设计工具。",
+    "requirementText": "负责耳机等消费电子产品的工业设计与外观方案输出，独立推进从创意草图、三维建模、效果表现到设计落地的完整流程。要求工业设计相关本科背景，五年以上3C产品设计经验并具备独立完成耳机产品的经历，熟练使用三维建模、KeyShot及Adobe系列设计工具。",
+    "sourceUrl": "https://www.job5156.com/shenzhen/job_281513422",
+    "capturedAt": "2026-07-18T01:22:34+08:00",
+    "publishedAt": "2026-07-17",
+    "verifiedAt": "2026-07-18T01:22:34+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 1,
+      "probableScore": 95,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "corroboratingUrls": [],
+      "signals": [
+        "directDetailPageVisible",
+        "publishedWithin45Days",
+        "exactMonthlySalaryVisible",
+        "shenzhenAddressVisible",
+        "completeRequirementsVisible",
+        "directApplyVisible",
+        "businessRegistrationVisible",
+        "recruiterRecentlyActive"
+      ],
+      "reviewNotes": "智通公开具体岗位详情页显示7月17日刷新、立即投递、招聘负责人当日活跃、固定月薪、深圳具体办公地址和完整任职要求；公开企业信息与消费电子声学产品业务一致。未发现匿名客户、代招、收费或虚假招聘信号。"
+    },
+    "duplicateFingerprint": "d958594fa2602e782c05"
+  },
+  {
     "id": "job5156-262383ff179bab985434",
     "sourceJobId": "281447445",
     "sourcePlatform": "job5156",
@@ -956,6 +1045,95 @@
       "reviewNotes": "岗位详情页在采集时可正常访问并显示立即投递，页面标注5小时前刷新、招聘1人、公司名称和深圳宝安工作地址，固定月薪明确为25-50K，岗位职责与任职要求完整。页面另列季度、年度分红月均20K-100K以及达成年度目标后年收入100万以上，这些属于浮动且附条件收入，未计入salaryText或月薪统计。公司名称可在深圳市2025年第一批高新技术企业公示名单及2025年科技型中小企业名单中交叉核验。未发现匿名客户、付费培训、劳务中介、异地岗位或以提成冒充固定月薪的情况；因浮动收入宣传较高，保留薪资异常复核信号。"
     },
     "duplicateFingerprint": "409f7f2d5ed0a1cd8492"
+  },
+  {
+    "id": "job5156-2ef8b805dbe528753b09",
+    "sourceJobId": "281552405",
+    "sourcePlatform": "job5156",
+    "sourcePublisher": "智通直聘",
+    "captureMethod": "manual-public-detail",
+    "title": "模具副理",
+    "company": "深圳市博硕科技股份有限公司",
+    "salaryText": "25-35K",
+    "salaryMin": 25,
+    "salaryMax": 35,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "龙岗区",
+    "addressText": "深圳市龙岗区高科大道12号",
+    "industry": "精密制造/模具/消费电子",
+    "experience": "5年及以上",
+    "education": "本科",
+    "descriptionExcerpt": "负责模具技术与制作团队管理，统筹模具项目、开模计划、技术方案、成本、交付、制程及外协管理，推动异常处理和跨部门协同。要求五年以上模具技术经验、三年以上管理经验，熟悉复杂模具设计制造流程，具备项目、团队和供应商协同能力。",
+    "requirementText": "负责模具技术与制作团队管理，统筹模具项目、开模计划、技术方案、成本、交付、制程及外协管理，推动异常处理和跨部门协同。要求五年以上模具技术经验、三年以上管理经验，熟悉复杂模具设计制造流程，具备项目、团队和供应商协同能力。",
+    "sourceUrl": "https://www.job5156.com/shenzhen/job_281552405",
+    "capturedAt": "2026-07-18T01:22:34+08:00",
+    "publishedAt": "2026-07-17",
+    "verifiedAt": "2026-07-18T01:22:34+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 1,
+      "probableScore": 95,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "corroboratingUrls": [],
+      "signals": [
+        "directDetailPageVisible",
+        "publishedWithin45Days",
+        "exactMonthlySalaryVisible",
+        "shenzhenAddressVisible",
+        "completeRequirementsVisible",
+        "directApplyVisible",
+        "businessRegistrationVisible",
+        "recruiterRecentlyActive"
+      ],
+      "reviewNotes": "智通公开具体岗位详情页显示7月17日刷新、立即投递、招聘负责人近期活跃、固定月薪、深圳详细地址和完整职责要求；发布方为存续上市制造企业，模具业务与岗位一致。未发现匿名客户、代招、收费培训或虚假招聘信号。"
+    },
+    "duplicateFingerprint": "91ecce2200d280ece43f"
   },
   {
     "id": "job5156-30c6f78580d8558ecc1a",
@@ -1194,6 +1372,184 @@
     "duplicateFingerprint": "d55ffec8403fd966d44b"
   },
   {
+    "id": "job5156-4f781bfa333539e0abfe",
+    "sourceJobId": "281553223",
+    "sourcePlatform": "job5156",
+    "sourcePublisher": "智通直聘",
+    "captureMethod": "manual-public-detail",
+    "title": "注塑自动化技术部总监",
+    "company": "森骏卓越精密智造（深圳）有限公司",
+    "salaryText": "25-35K",
+    "salaryMin": 25,
+    "salaryMax": 35,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "宝安区",
+    "addressText": "深圳市宝安区新发东路17号",
+    "industry": "精密注塑/模具/自动化制造",
+    "experience": "8年及以上",
+    "education": "本科",
+    "descriptionExcerpt": "负责注塑自动化技术部门规划、团队建设、项目预算、供应商管理及从零到一的自动化产线改造，统筹非标设备、机器人、PLC和机器视觉方案的开发与落地。要求自动化相关本科背景，八年以上注塑自动化经验及三年以上管理经验，能够独立推进自动化项目并解决现场技术问题。",
+    "requirementText": "负责注塑自动化技术部门规划、团队建设、项目预算、供应商管理及从零到一的自动化产线改造，统筹非标设备、机器人、PLC和机器视觉方案的开发与落地。要求自动化相关本科背景，八年以上注塑自动化经验及三年以上管理经验，能够独立推进自动化项目并解决现场技术问题。",
+    "sourceUrl": "https://www.job5156.com/shenzhen/job_281553223",
+    "capturedAt": "2026-07-18T01:22:34+08:00",
+    "publishedAt": "2026-07-17",
+    "verifiedAt": "2026-07-18T01:22:34+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 1,
+      "probableScore": 95,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "corroboratingUrls": [],
+      "signals": [
+        "directDetailPageVisible",
+        "publishedWithin45Days",
+        "exactMonthlySalaryVisible",
+        "shenzhenAddressVisible",
+        "completeRequirementsVisible",
+        "directApplyVisible",
+        "businessRegistrationVisible",
+        "recruiterRecentlyActive"
+      ],
+      "reviewNotes": "智通公开具体岗位详情页显示7月17日刷新、立即投递、招聘负责人近期活跃、固定月薪、深圳地址及完整职责要求；存续工商主体的注塑与模具业务和岗位相符。未发现匿名客户、代招、收费培训、提成冒充月薪或虚假招聘信号。"
+    },
+    "duplicateFingerprint": "ecf67737b83f6b2c5c79"
+  },
+  {
+    "id": "job5156-5429b8534420dc1ba434",
+    "sourceJobId": "279214175",
+    "sourcePlatform": "job5156",
+    "sourcePublisher": "智通直聘",
+    "captureMethod": "manual-public-detail",
+    "title": "国内销售总监",
+    "company": "深圳市宇鸿精密模具有限公司",
+    "salaryText": "30-40K",
+    "salaryMin": 30,
+    "salaryMax": 40,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "宝安区",
+    "addressText": "深圳市宝安区松岗街道朗下第三工业区第18栋",
+    "industry": "精密模具/五金塑胶制造",
+    "experience": "5年",
+    "education": "大专",
+    "descriptionExcerpt": "负责国内销售管理、客户服务和业务团队管理。要求大专及以上学历，具有五年以上销售工作经历及两年以上本行业或相近行业销售管理经验，熟悉产品技术知识与销售合同法规，能够使用常用办公软件，并具备团队领导、判断决策、沟通协调、计划执行和客户服务能力。",
+    "requirementText": "负责国内销售管理、客户服务和业务团队管理。要求大专及以上学历，具有五年以上销售工作经历及两年以上本行业或相近行业销售管理经验，熟悉产品技术知识与销售合同法规，能够使用常用办公软件，并具备团队领导、判断决策、沟通协调、计划执行和客户服务能力。",
+    "sourceUrl": "https://www.job5156.com/shenzhen/job_279214175",
+    "capturedAt": "2026-07-18T01:22:34+08:00",
+    "publishedAt": "2026-07-17",
+    "verifiedAt": "2026-07-18T01:22:34+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 1,
+      "probableScore": 95,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "corroboratingUrls": [],
+      "signals": [
+        "directDetailPageVisible",
+        "publishedWithin45Days",
+        "exactMonthlySalaryVisible",
+        "shenzhenAddressVisible",
+        "completeRequirementsVisible",
+        "directApplyVisible",
+        "businessRegistrationVisible",
+        "recruiterRecentlyActive"
+      ],
+      "reviewNotes": "智通公开具体岗位详情页显示7月17日刷新、立即投递、招聘负责人当前在线、明确固定月薪30-40K、深圳详细地址及完整要求；页面虽列有高提成福利，但30-40K为独立明确的固定月薪区间，并非以提成冒充月薪。企业工商状态存续，精密模具制造业务与岗位一致；未发现匿名客户、代招、收费或付费培训要求。"
+    },
+    "duplicateFingerprint": "2729a51fbee07f08101c"
+  },
+  {
     "id": "job5156-66ed204f053637864144",
     "sourceJobId": "281496642",
     "sourcePlatform": "job5156",
@@ -1419,6 +1775,95 @@
       "reviewNotes": "智通直聘具体岗位详情页在采集时显示昨天刷新、可立即投递、招聘1人、招聘负责人1小时前活跃，明确展示深圳宝安具体地址、35-50K固定月薪及13薪标记、实名企业和完整职责要求。薪资统计仅使用35-50K月薪区间，13薪作为额外年度发薪信息单独保留，不折算或冒充月薪。页面工商信息显示企业存续，经营范围包括耳机、音响、通讯和电子产品研发生产，与岗位内容一致。企业官网确认公司位于深圳并专注蓝牙耳机音频业务；FCC记录与公开专利页进一步佐证企业主体及耳机产品活动。未发现收费、付费培训、匿名代招、提成冒充月薪、地点矛盾或标题职责错配。"
     },
     "duplicateFingerprint": "ab78ede03598951ae988"
+  },
+  {
+    "id": "job5156-7fdb07dfc423a2c299cc",
+    "sourceJobId": "281035203",
+    "sourcePlatform": "job5156",
+    "sourcePublisher": "智通直聘",
+    "captureMethod": "manual-public-detail",
+    "title": "副总经理",
+    "company": "金岛精密科技（深圳）有限公司",
+    "salaryText": "20-35K",
+    "salaryMin": 20,
+    "salaryMax": 35,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "宝安区",
+    "addressText": "深圳市宝安区石岩街道第五工业区金岛科技园",
+    "industry": "精密制造/机械加工/3C",
+    "experience": "5年及以上",
+    "education": "大专",
+    "descriptionExcerpt": "负责围绕利润与经营目标制定并执行公司经营战略，统筹销售、计划、采购、仓储、物控及行政等模块，推动跨部门协同、经营改善和问题闭环。要求具有五年以上同岗位管理经验，熟悉机械加工或3C制造业务，具备团队管理、经营分析、抗压和复杂问题解决能力。",
+    "requirementText": "负责围绕利润与经营目标制定并执行公司经营战略，统筹销售、计划、采购、仓储、物控及行政等模块，推动跨部门协同、经营改善和问题闭环。要求具有五年以上同岗位管理经验，熟悉机械加工或3C制造业务，具备团队管理、经营分析、抗压和复杂问题解决能力。",
+    "sourceUrl": "https://www.job5156.com/shenzhen/job_281035203",
+    "capturedAt": "2026-07-18T01:22:34+08:00",
+    "publishedAt": "2026-07-16",
+    "verifiedAt": "2026-07-18T01:22:34+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 2,
+      "probableScore": 95,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "corroboratingUrls": [],
+      "signals": [
+        "directDetailPageVisible",
+        "publishedWithin45Days",
+        "exactMonthlySalaryVisible",
+        "shenzhenAddressVisible",
+        "completeRequirementsVisible",
+        "directApplyVisible",
+        "businessRegistrationVisible",
+        "recruiterRecentlyActive"
+      ],
+      "reviewNotes": "智通公开具体岗位详情页可直接访问，显示7月16日刷新、立即投递、明确企业名称、固定月薪、深圳详细地址及完整职责要求；工商主体存续，经营范围与精密制造岗位一致。未发现匿名客户、代招、收费、付费培训、年薪误读或虚假招聘信号。"
+    },
+    "duplicateFingerprint": "5639817f786622792822"
   },
   {
     "id": "job5156-896fe7f7336534352ed8",

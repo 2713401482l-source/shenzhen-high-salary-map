@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-17T17:10:51.321Z",
+  "generatedAt": "2026-07-17T17:26:02.606Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 243,
-    "verifiedDetailJobs": 163,
+    "usableJobs": 248,
+    "verifiedDetailJobs": 168,
     "listingOnlyJobs": 80,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 176,
-    "uniqueCompanies": 200,
-    "uniqueRawTitles": 227,
+    "fullRequirementJobs": 181,
+    "uniqueCompanies": 202,
+    "uniqueRawTitles": 232,
     "captureDates": 5
   },
   "distributions": {
     "salaryBands": {
       "50K": 121,
-      "30K": 90,
+      "30K": 95,
       "100K": 32
     },
     "evidenceLevels": {
-      "public-platform-detail": 155,
+      "public-platform-detail": 160,
       "boss-listing": 67,
       "public-index-probable": 9,
       "boss-detail": 8,
@@ -31,7 +31,7 @@
       "2026-07-17": 61,
       "2026-07-16": 57,
       "2026-07-15": 46,
-      "2026-07-18": 8
+      "2026-07-18": 13
     },
     "industries": {
       "计算机软件": 12,
@@ -128,7 +128,11 @@
       "家用电器": 1,
       "建筑材料、非金属矿物制品、玻璃与新材料": 1,
       "建筑材料、非金属矿物制品、功能薄膜与新材料": 1,
+      "精密模具/五金塑胶制造": 1,
       "精密模型、CNC加工与专用设备制造": 1,
+      "精密制造/机械加工/3C": 1,
+      "精密制造/模具/消费电子": 1,
+      "精密注塑/模具/自动化制造": 1,
       "精密CNC加工与五金零部件制造": 1,
       "跨境电商、互联网电商": 1,
       "跨境电商、技术服务": 1,
@@ -179,6 +183,7 @@
       "消费电子、智能硬件": 1,
       "消费电子、智能硬件与智能清洁电器": 1,
       "消费电子/跨境电商": 1,
+      "消费电子/声学产品/3C": 1,
       "消费电子/智能硬件/半导体芯片": 1,
       "消费电子/智能硬件/互联网电商": 1,
       "消费品、产品研发": 1,
@@ -211,11 +216,11 @@
     },
     "districts": {
       "南山区": 104,
-      "宝安区": 46,
-      "龙岗区": 20,
+      "宝安区": 49,
+      "龙岗区": 21,
       "龙华区": 19,
       "光明区": 18,
-      "福田区": 16,
+      "福田区": 17,
       "深圳": 12,
       "罗湖区": 4,
       "盐田区": 3,
@@ -241,6 +246,10 @@
       "count": 4
     },
     {
+      "company": "深圳市博硕科技股份有限公司",
+      "count": 4
+    },
+    {
       "company": "深圳市创世纪机械有限公司",
       "count": 4
     },
@@ -254,10 +263,6 @@
     },
     {
       "company": "深圳吉阳智能科技有限公司",
-      "count": 3
-    },
-    {
-      "company": "深圳市博硕科技股份有限公司",
       "count": 3
     },
     {
@@ -286,6 +291,14 @@
     },
     {
       "company": "海目星激光科技集团股份有限公司",
+      "count": 2
+    },
+    {
+      "company": "江西联创宏声电子股份有限公司东莞分公司",
+      "count": 2
+    },
+    {
+      "company": "金岛精密科技（深圳）有限公司",
       "count": 2
     },
     {
@@ -325,12 +338,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 243,
+      "current": 248,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 163,
+      "current": 168,
       "required": 240,
       "passed": false
     },
@@ -349,7 +362,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "163/243 条完成详情核验",
+      "evidence": "168/248 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {

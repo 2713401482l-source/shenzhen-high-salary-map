@@ -1,0 +1,40 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "job5156",
+  "sourcePublisher": "智通直聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-18T01:22:34+08:00",
+  "publishedAt": "2026-07-16",
+  "sourceUrl": "https://www.job5156.com/shenzhen/job_281035203",
+  "job": {
+    "sourceJobId": "281035203",
+    "title": "副总经理",
+    "company": "金岛精密科技（深圳）有限公司",
+    "salaryText": "20-35K",
+    "district": "宝安区",
+    "addressText": "深圳市宝安区石岩街道第五工业区金岛科技园",
+    "industry": "精密制造/机械加工/3C",
+    "experience": "5年及以上",
+    "education": "大专",
+    "descriptionText": "负责围绕利润与经营目标制定并执行公司经营战略，统筹销售、计划、采购、仓储、物控及行政等模块，推动跨部门协同、经营改善和问题闭环。要求具有五年以上同岗位管理经验，熟悉机械加工或3C制造业务，具备团队管理、经营分析、抗压和复杂问题解决能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "directDetailPageVisible",
+      "publishedWithin45Days",
+      "exactMonthlySalaryVisible",
+      "shenzhenAddressVisible",
+      "completeRequirementsVisible",
+      "directApplyVisible",
+      "businessRegistrationVisible",
+      "recruiterRecentlyActive"
+    ],
+    "reviewNotes": "智通公开具体岗位详情页可直接访问，显示7月16日刷新、立即投递、明确企业名称、固定月薪、深圳详细地址及完整职责要求；工商主体存续，经营范围与精密制造岗位一致。未发现匿名客户、代招、收费、付费培训、年薪误读或虚假招聘信号。"
+  }
+}
