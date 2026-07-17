@@ -1,0 +1,32 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "liepin",
+  "sourcePublisher": "猎聘",
+  "captureMethod": "search-index-discovery",
+  "capturedAt": "2026-07-18T03:25:00+08:00",
+  "publishedAt": "2026-07-07",
+  "sourceUrl": "https://www.liepin.com/job/1983824291.shtml",
+  "job": {
+    "sourceJobId": "1983824291",
+    "title": "法务总监",
+    "company": "宝能汽车",
+    "salaryText": "25-35K",
+    "district": "罗湖区",
+    "addressText": "深圳市罗湖区宝能中心57楼",
+    "industry": "整车制造",
+    "experience": "10年以上",
+    "education": "本科",
+    "descriptionText": "负责租赁、采购、推广等合同和对外函件的起草审核，协助制定业务制度并开展合规宣导，处理公司设立变更、资质维护、业务法律咨询、诉讼仲裁、投诉举报及知识产权保护，并协助公司重组上市和外部服务机构对接。要求具备扎实法务专业能力、独立处理复杂事项的经验，以及严谨高效的沟通与风险控制能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": false,
+    "searchResultFreshAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": ["indexedWithin30Days", "namedEmployerInSearchIndex", "exactMonthlySalaryInSearchIndex", "shenzhenAddressInSearchIndex", "completeRequirementsInSearchIndex"],
+    "reviewNotes": "仅作为高概率发现层候选保存。搜索索引显示具名且已认证的用人企业、深圳罗湖具体地址、固定月薪、完整职责要求、7月7日更新和近期招聘方活跃信号；不计入详情证据，前端来源入口保持隐藏。"
+  }
+}

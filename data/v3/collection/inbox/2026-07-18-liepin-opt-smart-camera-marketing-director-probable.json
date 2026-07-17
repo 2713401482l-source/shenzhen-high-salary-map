@@ -1,0 +1,32 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "liepin",
+  "sourcePublisher": "猎聘",
+  "captureMethod": "search-index-discovery",
+  "capturedAt": "2026-07-18T03:25:00+08:00",
+  "publishedAt": "2026-06-22",
+  "sourceUrl": "https://www.liepin.com/job/1983496803.shtml",
+  "job": {
+    "sourceJobId": "1983496803",
+    "title": "智能相机营销总监",
+    "company": "奥普特科技",
+    "salaryText": "30-40K",
+    "district": "深圳",
+    "addressText": "深圳",
+    "industry": "机器视觉、工业自动化",
+    "experience": "5年以上",
+    "education": "本科",
+    "descriptionText": "全面负责智能相机产品线经营计划、业绩指标和销售战略落地，统筹直销与渠道客户拓展、重大项目商务和订单转化，并负责市场需求调研、新品规划定义、研发迭代协同以及销售团队搭建和人才培养。要求本科及以上学历，具备5年以上机器视觉销售及团队管理经验，熟悉智能相机、3C、锂电和自动化客户，能够独立运作大型项目并整合跨部门资源。"
+  },
+  "verification": {
+    "pageActiveAtCapture": false,
+    "searchResultFreshAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": ["indexedWithin30Days", "namedEmployerInSearchIndex", "exactMonthlySalaryInSearchIndex", "shenzhenAddressInSearchIndex", "completeRequirementsInSearchIndex"],
+    "reviewNotes": "仅作为高概率发现层候选保存。搜索索引显示上市机器视觉企业实名岗位、深圳地点、固定月薪、完整职责要求、6月22日更新和招聘总监近期活跃信号；不计入详情证据，前端来源入口保持隐藏。"
+  }
+}

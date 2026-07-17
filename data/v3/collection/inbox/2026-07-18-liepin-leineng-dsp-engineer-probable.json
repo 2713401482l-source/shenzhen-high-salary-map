@@ -1,0 +1,32 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "liepin",
+  "sourcePublisher": "猎聘",
+  "captureMethod": "search-index-discovery",
+  "capturedAt": "2026-07-18T03:25:00+08:00",
+  "publishedAt": "2026-06-09",
+  "sourceUrl": "https://www.liepin.com/job/1976500841.shtml",
+  "job": {
+    "sourceJobId": "1976500841",
+    "title": "DSP软件工程师",
+    "company": "深圳市雷能混合集成电路有限公司",
+    "salaryText": "20-40K",
+    "district": "光明区",
+    "addressText": "深圳市光明区",
+    "industry": "电子/半导体/集成电路",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "负责电源及混合集成电路相关产品的DSP嵌入式软件研发、控制算法实现、软硬件联调和问题定位，参与产品方案设计、代码维护、测试验证与量产支持。岗位要求本科及以上学历，具备3至5年相关研发经验，熟悉DSP软件开发、嵌入式系统、数字电源控制及常用调试工具，能够协同硬件团队完成产品开发和交付。"
+  },
+  "verification": {
+    "pageActiveAtCapture": false,
+    "searchResultFreshAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": ["indexedWithin45Days", "namedEmployerInSearchIndex", "exactMonthlySalaryInSearchIndex", "shenzhenAddressInSearchIndex", "titleDescriptionConsistent"],
+    "reviewNotes": "仅作为高概率发现层候选保存。搜索索引显示深圳光明具名企业、固定月薪、学历经验要求和6月9日更新信号，采集时仍在45天窗口内；不计入详情证据，前端来源入口保持隐藏。"
+  }
+}
