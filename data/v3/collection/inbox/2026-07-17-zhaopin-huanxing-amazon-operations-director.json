@@ -1,0 +1,30 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-17T09:31:48+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1509375420J40948223115.htm",
+  "job": {
+    "sourceJobId": "CCL1509375420J40948223115",
+    "title": "亚马逊运营经理/总监",
+    "company": "广州焕兴科技有限公司",
+    "salaryText": "50-90K",
+    "district": "龙岗区",
+    "addressText": "深圳龙岗区天安科创大厦",
+    "industry": "跨境电商、技术服务",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "根据品牌发展战略制定Amazon年度、季度和月度销售、毛利及库存周转目标，主导精品产品全生命周期运营、定价促销、广告和内容策略；负责账号安全与合规风控、市场与选品分析、Listing本土化、广告流量矩阵、库存供应链协同以及运营团队建设。要求本科及以上学历、英语CET-6及以上，具备5年以上Amazon精品运营及至少3年团队管理经验，有打造BSR类目前50或多个年销百万美元SKU的成功案例。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["activeApplyEntry", "platformBusinessLicenseVerified", "activeRecruiter", "recentSearchIndex", "multipleOpenRoles"],
+    "reviewNotes": "智联独立详情页明确展示深圳龙岗区办公地点、固定月薪5-9万元、完整的运营职责和任职要求；采集时页面可投递，搜索索引显示招聘方昨日活跃，企业有39个在招职位。发布主体广州焕兴科技有限公司的营业执照经平台审核，页面未标注匿名客户或猎头代招。薪资虽偏高但与要求的百万美元SKU和团队负责人经历一致，未发现收费培训、押金或提成替代固定月薪。"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-17T09:31:48+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1495979550J40759167511.htm",
+  "job": {
+    "sourceJobId": "CCL1495979550J40759167511",
+    "title": "亚马逊运营总监",
+    "company": "河南江舸云科技有限公司",
+    "salaryText": "30-60K",
+    "district": "龙岗区",
+    "addressText": "深圳龙岗区百瑞达大厦C座22层2220",
+    "industry": "跨境电商、互联网电商",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责深圳亚马逊运营团队建设、日常管理、业务规范与分工协调，制定平台销售目标、营销计划和执行策略；熟练运用Amazon上架规则、Listing规则、站内广告与营销工具，持续跟踪竞争对手、关键词、销售数据与标杆企业表现并调整策略。要求具备3年以上亚马逊跨境电商平台负责人经验，做过亿元以上规模，具备成熟的数据分析、市场开拓、营销策略制定、团队管理与商务谈判能力，并有从零搭建团队或业务经验。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["activeApplyEntry", "platformBusinessLicenseVerified", "activeRecruiter", "recentSearchIndex", "multipleOpenRoles"],
+    "reviewNotes": "智联独立详情页明确展示深圳龙岗区具体办公地址、固定月薪3-6万元、完整职责与任职要求；采集时页面仍可投递，招聘经理昨日活跃且企业有38个在招职位。平台已审核河南江舸云科技有限公司营业执照，详情中的深圳团队与深圳办公地址相互一致。未发现匿名客户、中介代招、收费培训、押金或提成冒充固定月薪。"
+  }
+}

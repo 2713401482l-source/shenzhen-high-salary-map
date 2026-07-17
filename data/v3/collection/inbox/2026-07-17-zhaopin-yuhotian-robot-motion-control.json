@@ -1,0 +1,32 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-17T09:31:48+08:00",
+  "publishedAt": "2026-06-02",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC343277810J40886361613.htm",
+  "job": {
+    "sourceJobId": "CC343277810J40886361613",
+    "title": "运动控制算法工程师（四足/人形/移动操作）(J10034)",
+    "company": "玉禾田集团",
+    "salaryText": "30-60K",
+    "district": "福田区",
+    "addressText": "深圳福田区玉禾田大厦A座39楼",
+    "industry": "机器人、人工智能、智慧环卫",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "负责四足、机械臂和人形机器人的步态规划、平衡控制、全身动力学优化等前沿运动控制研发，搭建运动学与动力学模型并通过Gazebo、MuJoCo或Isaac Gym等物理仿真引擎完成验证和调优；负责移动操作场景的本体与算法协同设计、控制算法实机部署和联调。要求本科及以上学历，精通Linux、ROS/ROS2、C/C++和Python，熟悉MPC、WBC、强化学习、最优化控制、FOC电机控制及传感器融合，并具备机器人核心控制算法项目经验。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.eit-sz.com/",
+    "corroboratingUrls": ["https://www.eit-sz.com/"],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["recentPublicationDate", "activeApplyEntry", "platformBusinessLicenseVerified", "activeRecruiter", "listedCompany", "officialWebsiteCorroboration"],
+    "reviewNotes": "智联独立详情页明确展示深圳福田区具体地址、固定月薪3-6万元以及完整职责和要求；6月2日更新，采集日处于45天有效期边界内，页面仍可立即投递且人事经理昨日活跃。发布主体玉禾田集团为上市企业，营业执照经平台审核并可由集团官网交叉确认。未发现匿名客户、中介代招、收费培训、押金或薪资口径异常。"
+  }
+}
