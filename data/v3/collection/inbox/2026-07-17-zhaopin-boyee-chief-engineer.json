@@ -1,0 +1,30 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-17T10:22:15+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC158816810J40703151916.htm",
+  "job": {
+    "sourceJobId": "CC158816810J40703151916",
+    "title": "技术总工程师",
+    "company": "博亿（深圳）工业科技有限公司",
+    "salaryText": "50-80K",
+    "district": "宝安区",
+    "addressText": "深圳宝安区松岗街道洪桥头社区下围水工业区7栋",
+    "industry": "电气机械/电力设备、金属制品/机加工",
+    "experience": "10年以上",
+    "education": "本科",
+    "descriptionText": "主持公司技术发展战略规划、核心业务技术架构和新技术研究，推进设计创新、工艺改善、新产品研发、成本预估、项目进度与客户技术确认，并全面管理研发技术团队和专利工作。要求机械、电气或自动化相关本科以上学历，十五年以上机械或自动化行业经验、十年以上研发管理经验，精通非标自动化设备设计、电气控制、安装调试及研发管理体系建设。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["activeApplyEntry", "platformBusinessLicenseVerified", "activeRecruiter", "multipleOpenRoles"],
+    "reviewNotes": "公开详情页可投递，企业营业执照已审核，招聘者当前在线且有31个在招职位；页面更新时间为2026-06-30。"
+  }
+}

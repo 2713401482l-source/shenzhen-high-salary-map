@@ -6769,6 +6769,92 @@
     "duplicateFingerprint": "472546d6009cfb021573"
   },
   {
+    "id": "zhaopin-73654a45d1d4e44ee933",
+    "sourceJobId": "CCL1494737800J40783883301",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "大区经理（深圳分公司）",
+    "company": "郑州悦能光电科技有限公司",
+    "salaryText": "50-100K",
+    "salaryMin": 50,
+    "salaryMax": 100,
+    "salaryBand": "100K",
+    "city": "深圳",
+    "district": "光明区",
+    "addressText": "深圳光明区国佑酒店管理（深圳）有限公司",
+    "industry": "电子电路基础元件/模组",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionExcerpt": "负责国内外大区市场战略规划，制定并完成年度销售目标；管理区域销售团队，开拓激光设备、光通信及半导体相关行业客户，持续维护重点客户并分析行业与竞争动态。要求具备五年以上光电、半导体或工业设备销售经验，其中三年以上团队管理经历，能够独立制定区域策略、推动复杂项目成交并适应较高频率出差。",
+    "requirementText": "负责国内外大区市场战略规划，制定并完成年度销售目标；管理区域销售团队，开拓激光设备、光通信及半导体相关行业客户，持续维护重点客户并分析行业与竞争动态。要求具备五年以上光电、半导体或工业设备销售经验，其中三年以上团队管理经历，能够独立制定区域策略、推动复杂项目成交并适应较高频率出差。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1494737800J40783883301.htm",
+    "capturedAt": "2026-07-17T10:22:15+08:00",
+    "verifiedAt": "2026-07-17T10:22:15+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null,
+      "probableScore": 75,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": false,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": [
+        "freshOrRecentlyIndexed"
+      ]
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "corroboratingUrls": [],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "activeApplyEntry",
+        "platformBusinessLicenseVerified",
+        "activeRecruiter",
+        "multipleOpenRoles"
+      ],
+      "reviewNotes": "公开详情页可直接投递，企业营业执照已审核，招聘者当日活跃；页面更新于2026-06-03，采集时仍在45天新鲜度窗口内。"
+    },
+    "duplicateFingerprint": "cd5ae2a5aa15d5ecc7f6"
+  },
+  {
     "id": "zhaopin-74826574704a2ac60603",
     "sourceJobId": "CC120200310J40583459408",
     "sourcePlatform": "zhaopin",
@@ -6846,6 +6932,91 @@
       "reviewNotes": "智联具体岗位详情页展示40-80K固定月薪、深圳宝安具体厂区、博士学历、实名企业和完整AI视觉算法要求，页面采集时仍可沟通。页面未展示发布日期，因此按真实性策略记录missingPublicationDate，仅以页面活跃状态作为在招证据。MSI官方品牌历程确认2000年成立深圳宝安厂恩斯迈电子，官方隐私政策与认证文件确认公司全称及塘头大道37号地址；MSI官方AI页面和深圳制造基地信息与岗位的计算机视觉、深度学习和智能制造方向一致。招聘页同时明确公司自主招聘且不收取费用，未发现付费培训、提成薪资、匿名客户、地点矛盾或职责错配信号。"
     },
     "duplicateFingerprint": "606048580c589fb9e4c9"
+  },
+  {
+    "id": "zhaopin-75dddb563e13f34c9bed",
+    "sourceJobId": "CCL1515227700J40855476411",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "四足机器人研发负责人",
+    "company": "深圳启奥人工智能科技有限公司",
+    "salaryText": "60-90K",
+    "salaryMin": 60,
+    "salaryMax": 90,
+    "salaryBand": "100K",
+    "city": "深圳",
+    "district": "宝安区",
+    "addressText": "深圳宝安区前海卓越宝中时代广场A座1106A",
+    "industry": "人工智能、工业自动化/机器人",
+    "experience": "3-5年",
+    "education": "硕士",
+    "descriptionExcerpt": "牵头搭建四足机器人全栈研发团队和研发流程，负责成熟平台二次开发、运动性能优化、场景功能开发、整机集成验证与交付，并推进步态规划、动力学模型和感知控制闭环等技术预研。要求硕士学历，四年以上移动机器人、自动驾驶或四足机器人研发及团队管理经验，精通至少一个机器人核心算法领域，熟练使用C++、Python、Linux、ROS1/ROS2及仿真工具链。",
+    "requirementText": "牵头搭建四足机器人全栈研发团队和研发流程，负责成熟平台二次开发、运动性能优化、场景功能开发、整机集成验证与交付，并推进步态规划、动力学模型和感知控制闭环等技术预研。要求硕士学历，四年以上移动机器人、自动驾驶或四足机器人研发及团队管理经验，精通至少一个机器人核心算法领域，熟练使用C++、Python、Linux、ROS1/ROS2及仿真工具链。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1515227700J40855476411.htm",
+    "capturedAt": "2026-07-17T10:22:15+08:00",
+    "verifiedAt": "2026-07-17T10:22:15+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null,
+      "probableScore": 75,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": false,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": [
+        "freshOrRecentlyIndexed"
+      ]
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "corroboratingUrls": [],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "activeApplyEntry",
+        "platformBusinessLicenseVerified",
+        "multipleOpenRoles"
+      ],
+      "reviewNotes": "公开详情页可投递，企业营业执照已审核且有16个在招职位；页面更新时间为2026-06-10，仍在45天新鲜度窗口内。"
+    },
+    "duplicateFingerprint": "42cf7fe3f04c0a3cda8d"
   },
   {
     "id": "zhaopin-7602fd4a711d289c60e2",
@@ -7482,6 +7653,92 @@
       "reviewNotes": "岗位、企业和深圳具体工作地址均明确；月薪为5-8万，统一记录为50-80K；集团官网披露机器人及智能制造业务，并有自主研发机器人与招聘技术人才的公开记录，岗位职责与企业业务方向相符。"
     },
     "duplicateFingerprint": "789eaa7e636e5142fb6b"
+  },
+  {
+    "id": "zhaopin-893ea9209827f6f6c757",
+    "sourceJobId": "CC158816810J40703151916",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "技术总工程师",
+    "company": "博亿（深圳）工业科技有限公司",
+    "salaryText": "50-80K",
+    "salaryMin": 50,
+    "salaryMax": 80,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "宝安区",
+    "addressText": "深圳宝安区松岗街道洪桥头社区下围水工业区7栋",
+    "industry": "电气机械/电力设备、金属制品/机加工",
+    "experience": "10年以上",
+    "education": "本科",
+    "descriptionExcerpt": "主持公司技术发展战略规划、核心业务技术架构和新技术研究，推进设计创新、工艺改善、新产品研发、成本预估、项目进度与客户技术确认，并全面管理研发技术团队和专利工作。要求机械、电气或自动化相关本科以上学历，十五年以上机械或自动化行业经验、十年以上研发管理经验，精通非标自动化设备设计、电气控制、安装调试及研发管理体系建设。",
+    "requirementText": "主持公司技术发展战略规划、核心业务技术架构和新技术研究，推进设计创新、工艺改善、新产品研发、成本预估、项目进度与客户技术确认，并全面管理研发技术团队和专利工作。要求机械、电气或自动化相关本科以上学历，十五年以上机械或自动化行业经验、十年以上研发管理经验，精通非标自动化设备设计、电气控制、安装调试及研发管理体系建设。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC158816810J40703151916.htm",
+    "capturedAt": "2026-07-17T10:22:15+08:00",
+    "verifiedAt": "2026-07-17T10:22:15+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null,
+      "probableScore": 75,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": false,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": [
+        "freshOrRecentlyIndexed"
+      ]
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "corroboratingUrls": [],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "activeApplyEntry",
+        "platformBusinessLicenseVerified",
+        "activeRecruiter",
+        "multipleOpenRoles"
+      ],
+      "reviewNotes": "公开详情页可投递，企业营业执照已审核，招聘者当前在线且有31个在招职位；页面更新时间为2026-06-30。"
+    },
+    "duplicateFingerprint": "c3eefd4aacbf2770c109"
   },
   {
     "id": "zhaopin-89b1059f71f55aebb87b",
@@ -8548,6 +8805,91 @@
       "reviewNotes": "具体岗位详情页在采集时有效，明确显示深圳龙岗固定月薪7-10万元、招聘10人、完整职责与要求，发布主体为平台认证的恩士迅信息科技(中国)有限责任公司，并非匿名客户或猎头代招。恩士迅中国官网确认其在深圳设有机构和创新中心，业务包括数据与AI、云、平台及数字化服务，与岗位的现场数据平台交付职责一致。页面顶部经验标签为3-5年，正文基础要求写5年以上工作经验、2年以上相关交付经验，已在结构化字段中保留该差异。未发现收费、付费培训、提成冒充固定月薪或地点矛盾。"
     },
     "duplicateFingerprint": "2c7c57070557e7be235f"
+  },
+  {
+    "id": "zhaopin-a1dae15589e243a835d7",
+    "sourceJobId": "CCL1445783680J40815010707",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "DSP软件工程师",
+    "company": "深圳市百川创新技术有限公司",
+    "salaryText": "50-80K",
+    "salaryMin": 50,
+    "salaryMax": 80,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "光明区",
+    "addressText": "深圳光明区星源先进材料产业园4栋7F",
+    "industry": "半导体/芯片、电气机械/电力设备",
+    "experience": "5-10年",
+    "education": "硕士",
+    "descriptionExcerpt": "负责数字电源DC/DC、DC/AC、AC/DC方案制定、软件设计、开发与调试，基于TI C2000系列DSP完成驱动、控制算法、PWM与ADC闭环及软硬件联调，并编写设计和测试文档。要求精通C/C++、TI C2000及数字电源拓扑与环路控制，掌握RS232/485、CAN、SPI、I2C、MODBUS等协议，有储能逆变器、车载电源、充电桩或通信电源经验优先",
+    "requirementText": "负责数字电源DC/DC、DC/AC、AC/DC方案制定、软件设计、开发与调试，基于TI C2000系列DSP完成驱动、控制算法、PWM与ADC闭环及软硬件联调，并编写设计和测试文档。要求精通C/C++、TI C2000及数字电源拓扑与环路控制，掌握RS232/485、CAN、SPI、I2C、MODBUS等协议，有储能逆变器、车载电源、充电桩或通信电源经验优先。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1445783680J40815010707.htm",
+    "capturedAt": "2026-07-17T10:22:15+08:00",
+    "verifiedAt": "2026-07-17T10:22:15+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null,
+      "probableScore": 75,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": false,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": [
+        "freshOrRecentlyIndexed"
+      ]
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "corroboratingUrls": [],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "activeApplyEntry",
+        "platformBusinessLicenseVerified",
+        "activeRecruiter"
+      ],
+      "reviewNotes": "公开详情页可投递，企业营业执照已审核，招聘者昨日活跃；页面更新时间为2026-07-15，薪资、地点、职责和要求完整。"
+    },
+    "duplicateFingerprint": "507b32bfe76040bc0520"
   },
   {
     "id": "zhaopin-a37a31a7e8ad809e4ba9",
@@ -10189,6 +10531,93 @@
       "reviewNotes": "智联独立岗位详情页显示明确公司、深圳福田具体地址、完整职责与任职要求，招聘人数1人；页面原始薪资为3-5万/月，按统一月薪口径规范为30-50K，不含年薪换算或提成。岗位页采集时仍可访问，招聘方曾先生显示今日活跃并提供沟通与视频面试入口，作为在招新鲜度证据；页面未展示可可靠抄录的发布日期，已保留missingPublicationDate信号，不虚构日期。公司页面显示主体已核验并有多个在招职位；量旋科技官网和深圳市发展改革委公开报道共同确认深圳量旋科技有限公司及其量子计算业务。未发现收费培训、押金、匿名客户、猎头代招或职责标题错配。"
     },
     "duplicateFingerprint": "15b17f9ea89ede4e3fe5"
+  },
+  {
+    "id": "zhaopin-d363b77fdd235fabef95",
+    "sourceJobId": "CCL1479851850J40861643211",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "产品工程部负责人",
+    "company": "深圳和而泰智能控制有限公司",
+    "salaryText": "50-80K·15薪",
+    "salaryMin": 50,
+    "salaryMax": 80,
+    "salaryMonths": 15,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "光明区",
+    "addressText": "深圳光明区深圳和而泰智能控制有限公司",
+    "industry": "消费电子/智能硬件",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionExcerpt": "负责整机产品系统级架构与技术方案评审，统筹NPI新品导入全流程，包括EVT、DVT、PVT阶段的工程验证、BOM成本、制造质量、供应链协同和量产交付，并建立产品工程团队与流程体系。要求本科及以上学历，具备十年以上消费电子产品工程或制造经验、五年以上跨职能团队管理经验，熟悉智能穿戴、手机或智能硬件的研发制造和产品导入。",
+    "requirementText": "负责整机产品系统级架构与技术方案评审，统筹NPI新品导入全流程，包括EVT、DVT、PVT阶段的工程验证、BOM成本、制造质量、供应链协同和量产交付，并建立产品工程团队与流程体系。要求本科及以上学历，具备十年以上消费电子产品工程或制造经验、五年以上跨职能团队管理经验，熟悉智能穿戴、手机或智能硬件的研发制造和产品导入。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1479851850J40861643211.htm",
+    "capturedAt": "2026-07-17T10:22:15+08:00",
+    "verifiedAt": "2026-07-17T10:22:15+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null,
+      "probableScore": 75,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": false,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": [
+        "freshOrRecentlyIndexed"
+      ]
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": false
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "corroboratingUrls": [],
+      "staffingAgencyPosting": true,
+      "endEmployerNamed": true,
+      "signals": [
+        "activeApplyEntry",
+        "platformBusinessLicenseVerified",
+        "activeRecruiter",
+        "namedEndEmployer"
+      ],
+      "reviewNotes": "由淮安市纳杰云服技术服务有限责任公司发布，详情页明确标注终端雇主为深圳和而泰智能控制有限公司；页面2026-07-16更新且可投递，职责与要求完整。"
+    },
+    "duplicateFingerprint": "5cbf8d8aa8ea7d790342"
   },
   {
     "id": "zhaopin-d7a5bc3cc026b4800f46",

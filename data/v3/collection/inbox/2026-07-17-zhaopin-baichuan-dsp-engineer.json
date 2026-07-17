@@ -1,0 +1,30 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-17T10:22:15+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1445783680J40815010707.htm",
+  "job": {
+    "sourceJobId": "CCL1445783680J40815010707",
+    "title": "DSP软件工程师",
+    "company": "深圳市百川创新技术有限公司",
+    "salaryText": "50-80K",
+    "district": "光明区",
+    "addressText": "深圳光明区星源先进材料产业园4栋7F",
+    "industry": "半导体/芯片、电气机械/电力设备",
+    "experience": "5-10年",
+    "education": "硕士",
+    "descriptionText": "负责数字电源DC/DC、DC/AC、AC/DC方案制定、软件设计、开发与调试，基于TI C2000系列DSP完成驱动、控制算法、PWM与ADC闭环及软硬件联调，并编写设计和测试文档。要求精通C/C++、TI C2000及数字电源拓扑与环路控制，掌握RS232/485、CAN、SPI、I2C、MODBUS等协议，有储能逆变器、车载电源、充电桩或通信电源经验优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["activeApplyEntry", "platformBusinessLicenseVerified", "activeRecruiter"],
+    "reviewNotes": "公开详情页可投递，企业营业执照已审核，招聘者昨日活跃；页面更新时间为2026-07-15，薪资、地点、职责和要求完整。"
+  }
+}

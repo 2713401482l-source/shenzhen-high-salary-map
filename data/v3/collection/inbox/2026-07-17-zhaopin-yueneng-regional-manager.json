@@ -1,0 +1,30 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-17T10:22:15+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1494737800J40783883301.htm",
+  "job": {
+    "sourceJobId": "CCL1494737800J40783883301",
+    "title": "大区经理（深圳分公司）",
+    "company": "郑州悦能光电科技有限公司",
+    "salaryText": "50-100K",
+    "district": "光明区",
+    "addressText": "深圳光明区国佑酒店管理（深圳）有限公司",
+    "industry": "电子电路基础元件/模组",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "负责国内外大区市场战略规划，制定并完成年度销售目标；管理区域销售团队，开拓激光设备、光通信及半导体相关行业客户，持续维护重点客户并分析行业与竞争动态。要求具备五年以上光电、半导体或工业设备销售经验，其中三年以上团队管理经历，能够独立制定区域策略、推动复杂项目成交并适应较高频率出差。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["activeApplyEntry", "platformBusinessLicenseVerified", "activeRecruiter", "multipleOpenRoles"],
+    "reviewNotes": "公开详情页可直接投递，企业营业执照已审核，招聘者当日活跃；页面更新于2026-06-03，采集时仍在45天新鲜度窗口内。"
+  }
+}

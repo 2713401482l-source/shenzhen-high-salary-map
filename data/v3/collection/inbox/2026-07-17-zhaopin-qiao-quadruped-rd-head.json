@@ -1,0 +1,30 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-17T10:22:15+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1515227700J40855476411.htm",
+  "job": {
+    "sourceJobId": "CCL1515227700J40855476411",
+    "title": "四足机器人研发负责人",
+    "company": "深圳启奥人工智能科技有限公司",
+    "salaryText": "60-90K",
+    "district": "宝安区",
+    "addressText": "深圳宝安区前海卓越宝中时代广场A座1106A",
+    "industry": "人工智能、工业自动化/机器人",
+    "experience": "3-5年",
+    "education": "硕士",
+    "descriptionText": "牵头搭建四足机器人全栈研发团队和研发流程，负责成熟平台二次开发、运动性能优化、场景功能开发、整机集成验证与交付，并推进步态规划、动力学模型和感知控制闭环等技术预研。要求硕士学历，四年以上移动机器人、自动驾驶或四足机器人研发及团队管理经验，精通至少一个机器人核心算法领域，熟练使用C++、Python、Linux、ROS1/ROS2及仿真工具链。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["activeApplyEntry", "platformBusinessLicenseVerified", "multipleOpenRoles"],
+    "reviewNotes": "公开详情页可投递，企业营业执照已审核且有16个在招职位；页面更新时间为2026-06-10，仍在45天新鲜度窗口内。"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-17T10:22:15+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1479851850J40861643211.htm",
+  "job": {
+    "sourceJobId": "CCL1479851850J40861643211",
+    "title": "产品工程部负责人",
+    "company": "深圳和而泰智能控制有限公司",
+    "salaryText": "50-80K·15薪",
+    "district": "光明区",
+    "addressText": "深圳光明区深圳和而泰智能控制有限公司",
+    "industry": "消费电子/智能硬件",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责整机产品系统级架构与技术方案评审，统筹NPI新品导入全流程，包括EVT、DVT、PVT阶段的工程验证、BOM成本、制造质量、供应链协同和量产交付，并建立产品工程团队与流程体系。要求本科及以上学历，具备十年以上消费电子产品工程或制造经验、五年以上跨职能团队管理经验，熟悉智能穿戴、手机或智能硬件的研发制造和产品导入。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": true,
+    "endEmployerNamed": true,
+    "signals": ["activeApplyEntry", "platformBusinessLicenseVerified", "activeRecruiter", "namedEndEmployer"],
+    "reviewNotes": "由淮安市纳杰云服技术服务有限责任公司发布，详情页明确标注终端雇主为深圳和而泰智能控制有限公司；页面2026-07-16更新且可投递，职责与要求完整。"
+  }
+}
