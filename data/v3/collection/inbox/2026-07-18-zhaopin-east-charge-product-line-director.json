@@ -1,0 +1,41 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-18T02:10:51+08:00",
+  "publishedAt": "2026-07-16",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC236222620J40875831114.htm",
+  "job": {
+    "sourceJobId": "CC236222620J40875831114",
+    "title": "充电桩产品线总监",
+    "company": "易事特集团股份有限公司",
+    "salaryText": "70-100K",
+    "district": "龙岗区",
+    "addressText": "深圳市龙岗区中能易电数字能源有限公司",
+    "industry": "新能源/充电桩/电力电子",
+    "experience": "10年以上",
+    "education": "本科",
+    "descriptionText": "负责制定充电桩产品线产品路标、技术平台和升级换代规划，管控研发项目关键风险，推动采购与研发实现降本目标，建立产品开发及量产质量闭环，并完成团队建设、人才培养和绩效辅导。要求电力电子、电气自动化等相关本科及以上学历，具备十年以上充电桩、光伏逆变器、储能变流器或UPS产品开发经验及五年以上新能源研发团队管理经验，熟悉电力电子拓扑、控制策略和从产品立项到上市的完整研发流程。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "directDetailPageVisible",
+      "publishedWithin45Days",
+      "exactMonthlySalaryVisible",
+      "shenzhenAddressVisible",
+      "completeRequirementsVisible",
+      "directApplyVisible",
+      "businessRegistrationVisible",
+      "recruiterRecentlyActive",
+      "employerVerifiedByPlatform"
+    ],
+    "reviewNotes": "智联公开具体岗位详情页显示7月16日更新、立即投递、固定月薪70-100K、深圳龙岗具体地址及完整职责要求；易事特为平台审核的上市企业，工商状态存续，公开业务包含充电桩、光伏逆变器、储能和UPS，和岗位技术要求一致，招聘负责人昨日活跃。未发现匿名客户、收费培训、提成冒充月薪、年薪误读或虚假招聘信号。"
+  }
+}
