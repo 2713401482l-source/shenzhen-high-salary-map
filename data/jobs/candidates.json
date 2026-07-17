@@ -1811,6 +1811,98 @@
     }
   },
   {
+    "id": "job5156-135961bc8d4f10e74aa7",
+    "sourceJobId": "281496728",
+    "sourcePlatform": "job5156",
+    "sourcePublisher": "智通直聘",
+    "captureMethod": "search-index-discovery",
+    "title": "总经理助理（电力电子制造业）",
+    "company": "深圳市京泉华科技股份有限公司",
+    "salaryText": "50-80K",
+    "salaryMin": 50,
+    "salaryMax": 80,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "龙岗区",
+    "addressText": "深圳市龙岗区深圳市京泉华科技股份有限公司",
+    "industry": "电力电子/制造业/运营管理",
+    "experience": "8年及以上",
+    "education": "本科",
+    "descriptionExcerpt": "协助总经理进行年度和季度战略规划，将战略目标拆解为可执行项目并建立跟踪、衡量和报告机制；推动重大项目与经营变革，搭建公司级运营绩效仪表盘，分析核心指标根因并推动改进，维护关键内外部合作伙伴沟通渠道，同时评估运营系统集成与行业趋势。要求全日制本科及以上理工科背景，具备八年以上电力电子制造业工厂经验、跨职能复杂项目交付能力、运营管理能力和战略思维。",
+    "requirementText": "协助总经理进行年度和季度战略规划，将战略目标拆解为可执行项目并建立跟踪、衡量和报告机制；推动重大项目与经营变革，搭建公司级运营绩效仪表盘，分析核心指标根因并推动改进，维护关键内外部合作伙伴沟通渠道，同时评估运营系统集成与行业趋势。要求全日制本科及以上理工科背景，具备八年以上电力电子制造业工厂经验、跨职能复杂项目交付能力、运营管理能力和战略思维。",
+    "sourceUrl": "https://www.job5156.com/shenzhen/job_281496728",
+    "capturedAt": "2026-07-18T03:00:52+08:00",
+    "publishedAt": "2026-07-15",
+    "status": "candidate",
+    "evidenceLevel": "public-index-probable",
+    "sourceVisibility": "hidden",
+    "authenticity": {
+      "status": "probable",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": false,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [
+        "specificDetailUrl"
+      ],
+      "quarantineSignals": [],
+      "ageDays": 3,
+      "probableScore": 95,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": false,
+      "marketDemand": false,
+      "salary": false,
+      "skills": false,
+      "companyExpansion": false
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "searchResultFreshAtCapture": true,
+      "employerNamed": true,
+      "staffingAgencyPosting": true,
+      "endEmployerNamed": true,
+      "corroboratingUrls": [],
+      "signals": [
+        "indexedWithin45Days",
+        "specificJobUrlDiscovered",
+        "exactMonthlySalaryInHeader",
+        "namedEndEmployerInWorkAddress",
+        "shenzhenAddressVisible",
+        "completeRequirementsVisible",
+        "directApplyVisible",
+        "recruiterRecentlyActive",
+        "salaryRangeNeedsReview"
+      ],
+      "reviewNotes": "智通公开独立岗位页显示7月15日刷新、立即投递、固定月薪栏50-80K、深圳龙岗区以及完整职责要求；招聘方为智名人力资源，但工作地址明确标注终端雇主深圳市京泉华科技股份有限公司，招聘负责人今日活跃。正文另写年薪50-80W，与页面月薪栏并非完全等值，因此只进入高概率发现层，不计详情、薪资统计或技能分析，并在前端隐藏来源入口。"
+    },
+    "duplicateFingerprint": "b4055a4062f77acab679"
+  },
+  {
     "id": "job5156-7be7c63c44d5dcd9a318",
     "sourceJobId": "281528344",
     "sourcePlatform": "job5156",
@@ -2503,6 +2595,97 @@
       ]
     },
     "duplicateFingerprint": "9de5f5d217e28b043e7b"
+  },
+  {
+    "id": "liepin-b3ea24f1081fb0ff32a2",
+    "sourceJobId": "1979189617",
+    "sourcePlatform": "liepin",
+    "sourcePublisher": "猎聘",
+    "captureMethod": "search-index-discovery",
+    "title": "机械结构工程师（机器人）",
+    "company": "智元机器人",
+    "salaryText": "30-60K·15薪",
+    "salaryMin": 30,
+    "salaryMax": 60,
+    "salaryMonths": 15,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "深圳市南山区",
+    "industry": "具身智能与机器人",
+    "experience": "3年以上",
+    "education": "硕士",
+    "descriptionExcerpt": "公开索引显示该岗位负责复杂多关节串并联机器人本体机械设计，包括产品需求拆解、整机方案堆叠、传动与零部件结构设计、尺寸链分析、强度和负载校核、寿命分析、可靠性验证、材料及加工工艺选择、二维图纸和BOM输出，并推动样机装配验证与量产交付。要求机械设计或机电一体化相关本科及以上学历，具备三年以上机器人结构研发经验，能够完成机电耦合设计、关键零部件详细设计以及从样机",
+    "requirementText": "公开索引显示该岗位负责复杂多关节串并联机器人本体机械设计，包括产品需求拆解、整机方案堆叠、传动与零部件结构设计、尺寸链分析、强度和负载校核、寿命分析、可靠性验证、材料及加工工艺选择、二维图纸和BOM输出，并推动样机装配验证与量产交付。要求机械设计或机电一体化相关本科及以上学历，具备三年以上机器人结构研发经验，能够完成机电耦合设计、关键零部件详细设计以及从样机到量产的工程闭环。",
+    "sourceUrl": "https://www.liepin.com/job/1979189617.shtml",
+    "capturedAt": "2026-07-18T02:40:52+08:00",
+    "publishedAt": "2026-06-04",
+    "status": "candidate",
+    "evidenceLevel": "public-index-probable",
+    "sourceVisibility": "hidden",
+    "authenticity": {
+      "status": "probable",
+      "score": 65,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 0,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": false,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": false,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [
+        "specificDetailUrl",
+        "activeOrFresh"
+      ],
+      "quarantineSignals": [],
+      "ageDays": 44,
+      "probableScore": 95,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": false,
+      "marketDemand": false,
+      "salary": false,
+      "skills": false,
+      "companyExpansion": false
+    },
+    "verification": {
+      "pageActiveAtCapture": false,
+      "searchResultFreshAtCapture": true,
+      "employerNamed": true,
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "corroboratingUrls": [],
+      "signals": [
+        "indexedWithin45Days",
+        "namedEmployerInSearchIndex",
+        "specificJobUrlDiscovered",
+        "exactMonthlySalaryInSearchIndex",
+        "shenzhenDistrictInSearchIndex",
+        "substantiveRequirementsInSearchIndex"
+      ],
+      "reviewNotes": "猎聘搜索索引给出具体岗位URL、实名企业、深圳南山区、固定月薪30-60K并另标15薪、完整职责要求及2026年6月4日更新信息。采集时距更新44天，处于45天上限内。未打开猎聘详情页，因此仅进入高概率发现层，不计入详情证据、薪资统计或技能分析，前端隐藏来源入口。"
+    },
+    "duplicateFingerprint": "892700ea520524010384"
   },
   {
     "id": "zhaopin-4524ca9730411a2f17f4",

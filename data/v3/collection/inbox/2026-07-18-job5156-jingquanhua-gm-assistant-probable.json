@@ -1,0 +1,42 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "job5156",
+  "sourcePublisher": "智通直聘",
+  "captureMethod": "search-index-discovery",
+  "capturedAt": "2026-07-18T03:00:52+08:00",
+  "publishedAt": "2026-07-15",
+  "sourceUrl": "https://www.job5156.com/shenzhen/job_281496728",
+  "job": {
+    "sourceJobId": "281496728",
+    "title": "总经理助理（电力电子制造业）",
+    "company": "深圳市京泉华科技股份有限公司",
+    "salaryText": "50-80K",
+    "district": "龙岗区",
+    "addressText": "深圳市龙岗区深圳市京泉华科技股份有限公司",
+    "industry": "电力电子/制造业/运营管理",
+    "experience": "8年及以上",
+    "education": "本科",
+    "descriptionText": "协助总经理进行年度和季度战略规划，将战略目标拆解为可执行项目并建立跟踪、衡量和报告机制；推动重大项目与经营变革，搭建公司级运营绩效仪表盘，分析核心指标根因并推动改进，维护关键内外部合作伙伴沟通渠道，同时评估运营系统集成与行业趋势。要求全日制本科及以上理工科背景，具备八年以上电力电子制造业工厂经验、跨职能复杂项目交付能力、运营管理能力和战略思维。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "searchResultFreshAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": true,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "indexedWithin45Days",
+      "specificJobUrlDiscovered",
+      "exactMonthlySalaryInHeader",
+      "namedEndEmployerInWorkAddress",
+      "shenzhenAddressVisible",
+      "completeRequirementsVisible",
+      "directApplyVisible",
+      "recruiterRecentlyActive",
+      "salaryRangeNeedsReview"
+    ],
+    "reviewNotes": "智通公开独立岗位页显示7月15日刷新、立即投递、固定月薪栏50-80K、深圳龙岗区以及完整职责要求；招聘方为智名人力资源，但工作地址明确标注终端雇主深圳市京泉华科技股份有限公司，招聘负责人今日活跃。正文另写年薪50-80W，与页面月薪栏并非完全等值，因此只进入高概率发现层，不计详情、薪资统计或技能分析，并在前端隐藏来源入口。"
+  }
+}

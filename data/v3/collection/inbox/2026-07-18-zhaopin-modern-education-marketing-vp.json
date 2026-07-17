@@ -1,0 +1,40 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-18T03:00:52+08:00",
+  "publishedAt": "2026-07-08",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC830918000J40767015406.htm",
+  "job": {
+    "sourceJobId": "CC830918000J40767015406",
+    "title": "市场营销副总裁/城市总经理",
+    "company": "香港現代教育集團有限公司",
+    "salaryText": "40-70K",
+    "district": "南山区",
+    "addressText": "深圳市南山区恒裕前海金融中心T1栋27楼2710",
+    "industry": "教育科技/市场增长/品牌营销",
+    "experience": "10年以上",
+    "education": "本科",
+    "descriptionText": "负责品牌营销、数字营销、线上线下活动、用户增长及销售转化支持的全链路市场管理，制定年度营销计划，统筹内容生产、渠道投放、效果监测和策略迭代；联动产品、销售和运营团队优化从获客到转化的效率，并管理品牌、内容、设计及外部供应商。要求重点大学本科及以上学历，具备八年以上市场营销经验、三年以上中大型教育企业市场负责人经验，熟悉品牌建设、数字投放、用户增长、数据分析和跨部门协同，有国际化品牌经验者优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "directDetailPageVisible",
+      "publishedWithin45Days",
+      "exactMonthlySalaryVisible",
+      "shenzhenAddressVisible",
+      "completeRequirementsVisible",
+      "directApplyVisible",
+      "recruiterRecentlyActive",
+      "employerVerifiedByPlatform"
+    ],
+    "reviewNotes": "智联公开独立岗位详情页显示7月8日更新、立即投递、固定月薪40-70K、深圳前海具体地址和完整职责要求；企业经平台审核且有76个在招职位，招聘负责人今日有回复记录。岗位名称、教育行业背景、市场增长职责和资历要求一致，未发现匿名客户、代招、收费培训、提成冒充月薪、年薪误读或虚假招聘信号。"
+  }
+}

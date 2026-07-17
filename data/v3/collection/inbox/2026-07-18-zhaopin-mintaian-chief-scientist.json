@@ -1,0 +1,39 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-18T03:00:52+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC448226020J40922718902.htm",
+  "job": {
+    "sourceJobId": "CC448226020J40922718902",
+    "title": "首席科学家(J10025)",
+    "company": "民太安保险公估有限公司",
+    "salaryText": "50-80K",
+    "district": "南山区",
+    "addressText": "深圳市南山区水木一方大厦A座4楼",
+    "industry": "保险科技/咨询服务/人工智能",
+    "experience": "10年以上",
+    "education": "硕士",
+    "descriptionText": "主导人工智能、大数据、区块链等前沿技术在保险公估领域的战略应用研究与落地，覆盖智能定损、风险量化建模和反欺诈系统；牵头建设企业级科技研发体系，推动技术成果产品化和商业化，并负责高端人才梯队建设。要求硕士及以上学历，具备保险、精算、计算机或人工智能等背景，累计十年以上保险科技或第三方公估机构经验，其中不少于五年技术负责人、首席技术官或研究院院长经历，并有大型数字化转型项目、专利论文或规模化技术平台成果。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "directDetailPageVisible",
+      "exactMonthlySalaryVisible",
+      "shenzhenAddressVisible",
+      "completeRequirementsVisible",
+      "directApplyVisible",
+      "businessRegistrationVisible",
+      "recruiterRecentlyActive",
+      "employerVerifiedByPlatform"
+    ],
+    "reviewNotes": "智联公开独立岗位详情页可直接访问，显示固定月薪50-80K、深圳南山区具体地址、完整职责要求、立即沟通入口及138个在招职位；招聘负责人三日内活跃。企业由平台审核，工商主体存续，岗位对人工智能、保险科技、研发体系和十年以上行业经历的要求相互一致。未发现匿名客户、代招、收费培训、提成冒充月薪或年薪误读。"
+  }
+}
