@@ -1,0 +1,39 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "liepin",
+  "sourcePublisher": "猎聘",
+  "captureMethod": "search-index-discovery",
+  "capturedAt": "2026-07-18T02:40:52+08:00",
+  "publishedAt": "2026-06-04",
+  "sourceUrl": "https://www.liepin.com/job/1979189617.shtml",
+  "job": {
+    "sourceJobId": "1979189617",
+    "title": "机械结构工程师（机器人）",
+    "company": "智元机器人",
+    "salaryText": "30-60K·15薪",
+    "district": "南山区",
+    "addressText": "深圳市南山区",
+    "industry": "具身智能与机器人",
+    "experience": "3年以上",
+    "education": "硕士",
+    "descriptionText": "公开索引显示该岗位负责复杂多关节串并联机器人本体机械设计，包括产品需求拆解、整机方案堆叠、传动与零部件结构设计、尺寸链分析、强度和负载校核、寿命分析、可靠性验证、材料及加工工艺选择、二维图纸和BOM输出，并推动样机装配验证与量产交付。要求机械设计或机电一体化相关本科及以上学历，具备三年以上机器人结构研发经验，能够完成机电耦合设计、关键零部件详细设计以及从样机到量产的工程闭环。"
+  },
+  "verification": {
+    "pageActiveAtCapture": false,
+    "searchResultFreshAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "indexedWithin45Days",
+      "namedEmployerInSearchIndex",
+      "specificJobUrlDiscovered",
+      "exactMonthlySalaryInSearchIndex",
+      "shenzhenDistrictInSearchIndex",
+      "substantiveRequirementsInSearchIndex"
+    ],
+    "reviewNotes": "猎聘搜索索引给出具体岗位URL、实名企业、深圳南山区、固定月薪30-60K并另标15薪、完整职责要求及2026年6月4日更新信息。采集时距更新44天，处于45天上限内。未打开猎聘详情页，因此仅进入高概率发现层，不计入详情证据、薪资统计或技能分析，前端隐藏来源入口。"
+  }
+}
