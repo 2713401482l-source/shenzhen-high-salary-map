@@ -47,7 +47,8 @@
       "formalSampleAllowed": true,
       "probableSampleAllowed": true,
       "requiresDirectDetailUrl": true,
-      "notes": "搜索索引可在明确公司、深圳地点、固定月薪和近期信号同时成立时进入高概率发现池；正式详情样本仍需回到具体岗位页核验。匿名客户岗位默认隔离。"
+      "accessStatus": "search-index-only-platform-risk",
+      "notes": "搜索索引可在明确公司、深圳地点、固定月薪和近期信号同时成立时进入高概率发现池；匿名客户岗位默认隔离。2026-07-18 打开具体推荐岗位页时被重定向至猎聘验证码拦截页，已立即停止详情访问；恢复前仅允许搜索索引发现，不打开具体岗位页、不刷新、不重试、不绕过。"
     },
     {
       "id": "zhaopin",
