@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-18T17:33:11.665Z",
+  "generatedAt": "2026-07-18T19:46:08.666Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 304,
-    "verifiedDetailJobs": 216,
+    "usableJobs": 309,
+    "verifiedDetailJobs": 221,
     "listingOnlyJobs": 88,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 237,
-    "uniqueCompanies": 247,
-    "uniqueRawTitles": 282,
+    "fullRequirementJobs": 242,
+    "uniqueCompanies": 250,
+    "uniqueRawTitles": 287,
     "captureDates": 6
   },
   "distributions": {
     "salaryBands": {
-      "50K": 144,
-      "30K": 126,
+      "50K": 145,
+      "30K": 130,
       "100K": 34
     },
     "evidenceLevels": {
-      "public-platform-detail": 208,
+      "public-platform-detail": 213,
       "boss-listing": 67,
       "public-index-probable": 16,
       "boss-detail": 8,
@@ -32,16 +32,16 @@
       "2026-07-18": 60,
       "2026-07-16": 57,
       "2026-07-15": 46,
-      "2026-07-19": 9
+      "2026-07-19": 14
     },
     "industries": {
       "计算机软件": 12,
       "互联网": 11,
       "人工智能": 11,
+      "电子/半导体/集成电路": 8,
       "智能硬件/消费电子": 8,
-      "电子/半导体/集成电路": 7,
+      "工业自动化/机器人": 6,
       "智能硬件": 6,
-      "工业自动化/机器人": 5,
       "未公开": 5,
       "半导体/芯片": 4,
       "石油/石化、环保": 3,
@@ -57,9 +57,11 @@
       "电子/硬件开发": 2,
       "电子商务": 2,
       "高端智能装备、数控机床、工业自动化与人工智能": 2,
+      "工业自动化设备": 2,
       "互联网金融": 2,
       "具身智能与机器人": 2,
       "其他行业": 2,
+      "汽车智能网联": 2,
       "橡胶/塑料制品、消费电子精密制造": 2,
       "医疗健康": 2,
       "半导体/芯片、电子行业ODM与集成供应链": 1,
@@ -167,7 +169,6 @@
       "量子计算/半导体/人工智能": 1,
       "绿色能源/智算中心/人工智能基础设施": 1,
       "企业服务": 1,
-      "汽车智能网联": 1,
       "汽车智能网联/自动驾驶": 1,
       "人工智能、工业智能与具身机器人": 1,
       "人工智能、工业自动化、智能制造": 1,
@@ -259,10 +260,10 @@
       "PCB设备、工业自动化与半导体检测": 1
     },
     "districts": {
-      "南山区": 120,
-      "宝安区": 61,
+      "南山区": 121,
+      "宝安区": 63,
       "龙岗区": 30,
-      "光明区": 24,
+      "光明区": 26,
       "福田区": 21,
       "龙华区": 21,
       "深圳": 15,
@@ -334,11 +335,19 @@
       "count": 3
     },
     {
+      "company": "芯辰远航(厦门)科技有限公司深圳分公司",
+      "count": 3
+    },
+    {
       "company": "字节跳动",
       "count": 3
     },
     {
       "company": "比亚迪股份有限公司",
+      "count": 2
+    },
+    {
+      "company": "大洋机器人科技(深圳)有限公司",
       "count": 2
     },
     {
@@ -382,10 +391,6 @@
       "count": 2
     },
     {
-      "company": "芯辰远航(厦门)科技有限公司深圳分公司",
-      "count": 2
-    },
-    {
       "company": "欣旺达动力科技股份有限公司",
       "count": 2
     },
@@ -402,12 +407,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 304,
+      "current": 309,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 216,
+      "current": 221,
       "required": 240,
       "passed": false
     },
@@ -426,7 +431,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "216/304 条完成详情核验",
+      "evidence": "221/309 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {
