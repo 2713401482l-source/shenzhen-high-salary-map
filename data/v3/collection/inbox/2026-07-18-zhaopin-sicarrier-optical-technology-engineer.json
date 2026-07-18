@@ -1,0 +1,38 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-18T20:45:00+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1362239030J40767081115.htm",
+  "job": {
+    "sourceJobId": "CCL1362239030J40767081115",
+    "title": "光学技术开发工程师",
+    "company": "深圳市新凯来技术有限公司",
+    "salaryText": "30-50K·15薪",
+    "district": "龙岗区",
+    "addressText": "深圳市龙岗区深圳市新凯来技术有限公司",
+    "industry": "半导体/芯片",
+    "experience": "5-10年",
+    "education": "硕士",
+    "descriptionText": "负责精密成像、照明、光学测量与检测系统的光学设计、模型仿真和公差分析，运用几何光学、物理光学、干涉测量及薄膜光学原理开展核心技术研究，并与光机、电子和算法工程师协作实现系统性能；负责光学系统及器件从规格指标、详细设计、开发到装调验证的交付。要求光学、微纳光学、激光、物理或光电相关专业，具备光学系统、元件或微纳结构设计仿真、加工组装及测试表征经验，熟练使用至少一种光学软件并能使用代码工具建模仿真。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.sicarrier.com/",
+    "corroboratingUrls": [
+      "https://www.sicarrier.com/",
+      "https://www.sicarrier.com/%E5%85%B3%E4%BA%8E%E6%88%91%E4%BB%AC/%E8%81%94%E7%B3%BB%E6%88%91%E4%BB%AC"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "智联具体岗位页在采集时保留立即投递入口并显示企业仍有大量在招职位",
+      "岗位页明确展示深圳龙岗区、固定月薪区间、十五薪、学历经验和完整职责要求",
+      "企业通过平台营业执照审核，官网确认公司主体及半导体装备研发制造业务"
+    ],
+    "reviewNotes": "具体岗位页采集时仍可投递；页面未提供可靠的明确发布日期，因此按真实性策略使用活跃详情页证据，不虚构发布时间。发布企业和最终雇主均为深圳市新凯来技术有限公司，不是匿名客户或人力资源代招；未发现收费培训、提成冒充固定月薪或年薪误读。"
+  }
+}

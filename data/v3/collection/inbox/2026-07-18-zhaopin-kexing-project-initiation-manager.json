@@ -1,0 +1,39 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-18T20:45:00+08:00",
+  "publishedAt": "2026-07-13",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1241767790J40863639607.htm",
+  "job": {
+    "sourceJobId": "CCL1241767790J40863639607",
+    "title": "立项经理(J12171)",
+    "company": "科兴生物制药股份有限公司深圳分公司",
+    "salaryText": "30-50K",
+    "district": "南山区",
+    "addressText": "深圳市南山区创益科技大厦B栋16楼",
+    "industry": "生物制药",
+    "experience": "5-10年",
+    "education": "硕士",
+    "descriptionText": "负责依据项目调研进度规划时间、审核调研方向、调研渠道和信息分析标准，检查并督促调研进度；撰写、审核及修订项目调研和立项报告，确保资料与数据真实准确并完成项目答疑；起草或审核信息调研、新药筛选、药物评估及立项流程方案。要求生物学、药学、医学相关专业硕士及以上学历，硕士五年或博士两年以上经验，熟悉药品研发流程、药政注册法规、信息调研和数据分析，具备生物大分子药物立项经验者优先，英语能够独立查阅文献。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.kexing.com/",
+    "corroboratingUrls": [
+      "https://www.kexing.com/",
+      "https://www.kexing.com/about/"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "智联具体岗位页在采集时显示立即投递入口且发布者三日内活跃",
+      "岗位页明确展示深圳南山区、固定月薪区间、学历经验和完整职责要求",
+      "企业通过平台营业执照审核，官网确认公司主体及深圳医药研究院布局"
+    ],
+    "reviewNotes": "具体岗位页采集时仍可投递，搜索索引于五日内抓取。发布企业和最终雇主均为科兴生物制药股份有限公司深圳分公司，不是匿名客户或人力资源代招；未发现收费培训、提成冒充固定月薪或年薪误读。"
+  }
+}
