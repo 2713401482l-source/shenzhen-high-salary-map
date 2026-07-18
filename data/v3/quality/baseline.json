@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-18T16:40:04.925Z",
+  "generatedAt": "2026-07-18T17:33:11.665Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 299,
-    "verifiedDetailJobs": 211,
+    "usableJobs": 304,
+    "verifiedDetailJobs": 216,
     "listingOnlyJobs": 88,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 232,
-    "uniqueCompanies": 243,
-    "uniqueRawTitles": 278,
+    "fullRequirementJobs": 237,
+    "uniqueCompanies": 247,
+    "uniqueRawTitles": 282,
     "captureDates": 6
   },
   "distributions": {
     "salaryBands": {
-      "50K": 140,
-      "30K": 125,
+      "50K": 144,
+      "30K": 126,
       "100K": 34
     },
     "evidenceLevels": {
-      "public-platform-detail": 203,
+      "public-platform-detail": 208,
       "boss-listing": 67,
       "public-index-probable": 16,
       "boss-detail": 8,
@@ -32,7 +32,7 @@
       "2026-07-18": 60,
       "2026-07-16": 57,
       "2026-07-15": 46,
-      "2026-07-19": 4
+      "2026-07-19": 9
     },
     "industries": {
       "计算机软件": 12,
@@ -52,6 +52,7 @@
       "储能": 2,
       "电力电子、轨道交通电源与新能源": 2,
       "电力电子、消费电子与高端电源制造": 2,
+      "电气机械/电力设备": 2,
       "电子/半导体/集成电路、智能声学穿戴": 2,
       "电子/硬件开发": 2,
       "电子商务": 2,
@@ -101,6 +102,7 @@
       "动力电池、新能源": 1,
       "动力电池、新能源汽车与全球化制造": 1,
       "动力电池/新能源": 1,
+      "动力电池/新能源汽车零部件": 1,
       "房地产开发经营": 1,
       "房地产开发经营/产业园运营/物业管理": 1,
       "钢铁/工业数字化": 1,
@@ -222,7 +224,9 @@
       "新零售/用户增长": 1,
       "新能源、便携式储能、跨境电商": 1,
       "新能源、储能电池": 1,
+      "新能源/半导体/电力设备": 1,
       "新能源/充电桩/电力电子": 1,
+      "新能源/电气机械/电力设备": 1,
       "新能源汽车、储能、电池管理系统": 1,
       "新能源汽车、金融科技、保险IT": 1,
       "新能源汽车、智能座舱与动力电池": 1,
@@ -255,10 +259,10 @@
       "PCB设备、工业自动化与半导体检测": 1
     },
     "districts": {
-      "南山区": 118,
-      "宝安区": 59,
+      "南山区": 120,
+      "宝安区": 61,
       "龙岗区": 30,
-      "光明区": 23,
+      "光明区": 24,
       "福田区": 21,
       "龙华区": 21,
       "深圳": 15,
@@ -382,6 +386,10 @@
       "count": 2
     },
     {
+      "company": "欣旺达动力科技股份有限公司",
+      "count": 2
+    },
+    {
       "company": "自变量机器人",
       "count": 2
     }
@@ -394,12 +402,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 299,
+      "current": 304,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 211,
+      "current": 216,
       "required": 240,
       "passed": false
     },
@@ -418,7 +426,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "211/299 条完成详情核验",
+      "evidence": "216/304 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {

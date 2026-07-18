@@ -1,0 +1,32 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-19T01:29:00+08:00",
+  "publishedAt": "2026-06-09",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC215456710J40821802316.htm",
+  "job": {
+    "sourceJobId": "CC215456710J40821802316",
+    "title": "高级DSP工程师",
+    "company": "紫创光科(深圳)科技集团股份有限公司",
+    "salaryText": "30-60K",
+    "district": "宝安区",
+    "addressText": "深圳宝安区伟成智能产业园",
+    "industry": "新能源/电气机械/电力设备",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "岗位职责：参与120kW光伏逆变器产品的软件需求分析和技术方案评审；负责主控DSP（如TI C2000系列）的软件架构设计、模块划分和代码规划；负责核心算法开发与实现，并对软件框架和软件平台提出建设性创新。任职要求：责任心强、积极主动、结果导向；精通控制理论和实践、电力电子拓扑分析及仿真；熟练掌握C/C++、DSP、FPGA、CPLD和仿真工具；熟悉硬件电路图分析以及CAN、485、SPI等接口和通信协议。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.szzgco.com/",
+    "corroboratingUrls": ["https://www.szzgco.com/about_complex.aspx?nid=1"],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["staleBeyondPreferredDays"],
+    "reviewNotes": "智联独立岗位详情页显示2026-06-09更新，距采集40天，超过30天偏好但仍在45天硬上限内；页面仍显示立即投递，明确深圳宝安区、固定月薪30-60K、具名企业及完整要求。企业官网确认紫创光科主体和新能源业务，未发现收费、付费培训、匿名客户、薪资构成误读或职责错配。"
+  }
+}
