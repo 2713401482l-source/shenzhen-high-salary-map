@@ -1,0 +1,30 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-18T22:55:58+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC331664610J40799831316.htm",
+  "job": {
+    "sourceJobId": "CC331664610J40799831316",
+    "title": "硬件高级工程师（汽车电子）",
+    "company": "拓邦股份",
+    "salaryText": "25-35K·13薪",
+    "district": "宝安区",
+    "addressText": "深圳宝安区拓邦（东北门）",
+    "industry": "半导体/芯片、工业自动化/机器人、汽车电子",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责汽车电子项目硬件方案、原理图和PCB Layout设计，开展电路计算仿真、器件选型、EMC验证、调试测试、失效分析、量产异常处理及DFMEA、DVP、BOM等文档工作。要求本科及以上，5年以上无刷或永磁电机控制类硬件开发经验，熟悉12V至800V车用电子产品、主控MCU、ISO26262、V字形开发流程、模拟与数字电路及常用测试设备。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [],
+    "reviewNotes": "智联独立岗位详情页显示深圳宝安区、固定月薪2.5-3.5万元及13薪、明确上市公司、完整要求和具体地址；公司营业执照已审核且仍有71个在招职位，搜索索引于采集前3天抓取。13薪仅作为发薪月数保留，月薪区间没有按年薪换算。"
+  }
+}

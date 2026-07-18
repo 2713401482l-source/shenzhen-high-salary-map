@@ -1,0 +1,36 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-18T22:55:58+08:00",
+  "publishedAt": "2026-06-12",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC202099210J40902466703.htm",
+  "job": {
+    "sourceJobId": "CC202099210J40902466703",
+    "title": "高级嵌入式硬件工程师",
+    "company": "深圳市诺安智能股份有限公司",
+    "salaryText": "25-40K",
+    "district": "光明区",
+    "addressText": "深圳光明区招商局智慧园C1栋17楼",
+    "industry": "仪器仪表、工业物联网",
+    "experience": "3-5年（正文要求5年以上产品硬件设计经验或3年以上仪器仪表行业经验）",
+    "education": "本科",
+    "descriptionText": "负责嵌入式仪器仪表硬件方案、概要和详细设计，开展EMC可靠性设计、原理图及PCB Layout，并协同软件、系统和测试团队交付，可管理小型硬件开发组。要求本科以上电子、仪器仪表、自动化或通信相关专业，具备5年以上产品硬件设计或3年以上仪器仪表经验，熟悉MCU、EDA、调试工具、常用电子元器件和SVN。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "corroboratingUrls": [
+      "https://www.nuoan.com/",
+      "https://www.nuoan.com/about/"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "experienceRequirementContradiction"
+    ],
+    "reviewNotes": "智联岗位详情页显示2026年6月12日更新、深圳光明区固定地址、固定月薪2.5-4万元、完整职责要求及立即投递入口。公司营业执照已审核并有42个在招职位，招聘者三日内活跃。诺安智能官网与公司介绍页核验了深圳光明地址、智能传感器、仪器仪表和工业物联网业务，与岗位职责一致。页面经验标签为3-5年，正文要求5年以上产品硬件设计经验或3年以上仪器仪表行业经验，已保留复核信号。"
+  }
+}
