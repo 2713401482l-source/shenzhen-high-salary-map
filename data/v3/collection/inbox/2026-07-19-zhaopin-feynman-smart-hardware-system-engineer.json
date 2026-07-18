@@ -1,0 +1,33 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-19T00:15:59+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1517097290J40833308509.htm",
+  "job": {
+    "sourceJobId": "CCL1517097290J40833308509",
+    "title": "智能硬件系统工程师",
+    "company": "深圳费曼智核机器人科技有限公司",
+    "salaryText": "40-60K·13薪",
+    "district": "龙岗区",
+    "addressText": "广东省深圳市龙岗区雅星路8-1号2101B",
+    "industry": "人工智能/具身智能/机器人",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "负责智能可穿戴数据采集硬件的整体硬件架构设计，覆盖机构与结构设计、主控芯片、传感器和电源模块等元器件选型与集成；主导PCB设计、打样、焊接、组装调试，解决电磁兼容和信号完整性问题；承担硬件驱动、数据传输协议适配和底层控制逻辑等配套基础软件开发；制定并执行功能、性能和可靠性测试方案，输出报告并持续迭代，同时为跨团队集成调试提供接口支持。要求电子工程、机械电子、自动化等相关专业本科及以上学历，具备3年以上智能硬件全栈开发经验，精通SolidWorks或ProE以及Altium Designer或PADS，能够独立完成从设计到打样测试的全流程；熟悉ARM或MCU架构，掌握C/C++及嵌入式驱动开发，了解EMC设计规范并能排查供电和信号干扰问题，有智能穿戴设备或传感器开发经验者优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": null,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "missingPublicationDate"
+    ],
+    "reviewNotes": "智联独立岗位详情页在采集时仍显示立即投递，搜索索引于前一日抓取；页面明确列出深圳龙岗具体地址、固定月薪40-60K及13薪、招聘1人，并提供完整职责和任职要求。发布企业和最终雇主均为深圳费曼智核机器人科技有限公司，不是匿名客户或人力资源代招；页面企业信息显示主体存续，成立于2026年1月15日，岗位内容与公司具身智能及全模态数据采集业务一致。未发现收费、付费培训、提成冒充固定月薪、年薪误读、地点矛盾或描述错配。页面未展示明确发布日期，因此保留日期缺失提示，并以当前可投递状态和近期索引作为新鲜度证据。"
+  }
+}
