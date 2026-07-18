@@ -1,0 +1,39 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "liepin",
+  "sourcePublisher": "猎聘公开搜索索引",
+  "captureMethod": "search-index-discovery",
+  "capturedAt": "2026-07-18T21:35:00+08:00",
+  "publishedAt": "2026-07-10",
+  "sourceUrl": "https://www.liepin.com/a/77269669.shtml",
+  "job": {
+    "sourceJobId": "77269669",
+    "title": "产品经理-具身硬件",
+    "company": "深圳海清智元科技股份有限公司",
+    "salaryText": "30-40K",
+    "district": "深圳",
+    "addressText": "深圳",
+    "industry": "具身智能、智能硬件、人工智能",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "负责具身智能产品（含软硬件、算法及系统集成）从启动、规划、执行到交付的全过程管理，控制项目进度、质量与成本；组建项目团队并协调资源，保障算法迭代与硬件开发协同推进和按时交付；整理归档项目资料与知识沉淀，维护项目资产库，重点规范算法模型版本、仿真数据集等数字资产。要求本科及以上学历、3年以上项目经验，并独立负责过智能硬件全生命周期管理。"
+  },
+  "verification": {
+    "pageActiveAtCapture": false,
+    "searchResultFreshAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": true,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "searchIndexSpecificJobUrlVisible",
+      "publishedWithin45Days",
+      "exactMonthlySalaryVisible",
+      "shenzhenLocationVisible",
+      "namedEndEmployerVisible",
+      "titleDescriptionConsistent"
+    ],
+    "reviewNotes": "仅保存为猎聘搜索索引发现层，不打开猎聘详情页；索引显示7月10日更新、深圳、30-40K固定月薪、明确终端雇主深圳海清智元科技股份有限公司及完整职责摘要。发布页面为猎头顾问信息，故标记staffingAgencyPosting=true；该记录不得进入正式详情证据、技能分析或薪资统计，后续只有通过允许访问的直接详情核验后才能晋级。"
+  }
+}

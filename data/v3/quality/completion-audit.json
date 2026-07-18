@@ -7,8 +7,8 @@
   },
   "dataset": {
     "grain": "one public job posting per source-specific job id; cross-platform duplicates are resolved separately",
-    "totalJobs": 283,
-    "listingObservations": 87,
+    "totalJobs": 284,
+    "listingObservations": 88,
     "detailVerified": 196,
     "companies": 151,
     "captureDates": [
@@ -41,7 +41,7 @@
       },
       {
         "source": "liepin",
-        "count": 18
+        "count": 19
       },
       {
         "source": "employer-career",
@@ -54,7 +54,7 @@
       "source": "zhaopin",
       "count": 156
     },
-    "largestSourceShare": 0.5512,
+    "largestSourceShare": 0.5493,
     "maximumSingleSourceShare": 0.55,
     "duplicateIds": 0,
     "duplicateFingerprints": 0,
@@ -62,8 +62,8 @@
     "staleJobs": 0,
     "maximumAgeDaysAtCapture": 45,
     "formalSampleCount": 196,
-    "formalSampleShare": 0.6926,
-    "discoveryOnlyCount": 87
+    "formalSampleShare": 0.6901,
+    "discoveryOnlyCount": 88
   },
   "structuralQuality": {
     "missingByField": {
@@ -99,7 +99,7 @@
       {
         "band": "30K",
         "discovery": {
-          "actual": 110,
+          "actual": 111,
           "target": 240,
           "pass": false
         },
@@ -159,7 +159,7 @@
   },
   "complete": false,
   "blockers": [
-    "30K 真实岗位还差 130 条",
+    "30K 真实岗位还差 129 条",
     "30K 详情证据还差 11 条",
     "50K 真实岗位还差 101 条",
     "100K 真实岗位还差 206 条",
