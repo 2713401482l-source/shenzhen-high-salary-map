@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-18T18:35:30+08:00",
+  "publishedAt": "2026-07-06",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC488107280J40846037611.htm",
+  "job": {
+    "sourceJobId": "CC488107280J40846037611",
+    "title": "IT总监",
+    "company": "深圳市安亚信科技有限公司",
+    "salaryText": "30-50K·14薪",
+    "district": "福田区",
+    "addressText": "深圳市福田区彩田路",
+    "industry": "软件/IT服务、信息安全、人工智能",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责制定企业全球化IT中长期规划及年度预算，主导ERP、MES、CRM、WMS等企业系统建设，统筹云计算中心、灾备和跨区域基础设施，建立符合GDPR、CCPA等法规的数据治理和网络安全体系，并建设跨文化技术团队。要求计算机或信息技术相关本科以上学历，具备十年以上IT管理经验及跨国企业或大型集团中高层经历，能够处理重大IT事故并推动多区域系统集成。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": ["directDetailPageVisible", "publishedWithin45Days", "exactMonthlySalaryVisible", "shenzhenAddressVisible", "completeRequirementsVisible", "directApplyVisible", "businessRegistrationVisible", "employerVerifiedByPlatform"],
+    "reviewNotes": "公开详情页显示7月6日更新、立即投递、固定月薪30-50K并注明14薪、深圳福田地址和完整职责要求；企业经平台审核且工商存续，主营企业信息化方案，与岗位内容一致。未发现匿名客户、收费培训、提成冒充月薪或年薪误读。"
+  }
+}

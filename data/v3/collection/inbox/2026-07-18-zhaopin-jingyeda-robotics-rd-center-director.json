@@ -1,0 +1,41 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-18T18:25:00+08:00",
+  "publishedAt": "2026-06-25",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC000563930J40905049803.htm",
+  "job": {
+    "sourceJobId": "CC000563930J40905049803",
+    "title": "机器人研发中心总监",
+    "company": "北京竞业达数码科技股份有限公司",
+    "salaryText": "45-75K·13薪",
+    "district": "南山区",
+    "addressText": "深圳市南山区中科大厦801竞业达",
+    "industry": "工业自动化/机器人、人工智能、半导体/芯片",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责机器人研发中心整体建设、团队搭建、技术路线规划以及研发进度和成本管控，主导产品级机器人硬件整体方案定义，统筹传感器、底盘、算力单元、执行机构和供电系统架构，并推进样机验证、小批量试产和交付。要求本科及以上学历，具备五年以上移动机器人整机硬件研发管理经验，熟悉整机硬件架构、传感器集成、电源系统、算力部署及工业可靠性设计，拥有机器人从方案、调试、测试到批量落地的完整经验和团队管理能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "directDetailPageVisible",
+      "publishedWithin45Days",
+      "exactMonthlySalaryVisible",
+      "shenzhenAddressVisible",
+      "completeRequirementsVisible",
+      "directApplyVisible",
+      "businessRegistrationVisible",
+      "recruiterRecentlyActive",
+      "employerVerifiedByPlatform"
+    ],
+    "reviewNotes": "智联公开具体岗位详情页显示6月25日更新、立即投递、固定月薪45-75K并注明13薪、深圳南山具体地址及完整职责要求；竞业达为平台审核的上市企业，工商状态存续，企业业务与机器人、人工智能和工业物联网方向一致，招聘负责人三日内活跃。未发现匿名客户、收费培训、提成冒充月薪、年薪误读或虚假招聘信号。"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-18T18:36:00+08:00",
+  "publishedAt": "2026-07-14",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1500579840J40902969103.htm",
+  "job": {
+    "sourceJobId": "CCL1500579840J40902969103",
+    "title": "研发副总经理",
+    "company": "广东星际荣耀智慧装备有限责任公司",
+    "salaryText": "30-60K",
+    "district": "宝安区",
+    "addressText": "深圳市宝安区上合股份合作公司南昌工业园",
+    "industry": "船舶/航空/航天/军工、电子装备",
+    "experience": "5-10年",
+    "education": "硕士",
+    "descriptionText": "全面负责综合电子部门团队管理和业务运营，制定部门战略与年度计划，组织电子产品研发、设计、测试和生产，审核技术方案并协调硬件、软件、结构和供应链资源，主导重大技术决策与难题攻关。要求电子信息、通信、自动化或计算机相关硕士及以上学历，熟悉硬件、嵌入式软件、测试验证和量产转化流程，掌握高频电路、功率电子和信号完整性分析，并具备航天航空电子、型号产品或GJB体系经验。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": ["directDetailPageVisible", "publishedWithin45Days", "exactMonthlySalaryVisible", "shenzhenAddressVisible", "completeRequirementsVisible", "directApplyVisible", "businessRegistrationVisible", "employerVerifiedByPlatform"],
+    "reviewNotes": "公开详情页显示7月14日更新、立即投递、固定月薪30-60K、深圳宝安具体地址及完整要求；企业经平台审核且工商存续，行业与航天电子研发职责一致。列表经验口径为5-10年，而正文最低研发经验较低，已作为人工复核信号记录，但不影响岗位具体性与真实性硬门槛。"
+  }
+}

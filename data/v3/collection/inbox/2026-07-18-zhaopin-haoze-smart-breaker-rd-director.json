@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-18T18:35:00+08:00",
+  "publishedAt": "2026-06-10",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC231881510J40837063909.htm",
+  "job": {
+    "sourceJobId": "CC231881510J40837063909",
+    "title": "研发总监（智能空开产品设计方向）",
+    "company": "深圳市浩择科技有限公司",
+    "salaryText": "35-55K",
+    "district": "南山区",
+    "addressText": "深圳市南山区深圳国际创新谷1栋B座903",
+    "industry": "通信/网络设备、物联网、低压配电",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责制定智能空开产品中长期路线图，搭建电子、结构、软件和测试研发团队，主导电子电路、机械结构、漏电及故障电弧监测模块和WiFi、ZigBee、RS485通信适配的全流程研发，并推动产品认证和量产。要求本科及以上学历，具有五年以上智能微型断路器核心研发经验和三年以上团队管理经验，精通电子脱扣、过流漏电检测、低功耗及低压配电标准，具备完整产品从研发到量产的主导经历。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": ["directDetailPageVisible", "publishedWithin45Days", "exactMonthlySalaryVisible", "shenzhenAddressVisible", "completeRequirementsVisible", "directApplyVisible", "businessRegistrationVisible", "employerVerifiedByPlatform"],
+    "reviewNotes": "公开详情页显示6月10日更新、立即投递、固定月薪35-55K、深圳南山具体地址及完整要求；发布企业经平台审核且工商存续。岗位距采集日38天，超过优选30天但未超过45天上限，作为人工复核信号保留。未发现收费、培训、提成薪资、匿名客户或标题职责错配。"
+  }
+}

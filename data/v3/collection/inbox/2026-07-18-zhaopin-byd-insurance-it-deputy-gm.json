@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-18T18:36:30+08:00",
+  "publishedAt": "2026-07-18",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC132962990J40981966502.htm",
+  "job": {
+    "sourceJobId": "CC132962990J40981966502",
+    "title": "信息科技中心副总经理",
+    "company": "比亚迪股份有限公司",
+    "salaryText": "30-50K",
+    "district": "坪山区",
+    "addressText": "深圳市坪山区比亚迪路3009号比亚迪深圳研发中心六角大楼",
+    "industry": "新能源汽车、金融科技、保险IT",
+    "experience": "10年以上",
+    "education": "本科",
+    "descriptionText": "主导车险业务系统从需求、架构、开发迭代到运维优化的全流程管理，负责监管系统对接，推动车险平台与新能源汽车生产和销售体系集成，建立安全与风险管控机制，并带领技术团队交付复杂项目。要求计算机或软件工程相关本科及以上学历，具备十年以上IT经验和五年以上车险系统或金融科技管理经验，精通承保、理赔、核保核心系统及监管对接规范，能够管理三十人以上技术团队。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": ["directDetailPageVisible", "publishedWithin45Days", "exactMonthlySalaryVisible", "shenzhenAddressVisible", "completeRequirementsVisible", "directApplyVisible", "businessRegistrationVisible", "recruiterRecentlyActive", "employerVerifiedByPlatform"],
+    "reviewNotes": "公开详情页显示今天更新、立即投递、固定月薪30-50K、深圳坪山比亚迪研发中心具体地址及完整职责要求；发布企业为平台审核上市公司且工商存续，车险系统职责与新能源汽车后市场场景一致。未发现匿名客户、收费培训、提成冒充月薪、年薪误读或虚假招聘信号。"
+  }
+}
