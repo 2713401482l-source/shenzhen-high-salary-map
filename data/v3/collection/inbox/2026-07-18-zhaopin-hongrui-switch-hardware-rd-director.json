@@ -1,0 +1,35 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-18T21:15:00+08:00",
+  "publishedAt": "2026-06-30",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC634298820J40851371410.htm",
+  "job": {
+    "sourceJobId": "CC634298820J40851371410",
+    "title": "研发总监（偏交换机硬件）",
+    "company": "深圳市洪瑞光祥电子技术有限公司",
+    "salaryText": "35-50K",
+    "district": "宝安区",
+    "addressText": "深圳市宝安区",
+    "industry": "通信/网络设备",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "参与公司产品路线图制定，负责交换机新需求分析、技术路线与方案选型、成本和可靠性评估、硬件总体方案设计及技术风险管控，推进关键项目开发、测试、量产和异常闭环，并建设硬件、软件及测试团队。要求8年以上交换机研发和3年以上团队管理经验，具备10G、40G、200G交换机设计经验，精通电路、高速设计、EMC及可靠性标准，能够解决研发、制程和售后中的复杂技术问题并完善开发、测试和物料选型规范。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "智联独立详情页显示6月30日更新且采集时仍可立即投递",
+      "页面明确展示深圳宝安区、35-50K固定月薪和完整交换机研发要求",
+      "企业主体实名展示并经平台营业执照审核"
+    ],
+    "reviewNotes": "岗位更新距采集18天，处于45天有效期内，页面仍有立即投递入口。发布企业和最终雇主均为深圳市洪瑞光祥电子技术有限公司，不是匿名客户或代招；固定月薪35-50K，不含提成或年薪换算。未发现收费、付费培训、地点矛盾或标题职责错配。"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-18T21:15:00+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC145210660J40371514010.htm",
+  "job": {
+    "sourceJobId": "CC145210660J40371514010",
+    "title": "技术研发总监",
+    "company": "禾麦科技开发（深圳）有限公司",
+    "salaryText": "20-40K",
+    "district": "罗湖区",
+    "addressText": "深圳市罗湖区罗湖投控智丰大厦1座1001",
+    "industry": "物联网、软件/IT服务",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "根据项目需求制定计划并统筹技术团队完成开发和文档管理，负责产品及项目的系统架构、软硬件总体架构、数据库设计与优化，组织核心技术攻关、方案评审、开发规范和技术标准建设，并协调资源保障项目交付和团队能力提升。要求计算机相关专业本科及以上，至少5年软件开发、3年以上技术团队管理及大型集团研发管理经验，精通Java或C#及Oracle、SQLServer数据库，具备大型应用系统设计、业务抽象、数据模型和复杂技术问题解决能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "智联独立详情页采集时仍有立即投递入口，招聘负责人三日内活跃",
+      "页面明确展示深圳罗湖具体地址、20-40K固定月薪及完整技术研发职责",
+      "企业主体实名展示、营业执照已审核并显示11个在招职位"
+    ],
+    "reviewNotes": "页面显示4月29日更新，超过45天，但采集时详情仍公开、可立即投递，招聘负责人三日内活跃且企业有11个在招职位，因此以当前活跃状态满足有效性门槛，不虚构近期发布日期。发布企业和最终雇主均为禾麦科技开发（深圳）有限公司，不是匿名客户或人力资源代招；20-40K为固定月薪。未发现收费培训、提成冒充月薪、地点矛盾或虚假招聘信号。"
+  }
+}

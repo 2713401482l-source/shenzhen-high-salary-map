@@ -1,0 +1,34 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-18T21:15:00+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1421208430J40931186108.htm",
+  "job": {
+    "sourceJobId": "CCL1421208430J40931186108",
+    "title": "技术总监〖预装数据中心项目〗",
+    "company": "深圳市皕胜数据科技有限公司",
+    "salaryText": "50-100K",
+    "district": "光明区",
+    "addressText": "深圳市光明区招商局光明科技园观光路3009号",
+    "industry": "云计算、通信/网络设备、工程技术与设计服务",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "主导预制化数据中心从规划、整体设计、关键设备选型、技术方案评审到验收的全周期技术工作，负责柴发、配电、制冷、IT基础设施等模块研发应用、成本核算和预算控制，并协调工程、成本、运维、设计院、供应商及政府资源。要求电气、暖通或通信工程等相关专业本科及以上，具有海外项目经验和5年以上数据中心设计经验，熟悉设计规范、行业标准及各系统模块参数，具有3年预制项目实施和主导交付经验，能够向客户及高管清晰阐述复杂技术方案。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "智联独立岗位页采集时仍显示立即投递入口",
+      "页面明确展示深圳光明区具体地址、50-100K固定月薪、学历经验及完整职责要求",
+      "页面展示平台已审核的企业主体、营业执照信息、存续状态及多个在招职位"
+    ],
+    "reviewNotes": "页面显示4月20日更新，超过45天，但采集时具体岗位详情仍公开、仍有立即投递入口且公司显示5个在招职位，因此以当前可投递状态满足有效性门槛，不将旧刷新日期伪装为近期发布日期。发布企业和最终雇主均为深圳市皕胜数据科技有限公司，不是匿名客户或人力资源代招；固定月薪50-100K，不含提成或年薪换算。未发现收费培训、地点矛盾或虚假招聘信号。"
+  }
+}

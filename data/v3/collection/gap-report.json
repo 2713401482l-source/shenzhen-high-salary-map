@@ -1,7 +1,7 @@
 {
   "metadata": {
     "dataKind": "collection-gap-report",
-    "generatedFromLatestCapture": "2026-07-18T20:55:00+08:00",
+    "generatedFromLatestCapture": "2026-07-18T21:15:00+08:00",
     "bossAccessAllowed": false,
     "sourceFiles": [
       "data/v3/config/collection-plan.json",
@@ -13,24 +13,24 @@
   },
   "totals": {
     "discovery": {
-      "actual": 278,
+      "actual": 283,
       "target": 720,
-      "gap": 442
+      "gap": 437
     },
     "detailEvidence": {
-      "actual": 191,
+      "actual": 196,
       "target": 240,
-      "gap": 49
+      "gap": 44
     },
     "assignedToV3Queue": 7,
-    "legacyUnassigned": 271
+    "legacyUnassigned": 276
   },
   "quality": {
     "grain": "one company-specific job posting on one direct detail URL",
     "sourcePlatforms": [
       {
         "source": "zhaopin",
-        "count": 152
+        "count": 156
       },
       {
         "source": "boss",
@@ -38,7 +38,7 @@
       },
       {
         "source": "job5156",
-        "count": 29
+        "count": 30
       },
       {
         "source": "liepin",
@@ -53,46 +53,46 @@
     "minimumSourcePlatforms": 5,
     "largestSource": {
       "source": "zhaopin",
-      "count": 152
+      "count": 156
     },
-    "largestSourceShare": 0.5468,
+    "largestSourceShare": 0.5512,
     "maximumSingleSourceShare": 0.55,
     "duplicateIds": 0,
     "duplicateFingerprints": 0,
     "duplicateSourceUrls": 0,
     "staleJobs": 0,
     "maximumAgeDaysAtCapture": 45,
-    "formalSampleCount": 191,
-    "formalSampleShare": 0.6871,
+    "formalSampleCount": 196,
+    "formalSampleShare": 0.6926,
     "discoveryOnlyCount": 87
   },
   "salaryBands": [
     {
       "band": "30K",
-      "actual": 107,
+      "actual": 110,
       "target": 240,
-      "gap": 133,
-      "detailActual": 66,
+      "gap": 130,
+      "detailActual": 69,
       "detailTarget": 80,
-      "detailGap": 14
+      "detailGap": 11
     },
     {
       "band": "50K",
-      "actual": 138,
+      "actual": 139,
       "target": 240,
-      "gap": 102,
-      "detailActual": 92,
+      "gap": 101,
+      "detailActual": 93,
       "detailTarget": 80,
       "detailGap": 0
     },
     {
       "band": "100K",
-      "actual": 33,
+      "actual": 34,
       "target": 240,
-      "gap": 207,
-      "detailActual": 33,
+      "gap": 206,
+      "detailActual": 34,
       "detailTarget": 80,
-      "detailGap": 47
+      "detailGap": 46
     }
   ],
   "lanes": [
@@ -189,10 +189,10 @@
   ],
   "benchmark": {
     "role": "其他专业岗位",
-    "detailActual": 83,
+    "detailActual": 87,
     "detailTarget": 50,
     "detailGap": 0,
-    "currentFamilyJobs": 83
+    "currentFamilyJobs": 87
   },
   "priorityQueries": [
     {
@@ -267,11 +267,12 @@
     }
   ],
   "publicationBlockers": [
-    "30K 总样本还差 133 条",
-    "50K 总样本还差 102 条",
-    "100K 总样本还差 207 条",
-    "30K 详情证据还差 14 条",
-    "100K 详情证据还差 47 条",
-    "单岗对标“其他专业岗位”还差 0 条详情证据"
+    "30K 总样本还差 130 条",
+    "50K 总样本还差 101 条",
+    "100K 总样本还差 206 条",
+    "30K 详情证据还差 11 条",
+    "100K 详情证据还差 46 条",
+    "单岗对标“其他专业岗位”还差 0 条详情证据",
+    "zhaopin 占比过高（55%），需要增加其他来源"
   ]
 }
