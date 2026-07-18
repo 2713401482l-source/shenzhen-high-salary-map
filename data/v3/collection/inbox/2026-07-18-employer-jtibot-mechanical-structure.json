@@ -1,0 +1,33 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "employer-career",
+  "sourcePublisher": "九天创智（深圳）科技有限公司官方招聘页",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-18T23:25:58+08:00",
+  "sourceUrl": "https://www.jtibot.com.cn/join/",
+  "job": {
+    "sourceJobId": "jtibot-mechanical-structure-shenzhen",
+    "title": "机械结构工程师",
+    "company": "九天创智（深圳）科技有限公司",
+    "salaryText": "25-50K",
+    "district": "深圳",
+    "addressText": "深圳",
+    "industry": "机器人、无人清扫设备",
+    "experience": "3年以上结构设计经验",
+    "education": "本科及以上",
+    "descriptionText": "岗位职责：负责新产品机械零部件选型、结构设计、仿真分析和优化，并组织结构设计评审；负责结构加工与装配工艺、BOM清单制作、供应商考察评审和试制样品验收；解决产品制造、装配、调试和运维过程中的结构问题；整理结构设计图纸，编制作业指导书、操作规程和产品说明等技术文档。任职要求：本科及以上学历，机械设计、机械制造及自动化、机械电子工程等相关专业；3年以上结构设计经验，有机器人、无人车、无人机行业经验者优先；精通SolidWorks等三维建模软件，熟练使用Ansys等仿真软件；熟悉标准件选型、驱动传动、部件堆叠、壳体设计以及机加、钣金、塑料等加工工艺；掌握公差设计分析和结构装配工艺，有产品从设计到批量生产经验者优先；具备沟通协调、逻辑思维、创新和实践能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.jtibot.com.cn/",
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "missingPublicationDate"
+    ],
+    "reviewNotes": "企业官网加入我们页面将该岗位标记为热招，明确深圳、机械结构工程师、研发中心薪资25-50k，展示完整职责与任职要求，并提供招聘邮箱和立即投递入口。页面没有公开单独发布日期，因此保留missingPublicationDate信号，以当前热招和可投递状态作为新鲜度证据。薪资为固定月薪区间，无提成、收费培训、匿名客户或年薪误读。"
+  }
+}
