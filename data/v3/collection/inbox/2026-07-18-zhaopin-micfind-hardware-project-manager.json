@@ -1,0 +1,39 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-18T20:30:00+08:00",
+  "publishedAt": "2026-06-30",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC270040280J40946324908.htm",
+  "job": {
+    "sourceJobId": "CC270040280J40946324908",
+    "title": "硬件工程师/项目经理（高工）-变频器/伺服",
+    "company": "深圳市默贝克驱动技术有限公司",
+    "salaryText": "30-50K·15薪",
+    "district": "宝安区",
+    "addressText": "深圳市宝安区东露阳工业园5栋5楼",
+    "industry": "工业自动化/机器人",
+    "experience": "3-5年",
+    "education": "硕士",
+    "descriptionText": "负责新产品规划和硬件方案设计，完成硬件系统原理设计、拓扑选择及元器件选型；维护现有产品，分析品质异常并验证、优化电路；评估电子器件替换并制定验证方案。要求精通数字与模拟电路设计，熟悉反激式开关电源原理及变压器参数计算，熟悉变频器或伺服等电机驱动产品的控制电路、主回路拓扑和器件选型，了解工控产品安规及EMC设计；有项目管理经验优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.micfind.com.cn/",
+    "corroboratingUrls": [
+      "https://www.micfind.com.cn/gywm",
+      "https://www.micfind.com.cn/lxwm"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "智联具体岗位页显示2026年6月30日更新并保留立即投递入口",
+      "岗位页明确展示深圳宝安区、固定月薪区间、15薪、学历经验和完整职责要求",
+      "企业通过平台营业执照审核，官网确认公司主体及变频器、伺服驱动业务"
+    ],
+    "reviewNotes": "具体岗位页采集时仍可投递，更新日期在45天窗口内。发布企业与最终雇主均为深圳市默贝克驱动技术有限公司，不是匿名客户或人力资源代招；未发现收费培训、提成冒充固定月薪或年薪误读。"
+  }
+}
