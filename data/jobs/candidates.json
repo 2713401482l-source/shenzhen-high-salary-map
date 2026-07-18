@@ -2426,6 +2426,95 @@
     "duplicateFingerprint": "aafc1cb233f9f0bc80e8"
   },
   {
+    "id": "liepin-3d9e739c1ae9537851b8",
+    "sourceJobId": "1976500841",
+    "sourcePlatform": "liepin",
+    "sourcePublisher": "猎聘",
+    "captureMethod": "search-index-discovery",
+    "title": "DSP软件工程师",
+    "company": "深圳市雷能混合集成电路有限公司",
+    "salaryText": "20-40K",
+    "salaryMin": 20,
+    "salaryMax": 40,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "光明区",
+    "addressText": "深圳市光明区",
+    "industry": "电子/半导体/集成电路",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionExcerpt": "负责电源及混合集成电路相关产品的DSP嵌入式软件研发、控制算法实现、软硬件联调和问题定位，参与产品方案设计、代码维护、测试验证与量产支持。岗位要求本科及以上学历，具备3至5年相关研发经验，熟悉DSP软件开发、嵌入式系统、数字电源控制及常用调试工具，能够协同硬件团队完成产品开发和交付。",
+    "requirementText": "负责电源及混合集成电路相关产品的DSP嵌入式软件研发、控制算法实现、软硬件联调和问题定位，参与产品方案设计、代码维护、测试验证与量产支持。岗位要求本科及以上学历，具备3至5年相关研发经验，熟悉DSP软件开发、嵌入式系统、数字电源控制及常用调试工具，能够协同硬件团队完成产品开发和交付。",
+    "sourceUrl": "https://www.liepin.com/job/1976500841.shtml",
+    "capturedAt": "2026-07-18T03:25:00+08:00",
+    "publishedAt": "2026-06-09",
+    "status": "candidate",
+    "evidenceLevel": "public-index-probable",
+    "sourceVisibility": "hidden",
+    "authenticity": {
+      "status": "probable",
+      "score": 65,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 0,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": false,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": false,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [
+        "specificDetailUrl",
+        "activeOrFresh"
+      ],
+      "quarantineSignals": [],
+      "ageDays": 39,
+      "probableScore": 95,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": false,
+      "marketDemand": false,
+      "salary": false,
+      "skills": false,
+      "companyExpansion": false
+    },
+    "verification": {
+      "pageActiveAtCapture": false,
+      "searchResultFreshAtCapture": true,
+      "employerNamed": true,
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "corroboratingUrls": [],
+      "signals": [
+        "indexedWithin45Days",
+        "namedEmployerInSearchIndex",
+        "exactMonthlySalaryInSearchIndex",
+        "shenzhenAddressInSearchIndex",
+        "titleDescriptionConsistent"
+      ],
+      "reviewNotes": "仅作为高概率发现层候选保存。搜索索引显示深圳光明具名企业、固定月薪、学历经验要求和6月9日更新信号，采集时仍在45天窗口内；不计入详情证据，前端来源入口保持隐藏。"
+    },
+    "duplicateFingerprint": "65b1cbf51dc7fc58c578"
+  },
+  {
     "id": "liepin-4502387427904db0fd32",
     "sourceJobId": "1969019893",
     "sourcePlatform": "liepin",
@@ -2686,6 +2775,276 @@
       "reviewNotes": "猎聘搜索索引给出具体岗位URL、实名企业、深圳南山区、固定月薪30-60K并另标15薪、完整职责要求及2026年6月4日更新信息。采集时距更新44天，处于45天上限内。未打开猎聘详情页，因此仅进入高概率发现层，不计入详情证据、薪资统计或技能分析，前端隐藏来源入口。"
     },
     "duplicateFingerprint": "892700ea520524010384"
+  },
+  {
+    "id": "liepin-eb72adcf52db09eecb3e",
+    "sourceJobId": "1983824291",
+    "sourcePlatform": "liepin",
+    "sourcePublisher": "猎聘",
+    "captureMethod": "search-index-discovery",
+    "title": "法务总监",
+    "company": "宝能汽车",
+    "salaryText": "25-35K",
+    "salaryMin": 25,
+    "salaryMax": 35,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "罗湖区",
+    "addressText": "深圳市罗湖区宝能中心57楼",
+    "industry": "整车制造",
+    "experience": "10年以上",
+    "education": "本科",
+    "descriptionExcerpt": "负责租赁、采购、推广等合同和对外函件的起草审核，协助制定业务制度并开展合规宣导，处理公司设立变更、资质维护、业务法律咨询、诉讼仲裁、投诉举报及知识产权保护，并协助公司重组上市和外部服务机构对接。要求具备扎实法务专业能力、独立处理复杂事项的经验，以及严谨高效的沟通与风险控制能力。",
+    "requirementText": "负责租赁、采购、推广等合同和对外函件的起草审核，协助制定业务制度并开展合规宣导，处理公司设立变更、资质维护、业务法律咨询、诉讼仲裁、投诉举报及知识产权保护，并协助公司重组上市和外部服务机构对接。要求具备扎实法务专业能力、独立处理复杂事项的经验，以及严谨高效的沟通与风险控制能力。",
+    "sourceUrl": "https://www.liepin.com/job/1983824291.shtml",
+    "capturedAt": "2026-07-18T03:25:00+08:00",
+    "publishedAt": "2026-07-07",
+    "status": "candidate",
+    "evidenceLevel": "public-index-probable",
+    "sourceVisibility": "hidden",
+    "authenticity": {
+      "status": "probable",
+      "score": 65,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 0,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": false,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": false,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [
+        "specificDetailUrl",
+        "activeOrFresh"
+      ],
+      "quarantineSignals": [],
+      "ageDays": 11,
+      "probableScore": 95,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": false,
+      "marketDemand": false,
+      "salary": false,
+      "skills": false,
+      "companyExpansion": false
+    },
+    "verification": {
+      "pageActiveAtCapture": false,
+      "searchResultFreshAtCapture": true,
+      "employerNamed": true,
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "corroboratingUrls": [],
+      "signals": [
+        "indexedWithin30Days",
+        "namedEmployerInSearchIndex",
+        "exactMonthlySalaryInSearchIndex",
+        "shenzhenAddressInSearchIndex",
+        "completeRequirementsInSearchIndex"
+      ],
+      "reviewNotes": "仅作为高概率发现层候选保存。搜索索引显示具名且已认证的用人企业、深圳罗湖具体地址、固定月薪、完整职责要求、7月7日更新和近期招聘方活跃信号；不计入详情证据，前端来源入口保持隐藏。"
+    },
+    "duplicateFingerprint": "0953ab888f20cef25d48"
+  },
+  {
+    "id": "liepin-f7c29189ea2d158a96b0",
+    "sourceJobId": "1984134417",
+    "sourcePlatform": "liepin",
+    "sourcePublisher": "猎聘",
+    "captureMethod": "search-index-discovery",
+    "title": "具身数据交付管理",
+    "company": "自变量机器人科技(深圳)有限公司",
+    "salaryText": "20-35K·13薪",
+    "salaryMin": 20,
+    "salaryMax": 35,
+    "salaryMonths": 13,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "宝安区",
+    "addressText": "深圳市宝安区新安街道雪花科创大厦A座",
+    "industry": "具身智能与机器人",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionExcerpt": "负责具身智能训练数据项目的全生命周期管理，统筹150至200人规模的数据采集、清洗、标注、质检与交付，依据视觉、动作、触觉、语音等算法需求设计采集方案并管理外包、动捕和遥操作供应商；搭建并持续优化数据采集SOP、环境、设备、人员培训与格式规范，制定项目里程碑和资源计划，协调算法、产品及外部伙伴并完成数据分析报告。要求本科及以上学历，计算机、人工智能、自动化、",
+    "requirementText": "负责具身智能训练数据项目的全生命周期管理，统筹150至200人规模的数据采集、清洗、标注、质检与交付，依据视觉、动作、触觉、语音等算法需求设计采集方案并管理外包、动捕和遥操作供应商；搭建并持续优化数据采集SOP、环境、设备、人员培训与格式规范，制定项目里程碑和资源计划，协调算法、产品及外部伙伴并完成数据分析报告。要求本科及以上学历，计算机、人工智能、自动化、数据科学或机器人相关专业，具备3至5年项目管理经验，熟悉研发与交付项目的风险识别和过程管控，能够理解技术需求并使用Claude Code、Cursor等AI工具提升效率，具有系统设计思维、强责任心、沟通协调能力和多项目并行抗压能力。",
+    "sourceUrl": "https://www.liepin.com/job/1984134417.shtml",
+    "capturedAt": "2026-07-18T17:40:00+08:00",
+    "publishedAt": "2026-07-14",
+    "status": "candidate",
+    "evidenceLevel": "public-index-probable",
+    "sourceVisibility": "hidden",
+    "authenticity": {
+      "status": "probable",
+      "score": 65,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 0,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": false,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": false,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [
+        "specificDetailUrl",
+        "activeOrFresh"
+      ],
+      "quarantineSignals": [],
+      "ageDays": 4,
+      "probableScore": 95,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": false,
+      "marketDemand": false,
+      "salary": false,
+      "skills": false,
+      "companyExpansion": false
+    },
+    "verification": {
+      "pageActiveAtCapture": false,
+      "searchResultFreshAtCapture": true,
+      "employerNamed": true,
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "corroboratingUrls": [],
+      "signals": [
+        "indexedWithin7Days",
+        "namedEmployerInSearchIndex",
+        "specificJobUrlDiscovered",
+        "exactMonthlySalaryInSearchIndex",
+        "shenzhenAddressInSearchIndex",
+        "completeRequirementsInSearchIndex",
+        "titleDescriptionConsistent"
+      ],
+      "reviewNotes": "公开搜索索引给出猎聘具体岗位URL、实名用人企业、深圳宝安具体地址、固定月薪20-35K并另标13薪、完整职责要求、7月14日更新和招聘负责人近期在线信号。岗位内容与具身智能数据项目交付方向一致，未发现匿名客户、收费培训、押金、提成冒充固定月薪、地点矛盾或标题内容错配。因猎聘访问出现验证码拦截，本轮未继续打开详情页，仅作为高概率发现层样本；不计入详情证据和技能分析，前端隐藏来源入口。"
+    },
+    "duplicateFingerprint": "c65232cc0751ce8ce8f6"
+  },
+  {
+    "id": "liepin-f92b08f3baaed238b94c",
+    "sourceJobId": "1983496803",
+    "sourcePlatform": "liepin",
+    "sourcePublisher": "猎聘",
+    "captureMethod": "search-index-discovery",
+    "title": "智能相机营销总监",
+    "company": "奥普特科技",
+    "salaryText": "30-40K",
+    "salaryMin": 30,
+    "salaryMax": 40,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "深圳",
+    "addressText": "深圳",
+    "industry": "机器视觉、工业自动化",
+    "experience": "5年以上",
+    "education": "本科",
+    "descriptionExcerpt": "全面负责智能相机产品线经营计划、业绩指标和销售战略落地，统筹直销与渠道客户拓展、重大项目商务和订单转化，并负责市场需求调研、新品规划定义、研发迭代协同以及销售团队搭建和人才培养。要求本科及以上学历，具备5年以上机器视觉销售及团队管理经验，熟悉智能相机、3C、锂电和自动化客户，能够独立运作大型项目并整合跨部门资源。",
+    "requirementText": "全面负责智能相机产品线经营计划、业绩指标和销售战略落地，统筹直销与渠道客户拓展、重大项目商务和订单转化，并负责市场需求调研、新品规划定义、研发迭代协同以及销售团队搭建和人才培养。要求本科及以上学历，具备5年以上机器视觉销售及团队管理经验，熟悉智能相机、3C、锂电和自动化客户，能够独立运作大型项目并整合跨部门资源。",
+    "sourceUrl": "https://www.liepin.com/job/1983496803.shtml",
+    "capturedAt": "2026-07-18T03:25:00+08:00",
+    "publishedAt": "2026-06-22",
+    "status": "candidate",
+    "evidenceLevel": "public-index-probable",
+    "sourceVisibility": "hidden",
+    "authenticity": {
+      "status": "probable",
+      "score": 65,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 0,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": false,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": false,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [
+        "specificDetailUrl",
+        "activeOrFresh"
+      ],
+      "quarantineSignals": [],
+      "ageDays": 26,
+      "probableScore": 95,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": false,
+      "marketDemand": false,
+      "salary": false,
+      "skills": false,
+      "companyExpansion": false
+    },
+    "verification": {
+      "pageActiveAtCapture": false,
+      "searchResultFreshAtCapture": true,
+      "employerNamed": true,
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "corroboratingUrls": [],
+      "signals": [
+        "indexedWithin30Days",
+        "namedEmployerInSearchIndex",
+        "exactMonthlySalaryInSearchIndex",
+        "shenzhenAddressInSearchIndex",
+        "completeRequirementsInSearchIndex"
+      ],
+      "reviewNotes": "仅作为高概率发现层候选保存。搜索索引显示上市机器视觉企业实名岗位、深圳地点、固定月薪、完整职责要求、6月22日更新和招聘总监近期活跃信号；不计入详情证据，前端来源入口保持隐藏。"
+    },
+    "duplicateFingerprint": "c5d8e01db5acac5424c6"
   },
   {
     "id": "zhaopin-4524ca9730411a2f17f4",

@@ -1,0 +1,40 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "liepin",
+  "sourcePublisher": "猎聘",
+  "captureMethod": "search-index-discovery",
+  "capturedAt": "2026-07-18T17:40:00+08:00",
+  "publishedAt": "2026-07-14",
+  "sourceUrl": "https://www.liepin.com/job/1984134417.shtml",
+  "job": {
+    "sourceJobId": "1984134417",
+    "title": "具身数据交付管理",
+    "company": "自变量机器人科技(深圳)有限公司",
+    "salaryText": "20-35K·13薪",
+    "district": "宝安区",
+    "addressText": "深圳市宝安区新安街道雪花科创大厦A座",
+    "industry": "具身智能与机器人",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "负责具身智能训练数据项目的全生命周期管理，统筹150至200人规模的数据采集、清洗、标注、质检与交付，依据视觉、动作、触觉、语音等算法需求设计采集方案并管理外包、动捕和遥操作供应商；搭建并持续优化数据采集SOP、环境、设备、人员培训与格式规范，制定项目里程碑和资源计划，协调算法、产品及外部伙伴并完成数据分析报告。要求本科及以上学历，计算机、人工智能、自动化、数据科学或机器人相关专业，具备3至5年项目管理经验，熟悉研发与交付项目的风险识别和过程管控，能够理解技术需求并使用Claude Code、Cursor等AI工具提升效率，具有系统设计思维、强责任心、沟通协调能力和多项目并行抗压能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": false,
+    "searchResultFreshAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "indexedWithin7Days",
+      "namedEmployerInSearchIndex",
+      "specificJobUrlDiscovered",
+      "exactMonthlySalaryInSearchIndex",
+      "shenzhenAddressInSearchIndex",
+      "completeRequirementsInSearchIndex",
+      "titleDescriptionConsistent"
+    ],
+    "reviewNotes": "公开搜索索引给出猎聘具体岗位URL、实名用人企业、深圳宝安具体地址、固定月薪20-35K并另标13薪、完整职责要求、7月14日更新和招聘负责人近期在线信号。岗位内容与具身智能数据项目交付方向一致，未发现匿名客户、收费培训、押金、提成冒充固定月薪、地点矛盾或标题内容错配。因猎聘访问出现验证码拦截，本轮未继续打开详情页，仅作为高概率发现层样本；不计入详情证据和技能分析，前端隐藏来源入口。"
+  }
+}
