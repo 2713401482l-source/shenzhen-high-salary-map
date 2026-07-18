@@ -1,0 +1,39 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-18T20:55:00+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC245495810J40611332307.htm",
+  "job": {
+    "sourceJobId": "CC245495810J40611332307",
+    "title": "数字电源软件工程师",
+    "company": "深圳市瀚仑达实业有限公司",
+    "salaryText": "25-50K·13薪",
+    "district": "南山区",
+    "addressText": "深圳市南山区松白路1008号企航科创研发产业园E栋南侧2楼瀚仑达",
+    "industry": "半导体/芯片、电气机械/电力设备",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "负责大功率开关电源产品研发全过程的软件系统设计，确保功能、性能、可制造性、质量与成本满足产品包要求，输出高功率密度电源软件的概要设计和详细设计文档，承担数字电源核心技术攻关、新技术研究、程序架构开发维护及设计问题解决。要求具备独立数字电源软件控制开发经验，熟悉ARM、DSP及TI 28035、280049、3138等芯片，掌握PM-Bus、I2C、CAN通信、DSP编程和电源控制技术，完成过两款以上数字电源软件编写调试并有三年以上编程经验；熟悉开关电源原理、全桥或半桥谐振拓扑，具备量产案例者优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.hanlunda.com/",
+    "corroboratingUrls": [
+      "https://www.zhaopin.com/companydetail/jobs-CZ245495810/",
+      "https://www.gongkong.com/Company/200801/41485.html",
+      "https://18047534.s21i.faiusr.com/61/ABUIABA9GAAgvPumvAYoya24-QM.pdf"
+    ],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "智联具体岗位页采集时仍显示立即投递，职位发布者三日内活跃，公司页同时显示该岗位在招",
+      "岗位页明确展示深圳南山区具体地址、固定月薪区间、十三薪、学历经验以及完整职责要求",
+      "企业通过平台营业执照审核，工控网企业页及高新技术企业备案名单交叉确认公司主体"
+    ],
+    "reviewNotes": "具体岗位页采集时仍可投递，且发布者三日内活跃；页面标注3月6日更新，但以当前可投递入口和发布者活跃状态作为新鲜度证据。薪资组成明确为固定工资、年终奖和其他奖励，不存在提成冒充固定月薪。发布企业和最终雇主均为深圳市瀚仑达实业有限公司，不是匿名客户或人力资源代招；未发现收费培训、年薪误读或虚假招聘信号。"
+  }
+}
