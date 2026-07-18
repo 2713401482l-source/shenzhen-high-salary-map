@@ -1,0 +1,41 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-19T03:59:00+08:00",
+  "publishedAt": "2026-07-07",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC130455220J40731097307.htm",
+  "job": {
+    "sourceJobId": "CC130455220J40731097307",
+    "title": "高级大模型算法工程师",
+    "company": "深圳市先创数字技术有限公司",
+    "salaryText": "25-50K",
+    "district": "南山区",
+    "addressText": "深圳市南山区留学生创业大厦二期16楼",
+    "industry": "人工智能、大数据、云计算",
+    "experience": "5-10年",
+    "education": "硕士",
+    "descriptionText": "负责大模型研发与人工智能技术架构，覆盖大规模分布式训练、深度学习、NLP/NLU、模型微调及云原生架构，带领团队完成研发项目并把控质量和进度。要求计算机科学、人工智能或相关专业硕士及以上学历，具备大模型研发经验，掌握GPT、LLaMA、ChatGLM等模型原理以及RLHF和LoRA微调方法，熟练使用TensorFlow、PyTorch、Megatron、DeepSpeed等框架，并具备数字化业务与行业前瞻洞察能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "directDetailPageVisible",
+      "publishedWithin45Days",
+      "exactMonthlySalaryVisible",
+      "shenzhenAddressVisible",
+      "completeRequirementsVisible",
+      "directApplyVisible",
+      "recruiterRecentlyActive",
+      "businessRegistrationVisible",
+      "employerVerifiedByPlatform"
+    ],
+    "reviewNotes": "智联公开具体岗位详情页在采集时仍展示立即投递入口，明确标注7月7日更新、深圳南山区具体办公地址、固定月薪25-50K、招聘1人和完整职责要求。招聘者三日内活跃，用人企业实名且经平台审核，工商状态显示存续；岗位的大模型训练、NLP和云原生技术要求同企业人工智能、大数据及政务信息化业务方向一致。"
+  }
+}
