@@ -1,45 +1,46 @@
 {
-  "generatedAt": "2026-07-18T15:02:32.917Z",
+  "generatedAt": "2026-07-18T16:40:04.925Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 294,
-    "verifiedDetailJobs": 206,
+    "usableJobs": 299,
+    "verifiedDetailJobs": 211,
     "listingOnlyJobs": 88,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 227,
-    "uniqueCompanies": 240,
-    "uniqueRawTitles": 273,
-    "captureDates": 5
+    "fullRequirementJobs": 232,
+    "uniqueCompanies": 243,
+    "uniqueRawTitles": 278,
+    "captureDates": 6
   },
   "distributions": {
     "salaryBands": {
-      "50K": 139,
-      "30K": 121,
+      "50K": 140,
+      "30K": 125,
       "100K": 34
     },
     "evidenceLevels": {
-      "public-platform-detail": 199,
+      "public-platform-detail": 203,
       "boss-listing": 67,
       "public-index-probable": 16,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3,
-      "employer-detail": 1
+      "employer-detail": 2
     },
     "captureDates": {
       "2026-07-12": 71,
       "2026-07-17": 61,
-      "2026-07-18": 59,
+      "2026-07-18": 60,
       "2026-07-16": 57,
-      "2026-07-15": 46
+      "2026-07-15": 46,
+      "2026-07-19": 4
     },
     "industries": {
       "计算机软件": 12,
       "互联网": 11,
       "人工智能": 11,
       "智能硬件/消费电子": 8,
+      "电子/半导体/集成电路": 7,
       "智能硬件": 6,
-      "电子/半导体/集成电路": 5,
       "工业自动化/机器人": 5,
       "未公开": 5,
       "半导体/芯片": 4,
@@ -91,6 +92,7 @@
       "电气机械/电力设备、新能源汽车": 1,
       "电气设备/高速互连": 1,
       "电子电路基础元件/模组": 1,
+      "电子连接器、橡胶/塑料制品": 1,
       "电子商务/3C零售": 1,
       "电子商务/消费品": 1,
       "电子元器件/电源": 1,
@@ -125,6 +127,7 @@
       "互联网社交/数字内容、人工智能": 1,
       "互联网生活服务、软件/IT服务": 1,
       "机器人、人工智能、智慧环卫": 1,
+      "机器人、无人清扫设备": 1,
       "机器人/人工智能": 1,
       "机器视觉、工业自动化": 1,
       "基金": 1,
@@ -174,6 +177,7 @@
       "人工智能/大数据/云计算": 1,
       "人工智能/大数据/云计算/政企信息化": 1,
       "人工智能/工业软件/云计算/物联网": 1,
+      "人工智能/具身智能/机器人": 1,
       "人工智能/智算服务": 1,
       "软件/IT服务、产业互联网平台、金融科技": 1,
       "软件/IT服务、信息安全、人工智能": 1,
@@ -251,13 +255,13 @@
       "PCB设备、工业自动化与半导体检测": 1
     },
     "districts": {
-      "南山区": 116,
+      "南山区": 118,
       "宝安区": 59,
-      "龙岗区": 28,
+      "龙岗区": 30,
       "光明区": 23,
       "福田区": 21,
       "龙华区": 21,
-      "深圳": 14,
+      "深圳": 15,
       "罗湖区": 6,
       "坪山区": 3,
       "盐田区": 3
@@ -271,7 +275,7 @@
   "expansionCandidates": [
     {
       "company": "深圳市皓文电子股份有限公司",
-      "count": 6
+      "count": 8
     },
     {
       "company": "深圳市塞防科技有限公司",
@@ -390,12 +394,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 294,
+      "current": 299,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 206,
+      "current": 211,
       "required": 240,
       "passed": false
     },
@@ -405,7 +409,7 @@
       "passed": false
     },
     "timeSnapshots": {
-      "current": 5,
+      "current": 6,
       "required": 2,
       "passed": true
     }
@@ -414,7 +418,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "206/294 条完成详情核验",
+      "evidence": "211/299 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {
@@ -426,7 +430,7 @@
     {
       "severity": "high",
       "issue": "缺少时间序列",
-      "evidence": "当前只有 5 个采集日期",
+      "evidence": "当前只有 6 个采集日期",
       "impact": "不能判断薪资涨跌或持续扩招"
     },
     {

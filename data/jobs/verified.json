@@ -652,6 +652,90 @@
     }
   },
   {
+    "id": "employer-career-9c45611577c6d80e2c4c",
+    "sourceJobId": "jtibot-mechanical-structure-shenzhen",
+    "sourcePlatform": "employer-career",
+    "sourcePublisher": "九天创智（深圳）科技有限公司官方招聘页",
+    "captureMethod": "manual-public-detail",
+    "title": "机械结构工程师",
+    "company": "九天创智（深圳）科技有限公司",
+    "salaryText": "25-50K",
+    "salaryMin": 25,
+    "salaryMax": 50,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "深圳",
+    "addressText": "深圳",
+    "industry": "机器人、无人清扫设备",
+    "experience": "3年以上结构设计经验",
+    "education": "本科及以上",
+    "descriptionExcerpt": "岗位职责：负责新产品机械零部件选型、结构设计、仿真分析和优化，并组织结构设计评审；负责结构加工与装配工艺、BOM清单制作、供应商考察评审和试制样品验收；解决产品制造、装配、调试和运维过程中的结构问题；整理结构设计图纸，编制作业指导书、操作规程和产品说明等技术文档。任职要求：本科及以上学历，机械设计、机械制造及自动化、机械电子工程等相关专业；3年以上结构设计经",
+    "requirementText": "岗位职责：负责新产品机械零部件选型、结构设计、仿真分析和优化，并组织结构设计评审；负责结构加工与装配工艺、BOM清单制作、供应商考察评审和试制样品验收；解决产品制造、装配、调试和运维过程中的结构问题；整理结构设计图纸，编制作业指导书、操作规程和产品说明等技术文档。任职要求：本科及以上学历，机械设计、机械制造及自动化、机械电子工程等相关专业；3年以上结构设计经验，有机器人、无人车、无人机行业经验者优先；精通SolidWorks等三维建模软件，熟练使用Ansys等仿真软件；熟悉标准件选型、驱动传动、部件堆叠、壳体设计以及机加、钣金、塑料等加工工艺；掌握公差设计分析和结构装配工艺，有产品从设计到批量生产经验者优先；具备沟通协调、逻辑思维、创新和实践能力。",
+    "sourceUrl": "https://www.jtibot.com.cn/join/",
+    "capturedAt": "2026-07-18T23:25:58+08:00",
+    "verifiedAt": "2026-07-18T23:25:58+08:00",
+    "status": "verified",
+    "evidenceLevel": "employer-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 90,
+      "scoreParts": {
+        "sourceTrust": 25,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null,
+      "probableScore": 80,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": false,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": [
+        "freshOrRecentlyIndexed"
+      ]
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://www.jtibot.com.cn/",
+      "corroboratingUrls": [],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "missingPublicationDate"
+      ],
+      "reviewNotes": "企业官网加入我们页面将该岗位标记为热招，明确深圳、机械结构工程师、研发中心薪资25-50k，展示完整职责与任职要求，并提供招聘邮箱和立即投递入口。页面没有公开单独发布日期，因此保留missingPublicationDate信号，以当前热招和可投递状态作为新鲜度证据。薪资为固定月薪区间，无提成、收费培训、匿名客户或年薪误读。"
+    },
+    "duplicateFingerprint": "70efc9d14761157d8a2d"
+  },
+  {
     "id": "employer-career-df0e83b69e47e707afd0",
     "sourceJobId": "orca-social-fullstack-engineer-shenzhen",
     "sourcePlatform": "employer-career",
@@ -896,6 +980,94 @@
       "reviewNotes": "智通公开具体岗位详情页显示7月17日刷新、立即投递、招聘负责人当日活跃、固定月薪、深圳具体办公地址和完整任职要求；公开企业信息与消费电子声学产品业务一致。未发现匿名客户、代招、收费或虚假招聘信号。"
     },
     "duplicateFingerprint": "d958594fa2602e782c05"
+  },
+  {
+    "id": "job5156-11ab5a10a29ab34d79ea",
+    "sourceJobId": "280828999",
+    "sourcePlatform": "job5156",
+    "sourcePublisher": "智通直聘",
+    "captureMethod": "manual-public-detail",
+    "title": "连接器产品工程师",
+    "company": "深圳市优创兴电子科技有限公司",
+    "salaryText": "20-30K",
+    "salaryMin": 20,
+    "salaryMax": 30,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "龙岗区",
+    "addressText": "广东省深圳市龙岗区添利鑫创业园2栋",
+    "industry": "电子连接器、橡胶/塑料制品",
+    "experience": "3年及以上",
+    "education": "大专",
+    "descriptionExcerpt": "岗位职责：负责连接器产品研发、改善与创新，承担新产品设计、样品制作和验证；跟踪新产品研制过程并处理生产中的技术问题；负责产品立项、设计评审、设计验证、设计确认和设计更改控制，从产品设计角度控制批量材料成本；组织试产、评审和总结。任职要求：统招全日制大专及以上学历，具有3年以上连接器独立设计开发经验，精通2D、3D设计软件并熟悉办公软件；熟悉IATF16949",
+    "requirementText": "岗位职责：负责连接器产品研发、改善与创新，承担新产品设计、样品制作和验证；跟踪新产品研制过程并处理生产中的技术问题；负责产品立项、设计评审、设计验证、设计确认和设计更改控制，从产品设计角度控制批量材料成本；组织试产、评审和总结。任职要求：统招全日制大专及以上学历，具有3年以上连接器独立设计开发经验，精通2D、3D设计软件并熟悉办公软件；熟悉IATF16949质量体系、连接器常用金属和塑胶材料特性，以及尺寸、电气、机械、环境和功能测试要求；熟悉连接器生产工艺，能够制作技术规范文件，并能独立完成新项目设计、评审、验证、更改和试产。",
+    "sourceUrl": "https://www.job5156.com/shenzhen/job_280828999",
+    "capturedAt": "2026-07-19T00:38:00+08:00",
+    "publishedAt": "2026-07-15",
+    "verifiedAt": "2026-07-19T00:38:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 95,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 4,
+      "probableScore": 95,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": null,
+      "corroboratingUrls": [
+        "https://www.job5156.com/comp/1158175"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "智通直聘独立岗位页显示2026年7月15日刷新，距采集4天",
+        "岗位页标注急聘并保留立即投递入口，招聘负责人采集当日活跃",
+        "页面明确显示深圳龙岗区具体地址、固定月薪20-30K和招聘1人",
+        "岗位页公开企业工商全称、统一社会信用代码、注册地址和经营范围"
+      ],
+      "reviewNotes": "智通独立岗位详情页显示深圳龙岗区、固定月薪20-30K、大专及3年以上经验、完整职责和任职要求，招聘1人，标注急聘且仍可立即投递。岗位于2026年7月15日刷新，距采集4天，招聘负责人当日活跃。发布主体和最终雇主均为深圳市优创兴电子科技有限公司，不是匿名客户或人力资源代招；页面工商信息显示企业存续，连接器研发生产业务与岗位内容一致。未发现收费、押金、付费培训、提成冒充月薪、年薪误读、地点矛盾或职责错配。"
+    },
+    "duplicateFingerprint": "78a2cc7b086120a6f45b"
   },
   {
     "id": "job5156-18d6d803e0a523793b59",
@@ -2469,6 +2641,94 @@
     "duplicateFingerprint": "3e3bbaf6cb6ce1e8cc8e"
   },
   {
+    "id": "job5156-9ba286011faeffe9b665",
+    "sourceJobId": "281528361",
+    "sourcePlatform": "job5156",
+    "sourcePublisher": "智通直聘",
+    "captureMethod": "manual-public-detail",
+    "title": "电源研发工程师（深圳南山）",
+    "company": "深圳市皓文电子股份有限公司",
+    "salaryText": "20-40K",
+    "salaryMin": 20,
+    "salaryMax": 40,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "广东省深圳市南山区深圳市皓文电子股份有限公司南山智园",
+    "industry": "电子/半导体/集成电路",
+    "experience": "5年及以上",
+    "education": "本科",
+    "descriptionExcerpt": "岗位职责：负责电源产品设计、开发、调试和测试，按计划完成样机及产品开发；编制原理图、PCB和BOM等设计文件，输出产品规格、测试及生产工艺相关技术文档；协助解决生产制造和现场应用过程中的技术问题。任职要求：电气、电子等相关专业本科及以上学历，具有5年以上开关电源研发经验，能够独立完成产品开发，有轨道交通电源经验者优先；熟悉反激、正激、全桥、PFC、LLC、B",
+    "requirementText": "岗位职责：负责电源产品设计、开发、调试和测试，按计划完成样机及产品开发；编制原理图、PCB和BOM等设计文件，输出产品规格、测试及生产工艺相关技术文档；协助解决生产制造和现场应用过程中的技术问题。任职要求：电气、电子等相关专业本科及以上学历，具有5年以上开关电源研发经验，能够独立完成产品开发，有轨道交通电源经验者优先；熟悉反激、正激、全桥、PFC、LLC、BUCK、BOOST等拓扑及其控制原理，掌握功率器件和磁性元件选型；熟悉EMC设计、PCB布局布线和生产制造工艺，具备较强的问题分析与解决能力。",
+    "sourceUrl": "https://www.job5156.com/shenzhen/job_281528361",
+    "capturedAt": "2026-07-19T00:25:59+08:00",
+    "publishedAt": "2026-06-17",
+    "verifiedAt": "2026-07-19T00:25:59+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 10,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 32,
+      "probableScore": 95,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": null,
+      "corroboratingUrls": [
+        "https://www.job5156.com/comp/2072349"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "智通直聘独立岗位页显示2026年6月17日刷新，距采集32天",
+        "岗位页明确显示深圳南山区具体地址、固定月薪和立即投递入口",
+        "招聘负责人采集前一日仍活跃",
+        "企业页公开工商主体、公司介绍和电子电源相关业务"
+      ],
+      "reviewNotes": "独立岗位详情页显示固定月薪20-40K、深圳南山区具体工作地址、本科学历、5年以上经验以及完整职责和要求，并保留立即投递入口。岗位于2026年6月17日刷新，距采集32天，满足45天新鲜度要求。招聘主体和最终雇主均为实名的深圳市皓文电子股份有限公司，不是匿名客户或中介代招。未发现收费、付费培训、提成冒充月薪、年薪误读、地点冲突或描述错配。"
+    },
+    "duplicateFingerprint": "86a2d1b51986b809a22d"
+  },
+  {
     "id": "job5156-9fb94e59b2c32eae20ad",
     "sourceJobId": "281518120",
     "sourcePlatform": "job5156",
@@ -3243,6 +3503,94 @@
       "reviewNotes": "智通公开具体岗位详情页在采集时可直接访问，显示昨天刷新、立即投递、招聘1人以及招聘负责人1小时前活跃；岗位明确位于深圳龙华区并给出具体办公地址，固定月薪20-35K且另有13薪，职责和任职要求完整。发布主体深圳博欧建材有限公司名称明确，并公开存续工商主体、统一社会信用代码、注册地址和经营范围；公司介绍的五金卫浴建材制造业务与岗位要求的五金制造业财务管理经验一致。未发现匿名客户、代招、收费、付费培训、提成冒充固定月薪、年薪误读、地点矛盾或虚假招聘信号。"
     },
     "duplicateFingerprint": "e1480a0d6c709bc413e9"
+  },
+  {
+    "id": "job5156-ee867b9324a49fb1fc01",
+    "sourceJobId": "281528352",
+    "sourcePlatform": "job5156",
+    "sourcePublisher": "智通直聘",
+    "captureMethod": "manual-public-detail",
+    "title": "电源研发工程师",
+    "company": "深圳市皓文电子股份有限公司",
+    "salaryText": "25-40K",
+    "salaryMin": 25,
+    "salaryMax": 40,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "广东省深圳市南山区深圳市皓文电子股份有限公司南山智园",
+    "industry": "电子/半导体/集成电路",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionExcerpt": "岗位职责：负责开关电源产品的方案设计、原理图和PCB设计、样机制作与调试测试，完成从需求分析到产品定型的研发工作；编制BOM、设计说明、测试报告等技术文档，跟进试产并解决生产异常；根据客户需求为销售和应用团队提供技术支持。任职要求：电子、电气等相关专业本科及以上学历，具有5年以上开关电源研发经验；熟悉高功率密度电源设计、主流拓扑、控制方法及关键元器件选型，具",
+    "requirementText": "岗位职责：负责开关电源产品的方案设计、原理图和PCB设计、样机制作与调试测试，完成从需求分析到产品定型的研发工作；编制BOM、设计说明、测试报告等技术文档，跟进试产并解决生产异常；根据客户需求为销售和应用团队提供技术支持。任职要求：电子、电气等相关专业本科及以上学历，具有5年以上开关电源研发经验；熟悉高功率密度电源设计、主流拓扑、控制方法及关键元器件选型，具备安规、EMI和热设计经验；熟练掌握PCB设计及DFM要求，能够独立完成项目开发，有AC-DC电源产品开发经验者优先。",
+    "sourceUrl": "https://www.job5156.com/shenzhen/job_281528352",
+    "capturedAt": "2026-07-19T00:25:59+08:00",
+    "publishedAt": "2026-06-17",
+    "verifiedAt": "2026-07-19T00:25:59+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 10,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 10,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 32,
+      "probableScore": 95,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": null,
+      "corroboratingUrls": [
+        "https://www.job5156.com/comp/2072349"
+      ],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "智通直聘独立岗位页显示2026年6月17日刷新，距采集32天",
+        "岗位页明确显示深圳南山区具体地址、固定月薪和立即投递入口",
+        "招聘负责人采集前一日仍活跃",
+        "企业页公开工商主体、公司介绍和电子电源相关业务"
+      ],
+      "reviewNotes": "独立岗位详情页显示固定月薪25-40K、深圳南山区具体工作地址、本科学历、5-10年经验以及完整职责和要求，并保留立即投递入口。岗位于2026年6月17日刷新，距采集32天，满足45天新鲜度要求。招聘主体和最终雇主均为实名的深圳市皓文电子股份有限公司，不是匿名客户或中介代招。未发现收费、付费培训、提成冒充月薪、年薪误读、地点冲突或描述错配。"
+    },
+    "duplicateFingerprint": "09172a7f73de34bcdca2"
   },
   {
     "id": "job5156-f607035ea3d505637112",
@@ -6880,6 +7228,91 @@
       "reviewNotes": "岗位由持证人力资源服务公司发布，详情页明确披露最终客户深圳市衍星科技有限公司及客户地址；页面顶部写10年以上，正文写5年以上相关经验，已保留矛盾标记。"
     },
     "duplicateFingerprint": "9e7673984090ca43631b"
+  },
+  {
+    "id": "zhaopin-28102edd3b7534b80e40",
+    "sourceJobId": "CCL1517097290J40833308509",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "智能硬件系统工程师",
+    "company": "深圳费曼智核机器人科技有限公司",
+    "salaryText": "40-60K·13薪",
+    "salaryMin": 40,
+    "salaryMax": 60,
+    "salaryMonths": 13,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "龙岗区",
+    "addressText": "广东省深圳市龙岗区雅星路8-1号2101B",
+    "industry": "人工智能/具身智能/机器人",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionExcerpt": "负责智能可穿戴数据采集硬件的整体硬件架构设计，覆盖机构与结构设计、主控芯片、传感器和电源模块等元器件选型与集成；主导PCB设计、打样、焊接、组装调试，解决电磁兼容和信号完整性问题；承担硬件驱动、数据传输协议适配和底层控制逻辑等配套基础软件开发；制定并执行功能、性能和可靠性测试方案，输出报告并持续迭代，同时为跨团队集成调试提供接口支持。要求电子工程、机械电子、",
+    "requirementText": "负责智能可穿戴数据采集硬件的整体硬件架构设计，覆盖机构与结构设计、主控芯片、传感器和电源模块等元器件选型与集成；主导PCB设计、打样、焊接、组装调试，解决电磁兼容和信号完整性问题；承担硬件驱动、数据传输协议适配和底层控制逻辑等配套基础软件开发；制定并执行功能、性能和可靠性测试方案，输出报告并持续迭代，同时为跨团队集成调试提供接口支持。要求电子工程、机械电子、自动化等相关专业本科及以上学历，具备3年以上智能硬件全栈开发经验，精通SolidWorks或ProE以及Altium Designer或PADS，能够独立完成从设计到打样测试的全流程；熟悉ARM或MCU架构，掌握C/C++及嵌入式驱动开发，了解EMC设计规范并能排查供电和信号干扰问题，有智能穿戴设备或传感器开发经验者优先。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1517097290J40833308509.htm",
+    "capturedAt": "2026-07-19T00:15:59+08:00",
+    "verifiedAt": "2026-07-19T00:15:59+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null,
+      "probableScore": 75,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": false,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": [
+        "freshOrRecentlyIndexed"
+      ]
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": null,
+      "corroboratingUrls": [],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "missingPublicationDate"
+      ],
+      "reviewNotes": "智联独立岗位详情页在采集时仍显示立即投递，搜索索引于前一日抓取；页面明确列出深圳龙岗具体地址、固定月薪40-60K及13薪、招聘1人，并提供完整职责和任职要求。发布企业和最终雇主均为深圳费曼智核机器人科技有限公司，不是匿名客户或人力资源代招；页面企业信息显示主体存续，成立于2026年1月15日，岗位内容与公司具身智能及全模态数据采集业务一致。未发现收费、付费培训、提成冒充固定月薪、年薪误读、地点矛盾或描述错配。页面未展示明确发布日期，因此保留日期缺失提示，并以当前可投递状态和近期索引作为新鲜度证据。"
+    },
+    "duplicateFingerprint": "838cea1adb659bb15dae"
   },
   {
     "id": "zhaopin-2c590b77989a70f0f489",
