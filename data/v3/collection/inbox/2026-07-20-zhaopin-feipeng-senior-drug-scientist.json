@@ -1,0 +1,40 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-20T02:08:00+08:00",
+  "publishedAt": "2026-07-18",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC157167210J40944220915.htm",
+  "job": {
+    "sourceJobId": "CC157167210J40944220915",
+    "title": "新药研发高级科学家",
+    "company": "菲鹏生物股份有限公司",
+    "salaryText": "25-40K",
+    "district": "南山区",
+    "addressText": "深圳市南山区金地威新中心A栋38楼",
+    "industry": "IVD/生物制药/医药研发",
+    "experience": "3-5年",
+    "education": "博士",
+    "descriptionText": "作为新药研发项目负责人主导生物大分子药物项目调研、立项和开发，参与临床及商业转化，推进新技术平台搭建与优化，跟踪行业研发趋势并指导研究团队。要求免疫学、肿瘤生物学、生物技术、生物化学、分子生物学、生物信息或统计等相关专业硕士及以上学历，具有生物大分子项目立项并推动进入CMC的经验，熟悉TCE、I/O项目和体内外活性评价方法，具备英语文献阅读、项目管理、团队培养和跨部门协作能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "directDetailPageVisible",
+      "publishedWithin45Days",
+      "exactMonthlySalaryVisible",
+      "shenzhenAddressVisible",
+      "completeRequirementsVisible",
+      "directApplyVisible",
+      "businessRegistrationVisible",
+      "recruiterRecentlyActive"
+    ],
+    "reviewNotes": "智联独立详情页显示2026年7月18日更新，岗位仍可立即投递，招聘负责人三日内活跃。页面明确显示固定月薪2.5-4万元、深圳南山区具体办公地址、完整职责和任职要求。发布主体为菲鹏生物股份有限公司，平台显示企业已审核、工商存续及营业执照信息，未标记RPO代理。未发现匿名客户、收费、押金、付费培训、提成冒充月薪、年薪误读或地点矛盾。因待导入岗位不足5条且智联来源接近55%上限，先保留快照等待混合来源批次统一dry-run。"
+  }
+}

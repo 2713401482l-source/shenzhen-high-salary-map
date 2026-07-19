@@ -1,0 +1,40 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-20T02:05:00+08:00",
+  "publishedAt": "2026-07-20",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1519684530J40997796504.htm",
+  "job": {
+    "sourceJobId": "CCL1519684530J40997796504",
+    "title": "首席技术官（CTO）",
+    "company": "深圳华智经纬科技有限公司",
+    "salaryText": "25-45K",
+    "district": "龙华区",
+    "addressText": "深圳鸿荣源天俊龙华区数字创新中心C座5205",
+    "industry": "物联网/智慧停车/人工智能",
+    "experience": "10年以上",
+    "education": "本科",
+    "descriptionText": "全面统筹智慧停车业务的技术战略、架构搭建、核心研发、团队管理和技术创新，制定中长期技术路线与研发投入计划，主导物联网终端适配、低功耗通信、云平台、AI算法和无感支付系统建设，并保障高可用、高并发和数据安全。要求本科及以上学历，具备十年以上研发管理经验及五年以上CTO或技术总监经历，有智慧停车或物联网产品从研发到落地的完整经验，精通物联网技术体系、AI与机器学习、高并发架构、研发团队建设、项目交付和跨部门协作。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "directDetailPageVisible",
+      "publishedWithin45Days",
+      "exactMonthlySalaryVisible",
+      "shenzhenAddressVisible",
+      "completeRequirementsVisible",
+      "directApplyVisible",
+      "businessRegistrationVisible",
+      "recruiterRecentlyActive"
+    ],
+    "reviewNotes": "智联独立详情页显示2026年7月20日更新，岗位仍可立即投递，招聘负责人三日内活跃。页面明确显示固定月薪2.5-4.5万元、深圳龙华区具体办公地址、完整职责和任职要求。发布主体深圳华智经纬科技有限公司经平台审核，页面展示存续工商及营业执照信息，未标记RPO代理。未发现匿名客户、收费、押金、付费培训、提成冒充月薪、年薪误读或地点矛盾。因待导入岗位不足5条且智联来源接近55%上限，先保留快照等待混合来源批次统一dry-run。"
+  }
+}
