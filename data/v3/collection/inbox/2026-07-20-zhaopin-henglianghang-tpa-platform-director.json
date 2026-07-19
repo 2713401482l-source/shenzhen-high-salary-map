@@ -1,0 +1,40 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-20T01:57:00+08:00",
+  "publishedAt": "2026-06-15",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC120643360J40902948103.htm",
+  "job": {
+    "sourceJobId": "CC120643360J40902948103",
+    "title": "TPA平台技术总监/产品经理",
+    "company": "广东衡量行保险公估有限公司",
+    "salaryText": "30-50K",
+    "district": "南山区",
+    "addressText": "深圳南山区前海深港基金小镇深港基金中心（42栋）509",
+    "industry": "保险/法律/金融科技",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责跨境医疗商保直付、跨境康养服务结算等核心技术平台的整体规划、架构设计与系统整合，主导港澳保险公司、内地医疗机构及支付服务商的系统评估和集成，将跨境结算、对账和风控需求转化为可靠方案，并推动AI和数据智能用于风控与流程自动化。要求五年以上保险直赔快赔、支付结算、金融科技或复杂平台架构经验，熟悉保险、医疗或大消费系统整合、API治理、数据交互和金融级风控，具备团队管理、项目管理及跨部门协作能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "directDetailPageVisible",
+      "publishedWithin45Days",
+      "exactMonthlySalaryVisible",
+      "shenzhenAddressVisible",
+      "completeRequirementsVisible",
+      "directApplyVisible",
+      "businessRegistrationVisible",
+      "recruiterRecentlyActive"
+    ],
+    "reviewNotes": "智联独立详情页显示6月15日更新，按采集日计算为35天；岗位仍可立即投递，招聘负责人三日内活跃。页面明确显示固定月薪3-5万元、深圳南山区具体办公地址、完整岗位职责与任职要求。发布主体广东衡量行保险公估有限公司经平台审核并展示存续工商和营业执照信息，页面未标记RPO代理，岗位由企业直接发布。未发现匿名客户、收费、押金、付费培训、提成冒充月薪、年薪误读或地点矛盾。"
+  }
+}

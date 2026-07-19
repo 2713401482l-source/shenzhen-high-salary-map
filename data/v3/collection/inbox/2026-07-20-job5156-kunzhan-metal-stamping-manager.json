@@ -1,0 +1,40 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "job5156",
+  "sourcePublisher": "智通直聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-20T01:36:00+08:00",
+  "publishedAt": "2026-07-17",
+  "sourceUrl": "https://www.job5156.com/shenzhen/job_281553537",
+  "job": {
+    "sourceJobId": "281553537",
+    "title": "五金冲压经理",
+    "company": "深圳市坤展塑胶五金有限公司",
+    "salaryText": "15-30K",
+    "district": "宝安区",
+    "addressText": "深圳市宝安区燕罗街道塘下涌社区朗辉路10号厂房",
+    "industry": "橡胶/塑料制品/汽车零部件/五金",
+    "experience": "5-10年",
+    "education": "大专",
+    "descriptionText": "负责五金冲压生产部门的全面管理，制定并落实生产计划、工单、产能和人员安排，建立并跟进关键绩效指标，持续改善生产效率、产品质量和制造成本；统筹现场安全、设备、物料及团队管理，协调解决交付和制程异常。要求大专及以上学历，具备五年以上五金冲压生产管理经验，有汽车零部件行业经验优先，熟悉IATF16949体系及五大核心工具，能够使用ERP和Office软件并推动跨部门改善。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "directDetailPageVisible",
+      "publishedWithin45Days",
+      "exactMonthlySalaryVisible",
+      "shenzhenAddressVisible",
+      "completeRequirementsVisible",
+      "directApplyVisible",
+      "businessRegistrationVisible",
+      "recruiterRecentlyActive"
+    ],
+    "reviewNotes": "智通独立岗位详情页显示7月17日刷新且仍可直接投递，两名招聘负责人采集时均在线；岗位明确位于深圳宝安区，固定月薪15-30K，达到30K档上限，学历、经验、职责和任职要求完整。发布主体为深圳市坤展塑胶五金有限公司，页面包含企业工商信息，属于实名企业直接招聘。未发现收费、押金、付费培训、提成冒充月薪、年薪误读、匿名客户或岗位职责错配。因待导入合格岗位仍不足5条，先保留快照，等待后续统一dry-run。"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-20T01:55:00+08:00",
+  "publishedAt": "2026-06-24",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC826760350J40946719108.htm",
+  "job": {
+    "sourceJobId": "CC826760350J40946719108",
+    "title": "深度学习算法专家",
+    "company": "东莞市摩视自动化科技有限公司",
+    "salaryText": "40-60K",
+    "district": "南山区",
+    "addressText": "深圳南山区光峰科技总部大厦",
+    "industry": "工业自动化/机器人/通用设备制造",
+    "experience": "1-3年",
+    "education": "博士",
+    "descriptionText": "根据产品需求选择深度学习框架并设计网络，负责算法模型的训练、评估、裁剪和优化，指导样本清洗与标注，并完成模型工程化和系统集成。要求图像处理、计算机视觉、人工智能或计算数学等相关专业博士学历，具备相关研发经验，熟练使用C、C++、Python、Matlab、OpenCV以及PyTorch、TensorFlow、Caffe等框架，能够独立开展技术研究和模型调优；具有自动化视觉检测经验或熟练使用Yolo模型者优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "directDetailPageVisible",
+      "publishedWithin45Days",
+      "exactMonthlySalaryVisible",
+      "shenzhenAddressVisible",
+      "completeRequirementsVisible",
+      "directApplyVisible",
+      "businessRegistrationVisible",
+      "recruiterRecentlyActive"
+    ],
+    "reviewNotes": "智联独立详情页显示6月24日更新，按采集日计算为26天；岗位仍可立即投递，招聘负责人三日内活跃。页面明确显示固定月薪4-6万元、深圳南山区具体工作地址、完整岗位职责与任职要求。发布主体东莞市摩视自动化科技有限公司经平台审核并展示存续工商和营业执照信息，页面未标记RPO代理，岗位由企业直接发布。未发现匿名客户、收费、押金、付费培训、提成冒充月薪、年薪误读或地点矛盾。"
+  }
+}
