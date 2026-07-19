@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "employer-career",
+  "sourcePublisher": "顺丰官方招聘",
+  "captureMethod": "official-feed",
+  "capturedAt": "2026-07-20T03:52:00+08:00",
+  "publishedAt": "2026-07-09",
+  "sourceUrl": "https://crs-pub.sf-express.com/recruitcenter/#/positionDetail/114795?role=3",
+  "job": {
+    "sourceJobId": "114795",
+    "title": "战略规划副总监",
+    "company": "顺丰集团本部",
+    "salaryText": "35-70K",
+    "district": "深圳市",
+    "addressText": "深圳",
+    "industry": "物流与供应链服务",
+    "experience": "10年以上",
+    "education": "硕士",
+    "descriptionText": "负责集团中长期及年度战略规划，协同市场、销售、财务、IT及各业务单元形成未来发展布局与业务组合规划；搭建集团战略能力图谱、建设目标与落地跟踪闭环；开展宏观政策、行业和竞争对手研究，并评估战略合作及投资机会。要求国内一流大学硕士及以上学历，管理、经济、财务或金融等专业，八年以上战略咨询或投资相关经验，熟悉战略规划和投资交易，具备信息搜集、分析、文字表达、商务谈判、跨团队协同能力，可承受高强度工作和出差。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": ["officialEmployerDetailRouteVisible", "officialFeedStatusActive", "publishedWithin45Days", "exactMonthlySalaryVisible", "shenzhenAddressVisible", "completeRequirementsVisible", "directApplicationFlowAvailable"],
+    "reviewNotes": "顺丰官方招聘独立岗位详情接口显示状态1（在招）、2026年7月9日发布、固定月薪35-70K、深圳工作地点及完整职责要求。发布主体和最终雇主均明确为顺丰集团本部；未发现收费、押金、付费培训、提成冒充月薪、年薪误读、地点矛盾、职责错配或重复岗位。"
+  }
+}

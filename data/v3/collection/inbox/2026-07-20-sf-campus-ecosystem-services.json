@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "employer-career",
+  "sourcePublisher": "顺丰官方招聘",
+  "captureMethod": "official-feed",
+  "capturedAt": "2026-07-20T03:52:00+08:00",
+  "publishedAt": "2026-07-07",
+  "sourceUrl": "https://crs-pub.sf-express.com/recruitcenter/#/positionDetail/114748?role=3",
+  "job": {
+    "sourceJobId": "114748",
+    "title": "顺丰速运 校园场景项目（生态服务）",
+    "company": "顺丰速运",
+    "salaryText": "30-50K",
+    "district": "南山区",
+    "addressText": "深圳市南山区深投控创智天地大厦B座",
+    "industry": "物流与供应链服务",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责高校二手回收业务全链路运营，规划回收点位、学生代理团队、定价分拣与流转流程；对接高校后勤、团委、社团、校内商铺和图书馆开发商业项目，并拓展周边商户、教育品牌、本地生活平台等异业合作，形成寄递、回收和商业合作一体化方案。要求本科及以上学历，五年以上校园驿站运营、校园商业合作或二手回收经验，熟悉高校资源对接和独立商务谈判，具备收益测算、数据复盘、项目落地及短期出差能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": ["officialEmployerDetailRouteVisible", "officialFeedStatusActive", "publishedWithin45Days", "exactMonthlySalaryVisible", "shenzhenAddressVisible", "completeRequirementsVisible", "directApplicationFlowAvailable"],
+    "reviewNotes": "顺丰官方招聘独立岗位详情接口显示状态1（在招）、2026年7月7日发布、固定月薪30-50K、深圳南山区地址及完整职责要求。雇主明确为顺丰速运；与已入库的校园对公业务岗位职责和岗位ID均不同，未发现收费、匿名客户、付费培训、薪资误读或职责错配。"
+  }
+}

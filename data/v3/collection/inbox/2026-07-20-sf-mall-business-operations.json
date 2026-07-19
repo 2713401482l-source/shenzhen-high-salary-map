@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "employer-career",
+  "sourcePublisher": "顺丰官方招聘",
+  "captureMethod": "official-feed",
+  "capturedAt": "2026-07-20T03:52:00+08:00",
+  "publishedAt": "2026-07-08",
+  "sourceUrl": "https://crs-pub.sf-express.com/recruitcenter/#/positionDetail/114784?role=3",
+  "job": {
+    "sourceJobId": "114784",
+    "title": "大型商场招商运营",
+    "company": "顺丰速运",
+    "salaryText": "30-45K",
+    "district": "南山区",
+    "addressText": "深圳创智天地大厦",
+    "industry": "物流与供应链服务",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责商场门店店配物流业务拓展，协同供应链销售团队制定客户拜访与谈判策略；调研零售百货、品牌专卖、餐饮连锁等商场门店的订货、验收、库存周转及退货痛点，输出定制物流解决方案并向客户呈现；跟踪签约客户运营数据，确保方案落地、成本可控和满意度达标。要求具有商场门店运营或零售终端管理经验，熟悉线下门店流程，能独立商务谈判、拆解模糊需求并形成可执行方案，具备沟通表达、应变和跨部门协作能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": ["officialEmployerDetailRouteVisible", "officialFeedStatusActive", "publishedWithin45Days", "exactMonthlySalaryVisible", "shenzhenAddressVisible", "completeRequirementsVisible", "directApplicationFlowAvailable"],
+    "reviewNotes": "顺丰官方招聘独立岗位详情接口显示状态1（在招）、2026年7月8日发布、固定月薪30-45K、深圳南山区地址及完整职责要求。雇主明确为顺丰速运；未发现收费、匿名客户、付费培训、提成冒充月薪、年薪误读、地点矛盾、职责错配或重复岗位。"
+  }
+}

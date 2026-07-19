@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "employer-career",
+  "sourcePublisher": "顺丰官方招聘",
+  "captureMethod": "official-feed",
+  "capturedAt": "2026-07-20T03:52:00+08:00",
+  "publishedAt": "2026-07-07",
+  "sourceUrl": "https://crs-pub.sf-express.com/recruitcenter/#/positionDetail/114727?role=3",
+  "job": {
+    "sourceJobId": "114727",
+    "title": "顺丰速运BG 渠道拓展与营销",
+    "company": "顺丰速运",
+    "salaryText": "30-50K",
+    "district": "南山区",
+    "addressText": "广东省深圳市创智天地大厦B座",
+    "industry": "物流与供应链服务",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责速运事业群营销渠道统筹、拓展优化和投放策略，主导抖音、微信、小红书、快手、B站、应用商店、厂商预装及线下媒体等渠道合作，持续优化信息流、搜索、达人种草和直播投放，对ROI、获客成本及用户LTV负责，并探索AIGC素材、RTA和DPA等新玩法。要求本科及以上学历，五年以上互联网营销渠道或效果投放经验，具备千万级投放案例、头部渠道资源、数据建模、商务谈判和从零开拓渠道能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": ["officialEmployerDetailRouteVisible", "officialFeedStatusActive", "publishedWithin45Days", "exactMonthlySalaryVisible", "shenzhenAddressVisible", "completeRequirementsVisible", "directApplicationFlowAvailable"],
+    "reviewNotes": "顺丰官方招聘独立岗位详情接口显示状态1（在招）、2026年7月7日发布、固定月薪30-50K、深圳南山区地址及完整职责要求。雇主明确为顺丰速运；未发现收费、匿名客户、付费培训、提成冒充月薪、年薪误读、地点矛盾、职责错配或重复岗位。"
+  }
+}

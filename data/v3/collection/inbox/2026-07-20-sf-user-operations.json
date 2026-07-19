@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "employer-career",
+  "sourcePublisher": "顺丰官方招聘",
+  "captureMethod": "official-feed",
+  "capturedAt": "2026-07-20T03:52:00+08:00",
+  "publishedAt": "2026-07-08",
+  "sourceUrl": "https://crs-pub.sf-express.com/recruitcenter/#/positionDetail/114775?role=3",
+  "job": {
+    "sourceJobId": "114775",
+    "title": "顺丰速运 用户运营",
+    "company": "顺丰速运",
+    "salaryText": "30-50K",
+    "district": "南山区",
+    "addressText": "广东省深圳市创智天地大厦B座",
+    "industry": "物流与供应链服务",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责速运事业群用户全生命周期运营与B端企业会员体系搭建，围绕拉新、活跃、留存、复购和召回制定策略，设计会员等级、权益、积分与成长通道，基于客户分层识别高价值及流失风险客户，并协同产品、数据、销售和客服推动运营系统落地。要求本科及以上学历，三年以上用户、会员或客户运营经验，具备会员体系从零到一搭建案例，理解企业物流采购关注点，熟悉RFM、CLV和流失预警等分析方法，能够推动跨部门项目。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": ["officialEmployerDetailRouteVisible", "officialFeedStatusActive", "publishedWithin45Days", "exactMonthlySalaryVisible", "shenzhenAddressVisible", "completeRequirementsVisible", "directApplicationFlowAvailable"],
+    "reviewNotes": "顺丰官方招聘独立岗位详情接口显示状态1（在招）、2026年7月8日发布、固定月薪30-50K、深圳南山区地址及完整职责要求。雇主明确为顺丰速运；未发现收费、匿名客户、付费培训、提成冒充月薪、年薪误读、地点矛盾、职责错配或重复岗位。"
+  }
+}
