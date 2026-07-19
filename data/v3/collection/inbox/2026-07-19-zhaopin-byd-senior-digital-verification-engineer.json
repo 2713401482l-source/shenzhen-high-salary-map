@@ -1,0 +1,40 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-19T19:54:00+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC132962990J40951706802.htm",
+  "job": {
+    "sourceJobId": "CC132962990J40951706802",
+    "title": "高级数字验证工程师",
+    "company": "比亚迪股份有限公司",
+    "salaryText": "30-60K",
+    "district": "龙岗区",
+    "addressText": "广东省深圳市龙岗区葵涌延安路1号",
+    "industry": "新能源/燃油整车研发制造、动力电池、半导体/芯片",
+    "experience": "3-5年",
+    "education": "硕士",
+    "descriptionText": "负责芯片模块及子系统验证计划、测试用例开发和验证环境搭建，使用UVM构建可复用验证平台并完成覆盖率收敛，独立开展代码调试、缺陷分析、芯片级联调及软硬件协同验证。要求微电子、电子工程或计算机相关硕士及以上学历，具备3-5年以上数字IC验证经验，精通SystemVerilog与UVM，熟悉验证开发全流程并掌握Python、Perl或Tcl脚本；具有显示、高速接口、光网络、以太网、DisplayPort或MIPI DSI经验者优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": null,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "directDetailPageVisible",
+      "updatedToday",
+      "directApplyVisible",
+      "recruiterActiveWithinThreeDays",
+      "platformBusinessLicenseVerified",
+      "namedDirectEmployer",
+      "specificShenzhenWorkAddress",
+      "completeRequirementsVisible"
+    ],
+    "reviewNotes": "智联公开具体岗位详情页显示今天更新、立即投递、固定月薪3-6万元、深圳龙岗区葵涌延安路1号具体地址，以及完整职责和任职要求；发布主体与最终雇主均为平台已审核且工商状态存续的比亚迪股份有限公司，招聘专员三日内活跃。数字IC验证、高速接口和软硬件协同内容与比亚迪芯片及汽车电子业务一致。未发现匿名客户、代招、收费培训、提成冒充固定月薪、年薪误读、失效或地点矛盾。"
+  }
+}
