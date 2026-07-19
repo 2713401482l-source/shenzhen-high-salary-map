@@ -1,0 +1,35 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "liepin",
+  "sourcePublisher": "猎聘",
+  "captureMethod": "search-index-discovery",
+  "capturedAt": "2026-07-19T07:29:08+08:00",
+  "publishedAt": "2026-06-24",
+  "sourceUrl": "https://www.liepin.com/job/1983669755.shtml",
+  "job": {
+    "sourceJobId": "1983669755",
+    "title": "中/高级解决方案工程师（大疆行业） (MJ004247)",
+    "company": "深圳市大疆创新科技有限公司",
+    "salaryText": "20-45K",
+    "district": "南山区",
+    "addressText": "深圳市南山区大疆天空之城",
+    "industry": "智能硬件/消费电子",
+    "experience": "5-10年",
+    "education": "统招本科",
+    "descriptionText": "负责对区域合作伙伴开展无人机产品、生态与解决方案赋能培训，作为区域技术负责人与客户和合作伙伴进行技术交流，识别客户需求并从技术及解决方案维度支持区域业务；开发维护区域核心用户，收集行业信息和产品反馈，洞察市场需求、监控竞情并发掘无人机应用新行业新场景。要求本科及以上理工类专业背景，具备三年以上售前或产品经理经验，测绘、能源、安防背景优先；需要较强宣讲、大客户沟通、招投标、文档与跨团队合作能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": false,
+    "searchResultFreshAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "indexedWithin30Days",
+      "namedEmployerInSearchIndex",
+      "exactMonthlySalaryInSearchIndex"
+    ]
+  }
+}

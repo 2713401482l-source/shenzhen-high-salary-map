@@ -2956,6 +2956,92 @@
     "duplicateFingerprint": "892700ea520524010384"
   },
   {
+    "id": "liepin-e94ea9eb52d5a166c676",
+    "sourceJobId": "1983669755",
+    "sourcePlatform": "liepin",
+    "sourcePublisher": "猎聘",
+    "captureMethod": "search-index-discovery",
+    "title": "中/高级解决方案工程师（大疆行业） (MJ004247)",
+    "company": "深圳市大疆创新科技有限公司",
+    "salaryText": "20-45K",
+    "salaryMin": 20,
+    "salaryMax": 45,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "深圳市南山区大疆天空之城",
+    "industry": "智能硬件/消费电子",
+    "experience": "5-10年",
+    "education": "统招本科",
+    "descriptionExcerpt": "负责对区域合作伙伴开展无人机产品、生态与解决方案赋能培训，作为区域技术负责人与客户和合作伙伴进行技术交流，识别客户需求并从技术及解决方案维度支持区域业务；开发维护区域核心用户，收集行业信息和产品反馈，洞察市场需求、监控竞情并发掘无人机应用新行业新场景。要求本科及以上理工类专业背景，具备三年以上售前或产品经理经验，测绘、能源、安防背景优先；需要较强宣讲、大客户",
+    "requirementText": "负责对区域合作伙伴开展无人机产品、生态与解决方案赋能培训，作为区域技术负责人与客户和合作伙伴进行技术交流，识别客户需求并从技术及解决方案维度支持区域业务；开发维护区域核心用户，收集行业信息和产品反馈，洞察市场需求、监控竞情并发掘无人机应用新行业新场景。要求本科及以上理工类专业背景，具备三年以上售前或产品经理经验，测绘、能源、安防背景优先；需要较强宣讲、大客户沟通、招投标、文档与跨团队合作能力。",
+    "sourceUrl": "https://www.liepin.com/job/1983669755.shtml",
+    "capturedAt": "2026-07-19T07:29:08+08:00",
+    "publishedAt": "2026-06-24",
+    "status": "candidate",
+    "evidenceLevel": "public-index-probable",
+    "sourceVisibility": "hidden",
+    "authenticity": {
+      "status": "probable",
+      "score": 65,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 0,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": false,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": false,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [
+        "specificDetailUrl",
+        "activeOrFresh"
+      ],
+      "quarantineSignals": [],
+      "ageDays": 25,
+      "probableScore": 95,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": false,
+      "marketDemand": false,
+      "salary": false,
+      "skills": false,
+      "companyExpansion": false
+    },
+    "verification": {
+      "pageActiveAtCapture": false,
+      "searchResultFreshAtCapture": true,
+      "employerNamed": true,
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "corroboratingUrls": [],
+      "signals": [
+        "indexedWithin30Days",
+        "namedEmployerInSearchIndex",
+        "exactMonthlySalaryInSearchIndex"
+      ]
+    },
+    "duplicateFingerprint": "004cecf483f6a7e8f517"
+  },
+  {
     "id": "liepin-eb72adcf52db09eecb3e",
     "sourceJobId": "1983824291",
     "sourcePlatform": "liepin",
