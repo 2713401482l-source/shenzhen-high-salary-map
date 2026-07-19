@@ -1,16 +1,16 @@
 {
   "metadata": {
     "dataKind": "v3-completion-audit",
-    "latestCapture": "2026-07-19T18:10:54+08:00",
+    "latestCapture": "2026-07-19T18:50:55+08:00",
     "collectionStatus": "paused-platform-risk",
     "bossAccessAllowed": false
   },
   "dataset": {
     "grain": "one public job posting per source-specific job id; cross-platform duplicates are resolved separately",
-    "totalJobs": 365,
+    "totalJobs": 370,
     "listingObservations": 92,
-    "detailVerified": 273,
-    "companies": 193,
+    "detailVerified": 278,
+    "companies": 197,
     "captureDates": [
       "2026-07-12",
       "2026-07-15",
@@ -30,7 +30,7 @@
     "sourcePlatforms": [
       {
         "source": "zhaopin",
-        "count": 199
+        "count": 203
       },
       {
         "source": "boss",
@@ -38,7 +38,7 @@
       },
       {
         "source": "job5156",
-        "count": 55
+        "count": 56
       },
       {
         "source": "liepin",
@@ -53,17 +53,17 @@
     "minimumSourcePlatforms": 5,
     "largestSource": {
       "source": "zhaopin",
-      "count": 199
+      "count": 203
     },
-    "largestSourceShare": 0.5452,
+    "largestSourceShare": 0.5486,
     "maximumSingleSourceShare": 0.55,
     "duplicateIds": 0,
     "duplicateFingerprints": 0,
     "duplicateSourceUrls": 0,
     "staleJobs": 0,
     "maximumAgeDaysAtCapture": 45,
-    "formalSampleCount": 273,
-    "formalSampleShare": 0.7479,
+    "formalSampleCount": 278,
+    "formalSampleShare": 0.7514,
     "discoveryOnlyCount": 92
   },
   "structuralQuality": {
@@ -100,12 +100,12 @@
       {
         "band": "30K",
         "discovery": {
-          "actual": 170,
+          "actual": 172,
           "target": 240,
           "pass": false
         },
         "detailEvidence": {
-          "actual": 124,
+          "actual": 126,
           "target": 80,
           "pass": true
         }
@@ -113,12 +113,12 @@
       {
         "band": "50K",
         "discovery": {
-          "actual": 158,
+          "actual": 161,
           "target": 240,
           "pass": false
         },
         "detailEvidence": {
-          "actual": 112,
+          "actual": 115,
           "target": 80,
           "pass": true
         }
@@ -145,8 +145,8 @@
     "benchmark": {
       "best": {
         "role": "其他专业岗位",
-        "detailCount": 119,
-        "companyCount": 93,
+        "detailCount": 124,
+        "companyCount": 98,
         "salaryBandCount": 3
       },
       "target": 50,
@@ -160,8 +160,8 @@
   },
   "complete": false,
   "blockers": [
-    "30K 真实岗位还差 70 条",
-    "50K 真实岗位还差 82 条",
+    "30K 真实岗位还差 68 条",
+    "50K 真实岗位还差 79 条",
     "100K 真实岗位还差 203 条",
     "100K 详情证据还差 43 条",
     "新兴岗位方向还差 28 个"

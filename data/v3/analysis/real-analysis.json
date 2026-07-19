@@ -1,7 +1,7 @@
 {
   "metadata": {
     "dataKind": "real-analysis",
-    "generatedFromLatestCapture": "2026-07-19T18:10:54+08:00",
+    "generatedFromLatestCapture": "2026-07-19T18:50:55+08:00",
     "sourceFiles": [
       "data/jobs/verified.json",
       "data/jobs/candidates.json"
@@ -10,17 +10,17 @@
   },
   "readiness": {
     "discovery": {
-      "actual": 365,
+      "actual": 370,
       "target": 720,
       "pass": false
     },
     "formalSample": {
-      "actual": 273,
+      "actual": 278,
       "target": 240,
       "pass": true
     },
     "detailEvidence": {
-      "actual": 273,
+      "actual": 278,
       "target": 240,
       "pass": true
     },
@@ -32,8 +32,8 @@
     "benchmark": {
       "best": {
         "role": "其他专业岗位",
-        "detailCount": 119,
-        "companyCount": 93,
+        "detailCount": 124,
+        "companyCount": 98,
         "salaryBandCount": 3
       },
       "target": 50,
@@ -47,12 +47,12 @@
   },
   "scope": {
     "city": "深圳",
-    "jobs": 273,
-    "discoveryJobs": 365,
+    "jobs": 278,
+    "discoveryJobs": 370,
     "quarantinedOrUnverified": 92,
-    "detailJobs": 273,
-    "companies": 193,
-    "industries": 226,
+    "detailJobs": 278,
+    "companies": 197,
+    "industries": 228,
     "capturedDates": [
       "2026-07-12",
       "2026-07-15",
@@ -67,17 +67,17 @@
     {
       "name": "其他专业岗位",
       "status": "observed-family",
-      "sampleCount": 119,
-      "companyCount": 93,
-      "industryCount": 103,
-      "detailCount": 119,
+      "sampleCount": 124,
+      "companyCount": 98,
+      "industryCount": 107,
+      "detailCount": 124,
       "salary": {
         "min": 15,
         "max": 150,
         "medianMid": 37.5,
         "bands": {
-          "30K": 63,
-          "50K": 45,
+          "30K": 65,
+          "50K": 48,
           "100K": 11
         }
       },
@@ -88,6 +88,7 @@
         "制造负责人（注塑）",
         "ID设计师",
         "连接器产品工程师",
+        "运营中心总监",
         "CNC制造高级经理",
         "总裁/总经理/CEO",
         "模具副理",
@@ -162,6 +163,7 @@
         "数字电源软件工程师",
         "大区经理（深圳分公司）",
         "亚马逊运营经理/总监",
+        "系统经理（汽车电驱）",
         "SoC系统软件架构师/工程师-高速接口",
         "亚马逊运营总监",
         "技术研发总监",
@@ -170,7 +172,9 @@
         "技术总监〖预装数据中心项目〗",
         "AGV技术副总",
         "技术总工程师",
+        "高级电力电子工程师（SST方向）",
         "手机组件制程规格制定-主任工程师",
+        "市场营销总监",
         "供应链总监",
         "架构师",
         "PIE技术专家(J10828)",
@@ -179,6 +183,7 @@
         "高级Java开发工程师/架构师",
         "首席知识产权官（CIPO）(J13478)",
         "无线/射频通信工程师",
+        "高级硬件工程师",
         "系统工程师-00103",
         "海洋装备方向技术带头人",
         "BIOS工程师",
@@ -212,22 +217,22 @@
           "count": 3
         },
         {
-          "name": "电力电子、轨道交通电源与新能源",
+          "name": "船舶/航空/航天/军工",
           "count": 2
         },
         {
-          "name": "电力电子、消费电子与高端电源制造",
+          "name": "电力电子、轨道交通电源与新能源",
           "count": 2
         }
       ],
       "topDistricts": [
         {
           "name": "南山区",
-          "count": 29
+          "count": 31
         },
         {
           "name": "宝安区",
-          "count": 26
+          "count": 27
         },
         {
           "name": "龙岗区",
@@ -239,7 +244,7 @@
         },
         {
           "name": "光明区",
-          "count": 10
+          "count": 11
         }
       ],
       "evidenceJobs": [
@@ -523,6 +528,15 @@
           "evidenceLevel": "public-platform-detail"
         },
         {
+          "id": "zhaopin-abe586f61a9d8615efda",
+          "title": "高级硬件工程师",
+          "company": "镞之迹(西安)科技有限公司",
+          "salaryText": "45-55K·14薪",
+          "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1499821240J40868667113.htm",
+          "capturedAt": "2026-07-19T18:40:54+08:00",
+          "evidenceLevel": "public-platform-detail"
+        },
+        {
           "id": "zhaopin-df56aabfdb46ef8afcd2",
           "title": "后端架构师（微服务&云原生）",
           "company": "烟台杰瑞石油服务集团股份有限公司",
@@ -721,6 +735,24 @@
           "evidenceLevel": "public-platform-detail"
         },
         {
+          "id": "zhaopin-8a6dfa306b223848261c",
+          "title": "高级电力电子工程师（SST方向）",
+          "company": "深圳市泰昂能源科技股份有限公司",
+          "salaryText": "30-50K·14薪",
+          "sourceUrl": "https://www.zhaopin.com/jobdetail/CC144393050J40837181509.htm",
+          "capturedAt": "2026-07-19T18:50:55+08:00",
+          "evidenceLevel": "public-platform-detail"
+        },
+        {
+          "id": "zhaopin-8f9a4a76e2be0f95e4c1",
+          "title": "市场营销总监",
+          "company": "深圳市万泽航空科技有限责任公司",
+          "salaryText": "30-50K·13薪",
+          "sourceUrl": "https://www.zhaopin.com/jobdetail/CC598530980J40953965802.htm",
+          "capturedAt": "2026-07-19T18:50:55+08:00",
+          "evidenceLevel": "public-platform-detail"
+        },
+        {
           "id": "zhaopin-d1322ba853f20f06698d",
           "title": "法务经理/总监（IPO与知识产权方向）",
           "company": "深圳君佩珠宝集团有限公司",
@@ -790,6 +822,15 @@
           "salaryText": "25-50K·13薪",
           "sourceUrl": "https://www.zhaopin.com/jobdetail/CC245495810J40611332307.htm",
           "capturedAt": "2026-07-18T20:55:00+08:00",
+          "evidenceLevel": "public-platform-detail"
+        },
+        {
+          "id": "zhaopin-767af3ebe8e8491cdaf2",
+          "title": "系统经理（汽车电驱）",
+          "company": "深圳麦格米特电气股份有限公司",
+          "salaryText": "30-45K·14薪",
+          "sourceUrl": "https://www.zhaopin.com/jobdetail/CC154405010J40844980505.htm",
+          "capturedAt": "2026-07-19T18:50:55+08:00",
           "evidenceLevel": "public-platform-detail"
         },
         {
@@ -1186,6 +1227,15 @@
           "salaryText": "20-30K",
           "sourceUrl": "https://www.job5156.com/shenzhen/job_280828999",
           "capturedAt": "2026-07-19T00:38:00+08:00",
+          "evidenceLevel": "public-platform-detail"
+        },
+        {
+          "id": "job5156-1e473b98fe54237d244e",
+          "title": "运营中心总监",
+          "company": "深圳盛凌电子股份有限公司",
+          "salaryText": "20-30K·14薪",
+          "sourceUrl": "https://www.job5156.com/shenzhen/job_280832361",
+          "capturedAt": "2026-07-19T18:50:55+08:00",
           "evidenceLevel": "public-platform-detail"
         },
         {
@@ -3375,17 +3425,17 @@
     }
   ],
   "skills": {
-    "denominator": 273,
+    "denominator": 278,
     "stats": [
       {
         "name": "跨团队协作",
         "category": "软技能",
-        "count": 177,
-        "denominator": 273,
-        "frequency": 0.648,
+        "count": 180,
+        "denominator": 278,
+        "frequency": 0.647,
         "salaryBands": {
-          "30K": 79,
-          "50K": 69,
+          "30K": 81,
+          "50K": 70,
           "100K": 29
         },
         "evidenceJobs": [
@@ -3495,6 +3545,15 @@
             "salaryText": "20-30K",
             "sourceUrl": "https://www.job5156.com/shenzhen/job_280828999",
             "capturedAt": "2026-07-19T00:38:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "job5156-1e473b98fe54237d244e",
+            "title": "运营中心总监",
+            "company": "深圳盛凌电子股份有限公司",
+            "salaryText": "20-30K·14薪",
+            "sourceUrl": "https://www.job5156.com/shenzhen/job_280832361",
+            "capturedAt": "2026-07-19T18:50:55+08:00",
             "evidenceLevel": "public-platform-detail"
           },
           {
@@ -4362,6 +4421,15 @@
             "evidenceLevel": "public-platform-detail"
           },
           {
+            "id": "zhaopin-767af3ebe8e8491cdaf2",
+            "title": "系统经理（汽车电驱）",
+            "company": "深圳麦格米特电气股份有限公司",
+            "salaryText": "30-45K·14薪",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC154405010J40844980505.htm",
+            "capturedAt": "2026-07-19T18:50:55+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
             "id": "zhaopin-776adc91f988b6afab74",
             "title": "SoC系统软件架构师/工程师-高速接口",
             "company": "字节跳动",
@@ -4449,6 +4517,15 @@
             "salaryText": "50-80K",
             "sourceUrl": "https://www.zhaopin.com/jobdetail/CC158816810J40703151916.htm",
             "capturedAt": "2026-07-17T10:22:15+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-8a6dfa306b223848261c",
+            "title": "高级电力电子工程师（SST方向）",
+            "company": "深圳市泰昂能源科技股份有限公司",
+            "salaryText": "30-50K·14薪",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC144393050J40837181509.htm",
+            "capturedAt": "2026-07-19T18:50:55+08:00",
             "evidenceLevel": "public-platform-detail"
           },
           {
@@ -4987,12 +5064,12 @@
       {
         "name": "主导与路线责任",
         "category": "管理能力",
-        "count": 141,
-        "denominator": 273,
-        "frequency": 0.516,
+        "count": 144,
+        "denominator": 278,
+        "frequency": 0.518,
         "salaryBands": {
-          "30K": 48,
-          "50K": 64,
+          "30K": 49,
+          "50K": 66,
           "100K": 29
         },
         "evidenceJobs": [
@@ -5798,6 +5875,15 @@
             "evidenceLevel": "public-platform-detail"
           },
           {
+            "id": "zhaopin-767af3ebe8e8491cdaf2",
+            "title": "系统经理（汽车电驱）",
+            "company": "深圳麦格米特电气股份有限公司",
+            "salaryText": "30-45K·14薪",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC154405010J40844980505.htm",
+            "capturedAt": "2026-07-19T18:50:55+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
             "id": "zhaopin-776adc91f988b6afab74",
             "title": "SoC系统软件架构师/工程师-高速接口",
             "company": "字节跳动",
@@ -5870,6 +5956,15 @@
             "evidenceLevel": "public-platform-detail"
           },
           {
+            "id": "zhaopin-8a6dfa306b223848261c",
+            "title": "高级电力电子工程师（SST方向）",
+            "company": "深圳市泰昂能源科技股份有限公司",
+            "salaryText": "30-50K·14薪",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC144393050J40837181509.htm",
+            "capturedAt": "2026-07-19T18:50:55+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
             "id": "zhaopin-8a88d03f7747d50e753a",
             "title": "手机组件制程规格制定-主任工程师",
             "company": "富联裕展科技(深圳)有限公司",
@@ -5885,6 +5980,15 @@
             "salaryText": "25-35K",
             "sourceUrl": "https://www.zhaopin.com/jobdetail/CC463958210J40787792306.htm",
             "capturedAt": "2026-07-15T15:54:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-8f9a4a76e2be0f95e4c1",
+            "title": "市场营销总监",
+            "company": "深圳市万泽航空科技有限责任公司",
+            "salaryText": "30-50K·13薪",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC598530980J40953965802.htm",
+            "capturedAt": "2026-07-19T18:50:55+08:00",
             "evidenceLevel": "public-platform-detail"
           },
           {
@@ -6270,12 +6374,12 @@
       {
         "name": "行业经验",
         "category": "行业经验",
-        "count": 138,
-        "denominator": 273,
-        "frequency": 0.505,
+        "count": 141,
+        "denominator": 278,
+        "frequency": 0.507,
         "salaryBands": {
-          "30K": 57,
-          "50K": 59,
+          "30K": 58,
+          "50K": 61,
           "100K": 22
         },
         "evidenceJobs": [
@@ -6367,6 +6471,15 @@
             "salaryText": "15-30K",
             "sourceUrl": "https://www.job5156.com/shenzhen/job_281506023",
             "capturedAt": "2026-07-18T22:15:57+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "job5156-1e473b98fe54237d244e",
+            "title": "运营中心总监",
+            "company": "深圳盛凌电子股份有限公司",
+            "salaryText": "20-30K·14薪",
+            "sourceUrl": "https://www.job5156.com/shenzhen/job_280832361",
+            "capturedAt": "2026-07-19T18:50:55+08:00",
             "evidenceLevel": "public-platform-detail"
           },
           {
@@ -7144,6 +7257,15 @@
             "evidenceLevel": "public-platform-detail"
           },
           {
+            "id": "zhaopin-8f9a4a76e2be0f95e4c1",
+            "title": "市场营销总监",
+            "company": "深圳市万泽航空科技有限责任公司",
+            "salaryText": "30-50K·13薪",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC598530980J40953965802.htm",
+            "capturedAt": "2026-07-19T18:50:55+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
             "id": "zhaopin-93cb973b66b7e7fed25a",
             "title": "工业AI算法专家（大模型方向）",
             "company": "博诚经纬软件科技有限公司",
@@ -7231,6 +7353,15 @@
             "salaryText": "15-30K",
             "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1257988090J41013804904.htm",
             "capturedAt": "2026-07-17T07:41:28+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-abe586f61a9d8615efda",
+            "title": "高级硬件工程师",
+            "company": "镞之迹(西安)科技有限公司",
+            "salaryText": "45-55K·14薪",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1499821240J40868667113.htm",
+            "capturedAt": "2026-07-19T18:40:54+08:00",
             "evidenceLevel": "public-platform-detail"
           },
           {
@@ -7527,8 +7658,8 @@
         "name": "工程部署与性能优化",
         "category": "工程能力",
         "count": 89,
-        "denominator": 273,
-        "frequency": 0.326,
+        "denominator": 278,
+        "frequency": 0.32,
         "salaryBands": {
           "30K": 30,
           "50K": 44,
@@ -8341,11 +8472,11 @@
       {
         "name": "数据、实验与评测",
         "category": "数据能力",
-        "count": 62,
-        "denominator": 273,
-        "frequency": 0.227,
+        "count": 64,
+        "denominator": 278,
+        "frequency": 0.23,
         "salaryBands": {
-          "30K": 28,
+          "30K": 30,
           "50K": 21,
           "100K": 13
         },
@@ -8376,6 +8507,15 @@
             "sourceUrl": "https://quantum.szu.edu.cn/info/1034/1212.htm",
             "capturedAt": "2026-07-19T13:12:16+08:00",
             "evidenceLevel": "employer-detail"
+          },
+          {
+            "id": "job5156-1e473b98fe54237d244e",
+            "title": "运营中心总监",
+            "company": "深圳盛凌电子股份有限公司",
+            "salaryText": "20-30K·14薪",
+            "sourceUrl": "https://www.job5156.com/shenzhen/job_280832361",
+            "capturedAt": "2026-07-19T18:50:55+08:00",
+            "evidenceLevel": "public-platform-detail"
           },
           {
             "id": "job5156-30c6f78580d8558ecc1a",
@@ -8648,6 +8788,15 @@
             "evidenceLevel": "public-platform-detail"
           },
           {
+            "id": "zhaopin-767af3ebe8e8491cdaf2",
+            "title": "系统经理（汽车电驱）",
+            "company": "深圳麦格米特电气股份有限公司",
+            "salaryText": "30-45K·14薪",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC154405010J40844980505.htm",
+            "capturedAt": "2026-07-19T18:50:55+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
             "id": "zhaopin-77be10ae0b5bd8be1151",
             "title": "亚马逊运营总监",
             "company": "河南江舸云科技有限公司",
@@ -8914,8 +9063,8 @@
         "name": "C++",
         "category": "专业技能",
         "count": 48,
-        "denominator": 273,
-        "frequency": 0.176,
+        "denominator": 278,
+        "frequency": 0.173,
         "salaryBands": {
           "30K": 17,
           "50K": 25,
@@ -9360,8 +9509,8 @@
         "name": "Python",
         "category": "专业技能",
         "count": 48,
-        "denominator": 273,
-        "frequency": 0.176,
+        "denominator": 278,
+        "frequency": 0.173,
         "salaryBands": {
           "30K": 21,
           "50K": 21,
@@ -9806,8 +9955,8 @@
         "name": "计算机视觉",
         "category": "专业技能",
         "count": 43,
-        "denominator": 273,
-        "frequency": 0.158,
+        "denominator": 278,
+        "frequency": 0.155,
         "salaryBands": {
           "30K": 17,
           "50K": 19,
@@ -10207,8 +10356,8 @@
         "name": "机器人控制",
         "category": "专业技能",
         "count": 41,
-        "denominator": 273,
-        "frequency": 0.15,
+        "denominator": 278,
+        "frequency": 0.147,
         "salaryBands": {
           "30K": 15,
           "50K": 18,
@@ -10590,8 +10739,8 @@
         "name": "大模型与 Agent",
         "category": "AI 工具",
         "count": 34,
-        "denominator": 273,
-        "frequency": 0.125,
+        "denominator": 278,
+        "frequency": 0.122,
         "salaryBands": {
           "30K": 12,
           "50K": 14,
@@ -10910,8 +11059,8 @@
         "name": "深度学习框架",
         "category": "AI 工具",
         "count": 25,
-        "denominator": 273,
-        "frequency": 0.092,
+        "denominator": 278,
+        "frequency": 0.09,
         "salaryBands": {
           "30K": 10,
           "50K": 12,
@@ -11149,8 +11298,8 @@
         "name": "语音与信号处理",
         "category": "专业技能",
         "count": 20,
-        "denominator": 273,
-        "frequency": 0.073,
+        "denominator": 278,
+        "frequency": 0.072,
         "salaryBands": {
           "30K": 9,
           "50K": 8,
@@ -11343,8 +11492,8 @@
         "name": "强化学习",
         "category": "专业技能",
         "count": 12,
-        "denominator": 273,
-        "frequency": 0.044,
+        "denominator": 278,
+        "frequency": 0.043,
         "salaryBands": {
           "30K": 0,
           "50K": 5,
@@ -11465,8 +11614,8 @@
     "pairs": [
       {
         "pair": "主导与路线责任 + 跨团队协作",
-        "count": 108,
-        "denominator": 273,
+        "count": 110,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -12055,6 +12204,15 @@
             "evidenceLevel": "public-platform-detail"
           },
           {
+            "id": "zhaopin-767af3ebe8e8491cdaf2",
+            "title": "系统经理（汽车电驱）",
+            "company": "深圳麦格米特电气股份有限公司",
+            "salaryText": "30-45K·14薪",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC154405010J40844980505.htm",
+            "capturedAt": "2026-07-19T18:50:55+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
             "id": "zhaopin-776adc91f988b6afab74",
             "title": "SoC系统软件架构师/工程师-高速接口",
             "company": "字节跳动",
@@ -12106,6 +12264,15 @@
             "salaryText": "50-80K",
             "sourceUrl": "https://www.zhaopin.com/jobdetail/CC158816810J40703151916.htm",
             "capturedAt": "2026-07-17T10:22:15+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-8a6dfa306b223848261c",
+            "title": "高级电力电子工程师（SST方向）",
+            "company": "深圳市泰昂能源科技股份有限公司",
+            "salaryText": "30-50K·14薪",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC144393050J40837181509.htm",
+            "capturedAt": "2026-07-19T18:50:55+08:00",
             "evidenceLevel": "public-platform-detail"
           },
           {
@@ -12445,8 +12612,8 @@
       },
       {
         "pair": "行业经验 + 跨团队协作",
-        "count": 97,
-        "denominator": 273,
+        "count": 98,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -12474,6 +12641,15 @@
             "salaryText": "25-35K",
             "sourceUrl": "https://www.job5156.com/shenzhen/job_281537922",
             "capturedAt": "2026-07-17T05:04:29+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "job5156-1e473b98fe54237d244e",
+            "title": "运营中心总监",
+            "company": "深圳盛凌电子股份有限公司",
+            "salaryText": "20-30K·14薪",
+            "sourceUrl": "https://www.job5156.com/shenzhen/job_280832361",
+            "capturedAt": "2026-07-19T18:50:55+08:00",
             "evidenceLevel": "public-platform-detail"
           },
           {
@@ -13326,8 +13502,8 @@
       },
       {
         "pair": "主导与路线责任 + 行业经验",
-        "count": 83,
-        "denominator": 273,
+        "count": 84,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -13862,6 +14038,15 @@
             "evidenceLevel": "public-platform-detail"
           },
           {
+            "id": "zhaopin-8f9a4a76e2be0f95e4c1",
+            "title": "市场营销总监",
+            "company": "深圳市万泽航空科技有限责任公司",
+            "salaryText": "30-50K·13薪",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC598530980J40953965802.htm",
+            "capturedAt": "2026-07-19T18:50:55+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
             "id": "zhaopin-97929fe098c71f9d8b0b",
             "title": "医疗器械算法负责人",
             "company": "深圳迈微医疗科技有限公司",
@@ -14082,7 +14267,7 @@
       {
         "pair": "工程部署与性能优化 + 跨团队协作",
         "count": 60,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -14630,7 +14815,7 @@
       {
         "pair": "工程部署与性能优化 + 行业经验",
         "count": 48,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -15070,7 +15255,7 @@
       {
         "pair": "主导与路线责任 + 工程部署与性能优化",
         "count": 48,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -15509,8 +15694,8 @@
       },
       {
         "pair": "数据、实验与评测 + 跨团队协作",
-        "count": 41,
-        "denominator": 273,
+        "count": 43,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -15530,6 +15715,15 @@
             "sourceUrl": "https://www.zhipin.com/job_detail/a026b790933817a10nF829--FFRY.html",
             "capturedAt": "2026-07-15T00:48:34+08:00",
             "evidenceLevel": "boss-detail"
+          },
+          {
+            "id": "job5156-1e473b98fe54237d244e",
+            "title": "运营中心总监",
+            "company": "深圳盛凌电子股份有限公司",
+            "salaryText": "20-30K·14薪",
+            "sourceUrl": "https://www.job5156.com/shenzhen/job_280832361",
+            "capturedAt": "2026-07-19T18:50:55+08:00",
+            "evidenceLevel": "public-platform-detail"
           },
           {
             "id": "job5156-30c6f78580d8558ecc1a",
@@ -15721,6 +15915,15 @@
             "evidenceLevel": "public-platform-detail"
           },
           {
+            "id": "zhaopin-767af3ebe8e8491cdaf2",
+            "title": "系统经理（汽车电驱）",
+            "company": "深圳麦格米特电气股份有限公司",
+            "salaryText": "30-45K·14薪",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC154405010J40844980505.htm",
+            "capturedAt": "2026-07-19T18:50:55+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
             "id": "zhaopin-7a4535e2ad72074d0319",
             "title": "具身AI数据工程师(J13151)",
             "company": "深圳市广和通无线股份有限公司",
@@ -15887,7 +16090,7 @@
       {
         "pair": "Python + 工程部署与性能优化",
         "count": 35,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -16210,7 +16413,7 @@
       {
         "pair": "机器人控制 + 行业经验",
         "count": 33,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -16514,8 +16717,8 @@
       },
       {
         "pair": "数据、实验与评测 + 行业经验",
-        "count": 32,
-        "denominator": 273,
+        "count": 33,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -16535,6 +16738,15 @@
             "sourceUrl": "https://www.zhipin.com/job_detail/a026b790933817a10nF829--FFRY.html",
             "capturedAt": "2026-07-15T00:48:34+08:00",
             "evidenceLevel": "boss-detail"
+          },
+          {
+            "id": "job5156-1e473b98fe54237d244e",
+            "title": "运营中心总监",
+            "company": "深圳盛凌电子股份有限公司",
+            "salaryText": "20-30K·14薪",
+            "sourceUrl": "https://www.job5156.com/shenzhen/job_280832361",
+            "capturedAt": "2026-07-19T18:50:55+08:00",
+            "evidenceLevel": "public-platform-detail"
           },
           {
             "id": "job5156-30c6f78580d8558ecc1a",
@@ -16811,7 +17023,7 @@
       {
         "pair": "C++ + 跨团队协作",
         "count": 32,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -17107,7 +17319,7 @@
       {
         "pair": "C++ + 行业经验",
         "count": 32,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -17403,7 +17615,7 @@
       {
         "pair": "工程部署与性能优化 + 计算机视觉",
         "count": 31,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -17690,7 +17902,7 @@
       {
         "pair": "计算机视觉 + 跨团队协作",
         "count": 31,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -17977,7 +18189,7 @@
       {
         "pair": "C++ + Python",
         "count": 31,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -18262,9 +18474,278 @@
         ]
       },
       {
+        "pair": "主导与路线责任 + 数据、实验与评测",
+        "count": 29,
+        "denominator": 278,
+        "publishable": true,
+        "evidenceJobs": [
+          {
+            "id": "boss-a026b790933817a10nF829--FFRY",
+            "title": "海外运营总监",
+            "company": "深圳大正动力科技",
+            "salaryText": "20-40K",
+            "sourceUrl": "https://www.zhipin.com/job_detail/a026b790933817a10nF829--FFRY.html",
+            "capturedAt": "2026-07-15T00:48:34+08:00",
+            "evidenceLevel": "boss-detail"
+          },
+          {
+            "id": "job5156-30c6f78580d8558ecc1a",
+            "title": "研发经理（深圳龙华办公）",
+            "company": "东莞凯韵科技有限公司",
+            "salaryText": "25-35K",
+            "sourceUrl": "https://www.job5156.com/shenzhen/job_281340938",
+            "capturedAt": "2026-07-17T00:41:50+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "job5156-3ebfaeb9cb1b77fa6e4b",
+            "title": "高级声学工程师（TWS耳机）",
+            "company": "深圳市恩乐实业有限公司",
+            "salaryText": "30-50K·13薪",
+            "sourceUrl": "https://www.job5156.com/shenzhen/job_280778945",
+            "capturedAt": "2026-07-16T17:17:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "job5156-4432bebf10fb0be4b372",
+            "title": "品质总监（塑胶行业）",
+            "company": "深圳市博硕科技股份有限公司",
+            "salaryText": "30-45K",
+            "sourceUrl": "https://www.job5156.com/shenzhen/job_281553305",
+            "capturedAt": "2026-07-17T05:12:57+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "job5156-9fb94e59b2c32eae20ad",
+            "title": "销售总监",
+            "company": "深圳市国兰塑胶五金制品有限公司",
+            "salaryText": "15-30K",
+            "sourceUrl": "https://www.job5156.com/shenzhen/job_281518120",
+            "capturedAt": "2026-07-18T20:05:54+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "job5156-d1db2b3009d4dd86ac9d",
+            "title": "供应链副总监",
+            "company": "深圳市皓文电子股份有限公司",
+            "salaryText": "35-50K",
+            "sourceUrl": "https://www.job5156.com/shenzhen/job_281528343",
+            "capturedAt": "2026-07-17T02:01:52+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "job5156-e4a02906f16ea7f8909b",
+            "title": "测试系统开发高级工程师",
+            "company": "深圳市皓文电子股份有限公司",
+            "salaryText": "25-45K",
+            "sourceUrl": "https://www.job5156.com/shenzhen/job_281528350",
+            "capturedAt": "2026-07-17T02:11:52+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "liepin-96f93962d4c0c5f69e56",
+            "title": "客服总经理/电商客服一把手",
+            "company": "上海能良电子科技有限公司",
+            "salaryText": "30-50K·20薪",
+            "sourceUrl": "https://www.liepin.com/job/1983152665.shtml",
+            "capturedAt": "2026-07-15T04:54:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-119277f851b9f8eb5220",
+            "title": "“润电鸿”实验室主任",
+            "company": "华润电力",
+            "salaryText": "50-100K",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC195096520J40926369208.htm",
+            "capturedAt": "2026-07-17T09:51:49+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-12be0c00d46c6ee2e45d",
+            "title": "AI架构师（大模型AI）",
+            "company": "悦智人工智能（深圳）有限责任公司",
+            "salaryText": "25-45K",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC846065300J40810476101.htm",
+            "capturedAt": "2026-07-15T23:21:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-1d68496b99449e4fa43d",
+            "title": "调光膜研发工程师",
+            "company": "深圳市新旗滨科技有限公司",
+            "salaryText": "20-40K·13薪",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC454284030J40902820112.htm",
+            "capturedAt": "2026-07-16T13:27:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-371b997e68241d3c1982",
+            "title": "高级软件架构师",
+            "company": "深圳市华汉伟业科技有限公司",
+            "salaryText": "20-40K",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC280373830J40807161005.htm",
+            "capturedAt": "2026-07-17T08:31:28+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-428feb0a105229a06a13",
+            "title": "算力中心副总经理（绿电方向）",
+            "company": "深圳市朗坤科技股份有限公司",
+            "salaryText": "60-100K",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC132081930J40857151901.htm",
+            "capturedAt": "2026-07-15T16:54:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-4de653308c0e68ca1fca",
+            "title": "具身智能算法经理",
+            "company": "深圳吉阳智能科技有限公司",
+            "salaryText": "80-120K",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC480141730J40894767613.htm",
+            "capturedAt": "2026-07-15T23:41:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-4fd492f60dc4b1160de8",
+            "title": "算法专家",
+            "company": "深圳和而泰智能控制股份有限公司",
+            "salaryText": "35-60K·14薪",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC120064600J40826698216.htm",
+            "capturedAt": "2026-07-19T11:52:14+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-57323b707d05625a7233",
+            "title": "新型电力系统首席专家",
+            "company": "华润电力",
+            "salaryText": "50-100K",
+            "sourceUrl": "https://m.zhaopin.com/jobs/CC195096520J40926363308.htm",
+            "capturedAt": "2026-07-16T14:02:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-6072c3b8e67a25af1e03",
+            "title": "海外市场（博士）",
+            "company": "深圳市省油灯网络科技有限公司",
+            "salaryText": "60-90K",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC302011130J40821347711.htm",
+            "capturedAt": "2026-07-15T23:31:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-6b6c825b8043d73613fa",
+            "title": "新型储能研究中心主任",
+            "company": "华润电力",
+            "salaryText": "50-100K",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC195096520J40926368608.htm",
+            "capturedAt": "2026-07-17T09:51:49+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-6f317fe8ce3832b751b1",
+            "title": "电芯材料工程师（四大主材）",
+            "company": "深圳欣界能源科技股份有限公司",
+            "salaryText": "20-40K",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1478923000J40826569211.htm",
+            "capturedAt": "2026-07-15T13:58:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-767af3ebe8e8491cdaf2",
+            "title": "系统经理（汽车电驱）",
+            "company": "深圳麦格米特电气股份有限公司",
+            "salaryText": "30-45K·14薪",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC154405010J40844980505.htm",
+            "capturedAt": "2026-07-19T18:50:55+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-77be10ae0b5bd8be1151",
+            "title": "亚马逊运营总监",
+            "company": "河南江舸云科技有限公司",
+            "salaryText": "30-60K",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1495979550J40759167511.htm",
+            "capturedAt": "2026-07-17T09:31:48+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-8cb535690dd1aefaa8e8",
+            "title": "品牌副总经理",
+            "company": "深圳市智纬科技有限公司",
+            "salaryText": "25-35K",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC463958210J40787792306.htm",
+            "capturedAt": "2026-07-15T15:54:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-90553f16c773e727cf09",
+            "title": "人工智能首席专家",
+            "company": "深圳惠特科学技术有限公司",
+            "salaryText": "40-60K",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1504292280J40971017304.htm",
+            "capturedAt": "2026-07-15T08:42:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-97929fe098c71f9d8b0b",
+            "title": "医疗器械算法负责人",
+            "company": "深圳迈微医疗科技有限公司",
+            "salaryText": "30-50K·13薪",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1353275480J40856090411.htm",
+            "capturedAt": "2026-07-16T09:41:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-a7829015cd8e725ff716",
+            "title": "AI感知算法专家/组长（高薪+双休+前景好）",
+            "company": "苏州虚空涡旋科技有限公司",
+            "salaryText": "60-100K·15薪",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1504827490J40843003311.htm",
+            "capturedAt": "2026-07-17T04:11:54+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-c721ac959a03b7c372bd",
+            "title": "市场营销副总裁/城市总经理",
+            "company": "香港現代教育集團有限公司",
+            "salaryText": "40-70K",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC830918000J40767015406.htm",
+            "capturedAt": "2026-07-18T03:00:52+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-c8bb43e6c50dbc6617e8",
+            "title": "AI高级产品经理",
+            "company": "深圳市华丰世纪投资（集团）有限公司",
+            "salaryText": "30-50K",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC351729710J40700491101.htm",
+            "capturedAt": "2026-07-15T23:11:00+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-c90ce475f5ab1b3990c4",
+            "title": "YE技术专家(J10829)",
+            "company": "深圳市鹏新旭技术有限公司",
+            "salaryText": "30-45K·15薪",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1406263350J40755205707.htm",
+            "capturedAt": "2026-07-19T11:10:13+08:00",
+            "evidenceLevel": "public-platform-detail"
+          },
+          {
+            "id": "zhaopin-d34b04e6d31057f8d1b8",
+            "title": "高级算法工程师（大模型方向）",
+            "company": "牧原食品集团股份有限公司",
+            "salaryText": "50-100K",
+            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC495147320J40849398211.htm",
+            "capturedAt": "2026-07-19T13:32:16+08:00",
+            "evidenceLevel": "public-platform-detail"
+          }
+        ]
+      },
+      {
         "pair": "Python + 跨团队协作",
         "count": 29,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -18533,7 +19014,7 @@
       {
         "pair": "大模型与 Agent + 工程部署与性能优化",
         "count": 28,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -18791,269 +19272,9 @@
         ]
       },
       {
-        "pair": "主导与路线责任 + 数据、实验与评测",
-        "count": 28,
-        "denominator": 273,
-        "publishable": true,
-        "evidenceJobs": [
-          {
-            "id": "boss-a026b790933817a10nF829--FFRY",
-            "title": "海外运营总监",
-            "company": "深圳大正动力科技",
-            "salaryText": "20-40K",
-            "sourceUrl": "https://www.zhipin.com/job_detail/a026b790933817a10nF829--FFRY.html",
-            "capturedAt": "2026-07-15T00:48:34+08:00",
-            "evidenceLevel": "boss-detail"
-          },
-          {
-            "id": "job5156-30c6f78580d8558ecc1a",
-            "title": "研发经理（深圳龙华办公）",
-            "company": "东莞凯韵科技有限公司",
-            "salaryText": "25-35K",
-            "sourceUrl": "https://www.job5156.com/shenzhen/job_281340938",
-            "capturedAt": "2026-07-17T00:41:50+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "job5156-3ebfaeb9cb1b77fa6e4b",
-            "title": "高级声学工程师（TWS耳机）",
-            "company": "深圳市恩乐实业有限公司",
-            "salaryText": "30-50K·13薪",
-            "sourceUrl": "https://www.job5156.com/shenzhen/job_280778945",
-            "capturedAt": "2026-07-16T17:17:00+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "job5156-4432bebf10fb0be4b372",
-            "title": "品质总监（塑胶行业）",
-            "company": "深圳市博硕科技股份有限公司",
-            "salaryText": "30-45K",
-            "sourceUrl": "https://www.job5156.com/shenzhen/job_281553305",
-            "capturedAt": "2026-07-17T05:12:57+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "job5156-9fb94e59b2c32eae20ad",
-            "title": "销售总监",
-            "company": "深圳市国兰塑胶五金制品有限公司",
-            "salaryText": "15-30K",
-            "sourceUrl": "https://www.job5156.com/shenzhen/job_281518120",
-            "capturedAt": "2026-07-18T20:05:54+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "job5156-d1db2b3009d4dd86ac9d",
-            "title": "供应链副总监",
-            "company": "深圳市皓文电子股份有限公司",
-            "salaryText": "35-50K",
-            "sourceUrl": "https://www.job5156.com/shenzhen/job_281528343",
-            "capturedAt": "2026-07-17T02:01:52+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "job5156-e4a02906f16ea7f8909b",
-            "title": "测试系统开发高级工程师",
-            "company": "深圳市皓文电子股份有限公司",
-            "salaryText": "25-45K",
-            "sourceUrl": "https://www.job5156.com/shenzhen/job_281528350",
-            "capturedAt": "2026-07-17T02:11:52+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "liepin-96f93962d4c0c5f69e56",
-            "title": "客服总经理/电商客服一把手",
-            "company": "上海能良电子科技有限公司",
-            "salaryText": "30-50K·20薪",
-            "sourceUrl": "https://www.liepin.com/job/1983152665.shtml",
-            "capturedAt": "2026-07-15T04:54:00+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "zhaopin-119277f851b9f8eb5220",
-            "title": "“润电鸿”实验室主任",
-            "company": "华润电力",
-            "salaryText": "50-100K",
-            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC195096520J40926369208.htm",
-            "capturedAt": "2026-07-17T09:51:49+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "zhaopin-12be0c00d46c6ee2e45d",
-            "title": "AI架构师（大模型AI）",
-            "company": "悦智人工智能（深圳）有限责任公司",
-            "salaryText": "25-45K",
-            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC846065300J40810476101.htm",
-            "capturedAt": "2026-07-15T23:21:00+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "zhaopin-1d68496b99449e4fa43d",
-            "title": "调光膜研发工程师",
-            "company": "深圳市新旗滨科技有限公司",
-            "salaryText": "20-40K·13薪",
-            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC454284030J40902820112.htm",
-            "capturedAt": "2026-07-16T13:27:00+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "zhaopin-371b997e68241d3c1982",
-            "title": "高级软件架构师",
-            "company": "深圳市华汉伟业科技有限公司",
-            "salaryText": "20-40K",
-            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC280373830J40807161005.htm",
-            "capturedAt": "2026-07-17T08:31:28+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "zhaopin-428feb0a105229a06a13",
-            "title": "算力中心副总经理（绿电方向）",
-            "company": "深圳市朗坤科技股份有限公司",
-            "salaryText": "60-100K",
-            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC132081930J40857151901.htm",
-            "capturedAt": "2026-07-15T16:54:00+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "zhaopin-4de653308c0e68ca1fca",
-            "title": "具身智能算法经理",
-            "company": "深圳吉阳智能科技有限公司",
-            "salaryText": "80-120K",
-            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC480141730J40894767613.htm",
-            "capturedAt": "2026-07-15T23:41:00+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "zhaopin-4fd492f60dc4b1160de8",
-            "title": "算法专家",
-            "company": "深圳和而泰智能控制股份有限公司",
-            "salaryText": "35-60K·14薪",
-            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC120064600J40826698216.htm",
-            "capturedAt": "2026-07-19T11:52:14+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "zhaopin-57323b707d05625a7233",
-            "title": "新型电力系统首席专家",
-            "company": "华润电力",
-            "salaryText": "50-100K",
-            "sourceUrl": "https://m.zhaopin.com/jobs/CC195096520J40926363308.htm",
-            "capturedAt": "2026-07-16T14:02:00+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "zhaopin-6072c3b8e67a25af1e03",
-            "title": "海外市场（博士）",
-            "company": "深圳市省油灯网络科技有限公司",
-            "salaryText": "60-90K",
-            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC302011130J40821347711.htm",
-            "capturedAt": "2026-07-15T23:31:00+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "zhaopin-6b6c825b8043d73613fa",
-            "title": "新型储能研究中心主任",
-            "company": "华润电力",
-            "salaryText": "50-100K",
-            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC195096520J40926368608.htm",
-            "capturedAt": "2026-07-17T09:51:49+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "zhaopin-6f317fe8ce3832b751b1",
-            "title": "电芯材料工程师（四大主材）",
-            "company": "深圳欣界能源科技股份有限公司",
-            "salaryText": "20-40K",
-            "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1478923000J40826569211.htm",
-            "capturedAt": "2026-07-15T13:58:00+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "zhaopin-77be10ae0b5bd8be1151",
-            "title": "亚马逊运营总监",
-            "company": "河南江舸云科技有限公司",
-            "salaryText": "30-60K",
-            "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1495979550J40759167511.htm",
-            "capturedAt": "2026-07-17T09:31:48+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "zhaopin-8cb535690dd1aefaa8e8",
-            "title": "品牌副总经理",
-            "company": "深圳市智纬科技有限公司",
-            "salaryText": "25-35K",
-            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC463958210J40787792306.htm",
-            "capturedAt": "2026-07-15T15:54:00+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "zhaopin-90553f16c773e727cf09",
-            "title": "人工智能首席专家",
-            "company": "深圳惠特科学技术有限公司",
-            "salaryText": "40-60K",
-            "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1504292280J40971017304.htm",
-            "capturedAt": "2026-07-15T08:42:00+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "zhaopin-97929fe098c71f9d8b0b",
-            "title": "医疗器械算法负责人",
-            "company": "深圳迈微医疗科技有限公司",
-            "salaryText": "30-50K·13薪",
-            "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1353275480J40856090411.htm",
-            "capturedAt": "2026-07-16T09:41:00+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "zhaopin-a7829015cd8e725ff716",
-            "title": "AI感知算法专家/组长（高薪+双休+前景好）",
-            "company": "苏州虚空涡旋科技有限公司",
-            "salaryText": "60-100K·15薪",
-            "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1504827490J40843003311.htm",
-            "capturedAt": "2026-07-17T04:11:54+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "zhaopin-c721ac959a03b7c372bd",
-            "title": "市场营销副总裁/城市总经理",
-            "company": "香港現代教育集團有限公司",
-            "salaryText": "40-70K",
-            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC830918000J40767015406.htm",
-            "capturedAt": "2026-07-18T03:00:52+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "zhaopin-c8bb43e6c50dbc6617e8",
-            "title": "AI高级产品经理",
-            "company": "深圳市华丰世纪投资（集团）有限公司",
-            "salaryText": "30-50K",
-            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC351729710J40700491101.htm",
-            "capturedAt": "2026-07-15T23:11:00+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "zhaopin-c90ce475f5ab1b3990c4",
-            "title": "YE技术专家(J10829)",
-            "company": "深圳市鹏新旭技术有限公司",
-            "salaryText": "30-45K·15薪",
-            "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1406263350J40755205707.htm",
-            "capturedAt": "2026-07-19T11:10:13+08:00",
-            "evidenceLevel": "public-platform-detail"
-          },
-          {
-            "id": "zhaopin-d34b04e6d31057f8d1b8",
-            "title": "高级算法工程师（大模型方向）",
-            "company": "牧原食品集团股份有限公司",
-            "salaryText": "50-100K",
-            "sourceUrl": "https://www.zhaopin.com/jobdetail/CC495147320J40849398211.htm",
-            "capturedAt": "2026-07-19T13:32:16+08:00",
-            "evidenceLevel": "public-platform-detail"
-          }
-        ]
-      },
-      {
         "pair": "C++ + 工程部署与性能优化",
         "count": 28,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -19313,7 +19534,7 @@
       {
         "pair": "工程部署与性能优化 + 数据、实验与评测",
         "count": 27,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -19564,7 +19785,7 @@
       {
         "pair": "Python + 行业经验",
         "count": 25,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -19797,7 +20018,7 @@
       {
         "pair": "行业经验 + 计算机视觉",
         "count": 24,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -20021,7 +20242,7 @@
       {
         "pair": "机器人控制 + 跨团队协作",
         "count": 22,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -20227,7 +20448,7 @@
       {
         "pair": "工程部署与性能优化 + 深度学习框架",
         "count": 21,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -20424,7 +20645,7 @@
       {
         "pair": "Python + 数据、实验与评测",
         "count": 21,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -20621,7 +20842,7 @@
       {
         "pair": "大模型与 Agent + 跨团队协作",
         "count": 20,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -20809,7 +21030,7 @@
       {
         "pair": "工程部署与性能优化 + 机器人控制",
         "count": 20,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -20997,7 +21218,7 @@
       {
         "pair": "C++ + 计算机视觉",
         "count": 20,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -21185,7 +21406,7 @@
       {
         "pair": "Python + 计算机视觉",
         "count": 19,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -21364,7 +21585,7 @@
       {
         "pair": "C++ + 机器人控制",
         "count": 18,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -21534,7 +21755,7 @@
       {
         "pair": "Python + 机器人控制",
         "count": 18,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -21704,7 +21925,7 @@
       {
         "pair": "主导与路线责任 + 机器人控制",
         "count": 17,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -21865,7 +22086,7 @@
       {
         "pair": "C++ + 主导与路线责任",
         "count": 17,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -22026,7 +22247,7 @@
       {
         "pair": "Python + 深度学习框架",
         "count": 17,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -22187,7 +22408,7 @@
       {
         "pair": "主导与路线责任 + 大模型与 Agent",
         "count": 16,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -22339,7 +22560,7 @@
       {
         "pair": "主导与路线责任 + 计算机视觉",
         "count": 16,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -22491,7 +22712,7 @@
       {
         "pair": "深度学习框架 + 跨团队协作",
         "count": 15,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -22634,7 +22855,7 @@
       {
         "pair": "大模型与 Agent + 数据、实验与评测",
         "count": 14,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -22768,7 +22989,7 @@
       {
         "pair": "深度学习框架 + 行业经验",
         "count": 14,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -22902,7 +23123,7 @@
       {
         "pair": "数据、实验与评测 + 计算机视觉",
         "count": 14,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -23036,7 +23257,7 @@
       {
         "pair": "Python + 大模型与 Agent",
         "count": 14,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -23170,7 +23391,7 @@
       {
         "pair": "大模型与 Agent + 计算机视觉",
         "count": 13,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -23295,7 +23516,7 @@
       {
         "pair": "大模型与 Agent + 深度学习框架",
         "count": 13,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -23420,7 +23641,7 @@
       {
         "pair": "机器人控制 + 计算机视觉",
         "count": 13,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -23545,7 +23766,7 @@
       {
         "pair": "行业经验 + 语音与信号处理",
         "count": 13,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -23670,7 +23891,7 @@
       {
         "pair": "Python + 主导与路线责任",
         "count": 13,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -23795,7 +24016,7 @@
       {
         "pair": "大模型与 Agent + 行业经验",
         "count": 12,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -23911,7 +24132,7 @@
       {
         "pair": "工程部署与性能优化 + 语音与信号处理",
         "count": 12,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -24027,7 +24248,7 @@
       {
         "pair": "深度学习框架 + 计算机视觉",
         "count": 11,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -24134,7 +24355,7 @@
       {
         "pair": "语音与信号处理 + 跨团队协作",
         "count": 11,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -24241,7 +24462,7 @@
       {
         "pair": "C++ + 数据、实验与评测",
         "count": 11,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -24348,7 +24569,7 @@
       {
         "pair": "C++ + 深度学习框架",
         "count": 10,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -24446,7 +24667,7 @@
       {
         "pair": "数据、实验与评测 + 深度学习框架",
         "count": 9,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -24535,7 +24756,7 @@
       {
         "pair": "强化学习 + 行业经验",
         "count": 8,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -24615,7 +24836,7 @@
       {
         "pair": "主导与路线责任 + 深度学习框架",
         "count": 8,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -24695,7 +24916,7 @@
       {
         "pair": "工程部署与性能优化 + 强化学习",
         "count": 7,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -24766,7 +24987,7 @@
       {
         "pair": "强化学习 + 机器人控制",
         "count": 7,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -24837,7 +25058,7 @@
       {
         "pair": "深度学习框架 + 语音与信号处理",
         "count": 7,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -24908,7 +25129,7 @@
       {
         "pair": "数据、实验与评测 + 机器人控制",
         "count": 7,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -24979,7 +25200,7 @@
       {
         "pair": "数据、实验与评测 + 语音与信号处理",
         "count": 7,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -25050,7 +25271,7 @@
       {
         "pair": "主导与路线责任 + 语音与信号处理",
         "count": 7,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -25121,7 +25342,7 @@
       {
         "pair": "大模型与 Agent + 强化学习",
         "count": 6,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -25183,7 +25404,7 @@
       {
         "pair": "机器人控制 + 深度学习框架",
         "count": 6,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -25245,7 +25466,7 @@
       {
         "pair": "计算机视觉 + 语音与信号处理",
         "count": 6,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -25307,7 +25528,7 @@
       {
         "pair": "强化学习 + 跨团队协作",
         "count": 6,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -25369,7 +25590,7 @@
       {
         "pair": "主导与路线责任 + 强化学习",
         "count": 6,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -25431,7 +25652,7 @@
       {
         "pair": "Python + 语音与信号处理",
         "count": 6,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -25493,7 +25714,7 @@
       {
         "pair": "Python + 强化学习",
         "count": 5,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -25546,7 +25767,7 @@
       {
         "pair": "大模型与 Agent + 语音与信号处理",
         "count": 4,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -25590,7 +25811,7 @@
       {
         "pair": "强化学习 + 计算机视觉",
         "count": 4,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -25634,7 +25855,7 @@
       {
         "pair": "强化学习 + 数据、实验与评测",
         "count": 4,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -25678,7 +25899,7 @@
       {
         "pair": "C++ + 大模型与 Agent",
         "count": 4,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -25722,7 +25943,7 @@
       {
         "pair": "C++ + 强化学习",
         "count": 4,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -25766,7 +25987,7 @@
       {
         "pair": "C++ + 语音与信号处理",
         "count": 4,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -25810,7 +26031,7 @@
       {
         "pair": "机器人控制 + 语音与信号处理",
         "count": 3,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -25845,7 +26066,7 @@
       {
         "pair": "大模型与 Agent + 机器人控制",
         "count": 2,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -25871,7 +26092,7 @@
       {
         "pair": "强化学习 + 深度学习框架",
         "count": 2,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -25897,7 +26118,7 @@
       {
         "pair": "强化学习 + 语音与信号处理",
         "count": 1,
-        "denominator": 273,
+        "denominator": 278,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -27264,6 +27485,35 @@
       ]
     },
     {
+      "company": "深圳市泰昂能源科技股份有限公司",
+      "status": "same-snapshot-cluster",
+      "jobCount": 2,
+      "distinctTitles": 2,
+      "capturedDates": [
+        "2026-07-19"
+      ],
+      "evidenceJobs": [
+        {
+          "id": "zhaopin-33fb1e00512b8652c6aa",
+          "title": "DSP软件工程师",
+          "company": "深圳市泰昂能源科技股份有限公司",
+          "salaryText": "35-45K",
+          "sourceUrl": "https://www.zhaopin.com/jobdetail/CC144393056J00444645702.htm",
+          "capturedAt": "2026-07-19T01:29:00+08:00",
+          "evidenceLevel": "public-platform-detail"
+        },
+        {
+          "id": "zhaopin-8a6dfa306b223848261c",
+          "title": "高级电力电子工程师（SST方向）",
+          "company": "深圳市泰昂能源科技股份有限公司",
+          "salaryText": "30-50K·14薪",
+          "sourceUrl": "https://www.zhaopin.com/jobdetail/CC144393050J40837181509.htm",
+          "capturedAt": "2026-07-19T18:50:55+08:00",
+          "evidenceLevel": "public-platform-detail"
+        }
+      ]
+    },
+    {
       "company": "深圳市宇鸿精密模具有限公司",
       "status": "same-snapshot-cluster",
       "jobCount": 2,
@@ -27414,14 +27664,14 @@
   "salaryBands": [
     {
       "band": "30K",
-      "count": 124,
-      "detailCount": 124,
+      "count": 126,
+      "detailCount": 126,
       "medianMid": 30
     },
     {
       "band": "50K",
-      "count": 112,
-      "detailCount": 112,
+      "count": 115,
+      "detailCount": 115,
       "medianMid": 45
     },
     {
@@ -27432,15 +27682,15 @@
     }
   ],
   "marketProfile": {
-    "denominator": 273,
+    "denominator": 278,
     "salaryBands": [
       {
         "name": "30K",
-        "count": 124
+        "count": 126
       },
       {
         "name": "50K",
-        "count": 112
+        "count": 115
       },
       {
         "name": "100K",
@@ -27461,12 +27711,16 @@
         "count": 6
       },
       {
+        "name": "人工智能",
+        "count": 5
+      },
+      {
         "name": "消费电子/智能硬件",
         "count": 5
       },
       {
-        "name": "人工智能",
-        "count": 4
+        "name": "电气机械/电力设备",
+        "count": 3
       },
       {
         "name": "互联网",
@@ -27493,15 +27747,15 @@
         "count": 2
       },
       {
+        "name": "船舶/航空/航天/军工",
+        "count": 2
+      },
+      {
         "name": "电力电子、轨道交通电源与新能源",
         "count": 2
       },
       {
         "name": "电力电子、消费电子与高端电源制造",
-        "count": 2
-      },
-      {
-        "name": "电气机械/电力设备",
         "count": 2
       },
       {
@@ -27617,10 +27871,6 @@
         "count": 1
       },
       {
-        "name": "船舶/航空/航天/军工",
-        "count": 1
-      },
-      {
         "name": "船舶/航空/航天/军工、电子装备",
         "count": 1
       },
@@ -27634,6 +27884,10 @@
       },
       {
         "name": "电力/工业软件",
+        "count": 1
+      },
+      {
+        "name": "电力/水利/热力/燃气",
         "count": 1
       },
       {
@@ -27666,6 +27920,10 @@
       },
       {
         "name": "电气设备/高速互连",
+        "count": 1
+      },
+      {
+        "name": "电子/微电子技术/集成电路",
         "count": 1
       },
       {
@@ -28356,11 +28614,11 @@
     "districts": [
       {
         "name": "南山区",
-        "count": 100
+        "count": 102
       },
       {
         "name": "宝安区",
-        "count": 59
+        "count": 60
       },
       {
         "name": "龙岗区",
@@ -28368,7 +28626,7 @@
       },
       {
         "name": "光明区",
-        "count": 28
+        "count": 29
       },
       {
         "name": "龙华区",
@@ -28391,6 +28649,10 @@
         "count": 2
       },
       {
+        "name": "深汕特别合作区",
+        "count": 1
+      },
+      {
         "name": "盐田区",
         "count": 1
       }
@@ -28398,7 +28660,7 @@
     "experience": [
       {
         "name": "5-10年",
-        "count": 94
+        "count": 97
       },
       {
         "name": "3-5年",
@@ -28406,7 +28668,7 @@
       },
       {
         "name": "10年以上",
-        "count": 34
+        "count": 36
       },
       {
         "name": "经验不限",
@@ -28572,11 +28834,11 @@
     "education": [
       {
         "name": "本科",
-        "count": 157
+        "count": 161
       },
       {
         "name": "硕士",
-        "count": 58
+        "count": 59
       },
       {
         "name": "博士",
@@ -28620,8 +28882,8 @@
   "benchmarkCandidates": [
     {
       "role": "其他专业岗位",
-      "detailCount": 119,
-      "companyCount": 93,
+      "detailCount": 124,
+      "companyCount": 98,
       "salaryBandCount": 3
     },
     {

@@ -1,0 +1,37 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-19T18:50:55+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC144393050J40837181509.htm",
+  "job": {
+    "sourceJobId": "CC144393050J40837181509",
+    "title": "高级电力电子工程师（SST方向）",
+    "company": "深圳市泰昂能源科技股份有限公司",
+    "salaryText": "30-50K·14薪",
+    "district": "宝安区",
+    "addressText": "深圳市宝安区深圳市泰昂能源科技股份有限公司总部",
+    "industry": "电力/水利/热力/燃气",
+    "experience": "5-10年",
+    "education": "硕士",
+    "descriptionText": "负责兆瓦级固态变压器SST或电力电子变压器PET的系统方案、拓扑选型、架构设计与关键技术攻关，完成SiC、MOSFET、IGBT功率器件及高频隔离变压器、电感等关键器件选型和平台化设计；协同软件工程师完成数字控制、均流、保护、并网及并联控制调试，主导EMC、安规、热设计、可靠性、DFX和量产导入，并跟踪HVDC、数据中心电源、智能配电网及储能技术路线。要求硕士学历、五年以上经验，具备系统设计、控制调试、技术攻关和跨部门项目推动能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": null,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "publishedWithinTwoDays",
+      "activeRecruiterContactEntry",
+      "platformBusinessLicenseVerified",
+      "namedDirectEmployer",
+      "specificShenzhenWorkLocation"
+    ],
+    "reviewNotes": "智联独立详情页发布/更新于采集前2天，招聘负责人昨日活跃；页面显示固定月薪3-5万元并标注14薪、深圳宝安区、硕士及5-10年经验，职责和要求完整。发布主体和最终雇主均为已审核且工商存续的深圳市泰昂能源科技股份有限公司。未发现匿名客户、人力资源代招、收费培训、提成冒充固定月薪、年薪误读、失效提示或地点冲突。"
+  }
+}

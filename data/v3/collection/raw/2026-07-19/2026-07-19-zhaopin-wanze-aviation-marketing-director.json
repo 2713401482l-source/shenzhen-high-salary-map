@@ -1,0 +1,37 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-19T18:50:55+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC598530980J40953965802.htm",
+  "job": {
+    "sourceJobId": "CC598530980J40953965802",
+    "title": "市场营销总监",
+    "company": "深圳市万泽航空科技有限责任公司",
+    "salaryText": "30-50K·13薪",
+    "district": "深汕特别合作区",
+    "addressText": "深圳市深汕特别合作区万泽航空产业基地",
+    "industry": "船舶/航空/航天/军工",
+    "experience": "10年以上",
+    "education": "本科",
+    "descriptionText": "主持市场营销部门日常工作，形成市场战略、年度计划与实施方案，带领团队开发维护国内外航空发动机和燃气轮机OEM、MRO服务机构及分销商等核心客户；主导商务谈判与海外销售合同签订，协调技术、生产、财务等部门优化客户体验，并通过行业展会和研讨会提升品牌影响力。要求本科及以上学历，十年以上相关经验，英语可作为工作语言，熟悉中东、俄罗斯、欧洲等海外市场，具有能源电力或航空高温合金行业经验者优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": null,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "detailCrawledWithinFourDays",
+      "activeRecruiterContactEntry",
+      "platformBusinessLicenseVerified",
+      "namedDirectEmployer",
+      "specificShenzhenWorkAddress"
+    ],
+    "reviewNotes": "智联独立详情页在采集前4天内被更新抓取，招聘者昨日活跃，页面显示固定月薪3-5万元并标注13薪、深圳深汕特别合作区工作地点以及完整职责要求。发布主体与最终雇主均为已审核的深圳市万泽航空科技有限责任公司。岗位虽涉及市场拓展，但页面薪资为明确固定月薪区间，没有以提成或年薪冒充月薪；未发现匿名客户、代招、收费培训或地点矛盾。"
+  }
+}

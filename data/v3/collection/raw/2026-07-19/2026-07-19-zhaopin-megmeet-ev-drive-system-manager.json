@@ -1,0 +1,37 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-19T18:50:55+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC154405010J40844980505.htm",
+  "job": {
+    "sourceJobId": "CC154405010J40844980505",
+    "title": "系统经理（汽车电驱）",
+    "company": "深圳麦格米特电气股份有限公司",
+    "salaryText": "30-45K·14薪",
+    "district": "南山区",
+    "addressText": "深圳市南山区通产新材料产业园东3栋2楼",
+    "industry": "电气机械/电力设备",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责电驱系统从需求定义、方案设计、开发验证到SOP量产的全生命周期管理，解读客户SOR并输出系统需求、技术规格、产品方案、拓扑架构与性能指标；主导测试计划、台架及整车标定、EMC、可靠性、NVH和效率验证，牵头系统问题攻关并管理进度、成本、质量、风险和变更。要求本科及以上学历，具有五年以上新能源汽车电驱系统开发或项目管理经验，精通电驱系统原理和架构，熟悉车规开发体系、系统设计、整车验证及客户技术对接。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": null,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "activeRecruiterContactEntry",
+      "platformBusinessLicenseVerified",
+      "namedDirectEmployer",
+      "specificShenzhenWorkAddress",
+      "activeEmployerJobsPage"
+    ],
+    "reviewNotes": "智联独立详情页显示固定月薪3-4.5万元并标注14薪、深圳南山区具体办公地址、完整职责和任职要求，仍保留立即沟通入口，招聘者采集时当前在线。发布主体和最终雇主均为已审核上市企业深圳麦格米特电气股份有限公司。页面日期早于45天但详情、招聘者及企业在招入口当前均活跃，因此按未知/较早发布日期的活跃页规则留存；未发现代招、收费培训、提成冒充月薪、年薪误读或地点冲突。"
+  }
+}
