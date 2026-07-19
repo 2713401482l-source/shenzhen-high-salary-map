@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-07-19T05:06:30.798Z",
+  "generatedAt": "2026-07-19T05:17:58.433Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 350,
-    "verifiedDetailJobs": 258,
+    "usableJobs": 355,
+    "verifiedDetailJobs": 263,
     "listingOnlyJobs": 92,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 283,
+    "fullRequirementJobs": 288,
     "uniqueCompanies": 271,
-    "uniqueRawTitles": 327,
+    "uniqueRawTitles": 332,
     "captureDates": 6
   },
   "distributions": {
     "salaryBands": {
-      "30K": 164,
+      "30K": 169,
       "50K": 151,
       "100K": 35
     },
@@ -22,16 +22,16 @@
       "public-platform-detail": 247,
       "boss-listing": 67,
       "public-index-probable": 18,
+      "employer-detail": 12,
       "boss-detail": 8,
-      "employer-detail": 7,
       "boss-listing-plus-detail": 3
     },
     "captureDates": {
       "2026-07-12": 71,
       "2026-07-17": 61,
       "2026-07-18": 60,
+      "2026-07-19": 60,
       "2026-07-16": 57,
-      "2026-07-19": 55,
       "2026-07-15": 46
     },
     "industries": {
@@ -57,6 +57,7 @@
       "电子/半导体/集成电路、智能声学穿戴": 2,
       "电子/硬件开发": 2,
       "电子商务": 2,
+      "高等教育与生命科学研究": 2,
       "高端智能装备、数控机床、工业自动化与人工智能": 2,
       "工业自动化设备": 2,
       "互联网金融": 2,
@@ -112,8 +113,11 @@
       "房地产开发经营": 1,
       "房地产开发经营/产业园运营/物业管理": 1,
       "钢铁/工业数字化": 1,
+      "高等教育与城市空间信息研究": 1,
       "高等教育与电子信息科研": 1,
+      "高等教育与量子科技研究": 1,
       "高等教育与土木工程科研": 1,
+      "高等教育与土木环境工程研究": 1,
       "高端音频设备、电子研发与制造": 1,
       "工业自动化、半导体装备与新材料": 1,
       "工业自动化、机器人、新能源装备": 1,
@@ -286,7 +290,7 @@
       "PCB设备、工业自动化与半导体检测": 1
     },
     "districts": {
-      "南山区": 138,
+      "南山区": 143,
       "宝安区": 68,
       "龙岗区": 38,
       "光明区": 31,
@@ -311,6 +315,10 @@
     {
       "company": "深圳市塞防科技有限公司",
       "count": 9
+    },
+    {
+      "company": "深圳大学",
+      "count": 7
     },
     {
       "company": "深圳市博硕科技股份有限公司",
@@ -413,10 +421,6 @@
       "count": 2
     },
     {
-      "company": "深圳大学",
-      "count": 2
-    },
-    {
       "company": "深圳和而泰智能控制股份有限公司",
       "count": 2
     },
@@ -469,12 +473,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 350,
+      "current": 355,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 258,
+      "current": 263,
       "required": 240,
       "passed": true
     },
@@ -493,7 +497,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "258/350 条完成详情核验",
+      "evidence": "263/355 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {
