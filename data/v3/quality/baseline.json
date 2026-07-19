@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-07-19T04:26:01.229Z",
+  "generatedAt": "2026-07-19T05:06:30.798Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 345,
-    "verifiedDetailJobs": 253,
+    "usableJobs": 350,
+    "verifiedDetailJobs": 258,
     "listingOnlyJobs": 92,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 278,
-    "uniqueCompanies": 268,
-    "uniqueRawTitles": 322,
+    "fullRequirementJobs": 283,
+    "uniqueCompanies": 271,
+    "uniqueRawTitles": 327,
     "captureDates": 6
   },
   "distributions": {
     "salaryBands": {
-      "30K": 160,
-      "50K": 150,
+      "30K": 164,
+      "50K": 151,
       "100K": 35
     },
     "evidenceLevels": {
@@ -23,15 +23,15 @@
       "boss-listing": 67,
       "public-index-probable": 18,
       "boss-detail": 8,
-      "boss-listing-plus-detail": 3,
-      "employer-detail": 2
+      "employer-detail": 7,
+      "boss-listing-plus-detail": 3
     },
     "captureDates": {
       "2026-07-12": 71,
       "2026-07-17": 61,
       "2026-07-18": 60,
       "2026-07-16": 57,
-      "2026-07-19": 50,
+      "2026-07-19": 55,
       "2026-07-15": 46
     },
     "industries": {
@@ -112,6 +112,8 @@
       "房地产开发经营": 1,
       "房地产开发经营/产业园运营/物业管理": 1,
       "钢铁/工业数字化": 1,
+      "高等教育与电子信息科研": 1,
+      "高等教育与土木工程科研": 1,
       "高端音频设备、电子研发与制造": 1,
       "工业自动化、半导体装备与新材料": 1,
       "工业自动化、机器人、新能源装备": 1,
@@ -200,7 +202,9 @@
       "生产/制造/加工、机器人与电机": 1,
       "生产/制造/加工、消费电子": 1,
       "生产制造、消费电子": 1,
+      "生命科学与生物医学研究": 1,
       "生物/制药、学术/科研": 1,
+      "生物医学工程与分子影像": 1,
       "生物制药": 1,
       "石油石化、海洋低空经济与产业数字化": 1,
       "石油装备、能源技术与环保": 1,
@@ -252,6 +256,7 @@
       "医疗设备/康复机器人/人工智能": 1,
       "医疗设备/体外诊断/生化检测": 1,
       "医疗设备与创新医疗器械": 1,
+      "医疗卫生与生物医学科研": 1,
       "医药制造/生物制药/学术推广": 1,
       "仪器仪表、半导体/芯片、新能源": 1,
       "仪器仪表、工业物联网": 1,
@@ -281,10 +286,10 @@
       "PCB设备、工业自动化与半导体检测": 1
     },
     "districts": {
-      "南山区": 136,
-      "宝安区": 67,
+      "南山区": 138,
+      "宝安区": 68,
       "龙岗区": 38,
-      "光明区": 29,
+      "光明区": 31,
       "龙华区": 24,
       "福田区": 22,
       "深圳": 15,
@@ -408,6 +413,10 @@
       "count": 2
     },
     {
+      "company": "深圳大学",
+      "count": 2
+    },
+    {
       "company": "深圳和而泰智能控制股份有限公司",
       "count": 2
     },
@@ -436,6 +445,10 @@
       "count": 2
     },
     {
+      "company": "深圳湾实验室",
+      "count": 2
+    },
+    {
       "company": "拓邦股份",
       "count": 2
     },
@@ -456,12 +469,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 345,
+      "current": 350,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 253,
+      "current": 258,
       "required": 240,
       "passed": true
     },
@@ -480,7 +493,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "253/345 条完成详情核验",
+      "evidence": "258/350 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {

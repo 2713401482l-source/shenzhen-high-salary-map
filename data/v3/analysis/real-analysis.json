@@ -1,7 +1,7 @@
 {
   "metadata": {
     "dataKind": "real-analysis",
-    "generatedFromLatestCapture": "2026-07-19T12:22:15+08:00",
+    "generatedFromLatestCapture": "2026-07-19T13:02:16+08:00",
     "sourceFiles": [
       "data/jobs/verified.json",
       "data/jobs/candidates.json"
@@ -10,17 +10,17 @@
   },
   "readiness": {
     "discovery": {
-      "actual": 345,
+      "actual": 350,
       "target": 720,
       "pass": false
     },
     "formalSample": {
-      "actual": 253,
+      "actual": 258,
       "target": 240,
       "pass": true
     },
     "detailEvidence": {
-      "actual": 253,
+      "actual": 258,
       "target": 240,
       "pass": true
     },
@@ -47,12 +47,12 @@
   },
   "scope": {
     "city": "深圳",
-    "jobs": 253,
-    "discoveryJobs": 345,
+    "jobs": 258,
+    "discoveryJobs": 350,
     "quarantinedOrUnverified": 92,
-    "detailJobs": 253,
-    "companies": 185,
-    "industries": 212,
+    "detailJobs": 258,
+    "companies": 188,
+    "industries": 217,
     "capturedDates": [
       "2026-07-12",
       "2026-07-15",
@@ -2894,21 +2894,25 @@
     {
       "name": "研究型 AI 岗位",
       "status": "observed-family",
-      "sampleCount": 8,
-      "companyCount": 8,
-      "industryCount": 8,
-      "detailCount": 8,
+      "sampleCount": 12,
+      "companyCount": 11,
+      "industryCount": 12,
+      "detailCount": 12,
       "salary": {
         "min": 20,
         "max": 100,
-        "medianMid": 47.5,
+        "medianMid": 42.5,
         "bands": {
-          "30K": 2,
-          "50K": 3,
+          "30K": 5,
+          "50K": 4,
           "100K": 3
         }
       },
       "originalTitles": [
+        "何业军团队专职研究人员（电磁场与微波毫米波方向）",
+        "彭旗宇课题组博士后（先进分子影像方向）",
+        "南方医科大学深圳医院博士后（医学及交叉学科）",
+        "刘凯团队专职副研究员（岩土材料多场多相耦合方向）",
         "算法工程师",
         "EPR总架构师",
         "海外市场（博士）",
@@ -2924,41 +2928,41 @@
           "count": 1
         },
         {
+          "name": "高等教育与电子信息科研",
+          "count": 1
+        },
+        {
+          "name": "高等教育与土木工程科研",
+          "count": 1
+        },
+        {
           "name": "工业自动化、半导体装备与新材料",
           "count": 1
         },
         {
           "name": "核电、能源科技、企业软件",
           "count": 1
-        },
-        {
-          "name": "量子计算/半导体/人工智能",
-          "count": 1
-        },
-        {
-          "name": "生物制药",
-          "count": 1
         }
       ],
       "topDistricts": [
         {
           "name": "南山区",
-          "count": 3
+          "count": 5
         },
         {
           "name": "宝安区",
-          "count": 2
+          "count": 3
         },
         {
           "name": "福田区",
           "count": 1
         },
         {
-          "name": "龙岗区",
+          "name": "光明区",
           "count": 1
         },
         {
-          "name": "龙华区",
+          "name": "龙岗区",
           "count": 1
         }
       ],
@@ -3000,6 +3004,15 @@
           "evidenceLevel": "public-platform-detail"
         },
         {
+          "id": "employer-career-bbcdc2bd7f24ed8f30e4",
+          "title": "南方医科大学深圳医院博士后（医学及交叉学科）",
+          "company": "南方医科大学深圳医院",
+          "salaryText": "35-62.5K（官网原文：年薪42-75万）",
+          "sourceUrl": "https://portal.smu.edu.cn/renshi/info/1036/3226.htm",
+          "capturedAt": "2026-07-19T13:02:16+08:00",
+          "evidenceLevel": "employer-detail"
+        },
+        {
           "id": "zhaopin-ce4c1a0b38afa2348304",
           "title": "低空经济首席工程师(J10037)",
           "company": "海油来博(天津)科技股份有限公司",
@@ -3018,6 +3031,15 @@
           "evidenceLevel": "public-platform-detail"
         },
         {
+          "id": "employer-career-9729b2d4beb570246e7a",
+          "title": "彭旗宇课题组博士后（先进分子影像方向）",
+          "company": "深圳湾实验室",
+          "salaryText": "33.3-45.8K（官网原文：年薪40-55万元，包括深圳市每年18万元免税补助）",
+          "sourceUrl": "https://pengqy-lab-cn.szbl.ac.cn/postdoctoralpositions/",
+          "capturedAt": "2026-07-19T12:52:15+08:00",
+          "evidenceLevel": "employer-detail"
+        },
+        {
           "id": "zhaopin-0fd48dd87b83879a0f98",
           "title": "算法工程师",
           "company": "深圳中科飞测科技股份有限公司",
@@ -3034,27 +3056,46 @@
           "sourceUrl": "https://www.zhaopin.com/jobdetail/CC333080310J40932143008.htm",
           "capturedAt": "2026-07-19T10:40:12+08:00",
           "evidenceLevel": "public-platform-detail"
+        },
+        {
+          "id": "employer-career-6684af8986e3f4321a73",
+          "title": "何业军团队专职研究人员（电磁场与微波毫米波方向）",
+          "company": "深圳大学",
+          "salaryText": "24.2-31.7K（官网原文：每年29-38万元RMB，另加科研绩效奖励）",
+          "sourceUrl": "https://hr.szu.edu.cn/info/1016/24531.htm",
+          "capturedAt": "2026-07-19T13:02:16+08:00",
+          "evidenceLevel": "employer-detail"
+        },
+        {
+          "id": "employer-career-e56819be646e879f4e5e",
+          "title": "刘凯团队专职副研究员（岩土材料多场多相耦合方向）",
+          "company": "深圳大学",
+          "salaryText": "24.2-31.7K（官网原文：年薪29万至38万之间）",
+          "sourceUrl": "https://hr.szu.edu.cn/info/1016/24261.htm",
+          "capturedAt": "2026-07-19T13:02:16+08:00",
+          "evidenceLevel": "employer-detail"
         }
       ]
     },
     {
       "name": "量化与金融 AI",
       "status": "observed-family",
-      "sampleCount": 7,
-      "companyCount": 7,
-      "industryCount": 7,
-      "detailCount": 7,
+      "sampleCount": 8,
+      "companyCount": 8,
+      "industryCount": 8,
+      "detailCount": 8,
       "salary": {
         "min": 30,
         "max": 150,
-        "medianMid": 52.5,
+        "medianMid": 47.5,
         "bands": {
-          "30K": 1,
+          "30K": 2,
           "50K": 5,
           "100K": 1
         }
       },
       "originalTitles": [
+        "张阳课题组博士后（分子与神经生物学方向）",
         "品质总监（塑胶行业）",
         "信息科技中心副总经理",
         "产业发展专家-海外资本运作（投融资）",
@@ -3081,7 +3122,7 @@
           "count": 1
         },
         {
-          "name": "食品/饮品/烟酒制造、综合商贸",
+          "name": "生命科学与生物医学研究",
           "count": 1
         }
       ],
@@ -3091,11 +3132,11 @@
           "count": 3
         },
         {
-          "name": "福田区",
-          "count": 1
+          "name": "光明区",
+          "count": 2
         },
         {
-          "name": "光明区",
+          "name": "福田区",
           "count": 1
         },
         {
@@ -3163,6 +3204,15 @@
           "evidenceLevel": "public-platform-detail"
         },
         {
+          "id": "employer-career-7f598d1743331e9ca1e0",
+          "title": "张阳课题组博士后（分子与神经生物学方向）",
+          "company": "深圳湾实验室",
+          "salaryText": "33.3-41.7K（官网原文：年薪40-50万，含深圳市每年18万补助和深圳湾实验室奋楫博士后项目每年10万资助）",
+          "sourceUrl": "https://zhanglab.szbl.ac.cn/currentopenings/",
+          "capturedAt": "2026-07-19T12:52:15+08:00",
+          "evidenceLevel": "employer-detail"
+        },
+        {
           "id": "job5156-4432bebf10fb0be4b372",
           "title": "品质总监（塑胶行业）",
           "company": "深圳市博硕科技股份有限公司",
@@ -3175,16 +3225,16 @@
     }
   ],
   "skills": {
-    "denominator": 253,
+    "denominator": 258,
     "stats": [
       {
         "name": "跨团队协作",
         "category": "软技能",
-        "count": 166,
-        "denominator": 253,
-        "frequency": 0.656,
+        "count": 169,
+        "denominator": 258,
+        "frequency": 0.655,
         "salaryBands": {
-          "30K": 73,
+          "30K": 76,
           "50K": 66,
           "100K": 27
         },
@@ -3226,12 +3276,39 @@
             "evidenceLevel": "boss-detail"
           },
           {
+            "id": "employer-career-7f598d1743331e9ca1e0",
+            "title": "张阳课题组博士后（分子与神经生物学方向）",
+            "company": "深圳湾实验室",
+            "salaryText": "33.3-41.7K（官网原文：年薪40-50万，含深圳市每年18万补助和深圳湾实验室奋楫博士后项目每年10万资助）",
+            "sourceUrl": "https://zhanglab.szbl.ac.cn/currentopenings/",
+            "capturedAt": "2026-07-19T12:52:15+08:00",
+            "evidenceLevel": "employer-detail"
+          },
+          {
+            "id": "employer-career-9729b2d4beb570246e7a",
+            "title": "彭旗宇课题组博士后（先进分子影像方向）",
+            "company": "深圳湾实验室",
+            "salaryText": "33.3-45.8K（官网原文：年薪40-55万元，包括深圳市每年18万元免税补助）",
+            "sourceUrl": "https://pengqy-lab-cn.szbl.ac.cn/postdoctoralpositions/",
+            "capturedAt": "2026-07-19T12:52:15+08:00",
+            "evidenceLevel": "employer-detail"
+          },
+          {
             "id": "employer-career-df0e83b69e47e707afd0",
             "title": "全栈工程师",
             "company": "上海松应科技有限公司",
             "salaryText": "20-40K（官网原文：底薪＋绩效奖金20k-40k）",
             "sourceUrl": "https://www.orca3d.cn/joinus.html",
             "capturedAt": "2026-07-16T20:27:00+08:00",
+            "evidenceLevel": "employer-detail"
+          },
+          {
+            "id": "employer-career-e56819be646e879f4e5e",
+            "title": "刘凯团队专职副研究员（岩土材料多场多相耦合方向）",
+            "company": "深圳大学",
+            "salaryText": "24.2-31.7K（官网原文：年薪29万至38万之间）",
+            "sourceUrl": "https://hr.szu.edu.cn/info/1016/24261.htm",
+            "capturedAt": "2026-07-19T13:02:16+08:00",
             "evidenceLevel": "employer-detail"
           },
           {
@@ -4688,11 +4765,11 @@
       {
         "name": "主导与路线责任",
         "category": "管理能力",
-        "count": 135,
-        "denominator": 253,
-        "frequency": 0.534,
+        "count": 137,
+        "denominator": 258,
+        "frequency": 0.531,
         "salaryBands": {
-          "30K": 45,
+          "30K": 47,
           "50K": 63,
           "100K": 27
         },
@@ -4741,6 +4818,24 @@
             "sourceUrl": "https://www.zhipin.com/job_detail/a026b790933817a10nF829--FFRY.html",
             "capturedAt": "2026-07-15T00:48:34+08:00",
             "evidenceLevel": "boss-detail"
+          },
+          {
+            "id": "employer-career-7f598d1743331e9ca1e0",
+            "title": "张阳课题组博士后（分子与神经生物学方向）",
+            "company": "深圳湾实验室",
+            "salaryText": "33.3-41.7K（官网原文：年薪40-50万，含深圳市每年18万补助和深圳湾实验室奋楫博士后项目每年10万资助）",
+            "sourceUrl": "https://zhanglab.szbl.ac.cn/currentopenings/",
+            "capturedAt": "2026-07-19T12:52:15+08:00",
+            "evidenceLevel": "employer-detail"
+          },
+          {
+            "id": "employer-career-9729b2d4beb570246e7a",
+            "title": "彭旗宇课题组博士后（先进分子影像方向）",
+            "company": "深圳湾实验室",
+            "salaryText": "33.3-45.8K（官网原文：年薪40-55万元，包括深圳市每年18万元免税补助）",
+            "sourceUrl": "https://pengqy-lab-cn.szbl.ac.cn/postdoctoralpositions/",
+            "capturedAt": "2026-07-19T12:52:15+08:00",
+            "evidenceLevel": "employer-detail"
           },
           {
             "id": "job5156-047708bfeb74b9922075",
@@ -5918,8 +6013,8 @@
         "name": "行业经验",
         "category": "行业经验",
         "count": 131,
-        "denominator": 253,
-        "frequency": 0.518,
+        "denominator": 258,
+        "frequency": 0.508,
         "salaryBands": {
           "30K": 56,
           "50K": 55,
@@ -7111,8 +7206,8 @@
         "name": "工程部署与性能优化",
         "category": "工程能力",
         "count": 83,
-        "denominator": 253,
-        "frequency": 0.328,
+        "denominator": 258,
+        "frequency": 0.322,
         "salaryBands": {
           "30K": 30,
           "50K": 39,
@@ -7872,8 +7967,8 @@
         "name": "数据、实验与评测",
         "category": "数据能力",
         "count": 55,
-        "denominator": 253,
-        "frequency": 0.217,
+        "denominator": 258,
+        "frequency": 0.213,
         "salaryBands": {
           "30K": 26,
           "50K": 17,
@@ -8381,8 +8476,8 @@
         "name": "C++",
         "category": "专业技能",
         "count": 46,
-        "denominator": 253,
-        "frequency": 0.182,
+        "denominator": 258,
+        "frequency": 0.178,
         "salaryBands": {
           "30K": 17,
           "50K": 23,
@@ -8809,8 +8904,8 @@
         "name": "Python",
         "category": "专业技能",
         "count": 41,
-        "denominator": 253,
-        "frequency": 0.162,
+        "denominator": 258,
+        "frequency": 0.159,
         "salaryBands": {
           "30K": 21,
           "50K": 15,
@@ -9192,8 +9287,8 @@
         "name": "计算机视觉",
         "category": "专业技能",
         "count": 38,
-        "denominator": 253,
-        "frequency": 0.15,
+        "denominator": 258,
+        "frequency": 0.147,
         "salaryBands": {
           "30K": 16,
           "50K": 15,
@@ -9548,8 +9643,8 @@
         "name": "机器人控制",
         "category": "专业技能",
         "count": 37,
-        "denominator": 253,
-        "frequency": 0.146,
+        "denominator": 258,
+        "frequency": 0.143,
         "salaryBands": {
           "30K": 15,
           "50K": 15,
@@ -9895,8 +9990,8 @@
         "name": "大模型与 Agent",
         "category": "AI 工具",
         "count": 30,
-        "denominator": 253,
-        "frequency": 0.119,
+        "denominator": 258,
+        "frequency": 0.116,
         "salaryBands": {
           "30K": 12,
           "50K": 11,
@@ -10179,8 +10274,8 @@
         "name": "深度学习框架",
         "category": "AI 工具",
         "count": 21,
-        "denominator": 253,
-        "frequency": 0.083,
+        "denominator": 258,
+        "frequency": 0.081,
         "salaryBands": {
           "30K": 10,
           "50K": 9,
@@ -10382,8 +10477,8 @@
         "name": "语音与信号处理",
         "category": "专业技能",
         "count": 18,
-        "denominator": 253,
-        "frequency": 0.071,
+        "denominator": 258,
+        "frequency": 0.07,
         "salaryBands": {
           "30K": 9,
           "50K": 6,
@@ -10558,8 +10653,8 @@
         "name": "强化学习",
         "category": "专业技能",
         "count": 9,
-        "denominator": 253,
-        "frequency": 0.036,
+        "denominator": 258,
+        "frequency": 0.035,
         "salaryBands": {
           "30K": 0,
           "50K": 3,
@@ -10653,8 +10748,8 @@
     "pairs": [
       {
         "pair": "主导与路线责任 + 跨团队协作",
-        "count": 103,
-        "denominator": 253,
+        "count": 105,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -10674,6 +10769,24 @@
             "sourceUrl": "https://www.zhipin.com/job_detail/a026b790933817a10nF829--FFRY.html",
             "capturedAt": "2026-07-15T00:48:34+08:00",
             "evidenceLevel": "boss-detail"
+          },
+          {
+            "id": "employer-career-7f598d1743331e9ca1e0",
+            "title": "张阳课题组博士后（分子与神经生物学方向）",
+            "company": "深圳湾实验室",
+            "salaryText": "33.3-41.7K（官网原文：年薪40-50万，含深圳市每年18万补助和深圳湾实验室奋楫博士后项目每年10万资助）",
+            "sourceUrl": "https://zhanglab.szbl.ac.cn/currentopenings/",
+            "capturedAt": "2026-07-19T12:52:15+08:00",
+            "evidenceLevel": "employer-detail"
+          },
+          {
+            "id": "employer-career-9729b2d4beb570246e7a",
+            "title": "彭旗宇课题组博士后（先进分子影像方向）",
+            "company": "深圳湾实验室",
+            "salaryText": "33.3-45.8K（官网原文：年薪40-55万元，包括深圳市每年18万元免税补助）",
+            "sourceUrl": "https://pengqy-lab-cn.szbl.ac.cn/postdoctoralpositions/",
+            "capturedAt": "2026-07-19T12:52:15+08:00",
+            "evidenceLevel": "employer-detail"
           },
           {
             "id": "job5156-047708bfeb74b9922075",
@@ -11589,7 +11702,7 @@
       {
         "pair": "行业经验 + 跨团队协作",
         "count": 92,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -12425,7 +12538,7 @@
       {
         "pair": "主导与路线责任 + 行业经验",
         "count": 81,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -13162,7 +13275,7 @@
       {
         "pair": "工程部署与性能优化 + 跨团队协作",
         "count": 57,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -13683,7 +13796,7 @@
       {
         "pair": "主导与路线责任 + 工程部署与性能优化",
         "count": 46,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -14105,7 +14218,7 @@
       {
         "pair": "工程部署与性能优化 + 行业经验",
         "count": 44,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -14509,7 +14622,7 @@
       {
         "pair": "数据、实验与评测 + 跨团队协作",
         "count": 38,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -14859,7 +14972,7 @@
       {
         "pair": "C++ + 跨团队协作",
         "count": 31,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -15146,7 +15259,7 @@
       {
         "pair": "C++ + 行业经验",
         "count": 30,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -15424,7 +15537,7 @@
       {
         "pair": "机器人控制 + 行业经验",
         "count": 29,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -15693,7 +15806,7 @@
       {
         "pair": "计算机视觉 + 跨团队协作",
         "count": 29,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -15962,7 +16075,7 @@
       {
         "pair": "C++ + Python",
         "count": 29,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -16231,7 +16344,7 @@
       {
         "pair": "Python + 工程部署与性能优化",
         "count": 29,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -16500,7 +16613,7 @@
       {
         "pair": "数据、实验与评测 + 行业经验",
         "count": 28,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -16760,7 +16873,7 @@
       {
         "pair": "工程部署与性能优化 + 计算机视觉",
         "count": 27,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -17011,7 +17124,7 @@
       {
         "pair": "主导与路线责任 + 数据、实验与评测",
         "count": 27,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -17262,7 +17375,7 @@
       {
         "pair": "C++ + 工程部署与性能优化",
         "count": 26,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -17504,7 +17617,7 @@
       {
         "pair": "Python + 跨团队协作",
         "count": 25,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -17737,7 +17850,7 @@
       {
         "pair": "大模型与 Agent + 工程部署与性能优化",
         "count": 24,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -17961,7 +18074,7 @@
       {
         "pair": "工程部署与性能优化 + 数据、实验与评测",
         "count": 24,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -18185,7 +18298,7 @@
       {
         "pair": "行业经验 + 计算机视觉",
         "count": 21,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -18382,7 +18495,7 @@
       {
         "pair": "机器人控制 + 跨团队协作",
         "count": 20,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -18570,7 +18683,7 @@
       {
         "pair": "Python + 行业经验",
         "count": 20,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -18758,7 +18871,7 @@
       {
         "pair": "大模型与 Agent + 跨团队协作",
         "count": 18,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -18928,7 +19041,7 @@
       {
         "pair": "C++ + 计算机视觉",
         "count": 18,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -19098,7 +19211,7 @@
       {
         "pair": "工程部署与性能优化 + 机器人控制",
         "count": 17,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -19259,7 +19372,7 @@
       {
         "pair": "工程部署与性能优化 + 深度学习框架",
         "count": 17,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -19420,7 +19533,7 @@
       {
         "pair": "C++ + 主导与路线责任",
         "count": 17,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -19581,7 +19694,7 @@
       {
         "pair": "Python + 数据、实验与评测",
         "count": 17,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -19742,7 +19855,7 @@
       {
         "pair": "主导与路线责任 + 机器人控制",
         "count": 16,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -19894,7 +20007,7 @@
       {
         "pair": "主导与路线责任 + 计算机视觉",
         "count": 16,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -20046,7 +20159,7 @@
       {
         "pair": "C++ + 机器人控制",
         "count": 16,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -20198,7 +20311,7 @@
       {
         "pair": "Python + 机器人控制",
         "count": 15,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -20341,7 +20454,7 @@
       {
         "pair": "Python + 计算机视觉",
         "count": 15,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -20484,7 +20597,7 @@
       {
         "pair": "主导与路线责任 + 大模型与 Agent",
         "count": 14,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -20618,7 +20731,7 @@
       {
         "pair": "Python + 深度学习框架",
         "count": 13,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -20743,7 +20856,7 @@
       {
         "pair": "深度学习框架 + 跨团队协作",
         "count": 12,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -20859,7 +20972,7 @@
       {
         "pair": "数据、实验与评测 + 计算机视觉",
         "count": 12,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -20975,7 +21088,7 @@
       {
         "pair": "行业经验 + 语音与信号处理",
         "count": 12,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -21091,7 +21204,7 @@
       {
         "pair": "大模型与 Agent + 计算机视觉",
         "count": 11,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -21198,7 +21311,7 @@
       {
         "pair": "大模型与 Agent + 数据、实验与评测",
         "count": 11,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -21305,7 +21418,7 @@
       {
         "pair": "深度学习框架 + 行业经验",
         "count": 11,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -21412,7 +21525,7 @@
       {
         "pair": "语音与信号处理 + 跨团队协作",
         "count": 11,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -21519,7 +21632,7 @@
       {
         "pair": "C++ + 数据、实验与评测",
         "count": 11,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -21626,7 +21739,7 @@
       {
         "pair": "Python + 主导与路线责任",
         "count": 11,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -21733,7 +21846,7 @@
       {
         "pair": "大模型与 Agent + 深度学习框架",
         "count": 10,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -21831,7 +21944,7 @@
       {
         "pair": "大模型与 Agent + 行业经验",
         "count": 10,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -21929,7 +22042,7 @@
       {
         "pair": "工程部署与性能优化 + 语音与信号处理",
         "count": 10,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -22027,7 +22140,7 @@
       {
         "pair": "机器人控制 + 计算机视觉",
         "count": 10,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -22125,7 +22238,7 @@
       {
         "pair": "Python + 大模型与 Agent",
         "count": 10,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -22223,7 +22336,7 @@
       {
         "pair": "深度学习框架 + 计算机视觉",
         "count": 9,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -22312,7 +22425,7 @@
       {
         "pair": "C++ + 深度学习框架",
         "count": 9,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -22401,7 +22514,7 @@
       {
         "pair": "数据、实验与评测 + 深度学习框架",
         "count": 7,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -22472,7 +22585,7 @@
       {
         "pair": "主导与路线责任 + 语音与信号处理",
         "count": 7,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -22543,7 +22656,7 @@
       {
         "pair": "强化学习 + 机器人控制",
         "count": 6,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -22605,7 +22718,7 @@
       {
         "pair": "强化学习 + 行业经验",
         "count": 6,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -22667,7 +22780,7 @@
       {
         "pair": "深度学习框架 + 语音与信号处理",
         "count": 6,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -22729,7 +22842,7 @@
       {
         "pair": "数据、实验与评测 + 机器人控制",
         "count": 6,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -22791,7 +22904,7 @@
       {
         "pair": "主导与路线责任 + 深度学习框架",
         "count": 6,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -22853,7 +22966,7 @@
       {
         "pair": "数据、实验与评测 + 语音与信号处理",
         "count": 5,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -22906,7 +23019,7 @@
       {
         "pair": "主导与路线责任 + 强化学习",
         "count": 5,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -22959,7 +23072,7 @@
       {
         "pair": "大模型与 Agent + 强化学习",
         "count": 4,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -23003,7 +23116,7 @@
       {
         "pair": "工程部署与性能优化 + 强化学习",
         "count": 4,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -23047,7 +23160,7 @@
       {
         "pair": "机器人控制 + 深度学习框架",
         "count": 4,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -23091,7 +23204,7 @@
       {
         "pair": "计算机视觉 + 语音与信号处理",
         "count": 4,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -23135,7 +23248,7 @@
       {
         "pair": "强化学习 + 跨团队协作",
         "count": 4,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -23179,7 +23292,7 @@
       {
         "pair": "C++ + 大模型与 Agent",
         "count": 4,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -23223,7 +23336,7 @@
       {
         "pair": "C++ + 语音与信号处理",
         "count": 4,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -23267,7 +23380,7 @@
       {
         "pair": "Python + 语音与信号处理",
         "count": 4,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -23311,7 +23424,7 @@
       {
         "pair": "C++ + 强化学习",
         "count": 3,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": true,
         "evidenceJobs": [
           {
@@ -23346,7 +23459,7 @@
       {
         "pair": "大模型与 Agent + 语音与信号处理",
         "count": 2,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -23372,7 +23485,7 @@
       {
         "pair": "机器人控制 + 语音与信号处理",
         "count": 2,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -23398,7 +23511,7 @@
       {
         "pair": "强化学习 + 计算机视觉",
         "count": 2,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -23424,7 +23537,7 @@
       {
         "pair": "强化学习 + 数据、实验与评测",
         "count": 2,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -23450,7 +23563,7 @@
       {
         "pair": "Python + 强化学习",
         "count": 2,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -23476,7 +23589,7 @@
       {
         "pair": "大模型与 Agent + 机器人控制",
         "count": 1,
-        "denominator": 253,
+        "denominator": 258,
         "publishable": false,
         "evidenceJobs": [
           {
@@ -24543,6 +24656,35 @@
       ]
     },
     {
+      "company": "深圳大学",
+      "status": "same-snapshot-cluster",
+      "jobCount": 2,
+      "distinctTitles": 2,
+      "capturedDates": [
+        "2026-07-19"
+      ],
+      "evidenceJobs": [
+        {
+          "id": "employer-career-6684af8986e3f4321a73",
+          "title": "何业军团队专职研究人员（电磁场与微波毫米波方向）",
+          "company": "深圳大学",
+          "salaryText": "24.2-31.7K（官网原文：每年29-38万元RMB，另加科研绩效奖励）",
+          "sourceUrl": "https://hr.szu.edu.cn/info/1016/24531.htm",
+          "capturedAt": "2026-07-19T13:02:16+08:00",
+          "evidenceLevel": "employer-detail"
+        },
+        {
+          "id": "employer-career-e56819be646e879f4e5e",
+          "title": "刘凯团队专职副研究员（岩土材料多场多相耦合方向）",
+          "company": "深圳大学",
+          "salaryText": "24.2-31.7K（官网原文：年薪29万至38万之间）",
+          "sourceUrl": "https://hr.szu.edu.cn/info/1016/24261.htm",
+          "capturedAt": "2026-07-19T13:02:16+08:00",
+          "evidenceLevel": "employer-detail"
+        }
+      ]
+    },
+    {
       "company": "深圳和而泰智能控制股份有限公司",
       "status": "same-snapshot-cluster",
       "jobCount": 2,
@@ -24720,6 +24862,35 @@
       ]
     },
     {
+      "company": "深圳湾实验室",
+      "status": "same-snapshot-cluster",
+      "jobCount": 2,
+      "distinctTitles": 2,
+      "capturedDates": [
+        "2026-07-19"
+      ],
+      "evidenceJobs": [
+        {
+          "id": "employer-career-7f598d1743331e9ca1e0",
+          "title": "张阳课题组博士后（分子与神经生物学方向）",
+          "company": "深圳湾实验室",
+          "salaryText": "33.3-41.7K（官网原文：年薪40-50万，含深圳市每年18万补助和深圳湾实验室奋楫博士后项目每年10万资助）",
+          "sourceUrl": "https://zhanglab.szbl.ac.cn/currentopenings/",
+          "capturedAt": "2026-07-19T12:52:15+08:00",
+          "evidenceLevel": "employer-detail"
+        },
+        {
+          "id": "employer-career-9729b2d4beb570246e7a",
+          "title": "彭旗宇课题组博士后（先进分子影像方向）",
+          "company": "深圳湾实验室",
+          "salaryText": "33.3-45.8K（官网原文：年薪40-55万元，包括深圳市每年18万元免税补助）",
+          "sourceUrl": "https://pengqy-lab-cn.szbl.ac.cn/postdoctoralpositions/",
+          "capturedAt": "2026-07-19T12:52:15+08:00",
+          "evidenceLevel": "employer-detail"
+        }
+      ]
+    },
+    {
       "company": "拓邦股份",
       "status": "same-snapshot-cluster",
       "jobCount": 2,
@@ -24782,14 +24953,14 @@
   "salaryBands": [
     {
       "band": "30K",
-      "count": 114,
-      "detailCount": 114,
+      "count": 118,
+      "detailCount": 118,
       "medianMid": 30
     },
     {
       "band": "50K",
-      "count": 104,
-      "detailCount": 104,
+      "count": 105,
+      "detailCount": 105,
       "medianMid": 47.5
     },
     {
@@ -24800,15 +24971,15 @@
     }
   ],
   "marketProfile": {
-    "denominator": 253,
+    "denominator": 258,
     "salaryBands": [
       {
         "name": "30K",
-        "count": 114
+        "count": 118
       },
       {
         "name": "50K",
-        "count": 104
+        "count": 105
       },
       {
         "name": "100K",
@@ -25070,6 +25241,14 @@
       },
       {
         "name": "钢铁/工业数字化",
+        "count": 1
+      },
+      {
+        "name": "高等教育与电子信息科研",
+        "count": 1
+      },
+      {
+        "name": "高等教育与土木工程科研",
         "count": 1
       },
       {
@@ -25373,7 +25552,15 @@
         "count": 1
       },
       {
+        "name": "生命科学与生物医学研究",
+        "count": 1
+      },
+      {
         "name": "生物/制药、学术/科研",
+        "count": 1
+      },
+      {
+        "name": "生物医学工程与分子影像",
         "count": 1
       },
       {
@@ -25573,6 +25760,10 @@
         "count": 1
       },
       {
+        "name": "医疗卫生与生物医学科研",
+        "count": 1
+      },
+      {
         "name": "医药制造/生物制药/学术推广",
         "count": 1
       },
@@ -25668,11 +25859,11 @@
     "districts": [
       {
         "name": "南山区",
-        "count": 88
+        "count": 90
       },
       {
         "name": "宝安区",
-        "count": 57
+        "count": 58
       },
       {
         "name": "龙岗区",
@@ -25680,7 +25871,7 @@
       },
       {
         "name": "光明区",
-        "count": 26
+        "count": 28
       },
       {
         "name": "龙华区",
@@ -25722,7 +25913,7 @@
       },
       {
         "name": "经验不限",
-        "count": 15
+        "count": 18
       },
       {
         "name": "5年及以上",
@@ -25758,6 +25949,10 @@
       },
       {
         "name": "6年及以上",
+        "count": 2
+      },
+      {
+        "name": "博士或博士后科研经历",
         "count": 2
       },
       {
@@ -25880,7 +26075,7 @@
       },
       {
         "name": "博士",
-        "count": 12
+        "count": 17
       },
       {
         "name": "本科及以上",
@@ -25958,14 +26153,14 @@
     },
     {
       "role": "研究型 AI 岗位",
-      "detailCount": 8,
-      "companyCount": 8,
+      "detailCount": 12,
+      "companyCount": 11,
       "salaryBandCount": 3
     },
     {
       "role": "量化与金融 AI",
-      "detailCount": 7,
-      "companyCount": 7,
+      "detailCount": 8,
+      "companyCount": 8,
       "salaryBandCount": 3
     }
   ],

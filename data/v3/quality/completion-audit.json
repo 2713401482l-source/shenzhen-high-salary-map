@@ -1,16 +1,16 @@
 {
   "metadata": {
     "dataKind": "v3-completion-audit",
-    "latestCapture": "2026-07-19T12:22:15+08:00",
+    "latestCapture": "2026-07-19T13:02:16+08:00",
     "collectionStatus": "paused-platform-risk",
     "bossAccessAllowed": false
   },
   "dataset": {
     "grain": "one public job posting per source-specific job id; cross-platform duplicates are resolved separately",
-    "totalJobs": 345,
+    "totalJobs": 350,
     "listingObservations": 92,
-    "detailVerified": 253,
-    "companies": 185,
+    "detailVerified": 258,
+    "companies": 188,
     "captureDates": [
       "2026-07-12",
       "2026-07-15",
@@ -46,7 +46,7 @@
       },
       {
         "source": "employer-career",
-        "count": 2
+        "count": 7
       }
     ],
     "sourcePlatformCount": 5,
@@ -55,15 +55,15 @@
       "source": "zhaopin",
       "count": 189
     },
-    "largestSourceShare": 0.5478,
+    "largestSourceShare": 0.54,
     "maximumSingleSourceShare": 0.55,
     "duplicateIds": 0,
     "duplicateFingerprints": 0,
     "duplicateSourceUrls": 0,
     "staleJobs": 0,
     "maximumAgeDaysAtCapture": 45,
-    "formalSampleCount": 253,
-    "formalSampleShare": 0.7333,
+    "formalSampleCount": 258,
+    "formalSampleShare": 0.7371,
     "discoveryOnlyCount": 92
   },
   "structuralQuality": {
@@ -100,12 +100,12 @@
       {
         "band": "30K",
         "discovery": {
-          "actual": 160,
+          "actual": 164,
           "target": 240,
           "pass": false
         },
         "detailEvidence": {
-          "actual": 114,
+          "actual": 118,
           "target": 80,
           "pass": true
         }
@@ -113,12 +113,12 @@
       {
         "band": "50K",
         "discovery": {
-          "actual": 150,
+          "actual": 151,
           "target": 240,
           "pass": false
         },
         "detailEvidence": {
-          "actual": 104,
+          "actual": 105,
           "target": 80,
           "pass": true
         }
@@ -160,8 +160,8 @@
   },
   "complete": false,
   "blockers": [
-    "30K 真实岗位还差 80 条",
-    "50K 真实岗位还差 90 条",
+    "30K 真实岗位还差 76 条",
+    "50K 真实岗位还差 89 条",
     "100K 真实岗位还差 205 条",
     "100K 详情证据还差 45 条",
     "新兴岗位方向还差 28 个"

@@ -652,6 +652,255 @@
     }
   },
   {
+    "id": "employer-career-6684af8986e3f4321a73",
+    "sourceJobId": "szu-heyejun-fulltime-researcher-2026",
+    "sourcePlatform": "employer-career",
+    "sourcePublisher": "深圳大学人力资源部官方招聘页",
+    "captureMethod": "manual-public-detail",
+    "title": "何业军团队专职研究人员（电磁场与微波毫米波方向）",
+    "company": "深圳大学",
+    "salaryText": "24.2-31.7K（官网原文：每年29-38万元RMB，另加科研绩效奖励）",
+    "salaryMin": 24.2,
+    "salaryMax": 31.7,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "广东省深圳市南山区南海大道3688号深圳大学粤海校区",
+    "industry": "高等教育与电子信息科研",
+    "experience": "博士或博士后科研经历",
+    "education": "博士",
+    "descriptionExcerpt": "招聘电磁场与电磁波、天线、微波及毫米波电路理论和应用方向专职研究人员1名。要求具有海内外博士或博士后科研经历，博士或博士期间在国际期刊发表高水平论文者优先，具有较强的电磁场与电磁波相关研究背景，身体健康、诚实守信、事业心强并具备团队合作精神，能够全职在深圳大学从事科研工作。申请人需提交个人简历、学位证明及近五年代表性成果，并通过深圳大学人才招聘系统投递。",
+    "requirementText": "招聘电磁场与电磁波、天线、微波及毫米波电路理论和应用方向专职研究人员1名。要求具有海内外博士或博士后科研经历，博士或博士期间在国际期刊发表高水平论文者优先，具有较强的电磁场与电磁波相关研究背景，身体健康、诚实守信、事业心强并具备团队合作精神，能够全职在深圳大学从事科研工作。申请人需提交个人简历、学位证明及近五年代表性成果，并通过深圳大学人才招聘系统投递。",
+    "sourceUrl": "https://hr.szu.edu.cn/info/1016/24531.htm",
+    "capturedAt": "2026-07-19T13:02:16+08:00",
+    "publishedAt": "2026-07-15",
+    "verifiedAt": "2026-07-19T13:02:16+08:00",
+    "status": "verified",
+    "evidenceLevel": "employer-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 90,
+      "scoreParts": {
+        "sourceTrust": 25,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 4,
+      "probableScore": 100,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://www.szu.edu.cn/",
+      "corroboratingUrls": [],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [],
+      "reviewNotes": "深圳大学人力资源部官方详情页于2026年7月15日发布，明确招聘1名专职研究人员、研究方向、博士或博士后经历、科研成果和全职要求，并提供联系人邮箱及学校招聘系统投递入口。年薪29-38万元准确折算为月薪24.2-31.7K，另加的科研绩效未计入固定区间。未发现收费培训、押金、匿名代招、提成冒充固定工资或地点矛盾。"
+    },
+    "duplicateFingerprint": "8580d46f8ef7b5fd3adc"
+  },
+  {
+    "id": "employer-career-7f598d1743331e9ca1e0",
+    "sourceJobId": "szbl-zhangyang-postdoc-molecular-neurobiology",
+    "sourcePlatform": "employer-career",
+    "sourcePublisher": "深圳湾实验室张阳课题组官方招聘页",
+    "captureMethod": "manual-public-detail",
+    "title": "张阳课题组博士后（分子与神经生物学方向）",
+    "company": "深圳湾实验室",
+    "salaryText": "33.3-41.7K（官网原文：年薪40-50万，含深圳市每年18万补助和深圳湾实验室奋楫博士后项目每年10万资助）",
+    "salaryMin": 33.3,
+    "salaryMax": 41.7,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "光明区",
+    "addressText": "广东省深圳市光明区高科国际创新中心",
+    "industry": "生命科学与生物医学研究",
+    "experience": "经验不限",
+    "education": "博士",
+    "descriptionExcerpt": "岗位职责：在课题组组长指导下独立开展科研工作；协助申请国家自然科学基金及省、市各级项目，或作为负责人申请博士后科学基金。岗位要求：已获得或即将获得分子生物学、细胞生物学、生物化学、神经生物学等相关专业博士学位；具备较强学习能力和独立科研能力；在本专业领域发表过高水平科研论文，具备良好的英文文献阅读和写作能力；具有良好的学术道德、沟通能力和团队合作精神。",
+    "requirementText": "岗位职责：在课题组组长指导下独立开展科研工作；协助申请国家自然科学基金及省、市各级项目，或作为负责人申请博士后科学基金。岗位要求：已获得或即将获得分子生物学、细胞生物学、生物化学、神经生物学等相关专业博士学位；具备较强学习能力和独立科研能力；在本专业领域发表过高水平科研论文，具备良好的英文文献阅读和写作能力；具有良好的学术道德、沟通能力和团队合作精神。",
+    "sourceUrl": "https://zhanglab.szbl.ac.cn/currentopenings/",
+    "capturedAt": "2026-07-19T12:52:15+08:00",
+    "verifiedAt": "2026-07-19T12:52:15+08:00",
+    "status": "verified",
+    "evidenceLevel": "employer-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 90,
+      "scoreParts": {
+        "sourceTrust": 25,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null,
+      "probableScore": 80,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": false,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": [
+        "freshOrRecentlyIndexed"
+      ]
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://www.szbl.ac.cn/",
+      "corroboratingUrls": [],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "missingPublicationDate"
+      ],
+      "reviewNotes": "深圳湾实验室张阳课题组官方独立招聘页明确招聘2-3名博士后，列出职责、专业、科研能力、论文、英文及职业操守要求；薪酬原文为年薪40-50万元，折算为月薪33.3-41.7K，折算值仅用于统一统计，原始年薪及其包含的深圳市补助、奋楫项目资助均完整保留。页面提供申请材料清单和szbl.ac.cn官方邮箱，并明确本招聘启事长期有效。未发现匿名客户、劳务中介、收费培训、付费入职、提成冒充固定薪酬或地点矛盾。"
+    },
+    "duplicateFingerprint": "50702100fbd7663eaf25"
+  },
+  {
+    "id": "employer-career-9729b2d4beb570246e7a",
+    "sourceJobId": "szbl-pengqiyu-postdoc-molecular-imaging",
+    "sourcePlatform": "employer-career",
+    "sourcePublisher": "深圳湾实验室先进分子影像实验室官方招聘页",
+    "captureMethod": "manual-public-detail",
+    "title": "彭旗宇课题组博士后（先进分子影像方向）",
+    "company": "深圳湾实验室",
+    "salaryText": "33.3-45.8K（官网原文：年薪40-55万元，包括深圳市每年18万元免税补助）",
+    "salaryMin": 33.3,
+    "salaryMax": 45.8,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "光明区",
+    "addressText": "广东省深圳市光明区高科创新中心A座",
+    "industry": "生物医学工程与分子影像",
+    "experience": "经验不限",
+    "education": "博士",
+    "descriptionExcerpt": "招聘方向包括分子影像技术及科学和临床应用、生物医学成像算法、高端影像设备核心部件及系统研发。工作内容包括在课题组长指导下开展高水平科研，与科学家、临床医生和工程师合作研发PET等成像系统及关键技术，并协助或独立申请科研项目、发表论文。要求已获得或即将获得物理、电子、生物医学工程、计算机、自动化等专业博士学位，具备独立科研能力、良好英文读写能力、学术道德、沟通",
+    "requirementText": "招聘方向包括分子影像技术及科学和临床应用、生物医学成像算法、高端影像设备核心部件及系统研发。工作内容包括在课题组长指导下开展高水平科研，与科学家、临床医生和工程师合作研发PET等成像系统及关键技术，并协助或独立申请科研项目、发表论文。要求已获得或即将获得物理、电子、生物医学工程、计算机、自动化等专业博士学位，具备独立科研能力、良好英文读写能力、学术道德、沟通能力和团队合作精神。",
+    "sourceUrl": "https://pengqy-lab-cn.szbl.ac.cn/postdoctoralpositions/",
+    "capturedAt": "2026-07-19T12:52:15+08:00",
+    "verifiedAt": "2026-07-19T12:52:15+08:00",
+    "status": "verified",
+    "evidenceLevel": "employer-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 90,
+      "scoreParts": {
+        "sourceTrust": 25,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null,
+      "probableScore": 80,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": false,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": [
+        "freshOrRecentlyIndexed"
+      ]
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://www.szbl.ac.cn/",
+      "corroboratingUrls": [],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [
+        "missingPublicationDate"
+      ],
+      "reviewNotes": "深圳湾实验室彭旗宇课题组官方独立招聘页明确博士后岗位、三个研究方向、工作内容、博士学历及研究能力要求，工作地点为深圳市光明区。薪酬原文为年薪40-55万元，折算为月薪33.3-45.8K，额外奋楫博士后资助未计入固定区间。页面提供szbl.ac.cn官方申请邮箱、申请材料与面试后材料清单，采集时可正常申请。未发现匿名客户、劳务中介、收费培训、付费入职、提成冒充固定薪酬或地点矛盾。"
+    },
+    "duplicateFingerprint": "a023fffc0411b2bb14e5"
+  },
+  {
     "id": "employer-career-9c45611577c6d80e2c4c",
     "sourceJobId": "jtibot-mechanical-structure-shenzhen",
     "sourcePlatform": "employer-career",
@@ -736,6 +985,88 @@
     "duplicateFingerprint": "70efc9d14761157d8a2d"
   },
   {
+    "id": "employer-career-bbcdc2bd7f24ed8f30e4",
+    "sourceJobId": "smu-shenzhen-hospital-postdoc-2026",
+    "sourcePlatform": "employer-career",
+    "sourcePublisher": "南方医科大学人事处官方招聘页",
+    "captureMethod": "manual-public-detail",
+    "title": "南方医科大学深圳医院博士后（医学及交叉学科）",
+    "company": "南方医科大学深圳医院",
+    "salaryText": "35-62.5K（官网原文：年薪42-75万）",
+    "salaryMin": 35,
+    "salaryMax": 62.5,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "宝安区",
+    "addressText": "广东省深圳市宝安区新湖路1333号南方医科大学深圳医院",
+    "industry": "医疗卫生与生物医学科研",
+    "experience": "经验不限",
+    "education": "博士",
+    "descriptionExcerpt": "招聘方向覆盖基础医学、临床医学、口腔医学、公共卫生与预防医学、中西医结合、中医学、中药学、药学、护理学、医学技术、生物学、生物医学工程，以及力学、材料、信息通信、计算机、环境、化学、生态、统计和心理学等医学交叉领域。要求已获得博士学位或学位主管部门已同意授予博士学位，既往业绩良好并具有较强学术潜力。个人全年可申请，需联系合作导师并提交申请材料，由医院进行资格",
+    "requirementText": "招聘方向覆盖基础医学、临床医学、口腔医学、公共卫生与预防医学、中西医结合、中医学、中药学、药学、护理学、医学技术、生物学、生物医学工程，以及力学、材料、信息通信、计算机、环境、化学、生态、统计和心理学等医学交叉领域。要求已获得博士学位或学位主管部门已同意授予博士学位，既往业绩良好并具有较强学术潜力。个人全年可申请，需联系合作导师并提交申请材料，由医院进行资格审查和综合评审。",
+    "sourceUrl": "https://portal.smu.edu.cn/renshi/info/1036/3226.htm",
+    "capturedAt": "2026-07-19T13:02:16+08:00",
+    "verifiedAt": "2026-07-19T13:02:16+08:00",
+    "status": "verified",
+    "evidenceLevel": "employer-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 90,
+      "scoreParts": {
+        "sourceTrust": 25,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null,
+      "probableScore": 80,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": false,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": [
+        "freshOrRecentlyIndexed"
+      ]
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://www.smu.edu.cn/",
+      "corroboratingUrls": [],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [],
+      "reviewNotes": "南方医科大学人事处官方2026年博士后公告明确全年接受申请、2026全年有效，并在附属医院表格中单列深圳医院、0755联系电话、申请邮箱及年薪42-75万元。年薪准确折算为月薪35-62.5K，住房补贴、科技奖励和出站补贴均未计入固定区间。公告列出博士学位、学术潜力、招聘学科、资格审查及医院评审流程。未发现收费培训、押金、匿名代招、提成冒充固定工资或地点矛盾。"
+    },
+    "duplicateFingerprint": "f89c42bb9f07f5cdc72d"
+  },
+  {
     "id": "employer-career-df0e83b69e47e707afd0",
     "sourceJobId": "orca-social-fullstack-engineer-shenzhen",
     "sourcePlatform": "employer-career",
@@ -807,6 +1138,87 @@
       "reviewNotes": "松应科技官方网站独立招聘页明确写明社会招聘计划持续进行中，并展示可立即申请的全栈工程师岗位；岗位地点为深圳，薪资原文为“底薪＋绩效奖金20k-40k”，完整列出3-5年经验、本科及以上学历、前后端技术栈、数据库、Linux、Docker/K8s、WebSocket及云平台等要求。薪资字段保留官网原始构成，未把绩效奖金改写为固定底薪，也未进行年薪折算。上海市政府公开信息确认企业全称为上海松应科技有限公司及其ORCA物理AI仿真业务，和岗位的仿真数据可视化、Web平台开发职责一致。页面没有公开发布日期，因此以当前可申请状态作为新鲜度证据并标记缺少发布日期；未发现收费、付费培训、匿名代招、提成冒充月薪、地点矛盾或职责错配。"
     },
     "duplicateFingerprint": "729eafa4f5afa873cda7"
+  },
+  {
+    "id": "employer-career-e56819be646e879f4e5e",
+    "sourceJobId": "szu-liukai-associate-researcher-2026",
+    "sourcePlatform": "employer-career",
+    "sourcePublisher": "深圳大学人力资源部官方招聘页",
+    "captureMethod": "manual-public-detail",
+    "title": "刘凯团队专职副研究员（岩土材料多场多相耦合方向）",
+    "company": "深圳大学",
+    "salaryText": "24.2-31.7K（官网原文：年薪29万至38万之间）",
+    "salaryMin": 24.2,
+    "salaryMax": 31.7,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "广东省深圳市南山区粤海街道白石路3883号深圳大学沧海校区",
+    "industry": "高等教育与土木工程科研",
+    "experience": "博士或博士后科研经历",
+    "education": "博士",
+    "descriptionExcerpt": "岗位为刘凯教授团队专职副研究员，负责专职科学研究及项目组日常管理，研究方向为岩土材料多场多相耦合机理，聘用期限3年。申请人需具有良好学术训练、独立科研能力和团队沟通协作能力，为国内外较高水平大学或科研机构博士毕业生或博士后，发表SCI论文者优先。申请材料包括各阶段经历佐证、学历学位认证、科研论文代表作及其他科研能力材料，需通过邮箱和深圳大学人才招聘系统申请。",
+    "requirementText": "岗位为刘凯教授团队专职副研究员，负责专职科学研究及项目组日常管理，研究方向为岩土材料多场多相耦合机理，聘用期限3年。申请人需具有良好学术训练、独立科研能力和团队沟通协作能力，为国内外较高水平大学或科研机构博士毕业生或博士后，发表SCI论文者优先。申请材料包括各阶段经历佐证、学历学位认证、科研论文代表作及其他科研能力材料，需通过邮箱和深圳大学人才招聘系统申请。",
+    "sourceUrl": "https://hr.szu.edu.cn/info/1016/24261.htm",
+    "capturedAt": "2026-07-19T13:02:16+08:00",
+    "publishedAt": "2026-06-23",
+    "verifiedAt": "2026-07-19T13:02:16+08:00",
+    "status": "verified",
+    "evidenceLevel": "employer-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 90,
+      "scoreParts": {
+        "sourceTrust": 25,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 26,
+      "probableScore": 100,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "employerOfficialUrl": "https://www.szu.edu.cn/",
+      "corroboratingUrls": [],
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "signals": [],
+      "reviewNotes": "深圳大学人力资源部官方详情页于2026年6月23日发布，明确岗位、方向、三年聘期、博士或博士后要求、申请材料、官方邮箱及学校招聘系统投递入口。年薪29-38万元准确折算为月薪24.2-31.7K，福利和误餐补助未计入固定区间。未发现收费培训、押金、匿名代招、提成冒充固定工资或地点矛盾。"
+    },
+    "duplicateFingerprint": "7a773076c742f49e9367"
   },
   {
     "id": "job5156-047708bfeb74b9922075",
