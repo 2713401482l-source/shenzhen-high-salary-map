@@ -1,0 +1,36 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-19T13:42:16+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1393497680J40803076809.htm",
+  "job": {
+    "sourceJobId": "CCL1393497680J40803076809",
+    "title": "产销管理（OPM）",
+    "company": "富联裕展科技(深圳)有限公司",
+    "salaryText": "20-40K·13薪",
+    "district": "龙华区",
+    "addressText": "深圳龙华区富士康科技集团观澜科技园",
+    "industry": "消费电子/智能硬件",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责产品从新产品导入到量产阶段的产销与运营项目管理，包括量产导入计划、产能规划、订单及出货需求协调、生产资源整合、关键物料和设备进度追踪、量产异常闭环，以及跨部门和客户沟通。要求具备消费电子或电子制造行业项目管理、供应链或生产运营经验，熟悉产品开发、试产、量产爬坡和交付流程，能够使用英语进行工作沟通，并具备较强的统筹、风险识别、问题推动和数据分析能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": null,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "activeApplyEntry",
+      "platformBusinessLicenseVerified",
+      "namedDirectEmployer",
+      "specificShenzhenWorkAddress"
+    ],
+    "reviewNotes": "智联独立岗位详情页显示固定月薪2-4万元并标注13薪、深圳龙华区具体工作地点、完整职责要求和立即投递入口。发布主体为富联裕展科技(深圳)有限公司，企业名称、工商主体、园区地址与职位描述一致，平台显示营业执照已审核且企业经营状态为存续。页面未展示可可靠归属到当前年份的发布日期，因此按真实性政策记录missingPublicationDate复核信号；采集时岗位仍可立即投递，满足未知发布日期岗位必须保持活跃的要求。未发现匿名客户、代理代招、收费培训、提成冒充固定月薪或地点矛盾。"
+  }
+}
