@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "employer-career",
+  "sourcePublisher": "顺丰官方招聘",
+  "captureMethod": "official-feed",
+  "capturedAt": "2026-07-20T04:12:00+08:00",
+  "publishedAt": "2026-06-29",
+  "sourceUrl": "https://crs-pub.sf-express.com/recruitcenter/#/positionDetail/114530?role=3",
+  "job": {
+    "sourceJobId": "114530",
+    "title": "顺丰速运BG 营销协同机制建设岗",
+    "company": "顺丰速运",
+    "salaryText": "30-50K",
+    "district": "南山区",
+    "addressText": "深投控创智天地大厦",
+    "industry": "物流与供应链服务",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "负责速运事业群总部与地区营销团队的协同机制和组织能力建设，完善目标对齐、信息互通、资源调配、项目联动及考核评估流程，制定地区营销岗位序列、职责分工、人才培养和梯队方案，并将区域优秀实践沉淀为全国可复用方法。要求本科及以上学历，三年以上营销管理、销售运营或业务支持经验，具备总部与分支协同、制度流程或运营体系搭建经历，能够把模糊需求转化为SOP，在复杂组织中协调多方并持续推动项目落地。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": ["officialEmployerDetailRouteVisible", "officialFeedStatusActive", "publishedWithin45Days", "exactMonthlySalaryVisible", "shenzhenAddressVisible", "completeRequirementsVisible", "directApplicationFlowAvailable"],
+    "reviewNotes": "顺丰官方招聘详情接口显示状态1、2026年6月29日发布、固定月薪30-50K及深圳南山区地址，雇主为顺丰速运。未发现收费、匿名、薪资误读、地点矛盾、职责错配或重复岗位。"
+  }
+}

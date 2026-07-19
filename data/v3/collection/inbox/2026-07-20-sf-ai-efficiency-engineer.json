@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "employer-career",
+  "sourcePublisher": "顺丰官方招聘",
+  "captureMethod": "official-feed",
+  "capturedAt": "2026-07-20T04:12:00+08:00",
+  "publishedAt": "2026-06-23",
+  "sourceUrl": "https://crs-pub.sf-express.com/recruitcenter/#/positionDetail/114314?role=3",
+  "job": {
+    "sourceJobId": "114314",
+    "title": "AI开发高级工程师（效能）",
+    "company": "顺丰科技",
+    "salaryText": "35-60K",
+    "district": "深圳市",
+    "addressText": "深圳",
+    "industry": "物流与供应链服务",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责前端、后端及AI Agent能力完整落地，设计智能体任务拆解、工具调用、上下文管理、记忆、工作流和人机协作机制，建设可观测的Agent监控评估体系，并推动原型成为生产级产品。要求精通TypeScript，熟悉Node.js、NestJS或Fastify等服务端框架，熟练使用Python、FastAPI和数据处理工具，掌握React、Next.js、PostgreSQL、MySQL、Redis、异步任务、消息队列、Docker、Linux及CI/CD；独立上线过AI Agent或长期维护开源项目者优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": ["officialEmployerDetailRouteVisible", "officialFeedStatusActive", "publishedWithin45Days", "exactMonthlySalaryVisible", "shenzhenAddressVisible", "completeRequirementsVisible", "directApplicationFlowAvailable"],
+    "reviewNotes": "顺丰官方招聘详情接口显示状态1、2026年6月23日发布、固定月薪35-60K及深圳工作地点，雇主为顺丰科技。职责要求完整，未发现收费、匿名、薪资误读、地点矛盾、职责错配或重复岗位。"
+  }
+}

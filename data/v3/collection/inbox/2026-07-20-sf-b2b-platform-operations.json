@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "employer-career",
+  "sourcePublisher": "顺丰官方招聘",
+  "captureMethod": "official-feed",
+  "capturedAt": "2026-07-20T04:12:00+08:00",
+  "publishedAt": "2026-06-30",
+  "sourceUrl": "https://crs-pub.sf-express.com/recruitcenter/#/positionDetail/114533?role=3",
+  "job": {
+    "sourceJobId": "114533",
+    "title": "顺丰速运BG 平台运营岗（B端企业服务平台方向）",
+    "company": "顺丰速运",
+    "salaryText": "30-50K",
+    "district": "南山区",
+    "addressText": "深投控创智天地大厦",
+    "industry": "物流与供应链服务",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "负责PC端和移动端企业服务平台改版与运营优化，围绕B端企业客户的物流管理、批量下单、轨迹追踪、账单结算、数据分析和异常预警等场景输出产品方案，建立DAU、MAU、功能渗透率、转化漏斗及NPS指标体系，并协调产品、研发、销售、客服和财务推动迭代。要求本科及以上学历，具备网站或移动平台运营经验、产品思维和用户体验意识，能够识别业务痛点并转化为需求，熟练使用数据分析工具，在多团队环境中推动项目按期交付。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": ["officialEmployerDetailRouteVisible", "officialFeedStatusActive", "publishedWithin45Days", "exactMonthlySalaryVisible", "shenzhenAddressVisible", "completeRequirementsVisible", "directApplicationFlowAvailable"],
+    "reviewNotes": "顺丰官方招聘详情接口显示状态1、2026年6月30日发布、固定月薪30-50K及深圳南山区地址，雇主为顺丰速运。未发现收费、匿名、薪资误读、地点矛盾、职责错配或重复岗位。"
+  }
+}

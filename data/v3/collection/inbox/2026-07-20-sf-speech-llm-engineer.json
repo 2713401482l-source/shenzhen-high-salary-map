@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "employer-career",
+  "sourcePublisher": "顺丰官方招聘",
+  "captureMethod": "official-feed",
+  "capturedAt": "2026-07-20T04:12:00+08:00",
+  "publishedAt": "2026-06-29",
+  "sourceUrl": "https://crs-pub.sf-express.com/recruitcenter/#/positionDetail/114506?role=3",
+  "job": {
+    "sourceJobId": "114506",
+    "title": "大模型算法高级工程师（语音大模型）",
+    "company": "顺丰科技",
+    "salaryText": "30-50K",
+    "district": "深圳市",
+    "addressText": "深圳",
+    "industry": "物流与供应链服务",
+    "experience": "3-5年",
+    "education": "硕士",
+    "descriptionText": "负责语音识别、语音理解和语音交互方向的大模型研发，覆盖VAD、声学模型、语言模型、CTC、RNN-T、Conformer、解码优化、Whisper和Qwen-Audio等方案，建设半双工或全双工交互链路，并推动训练、调优、部署和推理优化。要求硕士及以上学历，信号处理、计算机、电子信息等相关专业，五年以上语音算法经验，熟悉预训练、后训练、上下文学习、强化学习、Python、C++、ONNX、TensorRT和量化加速；有大规模语音系统、顶会论文、客服场景或开源贡献经验者优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": ["officialEmployerDetailRouteVisible", "officialFeedStatusActive", "publishedWithin45Days", "exactMonthlySalaryVisible", "shenzhenAddressVisible", "completeRequirementsVisible", "directApplicationFlowAvailable"],
+    "reviewNotes": "顺丰官方招聘详情接口显示状态1、2026年6月29日发布、固定月薪30-50K及深圳地点，雇主为顺丰科技。未发现收费、匿名、薪资误读、地点矛盾、职责错配或重复岗位。"
+  }
+}
