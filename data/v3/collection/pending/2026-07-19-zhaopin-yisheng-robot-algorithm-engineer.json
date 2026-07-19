@@ -1,0 +1,37 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-19T18:00:51+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1475916000J40846784712.htm",
+  "job": {
+    "sourceJobId": "CCL1475916000J40846784712",
+    "title": "机器人算法工程师",
+    "company": "忆生科技(深圳)有限公司",
+    "salaryText": "30-60K·14薪",
+    "district": "南山区",
+    "addressText": "深圳南山区前海深港青年梦工场",
+    "industry": "人工智能",
+    "experience": "经验不限",
+    "education": "硕士",
+    "descriptionText": "负责机器人运动控制与路径规划算法，包括双臂协同控制、轨迹规划和力控制；构建多模态感知融合系统，开发目标检测、6D位姿估计与视觉伺服算法；基于ROS或ROS2完成系统架构、算法集成和实时性能优化，并跟踪强化学习、模仿学习及VLA模型。要求具备机器人学、运动学、动力学、控制理论、SLAM与运动规划基础，精通C++或Python，熟悉ROS、PyTorch或TensorFlow，有机械臂控制、视觉感知或移动机器人导航经验者优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": null,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "activeRecruiterContactEntry",
+      "platformBusinessLicenseVerified",
+      "namedDirectEmployer",
+      "specificShenzhenWorkAddress",
+      "searchIndexCrawledAtCapture"
+    ],
+    "reviewNotes": "智联独立岗位详情页显示固定月薪3-6万元并标注14薪、深圳南山区具体地址、完整职责要求及公开招聘沟通入口。发布主体与最终雇主均为忆生科技(深圳)有限公司，平台展示工商主体、存续状态和营业执照审核信息。页面本身未显示发布日期，但搜索索引在采集当日仍抓取到该具体详情页，且详情页招聘入口、发布者沟通入口和岗位内容均可用，因此作为采集时活跃证据保留。未发现匿名客户、代理代招、收费培训、提成冒充固定月薪或地点矛盾。"
+  }
+}

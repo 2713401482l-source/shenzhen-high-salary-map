@@ -1,0 +1,39 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-19T18:00:51+08:00",
+  "publishedAt": "2026-07-09",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1514700650J40877940112.htm",
+  "job": {
+    "sourceJobId": "CCL1514700650J40877940112",
+    "title": "具身智能算法工程师",
+    "company": "远行光年科技(深圳)有限公司",
+    "salaryText": "30-60K",
+    "district": "南山区",
+    "addressText": "深圳南山区清华信息港-科研楼302B",
+    "industry": "人工智能",
+    "experience": "经验不限",
+    "education": "本科",
+    "descriptionText": "负责具身智能核心算法与模型研发，对VLA、VLM、VLN等具身基座模型进行微调优化，并将多模态、三维空间理解、导航与操作模型集成到真实机器人系统。需要完成机械臂、轮式或复合机器人上的端到端部署、联调和稳定性优化，打通数据采集、模型训练、推理部署与线上迭代闭环。要求本科及以上计算机、机器人、自动化或电子信息相关背景，熟练使用C++或Python；具备VLM、VLA、VLN、Diffusion Policy、ROS或ROS2及真实机器人交付经验者优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": null,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "updatedWithin45Days",
+      "activeApplyEntry",
+      "activeRecruiterContactEntry",
+      "platformBusinessLicenseVerified",
+      "namedDirectEmployer",
+      "specificShenzhenWorkAddress"
+    ],
+    "reviewNotes": "智联独立岗位详情页显示固定月薪3-6万元、深圳南山区清华信息港具体地址、完整职责要求和立即投递入口，页面明确更新于2026年7月9日，采集时距更新10天。发布主体和最终雇主均为远行光年科技(深圳)有限公司，平台展示工商主体、经营存续状态和营业执照审核。未发现匿名客户、代理代招、收费培训、提成冒充固定月薪或地点矛盾。"
+  }
+}
