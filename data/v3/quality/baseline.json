@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-19T03:58:21.094Z",
+  "generatedAt": "2026-07-19T04:26:01.229Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 340,
-    "verifiedDetailJobs": 248,
+    "usableJobs": 345,
+    "verifiedDetailJobs": 253,
     "listingOnlyJobs": 92,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 273,
-    "uniqueCompanies": 266,
-    "uniqueRawTitles": 317,
+    "fullRequirementJobs": 278,
+    "uniqueCompanies": 268,
+    "uniqueRawTitles": 322,
     "captureDates": 6
   },
   "distributions": {
     "salaryBands": {
-      "30K": 155,
+      "30K": 160,
       "50K": 150,
       "100K": 35
     },
     "evidenceLevels": {
-      "public-platform-detail": 242,
+      "public-platform-detail": 247,
       "boss-listing": 67,
       "public-index-probable": 18,
       "boss-detail": 8,
@@ -31,23 +31,23 @@
       "2026-07-17": 61,
       "2026-07-18": 60,
       "2026-07-16": 57,
-      "2026-07-15": 46,
-      "2026-07-19": 45
+      "2026-07-19": 50,
+      "2026-07-15": 46
     },
     "industries": {
       "电子/半导体/集成电路": 12,
       "计算机软件": 12,
       "互联网": 11,
       "人工智能": 11,
+      "半导体/芯片": 10,
       "智能硬件/消费电子": 9,
-      "半导体/芯片": 7,
       "工业自动化/机器人": 6,
       "智能硬件": 6,
       "未公开": 5,
+      "消费电子/智能硬件": 4,
       "石油/石化、环保": 3,
       "通信/网络设备": 3,
       "物联网、船舶/航空/航天/军工": 3,
-      "消费电子/智能硬件": 3,
       "医疗器械": 3,
       "半导体/芯片、电气机械/电力设备": 2,
       "储能": 2,
@@ -226,6 +226,7 @@
       "物联网/船舶航空航天军工": 1,
       "物业管理、云计算、物联网": 1,
       "橡胶、塑料与五金制品": 1,
+      "橡胶/塑料制品": 1,
       "橡胶/塑料制品、精密塑胶模具制造": 1,
       "橡胶/塑料制品、五金制品制造与出口": 1,
       "消费电子、智能硬件": 1,
@@ -280,9 +281,9 @@
       "PCB设备、工业自动化与半导体检测": 1
     },
     "districts": {
-      "南山区": 135,
-      "宝安区": 65,
-      "龙岗区": 36,
+      "南山区": 136,
+      "宝安区": 67,
+      "龙岗区": 38,
       "光明区": 29,
       "龙华区": 24,
       "福田区": 22,
@@ -311,6 +312,10 @@
       "count": 7
     },
     {
+      "company": "深圳市新凯来技术有限公司",
+      "count": 6
+    },
+    {
       "company": "华润电力",
       "count": 4
     },
@@ -320,10 +325,6 @@
     },
     {
       "company": "深圳市创世纪机械有限公司",
-      "count": 4
-    },
-    {
-      "company": "深圳市新凯来技术有限公司",
       "count": 4
     },
     {
@@ -419,6 +420,10 @@
       "count": 2
     },
     {
+      "company": "深圳市坤展塑胶五金有限公司",
+      "count": 2
+    },
+    {
       "company": "深圳市鹏新旭技术有限公司",
       "count": 2
     },
@@ -451,12 +456,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 340,
+      "current": 345,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 248,
+      "current": 253,
       "required": 240,
       "passed": true
     },
@@ -475,7 +480,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "248/340 条完成详情核验",
+      "evidence": "253/345 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {

@@ -3629,6 +3629,94 @@
     "duplicateFingerprint": "a69e1ef429a512538c36"
   },
   {
+    "id": "job5156-beacfd815c305c6f329a",
+    "sourceJobId": "281552857",
+    "sourcePlatform": "job5156",
+    "sourcePublisher": "智通直聘",
+    "captureMethod": "manual-public-detail",
+    "title": "项目主管/经理（周末双休）",
+    "company": "深圳市坤展塑胶五金有限公司",
+    "salaryText": "15-30K",
+    "salaryMin": 15,
+    "salaryMax": 30,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "宝安区",
+    "addressText": "广东省深圳市宝安区燕罗街道塘下涌社区朗辉路10号厂房",
+    "industry": "橡胶/塑料制品",
+    "experience": "5-10年",
+    "education": "大专",
+    "descriptionExcerpt": "负责塑胶五金及汽车配件相关项目管理，独立带领团队完成项目目标并满足客户需求。要求本科及以上学历、英语六级及以上且听说读写流利，有国外项目管理经验优先；具备5年以上塑胶五金产品相关项目经验，有汽车配件产品项目经验优先，并具有较强的沟通、协调、组织和团队管理能力。",
+    "requirementText": "负责塑胶五金及汽车配件相关项目管理，独立带领团队完成项目目标并满足客户需求。要求本科及以上学历、英语六级及以上且听说读写流利，有国外项目管理经验优先；具备5年以上塑胶五金产品相关项目经验，有汽车配件产品项目经验优先，并具有较强的沟通、协调、组织和团队管理能力。",
+    "sourceUrl": "https://www.job5156.com/shenzhen/job_281552857",
+    "capturedAt": "2026-07-19T12:12:14+08:00",
+    "publishedAt": "2026-07-17",
+    "verifiedAt": "2026-07-19T12:12:14+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 2,
+      "probableScore": 95,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "corroboratingUrls": [],
+      "signals": [
+        "directDetailPage",
+        "visibleFixedMonthlySalary",
+        "freshWithin45Days",
+        "immediateApplicationAvailable",
+        "namedEmployer",
+        "fullRequirements",
+        "activeRecruiter"
+      ],
+      "reviewNotes": "2026-07-19人工核验智通直聘公开具体岗位详情页：页面显示7月17日刷新、深圳宝安区、明确公司、固定月薪15-30K、完整职责与任职要求，并提供立即投递；招聘负责人1小时前活跃。公司主体、工商信息、工作地址和岗位内容相互一致，非派遣、匿名客户、付费培训或提成岗位。"
+    },
+    "duplicateFingerprint": "1b192e33dce49b70e71f"
+  },
+  {
     "id": "job5156-c13bdd592cf917657b3f",
     "sourceJobId": "281528362",
     "sourcePlatform": "job5156",
@@ -6957,6 +7045,94 @@
       "reviewNotes": "智联独立详情页未展示明确发布日期，因此不推测发布日期并保留缺失日期复核标记。采集时页面仍展示固定月薪25-45K、深圳南山区地址、招聘1人、立即投递入口和完整职责要求，按真实性策略以活跃详情页作为新鲜度证据。悦智人工智能官网核验企业全称、成立信息以及人工智能、云计算与全球行业解决方案业务，岗位内容与公司业务方向一致。"
     },
     "duplicateFingerprint": "7e7208fb52a1f2061b0e"
+  },
+  {
+    "id": "zhaopin-137cb47b5e3ae8a750be",
+    "sourceJobId": "CC152416510J40449347716",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "高级电子工程师（硬件）",
+    "company": "先歌国际影音股份有限公司",
+    "salaryText": "20-40K",
+    "salaryMin": 20,
+    "salaryMax": 40,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "宝安区",
+    "addressText": "深圳宝安区先歌科技文化产业园（南门）电子楼一楼",
+    "industry": "消费电子/智能硬件",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionExcerpt": "负责专业音频电子产品技术改善与技术难点攻克，完成新项目电路设计、PCB绘制、器件选型、样机调试、可靠性试验和量产跟进，并编制产品参数、图纸、BOM和检测标准。要求熟练使用Altium Designer、PADS或CAD，熟悉硬件开发流程，能够独立主导音频放大及处理线路设计，具备大功率D类或H类功放和电源电路应用经验。",
+    "requirementText": "负责专业音频电子产品技术改善与技术难点攻克，完成新项目电路设计、PCB绘制、器件选型、样机调试、可靠性试验和量产跟进，并编制产品参数、图纸、BOM和检测标准。要求熟练使用Altium Designer、PADS或CAD，熟悉硬件开发流程，能够独立主导音频放大及处理线路设计，具备大功率D类或H类功放和电源电路应用经验。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC152416510J40449347716.htm",
+    "capturedAt": "2026-07-19T12:22:15+08:00",
+    "publishedAt": "2026-07-17",
+    "verifiedAt": "2026-07-19T12:22:15+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 2,
+      "probableScore": 95,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "corroboratingUrls": [],
+      "signals": [
+        "directDetailPage",
+        "visibleFixedMonthlySalary",
+        "freshWithin45Days",
+        "immediateApplicationAvailable",
+        "namedEmployer",
+        "fullRequirements",
+        "activeRecruiter"
+      ],
+      "reviewNotes": "2026-07-19人工核验智联公开具体岗位详情页：7月17日更新，深圳宝安区，固定月薪2-4万，职责和要求完整，可立即投递；公司为1991年成立的存续企业，注册资本2亿元，招聘经理三日内活跃。"
+    },
+    "duplicateFingerprint": "3803b58e5d9bf74a4a4f"
   },
   {
     "id": "zhaopin-1405d41a3e20009aa907",
@@ -10462,6 +10638,93 @@
     "duplicateFingerprint": "95ce0d91564f42c67425"
   },
   {
+    "id": "zhaopin-5001c06d266b9603d85f",
+    "sourceJobId": "CC568749320J40863408413",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "算法科学家 / 高级算法工程师（MCU应用方向）",
+    "company": "深圳市赛元微电子股份有限公司",
+    "salaryText": "25-40K",
+    "salaryMin": 25,
+    "salaryMax": 40,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "深圳南山区中国地质大学",
+    "industry": "半导体/芯片",
+    "experience": "经验不限",
+    "education": "博士",
+    "descriptionExcerpt": "负责MCU应用相关核心算法研究，覆盖音视频编解码、降噪、回声消除、图像增强以及电机控制FOC、无感观测、参数辨识和振动抑制等方向；面向ARM Cortex-M、RISC-V平台完成C/C++实现、定点化和性能优化，并协同软硬件团队完成系统联调。要求电子工程、微电子、通信、自动化、控制、计算机或应用数学等相关专业博士学历，具备扎实的数字信号处理、自动控制与电机",
+    "requirementText": "负责MCU应用相关核心算法研究，覆盖音视频编解码、降噪、回声消除、图像增强以及电机控制FOC、无感观测、参数辨识和振动抑制等方向；面向ARM Cortex-M、RISC-V平台完成C/C++实现、定点化和性能优化，并协同软硬件团队完成系统联调。要求电子工程、微电子、通信、自动化、控制、计算机或应用数学等相关专业博士学历，具备扎实的数字信号处理、自动控制与电机理论基础，熟练使用MATLAB/Simulink和C/C++，能够阅读英文技术文献。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CC568749320J40863408413.htm",
+    "capturedAt": "2026-07-19T12:02:14+08:00",
+    "verifiedAt": "2026-07-19T12:02:14+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": null,
+      "probableScore": 75,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": false,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": [
+        "freshOrRecentlyIndexed"
+      ]
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "corroboratingUrls": [],
+      "signals": [
+        "directDetailPage",
+        "visibleFixedMonthlySalary",
+        "immediateApplicationAvailable",
+        "namedEmployer",
+        "fullRequirements"
+      ],
+      "reviewNotes": "2026-07-19人工核验智联公开具体岗位详情页：页面显示深圳南山区、明确公司、固定月薪25-40K、完整职责和任职要求，并提供“立即投递”；页面同时显示职位发布者今日活跃。页面展示的3月23日为更新时间而非可靠首发日期，因此不写入publishedAt，以当前可投递状态作为活跃证据。"
+    },
+    "duplicateFingerprint": "f0122363fb58d2fbe2a1"
+  },
+  {
     "id": "zhaopin-51e0ba979440e1bf6754",
     "sourceJobId": "CCL1512524350J40838911112",
     "sourcePlatform": "zhaopin",
@@ -11585,6 +11848,94 @@
       "reviewNotes": "智联具体岗位详情页展示固定月薪20-40K、深圳福田区具体工作地点、招聘2人、可立即投递，以及完整的分子模拟、抗体多肽设计和计算药物研发要求；发布主体为平台已审核的河南真实生物科技有限公司，企业官网公开主体沿革、创新药研发业务和核心产品信息，与岗位方向一致。未发现收费、付费培训、匿名客户、提成冒充固定月薪、年薪误读或地点矛盾信号。"
     },
     "duplicateFingerprint": "138615585594fc4f8f15"
+  },
+  {
+    "id": "zhaopin-6483d495490b81a4a2ba",
+    "sourceJobId": "CCL1362239030J40955259415",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "材料研发工程师",
+    "company": "深圳市新凯来技术有限公司",
+    "salaryText": "20-40K",
+    "salaryMin": 20,
+    "salaryMax": 40,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "龙岗区",
+    "addressText": "深圳龙岗区新凯来园区",
+    "industry": "半导体/芯片",
+    "experience": "经验不限",
+    "education": "硕士",
+    "descriptionExcerpt": "负责高真空低释气材料、绝缘材料、玻璃陶瓷及高分子材料、焊接材料、高压绝缘薄膜、粉末冶金和难熔金属合金等研发与工艺改性，承担选型认证、质量管理、技术路标制定及量产问题分析；开展材料理论计算、性能测试、表征、数据分析、腐蚀防护和断裂力学仿真，建立测试能力、规范与评估方案，并参与复杂结构件材料选型和成型方案优化。",
+    "requirementText": "负责高真空低释气材料、绝缘材料、玻璃陶瓷及高分子材料、焊接材料、高压绝缘薄膜、粉末冶金和难熔金属合金等研发与工艺改性，承担选型认证、质量管理、技术路标制定及量产问题分析；开展材料理论计算、性能测试、表征、数据分析、腐蚀防护和断裂力学仿真，建立测试能力、规范与评估方案，并参与复杂结构件材料选型和成型方案优化。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1362239030J40955259415.htm",
+    "capturedAt": "2026-07-19T12:22:15+08:00",
+    "publishedAt": "2026-07-18",
+    "verifiedAt": "2026-07-19T12:22:15+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 1,
+      "probableScore": 95,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "corroboratingUrls": [],
+      "signals": [
+        "directDetailPage",
+        "visibleFixedMonthlySalary",
+        "freshWithin45Days",
+        "immediateApplicationAvailable",
+        "namedEmployer",
+        "fullRequirements",
+        "activeRecruiter"
+      ],
+      "reviewNotes": "2026-07-19人工核验智联公开具体岗位详情页：7月18日更新，深圳龙岗区，固定月薪2-4万，完整职责与技术要求，可立即投递；公司主体和地址明确，发布者昨日活跃。"
+    },
+    "duplicateFingerprint": "7352a1b8c2ca43ce527e"
   },
   {
     "id": "zhaopin-64c3c4250bf6abafcad7",
@@ -17996,6 +18347,95 @@
       "reviewNotes": "由淮安市纳杰云服技术服务有限责任公司发布，详情页明确标注终端雇主为深圳和而泰智能控制有限公司；页面2026-07-16更新且可投递，职责与要求完整。"
     },
     "duplicateFingerprint": "5cbf8d8aa8ea7d790342"
+  },
+  {
+    "id": "zhaopin-d419a2ac915b022c5504",
+    "sourceJobId": "CCL1362239030J40885918915",
+    "sourcePlatform": "zhaopin",
+    "sourcePublisher": "智联招聘",
+    "captureMethod": "manual-public-detail",
+    "title": "材料工程师",
+    "company": "深圳市新凯来技术有限公司",
+    "salaryText": "20-40K·16薪",
+    "salaryMin": 20,
+    "salaryMax": 40,
+    "salaryMonths": 16,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "龙岗区",
+    "addressText": "深圳龙岗区平湖智造园",
+    "industry": "半导体/芯片",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionExcerpt": "负责金属、非金属、陶瓷及高分子等材料的研究开发，验证高强度、高温、耐腐蚀等特种材料，并导入耐温、耐等离子和耐腐蚀涂层。要求精通材料科学、物理化学等专业知识，具备扎实数理基础和较强实验技能，熟悉各类测试手段与仪器设备的使用，并具有创新意识和团队合作能力。",
+    "requirementText": "负责金属、非金属、陶瓷及高分子等材料的研究开发，验证高强度、高温、耐腐蚀等特种材料，并导入耐温、耐等离子和耐腐蚀涂层。要求精通材料科学、物理化学等专业知识，具备扎实数理基础和较强实验技能，熟悉各类测试手段与仪器设备的使用，并具有创新意识和团队合作能力。",
+    "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1362239030J40885918915.htm",
+    "capturedAt": "2026-07-19T12:22:15+08:00",
+    "publishedAt": "2026-07-11",
+    "verifiedAt": "2026-07-19T12:22:15+08:00",
+    "status": "verified",
+    "evidenceLevel": "public-platform-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 85,
+      "scoreParts": {
+        "sourceTrust": 20,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 8,
+      "probableScore": 95,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "corroboratingUrls": [],
+      "signals": [
+        "directDetailPage",
+        "visibleFixedMonthlySalary",
+        "freshWithin45Days",
+        "immediateApplicationAvailable",
+        "namedEmployer",
+        "fullRequirements",
+        "activeRecruiter"
+      ],
+      "reviewNotes": "2026-07-19人工核验智联公开具体岗位详情页：7月11日更新，深圳龙岗区，固定月薪2-4万·16薪，职责和要求完整，可立即投递；公司为深圳国资全资企业，注册资本15亿元，HR当前在线。"
+    },
+    "duplicateFingerprint": "5ed91ff26ce7098b9fb1"
   },
   {
     "id": "zhaopin-d45957f88cdb18a66d31",
