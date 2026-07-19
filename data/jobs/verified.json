@@ -652,6 +652,94 @@
     }
   },
   {
+    "id": "employer-career-0edce72d0ec345f63309",
+    "sourceJobId": "114703",
+    "sourcePlatform": "employer-career",
+    "sourcePublisher": "顺丰官方招聘",
+    "captureMethod": "official-feed",
+    "title": "顺丰速运BG 赛事项目岗",
+    "company": "顺丰速运",
+    "salaryText": "30-50K",
+    "salaryMin": 30,
+    "salaryMax": 50,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "深投控创智天地大厦",
+    "industry": "物流与供应链服务",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionExcerpt": "负责大型文体赛事大件物流的顶层方案、团队规划和全周期项目管理，搭建器材整车运输、现场装卸、驻场配送及返程逆向物流链路；对接赛事主办方和运营公司，制定SOP、运力规划、成本报价与应急预案，并打造可复制的赛事物流产品。要求具备大件货物端到端物流方案落地经验，亲自承接过大型体育赛事物流项目，能够独立完成业务设计、团队规划、多方资源统筹，熟悉甲方采购、招投标规则并拥",
+    "requirementText": "负责大型文体赛事大件物流的顶层方案、团队规划和全周期项目管理，搭建器材整车运输、现场装卸、驻场配送及返程逆向物流链路；对接赛事主办方和运营公司，制定SOP、运力规划、成本报价与应急预案，并打造可复制的赛事物流产品。要求具备大件货物端到端物流方案落地经验，亲自承接过大型体育赛事物流项目，能够独立完成业务设计、团队规划、多方资源统筹，熟悉甲方采购、招投标规则并拥有稳定赛事行业资源。",
+    "sourceUrl": "https://crs-pub.sf-express.com/recruitcenter/#/positionDetail/114703?role=3",
+    "capturedAt": "2026-07-20T04:02:00+08:00",
+    "publishedAt": "2026-07-07",
+    "verifiedAt": "2026-07-20T04:02:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "employer-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 90,
+      "scoreParts": {
+        "sourceTrust": 25,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 13,
+      "probableScore": 100,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "corroboratingUrls": [],
+      "signals": [
+        "officialEmployerDetailRouteVisible",
+        "officialFeedStatusActive",
+        "publishedWithin45Days",
+        "exactMonthlySalaryVisible",
+        "shenzhenAddressVisible",
+        "completeRequirementsVisible",
+        "directApplicationFlowAvailable"
+      ],
+      "reviewNotes": "顺丰官方招聘独立详情接口显示状态1（在招）、2026年7月7日发布、固定月薪30-50K、深圳南山区地址及完整职责要求。雇主为顺丰速运；未发现收费、匿名客户、付费培训、薪资误读、地点矛盾、职责错配或重复岗位。"
+    },
+    "duplicateFingerprint": "8e868a7483fd1a35aa86"
+  },
+  {
     "id": "employer-career-151078757519378ed2ab",
     "sourceJobId": "114954",
     "sourcePlatform": "employer-career",
@@ -738,6 +826,94 @@
       "reviewNotes": "顺丰官方招聘独立岗位路由及详情接口显示状态1（在招）、2026年7月15日发布、固定月薪30-50K、深圳工作地点及完整职责要求。发布业务主体和最终雇主均明确为顺丰集团本部，不是匿名客户或代招；未发现收费、押金、付费培训、提成冒充月薪、年薪误读、地点矛盾、职责错配或重复岗位。"
     },
     "duplicateFingerprint": "8a80754e183e12d15df6"
+  },
+  {
+    "id": "employer-career-1b1ec91883be1d870903",
+    "sourceJobId": "114644",
+    "sourcePlatform": "employer-career",
+    "sourcePublisher": "顺丰官方招聘",
+    "captureMethod": "official-feed",
+    "title": "大模型应用开发工程师",
+    "company": "顺丰科技",
+    "salaryText": "30-60K",
+    "salaryMin": 30,
+    "salaryMax": 60,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "深圳市南山区",
+    "industry": "物流与供应链服务",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionExcerpt": "负责大模型智能体在物流场景的落地开发，设计对话管理、意图识别、流程控制和服务中间件架构，推动RAG、多智能体等技术进入生产，并向业务团队提供AI技术培训。要求本科及以上学历，计算机或通信相关专业，熟悉C、C++、Go、Python中的一门或多门语言以及Linux后端开发，掌握RAGFlow、Rasa Pro、Dify等智能体框架，具备Prompt Engin",
+    "requirementText": "负责大模型智能体在物流场景的落地开发，设计对话管理、意图识别、流程控制和服务中间件架构，推动RAG、多智能体等技术进入生产，并向业务团队提供AI技术培训。要求本科及以上学历，计算机或通信相关专业，熟悉C、C++、Go、Python中的一门或多门语言以及Linux后端开发，掌握RAGFlow、Rasa Pro、Dify等智能体框架，具备Prompt Engineering、任务拆解、组件整合与架构设计能力；有大型AI项目、模型微调或开源贡献经验优先。",
+    "sourceUrl": "https://crs-pub.sf-express.com/recruitcenter/#/positionDetail/114644?role=3",
+    "capturedAt": "2026-07-20T04:02:00+08:00",
+    "publishedAt": "2026-07-03",
+    "verifiedAt": "2026-07-20T04:02:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "employer-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 90,
+      "scoreParts": {
+        "sourceTrust": 25,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 17,
+      "probableScore": 100,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "corroboratingUrls": [],
+      "signals": [
+        "officialEmployerDetailRouteVisible",
+        "officialFeedStatusActive",
+        "publishedWithin45Days",
+        "exactMonthlySalaryVisible",
+        "shenzhenAddressVisible",
+        "completeRequirementsVisible",
+        "directApplicationFlowAvailable"
+      ],
+      "reviewNotes": "顺丰官方招聘独立详情接口显示状态1（在招）、2026年7月3日发布、固定月薪30-60K、深圳南山区地址及完整职责要求。雇主为顺丰科技；与库内相近标题岗位的企业及岗位ID不同，未发现收费、匿名客户、付费培训、薪资误读或职责错配。"
+    },
+    "duplicateFingerprint": "df1b72fceb5849db7c27"
   },
   {
     "id": "employer-career-215ad040019bbe8fb6fd",
@@ -1086,6 +1262,94 @@
     "duplicateFingerprint": "f406ba1da72b4ab370ee"
   },
   {
+    "id": "employer-career-5d6bd979c366d312d58d",
+    "sourceJobId": "114637",
+    "sourcePlatform": "employer-career",
+    "sourcePublisher": "顺丰官方招聘",
+    "captureMethod": "official-feed",
+    "title": "AI开发工程师（MO）",
+    "company": "顺丰科技",
+    "salaryText": "25-45K",
+    "salaryMin": 25,
+    "salaryMax": 45,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "深圳市",
+    "addressText": "深圳",
+    "industry": "物流与供应链服务",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionExcerpt": "负责前端、后端和AI Agent能力完整落地，设计智能体任务拆解、工具调用、上下文管理、记忆、工作流编排及人机协作机制；建设标签中台前后端和AI能力，搭建可观测的Agent监控评估体系，与产品、设计及业务团队验证原型并打磨为生产级产品。要求掌握TypeScript、Python、Java中至少两种语言，熟悉服务端框架、微服务、异步任务、消息队列、React或",
+    "requirementText": "负责前端、后端和AI Agent能力完整落地，设计智能体任务拆解、工具调用、上下文管理、记忆、工作流编排及人机协作机制；建设标签中台前后端和AI能力，搭建可观测的Agent监控评估体系，与产品、设计及业务团队验证原型并打磨为生产级产品。要求掌握TypeScript、Python、Java中至少两种语言，熟悉服务端框架、微服务、异步任务、消息队列、React或Next.js，以及PostgreSQL、MySQL、Redis、ES等存储；独立上线过AI Agent或维护开源项目者优先。",
+    "sourceUrl": "https://crs-pub.sf-express.com/recruitcenter/#/positionDetail/114637?role=3",
+    "capturedAt": "2026-07-20T04:02:00+08:00",
+    "publishedAt": "2026-07-02",
+    "verifiedAt": "2026-07-20T04:02:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "employer-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 90,
+      "scoreParts": {
+        "sourceTrust": 25,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 18,
+      "probableScore": 100,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "corroboratingUrls": [],
+      "signals": [
+        "officialEmployerDetailRouteVisible",
+        "officialFeedStatusActive",
+        "publishedWithin45Days",
+        "exactMonthlySalaryVisible",
+        "shenzhenAddressVisible",
+        "completeRequirementsVisible",
+        "directApplicationFlowAvailable"
+      ],
+      "reviewNotes": "顺丰官方招聘独立详情接口显示状态1（在招）、2026年7月2日发布、固定月薪25-45K、深圳工作地点及完整职责要求。雇主为顺丰科技；未发现收费、匿名客户、付费培训、薪资误读、地点矛盾、职责错配或重复岗位。"
+    },
+    "duplicateFingerprint": "bd4780cc12e6a0c1817c"
+  },
+  {
     "id": "employer-career-6684af8986e3f4321a73",
     "sourceJobId": "szu-heyejun-fulltime-researcher-2026",
     "sourcePlatform": "employer-career",
@@ -1165,6 +1429,94 @@
       "reviewNotes": "深圳大学人力资源部官方详情页于2026年7月15日发布，明确招聘1名专职研究人员、研究方向、博士或博士后经历、科研成果和全职要求，并提供联系人邮箱及学校招聘系统投递入口。年薪29-38万元准确折算为月薪24.2-31.7K，另加的科研绩效未计入固定区间。未发现收费培训、押金、匿名代招、提成冒充固定工资或地点矛盾。"
     },
     "duplicateFingerprint": "8580d46f8ef7b5fd3adc"
+  },
+  {
+    "id": "employer-career-6a1c8f0cd6c15fc06a27",
+    "sourceJobId": "114649",
+    "sourcePlatform": "employer-career",
+    "sourcePublisher": "顺丰官方招聘",
+    "captureMethod": "official-feed",
+    "title": "顺丰速运BG 全案整合营销",
+    "company": "顺丰速运",
+    "salaryText": "30-50K",
+    "salaryMin": 30,
+    "salaryMax": 50,
+    "salaryBand": "50K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "广东省深圳市创智天地大厦B座",
+    "industry": "物流与供应链服务",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionExcerpt": "负责速运事业群全案整合营销策划与执行，统筹总部和地区、线上线下、站内站外以及B端C端渠道资源；围绕获客、复购和产品渗透率主导大型营销战役，协同产品、运营、销售、品牌及外部代理伙伴，并通过数据复盘提升ROI。要求本科及以上学历，五年以上整合营销或品牌营销经验，具备千万级预算项目操盘案例，熟悉抖音、微信、小红书、B站、电商及线下媒体玩法，具备消费者洞察、渠道组合",
+    "requirementText": "负责速运事业群全案整合营销策划与执行，统筹总部和地区、线上线下、站内站外以及B端C端渠道资源；围绕获客、复购和产品渗透率主导大型营销战役，协同产品、运营、销售、品牌及外部代理伙伴，并通过数据复盘提升ROI。要求本科及以上学历，五年以上整合营销或品牌营销经验，具备千万级预算项目操盘案例，熟悉抖音、微信、小红书、B站、电商及线下媒体玩法，具备消费者洞察、渠道组合、项目管理、跨部门协调和数据决策能力。",
+    "sourceUrl": "https://crs-pub.sf-express.com/recruitcenter/#/positionDetail/114649?role=3",
+    "capturedAt": "2026-07-20T04:02:00+08:00",
+    "publishedAt": "2026-07-03",
+    "verifiedAt": "2026-07-20T04:02:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "employer-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 90,
+      "scoreParts": {
+        "sourceTrust": 25,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 17,
+      "probableScore": 100,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "corroboratingUrls": [],
+      "signals": [
+        "officialEmployerDetailRouteVisible",
+        "officialFeedStatusActive",
+        "publishedWithin45Days",
+        "exactMonthlySalaryVisible",
+        "shenzhenAddressVisible",
+        "completeRequirementsVisible",
+        "directApplicationFlowAvailable"
+      ],
+      "reviewNotes": "顺丰官方招聘独立详情接口显示状态1（在招）、2026年7月3日发布、固定月薪30-50K、深圳南山区地址及完整职责要求。雇主为顺丰速运；未发现收费、匿名客户、付费培训、提成冒充月薪、年薪误读、地点矛盾、职责错配或重复岗位。"
+    },
+    "duplicateFingerprint": "3054fc3d30547e3215ba"
   },
   {
     "id": "employer-career-754307698ee04ae1d3a6",
@@ -1933,6 +2285,94 @@
       "reviewNotes": "顺丰官方招聘独立岗位路由及详情接口显示状态1（在招）、2026年7月13日发布、固定月薪30-50K、深圳南山区具体地址及完整职责要求。发布业务主体和最终雇主均明确为顺丰速运，不是匿名客户或代招；未发现收费、押金、付费培训、提成冒充月薪、年薪误读、地点矛盾、职责错配或重复岗位。"
     },
     "duplicateFingerprint": "e602d2af497e0b52068a"
+  },
+  {
+    "id": "employer-career-aa508f78db6773460863",
+    "sourceJobId": "114585",
+    "sourcePlatform": "employer-career",
+    "sourcePublisher": "顺丰官方招聘",
+    "captureMethod": "official-feed",
+    "title": "顺丰速运-产品规划",
+    "company": "顺丰速运",
+    "salaryText": "30-45K",
+    "salaryMin": 30,
+    "salaryMax": 45,
+    "salaryBand": "30K",
+    "city": "深圳",
+    "district": "南山区",
+    "addressText": "深圳创智天地大厦",
+    "industry": "物流与供应链服务",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionExcerpt": "负责分析快递行业产品体系并发掘新业务机会，根据市场与客户需求研究设计公司产品、提炼差异化优势卖点，持续跟踪解决产品使用、系统缺陷和服务问题。要求本科及以上学历，熟悉快递下单、收件、运输及网点操作全流程和业务逻辑，具备物流快递或快运产品研究经验，能够清晰规划负责事项并推动目标达成；对行业变化和客户需求保持洞察，能够设计新的快递产品及卖点，熟练使用办公软件并具备",
+    "requirementText": "负责分析快递行业产品体系并发掘新业务机会，根据市场与客户需求研究设计公司产品、提炼差异化优势卖点，持续跟踪解决产品使用、系统缺陷和服务问题。要求本科及以上学历，熟悉快递下单、收件、运输及网点操作全流程和业务逻辑，具备物流快递或快运产品研究经验，能够清晰规划负责事项并推动目标达成；对行业变化和客户需求保持洞察，能够设计新的快递产品及卖点，熟练使用办公软件并具备较强责任心和创新能力。",
+    "sourceUrl": "https://crs-pub.sf-express.com/recruitcenter/#/positionDetail/114585?role=3",
+    "capturedAt": "2026-07-20T04:02:00+08:00",
+    "publishedAt": "2026-07-01",
+    "verifiedAt": "2026-07-20T04:02:00+08:00",
+    "status": "verified",
+    "evidenceLevel": "employer-detail",
+    "sourceVisibility": "visible",
+    "authenticity": {
+      "status": "verified",
+      "score": 90,
+      "scoreParts": {
+        "sourceTrust": 25,
+        "employerIdentity": 20,
+        "freshness": 20,
+        "detailCompleteness": 15,
+        "crossSourceCorroboration": 0,
+        "internalConsistency": 10
+      },
+      "hardGates": {
+        "shenzhenLocationEstablished": true,
+        "specificDetailUrl": true,
+        "exactSalaryVisible": true,
+        "namedEmployer": true,
+        "substantiveRequirements": true,
+        "activeOrFresh": true,
+        "noFeeOrDeposit": true,
+        "titleDescriptionConsistent": true
+      },
+      "failedHardGates": [],
+      "quarantineSignals": [],
+      "ageDays": 19,
+      "probableScore": 100,
+      "probableSignals": {
+        "shenzhenLocationEstablished": true,
+        "exactMonthlySalaryVisible": true,
+        "namedEmployer": true,
+        "specificJobUrlDiscovered": true,
+        "freshOrRecentlyIndexed": true,
+        "titleDescriptionConsistent": true
+      },
+      "probableFailedSignals": []
+    },
+    "analysisEligibility": {
+      "formalSample": true,
+      "marketDemand": true,
+      "salary": true,
+      "skills": true,
+      "companyExpansion": true
+    },
+    "verification": {
+      "pageActiveAtCapture": true,
+      "employerNamed": true,
+      "staffingAgencyPosting": false,
+      "endEmployerNamed": true,
+      "corroboratingUrls": [],
+      "signals": [
+        "officialEmployerDetailRouteVisible",
+        "officialFeedStatusActive",
+        "publishedWithin45Days",
+        "exactMonthlySalaryVisible",
+        "shenzhenAddressVisible",
+        "completeRequirementsVisible",
+        "directApplicationFlowAvailable"
+      ],
+      "reviewNotes": "顺丰官方招聘独立详情接口显示状态1（在招）、2026年7月1日发布、固定月薪30-45K、深圳南山区地址及完整职责要求。雇主为顺丰速运；未发现收费、匿名客户、付费培训、提成冒充月薪、年薪误读、地点矛盾、职责错配或重复岗位。"
+    },
+    "duplicateFingerprint": "0ba837a0fa851e8e0846"
   },
   {
     "id": "employer-career-aba861f14d053fe48893",

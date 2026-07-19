@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "employer-career",
+  "sourcePublisher": "顺丰官方招聘",
+  "captureMethod": "official-feed",
+  "capturedAt": "2026-07-20T04:02:00+08:00",
+  "publishedAt": "2026-07-02",
+  "sourceUrl": "https://crs-pub.sf-express.com/recruitcenter/#/positionDetail/114637?role=3",
+  "job": {
+    "sourceJobId": "114637",
+    "title": "AI开发工程师（MO）",
+    "company": "顺丰科技",
+    "salaryText": "25-45K",
+    "district": "深圳市",
+    "addressText": "深圳",
+    "industry": "物流与供应链服务",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "负责前端、后端和AI Agent能力完整落地，设计智能体任务拆解、工具调用、上下文管理、记忆、工作流编排及人机协作机制；建设标签中台前后端和AI能力，搭建可观测的Agent监控评估体系，与产品、设计及业务团队验证原型并打磨为生产级产品。要求掌握TypeScript、Python、Java中至少两种语言，熟悉服务端框架、微服务、异步任务、消息队列、React或Next.js，以及PostgreSQL、MySQL、Redis、ES等存储；独立上线过AI Agent或维护开源项目者优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": ["officialEmployerDetailRouteVisible", "officialFeedStatusActive", "publishedWithin45Days", "exactMonthlySalaryVisible", "shenzhenAddressVisible", "completeRequirementsVisible", "directApplicationFlowAvailable"],
+    "reviewNotes": "顺丰官方招聘独立详情接口显示状态1（在招）、2026年7月2日发布、固定月薪25-45K、深圳工作地点及完整职责要求。雇主为顺丰科技；未发现收费、匿名客户、付费培训、薪资误读、地点矛盾、职责错配或重复岗位。"
+  }
+}

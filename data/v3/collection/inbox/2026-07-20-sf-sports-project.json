@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "employer-career",
+  "sourcePublisher": "顺丰官方招聘",
+  "captureMethod": "official-feed",
+  "capturedAt": "2026-07-20T04:02:00+08:00",
+  "publishedAt": "2026-07-07",
+  "sourceUrl": "https://crs-pub.sf-express.com/recruitcenter/#/positionDetail/114703?role=3",
+  "job": {
+    "sourceJobId": "114703",
+    "title": "顺丰速运BG 赛事项目岗",
+    "company": "顺丰速运",
+    "salaryText": "30-50K",
+    "district": "南山区",
+    "addressText": "深投控创智天地大厦",
+    "industry": "物流与供应链服务",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "负责大型文体赛事大件物流的顶层方案、团队规划和全周期项目管理，搭建器材整车运输、现场装卸、驻场配送及返程逆向物流链路；对接赛事主办方和运营公司，制定SOP、运力规划、成本报价与应急预案，并打造可复制的赛事物流产品。要求具备大件货物端到端物流方案落地经验，亲自承接过大型体育赛事物流项目，能够独立完成业务设计、团队规划、多方资源统筹，熟悉甲方采购、招投标规则并拥有稳定赛事行业资源。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": ["officialEmployerDetailRouteVisible", "officialFeedStatusActive", "publishedWithin45Days", "exactMonthlySalaryVisible", "shenzhenAddressVisible", "completeRequirementsVisible", "directApplicationFlowAvailable"],
+    "reviewNotes": "顺丰官方招聘独立详情接口显示状态1（在招）、2026年7月7日发布、固定月薪30-50K、深圳南山区地址及完整职责要求。雇主为顺丰速运；未发现收费、匿名客户、付费培训、薪资误读、地点矛盾、职责错配或重复岗位。"
+  }
+}

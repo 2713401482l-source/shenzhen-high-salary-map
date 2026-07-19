@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "employer-career",
+  "sourcePublisher": "顺丰官方招聘",
+  "captureMethod": "official-feed",
+  "capturedAt": "2026-07-20T04:02:00+08:00",
+  "publishedAt": "2026-07-03",
+  "sourceUrl": "https://crs-pub.sf-express.com/recruitcenter/#/positionDetail/114644?role=3",
+  "job": {
+    "sourceJobId": "114644",
+    "title": "大模型应用开发工程师",
+    "company": "顺丰科技",
+    "salaryText": "30-60K",
+    "district": "南山区",
+    "addressText": "深圳市南山区",
+    "industry": "物流与供应链服务",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "负责大模型智能体在物流场景的落地开发，设计对话管理、意图识别、流程控制和服务中间件架构，推动RAG、多智能体等技术进入生产，并向业务团队提供AI技术培训。要求本科及以上学历，计算机或通信相关专业，熟悉C、C++、Go、Python中的一门或多门语言以及Linux后端开发，掌握RAGFlow、Rasa Pro、Dify等智能体框架，具备Prompt Engineering、任务拆解、组件整合与架构设计能力；有大型AI项目、模型微调或开源贡献经验优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": ["officialEmployerDetailRouteVisible", "officialFeedStatusActive", "publishedWithin45Days", "exactMonthlySalaryVisible", "shenzhenAddressVisible", "completeRequirementsVisible", "directApplicationFlowAvailable"],
+    "reviewNotes": "顺丰官方招聘独立详情接口显示状态1（在招）、2026年7月3日发布、固定月薪30-60K、深圳南山区地址及完整职责要求。雇主为顺丰科技；与库内相近标题岗位的企业及岗位ID不同，未发现收费、匿名客户、付费培训、薪资误读或职责错配。"
+  }
+}

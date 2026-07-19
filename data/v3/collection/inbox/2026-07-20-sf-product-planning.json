@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "employer-career",
+  "sourcePublisher": "顺丰官方招聘",
+  "captureMethod": "official-feed",
+  "capturedAt": "2026-07-20T04:02:00+08:00",
+  "publishedAt": "2026-07-01",
+  "sourceUrl": "https://crs-pub.sf-express.com/recruitcenter/#/positionDetail/114585?role=3",
+  "job": {
+    "sourceJobId": "114585",
+    "title": "顺丰速运-产品规划",
+    "company": "顺丰速运",
+    "salaryText": "30-45K",
+    "district": "南山区",
+    "addressText": "深圳创智天地大厦",
+    "industry": "物流与供应链服务",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责分析快递行业产品体系并发掘新业务机会，根据市场与客户需求研究设计公司产品、提炼差异化优势卖点，持续跟踪解决产品使用、系统缺陷和服务问题。要求本科及以上学历，熟悉快递下单、收件、运输及网点操作全流程和业务逻辑，具备物流快递或快运产品研究经验，能够清晰规划负责事项并推动目标达成；对行业变化和客户需求保持洞察，能够设计新的快递产品及卖点，熟练使用办公软件并具备较强责任心和创新能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": ["officialEmployerDetailRouteVisible", "officialFeedStatusActive", "publishedWithin45Days", "exactMonthlySalaryVisible", "shenzhenAddressVisible", "completeRequirementsVisible", "directApplicationFlowAvailable"],
+    "reviewNotes": "顺丰官方招聘独立详情接口显示状态1（在招）、2026年7月1日发布、固定月薪30-45K、深圳南山区地址及完整职责要求。雇主为顺丰速运；未发现收费、匿名客户、付费培训、提成冒充月薪、年薪误读、地点矛盾、职责错配或重复岗位。"
+  }
+}
