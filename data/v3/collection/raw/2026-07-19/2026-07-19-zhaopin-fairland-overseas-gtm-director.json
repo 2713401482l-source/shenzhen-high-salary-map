@@ -1,0 +1,37 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-19T13:52:16+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC136425280J40753259009.htm",
+  "job": {
+    "sourceJobId": "CC136425280J40753259009",
+    "title": "GTM/海外销售经理/总监（机器人/割草机/新能源）",
+    "company": "深圳菲亚兰德科技集团股份有限公司",
+    "salaryText": "50-100K·14薪",
+    "district": "南山区",
+    "addressText": "深圳南山区中国储能大厦19楼",
+    "industry": "工业自动化/机器人、消费电子/智能硬件、人工智能",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责庭院机器人、割草机器人及新能源产品的全球市场进入与商业化工作，制定产品战略、GTM计划和海外市场策略，分析机器人及新能源市场需求、竞争格局与用户反馈，推动产品差异化方案、上市节奏、渠道拓展和全球销售增长。需要与研发、生产、质量和销售团队协作，建立产品质量控制体系并推动问题闭环。要求理工科本科及以上学历，具备五年以上消费类机器人产品、海外销售或产品商业化经验，拥有敏锐的市场判断力、跨部门推动能力、团队领导能力和较强内驱力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": null,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "activeRecruiterContactEntry",
+      "platformBusinessLicenseVerified",
+      "namedDirectEmployer",
+      "specificShenzhenWorkAddress",
+      "activeEmployerJobsPage"
+    ],
+    "reviewNotes": "智联独立岗位详情页显示固定月薪5-10万元并标注14薪、深圳南山区中国储能大厦具体地址、完整职责要求及公开立即沟通入口。发布主体和最终雇主均为深圳菲亚兰德科技集团股份有限公司；企业工商主体、经营状态和营业执照均由平台展示并审核，企业页采集时仍有多个在招职位。页面未展示可可靠归属到当前年份的发布日期，因此记录missingPublicationDate复核信号；岗位详情与招聘者沟通入口采集时均可用，满足未知发布日期必须保持活跃的要求。未发现匿名客户、代理代招、收费培训、提成冒充固定月薪或地点矛盾。"
+  }
+}
