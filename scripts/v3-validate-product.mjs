@@ -23,7 +23,7 @@ for (const file of visibleFiles) {
   if (/[—–]/u.test(content)) fail(`${file} contains a forbidden em/en dash`);
 }
 
-const demo = JSON.parse(await fs.readFile('data/v3/demo/page-logic-demo.json', 'utf8'));
+const demo = JSON.parse(await fs.readFile('data/v3/fixtures/page-logic-demo.json', 'utf8'));
 if (demo.metadata?.dataKind !== 'demo' || demo.metadata?.excludedFromFormalStats !== true) {
   fail('demo data is not explicitly excluded from formal statistics');
 }
@@ -66,9 +66,10 @@ const dataModule = await fs.readFile('src/app/data.ts', 'utf8');
 const jobsPage = pages.split('export function JobsPage()')[1]?.split('export function MethodPage()')[0] ?? '';
 const jobDatabase = pages.split('function JobCard')[1]?.split('export function MethodPage()')[0] ?? '';
 if (!jobsPage.includes('realJobs.filter')) fail('job database is not driven by realJobs');
-if (jobsPage.includes('demoData')) fail('job database must not read demoData');
+if (pages.includes('demoData') || dataModule.includes('page-logic-demo.json')) fail('production app must not import demo data');
+if (dataModule.includes('candidates.json')) fail('production app must not import candidate discovery records');
+if (!dataModule.includes('export const realJobs = verifiedJobs')) fail('production job database must be limited to verified detail jobs');
 if (!jobDatabase.includes('job.salaryText')) fail('job database must preserve the original salary text');
-if (!jobDatabase.includes("job.sourceVisibility !== 'hidden'")) fail('job database must hide source entries for probable jobs');
 if (!jobDatabase.includes('job.sourceUrl')) fail('verified job cards must retain the direct job detail URL');
 if (!jobsPage.includes('const pageSize = 12')) fail('job database must limit result density with 12-item pages');
 if (!jobsPage.includes('aria-label="岗位结果分页"')) fail('job database is missing accessible pagination');
@@ -82,6 +83,6 @@ for (const profileKey of ['salaryBands', 'industries', 'districts', 'experience'
   if (!pages.includes(`key: '${profileKey}'`)) fail(`market profile is missing ${profileKey}`);
 }
 
-console.log(JSON.stringify({routes: routes.length, demoRoles: demo.roleSignals.length, officialSources: officialSources.sources.length, bossAccessAllowed: status.bossAccessAllowed, jobPageSize: 12, axionShaderStack: true, persistentFlutedLayer: true}, null, 2));
+console.log(JSON.stringify({routes: routes.length, productionData: 'verified-detail-only', isolatedDemoRoles: demo.roleSignals.length, officialSources: officialSources.sources.length, bossAccessAllowed: status.bossAccessAllowed, jobPageSize: 12, axionShaderStack: true, persistentFlutedLayer: true}, null, 2));
 if (failures) throw new Error(`${failures} V3 product validation failure(s)`);
 console.log('V3 product structure and data isolation are valid.');

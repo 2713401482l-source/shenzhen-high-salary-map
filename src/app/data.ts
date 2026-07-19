@@ -1,6 +1,4 @@
 import verifiedSource from '../../data/jobs/verified.json';
-import candidateSource from '../../data/jobs/candidates.json';
-import demoSource from '../../data/v3/demo/page-logic-demo.json';
 import realAnalysisSource from '../../data/v3/analysis/real-analysis.json';
 import officialSourcesSource from '../../data/v3/sources/official-sources.json';
 import collectionGapReportSource from '../../data/v3/collection/gap-report.json';
@@ -35,10 +33,7 @@ export type Job = {
   authenticity?: {status?: string};
 };
 
-export type DemoRole = (typeof demoSource.roleSignals)[number];
-export type DemoGrowthPath = (typeof demoSource.growthPaths)[number];
-
-const normalizeJob = (job: (typeof verifiedSource)[number] | (typeof candidateSource)[number]): Job => ({
+const normalizeJob = (job: (typeof verifiedSource)[number]): Job => ({
   ...job,
   salaryBand: job.salaryBand as SalaryBand,
   evidenceLevel: job.evidenceLevel as EvidenceLevel,
@@ -49,10 +44,7 @@ const normalizeJob = (job: (typeof verifiedSource)[number] | (typeof candidateSo
 });
 
 export const verifiedJobs = verifiedSource.map(normalizeJob);
-export const candidateJobs = candidateSource.map(normalizeJob);
-export const probableJobs = candidateJobs.filter(job => job.authenticity?.status === 'probable');
-export const realJobs = [...verifiedJobs, ...candidateJobs];
-export const demoData = demoSource;
+export const realJobs = verifiedJobs;
 export const realAnalysis = realAnalysisSource;
 export const officialSources = officialSourcesSource;
 export const collectionGapReport = collectionGapReportSource;
@@ -64,10 +56,9 @@ export const capturedAt = realJobs
 
 export const realEvidence = {
   total: realAnalysis.scope.jobs,
-  discoveryTotal: realJobs.length,
+  discoveryTotal: realAnalysis.scope.discoveryJobs,
   verified: realAnalysis.scope.detailJobs,
-  probable: probableJobs.length,
-  listingObserved: realAnalysis.scope.jobs - realAnalysis.scope.detailJobs,
+  quarantined: realAnalysis.scope.quarantinedOrUnverified,
   companies: realAnalysis.scope.companies,
 };
 
@@ -133,10 +124,6 @@ const SOURCE_LABELS: Record<string, string> = {
 
 export function sourceLabelFor(job: Pick<Job, 'sourcePlatform'>): string {
   return SOURCE_LABELS[job.sourcePlatform || 'boss'] || job.sourcePlatform || '公开招聘平台';
-}
-
-export function isProbableJob(job: Pick<Job, 'authenticity'>): boolean {
-  return job.authenticity?.status === 'probable';
 }
 
 export const realExpansionSignals = realAnalysisSource.expansionSignals as ExpansionSignal[];

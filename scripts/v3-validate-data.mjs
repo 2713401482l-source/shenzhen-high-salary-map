@@ -6,7 +6,7 @@ const plan = JSON.parse(await fs.readFile(path.join(root, 'config/collection-pla
 const queue = JSON.parse(await fs.readFile(path.join(root, 'collection/query-queue.json'), 'utf8'));
 const observationDir = path.join(root, 'observations');
 const observationFiles = (await fs.readdir(observationDir)).filter(file => file.endsWith('.json')).sort();
-const demo = JSON.parse(await fs.readFile(path.join(root, 'demo/page-logic-demo.json'), 'utf8'));
+const demo = JSON.parse(await fs.readFile(path.join(root, 'fixtures/page-logic-demo.json'), 'utf8'));
 const allowedStatuses = new Set(['queued', 'collected', 'captured-manual', 'blocked-salary-auth', 'blocked-verification', 'exhausted']);
 const queryIds = new Set();
 const globalObservationIds = new Set();

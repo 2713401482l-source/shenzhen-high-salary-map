@@ -1,12 +1,10 @@
 import React, {lazy, Suspense, useEffect, useRef, useState} from 'react';
-import {ArrowRight, ArrowUpRight, BookOpen, Database, Menu, X} from 'lucide-react';
+import {ArrowRight, ArrowUpRight, Database, Menu, X} from 'lucide-react';
 import {capturedAt, realEvidence} from './data';
 
 const HeroShaderScene = lazy(() => import('./hero-shader-engine'));
 
 export type PageKey = 'home' | 'trends' | 'skills' | 'benchmark' | 'growth' | 'jobs' | 'method';
-export type DataMode = 'demo' | 'real';
-
 const navItems: Array<{key: PageKey; label: string; href: string}> = [
   {key: 'trends', label: '发现机会', href: 'trends.html'},
   {key: 'skills', label: '能力组合', href: 'skills.html'},
@@ -109,21 +107,10 @@ export function HeroShader() {
   </div>;
 }
 
-export function DataModeSwitch({mode, onChange}: {mode: DataMode; onChange: (mode: DataMode) => void}) {
-  return <div className="data-mode-switch" role="group" aria-label="选择数据视图">
-    <button type="button" className={mode === 'demo' ? 'active' : ''} aria-pressed={mode === 'demo'} onClick={() => onChange('demo')}>结构演示</button>
-    <button type="button" className={mode === 'real' ? 'active' : ''} aria-pressed={mode === 'real'} onClick={() => onChange('real')}>真实证据</button>
-  </div>;
-}
-
-export function DataNotice({mode}: {mode: DataMode}) {
-  if (mode === 'demo') return <aside className="data-notice demo-notice">
-    <div><BookOpen aria-hidden="true" /><strong>当前是结构演示</strong></div>
-    <p>数字和岗位方向是高概率假设，只用于判断页面逻辑。它们不计入正式样本，也不提供虚构来源链接。</p>
-  </aside>;
+export function DataNotice() {
   return <aside className="data-notice real-notice">
     <div><Database aria-hidden="true" /><strong>当前是真实证据</strong></div>
-    <p>只使用通过真实性门槛的多平台岗位详情。待核验发现不会进入趋势、薪资、能力或企业扩招结论。</p>
+    <p>默认页面只使用 {realEvidence.verified} 条通过真实性门槛的多平台岗位详情。另有 {realEvidence.quarantined} 条待核验发现被隔离，不进入岗位列表、趋势、薪资、能力或企业扩招结论。</p>
   </aside>;
 }
 
@@ -137,12 +124,11 @@ export function EvidenceStrip() {
   </section>;
 }
 
-export function InnerHero({eyebrow, title, lead, mode, onModeChange}: {eyebrow: string; title: string; lead: string; mode?: DataMode; onModeChange?: (mode: DataMode) => void}) {
+export function InnerHero({eyebrow, title, lead}: {eyebrow: string; title: string; lead: string}) {
   return <section className="inner-hero">
     <p className="eyebrow">{eyebrow}</p>
     <h1>{title}</h1>
     <p className="inner-lead">{lead}</p>
-    {mode && onModeChange && <DataModeSwitch mode={mode} onChange={onModeChange} />}
   </section>;
 }
 

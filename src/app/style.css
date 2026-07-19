@@ -355,6 +355,7 @@ button { color: inherit; }
 .empty-results svg { width: 28px; height: 28px; color: var(--muted); }
 .empty-results h2 { margin: 20px 0 8px; }
 .empty-results p { margin: 0; color: var(--muted); }
+.empty-results button { margin-top: 20px; padding: 11px 18px; border: 1px solid var(--ink); border-radius: var(--radius-control); background: var(--ink); color: white; font: inherit; font-weight: 700; cursor: pointer; }
 .market-profile { margin-top: 100px; padding: clamp(28px, 4vw, 54px); scroll-margin-top: 88px; border-radius: var(--radius-card); background: #fafaf8; }
 .market-profile-head { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 40px; align-items: end; }
 .market-profile-head h2 { margin: 18px 0 12px; font-size: clamp(2rem, 3.5vw, 4rem); letter-spacing: -.04em; line-height: 1; }
@@ -394,7 +395,7 @@ button { color: inherit; }
 .job-pagination p strong { font-size: 22px; }
 .job-pagination p span { color: var(--muted); font-size: 12px; }
 
-.method-levels { margin-top: 48px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.method-levels { margin-top: 48px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
 .method-levels article { min-height: 270px; padding: 30px; display: flex; flex-direction: column; border-radius: var(--radius-card); background: #fafaf8; }
 .method-levels h2 { margin: auto 0 12px; font-size: clamp(2.8rem, 5vw, 5rem); letter-spacing: -.04em; }
 .method-levels p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.6; }

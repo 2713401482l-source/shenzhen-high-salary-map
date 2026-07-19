@@ -5,7 +5,7 @@
 ## 数据边界
 
 - 真实岗位库共 71 条，其中 7 条保存岗位详情要求，64 条为列表页观察。
-- 演示数据共 12 个岗位方向，只保存在 `data/v3/demo/page-logic-demo.json`。
+- 演示数据共 12 个岗位方向，只作为开发 fixture 保存在 `data/v3/fixtures/page-logic-demo.json`，不进入生产依赖图。
 - 演示数据不含公司名和虚构来源链接，并声明 `excludedFromFormalStats: true`。
 - 岗位证据库只读取真实岗位数据，薪资展示保留 Boss 原始区间。
 - Boss 采集状态为暂停，V3 页面构建不会继续访问 Boss。

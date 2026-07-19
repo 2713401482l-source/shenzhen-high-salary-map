@@ -48,4 +48,4 @@ npm run v3:import-snapshot -- C:\path\to\snapshot.json --apply
 
 ## 每批之后
 
-运行 `npm run verify`。只有数据校验、分析生成、类型检查与正式构建全部通过，改动才可以提交。假数据仍只存在于 `data/v3/demo/`，不会通过这条管线进入真实岗位库。
+运行 `npm run verify`。只有数据校验、分析生成、类型检查与正式构建全部通过，改动才可以提交。假数据只作为开发 fixture 存在于 `data/v3/fixtures/`，生产代码不得导入。

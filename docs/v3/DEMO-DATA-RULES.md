@@ -6,7 +6,7 @@
 
 ## 强制规则
 
-1. 演示数据单独存放在 `data/v3/demo/page-logic-demo.json`。
+1. 演示数据单独作为开发 fixture 存放在 `data/v3/fixtures/page-logic-demo.json`，生产代码禁止导入。
 2. 文件必须声明 `dataKind: "demo"` 和 `excludedFromFormalStats: true`。
 3. 演示数据不包含真实公司名，不生成虚构 Boss 链接。
 4. 真实样本量、企业数、核验比例和岗位库只读取真实数据文件。
