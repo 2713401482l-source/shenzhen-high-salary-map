@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "employer-career",
+  "sourcePublisher": "顺丰官方招聘",
+  "captureMethod": "official-feed",
+  "capturedAt": "2026-07-20T03:42:00+08:00",
+  "publishedAt": "2026-07-14",
+  "sourceUrl": "https://crs-pub.sf-express.com/recruitcenter/#/positionDetail/114913?role=3",
+  "job": {
+    "sourceJobId": "114913",
+    "title": "组织设计岗（AI转型）",
+    "company": "顺丰集团本部",
+    "salaryText": "30-50K",
+    "district": "深圳市",
+    "addressText": "广东深圳",
+    "industry": "物流与供应链服务",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "主导公司AI转型下的组织诊断与设计项目，包括架构重组、流程再造、角色定义和汇报关系优化；设计并推动AI代理、数字员工与人类员工的职责边界和协作机制；构建面向AI能力嵌入的组织效能评估体系，输出组织变革路线图，协同HRBP及业务负责人落地试点并规模化推广，沉淀AI组织设计方法论与工具。要求本科及以上学历，五年以上大型企业组织发展或组织设计经验，曾从零到一主导集团级组织变革，深度参与AI或数字化转型相关组织调整，具备系统思考、结构化表达、跨部门推动和影响高管决策的能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": ["officialEmployerDetailRouteVisible", "officialFeedStatusActive", "publishedWithin45Days", "exactMonthlySalaryVisible", "shenzhenAddressVisible", "completeRequirementsVisible", "directApplicationFlowAvailable"],
+    "reviewNotes": "顺丰官方招聘独立岗位路由及详情接口显示状态1（在招）、2026年7月14日发布、固定月薪30-50K、深圳工作地点及完整职责要求。发布业务主体和最终雇主均明确为顺丰集团本部，不是匿名客户或代招；未发现收费、押金、付费培训、提成冒充月薪、年薪误读、地点矛盾、职责错配或重复岗位。"
+  }
+}

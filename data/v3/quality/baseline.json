@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-07-19T19:34:11.337Z",
+  "generatedAt": "2026-07-19T19:44:30.297Z",
   "intendedUse": "V3 新兴岗位发现、岗位要求拆解、单岗精准对标、扩招与薪资快照分析",
   "grain": "一条记录代表一个 Boss 岗位在 V2 当前快照中的最新观察；V3 将改为同一岗位跨日期追加 observation",
   "totals": {
-    "usableJobs": 395,
-    "verifiedDetailJobs": 301,
+    "usableJobs": 400,
+    "verifiedDetailJobs": 306,
     "listingOnlyJobs": 94,
     "rejectedJobs": 15,
-    "fullRequirementJobs": 328,
-    "uniqueCompanies": 297,
-    "uniqueRawTitles": 372,
+    "fullRequirementJobs": 333,
+    "uniqueCompanies": 298,
+    "uniqueRawTitles": 377,
     "captureDates": 7
   },
   "distributions": {
     "salaryBands": {
-      "30K": 190,
-      "50K": 168,
+      "30K": 191,
+      "50K": 172,
       "100K": 37
     },
     "evidenceLevels": {
       "public-platform-detail": 286,
       "boss-listing": 67,
+      "employer-detail": 18,
       "public-index-probable": 18,
-      "employer-detail": 13,
       "boss-detail": 8,
       "boss-listing-plus-detail": 3
     },
@@ -33,7 +33,7 @@
       "2026-07-18": 60,
       "2026-07-16": 57,
       "2026-07-15": 46,
-      "2026-07-20": 15
+      "2026-07-20": 20
     },
     "industries": {
       "电子/半导体/集成电路": 15,
@@ -43,6 +43,7 @@
       "互联网": 11,
       "智能硬件/消费电子": 9,
       "工业自动化/机器人": 6,
+      "物流与供应链服务": 6,
       "智能硬件": 6,
       "未公开": 5,
       "消费电子/智能硬件": 5,
@@ -249,7 +250,6 @@
       "物联网、软件与IT服务": 1,
       "物联网/船舶航空航天军工": 1,
       "物联网/智慧停车/人工智能": 1,
-      "物流与供应链服务": 1,
       "物业管理、云计算、物联网": 1,
       "橡胶、塑料与五金制品": 1,
       "橡胶/塑料制品": 1,
@@ -316,7 +316,7 @@
       "PCB设备、工业自动化与半导体检测": 1
     },
     "districts": {
-      "南山区": 158,
+      "南山区": 161,
       "宝安区": 77,
       "龙岗区": 39,
       "光明区": 37,
@@ -326,6 +326,7 @@
       "罗湖区": 7,
       "坪山区": 5,
       "盐田区": 3,
+      "深圳市": 2,
       "深汕特别合作区": 1
     }
   },
@@ -365,6 +366,10 @@
     },
     {
       "company": "深圳市创世纪机械有限公司",
+      "count": 4
+    },
+    {
+      "company": "顺丰速运",
       "count": 4
     },
     {
@@ -508,6 +513,10 @@
       "count": 2
     },
     {
+      "company": "顺丰集团本部",
+      "count": 2
+    },
+    {
       "company": "苏州科德教育科技股份有限公司深圳分公司",
       "count": 2
     },
@@ -532,12 +541,12 @@
   },
   "gates": {
     "discoveryPool": {
-      "current": 395,
+      "current": 400,
       "required": 720,
       "passed": false
     },
     "verifiedDetails": {
-      "current": 301,
+      "current": 306,
       "required": 240,
       "passed": true
     },
@@ -556,7 +565,7 @@
     {
       "severity": "critical",
       "issue": "详情证据覆盖不足",
-      "evidence": "301/395 条完成详情核验",
+      "evidence": "306/400 条完成详情核验",
       "impact": "不能用全部样本计算正式能力频率"
     },
     {

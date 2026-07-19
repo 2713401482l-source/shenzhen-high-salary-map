@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "employer-career",
+  "sourcePublisher": "顺丰官方招聘",
+  "captureMethod": "official-feed",
+  "capturedAt": "2026-07-20T03:42:00+08:00",
+  "publishedAt": "2026-07-13",
+  "sourceUrl": "https://crs-pub.sf-express.com/recruitcenter/#/positionDetail/114882?role=3",
+  "job": {
+    "sourceJobId": "114882",
+    "title": "项目管理",
+    "company": "顺丰速运",
+    "salaryText": "30-50K",
+    "district": "南山区",
+    "addressText": "深圳市南山区深投控创智天地大厦B座",
+    "industry": "物流与供应链服务",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "依据项目范围、目标和关键里程碑，制定工作分解结构、时间表、资源分配与预算规划；建立规范高效的项目管理流程、会议及沟通机制，识别并解决项目障碍；实时跟踪项目进展，更新汇报项目状态，分析偏差原因并制定纠偏措施；作为项目信息枢纽协调项目团队、客户和其他利益相关方。要求物流管理、供应链管理、统计学、经济学或数学等相关专业本科及以上学历，具备两年以上同行相关工作经验者优先，掌握办公软件和项目管理工具，逻辑清晰，能够通过数据洞察问题并推动业务改进，具备跨部门协作能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": ["officialEmployerDetailRouteVisible", "officialFeedStatusActive", "publishedWithin45Days", "exactMonthlySalaryVisible", "shenzhenAddressVisible", "completeRequirementsVisible", "directApplicationFlowAvailable"],
+    "reviewNotes": "顺丰官方招聘独立岗位路由及详情接口显示状态1（在招）、2026年7月13日发布、固定月薪30-50K、深圳南山区具体地址及完整职责要求。发布业务主体和最终雇主均明确为顺丰速运，不是匿名客户或代招；未发现收费、押金、付费培训、提成冒充月薪、年薪误读、地点矛盾、职责错配或重复岗位。"
+  }
+}

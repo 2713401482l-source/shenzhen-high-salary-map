@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "employer-career",
+  "sourcePublisher": "顺丰官方招聘",
+  "captureMethod": "official-feed",
+  "capturedAt": "2026-07-20T03:42:00+08:00",
+  "publishedAt": "2026-07-15",
+  "sourceUrl": "https://crs-pub.sf-express.com/recruitcenter/#/positionDetail/114954?role=3",
+  "job": {
+    "sourceJobId": "114954",
+    "title": "高科技行业解决方案高级专员",
+    "company": "顺丰集团本部",
+    "salaryText": "30-50K",
+    "district": "深圳市",
+    "addressText": "深圳市",
+    "industry": "物流与供应链服务",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责面向消费电子、通讯设备、服务器及光学面板等高科技行业客户，设计覆盖生产端、销售端和售后端的端到端供应链整体解决方案；负责方案实施、运营优化、SOP制定、风险控制和资源底盘建设，持续提升项目收益；推动优秀方案复制推广并协同地区开展人才赋能与队伍建设；推动AI、大数据在端到端供应链场景的应用。要求本科，十年以上供应链经验，其中五年以上端到端供应链设计经验，熟悉相关高科技行业，具备全流程、体系设计、流程系统及数智化理解能力，并拥有系统思维、协同能力、结果导向和客户高层对接能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": ["officialEmployerDetailRouteVisible", "officialFeedStatusActive", "publishedWithin45Days", "exactMonthlySalaryVisible", "shenzhenAddressVisible", "completeRequirementsVisible", "directApplicationFlowAvailable"],
+    "reviewNotes": "顺丰官方招聘独立岗位路由及详情接口显示状态1（在招）、2026年7月15日发布、固定月薪30-50K、深圳工作地点及完整职责要求。发布业务主体和最终雇主均明确为顺丰集团本部，不是匿名客户或代招；未发现收费、押金、付费培训、提成冒充月薪、年薪误读、地点矛盾、职责错配或重复岗位。"
+  }
+}

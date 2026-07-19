@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "employer-career",
+  "sourcePublisher": "顺丰官方招聘",
+  "captureMethod": "official-feed",
+  "capturedAt": "2026-07-20T03:42:00+08:00",
+  "publishedAt": "2026-07-09",
+  "sourceUrl": "https://crs-pub.sf-express.com/recruitcenter/#/positionDetail/114827?role=3",
+  "job": {
+    "sourceJobId": "114827",
+    "title": "顺丰速运BG 非遗项目",
+    "company": "顺丰速运",
+    "salaryText": "30-50K",
+    "district": "南山区",
+    "addressText": "深圳市南山区深投控创智天地大厦",
+    "industry": "物流与供应链服务",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "负责非遗文旅专项物流新业务顶层方案设计、团队搭建规划与全周期项目管理；搭建非遗展品、文博物资和民俗道具的定制运输、现场装卸、驻场配套与返程逆向物流方案；对接文旅平台、古镇景区、文博展馆、非遗展演主办方和研学机构，开发文旅物流订单；制定SOP、运力规划、成本报价与应急预案，打造可复制的标准化产品。要求本科及以上学历，具有头部大件或精品物流企业经历，主导过贵重展品、文博文创或艺术藏品端到端项目，熟悉行业采购、招投标、展品防护、运力调配和现场异常处置，能够独立统筹多方资源。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": ["officialEmployerDetailRouteVisible", "officialFeedStatusActive", "publishedWithin45Days", "exactMonthlySalaryVisible", "shenzhenAddressVisible", "completeRequirementsVisible", "directApplicationFlowAvailable"],
+    "reviewNotes": "顺丰官方招聘独立岗位路由及详情接口显示状态1（在招）、2026年7月9日发布、固定月薪30-50K、深圳南山区工作地点及完整职责要求。发布业务主体和最终雇主均明确为顺丰速运，不是匿名客户或代招；未发现收费、押金、付费培训、提成冒充月薪、年薪误读、地点矛盾、职责错配或重复岗位。"
+  }
+}

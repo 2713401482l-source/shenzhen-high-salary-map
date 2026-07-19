@@ -1,0 +1,31 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "employer-career",
+  "sourcePublisher": "顺丰官方招聘",
+  "captureMethod": "official-feed",
+  "capturedAt": "2026-07-20T03:42:00+08:00",
+  "publishedAt": "2026-07-09",
+  "sourceUrl": "https://crs-pub.sf-express.com/recruitcenter/#/positionDetail/114826?role=3",
+  "job": {
+    "sourceJobId": "114826",
+    "title": "末端网络规划高级专员",
+    "company": "顺丰速运",
+    "salaryText": "25-50K",
+    "district": "南山区",
+    "addressText": "深圳市南山区深投控创智天地大厦B座",
+    "industry": "物流与供应链服务",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责顺丰网点、触点及渠道的整体布局规划、点位选址和网络优化；基于区域人口、商圈、市场同行格局、成本收益等数据开展调研和可行性分析，输出规划方案；制定区域网点建设标准、覆盖半径和服务能力配置标准；协同运营、工程、财务部门推进新网点落地及旧网点优化调整；分析覆盖盲区、时效和成本问题，建立评估模型并持续复盘经营数据。要求本科及以上学历，有实体网点规划、选址分析、零售门店布局或物流网络规划经验，能够独立完成数据收集分析和规划方案，熟练使用Office和Excel，掌握GIS或地图工具者优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": ["officialEmployerDetailRouteVisible", "officialFeedStatusActive", "publishedWithin45Days", "exactMonthlySalaryVisible", "shenzhenAddressVisible", "completeRequirementsVisible", "directApplicationFlowAvailable"],
+    "reviewNotes": "顺丰官方招聘独立岗位路由及详情接口显示状态1（在招）、2026年7月9日发布、固定月薪25-50K、深圳南山区具体地址及完整职责要求。发布业务主体和最终雇主均明确为顺丰速运，不是匿名客户或代招；未发现收费、押金、付费培训、提成冒充月薪、年薪误读、地点矛盾、职责错配或重复岗位。"
+  }
+}
