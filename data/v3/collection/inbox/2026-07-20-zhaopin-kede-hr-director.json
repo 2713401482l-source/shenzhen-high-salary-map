@@ -1,0 +1,40 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-20T02:59:00+08:00",
+  "publishedAt": "2026-07-05",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1522651060J40839851211.htm",
+  "job": {
+    "sourceJobId": "CCL1522651060J40839851211",
+    "title": "人力资源总监【上市公司总部】",
+    "company": "苏州科德教育科技股份有限公司深圳分公司",
+    "salaryText": "35-50K·18薪",
+    "district": "福田区",
+    "addressText": "深圳福田区富德生命保险大厦",
+    "industry": "教育、化工",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责制定并推动与集团战略匹配的人力资源中长期规划，建立和优化招聘配置、培训发展、绩效、薪酬福利及员工关系等全模块制度流程，指导分子公司人力资源团队，建设关键人才梯队和数据分析体系，并处理重大劳动争议。要求本科及以上学历，具备十年以上行政人事管理经验和五年以上集团人力资源总监经验，精通人力资源全模块及多地点、多业务单元团队管理，具备领导、协调、分析和组织变革能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "directDetailPageVisible",
+      "publishedWithin45Days",
+      "exactMonthlySalaryVisible",
+      "shenzhenAddressVisible",
+      "completeRequirementsVisible",
+      "directApplyVisible",
+      "businessRegistrationVisible",
+      "employerVerifiedByPlatform"
+    ],
+    "reviewNotes": "智联独立详情页显示2026年7月5日更新、深圳福田区具体地址、固定月薪3.5-5万元并另列18薪、完整职责要求和立即投递入口。发布主体为平台审核的上市公司深圳分公司，工商状态存续，岗位职责与集团总部人力资源管理场景一致。与同公司已收录的行政部总经理岗位职责、岗位ID和详情URL均不同。未发现匿名客户、收费、押金、付费培训、提成冒充月薪、年薪误读、地点矛盾或虚假招聘信号。"
+  }
+}

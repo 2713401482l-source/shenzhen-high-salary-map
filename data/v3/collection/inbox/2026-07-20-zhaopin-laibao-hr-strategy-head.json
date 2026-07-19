@@ -1,0 +1,40 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-20T02:59:00+08:00",
+  "publishedAt": "2026-07-16",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC134134010J40589520706.htm",
+  "job": {
+    "sourceJobId": "CC134134010J40589520706",
+    "title": "人力资源战略规划部负责人",
+    "company": "深圳莱宝高科技股份有限公司",
+    "salaryText": "30-50K·15薪",
+    "district": "光明区",
+    "addressText": "深圳光明区深圳莱宝高科技股份有限公司光明工厂",
+    "industry": "半导体、显示器件制造",
+    "experience": "10年以上",
+    "education": "本科",
+    "descriptionText": "负责制定和实施公司人才发展策略并建立人才发展体系，组织策划整体人力资源战略、政策、方案、流程和标准并推动落地，同时承担管理层交办的人力资源专项任务。要求本科及以上理工科背景，具备十年以上大型制造企业人力资源全盘工作经验，有三支柱体系实操经验优先，能够主导人才发展计划的设计和落地，快速解决复杂人力资源管理问题，并具备较强逻辑分析和报告编写能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "directDetailPageVisible",
+      "publishedWithin45Days",
+      "exactMonthlySalaryVisible",
+      "shenzhenAddressVisible",
+      "completeRequirementsVisible",
+      "directApplyVisible",
+      "businessRegistrationVisible",
+      "employerVerifiedByPlatform"
+    ],
+    "reviewNotes": "智联独立详情页显示2026年7月16日更新、深圳光明区具体工厂地址、固定月薪3-5万元并另列15薪、完整职责要求和立即投递入口。发布主体为平台审核的深圳上市公司，页面工商信息存续，半导体显示器件制造业务与岗位要求的大型制造业人力资源经验一致。未发现同URL、同岗位ID或同公司同岗位重复，也未发现匿名客户、收费培训、押金、提成冒充月薪、地点矛盾或虚假招聘信号。"
+  }
+}

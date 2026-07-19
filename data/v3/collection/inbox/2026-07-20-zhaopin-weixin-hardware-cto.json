@@ -1,0 +1,40 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-20T02:28:00+08:00",
+  "publishedAt": "2026-07-09",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC543878620J40774512506.htm",
+  "job": {
+    "sourceJobId": "CC543878620J40774512506",
+    "title": "硬件研发 CTO",
+    "company": "深圳市纬信科技有限公司",
+    "salaryText": "25-35K",
+    "district": "宝安区",
+    "addressText": "深圳宝安区定军山电影科技产业园1206纬信科技",
+    "industry": "消费电子硬件研发",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责公司技术战略与产品技术可行性评估，主导硬件系统架构、元器件选型、原理图及PCB布局设计，建立技术文档和样机测试标准，管理研发团队、项目进度与风险。要求电子类相关专业本科及以上学历，具备八年以上消费电子研发经验和三年以上研发管理经验，拥有产品从零到一及量产落地经历，能够完成电路设计、原理图与PCB评审，熟悉小家电产品标准、认证流程及供应链协作，并具备英语技术资料阅读能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "directDetailPageVisible",
+      "publishedWithin45Days",
+      "exactMonthlySalaryVisible",
+      "shenzhenAddressVisible",
+      "completeRequirementsVisible",
+      "directApplyVisible",
+      "businessRegistrationVisible",
+      "recruiterRecentlyActive"
+    ],
+    "reviewNotes": "智联独立详情页显示2026年7月9日更新，采集时仍可立即投递，招聘负责人三日内活跃。页面明确显示固定月薪2.5-3.5万元、深圳宝安区具体地址、完整职责和任职要求。发布主体深圳市纬信科技有限公司经平台审核并展示存续工商信息，未标记RPO代理；公司产品介绍与硬件研发岗位相符。未发现匿名客户、收费、押金、付费培训、提成冒充月薪、年薪误读、重复岗位或地点矛盾。因本轮合格岗位不足5条，先保留快照等待后续混合来源批次统一dry-run。"
+  }
+}
