@@ -1,7 +1,7 @@
 {
   "metadata": {
     "dataKind": "collection-gap-report",
-    "generatedFromLatestCapture": "2026-07-20T04:12:00+08:00",
+    "generatedFromLatestCapture": "2026-07-20T04:22:00+08:00",
     "bossAccessAllowed": false,
     "sourceFiles": [
       "data/v3/config/collection-plan.json",
@@ -13,17 +13,17 @@
   },
   "totals": {
     "discovery": {
-      "actual": 415,
+      "actual": 420,
       "target": 720,
-      "gap": 305
+      "gap": 300
     },
     "detailEvidence": {
-      "actual": 321,
+      "actual": 326,
       "target": 240,
       "gap": 0
     },
     "assignedToV3Queue": 7,
-    "legacyUnassigned": 408
+    "legacyUnassigned": 413
   },
   "quality": {
     "grain": "one company-specific job posting on one direct detail URL",
@@ -42,7 +42,7 @@
       },
       {
         "source": "employer-career",
-        "count": 33
+        "count": 38
       },
       {
         "source": "liepin",
@@ -55,15 +55,15 @@
       "source": "zhaopin",
       "count": 217
     },
-    "largestSourceShare": 0.5229,
+    "largestSourceShare": 0.5167,
     "maximumSingleSourceShare": 0.55,
     "duplicateIds": 0,
     "duplicateFingerprints": 0,
     "duplicateSourceUrls": 0,
     "staleJobs": 0,
     "maximumAgeDaysAtCapture": 45,
-    "formalSampleCount": 321,
-    "formalSampleShare": 0.7735,
+    "formalSampleCount": 326,
+    "formalSampleShare": 0.7762,
     "discoveryOnlyCount": 94
   },
   "salaryBands": [
@@ -78,10 +78,10 @@
     },
     {
       "band": "50K",
-      "actual": 184,
+      "actual": 189,
       "target": 240,
-      "gap": 56,
-      "detailActual": 137,
+      "gap": 51,
+      "detailActual": 142,
       "detailTarget": 80,
       "detailGap": 0
     },
@@ -189,10 +189,10 @@
   ],
   "benchmark": {
     "role": "其他专业岗位",
-    "detailActual": 150,
+    "detailActual": 152,
     "detailTarget": 50,
     "detailGap": 0,
-    "currentFamilyJobs": 150
+    "currentFamilyJobs": 152
   },
   "priorityQueries": [
     {
@@ -268,7 +268,7 @@
   ],
   "publicationBlockers": [
     "30K 总样本还差 46 条",
-    "50K 总样本还差 56 条",
+    "50K 总样本还差 51 条",
     "100K 总样本还差 203 条",
     "100K 详情证据还差 43 条",
     "单岗对标“其他专业岗位”还差 0 条详情证据"
