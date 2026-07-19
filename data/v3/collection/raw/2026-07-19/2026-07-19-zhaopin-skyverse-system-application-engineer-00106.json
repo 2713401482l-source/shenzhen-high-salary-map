@@ -1,0 +1,39 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-19T18:10:54+08:00",
+  "publishedAt": "2026-07-01",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC313517880J40892796513.htm",
+  "job": {
+    "sourceJobId": "CC313517880J40892796513",
+    "title": "系统应用工程师-00106",
+    "company": "深圳中科飞测科技股份有限公司",
+    "salaryText": "30-50K·14薪",
+    "district": "龙华区",
+    "addressText": "深圳龙华区深圳中科飞测科技股份有限公司",
+    "industry": "半导体设备、仪器仪表",
+    "experience": "3-5年",
+    "education": "硕士",
+    "descriptionText": "参与新产品和新功能导入以及客户晶圆演示流程，跨部门推动项目交付；与研发团队协作闭环算法、软件和硬件问题，对新功能及新机台实测数据进行完整分析并输出报告和优化建议；为客户与内部团队提供明场检测系统使用、维护和数据解释培训，并维护应用技术文档。要求光电、物理、电子、自动化、材料或半导体相关专业硕士及以上，熟悉半导体制造和明场检测，掌握Python或Excel数据分析，具有半导体设备商或晶圆厂经验者优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": null,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "updatedWithinEighteenDays",
+      "activeApplyEntry",
+      "activeRecruiterWithinOneDay",
+      "platformBusinessLicenseVerified",
+      "namedDirectEmployer",
+      "specificShenzhenWorkAddress"
+    ],
+    "reviewNotes": "智联具体岗位详情页显示2026年7月1日更新，采集时距更新18天，仍提供立即投递和沟通入口；页面明确展示固定月薪30-50K并另列14薪、深圳龙华区具体工作地点、硕士和3-5年经验要求，以及半导体明场检测系统应用的完整职责与要求。发布主体和最终雇主均为平台已审核的上市公司深圳中科飞测科技股份有限公司，招聘方前一日仍活跃，不是匿名客户或中介代招。未发现收费培训、提成冒充固定月薪、年薪误读、岗位失效或地点矛盾。"
+  }
+}

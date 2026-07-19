@@ -1,0 +1,39 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-19T18:10:54+08:00",
+  "publishedAt": "2026-07-08",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC313517880J40885292513.htm",
+  "job": {
+    "sourceJobId": "CC313517880J40885292513",
+    "title": "系统工程师-00103",
+    "company": "深圳中科飞测科技股份有限公司",
+    "salaryText": "28-55K·14薪",
+    "district": "龙华区",
+    "addressText": "深圳龙华区深圳中科飞测科技股份有限公司",
+    "industry": "半导体设备、仪器仪表",
+    "experience": "5-10年",
+    "education": "硕士",
+    "descriptionText": "负责半导体设备整机系统的需求分析、方案设计、集成与工程实现，将整机系统分解为子系统和模块并组织需求分析、方案设计及实现；通过物理或数学建模、实验平台验证复杂系统概念，负责系统调试、测试、维护以及设备试产和量产阶段的持续改进。要求光学、物理学、精密仪器或相关专业硕士及以上，具备五年以上复杂系统设计和设备集成经验，有设备研发到量产导入或半导体设备公司经历者优先。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": null,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "updatedWithinElevenDays",
+      "activeApplyEntry",
+      "activeRecruiterWithinOneDay",
+      "platformBusinessLicenseVerified",
+      "namedDirectEmployer",
+      "specificShenzhenWorkAddress"
+    ],
+    "reviewNotes": "智联具体岗位详情页显示2026年7月8日更新，采集时距更新仅11天，仍提供立即投递和沟通入口；页面明确展示固定月薪28-55K并另列14薪、深圳龙华区具体办公地点、硕士和5-10年经验要求，以及完整的半导体设备系统研发职责。发布主体和最终雇主均为平台已审核的上市公司深圳中科飞测科技股份有限公司，招聘方前一日仍活跃，不是匿名客户或中介代招。未发现收费培训、提成冒充固定月薪、年薪误读、岗位失效或地点矛盾。"
+  }
+}

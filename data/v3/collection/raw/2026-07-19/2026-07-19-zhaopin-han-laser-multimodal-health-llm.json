@@ -1,0 +1,39 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-19T18:10:54+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC000341550J40791688805.htm",
+  "job": {
+    "sourceJobId": "CC000341550J40791688805",
+    "title": "多模态大模型算法工程师（健康领域）",
+    "company": "大族激光科技产业集团股份有限公司",
+    "salaryText": "30-60K",
+    "district": "宝安区",
+    "addressText": "深圳宝安区大族激光",
+    "industry": "专用设备制造、工业自动化",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "负责面向健康领域的多模态大模型研发，融合语音、文本和生理信号等数据，开展数据预处理、预训练、监督微调及强化学习优化；研究跨模态表示对齐、检索增强生成和健康场景知识注入，推进模型在具体健康应用中的部署与效果迭代。要求具备深度学习和大语言模型或视觉语言模型训练经验，熟悉RAG、Python及主流训练框架，能够独立完成数据处理、模型训练、评测和工程落地。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": null,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "activeRecruiterWithinThreeDays",
+      "activeApplyEntry",
+      "platformBusinessLicenseVerified",
+      "namedDirectEmployer",
+      "specificShenzhenWorkAddress",
+      "searchIndexCrawledWithinOneDay",
+      "missingPublicationDate"
+    ],
+    "reviewNotes": "智联独立岗位详情页在采集时仍可公开访问并提供立即投递入口，明确展示深圳宝安区具体工作地点、固定月薪30-60K、本科、3-5年经验以及完整的多模态健康大模型职责与要求；发布主体和最终雇主均为平台已审核的上市公司大族激光科技产业集团股份有限公司，不是匿名客户或中介代招。详情页未展示可可靠抄录的发布日期，因此保留missingPublicationDate信号；搜索索引于采集前一日仍抓取该具体岗位，且招聘方近三日活跃、投递与沟通入口有效，共同作为在招证据。未发现收费、付费培训、押金、提成冒充固定月薪、年薪误读或地点矛盾。"
+  }
+}
