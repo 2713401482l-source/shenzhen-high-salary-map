@@ -1,0 +1,37 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-19T19:30:17+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC141184140J40779945216.htm",
+  "job": {
+    "sourceJobId": "CC141184140J40779945216",
+    "title": "控制算法工程师（深圳）(A52982)",
+    "company": "啄木鸟医疗",
+    "salaryText": "20-35K",
+    "district": "南山区",
+    "addressText": "深圳市南山区深圳湾科技生态园12栋-A座A4006",
+    "industry": "医疗设备/器械/耗材",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "负责电机驱动算法建模、仿真和验证平台搭建，优化FOC无感算法并开展电机驱动算法创新。要求本科及以上学历和三年以上经验，精通Clark/Park变换、id/iq解耦、SMO及三环PID优化，掌握电机参数离线/在线辨识、磁链混合观测、MPC、DOB、EKF等方法，具备PID优化、抗干扰、故障保护以及算法从仿真到STM32、TI DSP或FPGA硬件移植的全流程经验。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": null,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "activeRecruiterContactEntry",
+      "platformBusinessLicenseVerified",
+      "namedDirectEmployer",
+      "specificShenzhenWorkAddress",
+      "activeEmployerJobsPage"
+    ],
+    "reviewNotes": "智联独立详情页显示固定月薪2-3.5万元、深圳南山区深圳湾科技生态园具体地址、完整职责和任职要求；发布主体与最终雇主均为啄木鸟医疗，平台显示企业已审核、仍有24个在招职位且人力资源专员立即沟通入口可用。页面未展示可靠发布日期，因此以详情页、企业在招职位入口和招聘者沟通入口作为当前可投递证据。未发现匿名客户、代招、收费培训、提成冒充固定月薪、年薪误读或地点矛盾。"
+  }
+}

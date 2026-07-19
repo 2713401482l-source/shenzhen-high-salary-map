@@ -1,0 +1,38 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-19T19:30:17+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC192921310J40823521909.htm",
+  "job": {
+    "sourceJobId": "CC192921310J40823521909",
+    "title": "无人机导航算法工程师",
+    "company": "京东集团",
+    "salaryText": "30-60K·16薪",
+    "district": "南山区",
+    "addressText": "深圳南山区豪威大厦",
+    "industry": "综合商贸、互联网电商",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "负责经典惯性/卫星组合导航算法在多旋翼及复合翼机型上的优化，研发IMU、GPS、视觉和LiDAR多传感器融合导航算法，解决GPS拒止环境自主定位问题，并将算法集成至无人机飞控系统，完成ARM/FPGA性能优化、实机测试与验证。要求导航制导、自动化、计算机或航空航天相关本科及以上学历，精通卡尔曼滤波、因子图优化、SLAM及ROS/ROS2，熟练使用C++/Python，具备MEMS-IMU、嵌入式优化、多旋翼导航、RTK或UWB经验。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": null,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "activeRecruiterContactEntry",
+      "recruiterActiveWithinThreeDays",
+      "platformBusinessLicenseVerified",
+      "namedDirectEmployer",
+      "specificShenzhenWorkAddress",
+      "activeEmployerJobsPage"
+    ],
+    "reviewNotes": "智联独立详情页显示固定月薪3-6万元并标注16薪、深圳南山区豪威大厦具体地址、完整职责和任职要求；发布主体与最终雇主均为京东集团，平台显示企业已审核、招聘者三日内活跃且立即沟通入口可用。页面未展示可靠发布日期，因此以详情页、企业在招职位入口和活跃招聘者沟通入口作为当前可投递证据。未发现匿名客户、代招、收费培训、提成冒充固定月薪、年薪误读或地点矛盾。"
+  }
+}

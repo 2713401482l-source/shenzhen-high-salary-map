@@ -1,0 +1,37 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-19T19:30:17+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC135947830J40817638811.htm",
+  "job": {
+    "sourceJobId": "CC135947830J40817638811",
+    "title": "路径规划算法工程师",
+    "company": "欣旺达电子",
+    "salaryText": "20-40K",
+    "district": "光明区",
+    "addressText": "深圳光明区泰嘉乐",
+    "industry": "动力电池、新能源、电气机械/电力设备",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "参与导航算法需求分析和技术选型，研究并解决导航算法关键问题、实现相关代码，开展算法性能测试、结果评估及持续优化。要求计算机、通信、数学等相关专业本科及以上学历，了解导航算法并愿意从事该方向开发，熟悉一种或多种编程语言，具备良好的逻辑分析、团队合作和沟通能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": null,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "activeRecruiterContactEntry",
+      "platformBusinessLicenseVerified",
+      "namedDirectEmployer",
+      "specificShenzhenWorkAddress",
+      "activeEmployerJobsPage"
+    ],
+    "reviewNotes": "智联独立详情页显示固定月薪2-4万元、深圳光明区泰嘉乐具体地址、完整职责和任职要求；发布主体与最终雇主均为欣旺达电子，平台显示营业执照已审核、企业仍有在招职位且招聘专员立即沟通入口可用。页面未展示可靠发布日期，因此以详情页、企业在招职位入口和招聘者沟通入口作为当前可投递证据。未发现匿名客户、代招、收费培训、提成冒充固定月薪、年薪误读或地点矛盾。"
+  }
+}
