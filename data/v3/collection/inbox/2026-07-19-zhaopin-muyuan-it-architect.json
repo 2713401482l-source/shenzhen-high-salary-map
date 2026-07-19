@@ -1,0 +1,39 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-19T11:21:00+08:00",
+  "publishedAt": "2026-07-09",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC495147320J40847913011.htm",
+  "job": {
+    "sourceJobId": "CC495147320J40847913011",
+    "title": "IT架构师",
+    "company": "牧原食品集团股份有限公司",
+    "salaryText": "50-60K",
+    "district": "南山区",
+    "addressText": "深圳南山区牧原数字技术有限公司",
+    "industry": "软件/IT服务、产业互联网平台",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责核心业务系统、业务中台、数据平台和AI算法平台的整体技术架构设计及中长期演进规划，主导领域建模、服务拆分、关键技术选型、技术治理、稳定性与安全保障，并推动架构规范、编码规范和接口标准落地。要求本科及以上学历，具备八年以上软件研发及三年以上架构或技术负责人经验，精通至少一门主流后端语言，熟悉分布式系统、微服务、领域驱动设计、数据库、缓存、消息队列、性能优化和容量评估，能够协调产品、业务、数据、AI、运维及安全团队。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "directDetailPageVisible",
+      "publishedWithin45Days",
+      "exactMonthlySalaryVisible",
+      "shenzhenAddressVisible",
+      "completeRequirementsVisible",
+      "directApplyVisible",
+      "employerVerifiedByPlatform"
+    ],
+    "reviewNotes": "智联公开具体岗位页在采集时显示7月9日更新、立即投递、固定月薪50-60K、深圳南山区具体工作地点及完整职责要求；发布主体为经平台审核的上市公司牧原食品集团股份有限公司，未发现收费培训、提成薪资、匿名客户或岗位失效信号。"
+  }
+}
