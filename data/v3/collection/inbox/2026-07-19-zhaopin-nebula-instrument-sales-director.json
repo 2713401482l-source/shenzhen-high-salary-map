@@ -1,0 +1,39 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-19T10:40:12+08:00",
+  "publishedAt": "2026-07-16",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC333080310J40932143008.htm",
+  "job": {
+    "sourceJobId": "CC333080310J40932143008",
+    "title": "专案销售总监（仪器仪表方向）",
+    "company": "福建星云电子股份有限公司",
+    "salaryText": "20-40K",
+    "district": "南山区",
+    "addressText": "深圳南山区深圳湾科技生态园10栋520D",
+    "industry": "仪器仪表、半导体/芯片、新能源",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "负责电源、安规、内阻仪等产品的市场开拓与销售，开发电子、锂电、新能源、3C、工控及科研院校客户，提供方案、报价、技术支持并跟进订单、验收和回款，同时分析市场与销售数据。要求理工科本科及以上学历，具有五年以上电学、射频、电源储能等仪器仪表销售管理经验，具备技术型销售、商务谈判、大客户开拓、产品讲解和方案撰写能力，并能接受全国出差。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "directDetailPageVisible",
+      "publishedWithin45Days",
+      "exactMonthlySalaryVisible",
+      "shenzhenAddressVisible",
+      "completeRequirementsVisible",
+      "directApplyVisible",
+      "employerVerifiedByPlatform"
+    ],
+    "reviewNotes": "智联公开具体岗位页显示2026年7月16日更新、深圳南山区具体地址、固定月薪20-40K及完整职责要求。发布企业福建星云电子股份有限公司为已上市且平台审核企业，主体明确、非匿名客户、非人力资源代招；薪资栏给出固定月薪区间，页面未以提成替代固定月薪，也未发现收费、培训付费、失效或地点矛盾。"
+  }
+}

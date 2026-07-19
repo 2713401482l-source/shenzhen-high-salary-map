@@ -1,0 +1,40 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-19T10:40:12+08:00",
+  "publishedAt": "2026-07-15",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC253220110J41022402504.htm",
+  "job": {
+    "sourceJobId": "CC253220110J41022402504",
+    "title": "EMS架构师",
+    "company": "金冠电气股份有限公司",
+    "salaryText": "20-40K",
+    "district": "南山区",
+    "addressText": "深圳南山区深圳湾科技生态园12栋裙楼A5-706",
+    "industry": "电气机械/电力设备、电力/水利/热力/燃气、云计算",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责站端及光伏、风电场站和集控中心EMS软件整体架构，从边缘网关到云端应用完成高并发、高可用和时序数据设计，制定技术选型、模块接口、通信协议、控制策略、测试方案及技术规范，并带领跨团队落地。要求相关专业硕士及以上学历，具有八年以上EMS或电力自动化软件开发及五年以上站端EMS设计经验，熟悉C/C++、Java或Python、Linux、多线程、数据库、Modbus、IEC104、MQTT、IEC61850及储能并网标准。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "directDetailPageVisible",
+      "publishedWithin45Days",
+      "exactMonthlySalaryVisible",
+      "shenzhenAddressVisible",
+      "completeRequirementsVisible",
+      "directApplyVisible",
+      "businessRegistrationVisible",
+      "employerVerifiedByPlatform"
+    ],
+    "reviewNotes": "智联公开具体岗位页显示2026年7月15日更新、深圳南山区具体办公地址、固定月薪20-40K、完整职责和要求，并保留立即投递入口。发布企业金冠电气股份有限公司为科创板上市公司，平台审核且工商状态存续，企业与岗位业务方向一致；未发现匿名客户、收费、付费培训、年薪误读、失效或地点矛盾。"
+  }
+}

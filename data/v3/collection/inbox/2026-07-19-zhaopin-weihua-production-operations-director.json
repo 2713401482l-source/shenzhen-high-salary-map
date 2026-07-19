@@ -1,0 +1,39 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-19T10:40:12+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC638318720J40873089814.htm",
+  "job": {
+    "sourceJobId": "CC638318720J40873089814",
+    "title": "生产运营总监",
+    "company": "深圳市纬华机械有限公司",
+    "salaryText": "25-35K",
+    "district": "龙华区",
+    "addressText": "深圳龙华区日海智能科技股份有限公司观澜基地",
+    "industry": "专用设备制造、电气机械/电力设备、工业自动化/机器人",
+    "experience": "10年以上",
+    "education": "本科",
+    "descriptionText": "作为运营体系第一负责人，统筹生产、品质、计划、采购和仓储，搭建生产计划、物料、质量与物流标准流程，推进ERP/MES、订单排程、产能规划、ISO9001、供应商质量、成本和库存管理，并建设30至50人团队及跨部门协同机制。要求本科及以上学历，机械制造、工业工程、自动化或机电相关专业，具备八年以上制造业及三年以上生产或运营负责人经验，熟悉机械加工、精益生产、质量体系、ERP/MES和多品种小批量研发型制造。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "directDetailPageVisible",
+      "pageActiveAtCapture",
+      "exactMonthlySalaryVisible",
+      "shenzhenAddressVisible",
+      "completeRequirementsVisible",
+      "directApplyVisible",
+      "businessRegistrationVisible",
+      "employerVerifiedByPlatform"
+    ],
+    "reviewNotes": "智联公开具体岗位页在采集时仍可见，搜索索引显示近期抓取并保留立即投递入口；页面明确深圳龙华区、固定月薪25-35K、完整职责和任职要求。发布企业深圳市纬华机械有限公司名称明确、经平台审核且工商主体存续，不是匿名客户或人力资源代招；未发现收费、培训付费、提成冒充月薪、年薪误读或岗位失效提示。"
+  }
+}

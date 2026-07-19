@@ -1,0 +1,39 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-19T10:40:12+08:00",
+  "publishedAt": "2026-07-19",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC325431920J40863305807.htm",
+  "job": {
+    "sourceJobId": "CC325431920J40863305807",
+    "title": "存储芯片技术型高管",
+    "company": "南山集团有限公司",
+    "salaryText": "50-100K",
+    "district": "南山区",
+    "addressText": "深圳南山区深圳南山假日酒店",
+    "industry": "半导体/芯片、通用设备制造",
+    "experience": "10年以上",
+    "education": "本科",
+    "descriptionText": "主导存储芯片硬件开发团队的技术规划、架构设计、开发流程和质量规范，负责项目从需求分析、方案评审、进度与风险管理，到原理图设计、PCB Layout、原型验证和量产导入的完整生命周期，并推动算法、测试和生产团队协作。要求本科及以上学历，电子工程、微电子或计算机相关专业，具备存储芯片或半导体硬件开发经验，熟悉DRAM、NAND Flash设计流程，精通Altium Designer、Cadence、PCB Layout、EMC/EMI和硬件测试，具有团队管理及复杂技术问题解决能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "directDetailPageVisible",
+      "publishedWithin45Days",
+      "exactMonthlySalaryVisible",
+      "shenzhenAddressVisible",
+      "completeRequirementsVisible",
+      "directApplyVisible",
+      "employerVerifiedByPlatform"
+    ],
+    "reviewNotes": "智联公开具体岗位页显示2026年7月19日更新、深圳南山区具体地址、固定月薪50-100K、完整职责与要求，并保留立即投递入口。发布企业南山集团名称明确且经平台审核，不是匿名客户或人力资源代招；未发现收费、付费培训、提成冒充固定月薪、年薪误读、失效或地点矛盾。"
+  }
+}

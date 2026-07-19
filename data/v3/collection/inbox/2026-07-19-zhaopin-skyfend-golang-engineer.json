@@ -1,0 +1,40 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-19T10:40:12+08:00",
+  "publishedAt": "2026-07-15",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1474860650J40787674112.htm",
+  "job": {
+    "sourceJobId": "CCL1474860650J40787674112",
+    "title": "Golang",
+    "company": "深圳市塞防科技有限公司",
+    "salaryText": "20-40K·15薪",
+    "district": "南山区",
+    "addressText": "深圳南山区南山智园B1栋4楼",
+    "industry": "物联网、船舶/航空/航天/军工、人工智能、智能硬件",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "负责云端反无人机系统核心模块开发、性能调优、服务器关键流程设计和疑难问题处理，并保障产品演示和送样问题快速响应。要求计算机相关专业本科及以上学历，精通Golang协程、channel和锁，熟悉微服务、高并发、高可用与分布式系统，掌握Web后端、RESTful API、TCP、UDP、HTTP、RPC、缓存、消息队列和数据库技术，具备算法基础、独立开发与团队协作能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "directDetailPageVisible",
+      "publishedWithin45Days",
+      "exactMonthlySalaryVisible",
+      "shenzhenAddressVisible",
+      "completeRequirementsVisible",
+      "directApplyVisible",
+      "businessRegistrationVisible",
+      "employerVerifiedByPlatform"
+    ],
+    "reviewNotes": "智联公开具体岗位页显示2026年7月15日更新、深圳南山区南山智园具体地址、固定月薪20-40K并另列15薪、完整职责要求和立即投递入口。发布企业深圳市塞防科技有限公司名称明确、平台审核且工商状态存续，反无人机云端开发职责与企业业务一致；未发现匿名客户、收费、付费培训、年薪误读或失效。"
+  }
+}
