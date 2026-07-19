@@ -1,0 +1,37 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-19T18:40:54+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1499821240J40868667113.htm",
+  "job": {
+    "sourceJobId": "CCL1499821240J40868667113",
+    "title": "高级硬件工程师",
+    "company": "镞之迹(西安)科技有限公司",
+    "salaryText": "45-55K·14薪",
+    "district": "南山区",
+    "addressText": "深圳市南山区深圳市高新技术产业园区100",
+    "industry": "人工智能",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责多线激光雷达模组硬件总体方案与架构设计，覆盖激光驱动、SPAD/SiPM接收前端、TDC/ADC、主控MCU/SoC、电源与接口；负责高压偏置、电流检测、GaN/MOS驱动和保护电路设计调试，承担原理图、PCB、SI/PI、EMI/EMC及热设计优化，搭建板级调试与量产测试平台，并支持样机、量产和现场问题闭环。要求电子、通信、自动化或微电子相关本科及以上学历，五年以上硬件开发且至少三年激光雷达、激光测距或高速测量系统经验，精通模拟与数字电路、Altium或Cadence、高速多层PCB及高压高速脉冲电路。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": null,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": [
+      "activeRecruiterContactEntry",
+      "platformBusinessLicenseVerified",
+      "namedDirectEmployer",
+      "specificShenzhenWorkAddress",
+      "activeEmployerJobsPage"
+    ],
+    "reviewNotes": "智联独立详情页显示固定月薪4.5-5.5万元并标注14薪、深圳南山区具体工作地址、完整岗位职责和任职要求；发布主体与最终雇主均为镞之迹(西安)科技有限公司，平台显示营业执照已审核、工商主体存续且招聘者沟通入口可用。页面未展示可可靠归属到当前年份的发布日期，因此记录missingPublicationDate复核信号；采集时详情页、企业在招职位入口和招聘者沟通入口均可用，满足未知发布日期必须保持页面活跃的要求。未发现匿名客户、代招、收费培训、提成冒充固定月薪或地点矛盾。"
+  }
+}
