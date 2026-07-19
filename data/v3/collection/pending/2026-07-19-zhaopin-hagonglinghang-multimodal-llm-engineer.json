@@ -1,0 +1,32 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-19T13:32:16+08:00",
+  "publishedAt": "2026-07-14",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1497261970J40895052413.htm",
+  "job": {
+    "sourceJobId": "CCL1497261970J40895052413",
+    "title": "大模型 & 多模态算法工程师",
+    "company": "黑龙江哈工领航智能装备有限公司",
+    "salaryText": "35-50K",
+    "district": "罗湖区",
+    "addressText": "深圳罗湖区华润大厦",
+    "industry": "工业自动化/机器人/人工智能",
+    "experience": "5-10年",
+    "education": "硕士",
+    "descriptionText": "面向室内巡检机器人研发多模态大模型，融合图像、红外、温湿度、表计读数和语音等多源数据，实现缺陷识别、异常告警与场景理解；负责领域数据集、SFT、RLHF、知识图谱、RAG、端侧模型蒸馏量化及机器人Agent任务调度。要求硕士及以上学历，具备大模型或多模态算法落地经验，精通Python、PyTorch或TensorFlow，熟悉Transformer、主流开源模型、OpenCV、TensorRT及嵌入式部署。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": null,
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["recentPublicationDate", "activeApplyEntry", "platformBusinessLicenseVerified", "activeRecruiter"],
+    "reviewNotes": "智联独立岗位详情页显示7月14日更新、固定月薪3.5-5万元并标注14薪、深圳罗湖区华润大厦工作地点、完整职责要求及立即投递入口；招聘者采集时显示今日活跃。发布企业主体经平台营业执照审核并显示存续，岗位描述与其工业自动化、机器人业务一致；未发现匿名客户、代理代招、收费培训、提成冒充固定月薪或地点矛盾。"
+  }
+}

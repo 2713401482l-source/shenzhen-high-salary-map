@@ -1,0 +1,32 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-19T13:32:16+08:00",
+  "publishedAt": "2026-07-06",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC495147320J40849398211.htm",
+  "job": {
+    "sourceJobId": "CC495147320J40849398211",
+    "title": "高级算法工程师（大模型方向）",
+    "company": "牧原食品集团股份有限公司",
+    "salaryText": "50-100K",
+    "district": "南山区",
+    "addressText": "深圳南山区牧原数字技术有限公司",
+    "industry": "畜牧业/数字技术",
+    "experience": "5-10年",
+    "education": "本科",
+    "descriptionText": "负责集团行业大模型建设与落地，主导业务需求分析、技术架构和发展路线，建设数据采集、清洗、标注及行业知识库体系，并负责大模型训练、SFT微调、RLHF或DPO对齐、性能评估及业务应用集成。要求计算机、人工智能或数学相关专业，具有5年以上机器学习或深度学习研发经验和至少2年大模型项目经验，精通Python、PyTorch或TensorFlow，理解预训练、微调、对齐与推理优化全链路。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "employerOfficialUrl": "https://www.muyuanfoods.com/",
+    "corroboratingUrls": [],
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "signals": ["recentPublicationDate", "activeApplyEntry", "platformBusinessLicenseVerified"],
+    "reviewNotes": "智联独立岗位详情页显示7月6日更新、固定月薪5-10万元、深圳南山区牧原数字技术有限公司工作地点、完整职责要求及立即投递入口。发布主体为经平台审核的牧原食品集团股份有限公司，页面列有存续工商信息和大量在招职位；岗位地点明确为集团数字技术公司，不属于匿名客户或中介代招，未发现收费培训、提成冒充固定月薪或年薪误读。"
+  }
+}
