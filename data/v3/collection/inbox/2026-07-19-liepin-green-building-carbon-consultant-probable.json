@@ -1,0 +1,37 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "liepin",
+  "sourcePublisher": "猎聘",
+  "captureMethod": "search-index-discovery",
+  "capturedAt": "2026-07-19T10:50:13+08:00",
+  "publishedAt": "2026-07-14",
+  "sourceUrl": "https://www.liepin.com/job/1975075895.shtml",
+  "job": {
+    "sourceJobId": "1975075895",
+    "title": "双碳/节能/能源咨询师",
+    "company": "深圳市绿创人居环境促进中心",
+    "salaryText": "20-40K",
+    "district": "福田区",
+    "addressText": "深圳福田区振华路中电迪富大厦10楼整层",
+    "industry": "专业技术服务",
+    "experience": "1-3年",
+    "education": "博士",
+    "descriptionText": "负责双碳、节能与能源咨询项目的技术研究、方案编制和项目交付，开展政策与行业分析、能源数据处理、节能诊断及碳排放核算，并配合客户沟通和成果汇报；要求能源、环境、建筑等相关专业博士学历，具备双碳、节能或能源咨询经验以及研究、写作和项目执行能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": false,
+    "searchResultFreshAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "indexedWithin30Days",
+      "namedEmployerInSearchIndex",
+      "exactMonthlySalaryInSearchIndex",
+      "shenzhenLocationInSearchIndex",
+      "substantiveRequirementsInSearchIndex"
+    ]
+  }
+}

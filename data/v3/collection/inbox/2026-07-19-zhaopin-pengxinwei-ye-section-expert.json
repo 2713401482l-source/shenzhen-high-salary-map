@@ -1,0 +1,30 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-19T11:10:13+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CCL1349129290J40818718109.htm",
+  "job": {
+    "sourceJobId": "CCL1349129290J40818718109",
+    "title": "YE科专家",
+    "company": "深圳市鹏芯微集成电路制造有限公司",
+    "salaryText": "50-70K·15薪",
+    "district": "龙岗区",
+    "addressText": "深圳市龙岗区鹏芯微集成电路制造有限公司西门",
+    "industry": "半导体/芯片",
+    "experience": "10年以上",
+    "education": "本科",
+    "descriptionText": "负责建立和优化缺陷检测程式与抽样检测率，建设工艺缺陷表征技术、缺陷数据库及数据分析能力，及时发现产品异常；设计降低缺陷的工程实验并配合技术研发解决系统性问题，跟踪工艺部门对缺陷事件的处置，分析重要工序缺陷并制定标准，同时监督工艺变更影响、使用量测机台并指导标准作业流程编写。要求本科及以上理工科背景，深入了解工艺流程与缺陷，具有十年以上相关经验，并具备良好书面口头表达、敬业务实和团队合作能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [],
+    "reviewNotes": "智联公开具体岗位详情页可直接打开，显示深圳龙岗区固定工作地址、固定月薪50-70K·15薪、完整职责与要求、已审核企业及立即投递入口。顶部更新时间缺少年份，因此未推断publishedAt，新鲜度依据当前可投递状态。"
+  }
+}
