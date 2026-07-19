@@ -1,0 +1,34 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-19T19:00:55+08:00",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC526342880J40745991706.htm",
+  "job": {
+    "sourceJobId": "CC526342880J40745991706",
+    "title": "多模态算法工程师",
+    "company": "光启技术股份有限公司",
+    "salaryText": "26-40K",
+    "district": "南山区",
+    "addressText": "深圳市南山区科技园高新中一道9号",
+    "industry": "船舶/航空/航天/军工、人工智能",
+    "experience": "1-3年",
+    "education": "硕士",
+    "descriptionText": "负责目标检测与跟踪等计算机视觉算法研发，推动多模态大模型在视觉语言理解、决策规划和机器人业务场景中的优化与落地，并探索具身智能前沿技术。要求计算机、人工智能、统计、数据科学或控制工程相关专业硕士及以上学历，精通Python或C++，熟悉PyTorch、TensorFlow、FastAPI、Flask和Docker，掌握目标检测、跟踪、模型训练部署、推理加速以及BLIP2、Llava、QwenVL、MiniCPM、VIT、DINO、SAM、GAN、Diffusion等模型与算法。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "智联独立详情页采集时仍可投递，实名上市企业有53个在招职位",
+      "页面明确深圳南山区具体地址、固定月薪26-40K和完整职责要求",
+      "工商主体、上市状态及超材料和人工智能业务与岗位方向一致"
+    ],
+    "reviewNotes": "发布企业与最终雇主均为光启技术股份有限公司，不是匿名客户或代招。页面未显示发布日期，因此以当前投递入口、53个在招职位和平台已审核企业资质作为活跃证据，不虚构发布日期。岗位固定月薪26-40K，未发现收费、押金、付费培训、提成冒充月薪、年薪误读、地点矛盾、职责错配或虚假招聘信号。"
+  }
+}
