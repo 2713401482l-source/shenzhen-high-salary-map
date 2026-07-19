@@ -1,0 +1,35 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-19T11:52:14+08:00",
+  "publishedAt": "2026-07-17",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC133904260J40727403516.htm",
+  "job": {
+    "sourceJobId": "CC133904260J40727403516",
+    "title": "具身AI数据工程师(J13151)",
+    "company": "深圳市广和通无线股份有限公司",
+    "salaryText": "25-40K",
+    "district": "南山区",
+    "addressText": "深圳市南山区",
+    "industry": "通信设备/物联网",
+    "experience": "3-5年",
+    "education": "本科",
+    "descriptionText": "负责具身智能多模态数据体系建设，包括机器人视觉、语言、动作及传感器数据的采集、清洗、标注、版本管理和质量评估；建设自动化数据处理与评测工具链，支持模型训练、仿真及真机数据闭环。要求本科及以上学历，具备数据工程或机器人相关经验，熟悉Python、Linux、数据库及常用数据处理框架，理解机器学习数据质量和隐私合规要求，具有跨团队协作及问题定位能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "智联独立岗位详情页在采集前2日仍被检索且页面未显示失效或停止招聘",
+      "页面明确深圳南山区、固定月薪25-40K、具名上市公司和完整岗位要求",
+      "公司主体、岗位职责与通信物联网及具身智能数据方向一致"
+    ],
+    "reviewNotes": "发布企业与最终雇主均为深圳市广和通无线股份有限公司，不是匿名客户或代招；固定月薪、深圳地点、完整要求和45天内新鲜度证据齐全。未发现收费培训、提成冒充月薪、年薪误读、虚假招聘或重复岗位信号。"
+  }
+}

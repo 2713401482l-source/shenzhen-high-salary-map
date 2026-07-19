@@ -1,0 +1,35 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-19T11:52:14+08:00",
+  "publishedAt": "2026-07-08",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC120605020J40862468213.htm",
+  "job": {
+    "sourceJobId": "CC120605020J40862468213",
+    "title": "传感器算法专家",
+    "company": "深圳市特发信息股份有限公司",
+    "salaryText": "45-60K",
+    "district": "南山区",
+    "addressText": "深圳市南山区",
+    "industry": "通信设备/光纤传感",
+    "experience": "5-10年",
+    "education": "硕士",
+    "descriptionText": "负责光纤传感算法、信号处理和系统性能优化，承担关键算法方案设计、建模仿真、工程实现与测试验证，解决弱信号检测、噪声抑制、定位识别及复杂场景适配问题，并推动算法产品化。要求硕士及以上学历，具备传感器、信号处理、通信、光学或相关专业背景，熟悉数字信号处理、模式识别和常用算法开发工具，具有相关项目落地经验、技术攻关和团队协作能力。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "智联独立岗位详情页显示2026-07-08更新且采集时仍可立即投递",
+      "页面明确深圳南山区、固定月薪45-60K、具名上市公司和完整岗位要求",
+      "岗位职责与特发信息通信及光纤传感业务方向一致"
+    ],
+    "reviewNotes": "发布企业与最终雇主均为深圳市特发信息股份有限公司，不是匿名客户或代招；固定月薪、深圳地点、完整要求和11天新鲜度证据齐全。未发现收费培训、提成冒充月薪、年薪误读、虚假招聘或重复岗位信号。"
+  }
+}

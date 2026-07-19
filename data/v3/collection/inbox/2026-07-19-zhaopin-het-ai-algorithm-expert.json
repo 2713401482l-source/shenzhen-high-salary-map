@@ -1,0 +1,35 @@
+{
+  "format": "v3-multi-source-job",
+  "version": 1,
+  "sourcePlatform": "zhaopin",
+  "sourcePublisher": "智联招聘",
+  "captureMethod": "manual-public-detail",
+  "capturedAt": "2026-07-19T11:52:14+08:00",
+  "publishedAt": "2026-06-25",
+  "sourceUrl": "https://www.zhaopin.com/jobdetail/CC120064600J40826698216.htm",
+  "job": {
+    "sourceJobId": "CC120064600J40826698216",
+    "title": "算法专家",
+    "company": "深圳和而泰智能控制股份有限公司",
+    "salaryText": "35-60K·14薪",
+    "district": "光明区",
+    "addressText": "深圳市光明区",
+    "industry": "智能控制器/人工智能",
+    "experience": "5-10年",
+    "education": "硕士",
+    "descriptionText": "负责人工智能核心算法规划、研发和落地，围绕时序数据、机器学习、深度学习及智能硬件场景开展模型设计、训练优化、部署和性能评估，推动算法平台及产品能力建设，并负责关键技术攻关和团队指导。要求硕士及以上学历，具备扎实的数学、机器学习和深度学习基础，熟练使用Python及主流框架，具有算法工程化、模型部署和实际业务落地经验，能够独立解决复杂问题。"
+  },
+  "verification": {
+    "pageActiveAtCapture": true,
+    "employerNamed": true,
+    "staffingAgencyPosting": false,
+    "endEmployerNamed": true,
+    "corroboratingUrls": [],
+    "signals": [
+      "智联独立岗位详情页显示2026-06-25更新且采集时仍可立即投递",
+      "招聘负责人采集当时在线，岗位仍处于公开招聘状态",
+      "页面明确深圳光明区、固定月薪35-60K及14薪、具名上市公司和完整岗位要求"
+    ],
+    "reviewNotes": "发布企业与最终雇主均为深圳和而泰智能控制股份有限公司，不是匿名客户或代招；固定月薪、深圳地点、完整要求和24天新鲜度证据齐全。未发现收费培训、提成冒充月薪、年薪误读、虚假招聘或重复岗位信号。"
+  }
+}
